@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --c-bg: #140e0a;
+  --c-surface: #241810;
+  --c-raised: #31261c;
+  --c-fg: #f4ead7;
+  --c-muted: #a89880;
+  --c-gold: #c6a15a;
+  --c-line: #4a3b2c;
+  color-scheme: dark;
+}
+
+html.light {
+  --c-bg: #f3e6cf;
+  --c-surface: #e7d3ae;
+  --c-raised: #f7edd9;
+  --c-fg: #2a2118;
+  --c-muted: #6e5c48;
+  --c-gold: #8a6432;
+  --c-line: #cbb892;
+  color-scheme: light;
+}
+
+html[data-scale="sm"] { font-size: 16px; }
+html[data-scale="md"] { font-size: 18px; }
+html[data-scale="lg"] { font-size: 20px; }
+html[data-scale="xl"] { font-size: 22px; }
+
+@theme inline {
+  --font-sans: "Cormorant Garamond", Palatino, "Palatino Linotype", serif;
+  --font-hebrew: "Frank Ruhl Libre", "Times New Roman", serif;
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-raised: var(--c-raised);
+  --color-fg: var(--c-fg);
+  --color-muted: var(--c-muted);
+  --color-gold: var(--c-gold);
+  --color-line: var(--c-line);
+}
+
+@layer base {
+  html {
+    background: var(--c-bg);
+    color: var(--c-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body { min-height: 100%; }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) { cursor: pointer; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 2px solid var(--c-gold);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--c-gold) 40%, transparent);
+  }
+}
+
+.he {
+  font-family: var(--font-hebrew);
+  font-size: 1.45em;
+  line-height: 1.8;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes drift {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+.splash-photo { animation: drift 7s ease-out both; }
+.splash-seal {
+  animation: rise 0.9s ease both;
+  display: grid;
+  width: 8rem;
+  height: 8rem;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold);
+  box-shadow: inset 0 0 0 0.4rem color-mix(in srgb, var(--c-gold) 35%, transparent);
+}
+.splash-title { animation: rise 0.9s ease 0.28s both; }
+.splash-slogan { animation: rise 0.9s ease 0.72s both; }
+.splash-cta { animation: rise 0.9s ease 1.15s both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .splash-photo,
+  .splash-seal,
+  .splash-title,
+  .splash-slogan,
+  .splash-cta { animation: none; }
+}
