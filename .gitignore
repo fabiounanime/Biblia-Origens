@@ -8,4 +8,4 @@ dist
 .env
 .env.*
 .project_id
-.node_modules.lock
+.wrangler
