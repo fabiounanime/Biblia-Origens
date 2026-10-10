@@ -1,5 +1,5 @@
-import { useState, type FormEvent } from "react";
-import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-router";
+import { useEffect, useState, type FormEvent } from "react";
+import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
 import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 
@@ -28,6 +28,12 @@ function LoginPage() {
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
 
+  // Já autenticado: vai direto ao menu.
+  useEffect(() => {
+    if (isPending || !user) return;
+    void navigate({ to: "/inicio" });
+  }, [isPending, user, navigate]);
+
   async function onSubmit(event: FormEvent) {
     event.preventDefault();
     setError(null);
@@ -45,27 +51,31 @@ function LoginPage() {
     await navigate({ to: "/inicio" });
   }
 
+  if (isPending) {
+    return (
+      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
+        <div className="h-40 animate-pulse rounded-3xl bg-surface" />
+      </main>
+    );
+  }
+
+  if (user) {
+    return (
+      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
+        <p className="text-muted">Abrindo o app…</p>
+      </main>
+    );
+  }
+
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
-      <Link to="/inicio" className="text-sm text-muted">
-        Voltar ao menu
-      </Link>
-      <p className="mt-8 text-xs uppercase tracking-widest text-gold">Conta</p>
+      <p className="text-xs uppercase tracking-widest text-gold">Conta</p>
       <h1 className="mt-2 text-4xl">{mode === "criar" ? "Criar conta" : "Entrar"}</h1>
-      <p className="mt-3 text-muted">A leitura fica aberta. A conta guarda notas, marcas e o ponto de leitura nos seus aparelhos.</p>
+      <p className="mt-3 text-muted">
+        Para usar a Bíblia Origens, entre com Google ou com e-mail e senha. Sem conta, o app não abre.
+      </p>
 
-      {isPending ? <div className="mt-8 h-40 animate-pulse rounded-3xl bg-surface" /> : null}
-
-      {!isPending && user ? (
-        <p className="mt-8 text-lg">
-          Você já está na conta.{" "}
-          <Link to="/conta" className="text-gold">
-            Abrir a conta
-          </Link>
-        </p>
-      ) : null}
-
-      {!isPending && !user && authEnabled ? (
+      {authEnabled ? (
         <>
           <form onSubmit={onSubmit} className="mt-8 space-y-4">
             {mode === "criar" ? (
@@ -136,9 +146,9 @@ function LoginPage() {
             ))}
           </div>
         </>
-      ) : null}
-
-      {!isPending && !authEnabled ? <p className="mt-8 text-muted">O acesso está desligado.</p> : null}
+      ) : (
+        <p className="mt-8 text-muted">O acesso está desligado neste ambiente.</p>
+      )}
     </main>
   );
 }
