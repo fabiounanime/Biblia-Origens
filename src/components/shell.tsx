@@ -1,7 +1,8 @@
 import type { ReactNode } from "react";
-import { Link, useRouterState } from "@tanstack/react-router";
+import { Link, Navigate, useRouterState } from "@tanstack/react-router";
 import { BookOpen, CircleUser, Map, ScrollText } from "lucide-react";
 import { useEffect } from "react";
+import { SIGN_IN_PATH } from "@/lib/auth/gates";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { useStudy } from "@/lib/study/store";
 
@@ -21,6 +22,20 @@ export function Shell({ children }: { children: ReactNode }) {
     if (isPending || !userId) return;
     void useStudy.getState().sync();
   }, [isPending, userId]);
+
+  // Ainda resolvendo a sessão: não mostra o menu nem redireciona.
+  if (isPending) {
+    return (
+      <div className="grid min-h-dvh place-items-center bg-bg text-muted">
+        Abrindo a conta…
+      </div>
+    );
+  }
+
+  // Sem login real, o app não abre.
+  if (!user) {
+    return <Navigate to={SIGN_IN_PATH} />;
+  }
 
   return (
     <div className="min-h-dvh bg-bg text-fg">
