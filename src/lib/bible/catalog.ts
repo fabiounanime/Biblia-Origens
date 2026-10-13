@@ -9,11 +9,44 @@ export type Book = {
   chapters: number;
 };
 
-export const SECTIONS: { id: SectionId; title: string; subtitle: string }[] = [
-  { id: "torah", title: "Torá", subtitle: "Instrução" },
-  { id: "neviim", title: "Neviim", subtitle: "Profetas" },
-  { id: "ketuvim", title: "Ketuvim", subtitle: "Escritos" },
+export type Section = { id: SectionId; title: string; subtitle: string; nameHe: string };
+
+export const SECTIONS: Section[] = [
+  { id: "torah", title: "Torá", subtitle: "Instrução", nameHe: "תּוֹרָה" },
+  { id: "neviim", title: "Neviim", subtitle: "Profetas", nameHe: "נְבִיאִים" },
+  { id: "ketuvim", title: "Ketuvim", subtitle: "Escritos", nameHe: "כְּתוּבִים" },
 ];
+
+/**
+ * Cor de cada parte do Tanakh. Classes literais para o Tailwind encontrar.
+ * Torá = zahav (ouro), Neviim = tekhelet (azul), Ketuvim = argaman (púrpura).
+ */
+export const SECTION_TONE: Record<
+  SectionId,
+  { text: string; dot: string; soft: string; border: string; bar: string }
+> = {
+  torah: {
+    text: "text-zahav",
+    dot: "bg-zahav",
+    soft: "bg-zahav/12",
+    border: "border-zahav/35",
+    bar: "from-zahav/30",
+  },
+  neviim: {
+    text: "text-tekhelet",
+    dot: "bg-tekhelet",
+    soft: "bg-tekhelet/12",
+    border: "border-tekhelet/35",
+    bar: "from-tekhelet/30",
+  },
+  ketuvim: {
+    text: "text-argaman",
+    dot: "bg-argaman",
+    soft: "bg-argaman/12",
+    border: "border-argaman/35",
+    bar: "from-argaman/30",
+  },
+};
 
 export const BOOKS: Book[] = [
   { id: "gn", section: "torah", namePt: "Gênesis", nameHe: "בְּרֵאשִׁית", nameTranslit: "Bereshit", chapters: 50 },
@@ -61,4 +94,35 @@ export const BOOK_IDS = new Set(BOOKS.map((book) => book.id));
 
 export function bookById(id: string): Book | undefined {
   return BOOKS.find((book) => book.id === id);
+}
+
+export function sectionById(id: SectionId): Section {
+  return SECTIONS.find((section) => section.id === id) ?? SECTIONS[0]!;
+}
+
+export function isSectionId(value: unknown): value is SectionId {
+  return value === "torah" || value === "neviim" || value === "ketuvim";
+}
+
+export type ChapterRef = { book: Book; chapter: number };
+
+/** Capítulo vizinho, atravessando a fronteira entre livros na ordem do cânon. */
+export function neighborChapter(bookId: string, chapter: number, step: 1 | -1): ChapterRef | null {
+  const index = BOOKS.findIndex((book) => book.id === bookId);
+  const book = BOOKS[index];
+  if (!book) return null;
+  const target = chapter + step;
+  if (target >= 1 && target <= book.chapters) return { book, chapter: target };
+  const other = BOOKS[index + step];
+  if (!other) return null;
+  return { book: other, chapter: step === 1 ? 1 : other.chapters };
+}
+
+/** Busca sem acento e sem caixa: "genesis" encontra "Gênesis". */
+export function foldText(text: string): string {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
 }

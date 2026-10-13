@@ -1,126 +1,167 @@
+import { useState, useSyncExternalStore } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { Bookmark, Cloud, CloudOff, LogOut, NotebookPen, RefreshCw } from "lucide-react";
 import { Page, Shell } from "@/components/shell";
-import { UserButton } from "@/lib/auth/gates";
+import { ReadingSettings } from "@/components/reading-settings";
+import { Avatar, SectionTitle, Segmented, cx } from "@/components/ui";
+import { authEnabled, signOut } from "@/lib/auth/client";
+import { hasGateSessionMarker } from "@/lib/auth/gate-session-marker";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { bookById } from "@/lib/bible/catalog";
 import { activeMarks, useStudy } from "@/lib/study/store";
-import type { FontScale } from "@/lib/study/types";
 
 export const Route = createFileRoute("/conta")({
   head: () => ({ meta: [{ title: "Conta · Bíblia Origens" }] }),
   component: ContaPage,
 });
 
-const SCALES: { id: FontScale; label: string }[] = [
-  { id: "sm", label: "Menor" },
-  { id: "md", label: "Texto" },
-  { id: "lg", label: "Maior" },
-  { id: "xl", label: "Grande" },
-];
+const subscribeToNothing = () => () => {};
+const noGateSessionOnServer = () => false;
+
+type Filter = "all" | "bookmark" | "note";
 
 function ContaPage() {
   const { user, isPending } = useCurrentUserState();
-  const theme = useStudy((state) => state.theme);
-  const fontScale = useStudy((state) => state.fontScale);
-  const showNiqqud = useStudy((state) => state.showNiqqud);
-  const setTheme = useStudy((state) => state.setTheme);
-  const setFontScale = useStudy((state) => state.setFontScale);
-  const setShowNiqqud = useStudy((state) => state.setShowNiqqud);
   const marks = useStudy((state) => state.marks);
   const cursor = useStudy((state) => state.cursor);
   const syncing = useStudy((state) => state.syncing);
   const syncError = useStudy((state) => state.syncError);
   const sync = useStudy((state) => state.sync);
-  const saved = activeMarks(marks).filter((mark) => mark.kind === "bookmark");
+  const [filter, setFilter] = useState<Filter>("all");
+  const [signingOut, setSigningOut] = useState(false);
+  const gateSession = useSyncExternalStore(subscribeToNothing, hasGateSessionMarker, noGateSessionOnServer);
+
+  const all = activeMarks(marks)
+    .slice()
+    .sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt));
+  const shown = filter === "all" ? all : all.filter((mark) => mark.kind === filter);
+  const name = user?.displayName ?? user?.primaryEmail ?? "Leitor";
 
   return (
     <Shell>
-      <Page kicker="Aparelhos" title="Conta">
-        <div className="min-h-12">
-          {isPending ? <div className="h-8 w-40 animate-pulse rounded-full bg-surface" /> : null}
-          {!isPending && user ? <UserButton /> : null}
-          {!isPending && !user ? (
-            <Link to="/login" className="inline-flex min-h-11 items-center rounded-full bg-gold px-5 text-bg">
-              Entrar ou criar conta
-            </Link>
-          ) : null}
-        </div>
-        <p className="mt-4 text-muted">
-          Notas, capítulos guardados e o ponto de leitura ficam neste aparelho e sobem para a conta quando você sincroniza.
-        </p>
-
-        <section className="mt-10">
-          <h2 className="text-sm uppercase tracking-widest text-gold">Aparência</h2>
-          <div className="mt-4 flex flex-wrap gap-2">
-            <button
-              type="button"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="min-h-11 rounded-full border border-line px-4"
-            >
-              {theme === "dark" ? "Modo escuro" : "Modo claro"}
-            </button>
-            {SCALES.map((scale) => (
-              <button
-                key={scale.id}
-                type="button"
-                onClick={() => setFontScale(scale.id)}
-                className={`min-h-11 rounded-full border px-4 ${
-                  fontScale === scale.id ? "border-gold text-gold" : "border-line"
-                }`}
-              >
-                {scale.label}
-              </button>
-            ))}
-          </div>
-          <button
-            type="button"
-            onClick={() => setShowNiqqud(!showNiqqud)}
-            className="mt-3 min-h-11 rounded-full border border-line px-4"
-          >
-            {showNiqqud ? "Nikud visível" : "Nikud oculto"}
-          </button>
-          <p className="mt-2 text-sm text-muted">Os sinais vocálicos aparecem quando o hebraico do acervo chegar.</p>
+      <Page title="Conta">
+        {/* Perfil */}
+        <section className="flex items-center gap-4 rounded-3xl border border-line bg-surface p-4 sm:p-5">
+          {isPending || !user ? (
+            <div className="h-14 w-full animate-pulse rounded-2xl bg-raised" />
+          ) : (
+            <>
+              <Avatar name={name} image={user.profileImageUrl} className="size-14 text-xl" />
+              <div className="min-w-0 flex-1">
+                <p className="truncate text-lg font-semibold">{user.displayName ?? "Leitor"}</p>
+                {user.primaryEmail ? <p className="truncate text-sm text-muted">{user.primaryEmail}</p> : null}
+              </div>
+              {authEnabled && !gateSession ? (
+                <button
+                  type="button"
+                  disabled={signingOut}
+                  onClick={() => {
+                    setSigningOut(true);
+                    void signOut("/login").catch(() => setSigningOut(false));
+                  }}
+                  className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full border border-line px-4 text-sm font-semibold text-soft hover:border-muted disabled:opacity-60"
+                >
+                  <LogOut className="size-4" aria-hidden />
+                  {signingOut ? "Saindo…" : "Sair"}
+                </button>
+              ) : null}
+            </>
+          )}
         </section>
 
-        <section className="mt-10">
-          <h2 className="text-sm uppercase tracking-widest text-gold">Sincronização</h2>
-          <p className="mt-3 text-muted">
-            {cursor
-              ? `Última vez com a conta: ${new Date(cursor).toLocaleString("pt-BR", { dateStyle: "medium", timeStyle: "short" })}.`
-              : "Este aparelho ainda não enviou nada para a conta."}
-          </p>
-          {syncError ? <p className="mt-2 text-gold">{syncError}</p> : null}
+        {/* Sincronização */}
+        <section className="mt-4 flex items-center gap-4 rounded-3xl border border-line bg-surface p-4 sm:p-5">
+          <span
+            className={cx(
+              "grid size-11 shrink-0 place-items-center rounded-2xl",
+              syncError ? "bg-shani/14 text-shani" : "bg-tekhelet/14 text-tekhelet",
+            )}
+          >
+            {syncError ? <CloudOff className="size-5" aria-hidden /> : <Cloud className="size-5" aria-hidden />}
+          </span>
+          <div className="min-w-0 flex-1">
+            <p className="font-semibold">Sincronização</p>
+            <p className={cx("text-sm", syncError ? "text-shani" : "text-muted")}>
+              {syncError ??
+                (cursor
+                  ? `Última vez: ${new Date(cursor).toLocaleString("pt-BR", { dateStyle: "medium", timeStyle: "short" })}`
+                  : "Este aparelho ainda não enviou nada para a conta.")}
+            </p>
+          </div>
           <button
             type="button"
             disabled={syncing || isPending || !user}
             onClick={() => void sync()}
-            className="mt-4 min-h-11 rounded-full border border-gold px-5 text-gold disabled:opacity-50"
+            aria-label="Sincronizar agora"
+            className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-tekhelet px-4 text-sm font-semibold text-on-accent disabled:opacity-60"
           >
-            {syncing ? "Sincronizando…" : "Sincronizar agora"}
+            <RefreshCw className={cx("size-4", syncing && "animate-spin")} aria-hidden />
+            <span className="hidden sm:inline">{syncing ? "Sincronizando…" : "Sincronizar"}</span>
           </button>
         </section>
 
+        {/* Leitura */}
         <section className="mt-10">
-          <h2 className="text-sm uppercase tracking-widest text-gold">Guardados</h2>
-          {saved.length === 0 ? <p className="mt-3 text-muted">Nenhum capítulo guardado.</p> : null}
-          <ul className="mt-2">
-            {saved.map((mark) => {
-              const book = bookById(mark.bookId);
-              if (!book) return null;
-              return (
-                <li key={mark.id} className="border-b border-line">
-                  <Link
-                    to="/ler/$book/$chapter"
-                    params={{ book: book.id, chapter: String(mark.chapter) }}
-                    className="block min-h-14 py-3"
-                  >
-                    {book.namePt} {mark.chapter}
-                    {mark.verse > 0 ? `:${mark.verse}` : ""}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <SectionTitle>Leitura</SectionTitle>
+          <div className="rounded-3xl border border-line bg-surface p-4 sm:p-5">
+            <ReadingSettings />
+          </div>
+        </section>
+
+        {/* Guardados */}
+        <section className="mt-10">
+          <SectionTitle>Guardados e notas</SectionTitle>
+          <Segmented<Filter>
+            label="Filtrar guardados"
+            value={filter}
+            onChange={setFilter}
+            options={[
+              { id: "all", label: `Tudo (${all.length})` },
+              { id: "bookmark", label: "Guardados" },
+              { id: "note", label: "Notas" },
+            ]}
+          />
+          {shown.length === 0 ? (
+            <div className="mt-3 rounded-3xl border border-dashed border-line px-5 py-6 text-muted">
+              {filter === "note"
+                ? "Nenhuma nota ainda. No leitor, toque no número de um versículo e escolha Nota."
+                : "Nada guardado ainda. No leitor, toque no número de um versículo e escolha Guardar."}
+            </div>
+          ) : (
+            <ul className="mt-3 overflow-hidden rounded-3xl border border-line bg-surface">
+              {shown.map((mark) => {
+                const book = bookById(mark.bookId);
+                if (!book) return null;
+                const Icon = mark.kind === "note" ? NotebookPen : Bookmark;
+                return (
+                  <li key={mark.id} className="border-b border-line last:border-b-0">
+                    <Link
+                      to="/ler/$book/$chapter"
+                      params={{ book: book.id, chapter: String(mark.chapter) }}
+                      hash={mark.verse > 0 ? `v${mark.verse}` : undefined}
+                      className="flex min-h-16 items-center gap-3 px-4 py-3 transition-colors hover:bg-raised/50"
+                    >
+                      <span className="grid size-9 shrink-0 place-items-center rounded-full bg-shani/14 text-shani">
+                        <Icon className="size-4" aria-hidden />
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block font-medium">
+                          {book.namePt} {mark.chapter}
+                          {mark.verse > 0 ? `:${mark.verse}` : ""}
+                        </span>
+                        <span className="block truncate text-sm text-muted">
+                          {mark.kind === "note" ? mark.body : mark.verse > 0 ? "Versículo guardado" : "Capítulo guardado"}
+                        </span>
+                      </span>
+                      <span className="he shrink-0 text-lg text-soft" lang="he" dir="rtl">
+                        {book.nameHe}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
         </section>
       </Page>
     </Shell>

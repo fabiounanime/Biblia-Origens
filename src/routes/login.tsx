@@ -2,6 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
 import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
+import { BrandMark, Segmented, ThreadRing } from "@/components/ui";
 
 export const Route = createFileRoute("/login")({
   head: () => ({ meta: [{ title: "Conta · Bíblia Origens" }] }),
@@ -51,104 +52,153 @@ function LoginPage() {
     await navigate({ to: "/inicio" });
   }
 
-  if (isPending) {
+  if (isPending || user) {
     return (
-      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
-        <div className="h-40 animate-pulse rounded-3xl bg-surface" />
+      <main className="app-backdrop grid min-h-dvh place-items-center px-5">
+        <div className="flex flex-col items-center gap-4 text-muted">
+          <BrandMark className="size-12 animate-pulse" />
+          <p className="text-sm">{user ? "Abrindo o app…" : "Verificando a conta…"}</p>
+        </div>
       </main>
     );
   }
 
-  if (user) {
-    return (
-      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
-        <p className="text-muted">Abrindo o app…</p>
-      </main>
-    );
-  }
+  const inputClass =
+    "mt-1.5 h-12 w-full rounded-2xl border border-line bg-surface px-4 text-base placeholder:text-muted focus:border-tekhelet/60 focus:outline-none";
 
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-12">
-      <p className="text-xs uppercase tracking-widest text-gold">Conta</p>
-      <h1 className="mt-2 text-4xl">{mode === "criar" ? "Criar conta" : "Entrar"}</h1>
-      <p className="mt-3 text-muted">
-        Para usar a Bíblia Origens, entre com Google ou com e-mail e senha. Sem conta, o app não abre.
-      </p>
+    <main className="app-backdrop grid min-h-dvh lg:grid-cols-2">
+      {/* Painel de abertura — desktop */}
+      <section className="relative hidden overflow-hidden border-r border-line/70 bg-sunken lg:flex lg:flex-col lg:justify-between lg:p-12">
+        <div
+          className="pointer-events-none absolute -bottom-40 -left-40 size-[40rem] rounded-full opacity-50 blur-3xl"
+          style={{ background: "radial-gradient(circle, rgb(91 140 255 / 0.5), rgb(182 124 255 / 0.2) 50%, transparent 70%)" }}
+          aria-hidden="true"
+        />
+        <div className="relative flex items-center gap-3">
+          <BrandMark className="size-10" />
+          <span className="text-lg font-bold tracking-tight">Bíblia Origens</span>
+        </div>
+        <div className="relative">
+          <p className="he text-7xl leading-tight text-zahav" lang="he" dir="rtl">
+            בְּרֵאשִׁית בָּרָא אֱלֹהִים
+          </p>
+          <p className="mt-4 font-read text-xl text-soft italic">bereshit bara Elohim</p>
+          <p className="mt-1 font-read text-xl">No princípio criou Deus</p>
+        </div>
+        <p className="relative max-w-sm text-muted">
+          Português direto, hebraico e transliterado, versículo por versículo. Sem versões no meio.
+        </p>
+      </section>
 
-      {authEnabled ? (
-        <>
-          <form onSubmit={onSubmit} className="mt-8 space-y-4">
-            {mode === "criar" ? (
-              <label className="block">
-                <span className="text-sm text-muted">Nome</span>
-                <input
-                  required
-                  value={name}
-                  onChange={(event) => setName(event.target.value)}
-                  autoComplete="name"
-                  className="mt-1 w-full rounded-2xl border border-line bg-surface px-4 py-3"
-                />
-              </label>
-            ) : null}
-            <label className="block">
-              <span className="text-sm text-muted">E-mail</span>
-              <input
-                required
-                type="email"
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-                autoComplete="email"
-                className="mt-1 w-full rounded-2xl border border-line bg-surface px-4 py-3"
-              />
-            </label>
-            <label className="block">
-              <span className="text-sm text-muted">Senha</span>
-              <input
-                required
-                type="password"
-                minLength={8}
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-                autoComplete={mode === "criar" ? "new-password" : "current-password"}
-                className="mt-1 w-full rounded-2xl border border-line bg-surface px-4 py-3"
-              />
-            </label>
-            {error ? <p className="text-gold">{error}</p> : null}
-            <button
-              type="submit"
-              disabled={pending}
-              className="min-h-12 w-full rounded-full bg-gold text-bg disabled:opacity-60"
-            >
-              {pending ? "Aguarde…" : mode === "criar" ? "Criar conta" : "Entrar"}
-            </button>
-          </form>
-          <button
-            type="button"
-            className="mt-4 text-muted"
-            onClick={() => {
-              setMode(mode === "criar" ? "entrar" : "criar");
-              setError(null);
-            }}
-          >
-            {mode === "criar" ? "Já tenho conta" : "Criar uma conta"}
-          </button>
-          <p className="mt-8 text-center text-sm text-muted">ou</p>
-          <div className="mt-4 space-y-3">
-            {GROK_PROVIDERS.map((provider) => (
-              <button
-                key={provider.providerId}
-                type="button"
-                onClick={() => signIn(provider.providerId, { callbackURL: "/inicio" })}
-                className="min-h-12 w-full rounded-full border border-line bg-surface"
-              >
-                Continuar com {provider.label}
-              </button>
-            ))}
+      {/* Formulário */}
+      <section className="flex flex-col justify-center px-5 py-10 sm:px-10">
+        <div className="mx-auto w-full max-w-sm">
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <div className="relative grid place-items-center lg:hidden">
+              <ThreadRing className="size-20" />
+              <BrandMark className="absolute size-11" />
+            </div>
+            <h1 className="mt-5 text-3xl font-bold tracking-tight lg:mt-0">
+              {mode === "criar" ? "Criar sua conta" : "Bem-vindo de volta"}
+            </h1>
+            <p className="mt-2 text-muted">
+              Entre para ler e guardar suas marcas e notas em todos os seus aparelhos.
+            </p>
           </div>
-        </>
-      ) : (
-        <p className="mt-8 text-muted">O acesso está desligado neste ambiente.</p>
-      )}
+
+          {authEnabled ? (
+            <>
+              <div className="mt-8">
+                <Segmented<"entrar" | "criar">
+                  label="Entrar ou criar conta"
+                  value={mode}
+                  onChange={(next) => {
+                    setMode(next);
+                    setError(null);
+                  }}
+                  options={[
+                    { id: "entrar", label: "Entrar" },
+                    { id: "criar", label: "Criar conta" },
+                  ]}
+                />
+              </div>
+              <form onSubmit={onSubmit} className="mt-6 space-y-4">
+                {mode === "criar" ? (
+                  <label className="block">
+                    <span className="text-sm font-medium text-soft">Nome</span>
+                    <input
+                      required
+                      value={name}
+                      onChange={(event) => setName(event.target.value)}
+                      autoComplete="name"
+                      className={inputClass}
+                    />
+                  </label>
+                ) : null}
+                <label className="block">
+                  <span className="text-sm font-medium text-soft">E-mail</span>
+                  <input
+                    required
+                    type="email"
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                    autoComplete="email"
+                    placeholder="voce@exemplo.com"
+                    className={inputClass}
+                  />
+                </label>
+                <label className="block">
+                  <span className="text-sm font-medium text-soft">Senha</span>
+                  <input
+                    required
+                    type="password"
+                    minLength={8}
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)}
+                    autoComplete={mode === "criar" ? "new-password" : "current-password"}
+                    placeholder="Pelo menos 8 caracteres"
+                    className={inputClass}
+                  />
+                </label>
+                {error ? (
+                  <p role="alert" className="rounded-2xl bg-shani/12 px-4 py-3 text-sm font-medium text-shani">
+                    {error}
+                  </p>
+                ) : null}
+                <button
+                  type="submit"
+                  disabled={pending}
+                  className="h-12 w-full rounded-full bg-tekhelet font-semibold text-on-accent transition-opacity disabled:opacity-60"
+                >
+                  {pending ? "Aguarde…" : mode === "criar" ? "Criar conta" : "Entrar"}
+                </button>
+              </form>
+              <div className="my-6 flex items-center gap-3 text-sm text-muted">
+                <span className="h-px flex-1 bg-line" />
+                ou
+                <span className="h-px flex-1 bg-line" />
+              </div>
+              <div className="space-y-3">
+                {GROK_PROVIDERS.map((provider) => (
+                  <button
+                    key={provider.providerId}
+                    type="button"
+                    onClick={() => signIn(provider.providerId, { callbackURL: "/inicio" })}
+                    className="h-12 w-full rounded-full border border-line bg-surface font-semibold transition-colors hover:border-muted"
+                  >
+                    Continuar com {provider.label}
+                  </button>
+                ))}
+              </div>
+            </>
+          ) : (
+            <p className="mt-8 rounded-2xl border border-line bg-surface px-4 py-3 text-muted">
+              O acesso está desligado neste ambiente.
+            </p>
+          )}
+        </div>
+      </section>
     </main>
   );
 }
