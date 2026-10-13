@@ -3,7 +3,8 @@
   "name": "biblia-origens",
   "compatibility_date": "2026-10-09",
   "compatibility_flags": ["nodejs_compat"],
+  "keep_vars": true,
   "vars": {
-    "BETTER_AUTH_URL": "https://biblia-origens.pages.dev"
+    "BETTER_AUTH_URL": "https://biblia-origens.fabiounanime.workers.dev"
   }
 }

@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContaRouteImport } from './routes/conta'
+import { Route as DiagnosticoRouteImport } from './routes/diagnostico'
 import { Route as InicioRouteImport } from './routes/inicio'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as MapasRouteImport } from './routes/mapas'
@@ -18,6 +19,7 @@ import { Route as EstudosIndexRouteImport } from './routes/estudos/index'
 import { Route as EstudosGuideIdRouteImport } from './routes/estudos/$guideId'
 import { Route as LerIndexRouteImport } from './routes/ler/index'
 import { Route as LerBookRouteImport } from './routes/ler/$book'
+import { Route as ApiDiagnosticoRouteImport } from './routes/api/diagnostico'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 import { Route as LerBookIndexRouteImport } from './routes/ler/$book.index'
 import { Route as LerBookChapterRouteImport } from './routes/ler/$book.$chapter'
@@ -30,6 +32,11 @@ const IndexRoute = IndexRouteImport.update({
 const ContaRoute = ContaRouteImport.update({
   id: '/conta',
   path: '/conta',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiagnosticoRoute = DiagnosticoRouteImport.update({
+  id: '/diagnostico',
+  path: '/diagnostico',
   getParentRoute: () => rootRouteImport,
 } as any)
 const InicioRoute = InicioRouteImport.update({
@@ -67,6 +74,11 @@ const LerBookRoute = LerBookRouteImport.update({
   path: '/ler/$book',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiDiagnosticoRoute = ApiDiagnosticoRouteImport.update({
+  id: '/api/diagnostico',
+  path: '/api/diagnostico',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
   id: '/api/auth/$',
   path: '/api/auth/$',
@@ -86,6 +98,7 @@ const LerBookChapterRoute = LerBookChapterRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/conta': typeof ContaRoute
+  '/diagnostico': typeof DiagnosticoRoute
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
@@ -93,6 +106,7 @@ export interface FileRoutesByFullPath {
   '/ler/$book': typeof LerBookRouteWithChildren
   '/estudos/': typeof EstudosIndexRoute
   '/ler/': typeof LerIndexRoute
+  '/api/diagnostico': typeof ApiDiagnosticoRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/ler/$book/$chapter': typeof LerBookChapterRoute
   '/ler/$book/': typeof LerBookIndexRoute
@@ -100,12 +114,14 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/conta': typeof ContaRoute
+  '/diagnostico': typeof DiagnosticoRoute
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
   '/estudos/$guideId': typeof EstudosGuideIdRoute
   '/estudos': typeof EstudosIndexRoute
   '/ler': typeof LerIndexRoute
+  '/api/diagnostico': typeof ApiDiagnosticoRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/ler/$book/$chapter': typeof LerBookChapterRoute
   '/ler/$book': typeof LerBookIndexRoute
@@ -114,6 +130,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/conta': typeof ContaRoute
+  '/diagnostico': typeof DiagnosticoRoute
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
@@ -121,6 +138,7 @@ export interface FileRoutesById {
   '/ler/$book': typeof LerBookRouteWithChildren
   '/estudos/': typeof EstudosIndexRoute
   '/ler/': typeof LerIndexRoute
+  '/api/diagnostico': typeof ApiDiagnosticoRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/ler/$book/$chapter': typeof LerBookChapterRoute
   '/ler/$book/': typeof LerBookIndexRoute
@@ -130,6 +148,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/conta'
+    | '/diagnostico'
     | '/inicio'
     | '/login'
     | '/mapas'
@@ -137,6 +156,7 @@ export interface FileRouteTypes {
     | '/ler/$book'
     | '/estudos/'
     | '/ler/'
+    | '/api/diagnostico'
     | '/api/auth/$'
     | '/ler/$book/$chapter'
     | '/ler/$book/'
@@ -144,12 +164,14 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/conta'
+    | '/diagnostico'
     | '/inicio'
     | '/login'
     | '/mapas'
     | '/estudos/$guideId'
     | '/estudos'
     | '/ler'
+    | '/api/diagnostico'
     | '/api/auth/$'
     | '/ler/$book/$chapter'
     | '/ler/$book'
@@ -157,6 +179,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/conta'
+    | '/diagnostico'
     | '/inicio'
     | '/login'
     | '/mapas'
@@ -164,6 +187,7 @@ export interface FileRouteTypes {
     | '/ler/$book'
     | '/estudos/'
     | '/ler/'
+    | '/api/diagnostico'
     | '/api/auth/$'
     | '/ler/$book/$chapter'
     | '/ler/$book/'
@@ -172,6 +196,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContaRoute: typeof ContaRoute
+  DiagnosticoRoute: typeof DiagnosticoRoute
   InicioRoute: typeof InicioRoute
   LoginRoute: typeof LoginRoute
   MapasRoute: typeof MapasRoute
@@ -179,6 +204,7 @@ export interface RootRouteChildren {
   LerBookRoute: typeof LerBookRouteWithChildren
   EstudosIndexRoute: typeof EstudosIndexRoute
   LerIndexRoute: typeof LerIndexRoute
+  ApiDiagnosticoRoute: typeof ApiDiagnosticoRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
@@ -196,6 +222,13 @@ declare module '@tanstack/react-router' {
       path: '/conta'
       fullPath: '/conta'
       preLoaderRoute: typeof ContaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/diagnostico': {
+      id: '/diagnostico'
+      path: '/diagnostico'
+      fullPath: '/diagnostico'
+      preLoaderRoute: typeof DiagnosticoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/inicio': {
@@ -247,6 +280,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LerBookRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/diagnostico': {
+      id: '/api/diagnostico'
+      path: '/api/diagnostico'
+      fullPath: '/api/diagnostico'
+      preLoaderRoute: typeof ApiDiagnosticoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/auth/$': {
       id: '/api/auth/$'
       path: '/api/auth/$'
@@ -287,6 +327,7 @@ const LerBookRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContaRoute: ContaRoute,
+  DiagnosticoRoute: DiagnosticoRoute,
   InicioRoute: InicioRoute,
   LoginRoute: LoginRoute,
   MapasRoute: MapasRoute,
@@ -294,6 +335,7 @@ const rootRouteChildren: RootRouteChildren = {
   LerBookRoute: LerBookRouteWithChildren,
   EstudosIndexRoute: EstudosIndexRoute,
   LerIndexRoute: LerIndexRoute,
+  ApiDiagnosticoRoute: ApiDiagnosticoRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
 export const routeTree = rootRouteImport

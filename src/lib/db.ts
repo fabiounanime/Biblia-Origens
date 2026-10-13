@@ -1,4 +1,5 @@
 import { pendingMigrations } from "../../scripts/migration-plan.mjs";
+import { pgPoolOptions } from "./pg-options";
 
 /** Which database backend is active. */
 export type DbSource = "neon" | "pglite";
@@ -85,6 +86,47 @@ function toSql(run: Run): Sql {
   return sql;
 }
 
+/**
+ * Aplica `migrations/*.sql` no Postgres real na primeira consulta do servidor.
+ *
+ * O `npm run build` também migra, mas só quando DATABASE_URL existe no ambiente
+ * de BUILD — no Cloudflare os segredos do Worker só existem em execução, então
+ * as tabelas nunca seriam criadas. Os arquivos são idempotentes
+ * (`if not exists`) e a trava consultiva impede duas instâncias de aplicar o
+ * mesmo arquivo ao mesmo tempo. Mesma tabela `_migrations` de scripts/migrate.mjs.
+ */
+async function migrateNeon(pool: import("pg").Pool): Promise<void> {
+  const migrations = import.meta.glob("/migrations/*.sql", {
+    query: "?raw",
+    import: "default",
+    eager: true,
+  }) as Record<string, string>;
+  const client = await pool.connect();
+  try {
+    await client.query("BEGIN");
+    await client.query("SELECT pg_advisory_xact_lock(7245310021)");
+    await client.query(
+      "CREATE TABLE IF NOT EXISTS _migrations (name TEXT PRIMARY KEY, applied_at TIMESTAMPTZ NOT NULL DEFAULT now())",
+    );
+    const applied = (await client.query<{ name: string }>("SELECT name FROM _migrations")).rows.map(
+      (row) => row.name,
+    );
+    for (const { name, path } of pendingMigrations(Object.keys(migrations), applied)) {
+      const text = migrations[path];
+      if (!text) continue;
+      // Protocolo simples do pg: roda o arquivo inteiro, com vários comandos.
+      await client.query(text);
+      await client.query("INSERT INTO _migrations (name) VALUES ($1) ON CONFLICT DO NOTHING", [name]);
+    }
+    await client.query("COMMIT");
+  } catch (err) {
+    await client.query("ROLLBACK").catch(() => undefined);
+    throw err;
+  } finally {
+    client.release();
+  }
+}
+
 function createNeonSql(): Promise<Sql> {
   globalRef.__pgSqlPromise__ ??= (async () => {
     // Regular Postgres driver: node-postgres (`pg`) — works directly with Neon's
@@ -93,7 +135,8 @@ function createNeonSql(): Promise<Sql> {
     types.setTypeParser(OID_INT8, Number);
     types.setTypeParser(OID_DATE, identity);
     types.setTypeParser(OID_INTERVAL, identity);
-    const pool = new Pool({ connectionString: databaseUrl });
+    const pool = new Pool(pgPoolOptions(databaseUrl as string));
+    await migrateNeon(pool);
     return toSql(async <T>(text: string, params: unknown[]) => {
       const res = await pool.query(text, params);
       return res.rows as T[];
@@ -221,6 +264,13 @@ export async function getPglite(): Promise<import("@electric-sql/pglite").PGlite
  */
 export function ensureDbReady(): Promise<void> {
   if (dbSource !== "pglite") return Promise.resolve();
+  return getSql().then(() => undefined);
+}
+
+/** Garante as tabelas no Postgres real (ou no PGLite) antes de atender o pedido. */
+export function ensureSchema(): Promise<void> {
+  // Dentro de uma requisição (nunca no carregamento do módulo: o Workers proíbe
+  // I/O no escopo global). Memoizado pelo getSql().
   return getSql().then(() => undefined);
 }
 
