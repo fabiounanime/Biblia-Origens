@@ -1,21 +1,42 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-router";
 import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { BrandMark, Segmented, ThreadRing } from "@/components/ui";
+import type { GoogleMode } from "@/lib/diagnostics";
+
+type LoginSearch = { error?: string };
 
 export const Route = createFileRoute("/login")({
+  // O Better Auth volta para cá com ?error=… quando o login social falha.
+  validateSearch: (search: Record<string, unknown>): LoginSearch => ({
+    error: typeof search.error === "string" ? search.error : undefined,
+  }),
   head: () => ({ meta: [{ title: "Conta · Bíblia Origens" }] }),
   component: LoginPage,
 });
 
-function ptAuthError(message: string | undefined): string {
-  const text = (message ?? "").toLowerCase();
-  if (text.includes("exist") || text.includes("already")) return "Já existe uma conta com este e-mail.";
-  if (text.includes("password") || text.includes("short")) return "A senha precisa ter pelo menos 8 caracteres.";
-  if (text.includes("credential") || text.includes("invalid email or")) return "E-mail ou senha não conferem.";
-  if (text.includes("email")) return "Não foi possível usar este e-mail.";
+type AuthError = { message?: string; code?: string; status?: number };
+
+const SERVER_PROBLEM = "O servidor de login não respondeu como deveria. Abra o diagnóstico para ver a causa.";
+
+function ptAuthError(error: AuthError): string {
+  const code = (error.code ?? "").toUpperCase();
+  const text = (error.message ?? "").toLowerCase();
+  if (code.includes("ALREADY_EXISTS") || text.includes("already exists")) return "Já existe uma conta com este e-mail.";
+  if (code === "INVALID_EMAIL_OR_PASSWORD" || text.includes("invalid email or password") || text.includes("credential"))
+    return "E-mail ou senha não conferem.";
+  if (code === "PASSWORD_TOO_SHORT" || text.includes("too short")) return "A senha precisa ter pelo menos 8 caracteres.";
+  if (code === "PASSWORD_TOO_LONG" || text.includes("too long")) return "A senha é longa demais.";
+  if (code === "INVALID_EMAIL" || text.includes("invalid email")) return "Este e-mail não parece válido.";
+  if (text.includes("origin")) return "Este endereço do app não está autorizado no servidor. Abra o diagnóstico.";
+  if ((error.status ?? 0) >= 500) return SERVER_PROBLEM;
   return "Não foi possível concluir. Tente de novo.";
+}
+
+function ptSocialError(code: string): string {
+  if (code === "access_denied") return "O login com Google foi cancelado.";
+  return "Não foi possível entrar com o Google. Tente de novo ou use e-mail e senha.";
 }
 
 function LoginPage() {
@@ -26,8 +47,45 @@ function LoginPage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState<string | null>(null);
+  const search = Route.useSearch();
+  const [error, setError] = useState<string | null>(search.error ? ptSocialError(search.error) : null);
   const [pending, setPending] = useState(false);
+  const [googleMode, setGoogleMode] = useState<GoogleMode | "loading">("loading");
+
+  // Qual login com Google o servidor oferece (direto, pelo Grok ou nenhum).
+  useEffect(() => {
+    let cancel = false;
+    fetch("/api/diagnostico?resumo=1", { cache: "no-store" })
+      .then((response) => response.json() as Promise<{ googleMode?: GoogleMode }>)
+      .then((body) => {
+        if (!cancel) setGoogleMode(body.googleMode ?? "off");
+      })
+      .catch(() => {
+        if (!cancel) setGoogleMode("off");
+      });
+    return () => {
+      cancel = true;
+    };
+  }, []);
+
+  async function onGoogle() {
+    setError(null);
+    try {
+      if (googleMode === "direct") {
+        const { error: socialError } = await authClient.signIn.social({
+          provider: "google",
+          callbackURL: "/inicio",
+          errorCallbackURL: "/login",
+        });
+        if (socialError) setError(ptAuthError(socialError));
+        return;
+      }
+      const provider = GROK_PROVIDERS[0];
+      if (provider) await signIn(provider.providerId, { callbackURL: "/inicio", errorCallbackURL: "/login" });
+    } catch {
+      setError(ptSocialError(""));
+    }
+  }
 
   // Já autenticado: vai direto ao menu.
   useEffect(() => {
@@ -39,13 +97,20 @@ function LoginPage() {
     event.preventDefault();
     setError(null);
     setPending(true);
-    const result =
-      mode === "criar"
-        ? await authClient.signUp.email({ name: name.trim(), email: email.trim(), password, callbackURL: "/inicio" })
-        : await authClient.signIn.email({ email: email.trim(), password, callbackURL: "/inicio" });
+    let result;
+    try {
+      result =
+        mode === "criar"
+          ? await authClient.signUp.email({ name: name.trim(), email: email.trim(), password, callbackURL: "/inicio" })
+          : await authClient.signIn.email({ email: email.trim(), password, callbackURL: "/inicio" });
+    } catch {
+      setPending(false);
+      setError(SERVER_PROBLEM);
+      return;
+    }
     setPending(false);
     if (result.error) {
-      setError(ptAuthError(result.error.message));
+      setError(ptAuthError(result.error));
       return;
     }
     await router.invalidate();
@@ -174,23 +239,31 @@ function LoginPage() {
                   {pending ? "Aguarde…" : mode === "criar" ? "Criar conta" : "Entrar"}
                 </button>
               </form>
-              <div className="my-6 flex items-center gap-3 text-sm text-muted">
-                <span className="h-px flex-1 bg-line" />
-                ou
-                <span className="h-px flex-1 bg-line" />
-              </div>
-              <div className="space-y-3">
-                {GROK_PROVIDERS.map((provider) => (
+              {googleMode === "loading" ? (
+                <div className="mt-6 h-12 animate-pulse rounded-full bg-surface" aria-hidden />
+              ) : googleMode !== "off" ? (
+                <>
+                  <div className="my-6 flex items-center gap-3 text-sm text-muted">
+                    <span className="h-px flex-1 bg-line" />
+                    ou
+                    <span className="h-px flex-1 bg-line" />
+                  </div>
                   <button
-                    key={provider.providerId}
                     type="button"
-                    onClick={() => signIn(provider.providerId, { callbackURL: "/inicio" })}
-                    className="h-12 w-full rounded-full border border-line bg-surface font-semibold transition-colors hover:border-muted"
+                    onClick={() => void onGoogle()}
+                    className="flex h-12 w-full items-center justify-center gap-3 rounded-full border border-line bg-surface font-semibold transition-colors hover:border-muted"
                   >
-                    Continuar com {provider.label}
+                    <GoogleLogo />
+                    Continuar com Google
                   </button>
-                ))}
-              </div>
+                </>
+              ) : null}
+              <p className="mt-8 text-center text-sm text-muted">
+                Problemas para entrar?{" "}
+                <Link to="/diagnostico" className="font-medium text-tekhelet hover:underline">
+                  Ver diagnóstico
+                </Link>
+              </p>
             </>
           ) : (
             <p className="mt-8 rounded-2xl border border-line bg-surface px-4 py-3 text-muted">
@@ -200,5 +273,17 @@ function LoginPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+/** Marca do Google em cores oficiais, exigida nos botões de login com Google. */
+function GoogleLogo() {
+  return (
+    <svg viewBox="0 0 48 48" className="size-5" aria-hidden="true">
+      <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z" />
+      <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z" />
+      <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z" />
+      <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z" />
+    </svg>
   );
 }
