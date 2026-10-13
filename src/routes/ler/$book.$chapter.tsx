@@ -18,6 +18,8 @@ import { Sheet, cx } from "@/components/ui";
 import { SECTION_TONE, bookById, neighborChapter, type Book, type ChapterRef } from "@/lib/bible/catalog";
 import { displayHebrew, loadChapter, type Verse } from "@/lib/bible/corpus";
 import { LAYERS, useLayers } from "@/lib/reader/layers";
+import { SCALE_LABEL, SCALE_ORDER, usePinchFont } from "@/lib/reader/use-pinch-font";
+import type { FontScale } from "@/lib/study/types";
 import { findMark, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/ler/$book/$chapter")({
@@ -39,6 +41,9 @@ function ChapterPage() {
   const [openVerse, setOpenVerse] = useState<number | null>(null);
   const progressRef = useRef<HTMLDivElement>(null);
   const touch = useRef<{ x: number; y: number } | null>(null);
+  const multiTouch = useRef(false);
+  const mainRef = useRef<HTMLElement>(null);
+  const pinchPreview = usePinchFont(mainRef, valid);
 
   const previous = valid ? neighborChapter(bookId, chapter, -1) : null;
   const next = valid ? neighborChapter(bookId, chapter, 1) : null;
@@ -158,11 +163,22 @@ function ChapterPage() {
   }
 
   // Deslizar para os lados troca de capítulo (como virar a página).
+  // Com dois dedos é pinça (tamanho da letra), não troca de capítulo.
   const onTouchStart = (event: TouchEvent) => {
+    if (event.touches.length > 1) {
+      multiTouch.current = true;
+      touch.current = null;
+      return;
+    }
     const point = event.touches[0];
     touch.current = point ? { x: point.clientX, y: point.clientY } : null;
   };
   const onTouchEnd = (event: TouchEvent) => {
+    if (multiTouch.current) {
+      if (event.touches.length === 0) multiTouch.current = false;
+      touch.current = null;
+      return;
+    }
     const start = touch.current;
     const point = event.changedTouches[0];
     touch.current = null;
@@ -218,7 +234,12 @@ function ChapterPage() {
         />
       </header>
 
-      <main className="mx-auto w-full max-w-[42rem] px-4 pb-16 sm:px-6" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+      <main
+        ref={mainRef}
+        className="mx-auto w-full max-w-[42rem] [touch-action:pan-x_pan-y] px-4 pb-16 sm:px-6"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
         <ChapterHero book={book} chapter={chapter} />
 
         {verses === "loading" ? <VerseSkeleton /> : null}
@@ -227,7 +248,10 @@ function ChapterPage() {
         ) : null}
         {Array.isArray(verses) && verses.length > 0 ? (
           <>
-            <p className="mb-2 text-center text-sm text-muted">Toque no número para guardar, anotar ou copiar.</p>
+            <p className="mb-2 text-center text-sm text-muted">
+              Toque no número para guardar, anotar ou copiar.
+              <span className="block md:hidden">Use dois dedos em pinça para ajustar a letra.</span>
+            </p>
             <div>
               {verses.map((verse) => (
                 <VerseBlock
@@ -247,6 +271,8 @@ function ChapterPage() {
         <ChapterPager previous={previous} next={next} />
         <p className="mt-4 hidden text-center text-sm text-muted md:block">Use as setas ← → do teclado para trocar de capítulo.</p>
       </main>
+
+      <PinchIndicator scale={pinchPreview} />
 
       <Sheet
         open={sheet === "chapters"}
@@ -274,6 +300,37 @@ function ChapterPage() {
   );
 }
 
+/** Aviso flutuante durante a pinça: mostra o tamanho em que o texto vai encaixar. */
+function PinchIndicator({ scale }: { scale: FontScale | null }) {
+  return (
+    <div
+      aria-live="polite"
+      className={cx(
+        "pointer-events-none fixed inset-x-0 top-[4.5rem] z-40 flex justify-center transition-opacity duration-200",
+        scale ? "opacity-100" : "opacity-0",
+      )}
+    >
+      {scale ? (
+        <div className="glass flex items-center gap-3 rounded-full border border-line px-4 py-2 shadow-float">
+          <span className="font-read text-lg font-semibold">Aa</span>
+          <span className="text-sm font-semibold">{SCALE_LABEL[scale]}</span>
+          <span className="flex items-center gap-1" aria-hidden>
+            {SCALE_ORDER.map((id) => (
+              <span
+                key={id}
+                className={cx(
+                  "rounded-full transition-all",
+                  id === scale ? "h-2 w-5 bg-tekhelet" : "size-2 bg-line",
+                )}
+              />
+            ))}
+          </span>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
   const tone = SECTION_TONE[book.section];
   const layers = useLayers();
@@ -282,7 +339,7 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
   const saved = !!findMark(marks, book.id, chapter, 0, "bookmark");
 
   return (
-    <header className="pt-8 pb-6 text-center sm:pt-12">
+    <header data-anchor className="pt-8 pb-6 text-center sm:pt-12">
       <p className={cx("he text-5xl leading-tight sm:text-6xl", tone.text)} lang="he" dir="rtl">
         {book.nameHe}
       </p>

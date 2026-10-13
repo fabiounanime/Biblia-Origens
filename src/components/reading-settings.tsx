@@ -37,7 +37,10 @@ export function ReadingSettings({ showLayers = true }: { showLayers?: boolean })
       </div>
 
       <div>
-        <p className="mb-2 text-sm font-medium text-muted">Tamanho do texto</p>
+        <div className="mb-2 flex items-baseline justify-between gap-3">
+          <p className="text-sm font-medium text-muted">Tamanho do texto</p>
+          <p className="text-xs text-muted md:hidden">ou pinça no texto</p>
+        </div>
         <Segmented<FontScale>
           label="Tamanho do texto"
           value={fontScale}
