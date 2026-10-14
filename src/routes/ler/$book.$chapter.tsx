@@ -265,6 +265,7 @@ function ChapterPage() {
                 />
               ))}
             </div>
+            <SourceNote />
           </>
         ) : null}
 
@@ -451,7 +452,11 @@ function VerseBlock({
           {verse.v}
         </button>
         <div className="min-w-0 flex-1 space-y-3">
-          {layers.pt ? <p className="read-pt">{verse.pt}</p> : null}
+          {layers.pt ? (
+            <p className="read-pt">
+              <PtText text={verse.pt} />
+            </p>
+          ) : null}
           {layers.he ? (
             <p className="read-he" lang="he" dir="rtl">
               {displayHebrew(verse.he, showNiqqud)}
@@ -495,6 +500,53 @@ function VerseBlock({
         </div>
       </div>
     </article>
+  );
+}
+
+/** Palavras [entre colchetes] não existem no hebraico: aparecem mais claras e em itálico. */
+function PtText({ text }: { text: string }) {
+  const parts = text.split(/(\[[^\]]+\])/);
+  return (
+    <>
+      {parts.map((part, index) =>
+        part.startsWith("[") && part.endsWith("]") ? (
+          <span key={index} className="added-word" title="Acrescentado pelo sentido; não está no hebraico">
+            {part.slice(1, -1)}
+          </span>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  );
+}
+
+/** Origem do texto, ao fim de cada capítulo publicado. */
+function SourceNote() {
+  return (
+    <aside className="mt-8 rounded-2xl border border-line bg-surface/60 px-4 py-3.5 text-[13px] leading-relaxed text-muted">
+      <p>
+        <span className="font-semibold text-soft">Tradução direta do hebraico.</span> Palavras em{" "}
+        <span className="added-word">itálico claro</span> não estão no hebraico e foram acrescentadas pelo sentido. O nome
+        divino{" "}
+        <span lang="he" dir="rtl" className="he">
+          יהוה
+        </span>{" "}
+        aparece como YHWH.
+      </p>
+      <p className="mt-1.5">
+        Texto hebraico: Códice de Leningrado (domínio público), pela{" "}
+        <a
+          href="https://github.com/openscriptures/morphhb"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-2 hover:text-soft"
+        >
+          Open Scriptures Hebrew Bible
+        </a>{" "}
+        (CC BY 4.0).
+      </p>
+    </aside>
   );
 }
 

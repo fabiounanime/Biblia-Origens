@@ -1,0 +1,319 @@
+# Gênesis (Bereshit) — tradução direta do hebraico (Códice de Leningrado)
+#
+# Convenções:
+#   - יהוה = YHWH; אֱלֹהִים = Deus; nomes de pessoas e lugares na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O "e" (vav) que liga as frases é mantido; a ordem das palavras segue o
+#     hebraico sempre que o português permite.
+#   - Infinitivo absoluto em dobro ao pé da letra: "comendo comerás", "morrendo morrerás".
+#   - אֲדָמָה = solo; אֶרֶץ = terra; נֶפֶשׁ חַיָּה = alma vivente.
+
+1:1 No princípio criou Deus os céus e a terra.
+1:2 E a terra estava sem forma e vazia, e trevas [havia] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas.
+1:3 E disse Deus: Haja luz. E houve luz.
+1:4 E viu Deus a luz, que [era] boa; e separou Deus entre a luz e entre as trevas.
+1:5 E chamou Deus à luz Dia, e às trevas chamou Noite. E houve tarde e houve manhã: dia um.
+1:6 E disse Deus: Haja um firmamento no meio das águas, e que ele separe entre águas e águas.
+1:7 E fez Deus o firmamento, e separou entre as águas que [estavam] debaixo do firmamento e entre as águas que [estavam] acima do firmamento. E foi assim.
+1:8 E chamou Deus ao firmamento Céus. E houve tarde e houve manhã: dia segundo.
+1:9 E disse Deus: Ajuntem-se as águas de debaixo dos céus em um lugar, e apareça a [porção] seca. E foi assim.
+1:10 E chamou Deus à [porção] seca Terra, e ao ajuntamento das águas chamou Mares. E viu Deus que [era] bom.
+1:11 E disse Deus: Brote a terra relva, erva que dê semente, árvore de fruto que dê fruto segundo a sua espécie, cuja semente [está] nele, sobre a terra. E foi assim.
+1:12 E produziu a terra relva, erva que dá semente segundo a sua espécie, e árvore que dá fruto cuja semente [está] nele, segundo a sua espécie. E viu Deus que [era] bom.
+1:13 E houve tarde e houve manhã: dia terceiro.
+1:14 E disse Deus: Haja luminares no firmamento dos céus para separar entre o dia e entre a noite; e sejam para sinais, e para tempos determinados, e para dias e anos.
+1:15 E sejam para luminares no firmamento dos céus, para iluminar sobre a terra. E foi assim.
+1:16 E fez Deus os dois luminares grandes: o luminar grande para o governo do dia, e o luminar pequeno para o governo da noite, e as estrelas.
+1:17 E Deus os pôs no firmamento dos céus para iluminar sobre a terra,
+1:18 e para governar no dia e na noite, e para separar entre a luz e entre as trevas. E viu Deus que [era] bom.
+1:19 E houve tarde e houve manhã: dia quarto.
+1:20 E disse Deus: Enxameiem as águas enxames de alma vivente, e ave voe sobre a terra, sobre a face do firmamento dos céus.
+1:21 E criou Deus os grandes monstros [marinhos], e toda alma vivente que rasteja, [com] que enxamearam as águas segundo as suas espécies, e toda ave de asa segundo a sua espécie. E viu Deus que [era] bom.
+1:22 E Deus os abençoou, dizendo: Frutificai e multiplicai-vos, e enchei as águas nos mares; e a ave se multiplique na terra.
+1:23 E houve tarde e houve manhã: dia quinto.
+1:24 E disse Deus: Produza a terra alma vivente segundo a sua espécie: gado, e réptil, e animal da terra segundo a sua espécie. E foi assim.
+1:25 E fez Deus o animal da terra segundo a sua espécie, e o gado segundo a sua espécie, e todo réptil do solo segundo a sua espécie. E viu Deus que [era] bom.
+1:26 E disse Deus: Façamos [o] homem à nossa imagem, conforme a nossa semelhança; e dominem sobre o peixe do mar, e sobre a ave dos céus, e sobre o gado, e sobre toda a terra, e sobre todo réptil que rasteja sobre a terra.
+1:27 E criou Deus o homem à sua imagem; à imagem de Deus o criou; macho e fêmea os criou.
+1:28 E Deus os abençoou, e Deus lhes disse: Frutificai e multiplicai-vos, e enchei a terra e sujeitai-a; e dominai sobre o peixe do mar, e sobre a ave dos céus, e sobre todo animal que rasteja sobre a terra.
+1:29 E disse Deus: Eis que vos dei toda erva que dá semente, que [está] sobre a face de toda a terra, e toda árvore em que [há] fruto de árvore que dá semente; para vós será para alimento.
+1:30 E a todo animal da terra, e a toda ave dos céus, e a todo o que rasteja sobre a terra, em que [há] alma vivente, toda erva verde [será] para alimento. E foi assim.
+1:31 E viu Deus tudo o que fizera, e eis [que era] muito bom. E houve tarde e houve manhã: o sexto dia.
+
+2:1 E foram acabados os céus e a terra, e todo o seu exército.
+2:2 E acabou Deus no sétimo dia a sua obra que fizera, e cessou no sétimo dia de toda a sua obra que fizera.
+2:3 E abençoou Deus o sétimo dia e o santificou, porque nele cessou de toda a sua obra que Deus criara para fazer.
+2:4 Estas [são] as gerações dos céus e da terra, quando foram criados, no dia em que fez YHWH Deus terra e céus.
+2:5 E nenhum arbusto do campo havia ainda na terra, e nenhuma erva do campo havia ainda brotado, porque YHWH Deus não fizera chover sobre a terra, e homem não havia para lavrar o solo.
+2:6 E uma névoa subia da terra e regava toda a face do solo.
+2:7 E formou YHWH Deus o homem, pó do solo, e soprou nas suas narinas fôlego de vida; e o homem se tornou alma vivente.
+2:8 E plantou YHWH Deus um jardim no Éden, ao oriente, e pôs ali o homem que formara.
+2:9 E fez brotar YHWH Deus do solo toda árvore desejável à vista e boa para comida, e a árvore da vida no meio do jardim, e a árvore do conhecimento de bem e mal.
+2:10 E um rio saía do Éden para regar o jardim, e dali se dividia e se tornava quatro cabeças.
+2:11 O nome do primeiro [é] Pisom; ele [é] o que rodeia toda a terra de Havilá, onde [há] o ouro.
+2:12 E o ouro daquela terra [é] bom; ali [há] o bdélio e a pedra de ônix.
+2:13 E o nome do segundo rio [é] Giom; ele [é] o que rodeia toda a terra de Cuxe.
+2:14 E o nome do terceiro rio [é] Hidéquel; ele [é] o que corre ao oriente de Assur. E o quarto rio, ele [é] o Eufrates.
+2:15 E tomou YHWH Deus o homem e o pôs no jardim do Éden, para o lavrar e para o guardar.
+2:16 E ordenou YHWH Deus ao homem, dizendo: De toda árvore do jardim, comendo comerás;
+2:17 e da árvore do conhecimento de bem e mal, dela não comerás; porque no dia em que dela comeres, morrendo morrerás.
+2:18 E disse YHWH Deus: Não [é] bom estar o homem só; far-lhe-ei uma ajuda correspondente a ele.
+2:19 E formou YHWH Deus do solo todo animal do campo e toda ave dos céus, e [os] trouxe ao homem para ver o que lhe chamaria; e tudo o que o homem lhe chamasse, alma vivente, esse [é] o seu nome.
+2:20 E chamou o homem nomes a todo o gado, e à ave dos céus, e a todo animal do campo; e para o homem não achou ajuda correspondente a ele.
+2:21 E fez cair YHWH Deus um sono profundo sobre o homem, e ele dormiu; e tomou uma das suas costelas e fechou carne no lugar dela.
+2:22 E edificou YHWH Deus a costela que tomara do homem em mulher, e a trouxe ao homem.
+2:23 E disse o homem: Esta, desta vez, [é] osso dos meus ossos e carne da minha carne; esta será chamada mulher, porque do homem foi tomada esta.
+2:24 Por isso deixará o homem o seu pai e a sua mãe, e se apegará à sua mulher, e serão uma carne.
+2:25 E estavam ambos nus, o homem e a sua mulher, e não se envergonhavam.
+
+3:1 E a serpente era astuta, mais que todo animal do campo que YHWH Deus fizera. E disse à mulher: É mesmo [verdade] que Deus disse: Não comereis de toda árvore do jardim?
+3:2 E disse a mulher à serpente: Do fruto da árvore do jardim comeremos;
+3:3 e do fruto da árvore que [está] no meio do jardim, disse Deus: Não comereis dele, e não tocareis nele, para que não morrais.
+3:4 E disse a serpente à mulher: Não morrendo morrereis.
+3:5 Porque Deus sabe que, no dia em que dele comerdes, se abrirão os vossos olhos, e sereis como Deus, conhecedores de bem e mal.
+3:6 E viu a mulher que a árvore [era] boa para comida, e que ela [era] um deleite para os olhos, e [que] a árvore [era] desejável para dar entendimento; e tomou do seu fruto e comeu, e deu também ao seu marido [que estava] com ela, e ele comeu.
+3:7 E abriram-se os olhos de ambos, e souberam que estavam nus; e coseram folhas de figueira e fizeram para si cintas.
+3:8 E ouviram a voz de YHWH Deus, que andava pelo jardim ao vento do dia; e escondeu-se o homem e a sua mulher da presença de YHWH Deus no meio das árvores do jardim.
+3:9 E chamou YHWH Deus ao homem, e lhe disse: Onde [estás] tu?
+3:10 E ele disse: A tua voz ouvi no jardim, e temi, porque nu [estou] eu; e escondi-me.
+3:11 E disse: Quem te fez saber que nu [estás] tu? Acaso da árvore de que te ordenei não comer, dela comeste?
+3:12 E disse o homem: A mulher que puseste comigo, ela me deu da árvore, e comi.
+3:13 E disse YHWH Deus à mulher: Que [é] isto [que] fizeste? E disse a mulher: A serpente me enganou, e comi.
+3:14 E disse YHWH Deus à serpente: Porque fizeste isto, maldita [és] tu mais que todo o gado e mais que todo animal do campo; sobre o teu ventre andarás, e pó comerás todos os dias da tua vida.
+3:15 E inimizade porei entre ti e entre a mulher, e entre a tua semente e entre a semente dela; ele te ferirá a cabeça, e tu lhe ferirás o calcanhar.
+3:16 À mulher disse: Multiplicando multiplicarei a tua fadiga e a tua gravidez; com dor darás à luz filhos; e para o teu marido [será] o teu desejo, e ele governará sobre ti.
+3:17 E a Adão disse: Porque ouviste a voz da tua mulher e comeste da árvore de que te ordenei, dizendo: Não comerás dela, maldito [é] o solo por tua causa; com fadiga dele comerás todos os dias da tua vida.
+3:18 E espinho e cardo te fará brotar, e comerás a erva do campo.
+3:19 No suor do teu rosto comerás pão, até que voltes ao solo, porque dele foste tomado; porque pó [és] tu, e ao pó voltarás.
+3:20 E chamou o homem o nome da sua mulher Eva, porque ela foi a mãe de todo vivente.
+3:21 E fez YHWH Deus para o homem e para a sua mulher túnicas de pele, e os vestiu.
+3:22 E disse YHWH Deus: Eis que o homem se tornou como um de nós, para conhecer bem e mal; e agora, para que não estenda a sua mão, e tome também da árvore da vida, e coma, e viva para sempre —
+3:23 E o enviou YHWH Deus do jardim do Éden, para lavrar o solo de onde fora tomado.
+3:24 E expulsou o homem; e pôs ao oriente do jardim do Éden os querubins e a chama da espada que se revolvia, para guardar o caminho da árvore da vida.
+
+4:1 E o homem conheceu Eva, sua mulher, e ela concebeu e deu à luz Caim, e disse: Adquiri um homem com YHWH.
+4:2 E tornou a dar à luz o seu irmão, Abel. E foi Abel pastor de ovelhas, e Caim foi lavrador do solo.
+4:3 E aconteceu, ao fim de dias, que Caim trouxe do fruto do solo uma oferta a YHWH.
+4:4 E Abel trouxe, também ele, dos primogênitos das suas ovelhas e da gordura delas. E atentou YHWH para Abel e para a sua oferta,
+4:5 e para Caim e para a sua oferta não atentou. E irou-se Caim muito, e caiu o seu rosto.
+4:6 E disse YHWH a Caim: Por que te iraste? E por que caiu o teu rosto?
+4:7 Acaso, se fizeres bem, não [haverá] elevação? E se não fizeres bem, à porta o pecado [está] deitado; e para ti [será] o desejo dele, e tu governarás sobre ele.
+4:8 E disse Caim a Abel, seu irmão. E aconteceu, estando eles no campo, que Caim se levantou contra Abel, seu irmão, e o matou.
+4:9 E disse YHWH a Caim: Onde [está] Abel, teu irmão? E ele disse: Não sei. Acaso [sou] eu guarda do meu irmão?
+4:10 E disse: Que fizeste? A voz dos sangues do teu irmão clama a mim desde o solo.
+4:11 E agora, maldito [és] tu desde o solo, que abriu a sua boca para receber da tua mão os sangues do teu irmão.
+4:12 Quando lavrares o solo, não tornará a dar-te a sua força; errante e fugitivo serás na terra.
+4:13 E disse Caim a YHWH: Maior [é] a minha iniquidade do que [se possa] carregar.
+4:14 Eis que hoje me expulsaste de sobre a face do solo, e da tua face me esconderei; e serei errante e fugitivo na terra, e será [que] todo aquele que me achar me matará.
+4:15 E disse-lhe YHWH: Portanto, todo aquele que matar Caim, sete vezes será vingado. E pôs YHWH para Caim um sinal, para que não o ferisse todo aquele que o achasse.
+4:16 E saiu Caim de diante de YHWH, e habitou na terra de Node, ao oriente do Éden.
+4:17 E conheceu Caim a sua mulher, e ela concebeu e deu à luz Enoque; e ele estava edificando uma cidade, e chamou o nome da cidade conforme o nome do seu filho, Enoque.
+4:18 E a Enoque nasceu Irade; e Irade gerou Meujael; e Meujael gerou Metusael; e Metusael gerou Lameque.
+4:19 E tomou para si Lameque duas mulheres: o nome de uma [era] Ada, e o nome da segunda, Zilá.
+4:20 E deu Ada à luz Jabal; ele foi o pai dos que habitam [em] tenda e [com] gado.
+4:21 E o nome do seu irmão [era] Jubal; ele foi o pai de todos os que tocam lira e flauta.
+4:22 E Zilá, também ela, deu à luz Tubalcaim, afiador de toda ferramenta cortante de bronze e de ferro; e a irmã de Tubalcaim [era] Naamá.
+4:23 E disse Lameque às suas mulheres: Ada e Zilá, ouvi a minha voz; mulheres de Lameque, escutai o meu dito: porque um homem matei pela minha ferida, e um menino pela minha contusão.
+4:24 Porque sete vezes será vingado Caim, e Lameque setenta e sete.
+4:25 E conheceu Adão outra vez a sua mulher, e ela deu à luz um filho, e chamou o seu nome Sete, porque [disse]: Deus me pôs outra semente em lugar de Abel, porque Caim o matou.
+4:26 E a Sete, também a ele, nasceu um filho, e chamou o seu nome Enos. Então se começou a invocar o nome de YHWH.
+
+5:1 Este [é] o livro das gerações de Adão. No dia em que Deus criou [o] homem, à semelhança de Deus o fez.
+5:2 Macho e fêmea os criou, e os abençoou, e chamou o nome deles Homem, no dia em que foram criados.
+5:3 E viveu Adão cento e trinta anos, e gerou [um filho] à sua semelhança, conforme a sua imagem, e chamou o seu nome Sete.
+5:4 E foram os dias de Adão, depois que gerou Sete, oitocentos anos; e gerou filhos e filhas.
+5:5 E foram todos os dias que Adão viveu novecentos e trinta anos; e morreu.
+5:6 E viveu Sete cento e cinco anos, e gerou Enos.
+5:7 E viveu Sete, depois que gerou Enos, oitocentos e sete anos; e gerou filhos e filhas.
+5:8 E foram todos os dias de Sete novecentos e doze anos; e morreu.
+5:9 E viveu Enos noventa anos, e gerou Cainã.
+5:10 E viveu Enos, depois que gerou Cainã, oitocentos e quinze anos; e gerou filhos e filhas.
+5:11 E foram todos os dias de Enos novecentos e cinco anos; e morreu.
+5:12 E viveu Cainã setenta anos, e gerou Maalaleel.
+5:13 E viveu Cainã, depois que gerou Maalaleel, oitocentos e quarenta anos; e gerou filhos e filhas.
+5:14 E foram todos os dias de Cainã novecentos e dez anos; e morreu.
+5:15 E viveu Maalaleel sessenta e cinco anos, e gerou Jarede.
+5:16 E viveu Maalaleel, depois que gerou Jarede, oitocentos e trinta anos; e gerou filhos e filhas.
+5:17 E foram todos os dias de Maalaleel oitocentos e noventa e cinco anos; e morreu.
+5:18 E viveu Jarede cento e sessenta e dois anos, e gerou Enoque.
+5:19 E viveu Jarede, depois que gerou Enoque, oitocentos anos; e gerou filhos e filhas.
+5:20 E foram todos os dias de Jarede novecentos e sessenta e dois anos; e morreu.
+5:21 E viveu Enoque sessenta e cinco anos, e gerou Matusalém.
+5:22 E andou Enoque com Deus, depois que gerou Matusalém, trezentos anos; e gerou filhos e filhas.
+5:23 E foram todos os dias de Enoque trezentos e sessenta e cinco anos.
+5:24 E andou Enoque com Deus, e ele não [estava mais], porque Deus o tomou.
+5:25 E viveu Matusalém cento e oitenta e sete anos, e gerou Lameque.
+5:26 E viveu Matusalém, depois que gerou Lameque, setecentos e oitenta e dois anos; e gerou filhos e filhas.
+5:27 E foram todos os dias de Matusalém novecentos e sessenta e nove anos; e morreu.
+5:28 E viveu Lameque cento e oitenta e dois anos, e gerou um filho.
+5:29 E chamou o seu nome Noé, dizendo: Este nos consolará da nossa obra e da fadiga das nossas mãos, [que vem] do solo que YHWH amaldiçoou.
+5:30 E viveu Lameque, depois que gerou Noé, quinhentos e noventa e cinco anos; e gerou filhos e filhas.
+5:31 E foram todos os dias de Lameque setecentos e setenta e sete anos; e morreu.
+5:32 E era Noé filho de quinhentos anos; e gerou Noé a Sem, a Cam e a Jafé.
+
+6:1 E aconteceu que, quando o homem começou a multiplicar-se sobre a face do solo, e filhas lhes nasceram,
+6:2 viram os filhos de Deus as filhas do homem, que elas [eram] boas; e tomaram para si mulheres de todas as que escolheram.
+6:3 E disse YHWH: Não contenderá o meu espírito com o homem para sempre, porque também ele [é] carne; e serão os seus dias cento e vinte anos.
+6:4 Os nefilins estavam na terra naqueles dias, e também depois disso, quando entravam os filhos de Deus às filhas do homem, e elas lhes davam à luz; esses [são] os valentes que [houve] desde a antiguidade, os homens de renome.
+6:5 E viu YHWH que era grande o mal do homem na terra, e que toda a inclinação dos pensamentos do seu coração [era] somente mal, todo o dia.
+6:6 E arrependeu-se YHWH de ter feito o homem na terra, e entristeceu-se no seu coração.
+6:7 E disse YHWH: Apagarei o homem que criei de sobre a face do solo, desde o homem até o gado, até o réptil e até a ave dos céus; porque me arrependo de os ter feito.
+6:8 E Noé achou graça aos olhos de YHWH.
+6:9 Estas [são] as gerações de Noé. Noé [era] homem justo, íntegro era nas suas gerações; com Deus andava Noé.
+6:10 E gerou Noé três filhos: Sem, Cam e Jafé.
+6:11 E a terra se corrompeu diante de Deus, e encheu-se a terra de violência.
+6:12 E viu Deus a terra, e eis que estava corrompida, porque toda carne havia corrompido o seu caminho sobre a terra.
+6:13 E disse Deus a Noé: O fim de toda carne veio diante de mim, porque a terra está cheia de violência por causa deles; e eis que eu os destruirei com a terra.
+6:14 Faze para ti uma arca de madeira de gofer; [em] ninhos farás a arca, e a cobrirás de betume por dentro e por fora.
+6:15 E isto [é] como a farás: trezentos côvados o comprimento da arca, cinquenta côvados a sua largura, e trinta côvados a sua altura.
+6:16 Uma abertura de luz farás para a arca, e a um côvado a acabarás por cima; e a porta da arca porás ao seu lado; [com andares] baixos, segundos e terceiros a farás.
+6:17 E eu, eis que trago o dilúvio, águas sobre a terra, para destruir toda carne em que [há] espírito de vida debaixo dos céus; tudo o que [está] na terra expirará.
+6:18 E estabelecerei a minha aliança contigo; e entrarás na arca, tu e os teus filhos, e a tua mulher, e as mulheres dos teus filhos contigo.
+6:19 E de todo vivente, de toda carne, dois de todos farás entrar na arca, para [os] conservar vivos contigo; macho e fêmea serão.
+6:20 Das aves segundo a sua espécie, e do gado segundo a sua espécie, de todo réptil do solo segundo a sua espécie, dois de todos virão a ti, para [os] conservar vivos.
+6:21 E tu, toma para ti de toda comida que se come, e ajunta-a para ti; e será para ti e para eles para alimento.
+6:22 E fez Noé conforme tudo o que Deus lhe ordenara; assim fez.
+
+7:1 E disse YHWH a Noé: Entra tu e toda a tua casa na arca, porque a ti vi justo diante de mim nesta geração.
+7:2 De todo o gado limpo tomarás para ti sete [e] sete, o macho e a sua fêmea; e do gado que não [é] limpo, dois, o macho e a sua fêmea.
+7:3 Também das aves dos céus, sete [e] sete, macho e fêmea, para conservar viva [a] semente sobre a face de toda a terra.
+7:4 Porque, daqui a sete dias, eu farei chover sobre a terra quarenta dias e quarenta noites, e apagarei todo ser existente que fiz de sobre a face do solo.
+7:5 E fez Noé conforme tudo o que YHWH lhe ordenara.
+7:6 E Noé [era] filho de seiscentos anos, e o dilúvio veio, águas sobre a terra.
+7:7 E entrou Noé, e os seus filhos, e a sua mulher, e as mulheres dos seus filhos com ele, na arca, por causa das águas do dilúvio.
+7:8 Do gado limpo, e do gado que não [é] limpo, e das aves, e de todo o que rasteja sobre o solo,
+7:9 dois [e] dois entraram até Noé na arca, macho e fêmea, como Deus ordenara a Noé.
+7:10 E aconteceu, aos sete dias, que as águas do dilúvio estavam sobre a terra.
+7:11 No ano seiscentos da vida de Noé, no segundo mês, no dia dezessete do mês, nesse dia romperam-se todas as fontes do grande abismo, e as janelas dos céus se abriram.
+7:12 E houve chuva sobre a terra quarenta dias e quarenta noites.
+7:13 Nesse mesmo dia entrou Noé, e Sem, e Cam, e Jafé, filhos de Noé, e a mulher de Noé, e as três mulheres dos seus filhos com eles, na arca;
+7:14 eles, e todo animal segundo a sua espécie, e todo o gado segundo a sua espécie, e todo réptil que rasteja sobre a terra segundo a sua espécie, e toda ave segundo a sua espécie: todo pássaro, toda asa.
+7:15 E entraram até Noé na arca, dois [e] dois de toda carne em que [há] espírito de vida.
+7:16 E os que entraram, macho e fêmea de toda carne, entraram como Deus lhe ordenara; e YHWH fechou [a porta] atrás dele.
+7:17 E foi o dilúvio quarenta dias sobre a terra; e multiplicaram-se as águas, e levantaram a arca, e ela se elevou de sobre a terra.
+7:18 E prevaleceram as águas, e multiplicaram-se muito sobre a terra; e andava a arca sobre a face das águas.
+7:19 E as águas prevaleceram muito, muito sobre a terra, e foram cobertos todos os montes altos que [havia] debaixo de todos os céus.
+7:20 Quinze côvados acima prevaleceram as águas, e foram cobertos os montes.
+7:21 E expirou toda carne que rastejava sobre a terra: de aves, e de gado, e de animais, e de todo enxame que enxameava sobre a terra, e todo homem.
+7:22 Tudo o que [tinha] fôlego de espírito de vida nas suas narinas, de tudo o que [havia] em terra seca, morreu.
+7:23 E [ele] apagou todo ser existente que [havia] sobre a face do solo, desde o homem até o gado, até o réptil e até a ave dos céus; e foram apagados da terra; e restou somente Noé, e os que [estavam] com ele na arca.
+7:24 E prevaleceram as águas sobre a terra cento e cinquenta dias.
+
+8:1 E lembrou-se Deus de Noé, e de todos os animais, e de todo o gado que [estavam] com ele na arca; e fez Deus passar um vento sobre a terra, e as águas baixaram.
+8:2 E fecharam-se as fontes do abismo e as janelas dos céus, e foi retida a chuva dos céus.
+8:3 E voltaram as águas de sobre a terra, indo e voltando; e diminuíram as águas ao fim de cento e cinquenta dias.
+8:4 E repousou a arca no sétimo mês, no dia dezessete do mês, sobre os montes de Ararate.
+8:5 E as águas foram indo e diminuindo até o décimo mês; no décimo, no primeiro do mês, apareceram as cabeças dos montes.
+8:6 E aconteceu, ao fim de quarenta dias, que Noé abriu a janela da arca que fizera,
+8:7 e soltou o corvo; e ele saiu, saindo e voltando, até secarem as águas de sobre a terra.
+8:8 E soltou a pomba de junto de si, para ver se as águas tinham diminuído de sobre a face do solo.
+8:9 E não achou a pomba descanso para a planta do seu pé, e voltou a ele, para a arca, porque [havia] águas sobre a face de toda a terra; e ele estendeu a sua mão, e a tomou, e a trouxe para junto de si, para a arca.
+8:10 E esperou ainda outros sete dias, e tornou a soltar a pomba da arca.
+8:11 E a pomba veio a ele à hora da tarde, e eis uma folha de oliveira arrancada na sua boca; e soube Noé que as águas tinham diminuído de sobre a terra.
+8:12 E esperou ainda outros sete dias, e soltou a pomba; e ela não tornou mais a voltar a ele.
+8:13 E aconteceu, no ano seiscentos e um, no primeiro [mês], no primeiro do mês, que secaram as águas de sobre a terra; e Noé removeu a cobertura da arca, e olhou, e eis que a face do solo estava seca.
+8:14 E no segundo mês, no dia vinte e sete do mês, a terra estava seca.
+8:15 E falou Deus a Noé, dizendo:
+8:16 Sai da arca, tu, e a tua mulher, e os teus filhos, e as mulheres dos teus filhos contigo.
+8:17 Todo animal que [está] contigo, de toda carne, de aves, e de gado, e de todo réptil que rasteja sobre a terra, faze sair contigo; e enxameiem na terra, e frutifiquem, e multipliquem-se sobre a terra.
+8:18 E saiu Noé, e os seus filhos, e a sua mulher, e as mulheres dos seus filhos com ele.
+8:19 Todo animal, todo réptil, e toda ave, tudo o que rasteja sobre a terra, segundo as suas famílias, saíram da arca.
+8:20 E edificou Noé um altar a YHWH, e tomou de todo o gado limpo e de toda ave limpa, e ofereceu holocaustos sobre o altar.
+8:21 E cheirou YHWH o aroma agradável, e disse YHWH ao seu coração: Não tornarei mais a amaldiçoar o solo por causa do homem, porque a inclinação do coração do homem [é] má desde a sua mocidade; e não tornarei mais a ferir todo vivente, como fiz.
+8:22 Ainda, por todos os dias da terra, semeadura e colheita, e frio e calor, e verão e inverno, e dia e noite não cessarão.
+
+9:1 E abençoou Deus a Noé e aos seus filhos, e lhes disse: Frutificai e multiplicai-vos, e enchei a terra.
+9:2 E o vosso temor e o vosso pavor estará sobre todo animal da terra e sobre toda ave dos céus; com tudo o que rasteja no solo e com todos os peixes do mar, na vossa mão foram entregues.
+9:3 Todo réptil que vive vos será para alimento; como a erva verde, vos dei tudo.
+9:4 Somente a carne com a sua alma, o seu sangue, não comereis.
+9:5 E certamente o vosso sangue, das vossas almas, requererei; da mão de todo animal o requererei; e da mão do homem, da mão de cada um [sobre] o seu irmão, requererei a alma do homem.
+9:6 Quem derramar o sangue do homem, pelo homem o seu sangue será derramado; porque à imagem de Deus fez o homem.
+9:7 E vós, frutificai e multiplicai-vos; enxameai na terra e multiplicai-vos nela.
+9:8 E disse Deus a Noé e aos seus filhos com ele, dizendo:
+9:9 E eu, eis que estabeleço a minha aliança convosco e com a vossa semente depois de vós,
+9:10 e com toda alma vivente que [está] convosco: de aves, de gado, e de todo animal da terra convosco; de todos os que saíram da arca, até todo animal da terra.
+9:11 E estabelecerei a minha aliança convosco, e não será mais cortada toda carne pelas águas do dilúvio, e não haverá mais dilúvio para destruir a terra.
+9:12 E disse Deus: Este [é] o sinal da aliança que eu ponho entre mim e vós, e entre toda alma vivente que [está] convosco, por gerações perpétuas:
+9:13 O meu arco pus na nuvem, e ele será por sinal de aliança entre mim e a terra.
+9:14 E será que, quando eu trouxer nuvem sobre a terra, e aparecer o arco na nuvem,
+9:15 então me lembrarei da minha aliança, que [está] entre mim e vós e entre toda alma vivente de toda carne; e não se tornarão mais as águas em dilúvio para destruir toda carne.
+9:16 E estará o arco na nuvem, e eu o verei para me lembrar da aliança perpétua entre Deus e toda alma vivente de toda carne que [está] sobre a terra.
+9:17 E disse Deus a Noé: Este [é] o sinal da aliança que estabeleci entre mim e toda carne que [está] sobre a terra.
+9:18 E foram os filhos de Noé que saíram da arca: Sem, e Cam, e Jafé; e Cam, ele [é] o pai de Canaã.
+9:19 Estes três [são] os filhos de Noé, e destes se espalhou toda a terra.
+9:20 E começou Noé, homem do solo, e plantou uma vinha.
+9:21 E bebeu do vinho, e embriagou-se, e descobriu-se no meio da sua tenda.
+9:22 E viu Cam, pai de Canaã, a nudez do seu pai, e [o] contou aos seus dois irmãos, fora.
+9:23 E tomaram Sem e Jafé a capa, e [a] puseram sobre o ombro de ambos, e andaram para trás, e cobriram a nudez do seu pai; e os seus rostos [estavam voltados] para trás, e a nudez do seu pai não viram.
+9:24 E despertou Noé do seu vinho, e soube o que lhe fizera o seu filho pequeno.
+9:25 E disse: Maldito [seja] Canaã; servo de servos será para os seus irmãos.
+9:26 E disse: Bendito [seja] YHWH, Deus de Sem; e seja Canaã servo para eles.
+9:27 Alargue Deus a Jafé, e habite [ele] nas tendas de Sem; e seja Canaã servo para eles.
+9:28 E viveu Noé, depois do dilúvio, trezentos e cinquenta anos.
+9:29 E foram todos os dias de Noé novecentos e cinquenta anos; e morreu.
+
+10:1 E estas [são] as gerações dos filhos de Noé: Sem, Cam e Jafé; e nasceram-lhes filhos depois do dilúvio.
+10:2 Os filhos de Jafé: Gômer, e Magogue, e Madai, e Javã, e Tubal, e Meseque, e Tiras.
+10:3 E os filhos de Gômer: Asquenaz, e Rifate, e Togarma.
+10:4 E os filhos de Javã: Elisá, e Társis, Quitim e Dodanim.
+10:5 Destes se separaram as ilhas das nações nas suas terras, cada um segundo a sua língua, segundo as suas famílias, nas suas nações.
+10:6 E os filhos de Cam: Cuxe, e Mizraim, e Pute, e Canaã.
+10:7 E os filhos de Cuxe: Sebá, e Havilá, e Sabtá, e Raamá, e Sabtecá; e os filhos de Raamá: Sabá e Dedã.
+10:8 E Cuxe gerou Ninrode; ele começou a ser valente na terra.
+10:9 Ele foi valente caçador diante de YHWH; por isso se diz: Como Ninrode, valente caçador diante de YHWH.
+10:10 E foi o princípio do seu reino Babel, e Ereque, e Acade, e Calné, na terra de Sinear.
+10:11 Daquela terra saiu Assur, e edificou Nínive, e Reobote-Ir, e Calá,
+10:12 e Resém, entre Nínive e Calá; ela [é] a cidade grande.
+10:13 E Mizraim gerou os ludim, e os anamim, e os leabim, e os naftuim,
+10:14 e os patrusim, e os casluim, de onde saíram os filisteus, e os caftorim.
+10:15 E Canaã gerou Sidom, seu primogênito, e Hete,
+10:16 e o jebuseu, e o amorreu, e o girgaseu,
+10:17 e o heveu, e o arqueu, e o sineu,
+10:18 e o arvadeu, e o zemareu, e o hamateu; e depois se espalharam as famílias do cananeu.
+10:19 E foi o território do cananeu desde Sidom, indo para Gerar, até Gaza; indo para Sodoma, e Gomorra, e Admá, e Zeboim, até Lasa.
+10:20 Estes [são] os filhos de Cam, segundo as suas famílias, segundo as suas línguas, nas suas terras, nas suas nações.
+10:21 E a Sem, também a ele, nasceram [filhos]; [ele é] o pai de todos os filhos de Éber, irmão de Jafé, o maior.
+10:22 Os filhos de Sem: Elão, e Assur, e Arfaxade, e Lude, e Arã.
+10:23 E os filhos de Arã: Uz, e Hul, e Géter, e Más.
+10:24 E Arfaxade gerou Salá, e Salá gerou Éber.
+10:25 E a Éber nasceram dois filhos: o nome de um [era] Pelegue, porque nos seus dias a terra foi dividida; e o nome do seu irmão [era] Joctã.
+10:26 E Joctã gerou Almodá, e Salefe, e Hazarmavé, e Jerá,
+10:27 e Hadorão, e Uzal, e Dicla,
+10:28 e Obal, e Abimael, e Sabá,
+10:29 e Ofir, e Havilá, e Jobabe; todos estes [foram] filhos de Joctã.
+10:30 E foi a sua habitação desde Messa, indo para Sefar, o monte do oriente.
+10:31 Estes [são] os filhos de Sem, segundo as suas famílias, segundo as suas línguas, nas suas terras, segundo as suas nações.
+10:32 Estas [são] as famílias dos filhos de Noé, segundo as suas gerações, nas suas nações; e destes se separaram as nações na terra depois do dilúvio.
+
+11:1 E era toda a terra de um lábio e de palavras unas.
+11:2 E aconteceu que, partindo eles do oriente, acharam um vale na terra de Sinear, e habitaram ali.
+11:3 E disseram cada um ao seu companheiro: Vinde, façamos tijolos e queimemo-los em queima. E foi-lhes o tijolo por pedra, e o betume foi-lhes por argamassa.
+11:4 E disseram: Vinde, edifiquemos para nós uma cidade e uma torre, e a sua cabeça nos céus; e façamos para nós um nome, para que não nos espalhemos sobre a face de toda a terra.
+11:5 E desceu YHWH para ver a cidade e a torre que edificaram os filhos do homem.
+11:6 E disse YHWH: Eis [que é] um povo, e um lábio para todos eles, e isto [é] o que começaram a fazer; e agora não lhes será impedido tudo o que planejarem fazer.
+11:7 Vinde, desçamos e confundamos ali o seu lábio, para que não ouçam cada um o lábio do seu companheiro.
+11:8 E espalhou-os YHWH dali sobre a face de toda a terra; e cessaram de edificar a cidade.
+11:9 Por isso se chamou o seu nome Babel, porque ali confundiu YHWH o lábio de toda a terra, e dali os espalhou YHWH sobre a face de toda a terra.
+11:10 Estas [são] as gerações de Sem: Sem [era] filho de cem anos, e gerou Arfaxade, dois anos depois do dilúvio.
+11:11 E viveu Sem, depois que gerou Arfaxade, quinhentos anos; e gerou filhos e filhas.
+11:12 E Arfaxade viveu trinta e cinco anos, e gerou Salá.
+11:13 E viveu Arfaxade, depois que gerou Salá, quatrocentos e três anos; e gerou filhos e filhas.
+11:14 E Salá viveu trinta anos, e gerou Éber.
+11:15 E viveu Salá, depois que gerou Éber, quatrocentos e três anos; e gerou filhos e filhas.
+11:16 E viveu Éber trinta e quatro anos, e gerou Pelegue.
+11:17 E viveu Éber, depois que gerou Pelegue, quatrocentos e trinta anos; e gerou filhos e filhas.
+11:18 E viveu Pelegue trinta anos, e gerou Reú.
+11:19 E viveu Pelegue, depois que gerou Reú, duzentos e nove anos; e gerou filhos e filhas.
+11:20 E viveu Reú trinta e dois anos, e gerou Serugue.
+11:21 E viveu Reú, depois que gerou Serugue, duzentos e sete anos; e gerou filhos e filhas.
+11:22 E viveu Serugue trinta anos, e gerou Naor.
+11:23 E viveu Serugue, depois que gerou Naor, duzentos anos; e gerou filhos e filhas.
+11:24 E viveu Naor vinte e nove anos, e gerou Terá.
+11:25 E viveu Naor, depois que gerou Terá, cento e dezenove anos; e gerou filhos e filhas.
+11:26 E viveu Terá setenta anos, e gerou Abrão, Naor e Harã.
+11:27 E estas [são] as gerações de Terá: Terá gerou Abrão, Naor e Harã; e Harã gerou Ló.
+11:28 E morreu Harã diante de Terá, seu pai, na terra do seu nascimento, em Ur dos caldeus.
+11:29 E tomaram Abrão e Naor para si mulheres: o nome da mulher de Abrão [era] Sarai, e o nome da mulher de Naor, Milca, filha de Harã, pai de Milca e pai de Iscá.
+11:30 E Sarai era estéril; não tinha filho.
+11:31 E tomou Terá a Abrão, seu filho, e a Ló, filho de Harã, filho do seu filho, e a Sarai, sua nora, mulher de Abrão, seu filho; e saíram com eles de Ur dos caldeus, para ir à terra de Canaã; e vieram até Harã, e habitaram ali.
+11:32 E foram os dias de Terá duzentos e cinco anos; e morreu Terá em Harã.

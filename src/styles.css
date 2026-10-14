@@ -132,6 +132,12 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   font-family: var(--font-hebrew);
 }
 
+/* Palavra acrescentada na tradução (no texto, entre colchetes). */
+.added-word {
+  font-style: italic;
+  color: var(--c-muted);
+}
+
 /* ---------- Superfícies ---------- */
 
 /* Fundo da página: um halo de tekhelet no topo, sem ruído. */

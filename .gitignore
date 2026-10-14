@@ -9,3 +9,6 @@ dist
 .env.*
 .project_id
 .wrangler
+
+# Texto hebraico baixado para montar o acervo (tools/acervo/build.mjs)
+tools/acervo/.cache
