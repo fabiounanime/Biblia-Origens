@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { BrandMark, Wordmark, cx } from "@/components/ui";
 
-/** Contato de quem responde pelo app (o mesmo e-mail de suporte do login com Google). */
-export const CONTACT_EMAIL = "fabiounanime@gmail.com";
+/** Contato público do app (encaminhado pela Cloudflare Email Routing). */
+export const CONTACT_EMAIL = "contato@bibliaorigens.app";
 export const LEGAL_UPDATED_AT = "14 de outubro de 2026";
 
 /**
