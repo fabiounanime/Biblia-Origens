@@ -17,12 +17,19 @@ export const Route = createRootRoute({
         content: "Leitura do Tanakh em português direto, hebraico e transliterado.",
       },
       { name: "theme-color", content: "#0d1120" },
+      // Nome do ícone na Tela de Início (iPhone) e no Android.
+      { name: "apple-mobile-web-app-title", content: APP_NAME },
+      { name: "application-name", content: APP_NAME },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       { rel: "stylesheet", href: appCss },
-      { rel: "manifest", href: "/__grok/manifest.webmanifest" },
-      { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
+      // Manifesto e ícone próprios do app. Ficam antes dos que a camada do Grok
+      // acrescenta no fim do <head>: o navegador usa o primeiro manifesto, e o
+      // iPhone escolhe o ícone com sizes="180x180" (sem sizes conta como 60x60).
+      { rel: "manifest", href: "/manifest.webmanifest" },
+      { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-touch-icon.png" },
+      { rel: "icon", type: "image/png", sizes: "192x192", href: "/icons/icon-192.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
