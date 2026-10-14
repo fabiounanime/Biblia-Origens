@@ -1,0 +1,16 @@
+# Bíblia Origens — https://bibliaorigens.app
+# Páginas públicas abertas aos buscadores; o app em si exige login.
+User-agent: *
+Allow: /$
+Allow: /privacidade
+Allow: /termos
+Disallow: /api/
+Disallow: /diagnostico
+Disallow: /inicio
+Disallow: /ler
+Disallow: /estudos
+Disallow: /mapas
+Disallow: /conta
+Disallow: /__grok/
+
+Sitemap: https://bibliaorigens.app/sitemap.xml
