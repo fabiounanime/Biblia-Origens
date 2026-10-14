@@ -1,21 +1,31 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { Wordmark } from "@/components/ui";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 
 export const Route = createFileRoute("/")({ component: Splash });
 
+/** Quanto tempo a abertura fica na tela, contado desde que ela aparece. */
+const SPLASH_MS = 6000;
+
 function Splash() {
   const navigate = useNavigate();
   const { user, isPending } = useCurrentUserState();
+  const shownAt = useRef<number | null>(null);
+
+  useEffect(() => {
+    shownAt.current ??= performance.now();
+  }, []);
 
   useEffect(() => {
     if (isPending) return;
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Os 6 s contam desde que a abertura apareceu, não desde que a sessão
+    // terminou de carregar: quem já está logado não espera mais que isso.
+    const elapsed = performance.now() - (shownAt.current ?? performance.now());
     const timer = window.setTimeout(() => {
       // Com sessão, vai ao menu. Sem sessão, só o login libera o app.
-      void navigate({ to: user ? "/inicio" : "/login" });
-    }, reduce ? 500 : 2800);
+      void navigate({ to: user ? "/inicio" : "/login", replace: true });
+    }, Math.max(0, SPLASH_MS - elapsed));
     return () => window.clearTimeout(timer);
   }, [navigate, user, isPending]);
 
