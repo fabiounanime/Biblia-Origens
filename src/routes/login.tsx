@@ -264,6 +264,17 @@ function LoginPage() {
                   Ver diagnóstico
                 </Link>
               </p>
+              <p className="mt-4 text-center text-xs text-muted">
+                Ao continuar, você concorda com os{" "}
+                <Link to="/termos" className="underline underline-offset-2 hover:text-fg">
+                  Termos de Serviço
+                </Link>{" "}
+                e a{" "}
+                <Link to="/privacidade" className="underline underline-offset-2 hover:text-fg">
+                  Política de Privacidade
+                </Link>
+                .
+              </p>
             </>
           ) : (
             <p className="mt-8 rounded-2xl border border-line bg-surface px-4 py-3 text-muted">

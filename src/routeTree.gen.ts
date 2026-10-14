@@ -15,6 +15,8 @@ import { Route as DiagnosticoRouteImport } from './routes/diagnostico'
 import { Route as InicioRouteImport } from './routes/inicio'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as MapasRouteImport } from './routes/mapas'
+import { Route as PrivacidadeRouteImport } from './routes/privacidade'
+import { Route as TermosRouteImport } from './routes/termos'
 import { Route as EstudosIndexRouteImport } from './routes/estudos/index'
 import { Route as EstudosGuideIdRouteImport } from './routes/estudos/$guideId'
 import { Route as LerIndexRouteImport } from './routes/ler/index'
@@ -52,6 +54,16 @@ const LoginRoute = LoginRouteImport.update({
 const MapasRoute = MapasRouteImport.update({
   id: '/mapas',
   path: '/mapas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacidadeRoute = PrivacidadeRouteImport.update({
+  id: '/privacidade',
+  path: '/privacidade',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermosRoute = TermosRouteImport.update({
+  id: '/termos',
+  path: '/termos',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EstudosIndexRoute = EstudosIndexRouteImport.update({
@@ -102,6 +114,8 @@ export interface FileRoutesByFullPath {
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/estudos/$guideId': typeof EstudosGuideIdRoute
   '/ler/$book': typeof LerBookRouteWithChildren
   '/estudos/': typeof EstudosIndexRoute
@@ -118,6 +132,8 @@ export interface FileRoutesByTo {
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/estudos/$guideId': typeof EstudosGuideIdRoute
   '/estudos': typeof EstudosIndexRoute
   '/ler': typeof LerIndexRoute
@@ -134,6 +150,8 @@ export interface FileRoutesById {
   '/inicio': typeof InicioRoute
   '/login': typeof LoginRoute
   '/mapas': typeof MapasRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/estudos/$guideId': typeof EstudosGuideIdRoute
   '/ler/$book': typeof LerBookRouteWithChildren
   '/estudos/': typeof EstudosIndexRoute
@@ -152,6 +170,8 @@ export interface FileRouteTypes {
     | '/inicio'
     | '/login'
     | '/mapas'
+    | '/privacidade'
+    | '/termos'
     | '/estudos/$guideId'
     | '/ler/$book'
     | '/estudos/'
@@ -168,6 +188,8 @@ export interface FileRouteTypes {
     | '/inicio'
     | '/login'
     | '/mapas'
+    | '/privacidade'
+    | '/termos'
     | '/estudos/$guideId'
     | '/estudos'
     | '/ler'
@@ -183,6 +205,8 @@ export interface FileRouteTypes {
     | '/inicio'
     | '/login'
     | '/mapas'
+    | '/privacidade'
+    | '/termos'
     | '/estudos/$guideId'
     | '/ler/$book'
     | '/estudos/'
@@ -200,6 +224,8 @@ export interface RootRouteChildren {
   InicioRoute: typeof InicioRoute
   LoginRoute: typeof LoginRoute
   MapasRoute: typeof MapasRoute
+  PrivacidadeRoute: typeof PrivacidadeRoute
+  TermosRoute: typeof TermosRoute
   EstudosGuideIdRoute: typeof EstudosGuideIdRoute
   LerBookRoute: typeof LerBookRouteWithChildren
   EstudosIndexRoute: typeof EstudosIndexRoute
@@ -250,6 +276,20 @@ declare module '@tanstack/react-router' {
       path: '/mapas'
       fullPath: '/mapas'
       preLoaderRoute: typeof MapasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacidade': {
+      id: '/privacidade'
+      path: '/privacidade'
+      fullPath: '/privacidade'
+      preLoaderRoute: typeof PrivacidadeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/termos': {
+      id: '/termos'
+      path: '/termos'
+      fullPath: '/termos'
+      preLoaderRoute: typeof TermosRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/estudos/': {
@@ -331,6 +371,8 @@ const rootRouteChildren: RootRouteChildren = {
   InicioRoute: InicioRoute,
   LoginRoute: LoginRoute,
   MapasRoute: MapasRoute,
+  PrivacidadeRoute: PrivacidadeRoute,
+  TermosRoute: TermosRoute,
   EstudosGuideIdRoute: EstudosGuideIdRoute,
   LerBookRoute: LerBookRouteWithChildren,
   EstudosIndexRoute: EstudosIndexRoute,
