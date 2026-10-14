@@ -2,10 +2,10 @@
 # Páginas públicas abertas aos buscadores; o app em si exige login.
 User-agent: *
 Allow: /$
-Allow: /sobre
 Allow: /privacidade
 Allow: /termos
 Disallow: /api/
+Disallow: /abrir
 Disallow: /diagnostico
 Disallow: /inicio
 Disallow: /ler

@@ -259,7 +259,7 @@ function LoginPage() {
                 </>
               ) : null}
               <p className="mt-8 text-center text-sm text-muted">
-                <Link to="/sobre" className="font-medium text-tekhelet hover:underline">
+                <Link to="/" className="font-medium text-tekhelet hover:underline">
                   Conheça o app
                 </Link>
                 {" · "}
