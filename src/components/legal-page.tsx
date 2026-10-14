@@ -25,7 +25,7 @@ export function LegalPage({
     <div className="app-backdrop min-h-dvh text-fg">
       <header className="glass sticky top-0 z-30 border-b border-line/70">
         <div className="mx-auto flex h-14 max-w-3xl items-center justify-between gap-4 px-4 sm:px-6">
-          <Link to="/sobre" className="flex items-center gap-2.5">
+          <Link to="/" className="flex items-center gap-2.5">
             <BrandMark className="size-8" />
             <Wordmark className="text-[1.2rem] leading-none" />
           </Link>
@@ -52,7 +52,7 @@ export function LegalPage({
           <Link to="/termos" className={cx("font-medium hover:underline", current === "termos" ? "text-fg" : "text-tekhelet")}>
             Termos de Serviço
           </Link>
-          <Link to="/sobre" className="font-medium text-tekhelet hover:underline">
+          <Link to="/" className="font-medium text-tekhelet hover:underline">
             Sobre o app
           </Link>
           <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-tekhelet hover:underline">
