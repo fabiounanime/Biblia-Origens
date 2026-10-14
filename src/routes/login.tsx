@@ -259,6 +259,10 @@ function LoginPage() {
                 </>
               ) : null}
               <p className="mt-8 text-center text-sm text-muted">
+                <Link to="/sobre" className="font-medium text-tekhelet hover:underline">
+                  Conheça o app
+                </Link>
+                {" · "}
                 Problemas para entrar?{" "}
                 <Link to="/diagnostico" className="font-medium text-tekhelet hover:underline">
                   Ver diagnóstico
