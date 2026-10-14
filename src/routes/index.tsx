@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { ThreadRing } from "@/components/ui";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 
@@ -34,12 +34,6 @@ function Splash() {
       </div>
       <h1 className="splash-title relative mt-10 text-5xl font-extrabold tracking-tight">Bíblia Origens</h1>
       <p className="splash-slogan relative mt-3 font-read text-2xl text-soft italic">A Palavra, desde a origem.</p>
-      <Link
-        to={user ? "/inicio" : "/login"}
-        className="splash-cta relative mt-10 inline-flex h-12 items-center rounded-full bg-tekhelet px-8 text-lg font-semibold text-on-accent shadow-float"
-      >
-        Entrar
-      </Link>
     </main>
   );
 }

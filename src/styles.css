@@ -181,7 +181,6 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
 .splash-seal { animation: ring 1s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
 .splash-title { animation: rise 0.9s ease 0.3s both; }
 .splash-slogan { animation: rise 0.9s ease 0.65s both; }
-.splash-cta { animation: rise 0.9s ease 1s both; }
 
 .pin-active { animation: pulse-ring 1.6s ease-out infinite; }
 .pop { animation: pop 0.32s ease; }
@@ -193,7 +192,6 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   .splash-seal,
   .splash-title,
   .splash-slogan,
-  .splash-cta,
   .pin-active,
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }
