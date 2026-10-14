@@ -2,7 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-router";
 import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
-import { BrandMark, Segmented, ThreadRing } from "@/components/ui";
+import { BrandMark, Segmented, ThreadRing, Wordmark } from "@/components/ui";
 import type { GoogleMode } from "@/lib/diagnostics";
 
 type LoginSearch = { error?: string };
@@ -142,7 +142,7 @@ function LoginPage() {
         />
         <div className="relative flex items-center gap-3">
           <BrandMark className="size-10" />
-          <span className="text-lg font-bold tracking-tight">Bíblia Origens</span>
+          <Wordmark className="text-[1.35rem] leading-none" />
         </div>
         <div className="relative">
           <p className="he text-7xl leading-tight text-zahav" lang="he" dir="rtl">

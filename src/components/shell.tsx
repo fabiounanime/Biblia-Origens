@@ -5,7 +5,7 @@ import { SIGN_IN_PATH } from "@/lib/auth/gates";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { bookById } from "@/lib/bible/catalog";
 import { useStudy } from "@/lib/study/store";
-import { Avatar, BrandMark, cx } from "@/components/ui";
+import { Avatar, BrandMark, Wordmark, cx } from "@/components/ui";
 
 const NAV = [
   { to: "/inicio", label: "Início", icon: House },
@@ -89,7 +89,7 @@ export function Shell({
         <header className="glass sticky top-0 z-30 flex h-14 items-center justify-between border-b border-line/70 px-4 md:hidden">
           <Link to="/inicio" className="flex items-center gap-2.5">
             <BrandMark className="size-8" />
-            <span className="text-[1.05rem] font-bold tracking-tight">Bíblia Origens</span>
+            <Wordmark className="text-[1.2rem] leading-none" />
           </Link>
           <Link to="/conta" aria-label="Conta" className="rounded-full">
             <Avatar name={name} image={user.profileImageUrl} className="size-8 text-sm" />
@@ -102,8 +102,8 @@ export function Shell({
         <Link to="/inicio" className="flex items-center gap-3 px-2">
           <BrandMark className="size-10" />
           <span className="leading-tight">
-            <span className="block text-lg font-bold tracking-tight">Bíblia Origens</span>
-            <span className="block text-sm text-muted">Tanakh em três camadas</span>
+            <Wordmark className="block text-[1.2rem] leading-none" />
+            <span className="mt-1 block text-sm text-muted">Tanakh em três camadas</span>
           </span>
         </Link>
         <nav className="mt-8 flex flex-col gap-1" aria-label="Principal">
