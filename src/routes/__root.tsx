@@ -22,7 +22,8 @@ export const Route = createRootRoute({
       { name: "application-name", content: APP_NAME },
     ],
     links: [
-      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32.png" },
+      { rel: "icon", href: "/favicon.ico", sizes: "48x48" },
       { rel: "stylesheet", href: appCss },
       // Manifesto e ícone próprios do app. Ficam antes dos que a camada do Grok
       // acrescenta no fim do <head>: o navegador usa o primeiro manifesto, e o

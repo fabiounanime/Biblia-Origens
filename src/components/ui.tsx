@@ -1,4 +1,4 @@
-import { useId, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { Drawer } from "vaul";
 import { X } from "lucide-react";
 
@@ -21,36 +21,19 @@ export function ThreadRing({ className = "size-36" }: { className?: string }) {
   );
 }
 
-/** Marca: um rolo de Torá aberto, ouro sobre azul noturno. */
+/** Marca: a árvore que nasce do livro aberto (mesmo desenho do ícone do app). */
 export function BrandMark({ className = "size-9" }: { className?: string }) {
-  // Id único: um gradiente definido num SVG oculto (display:none) não pinta os outros.
-  const gradient = `bo-mark-${useId().replace(/[^a-zA-Z0-9_-]/g, "")}`;
   return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
-      <defs>
-        <linearGradient id={gradient} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#2a3a8f" />
-          <stop offset="1" stopColor="#141a3a" />
-        </linearGradient>
-      </defs>
-      <rect width="32" height="32" rx="9" fill={`url(#${gradient})`} />
-      <path
-        d="M7.2 10.2c1.1-.7 2.2-.4 2.6.6.3.7.2 1.5 0 2.2v7.2c.2.7.3 1.5 0 2.2-.4 1-1.5 1.3-2.6.6"
-        fill="none"
-        stroke="#f4bb4a"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-      />
-      <path
-        d="M24.8 10.2c-1.1-.7-2.2-.4-2.6.6-.3.7-.2 1.5 0 2.2v7.2c-.2.7-.3 1.5 0 2.2.4 1 1.5 1.3 2.6.6"
-        fill="none"
-        stroke="#f4bb4a"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-      />
-      <rect x="10.2" y="9.4" width="11.6" height="13.2" rx="1.2" fill="#f1ede4" />
-      <path d="M12.4 13h7.2M12.4 16h7.2M14.8 19h4.8" stroke="#5b8cff" strokeWidth="1.2" strokeLinecap="round" />
-    </svg>
+    <img
+      src="/icons/logo-144.png"
+      alt=""
+      aria-hidden="true"
+      width={144}
+      height={144}
+      decoding="async"
+      className={cx("shrink-0 select-none", className)}
+      draggable={false}
+    />
   );
 }
 
