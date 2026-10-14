@@ -40,6 +40,11 @@ export const Route = createRootRoute({
     ],
     scripts: [
       {
+        // Endereço oficial: quem abrir pelo endereço antigo (*.workers.dev) ou
+        // pelo "www" vai para https://bibliaorigens.app no mesmo caminho.
+        children: `(function(){var h=location.hostname;if(h==="www.bibliaorigens.app"||/\\.workers\\.dev$/.test(h)){location.replace("https://bibliaorigens.app"+location.pathname+location.search+location.hash);}})();`,
+      },
+      {
         children: `(function(){try{var r=localStorage.getItem("bo-study-v1");if(!r)return;var s=JSON.parse(r);if(s.theme==="light")document.documentElement.classList.add("light");if(s.fontScale)document.documentElement.dataset.scale=s.fontScale;}catch(e){}})();`,
       },
     ],
