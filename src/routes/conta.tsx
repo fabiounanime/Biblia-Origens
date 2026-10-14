@@ -163,6 +163,14 @@ function ContaPage() {
             </ul>
           )}
         </section>
+        <nav className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Documentos">
+          <Link to="/privacidade" className="font-medium text-tekhelet hover:underline">
+            Política de Privacidade
+          </Link>
+          <Link to="/termos" className="font-medium text-tekhelet hover:underline">
+            Termos de Serviço
+          </Link>
+        </nav>
       </Page>
     </Shell>
   );

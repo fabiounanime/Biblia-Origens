@@ -152,6 +152,15 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
 
 .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
 
+/* ---------- Páginas de texto (privacidade, termos) ---------- */
+
+.legal { line-height: 1.7; }
+.legal ul { list-style: disc; padding-left: 1.25rem; }
+.legal li + li { margin-top: 0.4rem; }
+.legal li::marker { color: var(--c-zahav); }
+.legal strong { color: var(--c-fg); font-weight: 600; }
+.legal a { color: var(--c-tekhelet); text-decoration: underline; text-underline-offset: 3px; }
+
 /* ---------- Abertura: nome em estilo manuscrito ---------- */
 
 /*
