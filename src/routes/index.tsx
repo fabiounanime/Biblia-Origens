@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { ThreadRing } from "@/components/ui";
+import { Wordmark } from "@/components/ui";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 
 export const Route = createFileRoute("/")({ component: Splash });
@@ -20,20 +20,25 @@ function Splash() {
   }, [navigate, user, isPending]);
 
   return (
-    <main className="app-backdrop relative flex min-h-dvh flex-col items-center justify-center overflow-hidden px-6 text-center text-fg">
+    <main className="brand-dark app-backdrop relative flex min-h-dvh flex-col items-center justify-center overflow-hidden px-6 text-center text-fg">
       <div
         className="splash-photo pointer-events-none absolute -top-1/3 left-1/2 size-[46rem] -translate-x-1/2 rounded-full opacity-40 blur-3xl"
         style={{ background: "radial-gradient(circle, rgb(91 140 255 / 0.55), rgb(182 124 255 / 0.25) 45%, transparent 70%)" }}
         aria-hidden="true"
       />
-      <div className="splash-seal relative grid place-items-center">
-        <ThreadRing className="size-36" />
-        <p className="he absolute text-5xl text-zahav" lang="he" dir="rtl">
-          יהוה
-        </p>
+      <img
+        src="/icons/logo-360.png"
+        alt=""
+        width={168}
+        height={168}
+        className="splash-seal splash-logo relative size-[168px]"
+        draggable={false}
+      />
+      <Wordmark as="h1" className="splash-title wordmark-lg relative mt-8 text-[2.75rem] leading-[1.05]" />
+      <div className="splash-rule ornament-rule relative mt-4" aria-hidden="true">
+        ✦
       </div>
-      <h1 className="splash-title relative mt-10 text-5xl font-extrabold tracking-tight">Bíblia Origens</h1>
-      <p className="splash-slogan relative mt-3 font-read text-2xl text-soft italic">A Palavra, desde a origem.</p>
+      <p className="splash-slogan manuscript-italic relative mt-3 text-[1.45rem] text-soft">A Palavra, desde a origem.</p>
     </main>
   );
 }

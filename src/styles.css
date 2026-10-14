@@ -152,6 +152,82 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
 
 .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
 
+/* ---------- Abertura: nome em estilo manuscrito ---------- */
+
+/*
+ * Marca "Bíblia Origens": letra uncial (Uncial Antiqua) em tinta de pergaminho,
+ * dourado envelhecido com a textura do papel. Usada em todo lugar onde o nome
+ * aparece; .wordmark-lg acrescenta a sombra funda da abertura.
+ */
+.wordmark {
+  font-family: "Uncial Antiqua", "Frank Ruhl Libre", serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  background:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .24  0 0 0 0 .1  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    linear-gradient(180deg, #fbeccb 0%, #ecd39c 38%, #d4ac63 62%, #b98a45 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 1px 0 rgb(60 38 12 / 0.55));
+}
+.wordmark-lg {
+  filter: drop-shadow(0 2px 0 rgb(60 38 12 / 0.55)) drop-shadow(0 8px 18px rgb(0 0 0 / 0.45));
+}
+/* Modo claro: tinta mais escura para manter o contraste sobre o fundo claro. */
+html.light .wordmark {
+  background:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2  0 0 0 0 .12  0 0 0 0 .03  0 0 0 .45 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    linear-gradient(180deg, #b8862c 0%, #93651a 55%, #6f4a10 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: none;
+}
+/* A abertura é sempre escura: volta à tinta clara mesmo no modo claro. */
+html.light .brand-dark .wordmark {
+  background:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .24  0 0 0 0 .1  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    linear-gradient(180deg, #fbeccb 0%, #ecd39c 38%, #d4ac63 62%, #b98a45 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 0 rgb(60 38 12 / 0.55)) drop-shadow(0 8px 18px rgb(0 0 0 / 0.45));
+}
+
+.manuscript-italic {
+  font-family: "IM Fell English", "Literata", Georgia, serif;
+  font-style: italic;
+}
+
+.ornament-rule {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #d4ac63;
+}
+.ornament-rule::before,
+.ornament-rule::after {
+  content: "";
+  width: 3.4rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d4ac63);
+}
+.ornament-rule::after { transform: scaleX(-1); }
+
+/* A abertura fica sempre no fundo noturno, mesmo com o modo claro ligado. */
+.brand-dark {
+  --c-bg: #0d1120;
+  --c-fg: #f1ede4;
+  --c-soft: #c9ccdc;
+  --c-glow: 91 140 255;
+  color-scheme: dark;
+  background-color: var(--c-bg);
+  color: var(--c-fg);
+}
+
+.splash-logo {
+  filter: drop-shadow(0 18px 30px rgb(0 0 0 / 0.55)) drop-shadow(0 0 40px rgb(244 187 74 / 0.12));
+}
+
 /* ---------- Movimento ---------- */
 
 @keyframes rise {
@@ -181,6 +257,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
 .splash-seal { animation: ring 1s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
 .splash-title { animation: rise 0.9s ease 0.3s both; }
 .splash-slogan { animation: rise 0.9s ease 0.65s both; }
+.splash-rule { animation: rise 0.9s ease 0.5s both; }
 
 .pin-active { animation: pulse-ring 1.6s ease-out infinite; }
 .pop { animation: pop 0.32s ease; }
@@ -192,6 +269,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   .splash-seal,
   .splash-title,
   .splash-slogan,
+  .splash-rule,
   .pin-active,
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }

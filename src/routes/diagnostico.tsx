@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState, type ReactElement } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CircleCheck, CircleX, RefreshCw, TriangleAlert } from "lucide-react";
-import { BrandMark, cx } from "@/components/ui";
+import { BrandMark, Wordmark, cx } from "@/components/ui";
 import type { Diagnosis, DiagnosisCheck } from "@/lib/diagnostics";
 
 export const Route = createFileRoute("/diagnostico")({
@@ -43,7 +43,7 @@ function DiagnosticoPage() {
       <div className="mx-auto max-w-2xl">
         <div className="flex items-center gap-3">
           <BrandMark className="size-10" />
-          <span className="text-lg font-bold tracking-tight">Bíblia Origens</span>
+          <Wordmark className="text-[1.35rem] leading-none" />
         </div>
         <h1 className="mt-8 text-[2rem] leading-tight font-bold tracking-tight">Diagnóstico do login</h1>
         <p className="mt-2 text-muted">
