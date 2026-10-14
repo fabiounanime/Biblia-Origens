@@ -521,7 +521,7 @@ function PtText({ text }: { text: string }) {
   );
 }
 
-/** Origem do texto, ao fim de cada capítulo publicado. */
+/** Como ler a tradução, ao fim de cada capítulo publicado. */
 function SourceNote() {
   return (
     <aside className="mt-8 rounded-2xl border border-line bg-surface/60 px-4 py-3.5 text-[13px] leading-relaxed text-muted">
@@ -533,18 +533,6 @@ function SourceNote() {
           יהוה
         </span>{" "}
         aparece como YHWH.
-      </p>
-      <p className="mt-1.5">
-        Texto hebraico: Códice de Leningrado (domínio público), pela{" "}
-        <a
-          href="https://github.com/openscriptures/morphhb"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-2 hover:text-soft"
-        >
-          Open Scriptures Hebrew Bible
-        </a>{" "}
-        (CC BY 4.0).
       </p>
     </aside>
   );

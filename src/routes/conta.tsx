@@ -171,6 +171,10 @@ function ContaPage() {
             Termos de Serviço
           </Link>
         </nav>
+        {/* Atribuição exigida pela licença CC BY 4.0 da fonte do texto hebraico. */}
+        <p className="mt-4 text-xs text-muted">
+          Texto hebraico: Códice de Leningrado, pela Open Scriptures Hebrew Bible (CC BY 4.0).
+        </p>
       </Page>
     </Shell>
   );
