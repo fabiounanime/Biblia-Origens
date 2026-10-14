@@ -4,7 +4,7 @@ PWA de leitura do Tanakh para estudo: português em tradução direta, hebraico 
 
 ## Acervo: hebraico, tradução e transliterado
 
-- **Hebraico**: Códice de Leningrado (domínio público), lido da [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb) (CC BY 4.0), com nikud e sem os acentos de cantilação. Onde há ketiv/qere, o leitor mostra a leitura (qere). Versificação hebraica.
+- **Hebraico**: Códice de Leningrado (domínio público), lido da [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb) (CC BY 4.0), com nikud e sem os acentos de cantilação. Onde há ketiv/qere, o leitor mostra a leitura (qere), inclusive quando ela tem mais de uma palavra (Gn 30:11). Versificação hebraica.
 - **Português**: tradução direta e fiel do hebraico, sem seguir versões, em `acervo/traducao/{livro}.txt` (uma linha por versículo, `1:1 texto`). Convenções no topo de cada arquivo: יהוה = YHWH, nomes tradicionais, vav mantido como "E", infinitivo absoluto ao pé da letra, e [colchetes] para palavras que não estão no hebraico (o leitor as mostra em itálico claro). Cada lote é conferido por um revisor independente contra o hebraico e a análise gramatical.
 - **Transliterado**: gerado do hebraico por `tools/acervo/translit.mjs`, no estilo simples (*Bereshit bara Elohim*).
 
@@ -12,11 +12,11 @@ Para montar um livro:
 
 ```sh
 git clone --depth 1 https://github.com/openscriptures/morphhb tools/acervo/.cache/morphhb
-node tools/acervo/build.mjs gn              # gera public/content/bible/gn.json
+node tools/acervo/build.mjs gn              # gera public/content/bible/gn.json (OSHB_DIR aponta outra pasta wlc/)
 node tools/acervo/build.mjs gn --estudo 12  # hebraico com a análise de cada palavra, para traduzir
 ```
 
-Só entram no JSON os capítulos com todos os versículos traduzidos; os outros mostram "ainda não chegou ao acervo". Publicado: Gênesis 1–11.
+Só entram no JSON os capítulos com todos os versículos traduzidos; os outros mostram "ainda não chegou ao acervo". Publicado: Gênesis completo (50 capítulos, 1.533 versículos), em versificação hebraica (ex.: Gn 32:1 hebraico = 31:55 nas bíblias em português).
 
 Formato de `public/content/bible/{bookId}.json`:
 
