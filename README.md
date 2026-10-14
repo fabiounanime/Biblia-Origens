@@ -40,3 +40,7 @@ Segredos/variáveis do Worker (painel da Cloudflare → Workers → biblia-orige
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Login direto com Google. No Google Cloud, cadastre o retorno `https://biblia-origens.fabiounanime.workers.dev/api/auth/callback/google`. |
 
 A página `/diagnostico` mostra o que está configurado e o que falta, sem expor segredos.
+
+## Ícone e nome na Tela de Início
+
+`public/manifest.webmanifest` e `public/icons/` definem o nome "Bíblia Origens" e o ícone do app instalado. Os links ficam em `src/routes/__root.tsx`, antes dos que a camada do Grok acrescenta (o navegador usa o primeiro manifesto; o iPhone escolhe o ícone com `sizes="180x180"`).
