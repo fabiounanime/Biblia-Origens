@@ -29,15 +29,18 @@ Os identificadores dos livros estão em `src/lib/bible/catalog.ts`.
 
 ## Login no Cloudflare Workers
 
+Domínio oficial: **https://bibliaorigens.app** (Custom Domain do Worker `biblia-origens`).
+
+
 Segredos/variáveis do Worker (painel da Cloudflare → Workers → biblia-origens → Settings → Variables and Secrets):
 
 | Nome | Para quê |
 | --- | --- |
 | `DATABASE_URL` | Postgres (ex.: Neon). As tabelas são criadas sozinhas na primeira requisição. |
 | `BETTER_AUTH_SECRET` | Chave fixa das sessões. |
-| `BETTER_AUTH_URL` | Já vem do `wrangler.jsonc`: o endereço exato em que o app abre. |
-| `BETTER_AUTH_TRUSTED_ORIGINS` | Opcional: outros endereços do app, separados por vírgula (ex.: domínio próprio). |
-| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Login direto com Google. No Google Cloud, cadastre o retorno `https://biblia-origens.fabiounanime.workers.dev/api/auth/callback/google`. |
+| `BETTER_AUTH_URL` | Já vem do `wrangler.jsonc`: `https://bibliaorigens.app`, o endereço oficial. |
+| `BETTER_AUTH_TRUSTED_ORIGINS` | Já vem do `wrangler.jsonc`: `www.bibliaorigens.app` e o endereço `*.workers.dev`, que também podem abrir o app. |
+| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Login direto com Google. No Google Cloud, origem `https://bibliaorigens.app` e retorno `https://bibliaorigens.app/api/auth/callback/google`. |
 
 A página `/diagnostico` mostra o que está configurado e o que falta, sem expor segredos.
 
