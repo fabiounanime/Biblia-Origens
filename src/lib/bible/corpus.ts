@@ -38,10 +38,21 @@ function isVerse(value: unknown): value is Verse {
   );
 }
 
+/** Um livro inteiro vem num arquivo; guarda-se na memória para trocar de capítulo sem baixar de novo. */
+const books = new Map<string, Promise<unknown>>();
+
+function loadBook(bookId: string): Promise<unknown> {
+  const cached = books.get(bookId);
+  if (cached) return cached;
+  const request = fetch(`/content/bible/${bookId}.json`).then((response) => (response.ok ? response.json() : null));
+  books.set(bookId, request);
+  // Falha de rede não fica guardada: a próxima abertura tenta outra vez.
+  request.catch(() => books.delete(bookId));
+  return request;
+}
+
 export async function loadChapter(bookId: string, chapter: number): Promise<Verse[] | null> {
-  const response = await fetch(`/content/bible/${bookId}.json`);
-  if (!response.ok) return null;
-  const data: unknown = await response.json();
+  const data: unknown = await loadBook(bookId);
   if (!data || typeof data !== "object") return null;
   const chapters = (data as { chapters?: unknown }).chapters;
   if (!Array.isArray(chapters)) return null;
