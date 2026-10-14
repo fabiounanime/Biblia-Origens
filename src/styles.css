@@ -276,11 +276,13 @@ html.light .brand-dark .wordmark {
 }
 
 /*
- * Fora de @layer de propósito: precisa vencer o "body{visibility:hidden}" do
- * CSS crítico em __root.tsx (estilos sem camada ganham dos com camada, e este
- * arquivo vem depois no documento). Quando este CSS chega, a página aparece.
+ * Fora de @layer e com "html body" de propósito: precisa vencer o
+ * "body{visibility:hidden}" do CSS crítico em __root.tsx qualquer que seja a
+ * ordem dos estilos no documento (no site publicado o CSS do app pode vir antes
+ * do <style> crítico). Especificidade maior ganha independentemente da ordem.
+ * Quando este CSS chega, a página aparece.
  */
-body {
+html body {
   visibility: visible;
   animation: none;
 }
