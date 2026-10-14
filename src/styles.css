@@ -274,3 +274,13 @@ html.light .brand-dark .wordmark {
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }
 }
+
+/*
+ * Fora de @layer de propósito: precisa vencer o "body{visibility:hidden}" do
+ * CSS crítico em __root.tsx (estilos sem camada ganham dos com camada, e este
+ * arquivo vem depois no documento). Quando este CSS chega, a página aparece.
+ */
+body {
+  visibility: visible;
+  animation: none;
+}

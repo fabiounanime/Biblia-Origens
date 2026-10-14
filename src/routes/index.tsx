@@ -34,7 +34,7 @@ function Splash() {
         className="splash-seal splash-logo relative size-[168px]"
         draggable={false}
       />
-      <Wordmark as="h1" className="splash-title wordmark-lg relative mt-8 text-[2.75rem] leading-[1.05]" />
+      <Wordmark as="h1" stacked className="splash-title wordmark-lg relative mt-8 text-[2.75rem] leading-[1.05]" />
       <div className="splash-rule ornament-rule relative mt-4" aria-hidden="true">
         ✦
       </div>

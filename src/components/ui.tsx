@@ -38,8 +38,29 @@ export function BrandMark({ className = "size-9" }: { className?: string }) {
 }
 
 /** Nome "Bíblia Origens" na grafia da marca (uncial em tinta de pergaminho). */
-export function Wordmark({ className = "text-xl", as: Tag = "span" }: { className?: string; as?: "span" | "h1" | "p" }) {
-  return <Tag className={cx("wordmark whitespace-nowrap", className)}>Bíblia Origens</Tag>;
+export function Wordmark({
+  className = "text-xl",
+  as: Tag = "span",
+  stacked = false,
+}: {
+  className?: string;
+  as?: "span" | "h1" | "p";
+  /** Em duas linhas (abertura): cabe em qualquer largura de celular. */
+  stacked?: boolean;
+}) {
+  return (
+    <Tag className={cx("wordmark", !stacked && "whitespace-nowrap", className)}>
+      {stacked ? (
+        <>
+          Bíblia
+          <br />
+          Origens
+        </>
+      ) : (
+        "Bíblia Origens"
+      )}
+    </Tag>
+  );
 }
 
 export function Avatar({ name, image, className = "size-9 text-sm" }: { name: string; image?: string | null; className?: string }) {
