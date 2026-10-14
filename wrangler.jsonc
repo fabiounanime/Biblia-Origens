@@ -3,8 +3,12 @@
   "name": "biblia-origens",
   "compatibility_date": "2026-10-09",
   "compatibility_flags": ["nodejs_compat"],
+  // Mantém as variáveis e segredos criados no painel da Cloudflare a cada deploy.
   "keep_vars": true,
   "vars": {
-    "BETTER_AUTH_URL": "https://biblia-origens.fabiounanime.workers.dev"
+    // Endereço oficial do app: base do login e do retorno do Google.
+    "BETTER_AUTH_URL": "https://bibliaorigens.app",
+    // Outros endereços que também podem abrir o app e enviar o login.
+    "BETTER_AUTH_TRUSTED_ORIGINS": "https://www.bibliaorigens.app,https://biblia-origens.fabiounanime.workers.dev"
   }
 }
