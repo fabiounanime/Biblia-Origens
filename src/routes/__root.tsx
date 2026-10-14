@@ -52,10 +52,24 @@ export const Route = createRootRoute({
   component: Root,
 });
 
+/**
+ * CSS crítico, antes de qualquer outro estilo: a página já nasce no fundo do app
+ * e o conteúdo fica oculto até o CSS principal chegar (ele devolve a
+ * visibilidade em styles.css). Sem isso, o celular mostrava por um instante a
+ * página crua, com fundo branco e letra padrão. Se o CSS principal falhar, o
+ * conteúdo aparece mesmo assim depois de 4 segundos.
+ */
+const CRITICAL_CSS =
+  "html{background:#0d1120;color:#f1ede4;color-scheme:dark}" +
+  "html.light{background:#f4f5f9;color:#141832;color-scheme:light}" +
+  "body{margin:0;visibility:hidden;animation:bo-reveal 0s linear 4s forwards}" +
+  "@keyframes bo-reveal{to{visibility:visible}}";
+
 function Root() {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        <style dangerouslySetInnerHTML={{ __html: CRITICAL_CSS }} />
         <HeadContent />
       </head>
       <body className="min-h-dvh bg-bg text-fg antialiased">
