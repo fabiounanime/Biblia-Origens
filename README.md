@@ -43,4 +43,4 @@ A página `/diagnostico` mostra o que está configurado e o que falta, sem expor
 
 ## Ícone e nome na Tela de Início
 
-`public/manifest.webmanifest` e `public/icons/` definem o nome "Bíblia Origens" e o ícone do app instalado. Os links ficam em `src/routes/__root.tsx`, antes dos que a camada do Grok acrescenta (o navegador usa o primeiro manifesto; o iPhone escolhe o ícone com `sizes="180x180"`).
+`public/manifest.webmanifest` e `public/icons/` definem o nome "Bíblia Origens" e o ícone (árvore sobre o livro aberto). `apple-touch-icon.png` é de tela cheia (o iPhone arredonda), `icon-maskable-512.png` deixa a arte na zona segura do Android, e `logo-144.png` é o logo usado dentro do app. Favicon: `public/favicon.ico` e `public/icons/favicon-32.png`. Os links ficam em `src/routes/__root.tsx`, antes dos que a camada do Grok acrescenta (o navegador usa o primeiro manifesto; o iPhone escolhe o ícone com `sizes="180x180"`).
