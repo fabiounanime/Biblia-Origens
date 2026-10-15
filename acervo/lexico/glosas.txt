@@ -1413,3 +1413,590 @@
 8029 | terceira geração
 3455 | ser posto
 727 | caixão
+2319 | novo
+2449 | t: agir com sabedoria (astúcia)
+3898 a | N: pelejar, guerrear
+5450 | carga, trabalho pesado
+4543 | armazém, depósito
+6531 | dureza, rigor
+70 | assento de parto (das duas pedras)
+2422 | vigorosa, cheia de vida
+3209 | nascido
+6845 | esconder | h: esconder
+3391 | mês
+1573 | junco, papiro
+2560 b | betumar
+2203 | piche
+5488 | juncos
+3320 | t: pôr-se, ficar de pé, apresentar-se
+2550 | ter compaixão, poupar
+5134 | h: amamentar
+4871 | tirar (da água)
+5327 a | N: brigar, lutar
+1802 | tirar (água)
+3467 | h: salvar, livrar
+584 | N: gemer, suspirar
+2199 | clamar
+7775 | clamor
+5009 | gemido
+2859 a | sogro (o que dá a filha em casamento)
+3827 | chama
+5572 | sarça
+1197 a | arder, queimar | p: queimar, acender, eliminar | h: fazer queimar, deixar pastar
+5394 | tirar, descalçar
+6944 | santidade, coisa santa, santuário
+5065 | oprimir, exigir (trabalho); opressor
+4341 | dor
+2100 | manar, fluir
+3906 | opressão
+3905 | oprimir
+2143 | memória, lembrança
+2389 | forte
+7934 | vizinha, vizinho
+2180 | cauda
+6879 | P: ser leproso
+7950 | neve
+3006 | terra seca
+483 | mudo
+2795 | surdo
+6493 | que vê
+5787 | cego
+3881 | levita
+8055 | alegrar-se
+4159 | prodígio
+6864 | pedra afiada, sílex
+7503 | soltar, largar | N: estar ocioso
+4139 | circuncisão
+2287 | celebrar festa
+1698 | peste
+6544 b | soltar, desenfrear | h: distrair, desviar (do trabalho)
+7860 | oficial, capataz
+7197 a | m: ajuntar (palha, lenha)
+4971 | medida, quantidade, composição
+1639 | diminuir | N: ser diminuído
+8267 | mentira, falsidade
+7179 | restolho, palha
+8506 | medida, quantidade
+8201 | juízo, castigo
+4181 | possessão, herança
+7115 | angústia (falta de fôlego)
+1733 | tia
+3784 | p: fazer feitiçaria; feiticeiro
+98 | lago, charco
+3909 | encantamento, artes secretas
+3986 | que recusa
+5062 | ferir, golpear | N: ser ferido, ser derrotado
+6854 | rã
+4863 | amassadeira
+6286 a | t: gloriar-se, ter a honra
+2691 a | pátio
+2563 b | montão
+7309 | alívio
+3654 | piolho, mosquito
+676 | dedo
+6157 | enxame (de insetos)
+6395 | h: separar, fazer distinção
+6304 | redenção, distinção
+5619 | apedrejar | N: ser apedrejado
+2651 | mão cheia
+6368 | cinza, fuligem
+2236 | aspergir, lançar
+80 | pó
+7822 | úlcera
+6524 b | arrebentar, brotar
+76 | pústula
+4046 | praga, flagelo
+5549 | r: exaltar-se, opor-se
+1259 | saraiva, granizo
+3245 | N: ser fundado
+5756 | h: pôr em segurança, recolher
+6566 | estender (as mãos, as asas)
+6594 | linho
+8184 | cevada
+24 | espiga madura; Abibe (mês)
+1392 | botão, flor
+3698 | espelta
+648 | tardio
+4306 | chuva
+5413 | N: derramar-se
+5953 a | t: tratar com escárnio, agir duramente
+697 | gafanhoto
+4170 | laço, armadilha
+6 | perecer, perder-se
+2282 | festa
+1397 | homem, varão
+2821 | escurecer
+653 | escuridão
+6541 | unha, casco
+7468 | companheira
+2676 | meio (da noite)
+7347 | moinho
+2782 | aguçar, mover (a língua)
+3611 | cão
+2750 | ardor
+5712 | congregação, comunidade
+4591 | ser pouco, diminuir | h: diminuir, recolher pouco
+4373 | número, conta
+3699 | contar, calcular
+3532 | cordeiro
+4201 | umbral, batente
+4947 | verga (da porta)
+6748 | assado
+4844 | ervas amargas
+4995 | cru
+1311 | cozido
+3767 | perna
+3602 | assim
+2296 | cingir
+2649 | pressa
+6453 | Páscoa
+6452 a | passar por cima, poupar
+5063 | praga
+4889 | destruidor, destruição
+2146 | memória, memorial
+7603 | fermento
+2557 a | levedado
+4744 | convocação
+2557 b | coisa levedada
+249 | natural (da terra)
+92 | molho, feixe
+231 | hissopo
+5592 a | bacia
+2677 | metade, meio
+7628 a | cativo, cativeiro
+1217 | massa (de pão)
+2556 a | levedar
+6887 b | atar, envolver
+7273 | a pé
+6154 a | mistura (de gente)
+8107 | vigília
+7916 | assalariado
+6363 a | o que abre (o ventre), primogênito
+2392 | força
+7698 | cria (de animal)
+6299 | resgatar, redimir | h: deixar resgatar
+6202 | quebrar o pescoço
+2903 | frontais (faixas na testa)
+2571 | armados, em ordem de batalha
+3119 | de dia
+5982 | coluna
+4185 | retirar-se, apartar-se
+5226 | defronte de
+943 | N: estar confuso, perdido
+7991 c | oficial, capitão (escudeiro)
+2346 | muro
+821 | vigília
+2000 | confundir, desbaratar
+212 | roda
+3517 | dificuldade, peso
+5287 | p: sacudir
+7891 | cantar
+7892 b | cântico
+1342 | exaltar-se, ser exaltado
+7411 a | lançar
+5797 | força
+2176 | cântico
+5115 a | h: louvar, dar morada (sentido incerto)
+2883 | P: ser afundado
+4688 | profundeza
+142 | N: ser glorioso, ser magnífico
+7492 | despedaçar
+1347 | majestade, soberba
+2040 | derrubar, destruir | p: derrubar
+2740 | ardor, furor
+6192 | N: amontoar-se
+5067 | montão
+5140 | fluir, correr (águas); correntes
+7087 a | coalhar, congelar
+5398 | soprar
+6749 | afundar
+5777 | chumbo
+117 | poderoso, magnífico
+8416 | louvor
+6382 | maravilha
+2098 | que, o qual (poético)
+5116 a | morada, pastagem
+2427 a | dor, angústia
+352 c | poderoso, chefe
+7461 a | tremor
+4127 | N: derreter-se
+1826 a | emudecer, ficar quieto
+4349 | lugar, morada
+6466 | fazer, obrar
+4720 | santuário
+5703 | eternidade, para sempre
+5031 | profetisa
+4246 | dança
+6030 c | cantar, entoar | p: cantar
+3885 b | N: murmurar | h: murmurar
+4985 | ficar doce
+3477 | reto
+4245 b | enfermidade
+8558 | palmeira
+5518 a | panela
+7648 | fartura
+8519 | murmuração | h: murmurar
+7646 | fartar-se, saciar-se
+7958 | codorniz
+7902 | camada
+2636 | P: ser escamoso, em flocos
+3713 b | geada
+4478 b | que? (*man*)
+6016 b | ômer (medida)
+1538 | cabeça (por pessoa)
+4058 | medir
+5736 | sobrar | h: ter de sobra
+7311 b | criar (bichos)
+8438 a | bicho, verme
+2552 | aquecer
+4549 | N: derreter-se
+7677 | descanso solene
+7676 | sábado
+7415 | bicho, verme
+4478 a | maná
+1407 | coentro
+2940 | sabor
+6838 | bolo
+6803 | vaso, jarro
+5715 | testemunho
+374 | efa (medida)
+6770 | ter sede
+6772 | sede
+6697 | rocha
+530 | firmeza, fidelidade
+2522 | desbaratar, enfraquecer
+3789 | escrever | N: ser escrito
+3676 | trono (sentido incerto)
+7964 | despedida (envio de volta)
+8513 | fadiga, aflição
+2302 | alegrar-se
+5034 b | murchar, desfalecer
+3289 | aconselhar | N: aconselhar-se
+4136 | diante de, defronte de
+2094 b | h: advertir, ensinar
+2372 | ver, contemplar, escolher
+5404 | águia
+5459 | propriedade particular, tesouro
+6918 | santo
+5645 | nuvem espessa
+1379 | h: pôr limites
+3104 | chifre de carneiro (toque prolongado)
+1300 b | relâmpago
+7782 | shofar (chifre de carneiro)
+6225 | fumegar
+2390 | forte
+6459 | imagem esculpida
+8544 | figura, forma
+7067 | zeloso, ciumento
+7256 | quarta geração
+7723 | vaidade, falsidade, em vão
+7523 | assassinar, matar
+5003 | adulterar
+6226 | fumegante
+6205 | escuridão espessa
+8002 | oferta pacífica
+1496 | pedra lavrada
+5130 b | h: mover, levantar (a ferramenta), mover como oferta | H: ser movido
+4609 b | degrau
+2670 | livre
+1610 | corpo (sozinho)
+7527 | furar
+4836 | sovela
+3259 | destinar, designar | N: encontrar-se, reunir-se
+898 | agir deslealmente
+7607 | carne, sustento
+5772 | direito conjugal (sentido incerto)
+6658 a | armar cilada
+579 | p: fazer acontecer, deixar cair (às mãos)
+6195 | astúcia
+106 | punho
+4938 b | bordão, bengala
+7674 | tempo perdido (inatividade)
+6064 | multar | N: ser multado
+6414 | juiz, árbitro
+3555 | queimadura
+5055 | chifrar
+5056 | chifrador, que costuma chifrar
+3724 a | resgate, preço de vida
+6306 b | resgate
+4290 | arrombamento
+1590 | ladrão
+1591 | coisa furtada
+1197 b | h: fazer pastar, deixar pastar | p: pastar, consumir
+1430 a | feixe, meda
+7054 | seara em pé
+1200 | incêndio
+8008 | roupa, capa
+9 | coisa perdida
+7561 | h: condenar, declarar culpado | ser culpado
+6601 b | p: seduzir, enganar
+781 | P: ser desposada; desposar
+4117 | pagar o dote, dotar
+2763 a | H: ser destruído (consagrado ao extermínio) | h: consagrar ao extermínio
+3238 | h: oprimir, maltratar
+3490 | órfão
+3867 b | h: emprestar
+6041 | pobre, aflito
+5383 | emprestar (com juros), ser credor
+5392 | juros, usura
+2254 a | tomar em penhor
+2587 | clemente, compassivo
+4395 | colheita (plenitude)
+1831 | lagar (suco)
+8066 | oitavo
+1800 | pobre, fraco
+1921 | favorecer, honrar
+4853 a | carga
+34 | necessitado, pobre
+7810 | suborno, presente
+5786 | p: cegar
+5557 | p: perverter, distorcer
+8058 | deixar descansar (a terra), largar
+5314 | N: tomar fôlego, refrescar-se
+1061 | primícias
+614 | colheita (recolha)
+2138 | macho, varão
+340 | ser inimigo, odiar
+6696 b | afligir, hostilizar
+6887 d | afligir, ser adversário
+6880 | vespa (sentido incerto)
+8077 a | desolação
+5157 | herdar, possuir
+101 | bacia
+3840 | brancura, pavimento (de safira)
+5601 | safira (lápis-lazúli)
+2892 a | pureza, limpidez
+678 | nobre, chefe
+3871 | tábua
+8641 | oferta, contribuição
+5068 | ser voluntário, dispor-se (de coração)
+8504 | azul (estofo azul, tinta violeta)
+713 | púrpura
+119 | P: ser tingido de vermelho
+8476 | texugo (animal de couro fino, sentido incerto)
+7848 | acácia
+1314 | especiaria, bálsamo
+4888 a | unção
+7004 | incenso
+5561 | especiaria aromática
+4394 | engaste, consagração
+646 | éfode
+2833 | peitoral
+8403 | modelo, forma
+4908 | tabernáculo, morada
+6823 | revestir, cobrir (de metal) | P: ser revestido
+2213 | moldura, bordadura
+3727 | propiciatório (tampa)
+4749 | obra batida (a martelo)
+7098 | extremidade, ponta
+5526 b | cobrir, proteger
+7979 | mesa
+4526 | moldura
+2948 | palmo
+6285 | lado, canto, extremidade
+5980 | junto de, defronte de
+7086 | prato
+7184 | jarro
+4518 | taça (de libação)
+8548 | continuamente, sempre
+4501 | candelabro
+3730 | botão (de flor), capitel
+6525 | flor
+8246 | P: ter forma de amêndoa
+5216 a | lâmpada
+4457 | espevitadeira (tenaz)
+4289 | braseiro, apagador
+3407 | cortina
+7806 | H: ser torcido (retorcido)
+8438 b | carmesim (verme de cochonilha)
+4060 a | medida
+3924 | laçada
+2279 | junção (conjunto de cortinas)
+7020 | extremo, de fora
+4225 | junção, emenda
+6901 | h: corresponder, ficar defronte
+7165 | colchete
+6249 | onze (com dez)
+3717 | dobrar
+5629 | sobra, excedente
+5628 | sobrar, pender
+7175 | tábua, prancha
+7947 | P: ser encaixado (em escada)
+8486 | sul
+134 | base
+4742 | P: ser feito em ângulo; canto
+8382 | gêmeo, duplo
+4295 | para baixo, embaixo
+4740 | canto, ângulo
+1280 | travessa (barra)
+8484 | do meio, central
+6532 | véu (cortina interna)
+2053 | gancho
+4539 | cortina (de entrada)
+7551 | bordar, tecer em cores
+7251 | quadrado
+6438 | canto, esquina
+1878 | p: tirar as cinzas
+3257 | pá
+4219 | bacia (de aspersão)
+4207 b | garfo (de carne)
+4345 | grelha
+7568 | rede
+3749 | rebordo, borda
+5014 | oco
+7050 b | cortina (do pátio)
+2838 | vara (de ligação)
+4217 | nascente, oriente
+3802 | lado, ombro
+2836 b | P: ser ligado | p: ligar
+3489 | estaca
+2134 | puro
+3795 | batido (azeite)
+3547 | p: servir como sacerdote
+8597 | beleza, ornamento
+2451 | sabedoria
+4598 | manto
+8665 | tecido xadrez (entretecido)
+4701 | mitra, turbante
+73 | faixa, cinto
+2805 | cinto (de obra artística)
+642 | revestimento, cinta (do éfode)
+6605 b | p: gravar, entalhar | P: ser gravado
+2796 | artífice
+6603 | gravura, entalhe
+4142 | H: ser cercado, engastado
+4865 | engaste
+8333 | corrente
+4020 | trançado (em forma de cordão)
+5688 | cordão, trança
+2239 | palmo (medida)
+4396 | engaste
+2905 | fileira
+124 | sárdio (pedra vermelha)
+6357 | topázio
+1304 a | esmeralda
+5306 | turquesa
+3095 | diamante (pedra preciosa incerta)
+3958 | jacinto
+7618 | ágata
+306 | ametista
+8658 | berilo (pedra de Társis)
+3471 | jaspe
+7660 | P: ser engastado | p: tecer xadrez
+8331 | corrente
+1383 | trança, retorcido
+7405 | atar
+2118 | N: soltar-se, deslocar-se
+224 | Urim (luzes)
+3632 | inteiramente, todo
+707 | tecer
+8473 | cota de malha (sentido incerto)
+7757 | orla, barra
+7416 | romã
+6472 | campainha
+6731 a | lâmina, flor
+4696 | testa
+4021 | barrete, gorro
+4370 | calções
+906 | linho
+2471 | bolo (de pão furado)
+7550 | obreia
+640 | cingir
+5145 | diadema (sinal de consagração)
+3550 | sacerdócio
+3247 | base, fundamento
+3508 | lóbulo
+3516 | fígado
+3629 | rim
+6999 a | h: queimar (em fumaça), fazer subir em fumaça
+6569 | excremento
+5408 | p: cortar em pedaços
+5409 | pedaço
+801 | oferta queimada (oferta pelo fogo)
+8571 | lóbulo (ponta da orelha)
+3233 | direito
+931 | polegar, dedão
+5137 a | h: aspergir
+451 | cauda (gorda)
+7785 | coxa
+8573 | oferta movida
+2373 | peito
+4490 | porção
+2114 a | estranho, estrangeiro
+3725 | expiação
+6241 | décima parte
+7253 | quarta parte
+1969 | him (medida)
+4729 | lugar de queimar (incenso)
+1406 | tampo, terraço
+7023 | parede, lado
+4276 | metade
+1626 | gera (medida de peso)
+6223 | rico
+3595 | pia, bacia
+4753 | mirra
+1865 | puro, fluente
+7076 | canela
+6916 | cássia
+7545 | perfume
+4842 | mistura de perfumista
+7543 | preparar (perfume)
+3251 | derramar
+5198 b | estoraque (resina)
+7827 | ônica (sentido incerto)
+2464 | gálbano
+3828 | incenso puro (olíbano)
+4414 b | P: ser temperado com sal
+7833 | moer, pulverizar
+1854 | moer bem, reduzir a pó
+8394 | entendimento
+2799 | lavra, obra (de lapidar, entalhar)
+8278 | tecido fino (de serviço)
+6950 | N: ajuntar-se | h: convocar
+2747 | buril
+5695 | bezerro
+4541 a | imagem fundida
+4118 b | depressa
+2470 b | p: suplicar (abrandar a face)
+4385 | escrita
+2801 | gravar
+7452 | grito, clamor
+1369 | força, vitória
+2476 | derrota
+2912 | moer
+2219 | espalhar
+8103 | zombaria, vergonha
+5716 | enfeite, joias
+7281 | momento
+7355 | p: ter misericórdia
+5366 | fenda
+5526 e | cobrir, proteger
+6458 | lavrar (pedra)
+7349 | misericordioso
+750 | longo, tardio (em ira)
+5341 | guardar
+2403 a | pecado
+5545 | perdoar
+5422 | derrubar
+8622 | volta, ciclo (fim de ano)
+7160 | emitir raios (ter chifres)
+4533 | véu
+5081 | de boa vontade, generoso
+4340 | corda
+2397 | broche (gancho)
+3558 | colar (sentido incerto)
+2901 | fiar
+4299 | fio
+5071 | oferta voluntária
+1767 | suficiente, bastante
+7117 | ponta, extremidade
+4759 b | espelho
+6633 | servir (em turnos), juntar-se
+6826 | revestimento
+6485 b | contar, recensear
+7554 | p: estirar, laminar
+6341 b | lâmina
+7112 | p: cortar
+6287 | turbante, adorno
+4634 | fileira, arranjo
+6187 | arranjo, ordem

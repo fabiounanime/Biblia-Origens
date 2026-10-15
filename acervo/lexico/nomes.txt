@@ -428,3 +428,67 @@
 67+ | Abel-Mizraim | l
 67 | Abel-Mizraim | l
 4353 | Maquir | p
+6619 | Pitom | l
+8236 | Sifrá | p
+6326 | Puá | p
+4872 | Moisés | p
+6855 | Zípora | p
+1647 | Gérson | p
+3503 | Jetro | p
+2722 | Horebe | l
+175 | Arão | p
+3500 | Jetro (*Jéter*) | p
+3845 | Libni | p
+8096 | Simei | p
+6019 | Anrão | p
+3324 | Izar | p
+2275 b | Hebrom | p
+5816 | Uziel | p
+4249 | Mali | p
+4187 | Musi | p
+3115 | Joquebede | p
+5298 | Nefegue | p
+2147 | Zicri | p
+4332 | Misael | p
+469 | Elzafã | p
+5644 | Sitri | p
+472 | Eliseba | p
+5992 | Aminadabe | p
+5177 | Naassom | p
+5070 | Nadabe | p
+30 | Abiú | p
+499 | Eleazar | p
+385 | Itamar | p
+617 | Assir | p
+511 | Elcana | p
+23 | Abiasafe | p
+7145 | coraíta | g
+6317 | Putiel | p
+6372 | Fineias | p
+864 | Etã | l
+6367+ | Pi-Hairote | l
+6367 | Pi-Hairote | l
+4024 b | Migdol | l
+1189+ | Baal-Zefom | l
+1189 | Baal-Zefom | l
+3050 | Yah (forma breve de YHWH) | d
+6429 | Filístia | l
+4813 | Miriã | p
+4785 | Mara (amarga) | l
+362 | Elim | l
+5512 b | Sim (deserto) | l
+5514 | Sinai | l
+7508 | Refidim | l
+4532 | Massá (prova) | l
+4809 | Meribá (contenda) | l
+3091 | Josué | p
+2354 | Hur | p
+3071+ | YHWH-Nissi (YHWH é minha bandeira) | o
+3071 | YHWH-Nissi (YHWH é minha bandeira) | o
+8550 | Tumim (perfeições) | o
+1212 | Bezalel | p
+221 | Uri | p
+171 | Aoliabe | p
+294 | Aisamaque | p
+5126 | Num | p
+842 | poste-ídolo (*asherah*, ligado à deusa Aserá) | o

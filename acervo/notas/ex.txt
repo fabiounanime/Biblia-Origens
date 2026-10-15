@@ -1,0 +1,132 @@
+# Êxodo — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+# A numeração segue a Bíblia hebraica; onde ela difere das bíblias em português, a nota avisa.
+
+1:1 | os nomes | Em hebraico, *shemot*, "nomes": é o título do livro na tradição judaica. "Êxodo" (saída) vem da tradução grega.
+1:5 | saíram da coxa de Jacó | Expressão hebraica para os descendentes: os que procedem do corpo de alguém.
+1:7 | enxamearam | O verbo *sharats* é o mesmo de Gênesis 1:20–21 ("enxameiem as águas"): o povo cresce como a criação abençoada.
+1:11 | chefes de trabalhos forçados | Ao pé da letra, "chefes de tributos": *missim* é o trabalho obrigatório imposto pelo Estado.
+1:16 | assentos | Em hebraico, *ovnayim*, "as duas pedras": provavelmente o banco de parto, feito de duas pedras em que a mulher se apoiava.
+1:19 | vigorosas | Em hebraico, *chayot*, palavra ligada a "vida" e a "animal": cheias de vida, fortes como animais do campo.
+2:3 | arca de junco | A palavra *tevah*, "arca", só aparece aqui e na história de Noé (Gênesis 6–9). Nas duas, uma caixa betumada salva a vida nas águas.
+2:3 | juncos | Em hebraico, *suf*: a mesma palavra do *yam suf*, o "mar de Juncos" (10:19).
+2:10 | Moisés | Em hebraico, *Moshe*, que soa como "o que tira", do verbo *mashah*, "tirar (da água)". O nome também lembra a palavra egípcia para "filho", "nascido de".
+2:18 | Reuel | O sogro de Moisés tem dois nomes no livro: Reuel aqui e Jetro em 3:1 e 18:1.
+2:22 | Gérson | Jogo de palavras: *Gershom* soa como *ger sham*, "peregrino ali".
+3:1 | Horebe | Outro nome do monte Sinai, usado sobretudo em Êxodo 3, 17 e 33 e em Deuteronômio.
+3:2 | do meio da sarça | Em hebraico, *seneh*, arbusto espinhoso. A palavra soa como "Sinai", o monte onde a cena acontece.
+3:5 | solo de santidade | Ao pé da letra, "solo de santidade é": o lugar é santo pela presença de Deus.
+3:8 | mana leite e mel | Imagem de fartura: terra de pastagens (leite) e de frutos (o "mel" pode ser também o xarope de tâmaras).
+3:14 | Serei o que serei | Em hebraico, *ehyeh asher ehyeh*. O verbo *hayah* ("ser, estar, vir a ser") no imperfeito pode ser "Sou o que sou" ou "Serei o que serei"; a promessa do v. 12 ("eu serei contigo") favorece o futuro.
+3:14 | Serei me enviou | *Ehyeh*, "Serei", usado como nome. O v. 15 liga essa forma ao nome YHWH, que vem do mesmo verbo.
+3:15 | YHWH | O nome próprio de Deus, escrito com quatro consoantes (*yod, he, vav, he*). Por reverência, a tradição judaica lê *Adonai*, "Senhor", e por isso as bíblias em português costumam escrever "SENHOR". Mantemos as quatro letras.
+3:15 | memória | Em hebraico, *zekher*: o nome pelo qual Deus é lembrado e invocado.
+3:22 | despojareis o Egito | O verbo *natsal* (no piel) descreve tirar os despojos depois de uma vitória: o povo sai como vencedor, não como fugitivo.
+4:6 | leprosa | Em hebraico, *metsora'at*. *Tsara'at* é um nome geral para doenças de pele (e até mofo em roupas e casas), não necessariamente a lepra moderna.
+4:10 | pesado de boca e pesado de língua | Ao pé da letra: falta de facilidade para falar. Não fica claro se é um defeito físico ou falta de eloquência.
+4:21 | fortalecerei o seu coração | Êxodo usa três verbos para o coração de Faraó: *chazaq* ("fortalecer", firmar), *kaved* ("tornar pesado", insensível) e *qashah* ("endurecer"). A tradução distingue os três.
+4:24 | procurou matá-lo | O texto não diz quem é "o": Moisés ou seu filho. O episódio (vv. 24–26) é um dos mais obscuros da Bíblia.
+4:25 | tocou[-o] aos pés dele | "Pés" pode ser eufemismo para as partes íntimas. Também não está claro de quem são os pés: de Moisés, do filho ou do próprio atacante.
+4:25 | esposo de sangues | Em hebraico, *chatan damim*. *Chatan* é "noivo, esposo" e também "genro"; a expressão liga casamento e circuncisão (v. 26), mas o sentido exato é incerto.
+6:3 | Deus Todo-Poderoso | Em hebraico, *El Shaddai*, nome usado em Gênesis (17:1; 28:3; 35:11). O sentido de *Shaddai* é incerto.
+6:3 | não me fiz conhecer a eles | Os patriarcas já usam o nome YHWH em Gênesis; o sentido parece ser que eles não conheceram o que o nome significa em ação: a libertação prometida.
+6:12 | incircunciso de lábios | Imagem para quem fala com dificuldade: lábios "fechados", como que cobertos.
+6:20 | tia | Em hebraico, *dodah*, irmã do pai. A Lei proíbe depois esse casamento (Levítico 18:12). A Septuaginta traz "filha do irmão do pai", prima.
+7:1 | eu te pus por Deus | Moisés terá a autoridade de Deus diante de Faraó, e Arão será a sua boca, como um profeta fala por Deus (compare 4:16).
+7:9 | monstro | Em hebraico, *tannin*: grande serpente ou monstro das águas (Gênesis 1:21). Em 4:3 a palavra é outra, *nachash*, "serpente".
+7:11 | encantamentos | Em hebraico, *lehatim*, de uma raiz ligada a "segredo": artes ocultas.
+7:26 | Entra a Faraó | Aqui começa o capítulo 8 nas bíblias em português: 7:26–29 aqui = 8:1–4 lá, e 8:1–28 aqui = 8:5–32 lá.
+8:12 | piolhos | Em hebraico, *kinnim*. Pode ser piolho, mosquito ou outro inseto pequeno.
+8:17 | nas tuas casas, o enxame | Em hebraico, *arov*, de raiz ligada a "mistura". A tradição judaica entende uma mistura de animais selvagens; a Septuaginta traduz "moscas caninas".
+8:19 | redenção | Em hebraico, *pedut*, "resgate, redenção". A Septuaginta e outras versões leem "separação, distinção" (*pelut*), que combina com 8:18 e 9:4.
+9:3 | peste | Em hebraico, *dever*: doença mortal que se espalha. É a quinta praga.
+9:9 | úlcera que arrebenta em pústulas | Ao pé da letra, "úlcera que brota em bolhas".
+9:31 | em espiga | Em hebraico, *aviv*, espiga já madura. É também o nome do mês da saída do Egito (13:4).
+10:19 | mar de Juncos | Em hebraico, *yam suf*. Muitas bíblias traduzem "mar Vermelho", seguindo a Septuaginta. *Suf* é "junco" (2:3).
+10:21 | se apalpem as trevas | Trevas tão densas que se podem tocar.
+12:2 | Este mês | O mês de Abibe (13:4), chamado depois de Nisã. Cai em março–abril.
+12:6 | entre as duas tardes | Expressão hebraica para o fim da tarde, entre o declínio do sol e o anoitecer.
+12:11 | Páscoa | Em hebraico, *pesach*, do verbo *pasach*, "passar por cima, poupar" (vv. 13, 23, 27).
+12:13 | passarei por cima | Verbo *pasach*. Alguns entendem "protegerei", como em Isaías 31:5.
+12:23 | o destruidor | Em hebraico, *ha-mashchit*: o agente da morte enviado por YHWH.
+12:38 | grande mistura | Em hebraico, *erev rav*: gente de outras origens que saiu do Egito com Israel.
+12:40 | quatrocentos e trinta anos | A Septuaginta e o Pentateuco samaritano dizem "no Egito e na terra de Canaã", contando também o tempo dos patriarcas.
+13:9 | por sinal sobre a tua mão | A tradição judaica entendeu estes versículos ao pé da letra e deles vêm os *tefilin*, caixinhas com textos da Lei presas ao braço e à testa.
+13:16 | frontais | Em hebraico, *totafot*, palavra rara: faixas ou enfeites na testa, entre os olhos.
+13:18 | armados | Em hebraico, *chamushim*, talvez "em ordem de batalha". Outros ligam a palavra a *chamesh*, "cinco": "em cinco divisões".
+14:4 | serei glorificado | Verbo *kaved*, o mesmo de "tornar pesado" o coração de Faraó: o "peso" de Faraó dará "peso" (glória) a YHWH.
+14:20 | e iluminava a noite | Frase difícil: a nuvem era trevas para o Egito e luz para Israel. A Septuaginta traz "e passou a noite".
+15:2 | Yah | Forma breve do nome YHWH, comum nos Salmos e em "Aleluia" (*halelu-Yah*, "louvai a Yah").
+15:2 | cântico | Em hebraico, *zimrat*. Também pode ser "força, proteção", paralelo a "minha força".
+15:3 | homem de guerra | Imagem de YHWH como guerreiro que luta pelo seu povo (14:14).
+15:11 | entre os deuses | Linguagem poética: nenhum dos deuses dos povos se compara a YHWH.
+15:23 | E vieram a Mara | O nome significa "amarga".
+16:15 | Que é isto? | Em hebraico, *man hu*: daí o nome "maná" (*man*, v. 31).
+16:31 | coentro | A semente de coentro é pequena, redonda e clara.
+16:36 | ômer | Medida de cerca de 2 litros; o efa tem cerca de 22 litros.
+17:7 | Massá e Meribá | *Massá* quer dizer "prova", e *Meribá*, "contenda".
+17:15 | YHWH-Nissi | "YHWH é a minha bandeira" (*nes*, estandarte, sinal levantado).
+17:16 | trono de Yah | Em hebraico, *kes Yah*, forma rara de "trono". Muitos corrigem para *nes Yah*, "bandeira de Yah", ligando ao v. 15. O sentido da frase é incerto.
+19:5 | se ouvindo ouvirdes | Infinitivo em dobro, mantido ao pé da letra: "se de fato ouvirdes".
+19:5 | propriedade particular | Em hebraico, *segullah*: o tesouro pessoal de um rei, distinto dos bens do reino.
+19:6 | reino de sacerdotes | O povo todo terá papel sacerdotal entre as nações: mediador entre Deus e o mundo.
+19:13 | chifre de carneiro | Em hebraico, *yovel*, chifre de carneiro usado como trombeta. A mesma palavra dá nome ao ano do Jubileu (Levítico 25).
+20:2 | Eu [sou] YHWH | Começam as "dez palavras" (34:28). A divisão em mandamentos varia: a tradição judaica conta este versículo como a primeira palavra.
+20:3 | diante da minha face | Em hebraico, *al panai*: "diante de mim", "em minha presença" ou "além de mim".
+20:5 | zeloso | Em hebraico, *qanna*: zeloso, ciumento, que não admite rival. O amor exclusivo de Deus pelo seu povo.
+20:7 | teu Deus, em vão | Em hebraico, *lashav*: para o nada, para a falsidade. Inclui o juramento falso.
+20:7 | Não levantarás o nome | Ao pé da letra, "não levantarás (*nasa*)": pronunciar, invocar, tomar o nome sobre os lábios.
+20:13 | Não assassinarás | O verbo *ratsach* indica matar alguém injustamente; não é usado para guerra ou para pena de morte, que têm outros verbos.
+21:2 | servo hebreu | Em hebraico, *eved*: servo ou escravo. A lei limita a servidão do hebreu a seis anos.
+21:6 | o levará a Deus | Em hebraico, *el ha-elohim*: ao santuário, diante de Deus. Muitos entendem "aos juízes", que julgam em nome de Deus.
+21:10 | direito conjugal | Em hebraico, *onah*, palavra rara. A tradição judaica entende o direito às relações conjugais; outros, "habitação" ou "óleo".
+21:24 | olho por olho | A lei de talião limita a pena ao tamanho do dano. Já na tradição judaica antiga foi aplicada como indenização em dinheiro.
+21:37 | Se alguém furtar | Aqui as bíblias em português começam o capítulo 22: 21:37 aqui = 22:1 lá, e 22:1–30 aqui = 22:2–31 lá.
+22:1 | arrombando | Em hebraico, *machteret*: cavando ou arrombando a parede de uma casa, à noite (compare o v. 2).
+22:7 | se chegará a Deus | Como em 21:6, "Deus" (*ha-elohim*) pode indicar o santuário ou os juízes.
+22:17 | feiticeira | Em hebraico, *mekhashefah*, forma feminina.
+22:19 | será destruído por anátema | Em hebraico, *yochoram*, do verbo *charam*: ser consagrado ao extermínio, entregue a Deus por destruição.
+22:27 | A Deus não amaldiçoarás | "Deus" (*elohim*) aqui também pode ser lido "os juízes", paralelo a "príncipe do teu povo".
+23:19 | Não cozerás o cabrito | Repetido em 34:26 e Deuteronômio 14:21. Na tradição judaica é a base da separação entre carne e leite.
+23:28 | a vespa | Em hebraico, *tsir'ah*, palavra de sentido incerto: vespa, praga ou pânico enviado por Deus.
+24:10 | safira | Em hebraico, *sappir*: provavelmente o lápis-lazúli, pedra azul-escura.
+24:11 | nobres | Em hebraico, *atsilim*, palavra rara: os principais, os chefes.
+25:2 | me tragam uma oferta alçada | Em hebraico, *terumah*: a parte "levantada", separada para Deus.
+25:4 | azul, e púrpura, e carmesim | Tecidos tingidos: *tekhelet* (azul-violeta de um molusco), *argaman* (púrpura) e *tola'at shani* (carmesim, de um inseto).
+25:5 | texugo | Em hebraico, *tachash*, animal de identificação incerta. Outras propostas: golfinho, dugongo, ou um couro fino tingido.
+25:5 | acácia | Em hebraico, *shittim*: madeira dura do deserto.
+25:8 | habitarei | Verbo *shakan*, "habitar". Dele vem *mishkan*, "tabernáculo, morada" (v. 9).
+25:9 | tabernáculo | Em hebraico, *mishkan*: a "morada" de Deus no meio do povo.
+25:16 | o testemunho | Em hebraico, *edut*: as tábuas da aliança (31:18), testemunho do compromisso entre Deus e Israel.
+25:17 | propiciatório | Em hebraico, *kapporet*, a tampa da arca. Liga-se ao verbo *kipper*, "fazer expiação"; é o lugar da expiação no Dia do Perdão (Levítico 16).
+25:18 | querubins | Em hebraico, *keruvim*: seres alados que guardam a presença divina (Gênesis 3:24).
+25:30 | o pão da face | Em hebraico, *lechem panim*: o pão posto "diante da face" de Deus. Também chamado "pão da presença" ou "pães da proposição".
+26:31 | véu | Em hebraico, *parokhet*: a cortina que separa o Santo do Santo dos Santos (v. 33).
+27:2 | E farás as suas pontas | Em hebraico, *qarnot*, "chifres": saliências nos quatro cantos do altar.
+28:4 | éfode | Em hebraico, *efod*: veste sacerdotal, espécie de avental ou colete.
+28:30 | o Urim e o Tumim | Em hebraico, "as luzes e as perfeições". Objetos guardados no peitoral, usados para consultar a vontade de Deus. Sua forma é desconhecida.
+28:36 | Santidade a YHWH | Ou "Consagrado a YHWH".
+28:41 | encherás a sua mão | Expressão hebraica para a investidura no sacerdócio: "encher a mão" é consagrar, dar o ofício.
+29:24 | oferta movida | Em hebraico, *tenufah*: a oferta erguida e movida diante de YHWH, como gesto de entrega.
+29:42 | tenda do encontro | Em hebraico, *ohel mo'ed*: a tenda onde Deus "se encontra" com o povo, como diz o próprio versículo.
+30:13 | segundo o siclo do santuário | Medida de peso, cerca de 11 gramas. A gera é a vigésima parte do siclo.
+30:34 | ônica | Em hebraico, *shechelet*: talvez a concha de um molusco usada em perfumes. Identificação incerta.
+31:3 | espírito de Deus | Em hebraico, *ruach Elohim*. O dom do espírito, aqui, é habilidade artística para a obra do tabernáculo.
+31:18 | dedo de Deus | A mesma expressão dos magos do Egito em 8:15: obra feita pelo próprio Deus.
+32:4 | Estes [são] os teus deuses | *Elohim* com verbo no plural: "os teus deuses que te fizeram subir". Também se pode ler "Este é o teu Deus", mas o plural do verbo favorece "deuses" (compare 1 Reis 12:28).
+32:6 | brincar | Em hebraico, *letsacheq*: divertir-se, folgar. Pode incluir dança e festa licenciosa (v. 19).
+32:25 | desenfreado | Em hebraico, *parua*: solto, sem controle; a mesma raiz de "soltar o cabelo".
+32:29 | Enchei hoje a vossa mão | A expressão da investidura sacerdotal (28:41): os levitas são consagrados pelo zelo deste dia.
+33:7 | E Moisés tomava a tenda | Esta tenda, fora do acampamento, é diferente do tabernáculo ainda a ser construído.
+33:11 | face a face | Imagem de intimidade, não de visão do rosto de Deus (v. 20).
+34:6 | bondade e verdade | Em hebraico, *chesed ve-emet*: amor fiel à aliança e fidelidade.
+34:6 | longo de iras | Ao pé da letra, "longo de narizes": a ira é "longa", demora a chegar. Lento para a ira.
+34:7 | inocentando não inocenta | Infinitivo em dobro: "de modo nenhum terá por inocente" o culpado.
+34:13 | postes-ídolos | Em hebraico, *asherim*: postes ou árvores sagradas ligados à deusa cananeia Aserá.
+34:14 | Zeloso | O nome de YHWH aqui é *Qanna*, "Zeloso" (20:5).
+34:28 | as dez palavras | Em hebraico, *aseret ha-devarim*: daí o nome "Decálogo".
+34:29 | resplandecia | O verbo *qaran* vem de *qeren*, "chifre, raio de luz". A Vulgata traduziu "tinha chifres", de onde vêm as estátuas de Moisés com chifres.
+38:8 | que serviam, que serviam | Em hebraico, *tsove'ot*, "que serviam em turnos", como num serviço organizado. Mulheres que serviam à entrada da tenda (1 Samuel 2:22).
+40:34 | a glória de YHWH | Em hebraico, *kevod YHWH*, palavra ligada a "peso": a presença visível e majestosa de Deus.

@@ -1,0 +1,1265 @@
+# Êxodo (Shemot) — tradução direta do hebraico (Códice de Leningrado)
+#
+# Mesmas convenções de Gênesis (veja acervo/traducao/gn.txt):
+#   - יהוה = YHWH; אֱלֹהִים = Deus; nomes na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#   - Infinitivo absoluto em dobro ao pé da letra.
+#   - Vocabulário próprio de Êxodo: מִשְׁכָּן = tabernáculo; אֹהֶל מוֹעֵד = tenda do encontro;
+#     אָרוֹן = arca; כַּפֹּרֶת = propiciatório; קֹדֶשׁ = santo / santidade; כָּבוֹד = glória;
+#     פֶּסַח = Páscoa; מַצּוֹת = pães sem fermento; חָזַק/כָּבֵד/קָשָׁה לֵב = fortalecer / tornar pesado /
+#     endurecer o coração; מוֹפֵת = prodígio; אוֹת = sinal; עֵדוּת = testemunho; תּוֹרָה = instrução.
+#   - Versificação hebraica (ex.: 8:1 aqui = 8:5 nas bíblias em português; 22:1 = 22:2).
+
+1:1 E estes [são] os nomes dos filhos de Israel que vieram ao Egito com Jacó; cada um com a sua casa vieram:
+1:2 Rúben, Simeão, Levi e Judá,
+1:3 Issacar, Zebulom e Benjamim,
+1:4 Dã e Naftali, Gade e Aser.
+1:5 E foram todas as almas que saíram da coxa de Jacó setenta almas; e José estava no Egito.
+1:6 E morreu José, e todos os seus irmãos, e toda aquela geração.
+1:7 E os filhos de Israel frutificaram, e enxamearam, e multiplicaram-se, e tornaram-se fortes muito, muito; e a terra se encheu deles.
+1:8 E levantou-se um rei novo sobre o Egito, que não conhecera a José.
+1:9 E disse ao seu povo: Eis que o povo dos filhos de Israel [é] mais numeroso e mais forte do que nós.
+1:10 Vinde, usemos de sabedoria para com ele, para que não se multiplique, e aconteça que, sobrevindo guerra, ele também se junte aos que nos odeiam, e peleje contra nós, e suba da terra.
+1:11 E puseram sobre ele chefes de trabalhos forçados, para o afligirem com as suas cargas; e edificou cidades de armazéns para Faraó: Pitom e Ramessés.
+1:12 E quanto mais o afligiam, tanto mais se multiplicava e tanto mais se espalhava; e eles se enfadaram dos filhos de Israel.
+1:13 E os egípcios fizeram os filhos de Israel servir com dureza.
+1:14 E amarguraram a sua vida com serviço duro, em barro e em tijolos, e com todo o serviço no campo; todo o seu serviço, com que os faziam servir, [era] com dureza.
+1:15 E disse o rei do Egito às parteiras das hebreias, das quais o nome de uma [era] Sifrá, e o nome da segunda, Puá;
+1:16 e disse: Quando fizerdes o parto das hebreias, e as virdes sobre os assentos, se [for] filho, matá-lo-eis; e se [for] filha, viverá.
+1:17 E as parteiras temeram a Deus, e não fizeram como lhes falara o rei do Egito, e deixaram viver os meninos.
+1:18 E chamou o rei do Egito as parteiras, e disse-lhes: Por que fizestes esta coisa, e deixastes viver os meninos?
+1:19 E disseram as parteiras a Faraó: Porque as hebreias não [são] como as mulheres egípcias; porque elas [são] vigorosas, e antes que a parteira venha a elas, já deram à luz.
+1:20 E fez Deus bem às parteiras; e o povo se multiplicou, e tornou-se muito forte.
+1:21 E aconteceu que, porque as parteiras temeram a Deus, ele lhes fez casas.
+1:22 E ordenou Faraó a todo o seu povo, dizendo: Todo filho que nascer, ao Nilo o lançareis; e toda filha deixareis viver.
+
+2:1 E foi um homem da casa de Levi, e tomou uma filha de Levi.
+2:2 E a mulher concebeu, e deu à luz um filho; e viu que ele [era] bom, e escondeu-o três meses.
+2:3 E não podendo mais escondê-lo, tomou para ele uma arca de junco, e betumou-a com betume e com piche; e pôs nela o menino, e pô-la nos juncos, junto ao lábio do Nilo.
+2:4 E a irmã dele postou-se de longe, para saber o que lhe seria feito.
+2:5 E desceu a filha de Faraó a lavar-se no Nilo, e as suas moças andavam pela margem do Nilo; e viu a arca no meio dos juncos, e enviou a sua escrava, e tomou-a.
+2:6 E abriu, e viu-o, o menino; e eis um menino que chorava; e teve compaixão dele, e disse: Dos meninos dos hebreus [é] este.
+2:7 E disse a irmã dele à filha de Faraó: Irei e chamarei para ti uma mulher que amamente, das hebreias, para que te amamente o menino?
+2:8 E disse-lhe a filha de Faraó: Vai. E foi a moça, e chamou a mãe do menino.
+2:9 E disse-lhe a filha de Faraó: Leva este menino, e amamenta-o para mim, e eu darei o teu salário. E tomou a mulher o menino, e amamentou-o.
+2:10 E cresceu o menino, e ela o trouxe à filha de Faraó, e ele lhe foi por filho; e chamou o seu nome Moisés, e disse: Porque das águas o tirei.
+2:11 E aconteceu naqueles dias que, tendo Moisés crescido, saiu a seus irmãos, e viu as suas cargas; e viu um homem egípcio ferindo um homem hebreu, dos seus irmãos.
+2:12 E olhou para cá e para lá, e viu que não [havia] ninguém, e feriu o egípcio, e escondeu-o na areia.
+2:13 E saiu no dia seguinte, e eis dois homens hebreus brigando; e disse ao culpado: Por que feres o teu companheiro?
+2:14 E ele disse: Quem te pôs por homem príncipe e juiz sobre nós? Acaso dizes matar-me, como mataste o egípcio? E temeu Moisés, e disse: Certamente a coisa se tornou conhecida.
+2:15 E ouviu Faraó esta coisa, e procurou matar a Moisés; e fugiu Moisés de diante de Faraó, e habitou na terra de Midiã, e sentou-se junto ao poço.
+2:16 E o sacerdote de Midiã tinha sete filhas; e vieram, e tiraram água, e encheram os bebedouros, para dar de beber às ovelhas de seu pai.
+2:17 E vieram os pastores, e expulsaram-nas; e levantou-se Moisés, e livrou-as, e deu de beber às suas ovelhas.
+2:18 E vieram a Reuel, seu pai; e ele disse: Por que vos apressastes a vir hoje?
+2:19 E disseram: Um homem egípcio nos livrou da mão dos pastores; e também tirando tirou [água] para nós, e deu de beber às ovelhas.
+2:20 E disse a suas filhas: E onde está ele? Por que deixastes o homem? Chamai-o, e coma pão.
+2:21 E consentiu Moisés em habitar com o homem; e ele deu a Moisés Zípora, sua filha.
+2:22 E ela deu à luz um filho, e ele chamou o seu nome Gérson, porque disse: Peregrino fui em terra estranha.
+2:23 E aconteceu, no decorrer daqueles muitos dias, que morreu o rei do Egito; e os filhos de Israel gemeram por causa do serviço, e clamaram; e subiu o seu clamor a Deus por causa do serviço.
+2:24 E ouviu Deus o seu gemido, e lembrou-se Deus da sua aliança com Abraão, com Isaque e com Jacó.
+2:25 E viu Deus os filhos de Israel, e conheceu Deus.
+
+3:1 E Moisés era pastor das ovelhas de Jetro, seu sogro, sacerdote de Midiã; e conduziu as ovelhas para trás do deserto, e veio ao monte de Deus, a Horebe.
+3:2 E apareceu-lhe o anjo de YHWH numa chama de fogo do meio da sarça; e olhou, e eis que a sarça ardia no fogo, e a sarça não era consumida.
+3:3 E disse Moisés: Desviar-me-ei agora, e verei esta grande visão, por que a sarça não se queima.
+3:4 E viu YHWH que ele se desviava para ver, e chamou-o Deus do meio da sarça, e disse: Moisés, Moisés! E ele disse: Eis-me [aqui].
+3:5 E disse: Não te chegues para cá; tira as tuas sandálias de sobre os teus pés, porque o lugar em que tu estás em pé, solo de santidade é.
+3:6 E disse: Eu [sou] o Deus de teu pai, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó. E escondeu Moisés o seu rosto, porque temeu olhar para Deus.
+3:7 E disse YHWH: Vendo vi a aflição do meu povo que [está] no Egito, e o seu clamor ouvi por causa dos seus opressores; porque conheci as suas dores.
+3:8 E desci para o livrar da mão do Egito, e para o fazer subir daquela terra a uma terra boa e larga, a uma terra que mana leite e mel, ao lugar do cananeu, e do heteu, e do amorreu, e do perizeu, e do heveu, e do jebuseu.
+3:9 E agora, eis que o clamor dos filhos de Israel veio a mim; e também vi a opressão com que os egípcios os oprimem.
+3:10 E agora, vai, e eu te enviarei a Faraó; e faze sair o meu povo, os filhos de Israel, do Egito.
+3:11 E disse Moisés a Deus: Quem [sou] eu, para que vá a Faraó, e para que faça sair os filhos de Israel do Egito?
+3:12 E disse: Porque eu serei contigo; e isto [será] para ti o sinal de que eu te enviei: quando fizeres sair o povo do Egito, servireis a Deus sobre este monte.
+3:13 E disse Moisés a Deus: Eis que eu vou aos filhos de Israel, e lhes digo: O Deus de vossos pais me enviou a vós; e eles me dirão: Qual [é] o seu nome? Que lhes direi?
+3:14 E disse Deus a Moisés: Serei o que serei. E disse: Assim dirás aos filhos de Israel: Serei me enviou a vós.
+3:15 E disse ainda Deus a Moisés: Assim dirás aos filhos de Israel: YHWH, o Deus de vossos pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó, me enviou a vós; este [é] o meu nome para sempre, e esta a minha memória de geração em geração.
+3:16 Vai, e ajunta os anciãos de Israel, e dize-lhes: YHWH, o Deus de vossos pais, o Deus de Abraão, de Isaque e de Jacó, me apareceu, dizendo: Visitando vos visitei, e [vi] o que vos é feito no Egito.
+3:17 E disse: Far-vos-ei subir da aflição do Egito para a terra do cananeu, e do heteu, e do amorreu, e do perizeu, e do heveu, e do jebuseu, para uma terra que mana leite e mel.
+3:18 E ouvirão a tua voz; e virás, tu e os anciãos de Israel, ao rei do Egito, e lhe direis: YHWH, o Deus dos hebreus, veio ao nosso encontro; e agora, deixa-nos ir, peço-te, caminho de três dias ao deserto, para que sacrifiquemos a YHWH, nosso Deus.
+3:19 E eu sei que o rei do Egito não vos deixará ir, nem por uma mão forte.
+3:20 E estenderei a minha mão, e ferirei o Egito com todas as minhas maravilhas que farei no meio dele; e depois disso vos deixará ir.
+3:21 E darei graça a este povo aos olhos dos egípcios; e será que, quando fordes, não ireis vazios.
+3:22 E cada mulher pedirá à sua vizinha e à que mora na sua casa objetos de prata, e objetos de ouro, e vestes; e [os] poreis sobre vossos filhos e sobre vossas filhas; e despojareis o Egito.
+
+4:1 E respondeu Moisés, e disse: E eis que não me crerão, nem ouvirão a minha voz, porque dirão: Não te apareceu YHWH.
+4:2 E disse-lhe YHWH: Que [é] isso na tua mão? E ele disse: Um cajado.
+4:3 E disse: Lança-o em terra. E lançou-o em terra, e tornou-se uma serpente; e fugiu Moisés de diante dela.
+4:4 E disse YHWH a Moisés: Estende a tua mão, e pega-a pela cauda. E estendeu a sua mão, e segurou-a, e tornou-se cajado na sua palma.
+4:5 Para que creiam que te apareceu YHWH, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó.
+4:6 E disse-lhe YHWH ainda: Mete agora a tua mão no teu seio. E meteu a sua mão no seu seio, e tirou-a, e eis que a sua mão [estava] leprosa como a neve.
+4:7 E disse: Torna a meter a tua mão no teu seio. E tornou a meter a sua mão no seu seio, e tirou-a do seu seio, e eis que voltara [a ser] como a sua carne.
+4:8 E será que, se não te crerem, nem ouvirem a voz do primeiro sinal, crerão a voz do último sinal.
+4:9 E será que, se ainda não crerem a estes dois sinais, nem ouvirem a tua voz, tomarás das águas do Nilo e [as] derramarás na [terra] seca; e as águas que tomares do Nilo se tornarão em sangue na [terra] seca.
+4:10 E disse Moisés a YHWH: Ah, Senhor! Não [sou] homem de palavras, nem de ontem, nem de anteontem, nem desde que falaste ao teu servo; porque pesado de boca e pesado de língua [sou] eu.
+4:11 E disse-lhe YHWH: Quem pôs a boca ao homem? Ou quem faz o mudo, ou o surdo, ou o que vê, ou o cego? Não [sou] eu, YHWH?
+4:12 E agora, vai, e eu serei com a tua boca, e te ensinarei o que hás de falar.
+4:13 E disse: Ah, Senhor! Envia, peço-te, pela mão [daquele que] enviares.
+4:14 E acendeu-se a ira de YHWH contra Moisés, e disse: Não [é] Arão, o levita, teu irmão? Eu sei que falando ele falará; e também eis que ele sai ao teu encontro, e te verá, e se alegrará no seu coração.
+4:15 E tu lhe falarás, e porás as palavras na sua boca; e eu serei com a tua boca e com a boca dele, e vos ensinarei o que haveis de fazer.
+4:16 E ele falará por ti ao povo; e será que ele te será por boca, e tu lhe serás por Deus.
+4:17 E este cajado tomarás na tua mão, com o qual farás os sinais.
+4:18 E foi Moisés, e voltou a Jetro, seu sogro, e disse-lhe: Irei agora, e voltarei a meus irmãos que [estão] no Egito, e verei se ainda vivem. E disse Jetro a Moisés: Vai em paz.
+4:19 E disse YHWH a Moisés em Midiã: Vai, volta ao Egito, porque morreram todos os homens que procuravam a tua alma.
+4:20 E tomou Moisés a sua mulher e os seus filhos, e fê-los montar sobre o jumento, e voltou à terra do Egito; e tomou Moisés o cajado de Deus na sua mão.
+4:21 E disse YHWH a Moisés: Quando fores voltar ao Egito, vê todos os prodígios que pus na tua mão, e faze-os diante de Faraó; e eu fortalecerei o seu coração, e ele não deixará ir o povo.
+4:22 E dirás a Faraó: Assim disse YHWH: Meu filho, meu primogênito, [é] Israel.
+4:23 E eu te disse: Deixa ir o meu filho, para que me sirva; e recusaste deixá-lo ir; eis que eu mato o teu filho, o teu primogênito.
+4:24 E aconteceu no caminho, na pousada, que YHWH o encontrou, e procurou matá-lo.
+4:25 E tomou Zípora uma pedra afiada, e cortou o prepúcio do seu filho, e tocou[-o] aos pés dele, e disse: Porque esposo de sangues tu [és] para mim.
+4:26 E ele o deixou. Então ela disse: Esposo de sangues, por causa da circuncisão.
+4:27 E disse YHWH a Arão: Vai ao encontro de Moisés, ao deserto. E foi, e encontrou-o no monte de Deus, e beijou-o.
+4:28 E contou Moisés a Arão todas as palavras de YHWH, com que o enviara, e todos os sinais que lhe ordenara.
+4:29 E foram Moisés e Arão, e ajuntaram todos os anciãos dos filhos de Israel.
+4:30 E falou Arão todas as palavras que YHWH falara a Moisés, e fez os sinais aos olhos do povo.
+4:31 E o povo creu; e ouviram que YHWH visitara os filhos de Israel, e que vira a sua aflição; e inclinaram-se, e prostraram-se.
+
+5:1 E depois vieram Moisés e Arão, e disseram a Faraó: Assim disse YHWH, o Deus de Israel: Deixa ir o meu povo, para que me celebrem festa no deserto.
+5:2 E disse Faraó: Quem [é] YHWH, para que eu ouça a sua voz e deixe ir Israel? Não conheço YHWH, e também não deixarei ir Israel.
+5:3 E disseram: O Deus dos hebreus veio ao nosso encontro; deixa-nos ir, peço-te, caminho de três dias ao deserto, e sacrifiquemos a YHWH, nosso Deus, para que não nos atinja com peste ou com espada.
+5:4 E disse-lhes o rei do Egito: Por que, Moisés e Arão, distraís o povo das suas obras? Ide às vossas cargas.
+5:5 E disse Faraó: Eis que muitos [são] agora o povo da terra, e vós os fazeis cessar das suas cargas.
+5:6 E ordenou Faraó naquele dia aos opressores do povo e aos seus oficiais, dizendo:
+5:7 Não continuareis a dar palha ao povo para fazer os tijolos, como ontem [e] anteontem; eles vão, e ajuntem palha para si.
+5:8 E a quantidade de tijolos que eles faziam ontem [e] anteontem lhes imporeis; não diminuireis dela; porque eles [estão] ociosos; por isso eles clamam, dizendo: Vamos, sacrifiquemos ao nosso Deus.
+5:9 Pese o serviço sobre os homens, e ocupem-se nele, e não deem atenção a palavras de mentira.
+5:10 E saíram os opressores do povo e os seus oficiais, e falaram ao povo, dizendo: Assim disse Faraó: Não vos dou palha.
+5:11 Vós, ide, tomai para vós palha de onde a achardes; porque nada se diminuirá do vosso serviço.
+5:12 E espalhou-se o povo por toda a terra do Egito, para ajuntar restolho em lugar de palha.
+5:13 E os opressores os apertavam, dizendo: Acabai as vossas obras, a tarefa de cada dia no seu dia, como quando havia palha.
+5:14 E foram feridos os oficiais dos filhos de Israel, que os opressores de Faraó tinham posto sobre eles, dizendo: Por que não acabastes a vossa porção de fazer tijolos, como ontem [e] anteontem, nem ontem nem hoje?
+5:15 E vieram os oficiais dos filhos de Israel, e clamaram a Faraó, dizendo: Por que fazes assim aos teus servos?
+5:16 Palha não se dá aos teus servos, e tijolos nos dizem: Fazei; e eis que os teus servos são feridos, e o pecado [é] do teu povo.
+5:17 E ele disse: Ociosos [estais] vós, ociosos; por isso vós dizeis: Vamos, sacrifiquemos a YHWH.
+5:18 E agora, ide, servi; e palha não se vos dará, e a medida de tijolos dareis.
+5:19 E viram-se os oficiais dos filhos de Israel em mal, quando se dizia: Não diminuireis dos vossos tijolos; a tarefa de cada dia no seu dia.
+5:20 E encontraram a Moisés e a Arão, que estavam em pé ao seu encontro, quando saíam de Faraó.
+5:21 E disseram-lhes: Veja YHWH sobre vós, e julgue, porque fizestes o nosso cheiro odioso aos olhos de Faraó e aos olhos dos seus servos, dando-lhes espada na mão para nos matar.
+5:22 E voltou Moisés a YHWH, e disse: Senhor, por que fizeste mal a este povo? Por que, pois, me enviaste?
+5:23 E desde que vim a Faraó para falar em teu nome, ele fez mal a este povo; e livrando, não livraste o teu povo.
+
+6:1 E disse YHWH a Moisés: Agora verás o que farei a Faraó; porque com mão forte os deixará ir, e com mão forte os expulsará da sua terra.
+6:2 E falou Deus a Moisés, e disse-lhe: Eu [sou] YHWH.
+6:3 E apareci a Abraão, a Isaque e a Jacó como Deus Todo-Poderoso; e [pelo] meu nome YHWH não me fiz conhecer a eles.
+6:4 E também estabeleci a minha aliança com eles, para lhes dar a terra de Canaã, a terra das suas peregrinações, na qual peregrinaram.
+6:5 E também eu ouvi o gemido dos filhos de Israel, a quem os egípcios fazem servir, e lembrei-me da minha aliança.
+6:6 Portanto dize aos filhos de Israel: Eu [sou] YHWH, e vos farei sair de debaixo das cargas do Egito, e vos livrarei do seu serviço, e vos resgatarei com braço estendido e com grandes juízos.
+6:7 E vos tomarei por meu povo, e serei para vós por Deus; e sabereis que eu [sou] YHWH, vosso Deus, que vos faz sair de debaixo das cargas do Egito.
+6:8 E vos farei entrar na terra pela qual levantei a minha mão [jurando] dá-la a Abraão, a Isaque e a Jacó; e vo-la darei por herança. Eu [sou] YHWH.
+6:9 E falou Moisés assim aos filhos de Israel; e não ouviram a Moisés, por causa da angústia de espírito e por causa do serviço duro.
+6:10 E falou YHWH a Moisés, dizendo:
+6:11 Entra, fala a Faraó, rei do Egito, que deixe ir os filhos de Israel da sua terra.
+6:12 E falou Moisés diante de YHWH, dizendo: Eis que os filhos de Israel não me ouviram; e como me ouvirá Faraó, sendo eu incircunciso de lábios?
+6:13 E falou YHWH a Moisés e a Arão, e deu-lhes ordem para os filhos de Israel e para Faraó, rei do Egito, para fazerem sair os filhos de Israel da terra do Egito.
+6:14 Estes [são] os cabeças das casas de seus pais: os filhos de Rúben, primogênito de Israel: Enoque e Palu, Hezrom e Carmi; estas [são] as famílias de Rúben.
+6:15 E os filhos de Simeão: Jemuel, e Jamim, e Oade, e Jaquim, e Zoar, e Saul, filho da cananeia; estas [são] as famílias de Simeão.
+6:16 E estes [são] os nomes dos filhos de Levi segundo as suas gerações: Gérson, e Coate, e Merari; e os anos da vida de Levi [foram] cento e trinta e sete anos.
+6:17 Os filhos de Gérson: Libni e Simei, segundo as suas famílias.
+6:18 E os filhos de Coate: Anrão, e Izar, e Hebrom, e Uziel; e os anos da vida de Coate [foram] cento e trinta e três anos.
+6:19 E os filhos de Merari: Mali e Musi; estas [são] as famílias do levita, segundo as suas gerações.
+6:20 E tomou Anrão a Joquebede, sua tia, para si por mulher; e ela lhe deu à luz Arão e Moisés; e os anos da vida de Anrão [foram] cento e trinta e sete anos.
+6:21 E os filhos de Izar: Corá, e Nefegue, e Zicri.
+6:22 E os filhos de Uziel: Misael, e Elzafã, e Sitri.
+6:23 E tomou Arão a Eliseba, filha de Aminadabe, irmã de Naassom, para si por mulher; e ela lhe deu à luz Nadabe, e Abiú, Eleazar e Itamar.
+6:24 E os filhos de Corá: Assir, e Elcana, e Abiasafe; estas [são] as famílias do coraíta.
+6:25 E Eleazar, filho de Arão, tomou para si [uma] das filhas de Putiel por mulher; e ela lhe deu à luz Fineias. Estes [são] os cabeças dos pais dos levitas, segundo as suas famílias.
+6:26 Estes [são] Arão e Moisés, aos quais disse YHWH: Fazei sair os filhos de Israel da terra do Egito, segundo os seus exércitos.
+6:27 Estes [são] os que falaram a Faraó, rei do Egito, para fazerem sair os filhos de Israel do Egito; estes [são] Moisés e Arão.
+6:28 E aconteceu, no dia em que YHWH falou a Moisés na terra do Egito,
+6:29 que falou YHWH a Moisés, dizendo: Eu [sou] YHWH; fala a Faraó, rei do Egito, tudo o que eu te falo.
+6:30 E disse Moisés diante de YHWH: Eis que eu [sou] incircunciso de lábios; e como me ouvirá Faraó?
+
+7:1 E disse YHWH a Moisés: Vê, eu te pus por Deus para Faraó, e Arão, teu irmão, será o teu profeta.
+7:2 Tu falarás tudo o que eu te ordenar, e Arão, teu irmão, falará a Faraó, que deixe ir os filhos de Israel da sua terra.
+7:3 E eu endurecerei o coração de Faraó, e multiplicarei os meus sinais e os meus prodígios na terra do Egito.
+7:4 E Faraó não vos ouvirá; e porei a minha mão sobre o Egito, e farei sair os meus exércitos, o meu povo, os filhos de Israel, da terra do Egito com grandes juízos.
+7:5 E saberão os egípcios que eu [sou] YHWH, quando estender a minha mão sobre o Egito e fizer sair os filhos de Israel do meio deles.
+7:6 E fizeram Moisés e Arão como YHWH lhes ordenara; assim fizeram.
+7:7 E Moisés [era] filho de oitenta anos, e Arão filho de oitenta e três anos, quando falaram a Faraó.
+7:8 E disse YHWH a Moisés e a Arão, dizendo:
+7:9 Quando Faraó vos falar, dizendo: Dai por vós um prodígio, dirás a Arão: Toma o teu cajado, e lança[-o] diante de Faraó; torne-se um monstro.
+7:10 E vieram Moisés e Arão a Faraó, e fizeram assim, como YHWH ordenara; e lançou Arão o seu cajado diante de Faraó e diante dos seus servos, e tornou-se um monstro.
+7:11 E chamou também Faraó os sábios e os feiticeiros; e fizeram também eles, os magos do Egito, assim com os seus encantamentos.
+7:12 E lançaram cada um o seu cajado, e tornaram-se monstros; e o cajado de Arão engoliu os cajados deles.
+7:13 E fortaleceu-se o coração de Faraó, e não os ouviu, como YHWH falara.
+7:14 E disse YHWH a Moisés: Pesado [está] o coração de Faraó; recusa deixar ir o povo.
+7:15 Vai a Faraó pela manhã; eis que ele sai às águas; e põe-te ao seu encontro sobre o lábio do Nilo, e o cajado que se transformou em serpente tomarás na tua mão.
+7:16 E dir-lhe-ás: YHWH, o Deus dos hebreus, me enviou a ti, dizendo: Deixa ir o meu povo, para que me sirva no deserto; e eis que não ouviste até agora.
+7:17 Assim disse YHWH: Nisto saberás que eu [sou] YHWH: eis que eu firo com o cajado que [está] na minha mão as águas que [estão] no Nilo, e se transformarão em sangue.
+7:18 E os peixes que [estão] no Nilo morrerão, e o Nilo cheirará mal, e os egípcios se cansarão de beber água do Nilo.
+7:19 E disse YHWH a Moisés: Dize a Arão: Toma o teu cajado, e estende a tua mão sobre as águas do Egito, sobre os seus rios, sobre os seus canais, e sobre os seus lagos, e sobre todo ajuntamento das suas águas, e tornem-se sangue; e haverá sangue em toda a terra do Egito, e nas [vasilhas de] madeira e nas de pedra.
+7:20 E fizeram assim Moisés e Arão, como YHWH ordenara; e levantou o cajado, e feriu as águas que [estavam] no Nilo, aos olhos de Faraó e aos olhos dos seus servos; e transformaram-se todas as águas que [estavam] no Nilo em sangue.
+7:21 E os peixes que [estavam] no Nilo morreram, e o Nilo cheirou mal, e os egípcios não puderam beber água do Nilo; e houve sangue em toda a terra do Egito.
+7:22 E fizeram assim os magos do Egito com os seus encantamentos; e fortaleceu-se o coração de Faraó, e não os ouviu, como YHWH falara.
+7:23 E virou-se Faraó, e veio à sua casa, e não pôs o seu coração nem nisto.
+7:24 E cavaram todos os egípcios ao redor do Nilo [em busca de] água para beber, porque não podiam beber das águas do Nilo.
+7:25 E cumpriram-se sete dias depois que YHWH feriu o Nilo.
+7:26 E disse YHWH a Moisés: Entra a Faraó, e dize-lhe: Assim disse YHWH: Deixa ir o meu povo, para que me sirva.
+7:27 E se tu recusares deixá-lo ir, eis que eu ferirei todo o teu território com rãs.
+7:28 E o Nilo enxameará de rãs, e subirão, e entrarão na tua casa, e no quarto onde te deitas, e sobre a tua cama, e na casa dos teus servos, e no teu povo, e nos teus fornos, e nas tuas amassadeiras.
+7:29 E em ti, e no teu povo, e em todos os teus servos subirão as rãs.
+
+8:1 E disse YHWH a Moisés: Dize a Arão: Estende a tua mão com o teu cajado sobre os rios, sobre os canais e sobre os lagos, e faze subir as rãs sobre a terra do Egito.
+8:2 E estendeu Arão a sua mão sobre as águas do Egito, e subiu a rã, e cobriu a terra do Egito.
+8:3 E fizeram assim os magos com os seus encantamentos, e fizeram subir as rãs sobre a terra do Egito.
+8:4 E chamou Faraó a Moisés e a Arão, e disse: Suplicai a YHWH que tire as rãs de mim e do meu povo; e deixarei ir o povo, para que sacrifiquem a YHWH.
+8:5 E disse Moisés a Faraó: Tem a honra sobre mim: para quando suplicarei por ti, e pelos teus servos, e pelo teu povo, para exterminar as rãs de ti e das tuas casas? Somente no Nilo ficarão.
+8:6 E ele disse: Para amanhã. E [Moisés] disse: Conforme a tua palavra, para que saibas que não há como YHWH, nosso Deus.
+8:7 E se retirarão as rãs de ti, e das tuas casas, e dos teus servos, e do teu povo; somente no Nilo ficarão.
+8:8 E saíram Moisés e Arão de junto de Faraó; e clamou Moisés a YHWH por causa das rãs que pusera sobre Faraó.
+8:9 E fez YHWH conforme a palavra de Moisés; e morreram as rãs nas casas, nos pátios e nos campos.
+8:10 E ajuntaram-nas em montões [e] montões, e a terra cheirou mal.
+8:11 E viu Faraó que havia alívio, e tornou pesado o seu coração, e não os ouviu, como YHWH falara.
+8:12 E disse YHWH a Moisés: Dize a Arão: Estende o teu cajado, e fere o pó da terra, e se tornará em piolhos em toda a terra do Egito.
+8:13 E fizeram assim; e estendeu Arão a sua mão com o seu cajado, e feriu o pó da terra, e houve piolhos no homem e no animal; todo o pó da terra se tornou piolhos em toda a terra do Egito.
+8:14 E fizeram assim os magos com os seus encantamentos, para fazer sair os piolhos, e não puderam; e houve piolhos no homem e no animal.
+8:15 E disseram os magos a Faraó: Dedo de Deus é este. E fortaleceu-se o coração de Faraó, e não os ouviu, como YHWH falara.
+8:16 E disse YHWH a Moisés: Madruga pela manhã, e põe-te diante de Faraó; eis que ele sai às águas; e dize-lhe: Assim disse YHWH: Deixa ir o meu povo, para que me sirva.
+8:17 Porque, se não deixares ir o meu povo, eis que eu envio sobre ti, e sobre os teus servos, e sobre o teu povo, e nas tuas casas, o enxame; e as casas do Egito se encherão do enxame, e também o solo sobre o qual estão.
+8:18 E separarei naquele dia a terra de Gósen, em que o meu povo habita, para que não haja ali enxame; para que saibas que eu [sou] YHWH no meio da terra.
+8:19 E porei redenção entre o meu povo e o teu povo; amanhã será este sinal.
+8:20 E fez YHWH assim; e veio um enxame pesado à casa de Faraó, e à casa dos seus servos, e a toda a terra do Egito; a terra se corrompeu por causa do enxame.
+8:21 E chamou Faraó a Moisés e a Arão, e disse: Ide, sacrificai ao vosso Deus nesta terra.
+8:22 E disse Moisés: Não é certo fazer assim, porque sacrificaríamos a YHWH, nosso Deus, a abominação dos egípcios; eis que, se sacrificarmos a abominação dos egípcios aos olhos deles, não nos apedrejarão?
+8:23 Caminho de três dias iremos ao deserto, e sacrificaremos a YHWH, nosso Deus, como ele nos disser.
+8:24 E disse Faraó: Eu vos deixarei ir, para que sacrifiqueis a YHWH, vosso Deus, no deserto; somente, afastando, não vos afasteis para ir; suplicai por mim.
+8:25 E disse Moisés: Eis que eu saio de junto de ti, e suplicarei a YHWH, e o enxame se retirará de Faraó, dos seus servos e do seu povo amanhã; somente não continue Faraó a enganar, não deixando ir o povo para sacrificar a YHWH.
+8:26 E saiu Moisés de junto de Faraó, e suplicou a YHWH.
+8:27 E fez YHWH conforme a palavra de Moisés, e retirou o enxame de Faraó, dos seus servos e do seu povo; não ficou um só.
+8:28 E tornou Faraó pesado o seu coração também desta vez, e não deixou ir o povo.
+
+9:1 E disse YHWH a Moisés: Entra a Faraó, e fala-lhe: Assim disse YHWH, o Deus dos hebreus: Deixa ir o meu povo, para que me sirva.
+9:2 Porque, se tu recusares deixá-lo ir, e ainda o retiveres,
+9:3 eis que a mão de YHWH estará sobre o teu gado que [está] no campo, sobre os cavalos, sobre os jumentos, sobre os camelos, sobre os bois e sobre as ovelhas: uma peste muito pesada.
+9:4 E YHWH fará separação entre o gado de Israel e o gado do Egito, e nada morrerá de tudo o que [é] dos filhos de Israel.
+9:5 E pôs YHWH um tempo determinado, dizendo: Amanhã fará YHWH esta coisa na terra.
+9:6 E fez YHWH esta coisa no dia seguinte, e morreu todo o gado do Egito; e do gado dos filhos de Israel não morreu um.
+9:7 E enviou Faraó, e eis que do gado de Israel não morrera nem um. E tornou-se pesado o coração de Faraó, e não deixou ir o povo.
+9:8 E disse YHWH a Moisés e a Arão: Tomai para vós as mãos cheias de cinza do forno, e lance-a Moisés para os céus aos olhos de Faraó.
+9:9 E tornar-se-á em pó sobre toda a terra do Egito, e se tornará, sobre o homem e sobre o animal, em úlcera que arrebenta em pústulas, em toda a terra do Egito.
+9:10 E tomaram a cinza do forno, e puseram-se diante de Faraó, e Moisés a lançou para os céus; e tornou-se úlcera de pústulas que arrebentava no homem e no animal.
+9:11 E os magos não puderam estar em pé diante de Moisés por causa da úlcera, porque havia úlcera nos magos e em todos os egípcios.
+9:12 E fortaleceu YHWH o coração de Faraó, e não os ouviu, como YHWH falara a Moisés.
+9:13 E disse YHWH a Moisés: Madruga pela manhã, e põe-te diante de Faraó, e dize-lhe: Assim disse YHWH, o Deus dos hebreus: Deixa ir o meu povo, para que me sirva.
+9:14 Porque desta vez eu envio todas as minhas pragas ao teu coração, e sobre os teus servos, e sobre o teu povo, para que saibas que não há como eu em toda a terra.
+9:15 Porque agora eu teria estendido a minha mão, e te teria ferido, a ti e ao teu povo, com a peste, e terias sido apagado da terra.
+9:16 Mas na verdade, por isto te mantive em pé: para te fazer ver a minha força, e para que se conte o meu nome em toda a terra.
+9:17 Ainda te exaltas contra o meu povo, para não o deixar ir?
+9:18 Eis que farei chover amanhã a esta hora uma saraiva muito pesada, como não houve igual no Egito desde o dia em que foi fundado até agora.
+9:19 E agora, envia, recolhe o teu gado e tudo o que tens no campo; todo homem e animal que se achar no campo e não for recolhido à casa, a saraiva descerá sobre eles, e morrerão.
+9:20 O que temia a palavra de YHWH dentre os servos de Faraó fez fugir os seus servos e o seu gado para as casas.
+9:21 E o que não pôs o seu coração na palavra de YHWH deixou os seus servos e o seu gado no campo.
+9:22 E disse YHWH a Moisés: Estende a tua mão para os céus, e haja saraiva em toda a terra do Egito, sobre o homem, e sobre o animal, e sobre toda erva do campo na terra do Egito.
+9:23 E estendeu Moisés o seu cajado para os céus, e YHWH deu trovões e saraiva, e o fogo andava sobre a terra; e fez YHWH chover saraiva sobre a terra do Egito.
+9:24 E houve saraiva, e fogo que se revolvia no meio da saraiva, muito pesada, como não houve igual em toda a terra do Egito desde que veio a ser nação.
+9:25 E feriu a saraiva, em toda a terra do Egito, tudo o que [havia] no campo, desde o homem até o animal; e toda erva do campo feriu a saraiva, e toda árvore do campo quebrou.
+9:26 Somente na terra de Gósen, onde [estavam] os filhos de Israel, não houve saraiva.
+9:27 E enviou Faraó, e chamou a Moisés e a Arão, e disse-lhes: Pequei desta vez; YHWH [é] o justo, e eu e o meu povo [somos] os ímpios.
+9:28 Suplicai a YHWH; e basta de haver trovões de Deus e saraiva; e vos deixarei ir, e não continuareis a ficar.
+9:29 E disse-lhe Moisés: Ao sair eu da cidade, estenderei as minhas palmas a YHWH; os trovões cessarão, e a saraiva não haverá mais, para que saibas que de YHWH [é] a terra.
+9:30 E tu e os teus servos, eu sei que ainda não temeis diante de YHWH Deus.
+9:31 E o linho e a cevada foram feridos, porque a cevada [estava] em espiga, e o linho em botão.
+9:32 E o trigo e a espelta não foram feridos, porque [são] tardios.
+9:33 E saiu Moisés de junto de Faraó, da cidade, e estendeu as suas palmas a YHWH; e cessaram os trovões e a saraiva, e a chuva não se derramou sobre a terra.
+9:34 E viu Faraó que cessara a chuva, e a saraiva, e os trovões, e continuou a pecar, e tornou pesado o seu coração, ele e os seus servos.
+9:35 E fortaleceu-se o coração de Faraó, e não deixou ir os filhos de Israel, como YHWH falara pela mão de Moisés.
+
+10:1 E disse YHWH a Moisés: Entra a Faraó, porque eu tornei pesado o seu coração e o coração dos seus servos, para pôr estes meus sinais no meio dele,
+10:2 e para que contes aos ouvidos de teu filho e do filho de teu filho o que eu fiz [como escárnio] no Egito, e os meus sinais que pus entre eles; e sabereis que eu [sou] YHWH.
+10:3 E vieram Moisés e Arão a Faraó, e disseram-lhe: Assim disse YHWH, o Deus dos hebreus: Até quando recusarás humilhar-te diante de mim? Deixa ir o meu povo, para que me sirva.
+10:4 Porque, se tu recusares deixar ir o meu povo, eis que trarei amanhã gafanhotos ao teu território.
+10:5 E cobrirão o olho da terra, e não se poderá ver a terra; e comerão o restante do que escapou, o que vos ficou da saraiva, e comerão toda árvore que vos brota do campo.
+10:6 E encherão as tuas casas, e as casas de todos os teus servos, e as casas de todos os egípcios, como não viram teus pais, nem os pais de teus pais, desde o dia em que estiveram sobre o solo até este dia. E virou-se, e saiu de junto de Faraó.
+10:7 E disseram os servos de Faraó a ele: Até quando nos será este por laço? Deixa ir os homens, para que sirvam a YHWH, seu Deus. Ainda não sabes que o Egito está perdido?
+10:8 E foram trazidos de volta Moisés e Arão a Faraó, e ele lhes disse: Ide, servi a YHWH, vosso Deus. Quem e quem [são] os que vão?
+10:9 E disse Moisés: Com os nossos moços e com os nossos velhos iremos; com os nossos filhos e com as nossas filhas, com as nossas ovelhas e com os nossos bois iremos; porque temos festa de YHWH.
+10:10 E disse-lhes: Seja assim YHWH convosco, como eu vos deixarei ir a vós e às vossas crianças! Vede, porque o mal [está] diante da vossa face.
+10:11 Não assim; ide agora vós, os homens, e servi a YHWH, porque isso vós buscais. E expulsaram-nos de diante da face de Faraó.
+10:12 E disse YHWH a Moisés: Estende a tua mão sobre a terra do Egito, para os gafanhotos, e subam sobre a terra do Egito, e comam toda erva da terra, tudo o que deixou a saraiva.
+10:13 E estendeu Moisés o seu cajado sobre a terra do Egito, e YHWH conduziu um vento oriental sobre a terra todo aquele dia e toda aquela noite; a manhã chegou, e o vento oriental trouxe os gafanhotos.
+10:14 E subiram os gafanhotos sobre toda a terra do Egito, e pousaram em todo o território do Egito, muito pesados; antes deles não houve assim gafanhotos como eles, e depois deles não haverá assim.
+10:15 E cobriram o olho de toda a terra, e a terra escureceu; e comeram toda erva da terra e todo fruto das árvores que a saraiva deixara; e não ficou nenhuma verdura nas árvores nem na erva do campo, em toda a terra do Egito.
+10:16 E apressou-se Faraó a chamar Moisés e Arão, e disse: Pequei contra YHWH, vosso Deus, e contra vós.
+10:17 E agora, perdoa, peço-te, o meu pecado somente esta vez, e suplicai a YHWH, vosso Deus, que tire de sobre mim somente esta morte.
+10:18 E saiu de junto de Faraó, e suplicou a YHWH.
+10:19 E YHWH virou um vento do mar muito forte, e levou os gafanhotos, e lançou-os no mar de Juncos; não ficou um gafanhoto em todo o território do Egito.
+10:20 E fortaleceu YHWH o coração de Faraó, e não deixou ir os filhos de Israel.
+10:21 E disse YHWH a Moisés: Estende a tua mão para os céus, e haja trevas sobre a terra do Egito, e se apalpem as trevas.
+10:22 E estendeu Moisés a sua mão para os céus, e houve trevas de escuridão em toda a terra do Egito três dias.
+10:23 Não viram um ao outro, e ninguém se levantou do seu lugar três dias; e todos os filhos de Israel tinham luz nas suas habitações.
+10:24 E chamou Faraó a Moisés, e disse: Ide, servi a YHWH; somente fiquem as vossas ovelhas e os vossos bois; também as vossas crianças irão convosco.
+10:25 E disse Moisés: Também tu darás na nossa mão sacrifícios e holocaustos, e [os] faremos a YHWH, nosso Deus.
+10:26 E também o nosso gado irá conosco; não ficará uma unha, porque dele tomaremos para servir a YHWH, nosso Deus; e nós não sabemos com que serviremos a YHWH até chegarmos lá.
+10:27 E fortaleceu YHWH o coração de Faraó, e não quis deixá-los ir.
+10:28 E disse-lhe Faraó: Vai-te de mim; guarda-te de que não vejas mais a minha face, porque no dia em que vires a minha face morrerás.
+10:29 E disse Moisés: Bem falaste; não verei mais a tua face.
+
+11:1 E disse YHWH a Moisés: Ainda uma praga trarei sobre Faraó e sobre o Egito; depois disso vos deixará ir daqui; quando vos deixar ir de todo, expulsando vos expulsará daqui.
+11:2 Fala agora aos ouvidos do povo, e peçam cada homem ao seu companheiro, e cada mulher à sua companheira, objetos de prata e objetos de ouro.
+11:3 E deu YHWH graça ao povo aos olhos dos egípcios; também o homem Moisés [era] muito grande na terra do Egito, aos olhos dos servos de Faraó e aos olhos do povo.
+11:4 E disse Moisés: Assim disse YHWH: Por volta da meia-noite eu sairei pelo meio do Egito.
+11:5 E morrerá todo primogênito na terra do Egito, desde o primogênito de Faraó, que se senta sobre o seu trono, até o primogênito da serva que [está] atrás do moinho, e todo primogênito de animal.
+11:6 E haverá grande clamor em toda a terra do Egito, como nunca houve igual, nem haverá mais igual.
+11:7 E contra todos os filhos de Israel nem um cão aguçará a sua língua, desde o homem até o animal; para que saibais que YHWH faz separação entre o Egito e Israel.
+11:8 E descerão todos estes teus servos a mim, e se prostrarão a mim, dizendo: Sai tu e todo o povo que [está] aos teus pés; e depois disso sairei. E saiu de junto de Faraó no ardor da ira.
+11:9 E disse YHWH a Moisés: Faraó não vos ouvirá, para que se multipliquem os meus prodígios na terra do Egito.
+11:10 E Moisés e Arão fizeram todos estes prodígios diante de Faraó; e fortaleceu YHWH o coração de Faraó, e não deixou ir os filhos de Israel da sua terra.
+
+12:1 E disse YHWH a Moisés e a Arão na terra do Egito, dizendo:
+12:2 Este mês vos [será] o princípio dos meses; o primeiro ele vos será dos meses do ano.
+12:3 Falai a toda a congregação de Israel, dizendo: Aos dez deste mês tomem para si cada um um cordeiro para a casa dos pais, um cordeiro para cada casa.
+12:4 E se a casa for pequena demais para um cordeiro, tome-o ele e o seu vizinho, o mais próximo da sua casa, conforme o número das almas; cada um segundo o que come fareis a conta para o cordeiro.
+12:5 O cordeiro vos será sem defeito, macho, filho de um ano; dos cordeiros ou dos cabritos o tomareis.
+12:6 E o guardareis até o dia catorze deste mês; e o imolará toda a assembleia da congregação de Israel entre as duas tardes.
+12:7 E tomarão do sangue, e [o] porão sobre os dois umbrais e sobre a verga das casas em que o comerem.
+12:8 E comerão a carne naquela noite, assada ao fogo; e com pães sem fermento, com ervas amargas a comerão.
+12:9 Não comereis dela crua, nem cozida, cozida em água, mas assada ao fogo: a sua cabeça com as suas pernas e com as suas entranhas.
+12:10 E não deixareis dela nada até a manhã; e o que dela ficar até a manhã queimareis no fogo.
+12:11 E assim a comereis: os vossos lombos cingidos, as vossas sandálias nos vossos pés e o vosso cajado na vossa mão; e a comereis às pressas: é a Páscoa de YHWH.
+12:12 E passarei pela terra do Egito esta noite, e ferirei todo primogênito na terra do Egito, desde o homem até o animal; e sobre todos os deuses do Egito farei juízos. Eu [sou] YHWH.
+12:13 E o sangue vos será por sinal sobre as casas em que estiverdes; e verei o sangue, e passarei por cima de vós, e não haverá entre vós praga de destruição, quando eu ferir a terra do Egito.
+12:14 E este dia vos será por memória, e o celebrareis [como] festa a YHWH nas vossas gerações; por estatuto perpétuo o celebrareis.
+12:15 Sete dias comereis pães sem fermento; logo no primeiro dia fareis cessar o fermento das vossas casas; porque todo aquele que comer [o que é] levedado, desde o primeiro dia até o sétimo dia, aquela alma será cortada de Israel.
+12:16 E no primeiro dia [haverá] santa convocação, e no sétimo dia santa convocação vos haverá; nenhum trabalho se fará neles; somente o que cada alma houver de comer, só isso se fará por vós.
+12:17 E guardareis [a festa] dos pães sem fermento, porque neste mesmo dia fiz sair os vossos exércitos da terra do Egito; e guardareis este dia nas vossas gerações por estatuto perpétuo.
+12:18 No primeiro [mês], no dia catorze do mês, à tarde, comereis pães sem fermento, até o dia vinte e um do mês, à tarde.
+12:19 Sete dias fermento não se achará nas vossas casas; porque todo aquele que comer [o que é] levedado, aquela alma será cortada da congregação de Israel, tanto o estrangeiro como o natural da terra.
+12:20 Nada levedado comereis; em todas as vossas habitações comereis pães sem fermento.
+12:21 E chamou Moisés a todos os anciãos de Israel, e disse-lhes: Tirai e tomai para vós ovelhas segundo as vossas famílias, e imolai a Páscoa.
+12:22 E tomareis um molho de hissopo, e o molhareis no sangue que [estiver] na bacia, e tocareis a verga e os dois umbrais com o sangue que [estiver] na bacia; e nenhum de vós sairá da entrada da sua casa até a manhã.
+12:23 E YHWH passará para ferir o Egito, e verá o sangue sobre a verga e sobre os dois umbrais, e YHWH passará por cima da entrada, e não deixará o destruidor entrar nas vossas casas para ferir.
+12:24 E guardareis esta coisa por estatuto para ti e para os teus filhos para sempre.
+12:25 E será que, quando entrardes na terra que YHWH vos dará, como falou, guardareis este serviço.
+12:26 E será que, quando vossos filhos vos disserem: Que [é] este serviço para vós?
+12:27 direis: É sacrifício da Páscoa a YHWH, que passou por cima das casas dos filhos de Israel no Egito, quando feriu o Egito e livrou as nossas casas. E o povo inclinou-se e prostrou-se.
+12:28 E foram e fizeram os filhos de Israel; como YHWH ordenara a Moisés e a Arão, assim fizeram.
+12:29 E aconteceu, à meia-noite, que YHWH feriu todo primogênito na terra do Egito, desde o primogênito de Faraó, que se senta sobre o seu trono, até o primogênito do cativo que [está] na casa da cova, e todo primogênito de animal.
+12:30 E levantou-se Faraó de noite, ele e todos os seus servos e todos os egípcios; e houve grande clamor no Egito, porque não havia casa em que não houvesse um morto.
+12:31 E chamou a Moisés e a Arão de noite, e disse: Levantai-vos, saí do meio do meu povo, tanto vós como os filhos de Israel, e ide, servi a YHWH, como dissestes.
+12:32 Também as vossas ovelhas, também os vossos bois tomai, como dissestes, e ide; e abençoai também a mim.
+12:33 E os egípcios apertavam o povo, apressando-se a deixá-los ir da terra, porque diziam: Todos nós [somos] mortos.
+12:34 E o povo levou a sua massa antes que levedasse, as suas amassadeiras atadas nas suas capas sobre o seu ombro.
+12:35 E os filhos de Israel fizeram conforme a palavra de Moisés, e pediram aos egípcios objetos de prata, e objetos de ouro, e capas.
+12:36 E YHWH deu graça ao povo aos olhos dos egípcios, e estes lhes deram o que pediam; e despojaram o Egito.
+12:37 E partiram os filhos de Israel de Ramessés para Sucote, cerca de seiscentos mil homens a pé, além das crianças.
+12:38 E também uma grande mistura subiu com eles, e ovelhas e bois, gado muito pesado.
+12:39 E assaram a massa que tinham trazido do Egito em bolos sem fermento, porque não se levedara; porque foram expulsos do Egito e não puderam demorar-se, e também não tinham preparado provisão para si.
+12:40 E a habitação dos filhos de Israel, que habitaram no Egito, [foi] de quatrocentos e trinta anos.
+12:41 E aconteceu, ao fim de quatrocentos e trinta anos, e aconteceu neste mesmo dia, que saíram todos os exércitos de YHWH da terra do Egito.
+12:42 Noite de vigílias é esta para YHWH, por fazê-los sair da terra do Egito; esta é a noite de YHWH, de vigílias para todos os filhos de Israel nas suas gerações.
+12:43 E disse YHWH a Moisés e a Arão: Este [é] o estatuto da Páscoa: nenhum filho de estrangeiro comerá dela.
+12:44 Mas todo servo de um homem, comprado por dinheiro, depois que o circuncidares, então comerá dela.
+12:45 O morador estrangeiro e o assalariado não comerão dela.
+12:46 Numa casa se comerá; não levarás da carne para fora da casa, e osso não quebrareis dela.
+12:47 Toda a congregação de Israel a fará.
+12:48 E quando peregrinar contigo um estrangeiro, e quiser fazer a Páscoa a YHWH, seja-lhe circuncidado todo macho, e então se chegará para fazê-la, e será como o natural da terra; e nenhum incircunciso comerá dela.
+12:49 Uma [mesma] instrução haverá para o natural e para o estrangeiro que peregrina no meio de vós.
+12:50 E fizeram todos os filhos de Israel; como YHWH ordenara a Moisés e a Arão, assim fizeram.
+12:51 E aconteceu, neste mesmo dia, que YHWH fez sair os filhos de Israel da terra do Egito, segundo os seus exércitos.
+
+13:1 E falou YHWH a Moisés, dizendo:
+13:2 Santifica-me todo primogênito, o que abre toda madre entre os filhos de Israel, do homem e do animal; meu ele [é].
+13:3 E disse Moisés ao povo: Lembrai-vos deste dia, em que saístes do Egito, da casa de servos; porque com força de mão YHWH vos fez sair daqui; e não se comerá [nada] levedado.
+13:4 Hoje vós saís, no mês de Abibe.
+13:5 E será que, quando YHWH te fizer entrar na terra do cananeu, e do heteu, e do amorreu, e do heveu, e do jebuseu, que jurou a teus pais dar-te, terra que mana leite e mel, farás este serviço neste mês.
+13:6 Sete dias comerás pães sem fermento, e no sétimo dia [haverá] festa a YHWH.
+13:7 Pães sem fermento se comerão os sete dias; e não se verá contigo [nada] levedado, nem se verá contigo fermento em todo o teu território.
+13:8 E contarás a teu filho naquele dia, dizendo: [É] por causa do que YHWH me fez quando saí do Egito.
+13:9 E te será por sinal sobre a tua mão e por memória entre os teus olhos, para que a instrução de YHWH esteja na tua boca; porque com mão forte YHWH te fez sair do Egito.
+13:10 E guardarás este estatuto no seu tempo determinado, de ano em ano.
+13:11 E será que, quando YHWH te fizer entrar na terra do cananeu, como jurou a ti e a teus pais, e ta der,
+13:12 farás passar a YHWH tudo o que abre a madre; e todo primeiro filhote de animal que tiveres, os machos [serão] de YHWH.
+13:13 E todo primeiro filhote de jumento resgatarás com um cordeiro; e se não o resgatares, quebrar-lhe-ás a nuca; e todo primogênito do homem entre teus filhos resgatarás.
+13:14 E será que, quando teu filho te perguntar amanhã, dizendo: Que [é] isto? dir-lhe-ás: Com força de mão YHWH nos fez sair do Egito, da casa de servos.
+13:15 E aconteceu que, quando Faraó endureceu [o coração] para não nos deixar ir, YHWH matou todo primogênito na terra do Egito, desde o primogênito do homem até o primogênito do animal; por isso eu sacrifico a YHWH tudo o que abre a madre, os machos, e todo primogênito de meus filhos resgato.
+13:16 E será por sinal sobre a tua mão e por frontais entre os teus olhos; porque com força de mão YHWH nos fez sair do Egito.
+13:17 E aconteceu que, quando Faraó deixou ir o povo, Deus não os conduziu pelo caminho da terra dos filisteus, ainda que estivesse perto; porque disse Deus: Para que o povo não se arrependa, vendo a guerra, e volte ao Egito.
+13:18 E fez Deus o povo rodear pelo caminho do deserto do mar de Juncos; e armados subiram os filhos de Israel da terra do Egito.
+13:19 E tomou Moisés os ossos de José consigo, porque fazendo jurar fizera jurar os filhos de Israel, dizendo: Visitando, Deus vos visitará; e fareis subir daqui os meus ossos convosco.
+13:20 E partiram de Sucote, e acamparam em Etã, na extremidade do deserto.
+13:21 E YHWH ia diante deles, de dia numa coluna de nuvem, para os guiar pelo caminho, e de noite numa coluna de fogo, para os iluminar, para que andassem de dia e de noite.
+13:22 Não se retirava a coluna de nuvem de dia, nem a coluna de fogo de noite, de diante do povo.
+
+14:1 E falou YHWH a Moisés, dizendo:
+14:2 Fala aos filhos de Israel que voltem e acampem diante de Pi-Hairote, entre Migdol e o mar, diante de Baal-Zefom; defronte dele acampareis junto ao mar.
+14:3 E Faraó dirá dos filhos de Israel: Estão confusos na terra; o deserto os encerrou.
+14:4 E fortalecerei o coração de Faraó, e ele os perseguirá; e serei glorificado em Faraó e em todo o seu exército, e saberão os egípcios que eu [sou] YHWH. E fizeram assim.
+14:5 E foi contado ao rei do Egito que o povo fugira; e mudou-se o coração de Faraó e dos seus servos contra o povo, e disseram: Que [é] isto [que] fizemos, deixando ir Israel do nosso serviço?
+14:6 E aprontou o seu carro, e tomou consigo o seu povo.
+14:7 E tomou seiscentos carros escolhidos, e todos os carros do Egito, e oficiais sobre todos eles.
+14:8 E fortaleceu YHWH o coração de Faraó, rei do Egito, e ele perseguiu os filhos de Israel; e os filhos de Israel saíam com mão levantada.
+14:9 E os egípcios os perseguiram, e alcançaram-nos acampados junto ao mar, todos os cavalos dos carros de Faraó, e os seus cavaleiros, e o seu exército, junto a Pi-Hairote, diante de Baal-Zefom.
+14:10 E Faraó se aproximou, e os filhos de Israel levantaram os seus olhos, e eis que os egípcios marchavam atrás deles; e temeram muito, e clamaram os filhos de Israel a YHWH.
+14:11 E disseram a Moisés: Acaso por não haver sepulcros no Egito nos tomaste para morrer no deserto? Que [é] isto [que] nos fizeste, fazendo-nos sair do Egito?
+14:12 Não [é] esta a palavra que te falamos no Egito, dizendo: Deixa-nos, e sirvamos aos egípcios? Porque melhor nos [era] servir aos egípcios do que morrer no deserto.
+14:13 E disse Moisés ao povo: Não temais; ficai firmes, e vede a salvação de YHWH, que ele vos fará hoje; porque os egípcios que vistes hoje, não continuareis a vê-los mais para sempre.
+14:14 YHWH pelejará por vós, e vós vos calareis.
+14:15 E disse YHWH a Moisés: Por que clamas a mim? Fala aos filhos de Israel que marchem.
+14:16 E tu, levanta o teu cajado, e estende a tua mão sobre o mar, e fende-o; e entrem os filhos de Israel pelo meio do mar em seco.
+14:17 E eu, eis que fortaleço o coração dos egípcios, e entrarão atrás deles; e serei glorificado em Faraó, e em todo o seu exército, nos seus carros e nos seus cavaleiros.
+14:18 E saberão os egípcios que eu [sou] YHWH, quando eu for glorificado em Faraó, nos seus carros e nos seus cavaleiros.
+14:19 E partiu o anjo de Deus, que ia diante do acampamento de Israel, e foi para trás deles; e partiu a coluna de nuvem de diante deles, e pôs-se atrás deles.
+14:20 E veio entre o acampamento do Egito e o acampamento de Israel; e havia a nuvem e as trevas, e iluminava a noite; e não se aproximou um do outro toda a noite.
+14:21 E estendeu Moisés a sua mão sobre o mar, e YHWH fez andar o mar com um forte vento oriental toda a noite, e pôs o mar em seco; e as águas foram fendidas.
+14:22 E entraram os filhos de Israel pelo meio do mar em seco; e as águas lhes [eram] muro à sua direita e à sua esquerda.
+14:23 E os egípcios os perseguiram, e entraram atrás deles todos os cavalos de Faraó, os seus carros e os seus cavaleiros, até o meio do mar.
+14:24 E aconteceu, na vigília da manhã, que YHWH olhou para o acampamento dos egípcios na coluna de fogo e de nuvem, e lançou em confusão o acampamento dos egípcios.
+14:25 E tirou as rodas dos seus carros, e fê-los andar com dificuldade. E disseram os egípcios: Fujamos de diante de Israel, porque YHWH peleja por eles contra os egípcios.
+14:26 E disse YHWH a Moisés: Estende a tua mão sobre o mar, e voltem as águas sobre os egípcios, sobre os seus carros e sobre os seus cavaleiros.
+14:27 E estendeu Moisés a sua mão sobre o mar, e o mar voltou, ao romper da manhã, à sua força; e os egípcios fugiam ao seu encontro; e YHWH sacudiu os egípcios no meio do mar.
+14:28 E voltaram as águas, e cobriram os carros e os cavaleiros de todo o exército de Faraó, que entraram atrás deles no mar; não ficou deles nem um.
+14:29 E os filhos de Israel andaram em seco pelo meio do mar; e as águas lhes [eram] muro à sua direita e à sua esquerda.
+14:30 E salvou YHWH naquele dia Israel da mão dos egípcios; e viu Israel os egípcios mortos sobre o lábio do mar.
+14:31 E viu Israel a grande mão que YHWH fizera contra os egípcios; e o povo temeu a YHWH, e creram em YHWH e em Moisés, seu servo.
+
+15:1 Então cantou Moisés e os filhos de Israel este cântico a YHWH, e disseram, dizendo: Cantarei a YHWH, porque se exaltou grandemente; o cavalo e o seu cavaleiro lançou no mar.
+15:2 A minha força e o [meu] cântico [é] Yah, e ele me foi por salvação; este [é] o meu Deus, e eu o louvarei; o Deus de meu pai, e eu o exaltarei.
+15:3 YHWH [é] homem de guerra; YHWH [é] o seu nome.
+15:4 Os carros de Faraó e o seu exército lançou no mar; e os escolhidos dos seus oficiais foram afundados no mar de Juncos.
+15:5 Os abismos os cobriram; desceram às profundezas como pedra.
+15:6 A tua direita, YHWH, gloriosa em força; a tua direita, YHWH, despedaça o inimigo.
+15:7 E na grandeza da tua majestade derrubas os que se levantam contra ti; envias o teu furor, ele os consome como palha.
+15:8 E com o sopro das tuas narinas se amontoaram as águas; puseram-se em pé como um montão as correntes; coalharam-se os abismos no coração do mar.
+15:9 Disse o inimigo: Perseguirei, alcançarei, repartirei o despojo; fartar-se-á deles a minha alma; desembainharei a minha espada, a minha mão os destruirá.
+15:10 Sopraste com o teu vento, cobriu-os o mar; afundaram como chumbo em águas poderosas.
+15:11 Quem [é] como tu entre os deuses, YHWH? Quem [é] como tu, glorioso em santidade, temível em louvores, que fazes maravilha?
+15:12 Estendeste a tua direita; a terra os engoliu.
+15:13 Conduziste na tua bondade este povo que resgataste; guiaste[-o] na tua força à habitação da tua santidade.
+15:14 Ouviram os povos, tremerão; dores apoderaram-se dos habitantes da Filístia.
+15:15 Então se perturbaram os chefes de Edom; dos poderosos de Moabe apoderou-se o tremor; derreteram-se todos os habitantes de Canaã.
+15:16 Caia sobre eles espanto e pavor; pela grandeza do teu braço emudeçam como pedra, até que passe o teu povo, YHWH, até que passe este povo que adquiriste.
+15:17 Tu os farás entrar e os plantarás no monte da tua herança, no lugar firme que fizeste para a tua habitação, YHWH, no santuário, Senhor, que as tuas mãos estabeleceram.
+15:18 YHWH reinará para sempre e eternamente.
+15:19 Porque entrou o cavalo de Faraó, com os seus carros e com os seus cavaleiros, no mar, e YHWH fez voltar sobre eles as águas do mar; e os filhos de Israel andaram em seco pelo meio do mar.
+15:20 E tomou Miriã, a profetisa, irmã de Arão, o tamboril na sua mão, e saíram todas as mulheres atrás dela com tamboris e com danças.
+15:21 E Miriã lhes respondia: Cantai a YHWH, porque se exaltou grandemente; o cavalo e o seu cavaleiro lançou no mar.
+15:22 E fez Moisés partir Israel do mar de Juncos, e saíram para o deserto de Sur; e andaram três dias no deserto, e não acharam água.
+15:23 E vieram a Mara, e não puderam beber as águas de Mara, porque eram amargas; por isso chamou-se o seu nome Mara.
+15:24 E murmurou o povo contra Moisés, dizendo: Que beberemos?
+15:25 E clamou a YHWH, e YHWH lhe mostrou uma árvore, e lançou[-a] nas águas, e as águas se tornaram doces. Ali lhe pôs estatuto e juízo, e ali o provou.
+15:26 E disse: Se ouvindo ouvires a voz de YHWH, teu Deus, e fizeres o que é reto aos seus olhos, e deres ouvidos aos seus mandamentos, e guardares todos os seus estatutos, nenhuma das enfermidades que pus no Egito porei sobre ti; porque eu [sou] YHWH, que te cura.
+15:27 E vieram a Elim, e ali [havia] doze fontes de água e setenta palmeiras; e acamparam ali junto às águas.
+
+16:1 E partiram de Elim, e veio toda a congregação dos filhos de Israel ao deserto de Sim, que [está] entre Elim e o Sinai, no dia quinze do segundo mês depois que saíram da terra do Egito.
+16:2 E murmurou toda a congregação dos filhos de Israel contra Moisés e contra Arão no deserto.
+16:3 E disseram-lhes os filhos de Israel: Quem dera tivéssemos morrido pela mão de YHWH na terra do Egito, quando estávamos sentados junto à panela de carne, quando comíamos pão até nos fartar! Porque nos fizestes sair a este deserto, para matar de fome toda esta assembleia.
+16:4 E disse YHWH a Moisés: Eis que vos farei chover pão dos céus; e sairá o povo, e colherá a porção de cada dia no seu dia, para que eu o prove, se anda na minha instrução ou não.
+16:5 E será que, no sexto dia, prepararão o que trouxerem, e será o dobro do que colhem dia a dia.
+16:6 E disseram Moisés e Arão a todos os filhos de Israel: À tarde sabereis que YHWH vos fez sair da terra do Egito;
+16:7 e pela manhã vereis a glória de YHWH, porque ele ouviu as vossas murmurações contra YHWH; e nós, que [somos], para que murmureis contra nós?
+16:8 E disse Moisés: [Isso será] quando YHWH vos der à tarde carne para comer, e pela manhã pão para vos fartar, porque YHWH ouviu as vossas murmurações com que murmurais contra ele; e nós, que [somos]? Não [são] contra nós as vossas murmurações, mas contra YHWH.
+16:9 E disse Moisés a Arão: Dize a toda a congregação dos filhos de Israel: Chegai-vos diante de YHWH, porque ouviu as vossas murmurações.
+16:10 E aconteceu que, falando Arão a toda a congregação dos filhos de Israel, eles se voltaram para o deserto, e eis que a glória de YHWH apareceu na nuvem.
+16:11 E falou YHWH a Moisés, dizendo:
+16:12 Ouvi as murmurações dos filhos de Israel. Fala-lhes, dizendo: Entre as duas tardes comereis carne, e pela manhã vos fartareis de pão; e sabereis que eu [sou] YHWH, vosso Deus.
+16:13 E aconteceu, à tarde, que subiram as codornizes e cobriram o acampamento; e pela manhã havia uma camada de orvalho ao redor do acampamento.
+16:14 E subiu a camada de orvalho, e eis sobre a face do deserto uma coisa miúda, escamosa, miúda como a geada sobre a terra.
+16:15 E viram os filhos de Israel, e disseram cada um a seu irmão: Que é isto? Porque não sabiam o que era. E disse-lhes Moisés: Este [é] o pão que YHWH vos deu para comer.
+16:16 Esta [é] a palavra que YHWH ordenou: Colhei dele cada um conforme o seu comer: um ômer por cabeça, segundo o número das vossas almas; cada um tomará para os que [estão] na sua tenda.
+16:17 E fizeram assim os filhos de Israel, e colheram, o que [colheu] muito e o que [colheu] pouco.
+16:18 E mediram com o ômer, e não sobrou ao que [colheu] muito, e ao que [colheu] pouco não faltou; cada um colheu conforme o seu comer.
+16:19 E disse-lhes Moisés: Ninguém deixe dele para a manhã.
+16:20 E não ouviram a Moisés, e alguns homens deixaram dele para a manhã; e criou bichos, e cheirou mal; e Moisés indignou-se contra eles.
+16:21 E colhiam-no manhã após manhã, cada um conforme o seu comer; e aquecendo o sol, derretia.
+16:22 E aconteceu, no sexto dia, que colheram pão em dobro, dois ômeres para cada um; e vieram todos os príncipes da congregação, e contaram[-no] a Moisés.
+16:23 E disse-lhes: Isto [é] o que YHWH falou: Repouso, sábado santo para YHWH, [é] amanhã; o que houverdes de assar, assai, e o que houverdes de cozer, cozei; e tudo o que sobrar, guardai-o para vós até a manhã.
+16:24 E guardaram-no até a manhã, como Moisés ordenara; e não cheirou mal, nem houve nele bicho.
+16:25 E disse Moisés: Comei-o hoje, porque hoje [é] sábado para YHWH; hoje não o achareis no campo.
+16:26 Seis dias o colhereis; e no sétimo dia, o sábado, não haverá nele.
+16:27 E aconteceu, no sétimo dia, que saíram alguns do povo para colher, e não acharam.
+16:28 E disse YHWH a Moisés: Até quando recusareis guardar os meus mandamentos e as minhas instruções?
+16:29 Vede, porque YHWH vos deu o sábado; por isso ele vos dá no sexto dia pão para dois dias; ficai cada um no seu lugar; ninguém saia do seu lugar no sétimo dia.
+16:30 E o povo repousou no sétimo dia.
+16:31 E a casa de Israel chamou o seu nome maná; e ele [era] como semente de coentro, branco, e o seu sabor como bolos de mel.
+16:32 E disse Moisés: Esta [é] a palavra que YHWH ordenou: Enchei um ômer dele, para se guardar para as vossas gerações, para que vejam o pão que vos dei a comer no deserto, quando vos fiz sair da terra do Egito.
+16:33 E disse Moisés a Arão: Toma um vaso, e põe nele um ômer cheio de maná, e coloca-o diante de YHWH, para se guardar para as vossas gerações.
+16:34 Como YHWH ordenara a Moisés, assim Arão o colocou diante do testemunho, para se guardar.
+16:35 E os filhos de Israel comeram o maná quarenta anos, até chegarem a uma terra habitada; o maná comeram até chegarem à extremidade da terra de Canaã.
+16:36 E o ômer [é] a décima parte do efa.
+
+17:1 E partiu toda a congregação dos filhos de Israel do deserto de Sim, pelas suas jornadas, conforme a boca de YHWH, e acamparam em Refidim; e não [havia] água para o povo beber.
+17:2 E contendeu o povo com Moisés, e disseram: Dai-nos água, e beberemos. E disse-lhes Moisés: Por que contendeis comigo? Por que provais a YHWH?
+17:3 E teve ali o povo sede de água, e murmurou o povo contra Moisés, e disse: Por que, pois, nos fizeste subir do Egito, para me matar de sede, a mim, e aos meus filhos, e ao meu gado?
+17:4 E clamou Moisés a YHWH, dizendo: Que farei a este povo? Ainda um pouco, e me apedrejarão.
+17:5 E disse YHWH a Moisés: Passa diante do povo, e toma contigo alguns dos anciãos de Israel; e o teu cajado, com que feriste o Nilo, toma-o na tua mão, e vai.
+17:6 Eis que eu estarei em pé diante de ti ali, sobre a rocha em Horebe; e ferirás a rocha, e dela sairão águas, e o povo beberá. E fez Moisés assim aos olhos dos anciãos de Israel.
+17:7 E chamou o nome do lugar Massá e Meribá, por causa da contenda dos filhos de Israel, e porque provaram a YHWH, dizendo: Está YHWH no meio de nós, ou não?
+17:8 E veio Amaleque, e pelejou contra Israel em Refidim.
+17:9 E disse Moisés a Josué: Escolhe-nos homens, e sai, peleja contra Amaleque; amanhã eu estarei em pé sobre o cume do outeiro, e o cajado de Deus na minha mão.
+17:10 E fez Josué como Moisés lhe dissera, pelejando contra Amaleque; e Moisés, Arão e Hur subiram ao cume do outeiro.
+17:11 E acontecia que, quando Moisés levantava a sua mão, Israel prevalecia; e quando abaixava a sua mão, Amaleque prevalecia.
+17:12 E as mãos de Moisés [estavam] pesadas; e tomaram uma pedra, e a puseram debaixo dele, e ele se sentou sobre ela; e Arão e Hur sustentavam as suas mãos, um de um lado e o outro do outro; e as suas mãos ficaram firmes até o pôr do sol.
+17:13 E Josué desbaratou Amaleque e o seu povo à boca da espada.
+17:14 E disse YHWH a Moisés: Escreve isto por memória num livro, e põe-no aos ouvidos de Josué: que apagando apagarei a memória de Amaleque de debaixo dos céus.
+17:15 E edificou Moisés um altar, e chamou o seu nome YHWH-Nissi.
+17:16 E disse: Porque a mão [está] sobre o trono de Yah, guerra [terá] YHWH contra Amaleque de geração em geração.
+
+18:1 E ouviu Jetro, sacerdote de Midiã, sogro de Moisés, tudo o que Deus fizera a Moisés e a Israel, seu povo: que YHWH fizera sair Israel do Egito.
+18:2 E tomou Jetro, sogro de Moisés, a Zípora, mulher de Moisés, depois que ele a enviara de volta,
+18:3 e os seus dois filhos, dos quais o nome de um [era] Gérson, porque disse: Peregrino fui em terra estranha;
+18:4 e o nome do outro, Eliézer, porque [disse]: O Deus de meu pai [foi] a minha ajuda, e me livrou da espada de Faraó.
+18:5 E veio Jetro, sogro de Moisés, com os filhos dele e a mulher dele, a Moisés, ao deserto onde ele estava acampado, ao monte de Deus.
+18:6 E disse a Moisés: Eu, teu sogro Jetro, venho a ti, e a tua mulher e os seus dois filhos com ela.
+18:7 E saiu Moisés ao encontro do seu sogro, e prostrou-se, e beijou-o; e perguntaram um ao outro pela paz, e entraram na tenda.
+18:8 E contou Moisés ao seu sogro tudo o que YHWH fizera a Faraó e ao Egito por causa de Israel, toda a fadiga que lhes sobreviera no caminho, e [como] YHWH os livrara.
+18:9 E alegrou-se Jetro por todo o bem que YHWH fizera a Israel, livrando-o da mão do Egito.
+18:10 E disse Jetro: Bendito [seja] YHWH, que vos livrou da mão do Egito e da mão de Faraó; que livrou o povo de debaixo da mão do Egito.
+18:11 Agora sei que YHWH [é] maior que todos os deuses; porque na coisa em que se ensoberbeceram contra eles [ele os superou].
+18:12 E tomou Jetro, sogro de Moisés, holocausto e sacrifícios para Deus; e veio Arão, e todos os anciãos de Israel, para comer pão com o sogro de Moisés diante de Deus.
+18:13 E aconteceu, no dia seguinte, que Moisés se sentou para julgar o povo; e o povo ficou em pé junto a Moisés desde a manhã até a tarde.
+18:14 E viu o sogro de Moisés tudo o que ele fazia ao povo, e disse: Que [é] isto que tu fazes ao povo? Por que te sentas tu só, e todo o povo está em pé junto a ti desde a manhã até a tarde?
+18:15 E disse Moisés ao seu sogro: Porque o povo vem a mim para consultar a Deus.
+18:16 Quando têm uma questão, vem a mim, e eu julgo entre um e o seu próximo, e faço conhecer os estatutos de Deus e as suas instruções.
+18:17 E disse-lhe o sogro de Moisés: Não [é] bom o que tu fazes.
+18:18 Desfalecendo desfalecerás, tanto tu como este povo que [está] contigo; porque a coisa é pesada demais para ti; não a podes fazer tu só.
+18:19 Agora ouve a minha voz; eu te aconselharei, e Deus será contigo: sê tu pelo povo diante de Deus, e leva tu as questões a Deus.
+18:20 E adverte-os dos estatutos e das instruções, e faze-lhes conhecer o caminho em que devem andar e a obra que devem fazer.
+18:21 E tu escolhe de todo o povo homens de valor, tementes a Deus, homens de verdade, que odeiem o ganho [injusto]; e põe-nos sobre eles por chefes de mil, chefes de cem, chefes de cinquenta e chefes de dez.
+18:22 E julguem o povo em todo tempo; e será que toda causa grande trarão a ti, e toda causa pequena eles [a] julgarão; e alivia [o peso] de sobre ti, e eles o levarão contigo.
+18:23 Se fizeres isto, e Deus to ordenar, poderás subsistir; e também todo este povo irá em paz ao seu lugar.
+18:24 E ouviu Moisés a voz do seu sogro, e fez tudo o que dissera.
+18:25 E escolheu Moisés homens de valor de todo Israel, e os pôs por cabeças sobre o povo: chefes de mil, chefes de cem, chefes de cinquenta e chefes de dez.
+18:26 E julgavam o povo em todo tempo; a causa difícil traziam a Moisés, e toda causa pequena julgavam eles.
+18:27 E despediu Moisés o seu sogro, e este se foi à sua terra.
+
+19:1 No terceiro mês da saída dos filhos de Israel da terra do Egito, neste mesmo dia, vieram ao deserto do Sinai.
+19:2 E partiram de Refidim, e vieram ao deserto do Sinai, e acamparam no deserto; e acampou ali Israel diante do monte.
+19:3 E Moisés subiu a Deus, e YHWH o chamou do monte, dizendo: Assim dirás à casa de Jacó, e anunciarás aos filhos de Israel:
+19:4 Vós vistes o que fiz ao Egito, e [como] vos levei sobre asas de águias, e vos trouxe a mim.
+19:5 E agora, se ouvindo ouvirdes a minha voz, e guardardes a minha aliança, sereis para mim propriedade particular dentre todos os povos; porque minha [é] toda a terra.
+19:6 E vós sereis para mim um reino de sacerdotes e uma nação santa. Estas [são] as palavras que falarás aos filhos de Israel.
+19:7 E veio Moisés, e chamou os anciãos do povo, e pôs diante deles todas estas palavras que YHWH lhe ordenara.
+19:8 E respondeu todo o povo juntamente, e disseram: Tudo o que YHWH falou faremos. E levou Moisés as palavras do povo de volta a YHWH.
+19:9 E disse YHWH a Moisés: Eis que eu venho a ti na espessura da nuvem, para que o povo ouça quando eu falar contigo, e também creiam em ti para sempre. E contou Moisés as palavras do povo a YHWH.
+19:10 E disse YHWH a Moisés: Vai ao povo, e santifica-os hoje e amanhã, e lavem as suas capas.
+19:11 E estejam preparados para o terceiro dia; porque no terceiro dia YHWH descerá aos olhos de todo o povo sobre o monte Sinai.
+19:12 E marcarás limites ao povo ao redor, dizendo: Guardai-vos de subir ao monte, e de tocar a sua extremidade; todo aquele que tocar o monte, morrendo será morto.
+19:13 Não o tocará mão; porque apedrejando será apedrejado, ou flechando será flechado; seja animal, seja homem, não viverá. Quando soar longamente o chifre de carneiro, eles subirão ao monte.
+19:14 E desceu Moisés do monte ao povo, e santificou o povo, e lavaram as suas capas.
+19:15 E disse ao povo: Estai preparados para o terceiro dia; não vos chegueis a mulher.
+19:16 E aconteceu, ao terceiro dia, ao amanhecer, que houve trovões e relâmpagos, e uma nuvem pesada sobre o monte, e voz de shofar muito forte; e estremeceu todo o povo que [estava] no acampamento.
+19:17 E fez Moisés sair o povo do acampamento ao encontro de Deus; e puseram-se ao pé do monte.
+19:18 E o monte Sinai fumegava todo, porque YHWH descera sobre ele no fogo; e subia a sua fumaça como a fumaça de uma fornalha, e todo o monte estremecia muito.
+19:19 E a voz do shofar ia e se fortalecia muito; Moisés falava, e Deus lhe respondia com voz.
+19:20 E desceu YHWH sobre o monte Sinai, ao cume do monte; e chamou YHWH a Moisés ao cume do monte, e Moisés subiu.
+19:21 E disse YHWH a Moisés: Desce, adverte o povo, para que não rompam [o limite] até YHWH para ver, e caiam muitos deles.
+19:22 E também os sacerdotes que se chegam a YHWH se santifiquem, para que YHWH não irrompa contra eles.
+19:23 E disse Moisés a YHWH: O povo não poderá subir ao monte Sinai, porque tu nos advertiste, dizendo: Marca limites ao monte, e santifica-o.
+19:24 E disse-lhe YHWH: Vai, desce; e subirás tu, e Arão contigo; e os sacerdotes e o povo não rompam [o limite] para subir a YHWH, para que não irrompa contra eles.
+19:25 E desceu Moisés ao povo, e disse-lhes.
+
+20:1 E falou Deus todas estas palavras, dizendo:
+20:2 Eu [sou] YHWH, teu Deus, que te fiz sair da terra do Egito, da casa de servos.
+20:3 Não terás outros deuses diante da minha face.
+20:4 Não farás para ti imagem esculpida, nem figura alguma do que [há] nos céus em cima, nem do que [há] na terra embaixo, nem do que [há] nas águas debaixo da terra.
+20:5 Não te prostrarás a elas, nem as servirás; porque eu, YHWH, teu Deus, [sou] Deus zeloso, que visito a iniquidade dos pais nos filhos, na terceira e na quarta [geração] dos que me odeiam,
+20:6 e faço bondade a milhares dos que me amam e guardam os meus mandamentos.
+20:7 Não levantarás o nome de YHWH, teu Deus, em vão; porque YHWH não terá por inocente aquele que levantar o seu nome em vão.
+20:8 Lembra-te do dia do sábado, para o santificar.
+20:9 Seis dias trabalharás, e farás toda a tua obra;
+20:10 e o sétimo dia [é] sábado a YHWH, teu Deus; não farás nenhuma obra, tu, e o teu filho, e a tua filha, o teu servo, e a tua escrava, e o teu animal, e o teu estrangeiro que [está] dentro das tuas portas.
+20:11 Porque em seis dias fez YHWH os céus e a terra, o mar e tudo o que neles [há], e repousou no sétimo dia; por isso abençoou YHWH o dia do sábado, e o santificou.
+20:12 Honra teu pai e tua mãe, para que se prolonguem os teus dias sobre o solo que YHWH, teu Deus, te dá.
+20:13 Não assassinarás.
+20:14 Não adulterarás.
+20:15 Não furtarás.
+20:16 Não responderás contra o teu próximo [como] testemunha de mentira.
+20:17 Não cobiçarás a casa do teu próximo; não cobiçarás a mulher do teu próximo, nem o seu servo, nem a sua escrava, nem o seu boi, nem o seu jumento, nem coisa alguma que [seja] do teu próximo.
+20:18 E todo o povo via os trovões, e os relâmpagos, e a voz do shofar, e o monte fumegando; e o povo viu, e estremeceram, e ficaram em pé de longe.
+20:19 E disseram a Moisés: Fala tu conosco, e ouviremos; e não fale Deus conosco, para que não morramos.
+20:20 E disse Moisés ao povo: Não temais, porque Deus veio para vos provar, e para que o seu temor esteja diante da vossa face, para que não pequeis.
+20:21 E o povo ficou em pé de longe, e Moisés se chegou à escuridão espessa onde [estava] Deus.
+20:22 E disse YHWH a Moisés: Assim dirás aos filhos de Israel: Vós vistes que dos céus falei convosco.
+20:23 Não fareis [outros deuses] comigo; deuses de prata ou deuses de ouro não fareis para vós.
+20:24 Um altar de terra me farás, e sacrificarás sobre ele os teus holocaustos e as tuas ofertas pacíficas, as tuas ovelhas e os teus bois; em todo lugar onde eu fizer lembrar o meu nome, virei a ti e te abençoarei.
+20:25 E se me fizeres um altar de pedras, não o edificarás de [pedras] lavradas; porque se levantares sobre ele a tua ferramenta, profaná-lo-ás.
+20:26 E não subirás por degraus ao meu altar, para que não se descubra a tua nudez sobre ele.
+
+21:1 E estes [são] os juízos que porás diante deles:
+21:2 Se comprares um servo hebreu, seis anos servirá; e no sétimo sairá livre, de graça.
+21:3 Se entrou sozinho, sozinho sairá; se ele tinha mulher, sairá a sua mulher com ele.
+21:4 Se o seu senhor lhe der mulher, e ela lhe der à luz filhos ou filhas, a mulher e os seus filhos serão do seu senhor, e ele sairá sozinho.
+21:5 E se dizendo disser o servo: Amo o meu senhor, a minha mulher e os meus filhos; não sairei livre,
+21:6 o seu senhor o levará a Deus, e o levará à porta ou ao umbral, e o seu senhor lhe furará a orelha com uma sovela; e ele o servirá para sempre.
+21:7 E se um homem vender a sua filha por escrava, ela não sairá como saem os servos.
+21:8 Se for má aos olhos do seu senhor, que a destinou para si, ele a deixará resgatar; a um povo estranho não terá poder de vendê-la, pois agiu deslealmente com ela.
+21:9 E se a destinar para seu filho, fará com ela conforme o direito das filhas.
+21:10 Se tomar para si outra, não diminuirá o seu sustento, a sua veste e o seu direito conjugal.
+21:11 E se não lhe fizer estas três [coisas], ela sairá de graça, sem dinheiro.
+21:12 Quem ferir um homem, e ele morrer, morrendo será morto.
+21:13 E aquele que não armou cilada, mas Deus [o] fez chegar à sua mão, eu te porei um lugar para onde fugirá.
+21:14 E se um homem se levantar presunçosamente contra o seu próximo, para o matar com astúcia, do meu altar o tirarás para que morra.
+21:15 E quem ferir seu pai ou sua mãe, morrendo será morto.
+21:16 E quem furtar um homem, e o vender, ou for achado na sua mão, morrendo será morto.
+21:17 E quem amaldiçoar seu pai ou sua mãe, morrendo será morto.
+21:18 E se homens contenderem, e um ferir o outro com pedra ou com o punho, e ele não morrer, mas cair de cama,
+21:19 se se levantar e andar fora sobre o seu bordão, o que o feriu será inocente; somente pagará o tempo [perdido], e curando o fará curar.
+21:20 E se alguém ferir o seu servo ou a sua escrava com vara, e morrer debaixo da sua mão, vingando será vingado.
+21:21 Porém, se sobreviver um dia ou dois, não será vingado, porque é dinheiro dele.
+21:22 E se homens brigarem, e ferirem uma mulher grávida, e os seus filhos saírem, mas não houver dano, multando será multado, conforme o que lhe impuser o marido da mulher; e pagará conforme os juízes.
+21:23 Mas se houver dano, darás alma por alma,
+21:24 olho por olho, dente por dente, mão por mão, pé por pé,
+21:25 queimadura por queimadura, ferida por ferida, contusão por contusão.
+21:26 E se alguém ferir o olho do seu servo ou o olho da sua escrava, e o destruir, livre o deixará ir por causa do seu olho.
+21:27 E se fizer cair o dente do seu servo ou o dente da sua escrava, livre o deixará ir por causa do seu dente.
+21:28 E se um boi chifrar um homem ou uma mulher, e morrer, apedrejando será apedrejado o boi, e não se comerá a sua carne; e o dono do boi será inocente.
+21:29 Mas se o boi [era] chifrador desde ontem [e] anteontem, e o seu dono foi advertido, e não o guardou, e matou homem ou mulher, o boi será apedrejado, e também o seu dono será morto.
+21:30 Se lhe for imposto resgate, dará pela redenção da sua alma tudo o que lhe for imposto.
+21:31 Quer chifre filho, quer chifre filha, conforme este juízo se lhe fará.
+21:32 Se o boi chifrar um servo ou uma escrava, dará ao seu senhor trinta siclos de prata, e o boi será apedrejado.
+21:33 E se alguém abrir uma cova, ou se alguém cavar uma cova e não a cobrir, e nela cair um boi ou um jumento,
+21:34 o dono da cova pagará; dinheiro restituirá ao dono, e o morto será dele.
+21:35 E se o boi de alguém ferir o boi do seu próximo, e morrer, venderão o boi vivo e dividirão o seu dinheiro, e também o morto dividirão.
+21:36 Ou se se souber que o boi [era] chifrador desde ontem [e] anteontem, e o seu dono não o guardou, pagando pagará boi por boi, e o morto será dele.
+21:37 Se alguém furtar boi ou cordeiro, e o abater ou o vender, cinco bois pagará pelo boi, e quatro ovelhas pelo cordeiro.
+
+22:1 Se o ladrão for achado arrombando, e for ferido e morrer, não haverá [culpa de] sangue por ele.
+22:2 Se o sol tiver nascido sobre ele, haverá [culpa de] sangue por ele. Pagando pagará; se não tiver, será vendido pelo seu furto.
+22:3 Se achando for achado o furto vivo na sua mão, seja boi, seja jumento, seja cordeiro, pagará o dobro.
+22:4 Se alguém fizer pastar num campo ou numa vinha, e soltar o seu animal, e este pastar no campo de outro, do melhor do seu campo e do melhor da sua vinha pagará.
+22:5 Se sair fogo, e achar espinhos, e for consumida a meda, ou a seara, ou o campo, pagando pagará o que acendeu o fogo.
+22:6 Se alguém der ao seu próximo dinheiro ou objetos para guardar, e for furtado da casa do homem, se o ladrão for achado, pagará o dobro.
+22:7 Se o ladrão não for achado, o dono da casa se chegará a Deus, [para ver] se não estendeu a sua mão aos bens do seu próximo.
+22:8 Sobre toda questão de transgressão, sobre boi, sobre jumento, sobre cordeiro, sobre capa, sobre toda coisa perdida de que alguém disser: É isto, até Deus virá a causa de ambos; aquele a quem Deus condenar pagará o dobro ao seu próximo.
+22:9 Se alguém der ao seu próximo jumento, ou boi, ou cordeiro, ou qualquer animal para guardar, e morrer, ou se ferir, ou for levado, sem que ninguém o veja,
+22:10 o juramento de YHWH haverá entre ambos, de que não estendeu a sua mão aos bens do seu próximo; e o seu dono o aceitará, e ele não pagará.
+22:11 Mas se furtando lhe for furtado, pagará ao seu dono.
+22:12 Se despedaçando for despedaçado, trá-lo-á por testemunho; o despedaçado não pagará.
+22:13 E se alguém pedir emprestado ao seu próximo, e se ferir ou morrer, não estando o seu dono com ele, pagando pagará.
+22:14 Se o seu dono estava com ele, não pagará; se era alugado, veio pelo seu aluguel.
+22:15 E se alguém seduzir uma virgem que não está desposada, e se deitar com ela, pagando o dote a tomará por mulher.
+22:16 Se recusando recusar o pai dela dá-la a ele, pesará prata conforme o dote das virgens.
+22:17 À feiticeira não deixarás viver.
+22:18 Todo aquele que se deitar com animal, morrendo será morto.
+22:19 Quem sacrificar aos deuses, e não a YHWH somente, será destruído por anátema.
+22:20 E o estrangeiro não maltratarás, nem o oprimirás; porque estrangeiros fostes na terra do Egito.
+22:21 Nenhuma viúva nem órfão afligireis.
+22:22 Se afligindo o afligires, e clamando ele clamar a mim, ouvindo ouvirei o seu clamor;
+22:23 e se acenderá a minha ira, e vos matarei à espada, e vossas mulheres ficarão viúvas, e vossos filhos órfãos.
+22:24 Se emprestares dinheiro ao meu povo, ao pobre que [está] contigo, não lhe serás como credor; não lhe imporás juros.
+22:25 Se tomando em penhor tomares em penhor a capa do teu próximo, até o pôr do sol lha restituirás.
+22:26 Porque ela [é] a sua única cobertura, ela [é] a sua capa para a sua pele; em que se deitará? E será que, quando clamar a mim, eu ouvirei, porque eu [sou] compassivo.
+22:27 A Deus não amaldiçoarás, e ao príncipe do teu povo não maldirás.
+22:28 A tua plenitude e o teu licor não retardarás; o primogênito de teus filhos me darás.
+22:29 Assim farás com o teu boi [e] com a tua ovelha: sete dias estará com a sua mãe; ao oitavo dia mo darás.
+22:30 E homens santos me sereis; e carne despedaçada no campo não comereis; ao cão a lançareis.
+
+23:1 Não levantarás boato falso; não ponhas a tua mão com o ímpio para seres testemunha de violência.
+23:2 Não seguirás a muitos para fazer mal; e não responderás numa causa inclinando-te após muitos para torcer [o juízo].
+23:3 E ao pobre não favorecerás na sua causa.
+23:4 Se encontrares o boi do teu inimigo ou o seu jumento extraviado, fazendo voltar o farás voltar a ele.
+23:5 Se vires o jumento daquele que te odeia deitado debaixo da sua carga, deixarás de abandoná-lo a ele? Soltando o soltarás com ele.
+23:6 Não torcerás o juízo do teu necessitado na sua causa.
+23:7 Da palavra de mentira te afastarás; e o inocente e o justo não matarás, porque não justificarei o ímpio.
+23:8 E suborno não tomarás, porque o suborno cega os que veem e perverte as palavras dos justos.
+23:9 E o estrangeiro não oprimirás; e vós conheceis a alma do estrangeiro, porque estrangeiros fostes na terra do Egito.
+23:10 E seis anos semearás a tua terra, e recolherás o seu produto;
+23:11 e no sétimo a deixarás descansar e a largarás, e comerão os necessitados do teu povo; e o que deles sobrar comerá o animal do campo. Assim farás com a tua vinha [e] com o teu olival.
+23:12 Seis dias farás as tuas obras, e no sétimo dia cessarás, para que descanse o teu boi e o teu jumento, e tome alento o filho da tua escrava e o estrangeiro.
+23:13 E em tudo o que vos disse guardai-vos; e o nome de outros deuses não mencionareis; não se ouça da tua boca.
+23:14 Três vezes no ano me celebrarás festa.
+23:15 A festa dos pães sem fermento guardarás: sete dias comerás pães sem fermento, como te ordenei, no tempo determinado do mês de Abibe, porque nele saíste do Egito; e não se verá a minha face de mãos vazias.
+23:16 E a festa da ceifa, das primícias das tuas obras que semeares no campo; e a festa da colheita, à saída do ano, quando recolheres as tuas obras do campo.
+23:17 Três vezes no ano aparecerá todo o teu macho diante da face do Senhor YHWH.
+23:18 Não sacrificarás com [pão] levedado o sangue do meu sacrifício, e não pernoitará a gordura da minha festa até a manhã.
+23:19 As primícias dos primeiros frutos do teu solo trarás à casa de YHWH, teu Deus. Não cozerás o cabrito no leite da sua mãe.
+23:20 Eis que eu envio um anjo diante de ti, para te guardar no caminho, e para te fazer entrar no lugar que preparei.
+23:21 Guarda-te diante dele, e ouve a sua voz; não lhe sejas rebelde, porque não perdoará a vossa transgressão; porque o meu nome [está] nele.
+23:22 Porque, se ouvindo ouvires a sua voz, e fizeres tudo o que eu falar, serei inimigo dos teus inimigos e adversário dos teus adversários.
+23:23 Porque o meu anjo irá diante de ti, e te fará entrar [na terra] do amorreu, e do heteu, e do perizeu, e do cananeu, do heveu e do jebuseu; e eu os exterminarei.
+23:24 Não te prostrarás aos seus deuses, nem os servirás, nem farás conforme as suas obras; mas derrubando os derrubarás, e quebrando quebrarás as suas colunas.
+23:25 E servireis a YHWH, vosso Deus, e ele abençoará o teu pão e a tua água; e eu tirarei a enfermidade do meio de ti.
+23:26 Não haverá [mulher] que aborte nem estéril na tua terra; o número dos teus dias completarei.
+23:27 O meu terror enviarei diante de ti, e confundirei todo povo ao qual entrares, e farei que todos os teus inimigos te voltem as costas.
+23:28 E enviarei a vespa diante de ti, e ela expulsará o heveu, o cananeu e o heteu de diante de ti.
+23:29 Não os expulsarei de diante de ti num ano, para que a terra não se torne deserta e se multipliquem contra ti os animais do campo.
+23:30 Pouco a pouco os expulsarei de diante de ti, até que frutifiques e herdes a terra.
+23:31 E porei o teu território desde o mar de Juncos até o mar dos filisteus, e desde o deserto até o Rio; porque darei na vossa mão os habitantes da terra, e os expulsarás de diante de ti.
+23:32 Não cortarás aliança com eles, nem com os seus deuses.
+23:33 Não habitarão na tua terra, para que não te façam pecar contra mim; porque, se servires aos seus deuses, isso te será por laço.
+
+24:1 E a Moisés disse: Sobe a YHWH, tu e Arão, Nadabe e Abiú, e setenta dos anciãos de Israel; e prostrai-vos de longe.
+24:2 E Moisés se chegará só a YHWH; e eles não se chegarão, e o povo não subirá com ele.
+24:3 E veio Moisés, e contou ao povo todas as palavras de YHWH e todos os juízos; e todo o povo respondeu a uma voz, e disseram: Todas as palavras que YHWH falou faremos.
+24:4 E escreveu Moisés todas as palavras de YHWH; e madrugou pela manhã, e edificou um altar ao pé do monte, e doze colunas, segundo as doze tribos de Israel.
+24:5 E enviou os moços dos filhos de Israel, e ofereceram holocaustos, e sacrificaram sacrifícios pacíficos de novilhos a YHWH.
+24:6 E tomou Moisés metade do sangue, e pô-lo em bacias; e a [outra] metade do sangue aspergiu sobre o altar.
+24:7 E tomou o livro da aliança, e leu aos ouvidos do povo; e disseram: Tudo o que YHWH falou faremos e ouviremos.
+24:8 E tomou Moisés o sangue, e aspergiu sobre o povo, e disse: Eis o sangue da aliança que YHWH cortou convosco sobre todas estas palavras.
+24:9 E subiram Moisés e Arão, Nadabe e Abiú, e setenta dos anciãos de Israel.
+24:10 E viram o Deus de Israel; e debaixo dos seus pés [havia] como uma obra de ladrilho de safira, e como a própria substância dos céus em pureza.
+24:11 E contra os nobres dos filhos de Israel não estendeu a sua mão; e contemplaram a Deus, e comeram, e beberam.
+24:12 E disse YHWH a Moisés: Sobe a mim ao monte, e fica ali; e te darei as tábuas de pedra, e a instrução, e o mandamento que escrevi para os ensinar.
+24:13 E levantou-se Moisés com Josué, seu servidor; e subiu Moisés ao monte de Deus.
+24:14 E aos anciãos disse: Esperai-nos aqui, até que voltemos a vós; e eis que Arão e Hur [estão] convosco; quem tiver alguma questão, chegue-se a eles.
+24:15 E subiu Moisés ao monte, e a nuvem cobriu o monte.
+24:16 E habitou a glória de YHWH sobre o monte Sinai, e a nuvem o cobriu seis dias; e ao sétimo dia chamou a Moisés do meio da nuvem.
+24:17 E a aparência da glória de YHWH [era] como fogo consumidor no cume do monte, aos olhos dos filhos de Israel.
+24:18 E entrou Moisés no meio da nuvem, e subiu ao monte; e esteve Moisés no monte quarenta dias e quarenta noites.
+
+25:1 E falou YHWH a Moisés, dizendo:
+25:2 Fala aos filhos de Israel que me tragam uma oferta alçada; de todo homem cujo coração o mover tomareis a minha oferta alçada.
+25:3 E esta [é] a oferta alçada que tomareis deles: ouro, e prata, e bronze,
+25:4 e azul, e púrpura, e carmesim, e linho fino, e [pelo de] cabras,
+25:5 e peles de carneiros tingidas de vermelho, e peles de texugo, e madeira de acácia;
+25:6 azeite para a luz, especiarias para o azeite da unção e para o incenso aromático;
+25:7 pedras de ônix e pedras de engaste para o éfode e para o peitoral.
+25:8 E me farão um santuário, e habitarei no meio deles.
+25:9 Conforme tudo o que eu te mostrar, o modelo do tabernáculo e o modelo de todos os seus utensílios, assim o fareis.
+25:10 E farão uma arca de madeira de acácia: dois côvados e meio o seu comprimento, e um côvado e meio a sua largura, e um côvado e meio a sua altura.
+25:11 E a cobrirás de ouro puro; por dentro e por fora a cobrirás; e farás sobre ela uma moldura de ouro ao redor.
+25:12 E fundirás para ela quatro argolas de ouro, e [as] porás nos seus quatro pés: duas argolas de um lado dela, e duas argolas do outro lado dela.
+25:13 E farás varas de madeira de acácia, e as cobrirás de ouro.
+25:14 E meterás as varas nas argolas, aos lados da arca, para levar a arca com elas.
+25:15 Nas argolas da arca estarão as varas; não se tirarão dela.
+25:16 E porás na arca o testemunho que eu te darei.
+25:17 E farás um propiciatório de ouro puro: dois côvados e meio o seu comprimento, e um côvado e meio a sua largura.
+25:18 E farás dois querubins de ouro; de obra batida os farás, nas duas extremidades do propiciatório.
+25:19 E faze um querubim numa extremidade, de um lado, e o outro querubim na outra extremidade, do outro lado; de uma peça com o propiciatório fareis os querubins nas suas duas extremidades.
+25:20 E os querubins estenderão as asas para cima, cobrindo com as suas asas o propiciatório; e as suas faces, um para o outro; para o propiciatório estarão as faces dos querubins.
+25:21 E porás o propiciatório sobre a arca, em cima; e na arca porás o testemunho que eu te darei.
+25:22 E ali me encontrarei contigo, e falarei contigo de cima do propiciatório, do meio dos dois querubins que [estão] sobre a arca do testemunho, tudo o que eu te ordenar para os filhos de Israel.
+25:23 E farás uma mesa de madeira de acácia: dois côvados o seu comprimento, e um côvado a sua largura, e um côvado e meio a sua altura.
+25:24 E a cobrirás de ouro puro, e lhe farás uma moldura de ouro ao redor.
+25:25 E lhe farás uma borda de um palmo ao redor, e farás uma moldura de ouro para a sua borda ao redor.
+25:26 E lhe farás quatro argolas de ouro, e porás as argolas nos quatro cantos que [estão] nos seus quatro pés.
+25:27 Junto à borda estarão as argolas, por lugares para as varas, para levar a mesa.
+25:28 E farás as varas de madeira de acácia, e as cobrirás de ouro; e com elas se levará a mesa.
+25:29 E farás os seus pratos, e as suas colheres, e as suas jarras, e as suas taças, com que se derramam [as libações]; de ouro puro os farás.
+25:30 E porás sobre a mesa o pão da face diante de mim continuamente.
+25:31 E farás um candelabro de ouro puro; de obra batida se fará o candelabro: o seu pé e a sua haste, os seus cálices, as suas maçanetas e as suas flores serão dele.
+25:32 E seis hastes sairão dos seus lados: três hastes do candelabro de um lado dele, e três hastes do candelabro do outro lado dele.
+25:33 Três cálices em forma de flor de amêndoa numa haste, maçaneta e flor; e três cálices em forma de flor de amêndoa na outra haste, maçaneta e flor; assim para as seis hastes que saem do candelabro.
+25:34 E no candelabro, quatro cálices em forma de flor de amêndoa, as suas maçanetas e as suas flores.
+25:35 E uma maçaneta debaixo de duas hastes dele, e uma maçaneta debaixo de [outras] duas hastes dele, e uma maçaneta debaixo de [outras] duas hastes dele, para as seis hastes que saem do candelabro.
+25:36 As suas maçanetas e as suas hastes serão dele; todo ele, uma só peça batida de ouro puro.
+25:37 E lhe farás as suas sete lâmpadas; e acenderão as suas lâmpadas para que iluminem defronte dele.
+25:38 E as suas espevitadeiras e os seus apagadores [serão] de ouro puro.
+25:39 De um talento de ouro puro se fará, com todos estes utensílios.
+25:40 E vê, e faze conforme o seu modelo, que te é mostrado no monte.
+
+26:1 E o tabernáculo farás de dez cortinas de linho fino torcido, e azul, e púrpura, e carmesim; com querubins, obra de artífice, as farás.
+26:2 O comprimento de uma cortina, vinte e oito côvados, e a largura, quatro côvados uma cortina; uma mesma medida para todas as cortinas.
+26:3 Cinco cortinas estarão unidas uma à outra, e [as outras] cinco cortinas unidas uma à outra.
+26:4 E farás laçadas de azul na borda de uma cortina, na extremidade da junção; e assim farás na borda da cortina extrema da segunda junção.
+26:5 Cinquenta laçadas farás numa cortina, e cinquenta laçadas farás na extremidade da cortina que [está] na segunda junção; as laçadas estarão defronte uma da outra.
+26:6 E farás cinquenta colchetes de ouro, e unirás as cortinas uma à outra com os colchetes; e o tabernáculo será um.
+26:7 E farás cortinas de [pelo de] cabras para tenda sobre o tabernáculo; onze cortinas as farás.
+26:8 O comprimento de uma cortina, trinta côvados, e a largura, quatro côvados uma cortina; uma mesma medida para as onze cortinas.
+26:9 E unirás cinco cortinas à parte, e seis cortinas à parte; e dobrarás a sexta cortina na frente da tenda.
+26:10 E farás cinquenta laçadas na borda de uma cortina, a extrema da junção, e cinquenta laçadas na borda da cortina da segunda junção.
+26:11 E farás cinquenta colchetes de bronze, e meterás os colchetes nas laçadas, e unirás a tenda, e será uma.
+26:12 E a parte que sobrar das cortinas da tenda, a metade da cortina que sobrar, penderá sobre a parte de trás do tabernáculo.
+26:13 E o côvado de um lado e o côvado do outro, do que sobrar no comprimento das cortinas da tenda, penderá sobre os lados do tabernáculo, de um lado e do outro, para o cobrir.
+26:14 E farás para a tenda uma cobertura de peles de carneiros tingidas de vermelho, e uma cobertura de peles de texugo por cima.
+26:15 E farás as tábuas para o tabernáculo de madeira de acácia, [postas] em pé.
+26:16 Dez côvados [será] o comprimento da tábua, e um côvado e meio a largura de cada tábua.
+26:17 Dois encaixes [terá] cada tábua, travados um com o outro; assim farás com todas as tábuas do tabernáculo.
+26:18 E farás as tábuas para o tabernáculo: vinte tábuas para o lado do Neguebe, para o sul.
+26:19 E quarenta bases de prata farás debaixo das vinte tábuas: duas bases debaixo de uma tábua, para os seus dois encaixes, e duas bases debaixo da outra tábua, para os seus dois encaixes.
+26:20 E para o segundo lado do tabernáculo, para o lado do norte, vinte tábuas,
+26:21 e as suas quarenta bases de prata: duas bases debaixo de uma tábua, e duas bases debaixo da outra tábua.
+26:22 E para a parte de trás do tabernáculo, para o ocidente, farás seis tábuas.
+26:23 E duas tábuas farás para os cantos do tabernáculo, na parte de trás.
+26:24 E serão duplas por baixo, e juntamente serão inteiras até o seu alto, até a primeira argola; assim será com ambas; para os dois cantos serão.
+26:25 E serão oito tábuas, e as suas bases de prata, dezesseis bases: duas bases debaixo de uma tábua, e duas bases debaixo da outra tábua.
+26:26 E farás travessas de madeira de acácia: cinco para as tábuas de um lado do tabernáculo,
+26:27 e cinco travessas para as tábuas do segundo lado do tabernáculo, e cinco travessas para as tábuas do lado do tabernáculo, na parte de trás, para o ocidente.
+26:28 E a travessa do meio, no meio das tábuas, passará de uma extremidade à outra.
+26:29 E cobrirás as tábuas de ouro, e farás as suas argolas de ouro, por lugares para as travessas; e cobrirás as travessas de ouro.
+26:30 E levantarás o tabernáculo conforme o seu juízo, que te foi mostrado no monte.
+26:31 E farás um véu de azul, e púrpura, e carmesim, e linho fino torcido; obra de artífice se fará, com querubins.
+26:32 E o porás sobre quatro colunas de acácia cobertas de ouro, os seus ganchos de ouro, sobre quatro bases de prata.
+26:33 E porás o véu debaixo dos colchetes, e meterás ali, para dentro do véu, a arca do testemunho; e o véu vos fará separação entre o santo e o santo dos santos.
+26:34 E porás o propiciatório sobre a arca do testemunho no santo dos santos.
+26:35 E porás a mesa fora do véu, e o candelabro defronte da mesa, ao lado do tabernáculo, para o sul; e a mesa porás ao lado do norte.
+26:36 E farás um reposteiro para a entrada da tenda, de azul, e púrpura, e carmesim, e linho fino torcido, obra de bordador.
+26:37 E farás para o reposteiro cinco colunas de acácia, e as cobrirás de ouro; os seus ganchos [serão] de ouro, e fundirás para elas cinco bases de bronze.
+
+27:1 E farás o altar de madeira de acácia: cinco côvados de comprimento e cinco côvados de largura; quadrado será o altar; e três côvados a sua altura.
+27:2 E farás as suas pontas nos seus quatro cantos; dele serão as suas pontas; e o cobrirás de bronze.
+27:3 E farás os seus caldeirões para recolher a sua cinza, e as suas pás, e as suas bacias, e os seus garfos, e os seus braseiros; todos os seus utensílios farás de bronze.
+27:4 E lhe farás uma grelha, obra de rede, de bronze; e farás sobre a rede quatro argolas de bronze nas suas quatro extremidades.
+27:5 E a porás debaixo da borda do altar, por baixo; e a rede chegará até o meio do altar.
+27:6 E farás varas para o altar, varas de madeira de acácia, e as cobrirás de bronze.
+27:7 E as suas varas se meterão nas argolas, e estarão as varas aos dois lados do altar, quando for levado.
+27:8 Oco, de tábuas, o farás; como te foi mostrado no monte, assim o farão.
+27:9 E farás o pátio do tabernáculo: para o lado do Neguebe, para o sul, cortinas para o pátio de linho fino torcido, de cem côvados de comprimento para um lado.
+27:10 E as suas colunas, vinte, e as suas bases, vinte, de bronze; os ganchos das colunas e as suas faixas, de prata.
+27:11 E assim para o lado do norte, no comprimento, cortinas de cem [côvados] de comprimento; e as suas colunas, vinte, e as suas bases, vinte, de bronze; os ganchos das colunas e as suas faixas, de prata.
+27:12 E a largura do pátio, para o lado do ocidente, cortinas de cinquenta côvados; as suas colunas, dez, e as suas bases, dez.
+27:13 E a largura do pátio, para o lado do oriente, para o nascente, cinquenta côvados.
+27:14 E quinze côvados de cortinas para um lado; as suas colunas, três, e as suas bases, três.
+27:15 E para o outro lado, quinze [côvados] de cortinas; as suas colunas, três, e as suas bases, três.
+27:16 E para a porta do pátio, um reposteiro de vinte côvados, de azul, e púrpura, e carmesim, e linho fino torcido, obra de bordador; as suas colunas, quatro, e as suas bases, quatro.
+27:17 Todas as colunas do pátio ao redor [serão] cingidas de faixas de prata; os seus ganchos, de prata, e as suas bases, de bronze.
+27:18 O comprimento do pátio, cem côvados, e a largura, cinquenta por cinquenta, e a altura, cinco côvados, de linho fino torcido; e as suas bases, de bronze.
+27:19 Todos os utensílios do tabernáculo, em todo o seu serviço, e todas as suas estacas, e todas as estacas do pátio, [serão] de bronze.
+27:20 E tu ordenarás aos filhos de Israel que te tragam azeite de oliva puro, batido, para a luz, para fazer subir a lâmpada continuamente.
+27:21 Na tenda do encontro, fora do véu que [está] diante do testemunho, Arão e os seus filhos a porão em ordem, desde a tarde até a manhã, diante de YHWH; estatuto perpétuo para as suas gerações, da parte dos filhos de Israel.
+
+28:1 E tu, faze chegar a ti Arão, teu irmão, e os seus filhos com ele, do meio dos filhos de Israel, para me servir como sacerdote: Arão, Nadabe e Abiú, Eleazar e Itamar, filhos de Arão.
+28:2 E farás vestes santas para Arão, teu irmão, para glória e para ornamento.
+28:3 E tu falarás a todos os sábios de coração, a quem enchi do espírito de sabedoria, e farão as vestes de Arão para o santificar, para me servir como sacerdote.
+28:4 E estas [são] as vestes que farão: um peitoral, e um éfode, e um manto, e uma túnica tecida em xadrez, uma mitra e um cinto; e farão vestes santas para Arão, teu irmão, e para os seus filhos, para me servirem como sacerdotes.
+28:5 E eles tomarão o ouro, e o azul, e a púrpura, e o carmesim, e o linho fino.
+28:6 E farão o éfode de ouro, azul, e púrpura, carmesim e linho fino torcido, obra de artífice.
+28:7 Duas ombreiras que se unam terá nas suas duas extremidades, e assim se unirá.
+28:8 E o cinto do seu éfode, que [estará] sobre ele, da mesma obra, será dele: de ouro, azul, e púrpura, e carmesim, e linho fino torcido.
+28:9 E tomarás as duas pedras de ônix, e gravarás nelas os nomes dos filhos de Israel:
+28:10 seis dos seus nomes numa pedra, e os nomes dos seis restantes na segunda pedra, segundo as suas gerações.
+28:11 Obra de lapidário em pedra, gravuras de selo; gravarás as duas pedras com os nomes dos filhos de Israel; engastadas em engastes de ouro as farás.
+28:12 E porás as duas pedras sobre as ombreiras do éfode, pedras de memória para os filhos de Israel; e Arão levará os seus nomes diante de YHWH sobre os seus dois ombros, por memória.
+28:13 E farás engastes de ouro,
+28:14 e duas correntes de ouro puro, trançadas; de obra de cordão as farás; e porás as correntes de cordão nos engastes.
+28:15 E farás o peitoral do juízo, obra de artífice; como a obra do éfode o farás: de ouro, azul, e púrpura, e carmesim, e linho fino torcido o farás.
+28:16 Quadrado será, dobrado; um palmo o seu comprimento e um palmo a sua largura.
+28:17 E o encherás de engaste de pedras, quatro fileiras de pedras: uma fileira de sárdio, topázio e esmeralda, a primeira fileira;
+28:18 e a segunda fileira, turquesa, safira e diamante;
+28:19 e a terceira fileira, jacinto, ágata e ametista;
+28:20 e a quarta fileira, crisólito, e ônix, e jaspe; engastadas em ouro estarão nos seus engastes.
+28:21 E as pedras serão segundo os nomes dos filhos de Israel, doze, segundo os seus nomes; gravuras de selo, cada uma com o seu nome, serão para as doze tribos.
+28:22 E farás sobre o peitoral correntes trançadas, obra de cordão, de ouro puro.
+28:23 E farás sobre o peitoral duas argolas de ouro, e porás as duas argolas nas duas extremidades do peitoral.
+28:24 E porás os dois cordões de ouro nas duas argolas, nas extremidades do peitoral.
+28:25 E as duas extremidades dos dois cordões porás nos dois engastes, e os porás nas ombreiras do éfode, na frente dele.
+28:26 E farás duas argolas de ouro, e as porás nas duas extremidades do peitoral, na sua borda que [está] do lado do éfode, para dentro.
+28:27 E farás duas argolas de ouro, e as porás nas duas ombreiras do éfode, por baixo, na frente dele, junto à sua junção, acima do cinto do éfode.
+28:28 E atarão o peitoral pelas suas argolas às argolas do éfode com um cordão de azul, para que esteja sobre o cinto do éfode, e não se solte o peitoral de sobre o éfode.
+28:29 E Arão levará os nomes dos filhos de Israel no peitoral do juízo sobre o seu coração, quando entrar no santo, por memória diante de YHWH continuamente.
+28:30 E porás no peitoral do juízo o Urim e o Tumim, e estarão sobre o coração de Arão quando entrar diante de YHWH; e Arão levará o juízo dos filhos de Israel sobre o seu coração diante de YHWH continuamente.
+28:31 E farás o manto do éfode todo de azul.
+28:32 E haverá a abertura da sua cabeça no meio dele; uma borda haverá ao redor da sua abertura, obra de tecelão; como a abertura de uma couraça terá, para que não se rasgue.
+28:33 E farás nas suas orlas romãs de azul, e púrpura, e carmesim, nas suas orlas ao redor, e campainhas de ouro no meio delas ao redor:
+28:34 uma campainha de ouro e uma romã, uma campainha de ouro e uma romã, nas orlas do manto ao redor.
+28:35 E estará sobre Arão para servir; e se ouvirá o seu som quando entrar no santo diante de YHWH, e quando sair, para que não morra.
+28:36 E farás uma lâmina de ouro puro, e gravarás nela, gravura de selo: Santidade a YHWH.
+28:37 E a porás sobre um cordão de azul, e estará sobre a mitra; na frente da mitra estará.
+28:38 E estará sobre a testa de Arão, e Arão levará a iniquidade das coisas santas que os filhos de Israel santificarem em todas as ofertas das suas coisas santas; e estará sobre a sua testa continuamente, para que sejam aceitos diante de YHWH.
+28:39 E tecerás em xadrez a túnica de linho fino, e farás uma mitra de linho fino; e um cinto farás, obra de bordador.
+28:40 E para os filhos de Arão farás túnicas, e lhes farás cintos, e turbantes lhes farás, para glória e para ornamento.
+28:41 E vestirás com eles a Arão, teu irmão, e aos seus filhos com ele; e os ungirás, e encherás a sua mão, e os santificarás, e me servirão como sacerdotes.
+28:42 E faze-lhes calções de linho, para cobrir a carne da nudez; dos lombos até as coxas serão.
+28:43 E estarão sobre Arão e sobre os seus filhos quando entrarem na tenda do encontro, ou quando se chegarem ao altar para servir no santo, para que não levem iniquidade e morram; estatuto perpétuo para ele e para a sua semente depois dele.
+
+29:1 E isto [é] o que lhes farás para os santificar, para me servirem como sacerdotes: toma um novilho, filho de gado, e dois carneiros sem defeito,
+29:2 e pão sem fermento, e bolos sem fermento amassados com azeite, e obreias sem fermento untadas com azeite; de flor de farinha de trigo os farás.
+29:3 E os porás num cesto, e os trarás no cesto, com o novilho e os dois carneiros.
+29:4 E a Arão e aos seus filhos farás chegar à entrada da tenda do encontro, e os lavarás com água.
+29:5 E tomarás as vestes, e vestirás a Arão com a túnica, e o manto do éfode, e o éfode, e o peitoral; e o cingirás com o cinto do éfode.
+29:6 E porás a mitra sobre a sua cabeça, e porás a coroa santa sobre a mitra.
+29:7 E tomarás o azeite da unção, e o derramarás sobre a sua cabeça, e o ungirás.
+29:8 E farás chegar os seus filhos, e os vestirás com túnicas.
+29:9 E os cingirás com cinto, a Arão e aos seus filhos, e lhes atarás os turbantes; e o sacerdócio lhes será por estatuto perpétuo; e encherás a mão de Arão e a mão dos seus filhos.
+29:10 E farás chegar o novilho diante da tenda do encontro, e Arão e os seus filhos porão as suas mãos sobre a cabeça do novilho.
+29:11 E imolarás o novilho diante de YHWH, à entrada da tenda do encontro.
+29:12 E tomarás do sangue do novilho, e [o] porás sobre as pontas do altar com o teu dedo; e todo o sangue derramarás ao pé do altar.
+29:13 E tomarás toda a gordura que cobre as entranhas, e o redenho [que está] sobre o fígado, e os dois rins, e a gordura que [está] sobre eles, e os queimarás sobre o altar.
+29:14 E a carne do novilho, e a sua pele, e o seu excremento queimarás no fogo fora do acampamento; é oferta pelo pecado.
+29:15 E tomarás um dos carneiros, e Arão e os seus filhos porão as suas mãos sobre a cabeça do carneiro.
+29:16 E imolarás o carneiro, e tomarás o seu sangue, e o aspergirás sobre o altar ao redor.
+29:17 E partirás o carneiro nos seus pedaços, e lavarás as suas entranhas e as suas pernas, e [as] porás sobre os seus pedaços e sobre a sua cabeça.
+29:18 E queimarás todo o carneiro sobre o altar; é holocausto para YHWH, aroma agradável; oferta queimada para YHWH é.
+29:19 E tomarás o segundo carneiro, e Arão e os seus filhos porão as suas mãos sobre a cabeça do carneiro.
+29:20 E imolarás o carneiro, e tomarás do seu sangue, e [o] porás sobre a ponta da orelha direita de Arão, e sobre a ponta da orelha direita dos seus filhos, e sobre o polegar da sua mão direita, e sobre o polegar do seu pé direito; e aspergirás o sangue sobre o altar ao redor.
+29:21 E tomarás do sangue que [estiver] sobre o altar e do azeite da unção, e [o] espargirás sobre Arão e sobre as suas vestes, e sobre os seus filhos e sobre as vestes dos seus filhos com ele; e ele será santo, e as suas vestes, e os seus filhos, e as vestes dos seus filhos com ele.
+29:22 E tomarás do carneiro a gordura, e a cauda gorda, e a gordura que cobre as entranhas, e o redenho do fígado, e os dois rins, e a gordura que [está] sobre eles, e a coxa direita, porque é carneiro de consagração;
+29:23 e um pão redondo, e um bolo de pão com azeite, e uma obreia do cesto dos pães sem fermento que [está] diante de YHWH.
+29:24 E porás tudo nas palmas de Arão e nas palmas dos seus filhos, e os moverás [como] oferta movida diante de YHWH.
+29:25 E os tomarás das suas mãos, e os queimarás sobre o altar, sobre o holocausto, por aroma agradável diante de YHWH; é oferta queimada para YHWH.
+29:26 E tomarás o peito do carneiro da consagração, que [é] de Arão, e o moverás [como] oferta movida diante de YHWH; e será a tua porção.
+29:27 E santificarás o peito da oferta movida e a coxa da oferta alçada, o que foi movido e o que foi alçado do carneiro da consagração, do que [é] de Arão e do que [é] dos seus filhos.
+29:28 E será de Arão e dos seus filhos por estatuto perpétuo, da parte dos filhos de Israel, porque é oferta alçada; e oferta alçada será da parte dos filhos de Israel, dos seus sacrifícios pacíficos: a sua oferta alçada para YHWH.
+29:29 E as vestes santas que [são] de Arão serão dos seus filhos depois dele, para serem ungidos nelas e para nelas se encher a sua mão.
+29:30 Sete dias as vestirá o sacerdote que, dos seus filhos, [ficar] em seu lugar, que entrar na tenda do encontro para servir no santo.
+29:31 E tomarás o carneiro da consagração, e cozerás a sua carne em lugar santo.
+29:32 E Arão e os seus filhos comerão a carne do carneiro e o pão que [está] no cesto, à entrada da tenda do encontro.
+29:33 E comerão estas coisas com que se fez expiação, para encher a sua mão, para os santificar; e o estranho não comerá, porque são santas.
+29:34 E se sobrar da carne da consagração ou do pão até a manhã, queimarás o que sobrar no fogo; não se comerá, porque é santo.
+29:35 E farás assim a Arão e aos seus filhos, conforme tudo o que te ordenei; sete dias encherás a sua mão.
+29:36 E um novilho de oferta pelo pecado oferecerás cada dia pelas expiações; e purificarás o altar fazendo expiação sobre ele, e o ungirás para o santificar.
+29:37 Sete dias farás expiação sobre o altar, e o santificarás; e o altar será santo dos santos; tudo o que tocar o altar será santo.
+29:38 E isto [é] o que oferecerás sobre o altar: dois cordeiros, filhos de um ano, cada dia continuamente.
+29:39 Um cordeiro oferecerás pela manhã, e o segundo cordeiro oferecerás entre as duas tardes;
+29:40 e um décimo de flor de farinha amassada com um quarto de him de azeite batido, e para libação um quarto de him de vinho, para um cordeiro.
+29:41 E o segundo cordeiro oferecerás entre as duas tardes; conforme a oferta de manjares da manhã e conforme a sua libação lhe farás, por aroma agradável, oferta queimada para YHWH.
+29:42 Holocausto contínuo pelas vossas gerações, à entrada da tenda do encontro, diante de YHWH, onde me encontrarei convosco, para falar contigo ali.
+29:43 E ali me encontrarei com os filhos de Israel, e [o lugar] será santificado pela minha glória.
+29:44 E santificarei a tenda do encontro e o altar; e a Arão e aos seus filhos santificarei, para me servirem como sacerdotes.
+29:45 E habitarei no meio dos filhos de Israel, e lhes serei por Deus.
+29:46 E saberão que eu [sou] YHWH, seu Deus, que os fiz sair da terra do Egito para habitar no meio deles. Eu [sou] YHWH, seu Deus.
+
+30:1 E farás um altar para queimar incenso; de madeira de acácia o farás.
+30:2 Um côvado o seu comprimento, e um côvado a sua largura; quadrado será; e dois côvados a sua altura; dele [serão] as suas pontas.
+30:3 E o cobrirás de ouro puro, o seu teto, e as suas paredes ao redor, e as suas pontas; e lhe farás uma moldura de ouro ao redor.
+30:4 E duas argolas de ouro lhe farás debaixo da sua moldura, nos seus dois lados; [as] farás nos seus dois lados; e serão por lugares para as varas, para o levar com elas.
+30:5 E farás as varas de madeira de acácia, e as cobrirás de ouro.
+30:6 E o porás diante do véu que [está] junto à arca do testemunho, diante do propiciatório que [está] sobre o testemunho, onde me encontrarei contigo.
+30:7 E Arão queimará sobre ele incenso aromático; manhã após manhã, quando preparar as lâmpadas, o queimará.
+30:8 E quando Arão acender as lâmpadas entre as duas tardes, o queimará; incenso contínuo diante de YHWH pelas vossas gerações.
+30:9 Não oferecereis sobre ele incenso estranho, nem holocausto, nem oferta de manjares; e libação não derramareis sobre ele.
+30:10 E Arão fará expiação sobre as suas pontas uma vez no ano, com o sangue da oferta pelo pecado das expiações; uma vez no ano fará expiação sobre ele pelas vossas gerações; santo dos santos é para YHWH.
+30:11 E falou YHWH a Moisés, dizendo:
+30:12 Quando levantares a cabeça dos filhos de Israel, segundo os seus recenseados, cada um dará a YHWH o resgate da sua alma, quando os recensear; para que não haja entre eles praga, quando os recensear.
+30:13 Isto darão todos os que passarem pelos recenseados: meio siclo, segundo o siclo do santuário (vinte geras o siclo); meio siclo [será] a oferta alçada para YHWH.
+30:14 Todo aquele que passar pelos recenseados, de vinte anos para cima, dará a oferta alçada de YHWH.
+30:15 O rico não dará mais, e o pobre não dará menos que meio siclo, ao dar a oferta alçada de YHWH, para fazer expiação pelas vossas almas.
+30:16 E tomarás o dinheiro das expiações dos filhos de Israel, e o darás para o serviço da tenda do encontro; e será para os filhos de Israel por memória diante de YHWH, para fazer expiação pelas vossas almas.
+30:17 E falou YHWH a Moisés, dizendo:
+30:18 E farás uma pia de bronze, e a sua base de bronze, para lavar; e a porás entre a tenda do encontro e o altar, e porás nela água.
+30:19 E Arão e os seus filhos lavarão nela as suas mãos e os seus pés.
+30:20 Quando entrarem na tenda do encontro, lavar-se-ão com água, para que não morram; ou quando se chegarem ao altar para servir, para queimar oferta queimada para YHWH.
+30:21 E lavarão as suas mãos e os seus pés, para que não morram; e lhes será por estatuto perpétuo, a ele e à sua semente, pelas suas gerações.
+30:22 E falou YHWH a Moisés, dizendo:
+30:23 E tu, toma para ti especiarias de primeira: mirra pura, quinhentos [siclos]; e canela aromática, a metade, duzentos e cinquenta; e cálamo aromático, duzentos e cinquenta;
+30:24 e cássia, quinhentos, segundo o siclo do santuário; e azeite de oliva, um him.
+30:25 E farás disso o azeite da unção santa, perfume composto, obra de perfumista; azeite da unção santa será.
+30:26 E com ele ungirás a tenda do encontro e a arca do testemunho,
+30:27 e a mesa e todos os seus utensílios, e o candelabro e os seus utensílios, e o altar do incenso,
+30:28 e o altar do holocausto e todos os seus utensílios, e a pia e a sua base.
+30:29 E os santificarás, e serão santo dos santos; tudo o que os tocar será santo.
+30:30 E a Arão e aos seus filhos ungirás, e os santificarás para me servirem como sacerdotes.
+30:31 E aos filhos de Israel falarás, dizendo: Este me será o azeite da unção santa pelas vossas gerações.
+30:32 Sobre carne de homem não se derramará, e conforme a sua composição não fareis outro semelhante; santo é, santo vos será.
+30:33 O homem que compuser outro semelhante, ou que dele puser sobre um estranho, será cortado dos seus povos.
+30:34 E disse YHWH a Moisés: Toma para ti especiarias: estoraque, e ônica, e gálbano; especiarias e incenso puro; parte igual de cada um será.
+30:35 E farás disso incenso, perfume, obra de perfumista, temperado com sal, puro, santo.
+30:36 E moerás dele bem miúdo, e porás dele diante do testemunho, na tenda do encontro, onde me encontrarei contigo; santo dos santos vos será.
+30:37 E o incenso que fizeres, conforme a sua composição não o fareis para vós; santo te será para YHWH.
+30:38 O homem que fizer outro semelhante para cheirá-lo será cortado dos seus povos.
+
+31:1 E falou YHWH a Moisés, dizendo:
+31:2 Vê, chamei pelo nome Bezalel, filho de Uri, filho de Hur, da tribo de Judá.
+31:3 E o enchi do espírito de Deus, de sabedoria, e de entendimento, e de conhecimento, e de toda obra,
+31:4 para conceber desenhos, para trabalhar em ouro, e em prata, e em bronze,
+31:5 e em lapidação de pedras para engastar, e em entalhe de madeira, para trabalhar em toda obra.
+31:6 E eu, eis que dei com ele Aoliabe, filho de Aisamaque, da tribo de Dã; e no coração de todo sábio de coração dei sabedoria; e farão tudo o que te ordenei:
+31:7 a tenda do encontro, e a arca para o testemunho, e o propiciatório que [está] sobre ela, e todos os utensílios da tenda;
+31:8 e a mesa e os seus utensílios, e o candelabro puro e todos os seus utensílios, e o altar do incenso;
+31:9 e o altar do holocausto e todos os seus utensílios, e a pia e a sua base;
+31:10 e as vestes do serviço, e as vestes santas para Arão, o sacerdote, e as vestes dos seus filhos, para servirem como sacerdotes;
+31:11 e o azeite da unção, e o incenso aromático para o santo; conforme tudo o que te ordenei farão.
+31:12 E disse YHWH a Moisés, dizendo:
+31:13 E tu fala aos filhos de Israel, dizendo: Certamente guardareis os meus sábados, porque é sinal entre mim e vós pelas vossas gerações, para saberdes que eu [sou] YHWH, que vos santifica.
+31:14 E guardareis o sábado, porque santo é para vós; quem o profanar, morrendo será morto; porque todo aquele que nele fizer obra, aquela alma será cortada do meio do seu povo.
+31:15 Seis dias se fará obra, e no sétimo dia [é] sábado de repouso, santo para YHWH; todo aquele que fizer obra no dia do sábado, morrendo será morto.
+31:16 E guardarão os filhos de Israel o sábado, fazendo o sábado pelas suas gerações por aliança perpétua.
+31:17 Entre mim e os filhos de Israel é sinal para sempre; porque em seis dias fez YHWH os céus e a terra, e no sétimo dia cessou e tomou alento.
+31:18 E deu a Moisés, quando acabou de falar com ele no monte Sinai, as duas tábuas do testemunho, tábuas de pedra, escritas pelo dedo de Deus.
+
+32:1 E viu o povo que Moisés tardava em descer do monte; e ajuntou-se o povo junto a Arão, e disseram-lhe: Levanta-te, faze-nos deuses que vão diante de nós; porque este Moisés, o homem que nos fez subir da terra do Egito, não sabemos o que lhe aconteceu.
+32:2 E disse-lhes Arão: Arrancai os pendentes de ouro que [estão] nas orelhas de vossas mulheres, de vossos filhos e de vossas filhas, e trazei-[os] a mim.
+32:3 E todo o povo arrancou os pendentes de ouro que [estavam] nas suas orelhas, e trouxeram[-nos] a Arão.
+32:4 E ele [os] tomou da mão deles, e formou-o com o buril, e fez dele um bezerro de fundição; e disseram: Estes [são] os teus deuses, Israel, que te fizeram subir da terra do Egito.
+32:5 E viu Arão, e edificou um altar diante dele; e apregoou Arão, e disse: Festa a YHWH [será] amanhã.
+32:6 E madrugaram no dia seguinte, e ofereceram holocaustos, e trouxeram ofertas pacíficas; e o povo sentou-se para comer e beber, e levantaram-se para brincar.
+32:7 E falou YHWH a Moisés: Vai, desce, porque se corrompeu o teu povo, que fizeste subir da terra do Egito.
+32:8 Depressa se desviaram do caminho que lhes ordenei; fizeram para si um bezerro de fundição, e prostraram-se a ele, e sacrificaram-lhe, e disseram: Estes [são] os teus deuses, Israel, que te fizeram subir da terra do Egito.
+32:9 E disse YHWH a Moisés: Vi este povo, e eis que é povo duro de nuca.
+32:10 E agora, deixa-me, e acenda-se a minha ira contra eles, e os consumirei; e farei de ti uma grande nação.
+32:11 E Moisés suplicou à face de YHWH, seu Deus, e disse: Por que, YHWH, se acende a tua ira contra o teu povo, que fizeste sair da terra do Egito com grande força e com mão forte?
+32:12 Por que hão de dizer os egípcios, dizendo: Para mal os fez sair, para os matar nos montes e para os consumir de sobre a face do solo? Volta-te do ardor da tua ira, e arrepende-te do mal [contra] o teu povo.
+32:13 Lembra-te de Abraão, de Isaque e de Israel, teus servos, aos quais juraste por ti mesmo, e lhes disseste: Multiplicarei a vossa semente como as estrelas dos céus, e toda esta terra de que falei darei à vossa semente, e a herdarão para sempre.
+32:14 E arrependeu-se YHWH do mal que falara fazer ao seu povo.
+32:15 E virou-se, e desceu Moisés do monte, e as duas tábuas do testemunho na sua mão; tábuas escritas dos seus dois lados; de um lado e do outro estavam escritas.
+32:16 E as tábuas eram obra de Deus, e a escritura era escritura de Deus, gravada sobre as tábuas.
+32:17 E ouviu Josué o som do povo no seu clamor, e disse a Moisés: Som de guerra [há] no acampamento.
+32:18 E ele disse: Não é som de [quem] canta vitória, nem som de [quem] canta derrota; som de cantos eu ouço.
+32:19 E aconteceu que, chegando ao acampamento, viu o bezerro e as danças; e acendeu-se a ira de Moisés, e lançou das suas mãos as tábuas, e quebrou-as ao pé do monte.
+32:20 E tomou o bezerro que tinham feito, e queimou-o no fogo, e moeu-o até que se tornou pó; e espalhou-o sobre a face das águas, e deu-o a beber aos filhos de Israel.
+32:21 E disse Moisés a Arão: Que te fez este povo, para que trouxesses sobre ele grande pecado?
+32:22 E disse Arão: Não se acenda a ira do meu senhor; tu conheces o povo, que está no mal.
+32:23 E disseram-me: Faze-nos deuses que vão diante de nós; porque este Moisés, o homem que nos fez subir da terra do Egito, não sabemos o que lhe aconteceu.
+32:24 E eu lhes disse: Quem tem ouro, arranque-o. E deram-mo, e lancei-o no fogo, e saiu este bezerro.
+32:25 E viu Moisés que o povo estava desenfreado, porque Arão o desenfreara, para vergonha entre os seus adversários.
+32:26 E pôs-se Moisés em pé à porta do acampamento, e disse: Quem [é] de YHWH, [venha] a mim. E ajuntaram-se a ele todos os filhos de Levi.
+32:27 E disse-lhes: Assim disse YHWH, o Deus de Israel: Ponha cada um a sua espada sobre a sua coxa; passai e voltai de porta em porta no acampamento, e matai cada um a seu irmão, e cada um a seu companheiro, e cada um a seu vizinho.
+32:28 E fizeram os filhos de Levi conforme a palavra de Moisés; e caíram do povo naquele dia cerca de três mil homens.
+32:29 E disse Moisés: Enchei hoje a vossa mão para YHWH, cada um contra o seu filho e contra o seu irmão, para dar sobre vós hoje uma bênção.
+32:30 E aconteceu, no dia seguinte, que disse Moisés ao povo: Vós pecastes grande pecado; e agora subirei a YHWH; talvez eu faça expiação pelo vosso pecado.
+32:31 E voltou Moisés a YHWH, e disse: Ah! Este povo pecou grande pecado, e fizeram para si deuses de ouro.
+32:32 E agora, se perdoares o seu pecado... e se não, apaga-me, peço-te, do teu livro que escreveste.
+32:33 E disse YHWH a Moisés: Aquele que pecou contra mim, a esse apagarei do meu livro.
+32:34 E agora, vai, conduz o povo para onde te falei; eis que o meu anjo irá diante de ti; e no dia da minha visitação visitarei sobre eles o seu pecado.
+32:35 E feriu YHWH o povo, porque fizeram o bezerro que Arão fizera.
+
+33:1 E falou YHWH a Moisés: Vai, sobe daqui, tu e o povo que fizeste subir da terra do Egito, à terra que jurei a Abraão, a Isaque e a Jacó, dizendo: À tua semente a darei.
+33:2 E enviarei diante de ti um anjo, e expulsarei o cananeu, o amorreu, e o heteu, e o perizeu, o heveu e o jebuseu,
+33:3 [para subires] a uma terra que mana leite e mel; porque eu não subirei no meio de ti, porque és povo duro de nuca, para que não te consuma no caminho.
+33:4 E ouviu o povo esta má palavra, e fizeram luto, e ninguém pôs sobre si os seus enfeites.
+33:5 E disse YHWH a Moisés: Dize aos filhos de Israel: Vós [sois] povo duro de nuca; se por um momento eu subir no meio de ti, te consumirei; e agora, tira de ti os teus enfeites, e saberei o que te farei.
+33:6 E despojaram-se os filhos de Israel dos seus enfeites, desde o monte Horebe.
+33:7 E Moisés tomava a tenda e a armava fora do acampamento, longe do acampamento, e chamava-a tenda do encontro; e era que todo aquele que buscava a YHWH saía à tenda do encontro, que [estava] fora do acampamento.
+33:8 E era que, quando Moisés saía à tenda, todo o povo se levantava, e ficava em pé cada um à entrada da sua tenda, e olhava para Moisés, até que entrasse na tenda.
+33:9 E era que, entrando Moisés na tenda, descia a coluna de nuvem e ficava à entrada da tenda; e [YHWH] falava com Moisés.
+33:10 E todo o povo via a coluna de nuvem que estava à entrada da tenda; e todo o povo se levantava, e prostravam-se cada um à entrada da sua tenda.
+33:11 E falava YHWH a Moisés face a face, como um homem fala ao seu companheiro; e voltava ao acampamento; e o seu servidor, Josué, filho de Num, moço, não se retirava do meio da tenda.
+33:12 E disse Moisés a YHWH: Vê, tu me dizes: Faze subir este povo; e tu não me fizeste saber quem enviarás comigo; e tu disseste: Conheço-te pelo nome, e também achaste graça aos meus olhos.
+33:13 E agora, se achei graça aos teus olhos, faze-me saber, peço-te, os teus caminhos, e te conhecerei, para que ache graça aos teus olhos; e vê que esta nação é o teu povo.
+33:14 E disse: A minha face irá, e te darei descanso.
+33:15 E disse-lhe: Se a tua face não for, não nos faças subir daqui.
+33:16 E em que se saberá, pois, que achei graça aos teus olhos, eu e o teu povo? Não [é] em ires conosco, e sermos distinguidos, eu e o teu povo, de todo povo que [está] sobre a face do solo?
+33:17 E disse YHWH a Moisés: Também esta palavra que falaste farei, porque achaste graça aos meus olhos, e te conheço pelo nome.
+33:18 E disse: Mostra-me, peço-te, a tua glória.
+33:19 E disse: Eu farei passar toda a minha bondade diante da tua face, e proclamarei o nome de YHWH diante de ti; e terei graça de quem tiver graça, e me compadecerei de quem me compadecer.
+33:20 E disse: Não poderás ver a minha face, porque o homem não me verá e viverá.
+33:21 E disse YHWH: Eis um lugar junto a mim; e ficarás em pé sobre a rocha.
+33:22 E será que, quando passar a minha glória, te porei na fenda da rocha, e te cobrirei com a minha palma até que eu tenha passado.
+33:23 E tirarei a minha palma, e verás as minhas costas; e a minha face não se verá.
+
+34:1 E disse YHWH a Moisés: Lavra para ti duas tábuas de pedra como as primeiras; e escreverei sobre as tábuas as palavras que estavam nas primeiras tábuas, que quebraste.
+34:2 E está preparado para a manhã, e sobe pela manhã ao monte Sinai, e põe-te ali diante de mim sobre o cume do monte.
+34:3 E ninguém suba contigo, e também ninguém se veja em todo o monte; também as ovelhas e os bois não pastem defronte daquele monte.
+34:4 E lavrou duas tábuas de pedra como as primeiras; e madrugou Moisés pela manhã, e subiu ao monte Sinai, como YHWH lhe ordenara, e tomou na sua mão as duas tábuas de pedra.
+34:5 E desceu YHWH na nuvem, e pôs-se ali com ele, e proclamou o nome de YHWH.
+34:6 E passou YHWH diante da sua face, e proclamou: YHWH, YHWH, Deus compassivo e gracioso, longo de iras e grande em bondade e verdade,
+34:7 que guarda bondade a milhares, que perdoa a iniquidade, e a transgressão, e o pecado; e inocentando não inocenta, visitando a iniquidade dos pais sobre os filhos e sobre os filhos dos filhos, sobre a terceira e sobre a quarta [geração].
+34:8 E apressou-se Moisés, e inclinou-se em terra, e prostrou-se.
+34:9 E disse: Se agora achei graça aos teus olhos, Senhor, vá agora o Senhor no meio de nós, porque é povo duro de nuca; e perdoa a nossa iniquidade e o nosso pecado, e toma-nos por tua herança.
+34:10 E disse: Eis que eu corto uma aliança; diante de todo o teu povo farei maravilhas que não foram criadas em toda a terra nem em nação alguma; e verá todo o povo, em cujo meio tu [estás], a obra de YHWH, porque temível é o que eu faço contigo.
+34:11 Guarda para ti o que eu te ordeno hoje: eis que eu expulso de diante de ti o amorreu, e o cananeu, e o heteu, e o perizeu, e o heveu, e o jebuseu.
+34:12 Guarda-te de cortares aliança com o habitante da terra aonde vais, para que não seja por laço no meio de ti.
+34:13 Mas os seus altares derrubareis, e as suas colunas quebrareis, e os seus postes-ídolos cortareis.
+34:14 Porque não te prostrarás a outro deus; porque YHWH, cujo nome [é] Zeloso, Deus zeloso é.
+34:15 Para que não cortes aliança com o habitante da terra, e se prostituam após os seus deuses, e sacrifiquem aos seus deuses, e te convidem, e comas do seu sacrifício;
+34:16 e tomes das suas filhas para os teus filhos, e as suas filhas se prostituam após os seus deuses, e façam os teus filhos prostituir-se após os seus deuses.
+34:17 Deuses de fundição não farás para ti.
+34:18 A festa dos pães sem fermento guardarás: sete dias comerás pães sem fermento, como te ordenei, no tempo determinado do mês de Abibe; porque no mês de Abibe saíste do Egito.
+34:19 Tudo o que abre a madre [é] meu; e todo o teu gado macho, o primeiro filhote de boi e de cordeiro.
+34:20 E o primeiro filhote de jumento resgatarás com um cordeiro; e se não o resgatares, quebrar-lhe-ás a nuca; todo primogênito de teus filhos resgatarás; e não se verá a minha face de mãos vazias.
+34:21 Seis dias trabalharás, e no sétimo dia cessarás; na aradura e na ceifa cessarás.
+34:22 E a festa das semanas farás para ti, das primícias da ceifa do trigo; e a festa da colheita, na virada do ano.
+34:23 Três vezes no ano aparecerá todo o teu macho diante da face do Senhor YHWH, o Deus de Israel.
+34:24 Porque desapossarei nações de diante de ti, e alargarei o teu território; e ninguém cobiçará a tua terra quando subires para aparecer diante da face de YHWH, teu Deus, três vezes no ano.
+34:25 Não imolarás com [pão] levedado o sangue do meu sacrifício, e o sacrifício da festa da Páscoa não pernoitará até a manhã.
+34:26 As primícias dos primeiros frutos do teu solo trarás à casa de YHWH, teu Deus. Não cozerás o cabrito no leite da sua mãe.
+34:27 E disse YHWH a Moisés: Escreve para ti estas palavras; porque conforme estas palavras cortei aliança contigo e com Israel.
+34:28 E esteve ali com YHWH quarenta dias e quarenta noites; pão não comeu, e água não bebeu; e escreveu sobre as tábuas as palavras da aliança, as dez palavras.
+34:29 E aconteceu, quando Moisés desceu do monte Sinai, e as duas tábuas do testemunho [estavam] na mão de Moisés, quando desceu do monte, que Moisés não sabia que a pele do seu rosto resplandecia, por ter falado com ele.
+34:30 E viu Arão e todos os filhos de Israel a Moisés, e eis que a pele do seu rosto resplandecia; e temeram chegar-se a ele.
+34:31 E chamou-os Moisés, e voltaram a ele Arão e todos os príncipes da congregação; e Moisés falou com eles.
+34:32 E depois disso chegaram-se todos os filhos de Israel; e ordenou-lhes tudo o que YHWH falara com ele no monte Sinai.
+34:33 E acabou Moisés de falar com eles, e pôs sobre o seu rosto um véu.
+34:34 E quando Moisés entrava diante de YHWH para falar com ele, tirava o véu até sair; e saía, e falava aos filhos de Israel o que lhe era ordenado.
+34:35 E viam os filhos de Israel o rosto de Moisés, que a pele do rosto de Moisés resplandecia; e Moisés tornava a pôr o véu sobre o seu rosto, até entrar para falar com ele.
+
+35:1 E ajuntou Moisés toda a congregação dos filhos de Israel, e disse-lhes: Estas [são] as palavras que YHWH ordenou que se fizessem.
+35:2 Seis dias se fará obra, e no sétimo dia vos será santo, sábado de repouso para YHWH; todo aquele que nele fizer obra será morto.
+35:3 Não acendereis fogo em nenhuma das vossas habitações no dia do sábado.
+35:4 E disse Moisés a toda a congregação dos filhos de Israel, dizendo: Esta [é] a palavra que YHWH ordenou, dizendo:
+35:5 Tomai do que [está] convosco uma oferta alçada para YHWH; todo aquele que [for] de coração voluntário a trará, a oferta alçada de YHWH: ouro, e prata, e bronze,
+35:6 e azul, e púrpura, e carmesim, e linho fino, e [pelo de] cabras,
+35:7 e peles de carneiros tingidas de vermelho, e peles de texugo, e madeira de acácia,
+35:8 e azeite para a luz, e especiarias para o azeite da unção e para o incenso aromático,
+35:9 e pedras de ônix, e pedras de engaste para o éfode e para o peitoral.
+35:10 E todo sábio de coração entre vós venha e faça tudo o que YHWH ordenou:
+35:11 o tabernáculo, a sua tenda e a sua cobertura, os seus colchetes e as suas tábuas, as suas travessas, as suas colunas e as suas bases;
+35:12 a arca e as suas varas, o propiciatório e o véu do reposteiro;
+35:13 a mesa e as suas varas, e todos os seus utensílios, e o pão da face;
+35:14 e o candelabro da luz, e os seus utensílios, e as suas lâmpadas, e o azeite para a luz;
+35:15 e o altar do incenso e as suas varas, e o azeite da unção, e o incenso aromático, e o reposteiro da entrada para a entrada do tabernáculo;
+35:16 o altar do holocausto e a grelha de bronze que lhe [pertence], as suas varas e todos os seus utensílios, a pia e a sua base;
+35:17 as cortinas do pátio, as suas colunas e as suas bases, e o reposteiro da porta do pátio;
+35:18 as estacas do tabernáculo, e as estacas do pátio, e as suas cordas;
+35:19 as vestes do serviço para servir no santo, as vestes santas para Arão, o sacerdote, e as vestes dos seus filhos para servirem como sacerdotes.
+35:20 E saiu toda a congregação dos filhos de Israel de diante de Moisés.
+35:21 E vieram, todo homem a quem o seu coração moveu, e todo aquele a quem o seu espírito impeliu; trouxeram a oferta alçada de YHWH para a obra da tenda do encontro, e para todo o seu serviço, e para as vestes santas.
+35:22 E vieram os homens com as mulheres; todo aquele de coração voluntário trouxe broches, e pendentes, e anéis, e colares, todo objeto de ouro; e todo homem que movia uma oferta movida de ouro a YHWH.
+35:23 E todo homem com quem se achou azul, e púrpura, e carmesim, e linho fino, e [pelo de] cabras, e peles de carneiros tingidas de vermelho, e peles de texugo, [os] trouxe.
+35:24 Todo aquele que alçava oferta alçada de prata e de bronze trouxe a oferta alçada de YHWH; e todo aquele com quem se achou madeira de acácia, para toda obra do serviço, [a] trouxe.
+35:25 E toda mulher sábia de coração fiava com as suas mãos, e traziam o fiado: o azul e a púrpura, o carmesim e o linho fino.
+35:26 E todas as mulheres a quem o seu coração moveu em sabedoria fiaram o [pelo de] cabras.
+35:27 E os príncipes trouxeram as pedras de ônix e as pedras de engaste para o éfode e para o peitoral,
+35:28 e as especiarias, e o azeite para a luz, e para o azeite da unção, e para o incenso aromático.
+35:29 Todo homem e mulher, cujo coração os moveu a trazer para toda a obra que YHWH ordenara fazer pela mão de Moisés; os filhos de Israel trouxeram oferta voluntária a YHWH.
+35:30 E disse Moisés aos filhos de Israel: Vede, YHWH chamou pelo nome Bezalel, filho de Uri, filho de Hur, da tribo de Judá.
+35:31 E o encheu do espírito de Deus, em sabedoria, em entendimento, e em conhecimento, e em toda obra,
+35:32 e para conceber desenhos, para trabalhar em ouro, e em prata, e em bronze,
+35:33 e em lapidação de pedras para engastar, e em entalhe de madeira, para trabalhar em toda obra de desenho.
+35:34 E para ensinar pôs no seu coração, a ele e a Aoliabe, filho de Aisamaque, da tribo de Dã.
+35:35 Encheu-os de sabedoria de coração, para fazerem toda obra de artesão, e de artífice, e de bordador em azul, e em púrpura, em carmesim e em linho fino, e de tecelão; fazendo toda obra e concebendo desenhos.
+
+36:1 E fará Bezalel e Aoliabe, e todo homem sábio de coração, a quem YHWH deu sabedoria e entendimento para saber fazer toda a obra do serviço do santuário, conforme tudo o que YHWH ordenou.
+36:2 E chamou Moisés a Bezalel, e a Aoliabe, e a todo homem sábio de coração, em cujo coração YHWH dera sabedoria, todo aquele a quem o seu coração moveu a chegar-se à obra para fazê-la.
+36:3 E tomaram de diante de Moisés toda a oferta alçada que os filhos de Israel trouxeram para a obra do serviço do santuário, para fazê-la; e eles lhe traziam ainda oferta voluntária manhã após manhã.
+36:4 E vieram todos os sábios que faziam toda a obra do santuário, cada um da sua obra que faziam,
+36:5 e falaram a Moisés, dizendo: O povo traz muito mais do que basta para o serviço da obra que YHWH ordenou que se fizesse.
+36:6 E ordenou Moisés, e fizeram passar uma voz pelo acampamento, dizendo: Nenhum homem nem mulher faça mais obra para a oferta alçada do santuário. E o povo foi impedido de trazer.
+36:7 E o material lhes era bastante para toda a obra, para fazê-la, e ainda sobrava.
+36:8 E todos os sábios de coração, entre os que faziam a obra, fizeram o tabernáculo de dez cortinas de linho fino torcido, e azul, e púrpura, e carmesim; com querubins, obra de artífice, as fez.
+36:9 O comprimento de uma cortina, vinte e oito côvados, e a largura, quatro côvados uma cortina; uma mesma medida para todas as cortinas.
+36:10 E uniu cinco cortinas uma à outra, e [outras] cinco cortinas uniu uma à outra.
+36:11 E fez laçadas de azul na borda de uma cortina, na extremidade da junção; assim fez na borda da cortina extrema da segunda junção.
+36:12 Cinquenta laçadas fez numa cortina, e cinquenta laçadas fez na extremidade da cortina que [estava] na segunda junção; as laçadas estavam defronte uma da outra.
+36:13 E fez cinquenta colchetes de ouro, e uniu as cortinas uma à outra com os colchetes; e o tabernáculo foi um.
+36:14 E fez cortinas de [pelo de] cabras para tenda sobre o tabernáculo; onze cortinas as fez.
+36:15 O comprimento de uma cortina, trinta côvados, e quatro côvados a largura de uma cortina; uma mesma medida para as onze cortinas.
+36:16 E uniu cinco cortinas à parte, e seis cortinas à parte.
+36:17 E fez cinquenta laçadas na borda da cortina extrema da junção, e cinquenta laçadas fez na borda da cortina da segunda junção.
+36:18 E fez cinquenta colchetes de bronze para unir a tenda, para que fosse uma.
+36:19 E fez para a tenda uma cobertura de peles de carneiros tingidas de vermelho, e uma cobertura de peles de texugo por cima.
+36:20 E fez as tábuas para o tabernáculo de madeira de acácia, [postas] em pé.
+36:21 Dez côvados o comprimento da tábua, e um côvado e meio a largura de cada tábua.
+36:22 Dois encaixes [tinha] cada tábua, travados um com o outro; assim fez com todas as tábuas do tabernáculo.
+36:23 E fez as tábuas para o tabernáculo: vinte tábuas para o lado do Neguebe, para o sul.
+36:24 E quarenta bases de prata fez debaixo das vinte tábuas: duas bases debaixo de uma tábua, para os seus dois encaixes, e duas bases debaixo da outra tábua, para os seus dois encaixes.
+36:25 E para o segundo lado do tabernáculo, para o lado do norte, fez vinte tábuas,
+36:26 e as suas quarenta bases de prata: duas bases debaixo de uma tábua, e duas bases debaixo da outra tábua.
+36:27 E para a parte de trás do tabernáculo, para o ocidente, fez seis tábuas.
+36:28 E duas tábuas fez para os cantos do tabernáculo, na parte de trás.
+36:29 E eram duplas por baixo, e juntamente eram inteiras até o seu alto, até a primeira argola; assim fez com ambas, para os dois cantos.
+36:30 E eram oito tábuas, e as suas bases de prata, dezesseis bases: duas bases, duas bases debaixo de cada tábua.
+36:31 E fez travessas de madeira de acácia: cinco para as tábuas de um lado do tabernáculo,
+36:32 e cinco travessas para as tábuas do segundo lado do tabernáculo, e cinco travessas para as tábuas do tabernáculo, na parte de trás, para o ocidente.
+36:33 E fez a travessa do meio para passar no meio das tábuas de uma extremidade à outra.
+36:34 E cobriu as tábuas de ouro, e fez as suas argolas de ouro, por lugares para as travessas; e cobriu as travessas de ouro.
+36:35 E fez o véu de azul, e púrpura, e carmesim, e linho fino torcido; obra de artífice o fez, com querubins.
+36:36 E fez para ele quatro colunas de acácia, e as cobriu de ouro; os seus ganchos [eram] de ouro; e fundiu para elas quatro bases de prata.
+36:37 E fez um reposteiro para a entrada da tenda, de azul, e púrpura, e carmesim, e linho fino torcido, obra de bordador,
+36:38 e as suas cinco colunas e os seus ganchos; e cobriu os seus capitéis e as suas faixas de ouro; e as suas cinco bases [eram] de bronze.
+
+37:1 E fez Bezalel a arca de madeira de acácia: dois côvados e meio o seu comprimento, e um côvado e meio a sua largura, e um côvado e meio a sua altura.
+37:2 E cobriu-a de ouro puro por dentro e por fora, e fez-lhe uma moldura de ouro ao redor.
+37:3 E fundiu-lhe quatro argolas de ouro nos seus quatro pés: duas argolas de um lado, e duas argolas do outro lado.
+37:4 E fez varas de madeira de acácia, e cobriu-as de ouro.
+37:5 E meteu as varas nas argolas, aos lados da arca, para levar a arca.
+37:6 E fez o propiciatório de ouro puro: dois côvados e meio o seu comprimento, e um côvado e meio a sua largura.
+37:7 E fez dois querubins de ouro; de obra batida os fez, nas duas extremidades do propiciatório:
+37:8 um querubim numa extremidade, de um lado, e o outro querubim na outra extremidade, do outro lado; de uma peça com o propiciatório fez os querubins, nas suas duas extremidades.
+37:9 E os querubins estendiam as asas para cima, cobrindo com as suas asas o propiciatório; e as suas faces, um para o outro; para o propiciatório estavam as faces dos querubins.
+37:10 E fez a mesa de madeira de acácia: dois côvados o seu comprimento, e um côvado a sua largura, e um côvado e meio a sua altura.
+37:11 E cobriu-a de ouro puro, e fez-lhe uma moldura de ouro ao redor.
+37:12 E fez-lhe uma borda de um palmo ao redor, e fez uma moldura de ouro para a sua borda ao redor.
+37:13 E fundiu-lhe quatro argolas de ouro, e pôs as argolas nos quatro cantos que [estavam] nos seus quatro pés.
+37:14 Junto à borda estavam as argolas, por lugares para as varas, para levar a mesa.
+37:15 E fez as varas de madeira de acácia, e cobriu-as de ouro, para levar a mesa.
+37:16 E fez os utensílios que [estavam] sobre a mesa, os seus pratos, e as suas colheres, e as suas taças, e as jarras com que se derramam [as libações], de ouro puro.
+37:17 E fez o candelabro de ouro puro; de obra batida fez o candelabro: o seu pé e a sua haste, os seus cálices, as suas maçanetas e as suas flores eram dele.
+37:18 E seis hastes saíam dos seus lados: três hastes do candelabro de um lado dele, e três hastes do candelabro do outro lado dele.
+37:19 Três cálices em forma de flor de amêndoa numa haste, maçaneta e flor; e três cálices em forma de flor de amêndoa noutra haste, maçaneta e flor; assim para as seis hastes que saíam do candelabro.
+37:20 E no candelabro, quatro cálices em forma de flor de amêndoa, as suas maçanetas e as suas flores.
+37:21 E uma maçaneta debaixo de duas hastes dele, e uma maçaneta debaixo de [outras] duas hastes dele, e uma maçaneta debaixo de [outras] duas hastes dele, para as seis hastes que saíam dele.
+37:22 As suas maçanetas e as suas hastes eram dele; todo ele, uma só peça batida de ouro puro.
+37:23 E fez as suas sete lâmpadas, e as suas espevitadeiras, e os seus apagadores, de ouro puro.
+37:24 De um talento de ouro puro o fez, com todos os seus utensílios.
+37:25 E fez o altar do incenso de madeira de acácia: um côvado o seu comprimento, e um côvado a sua largura, quadrado; e dois côvados a sua altura; dele eram as suas pontas.
+37:26 E cobriu-o de ouro puro, o seu teto, e as suas paredes ao redor, e as suas pontas; e fez-lhe uma moldura de ouro ao redor.
+37:27 E duas argolas de ouro lhe fez debaixo da sua moldura, nos seus dois lados, nos seus dois flancos, por lugares para as varas, para o levar com elas.
+37:28 E fez as varas de madeira de acácia, e cobriu-as de ouro.
+37:29 E fez o azeite santo da unção e o incenso aromático puro, obra de perfumista.
+
+38:1 E fez o altar do holocausto de madeira de acácia: cinco côvados o seu comprimento, e cinco côvados a sua largura, quadrado; e três côvados a sua altura.
+38:2 E fez as suas pontas nos seus quatro cantos; dele eram as suas pontas; e cobriu-o de bronze.
+38:3 E fez todos os utensílios do altar: os caldeirões, e as pás, e as bacias, os garfos e os braseiros; todos os seus utensílios fez de bronze.
+38:4 E fez para o altar uma grelha, obra de rede, de bronze, debaixo da sua borda, por baixo, até o meio dele.
+38:5 E fundiu quatro argolas nas quatro extremidades da grelha de bronze, por lugares para as varas.
+38:6 E fez as varas de madeira de acácia, e cobriu-as de bronze.
+38:7 E meteu as varas nas argolas, aos lados do altar, para o levar com elas; oco, de tábuas, o fez.
+38:8 E fez a pia de bronze e a sua base de bronze, com os espelhos das [mulheres] que serviam, que serviam à entrada da tenda do encontro.
+38:9 E fez o pátio: para o lado do Neguebe, para o sul, as cortinas do pátio de linho fino torcido, de cem côvados;
+38:10 as suas colunas, vinte, e as suas bases, vinte, de bronze; os ganchos das colunas e as suas faixas, de prata.
+38:11 E para o lado do norte, cem côvados; as suas colunas, vinte, e as suas bases, vinte, de bronze; os ganchos das colunas e as suas faixas, de prata.
+38:12 E para o lado do ocidente, cortinas de cinquenta côvados; as suas colunas, dez, e as suas bases, dez; os ganchos das colunas e as suas faixas, de prata.
+38:13 E para o lado do oriente, para o nascente, cinquenta côvados.
+38:14 Cortinas de quinze côvados para um lado; as suas colunas, três, e as suas bases, três.
+38:15 E para o outro lado, de um e de outro lado da porta do pátio, cortinas de quinze côvados; as suas colunas, três, e as suas bases, três.
+38:16 Todas as cortinas do pátio ao redor [eram] de linho fino torcido.
+38:17 E as bases das colunas, de bronze; os ganchos das colunas e as suas faixas, de prata; e a cobertura dos seus capitéis, de prata; e todas as colunas do pátio cingidas de faixas de prata.
+38:18 E o reposteiro da porta do pátio, obra de bordador, de azul, e púrpura, e carmesim, e linho fino torcido; e vinte côvados de comprimento, e a altura, na largura, cinco côvados, correspondendo às cortinas do pátio.
+38:19 E as suas colunas, quatro, e as suas bases, quatro, de bronze; os seus ganchos, de prata, e a cobertura dos seus capitéis e as suas faixas, de prata.
+38:20 E todas as estacas do tabernáculo e do pátio ao redor, de bronze.
+38:21 Estas [são] as contas do tabernáculo, o tabernáculo do testemunho, que foram contadas por ordem de Moisés, serviço dos levitas, pela mão de Itamar, filho de Arão, o sacerdote.
+38:22 E Bezalel, filho de Uri, filho de Hur, da tribo de Judá, fez tudo o que YHWH ordenara a Moisés.
+38:23 E com ele Aoliabe, filho de Aisamaque, da tribo de Dã, artesão, e artífice, e bordador em azul, e em púrpura, e em carmesim, e em linho fino.
+38:24 Todo o ouro empregado na obra, em toda a obra do santuário, o ouro da oferta movida, foi vinte e nove talentos e setecentos e trinta siclos, segundo o siclo do santuário.
+38:25 E a prata dos recenseados da congregação, cem talentos e mil setecentos e setenta e cinco siclos, segundo o siclo do santuário:
+38:26 meio siclo por cabeça, a metade do siclo, segundo o siclo do santuário, de todo aquele que passou pelos recenseados, de vinte anos para cima, para seiscentos e três mil quinhentos e cinquenta.
+38:27 E foram os cem talentos de prata para fundir as bases do santuário e as bases do véu: cem bases para os cem talentos, um talento por base.
+38:28 E dos mil setecentos e setenta e cinco [siclos] fez ganchos para as colunas, e cobriu os seus capitéis, e cingiu-as de faixas.
+38:29 E o bronze da oferta movida foi setenta talentos e dois mil e quatrocentos siclos.
+38:30 E fez dele as bases da entrada da tenda do encontro, e o altar de bronze, e a grelha de bronze que lhe [pertencia], e todos os utensílios do altar,
+38:31 e as bases do pátio ao redor, e as bases da porta do pátio, e todas as estacas do tabernáculo, e todas as estacas do pátio ao redor.
+
+39:1 E do azul, e da púrpura, e do carmesim fizeram as vestes do serviço, para servir no santuário; e fizeram as vestes santas que [eram] para Arão, como YHWH ordenara a Moisés.
+39:2 E fez o éfode de ouro, azul, e púrpura, e carmesim, e linho fino torcido.
+39:3 E estenderam lâminas de ouro, e ele as cortou em fios, para trabalhar no meio do azul, e no meio da púrpura, e no meio do carmesim, e no meio do linho fino, obra de artífice.
+39:4 Fizeram-lhe ombreiras que se uniam; nas suas duas extremidades se unia.
+39:5 E o cinto do seu éfode, que [estava] sobre ele, era dele, da mesma obra: de ouro, azul, e púrpura, e carmesim, e linho fino torcido, como YHWH ordenara a Moisés.
+39:6 E fizeram as pedras de ônix, engastadas em engastes de ouro, gravadas com gravuras de selo, com os nomes dos filhos de Israel.
+39:7 E pô-las sobre as ombreiras do éfode, pedras de memória para os filhos de Israel, como YHWH ordenara a Moisés.
+39:8 E fez o peitoral, obra de artífice, como a obra do éfode: de ouro, azul, e púrpura, e carmesim, e linho fino torcido.
+39:9 Quadrado era; dobrado fizeram o peitoral; um palmo o seu comprimento e um palmo a sua largura, dobrado.
+39:10 E encheram-no de quatro fileiras de pedras: uma fileira de sárdio, topázio e esmeralda, a primeira fileira;
+39:11 e a segunda fileira, turquesa, safira e diamante;
+39:12 e a terceira fileira, jacinto, ágata e ametista;
+39:13 e a quarta fileira, crisólito, ônix e jaspe; engastadas em engastes de ouro nos seus encaixes.
+39:14 E as pedras eram segundo os nomes dos filhos de Israel, doze, segundo os seus nomes; gravuras de selo, cada uma com o seu nome, para as doze tribos.
+39:15 E fizeram sobre o peitoral correntes trançadas, obra de cordão, de ouro puro.
+39:16 E fizeram dois engastes de ouro e duas argolas de ouro, e puseram as duas argolas nas duas extremidades do peitoral.
+39:17 E puseram os dois cordões de ouro nas duas argolas, nas extremidades do peitoral.
+39:18 E as duas extremidades dos dois cordões puseram nos dois engastes, e puseram-nos nas ombreiras do éfode, na frente dele.
+39:19 E fizeram duas argolas de ouro, e puseram-nas nas duas extremidades do peitoral, na sua borda que [estava] do lado do éfode, para dentro.
+39:20 E fizeram duas argolas de ouro, e puseram-nas nas duas ombreiras do éfode, por baixo, na frente dele, junto à sua junção, acima do cinto do éfode.
+39:21 E ataram o peitoral pelas suas argolas às argolas do éfode com um cordão de azul, para que estivesse sobre o cinto do éfode, e não se soltasse o peitoral de sobre o éfode, como YHWH ordenara a Moisés.
+39:22 E fez o manto do éfode, obra de tecelão, todo de azul.
+39:23 E a abertura do manto no meio dele, como a abertura de uma couraça, com uma borda ao redor da sua abertura, para que não se rasgasse.
+39:24 E fizeram nas orlas do manto romãs de azul, e púrpura, e carmesim, torcidos.
+39:25 E fizeram campainhas de ouro puro, e puseram as campainhas no meio das romãs, nas orlas do manto ao redor, no meio das romãs:
+39:26 uma campainha e uma romã, uma campainha e uma romã, nas orlas do manto ao redor, para servir, como YHWH ordenara a Moisés.
+39:27 E fizeram as túnicas de linho fino, obra de tecelão, para Arão e para os seus filhos,
+39:28 e a mitra de linho fino, e os adornos dos turbantes de linho fino, e os calções de linho, de linho fino torcido,
+39:29 e o cinto de linho fino torcido, e azul, e púrpura, e carmesim, obra de bordador, como YHWH ordenara a Moisés.
+39:30 E fizeram a lâmina da coroa santa de ouro puro, e escreveram nela uma escritura de gravuras de selo: Santidade a YHWH.
+39:31 E puseram nela um cordão de azul, para pô-la sobre a mitra, por cima, como YHWH ordenara a Moisés.
+39:32 E acabou-se toda a obra do tabernáculo da tenda do encontro; e fizeram os filhos de Israel conforme tudo o que YHWH ordenara a Moisés; assim fizeram.
+39:33 E trouxeram o tabernáculo a Moisés: a tenda e todos os seus utensílios, os seus colchetes, as suas tábuas, as suas travessas, e as suas colunas, e as suas bases;
+39:34 e a cobertura de peles de carneiros tingidas de vermelho, e a cobertura de peles de texugo, e o véu do reposteiro;
+39:35 a arca do testemunho e as suas varas, e o propiciatório;
+39:36 a mesa, todos os seus utensílios e o pão da face;
+39:37 o candelabro puro, as suas lâmpadas, as lâmpadas em ordem, e todos os seus utensílios, e o azeite para a luz;
+39:38 e o altar de ouro, e o azeite da unção, e o incenso aromático, e o reposteiro da entrada da tenda;
+39:39 o altar de bronze e a grelha de bronze que lhe [pertencia], as suas varas e todos os seus utensílios, a pia e a sua base;
+39:40 as cortinas do pátio, as suas colunas e as suas bases, e o reposteiro para a porta do pátio, as suas cordas e as suas estacas, e todos os utensílios do serviço do tabernáculo, para a tenda do encontro;
+39:41 as vestes do serviço para servir no santuário, as vestes santas para Arão, o sacerdote, e as vestes dos seus filhos para servirem como sacerdotes.
+39:42 Conforme tudo o que YHWH ordenara a Moisés, assim fizeram os filhos de Israel toda a obra.
+39:43 E viu Moisés toda a obra, e eis que a tinham feito; como YHWH ordenara, assim a tinham feito; e Moisés os abençoou.
+
+40:1 E falou YHWH a Moisés, dizendo:
+40:2 No dia do primeiro mês, no primeiro do mês, levantarás o tabernáculo da tenda do encontro.
+40:3 E porás ali a arca do testemunho, e cobrirás a arca com o véu.
+40:4 E trarás a mesa, e porás em ordem o que nela se põe em ordem; e trarás o candelabro, e acenderás as suas lâmpadas.
+40:5 E porás o altar de ouro para o incenso diante da arca do testemunho, e porás o reposteiro da entrada do tabernáculo.
+40:6 E porás o altar do holocausto diante da entrada do tabernáculo da tenda do encontro.
+40:7 E porás a pia entre a tenda do encontro e o altar, e porás nela água.
+40:8 E porás o pátio ao redor, e porás o reposteiro da porta do pátio.
+40:9 E tomarás o azeite da unção, e ungirás o tabernáculo e tudo o que nele [há], e o santificarás e a todos os seus utensílios; e será santo.
+40:10 E ungirás o altar do holocausto e todos os seus utensílios, e santificarás o altar; e o altar será santo dos santos.
+40:11 E ungirás a pia e a sua base, e a santificarás.
+40:12 E farás chegar Arão e os seus filhos à entrada da tenda do encontro, e os lavarás com água.
+40:13 E vestirás a Arão com as vestes santas, e o ungirás, e o santificarás, e me servirá como sacerdote.
+40:14 E farás chegar os seus filhos, e os vestirás com túnicas.
+40:15 E os ungirás como ungiste a seu pai, e me servirão como sacerdotes; e a sua unção lhes será por sacerdócio perpétuo pelas suas gerações.
+40:16 E fez Moisés conforme tudo o que YHWH lhe ordenara; assim fez.
+40:17 E aconteceu, no primeiro mês, no segundo ano, no primeiro do mês, que o tabernáculo foi levantado.
+40:18 E levantou Moisés o tabernáculo, e pôs as suas bases, e colocou as suas tábuas, e pôs as suas travessas, e levantou as suas colunas.
+40:19 E estendeu a tenda sobre o tabernáculo, e pôs a cobertura da tenda sobre ela, por cima, como YHWH ordenara a Moisés.
+40:20 E tomou o testemunho e o pôs na arca, e pôs as varas na arca, e pôs o propiciatório sobre a arca, por cima.
+40:21 E trouxe a arca ao tabernáculo, e pôs o véu do reposteiro, e cobriu a arca do testemunho, como YHWH ordenara a Moisés.
+40:22 E pôs a mesa na tenda do encontro, ao lado do tabernáculo, para o norte, fora do véu.
+40:23 E pôs sobre ela em ordem o pão diante de YHWH, como YHWH ordenara a Moisés.
+40:24 E pôs o candelabro na tenda do encontro, defronte da mesa, ao lado do tabernáculo, para o sul.
+40:25 E acendeu as lâmpadas diante de YHWH, como YHWH ordenara a Moisés.
+40:26 E pôs o altar de ouro na tenda do encontro, diante do véu.
+40:27 E queimou sobre ele incenso aromático, como YHWH ordenara a Moisés.
+40:28 E pôs o reposteiro da entrada do tabernáculo.
+40:29 E o altar do holocausto pôs à entrada do tabernáculo da tenda do encontro, e ofereceu sobre ele o holocausto e a oferta de manjares, como YHWH ordenara a Moisés.
+40:30 E pôs a pia entre a tenda do encontro e o altar, e pôs nela água para lavar.
+40:31 E Moisés, e Arão, e os seus filhos lavavam nela as suas mãos e os seus pés.
+40:32 Quando entravam na tenda do encontro e quando se chegavam ao altar, lavavam-se, como YHWH ordenara a Moisés.
+40:33 E levantou o pátio ao redor do tabernáculo e do altar, e pôs o reposteiro da porta do pátio. E acabou Moisés a obra.
+40:34 E a nuvem cobriu a tenda do encontro, e a glória de YHWH encheu o tabernáculo.
+40:35 E Moisés não podia entrar na tenda do encontro, porque a nuvem habitava sobre ela, e a glória de YHWH enchia o tabernáculo.
+40:36 E quando a nuvem se levantava de sobre o tabernáculo, partiam os filhos de Israel em todas as suas jornadas.
+40:37 E se a nuvem não se levantava, não partiam até o dia em que se levantava.
+40:38 Porque a nuvem de YHWH [estava] sobre o tabernáculo de dia, e o fogo estava nela de noite, aos olhos de toda a casa de Israel, em todas as suas jornadas.
