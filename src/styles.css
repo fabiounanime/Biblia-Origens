@@ -138,24 +138,73 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   color: var(--c-muted);
 }
 
+/* ---------- Notas do tradutor ---------- */
+
+/* Chamada da nota no versículo: letra pequena elevada, com área de toque maior. */
+.note-call {
+  position: relative;
+  top: -0.55em;
+  margin-left: 0.08em;
+  margin-right: 0.04em;
+  font-family: var(--font-sans, inherit);
+  font-size: 0.62em;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--c-tekhelet);
+  -webkit-tap-highlight-color: transparent;
+}
+.note-call::after {
+  content: "";
+  position: absolute;
+  inset: -0.7em -0.55em;
+}
+.note-call:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--c-tekhelet) 70%, transparent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.note-item em { color: var(--c-fg); }
+
+@keyframes note-flash {
+  0%, 30% { background: color-mix(in srgb, var(--c-zahav) 22%, transparent); }
+  100% { background: transparent; }
+}
+.note-flash { animation: note-flash 1.8s ease-out; border-radius: 0.5rem; }
+
 /* ---------- Balão de tradução (toque no hebraico ou no transliterado) ---------- */
 
-.gloss-line {
+.gloss-line { -webkit-tap-highlight-color: transparent; }
+
+/* Cada palavra é um botão que não parece botão: só ganha cor ao toque. */
+.gloss-word {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  background: none;
+  border: 0;
+  padding: 0 0.08em;
+  margin: 0 -0.08em;
+  border-radius: 0.4em;
   cursor: pointer;
-  border-radius: 0.75rem;
-  margin-inline: -0.375rem;
-  padding-inline: 0.375rem;
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease;
   -webkit-tap-highlight-color: transparent;
 }
 @media (hover: hover) {
-  .gloss-line:hover { background: color-mix(in srgb, var(--c-zahav) 9%, transparent); }
+  .gloss-word:hover { background: color-mix(in srgb, var(--c-zahav) 12%, transparent); }
 }
-.gloss-line:focus-visible {
+.gloss-word:focus-visible {
   outline: 2px solid color-mix(in srgb, var(--c-tekhelet) 70%, transparent);
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
-.gloss-line-on { background: color-mix(in srgb, var(--c-zahav) 14%, transparent); }
+.gloss-word-on {
+  background: color-mix(in srgb, var(--c-zahav) 26%, transparent);
+  color: var(--c-fg);
+}
+.gloss-word-echo {
+  background: color-mix(in srgb, var(--c-tekhelet) 16%, transparent);
+}
+
 
 .gloss-bubble {
   position: absolute;
@@ -174,6 +223,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   content: "";
   position: absolute;
   top: -0.42rem;
+  left: calc(var(--tip, 1.8rem) - 0.4rem);
   width: 0.8rem;
   height: 0.8rem;
   background: var(--c-surface);
@@ -183,9 +233,16 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
 }
 /* O hebraico começa à direita: o balão sai do lado direito; o transliterado, do esquerdo. */
 .gloss-bubble-he { right: 0; transform-origin: top right; }
-.gloss-bubble-he::before { right: 1.4rem; }
 .gloss-bubble-tr { left: 0; transform-origin: top left; }
-.gloss-bubble-tr::before { left: 1.4rem; }
+
+.gloss-meaning {
+  font-family: var(--font-read);
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--c-fg);
+}
+.gloss-meaning em, .gloss-bubble em { font-weight: inherit; }
 
 .gloss-text {
   margin-top: 0.15rem;
@@ -349,6 +406,7 @@ html.light .brand-dark .wordmark {
   .splash-rule,
   .pin-active,
   .gloss-bubble,
+  .note-flash,
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }
 }

@@ -7,11 +7,14 @@ PWA de leitura do Tanakh para estudo: português em tradução direta, hebraico 
 - **Hebraico**: Códice de Leningrado (domínio público), lido da [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb) (CC BY 4.0), com nikud e sem os acentos de cantilação. Onde há ketiv/qere, o leitor mostra a leitura (qere), inclusive quando ela tem mais de uma palavra (Gn 30:11). Versificação hebraica.
 - **Português**: tradução direta e fiel do hebraico, sem seguir versões, em `acervo/traducao/{livro}.txt` (uma linha por versículo, `1:1 texto`). Convenções no topo de cada arquivo: יהוה = YHWH, nomes tradicionais, vav mantido como "E", infinitivo absoluto ao pé da letra, e [colchetes] para palavras que não estão no hebraico (o leitor as mostra em itálico claro). Cada lote é conferido por um revisor independente contra o hebraico e a análise gramatical.
 - **Transliterado**: gerado do hebraico por `tools/acervo/translit.mjs`, no estilo simples (*Bereshit bara Elohim*).
+- **Palavra por palavra**: no leitor, um toque numa palavra do hebraico ou do transliterado abre um balão com o significado (prefixos e sufixos separados: "e + dizer", "servo + dele"), a análise gramatical em português e a forma de dicionário. Os significados estão em `acervo/lexico/glosas.txt` (por lema de Strong da OSHB, com o sentido de cada grau do verbo) e `acervo/lexico/nomes.txt` (nomes próprios, na forma da tradução); a forma de dicionário vem do léxico de Strong da [Open Scriptures](https://github.com/openscriptures/HebrewLexicon). Sai em `public/content/bible/palavras/{livro}/{capítulo}.json`, baixado só ao abrir o capítulo.
+- **Notas do tradutor**: `acervo/notas/{livro}.txt`, uma por linha (`37:3 | trecho | nota`). A chamada (a, b, c…) aparece logo depois do trecho, e as notas ficam no fim do capítulo, como numa Bíblia impressa.
 
 Para montar um livro:
 
 ```sh
 git clone --depth 1 https://github.com/openscriptures/morphhb tools/acervo/.cache/morphhb
+git clone --depth 1 https://github.com/openscriptures/HebrewLexicon tools/acervo/.cache/HebrewLexicon
 node tools/acervo/build.mjs gn              # gera public/content/bible/gn.json (OSHB_DIR aponta outra pasta wlc/)
 node tools/acervo/build.mjs gn --estudo 12  # hebraico com a análise de cada palavra, para traduzir
 ```
