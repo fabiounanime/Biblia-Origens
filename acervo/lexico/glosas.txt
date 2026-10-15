@@ -2000,3 +2000,289 @@
 6287 | turbante, adorno
 4634 | fileira, arranjo
 6187 | arranjo, ordem
+7133 a | oferta (o que se faz chegar)
+6309 | gordura (do sacrifício)
+4454 | destroncar (a cabeça da ave)
+4680 | N: ser espremido | espremer
+4760 | papo
+5133 | penas, plumagem
+1880 | cinza (gorda), gordura
+8156 | p: fender, rasgar | fender
+7061 | tomar um punhado
+234 | memorial (porção queimada)
+3989 | cozido (no forno)
+4227 | assadeira, chapa
+6626 | partir em pedaços
+4802 | panela
+7033 | tostar
+1643 | grão moído
+3759 | espiga nova, grão novo
+3689 | lombo, ilharga
+6096 | espinhaço
+7684 | erro, inadvertência
+4899 | ungido
+819 | culpa
+8211 | lugar onde se lança (a cinza)
+7686 | errar, desviar-se
+5956 | N: estar oculto | h: esconder
+816 | ser culpado, tornar-se culpado
+8166 | cabra
+2931 | impuro
+5038 | cadáver
+2932 | impureza
+981 | p: falar levianamente
+3776 | cordeira
+4603 | cometer infidelidade
+4604 | infidelidade, prevaricação
+7683 | errar, pecar por erro
+5997 | próximo, companheiro
+8667 | penhor (depósito de mão)
+1498 | roubo
+6231 | oprimir, extorquir
+1500 | coisa roubada
+6233 | opressão, extorsão
+6485 | H: ser confiado | visitar, contar
+4169 | fogueira (lugar de queimar)
+3344 | H: arder
+4055 | veste, medida
+3518 | apagar-se
+7246 | H: ser bem embebido (em azeite)
+8601 | pedaços cozidos
+2789 | barro (vaso de barro)
+4838 | P: ser esfregado, polido
+7857 | P: ser enxaguado | lavar, enxaguar
+2720 a | seco
+8426 | ação de graças
+6292 | coisa abominável (carne podre)
+8263 | abominação
+4374 | cobertura
+7442 b | jubilar, gritar de alegria
+1730 | tio, amado
+6533 | rasgar
+7941 | bebida forte
+2455 | comum, profano
+6441 | para dentro
+6536 | h: ter unha fendida
+8157 | fenda
+1625 | ruminação (o que se rumina)
+8227 a | coelho-da-rocha (hírax)
+768 | lebre
+2386 | porco
+1641 | N: ruminar
+5579 | barbatana
+7193 | escama
+8262 | p: abominar, ter por abominável
+6538 | quebrantosso (ave de rapina)
+5822 | águia-marinha
+1676 | milhano
+344 | falcão
+3284 | avestruz (*bat ha-ya'anah*, sentido incerto)
+8464 | mocho (ave incerta)
+7828 | gaivota (ave incerta)
+5322 b | gavião
+3563 b | bufo, mocho
+7994 | corvo-marinho (ave incerta)
+3244 | coruja (ave incerta)
+8580 | coruja-branca; toupeira (no v. 30)
+6893 | pelicano (ave incerta)
+7360 | abutre
+2624 | cegonha
+601 | garça
+1744 | poupa
+5847 | morcego
+5425 a | p: saltar
+5556 | solham (espécie de gafanhoto)
+2728 | hargol (espécie de gafanhoto, grilo)
+2284 | hagabe (espécie de gafanhoto)
+2467 | doninha
+5909 | rato
+6632 b | lagarto
+604 | geco (lagartixa)
+3581 a | crocodilo-da-terra (lagarto grande)
+3911 | lagartixa
+2546 | lesma (réptil incerto)
+3600 | fogareiro
+2221 | semeadura
+5079 | separação (impureza menstrual), impureza
+1738 | estar enferma (no período)
+2893 | purificação
+4726 | fonte, fluxo
+5597 | erupção
+934 | mancha lustrosa (branca)
+6883 | lepra (doença de pele)
+6013 | fundo, profundo
+6581 | espalhar-se
+3544 | escurecido, desbotado
+4556 | erupção, crosta
+125 | avermelhado
+8217 | baixo, rebaixado
+6867 b | cicatriz
+4348 | queimadura
+2206 | barba
+6669 | amarelo, dourado
+5424 | tinha (doença do couro cabeludo)
+7838 | preto
+1239 | p: examinar, buscar
+933 | impigem (mancha branca)
+4803 | N: cair o cabelo
+7142 | calvo
+1371 | calvo da fronte
+7146 | calva
+1372 | calva da fronte
+8222 | bigode, lábio superior
+5844 a | cobrir
+909 | sozinho, à parte
+6785 | lã
+6593 | linho
+8359 | urdidura
+6154 b | trama
+3422 | esverdeado
+3992 | h: ser maligno (corrosivo)
+6356 | corrosão
+730 | cedro
+1354 | sobrancelha (arco)
+3849 | logue (medida de líquido)
+8042 | esquerdo
+8258 | cova, depressão
+2502 a | p: arrancar
+7106 a | h: raspar
+7096 | h: raspar
+2902 a | rebocar | N: ser rebocado
+2101 | fluxo | ter fluxo
+7325 | destilar
+2856 | h: entupir, obstruir | selar
+7556 | cuspir
+4817 | sela, assento
+5144 a | N: apartar-se, abster-se | h: separar
+1739 | enferma
+6801 | cobrir (a cabeça), enrolar
+1486 | sorte
+1513 | brasa
+6261 | designado, preparado
+1509 | cortada, isolada (terra)
+8163 c | bode; demônio-bode
+7608 | parenta
+2154 | infâmia, perversidade
+6887 e | afligir (como rival)
+7903 | deitar-se (relação)
+7250 | ajuntar-se (animal) | h: cruzar
+8397 | confusão (perversão)
+6958 | vomitar
+457 | ídolo (coisa vã)
+7114 b | segar
+3951 | espigas caídas (respigadura)
+5953 b | rebuscar
+6528 | uvas caídas
+6468 | paga, salário
+4383 | tropeço
+5766 a | injustiça
+6664 | justiça
+7400 | mexeriqueiro
+5201 | guardar rancor
+3610 | duas espécies (mistura)
+8162 | tecido misturado (lã e linho)
+2778 c | N: ser prometida (desposada)
+2668 | liberdade
+1244 | castigo, investigação
+2666 | P: ser libertado
+6188 | ter por incircunciso
+1974 | louvor (festa de colheita)
+6049 b | agourar, praticar adivinhação
+5362 b | h: cortar em redondo
+8296 a | incisão
+3793 | escrita, marca
+7085 | tatuagem
+178 | necromante (espírito dos mortos)
+3049 | adivinho
+4884 | medida (de líquidos)
+3976 | balança
+7275 | apedrejar
+2617 b | vergonha, desgraça
+7139 | rapar, fazer calva
+7144 | calva (rapada por luto)
+8295 | fazer incisões
+8296 b | incisão
+2491 b | profanada
+1331 | virgindade
+3971 b | defeito
+6455 | coxo
+2763 b | nariz achatado (*charum*, sentido incerto)
+8311 | ter membro alongado (deformado)
+7667 | quebra, fratura
+1384 | corcunda
+8400 | mancha (no olho)
+1618 | sarna
+3217 | impigem
+4790 | esmagado
+810 | testículo
+5788 b | cego
+2990 | verruga, ferida
+7038 | atrofiado
+4600 | machucar, esmagar
+3807 | esmagar
+5423 | arrancar
+4893 b | corrupção, deformidade
+6016 a | feixe
+7039 | grão tostado
+8643 | sonido (de trombeta), aclamação
+7673 b | descansar, guardar (o sábado)
+6116 | assembleia solene
+1926 | formosura, esplendor
+6057 | ramo
+5687 | frondoso
+6155 | salgueiro
+4635 | fileira
+3482 | israelita (mulher)
+3481 | israelita
+6567 a | declarar, decidir
+5344 b | pronunciar (o Nome), designar
+2168 | podar
+5599 b | o que nasce por si
+4465 | venda, o que se vendeu
+3465 | velho
+8671 | nono
+6783 | perpetuidade
+1353 | resgate
+4134 | empobrecer
+4054 | arredores, terras de pastagem
+4131 | vacilar
+8636 | acréscimo, usura
+4768 | acréscimo, usura
+4466 | venda
+6133 | descendente (rebento)
+4906 | figura, imagem
+2981 | colheita, produto
+1786 | debulha
+1210 | vindima
+1602 | rejeitar, abominar
+4133 | vara (do jugo)
+6968 | de cabeça erguida
+3988 a | rejeitar
+928 | pavor, terror
+7829 | tísica
+6920 | febre
+1727 | h: fazer desfalecer
+7385 | vão, em vão
+3256 | p: castigar, corrigir | N: deixar-se corrigir
+5154 | bronze
+7147 | oposição, hostilidade
+4347 | praga, golpe
+8074 | h: assolar | N: ser desolado | H: ficar desolado | ficar desolado, espantar-se
+5359 | vingança
+1116 | alto (lugar de culto)
+2553 | altar de incenso (coluna solar)
+1544 | ídolo
+2723 | ruína
+4816 | fraqueza, desânimo
+5086 | N: ser agitado (levado pelo vento)
+4499 | fuga
+3782 | tropeçar
+8617 | resistência (ficar de pé)
+4743 | N: definhar
+3665 | N: humilhar-se
+6186 b | h: avaliar
+4171 | h: trocar, substituir
+8545 | substituto, troca
+2563 c | hômer (medida)
+2764 a | coisa consagrada (ao extermínio)
+1069 | P: nascer primogênito | p: dar primogenitura

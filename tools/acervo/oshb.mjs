@@ -15,9 +15,14 @@ import { readFileSync } from "node:fs";
 /** @typedef {{ chapter: number, verse: number, words: Word[] }} SourceVerse */
 
 const VERSE_RE = /<verse osisID="[^".]+\.(\d+)\.(\d+)">([\s\S]*?)<\/verse>/g;
+// O texto da palavra pode ter letras marcadas por dentro (letra grande ou pequena,
+// ex.: Lv 11:42 גָּח<seg type="x-large">וֹ</seg>ן).
 const TOKEN_RE =
-  /<w ([^>]*)>([^<]*)<\/w>|<note type="variant">[\s\S]*?<rdg type="x-qere">([\s\S]*?)<\/rdg>[\s\S]*?<\/note>|<note[\s\S]*?<\/note>|<seg type="x-maqqef">/g;
-const QERE_WORD_RE = /<w ([^>]*)>([^<]*)<\/w>(\s*<seg type="x-maqqef">)?/g;
+  /<w ([^>]*)>((?:[^<]|<seg[^>]*>[^<]*<\/seg>)*)<\/w>|<note type="variant">[\s\S]*?<rdg type="x-qere">([\s\S]*?)<\/rdg>[\s\S]*?<\/note>|<note[\s\S]*?<\/note>|<seg type="x-maqqef">/g;
+const QERE_WORD_RE = /<w ([^>]*)>((?:[^<]|<seg[^>]*>[^<]*<\/seg>)*)<\/w>(\s*<seg type="x-maqqef">)?/g;
+
+/** @param {string} text */
+const plain = (text) => text.replace(/<[^>]*>/g, "");
 
 /** @param {string} attrs @param {string} name */
 function attr(attrs, name) {
@@ -44,10 +49,10 @@ export function readBook(xmlPath) {
       if (token[1] !== undefined) {
         const attrs = token[1];
         words.push({
-          text: token[2],
+          text: plain(token[2]),
           morph: attr(attrs, "morph"),
           lemma: attr(attrs, "lemma"),
-          ketiv: attr(attrs, "type") === "x-ketiv" ? token[2] : null,
+          ketiv: attr(attrs, "type") === "x-ketiv" ? plain(token[2]) : null,
           maqaf: false,
         });
       } else if (token[3] !== undefined) {
@@ -56,7 +61,7 @@ export function readBook(xmlPath) {
         /** @type {Word[]} */
         const qere = [];
         for (const w of token[3].matchAll(QERE_WORD_RE)) {
-          qere.push({ text: w[2], morph: attr(w[1], "morph"), lemma: attr(w[1], "lemma"), ketiv: null, maqaf: !!w[3] });
+          qere.push({ text: plain(w[2]), morph: attr(w[1], "morph"), lemma: attr(w[1], "lemma"), ketiv: null, maqaf: !!w[3] });
         }
         const last = words[words.length - 1];
         if (qere.length && last && last.ketiv !== null) {

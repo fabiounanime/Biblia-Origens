@@ -649,10 +649,11 @@ function GlossLine({
         {...(layer === "he" ? { lang: "he", dir: "rtl" } : {})}
       >
         {parts.map((part, index) => {
-          if (index % 2 === 1) return part;
+          if (index % 2 === 1) return part === " " ? part : null;
           const word = index / 2;
           const on = active === word;
-          return (
+          const joiner = parts[index + 1];
+          const button = (
             <button
               key={index}
               type="button"
@@ -668,6 +669,15 @@ function GlossLine({
             >
               {display(part)}
             </button>
+          );
+          // O hífen (e o maqaf) fica colado à palavra anterior: a linha pode
+          // quebrar depois dele, nunca antes.
+          if (!joiner || joiner === " ") return button;
+          return (
+            <span key={index} className="whitespace-nowrap">
+              {button}
+              {joiner}
+            </span>
           );
         })}
       </p>

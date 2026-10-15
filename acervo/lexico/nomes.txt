@@ -492,3 +492,7 @@
 294 | Aisamaque | p
 5126 | Num | p
 842 | poste-ídolo (*asherah*, ligado à deusa Aserá) | o
+5799 | Azazel | o
+4432 | Moloque | d
+8019 b | Selomite | p
+1704 | Dibri | p
