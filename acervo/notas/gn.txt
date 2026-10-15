@@ -1,0 +1,123 @@
+# Gênesis — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+# As notas explicam o hebraico: palavras de sentido incerto, jogos de palavras,
+# expressões ao pé da letra e diferenças em manuscritos e versões antigas.
+
+1:1 | No princípio | Em hebraico, *bereshit*, palavra que dá nome ao livro. A construção também permite ler: "No princípio, quando Deus criou os céus e a terra, a terra estava…", ligando o v. 1 ao v. 2.
+1:1 | criou | Nesta forma, o verbo *bara*, "criar", tem sempre Deus como sujeito na Bíblia hebraica.
+1:1 | Deus | Em hebraico, *Elohim*. A forma é plural, mas, referida ao Deus de Israel, vem com o verbo no singular.
+1:2 | sem forma e vazia | Em hebraico, *tohu vavohu*: expressão sonora para a terra informe e despovoada.
+1:2 | abismo | Em hebraico, *tehom*: as águas profundas.
+1:2 | Espírito de Deus | *Ruach* quer dizer espírito, vento e fôlego. Ou: "vento de Deus".
+1:2 | pairava | O mesmo verbo descreve a águia que paira sobre os filhotes em Dt 32:11.
+1:5 | dia um | O hebraico usa o número "um", e não "primeiro"; para os dias seguintes usa "segundo", "terceiro" etc.
+1:6 | firmamento | Em hebraico, *raqia*, de um verbo que significa estender ou bater (como o metal batido em lâmina): uma abóbada estendida.
+1:16 | os dois luminares grandes | O texto não usa as palavras "sol" e "lua"; fala do "luminar grande" e do "luminar pequeno".
+1:21 | monstros | Em hebraico, *tanninim*: grandes criaturas do mar; em outros textos, serpentes ou dragões.
+1:26 | Façamos | O verbo está no plural ("façamos", "nossa imagem"); no v. 27, a criação é narrada no singular ("criou").
+1:26 | homem | Em hebraico, *adam*: o ser humano, a humanidade. Aqui ainda não é nome próprio.
+1:27 | macho e fêmea | Em hebraico, *zakhar unqevah*.
+1:31 | o sexto dia | Só aqui, e depois no sétimo dia (2:2–3), o número do dia vem com o artigo: "o sexto dia".
+
+2:2 | cessou | Em hebraico, *shavat*, da mesma raiz de *shabbat*, "sábado".
+2:4 | as gerações | Em hebraico, *toledot*: a história do que procede de alguém. A fórmula abre várias seções do livro (5:1; 6:9; 10:1; 11:10, 27; 25:12, 19; 36:1, 9; 37:2).
+2:4 | YHWH | O nome próprio de Deus, escrito com quatro consoantes, יהוה. Por reverência, a leitura judaica tradicional não o pronuncia e diz *Adonai*, "Senhor". Esta é a primeira vez que o nome aparece.
+2:6 | névoa | Em hebraico, *ed*, palavra rara (também em Jó 36:27). O sentido é incerto: névoa, ou água que brota do chão.
+2:7 | o homem, pó do solo | Jogo de palavras: *adam*, "homem", foi formado da *adamah*, "solo".
+2:7 | alma vivente | Em hebraico, *nefesh chayah*, a mesma expressão usada para os animais em 1:20–24: o ser vivo inteiro, que respira.
+2:8 | Éden | Em hebraico, o nome soa como a palavra "delícia".
+2:14 | Hidéquel | Nome hebraico do rio Tigre.
+2:18 | uma ajuda correspondente a ele | Em hebraico, *ezer kenegdo*, ao pé da letra "uma ajuda como diante dele". *Ezer* não indica inferioridade: a mesma palavra é usada para Deus como ajuda de Israel (Sl 33:20).
+2:21 | costelas | Em hebraico, *tsela*: costela ou lado. Em Êxodo, a palavra designa os lados do tabernáculo (Êx 26:20).
+2:23 | será chamada mulher | Jogo de palavras: *ishah*, "mulher", foi tomada do *ish*, "homem" (varão).
+2:24 | uma carne | Ou: "uma só carne".
+2:25 | nus | Em hebraico, *arummim*, palavra que soa como *arum*, "astuta", no versículo seguinte (3:1).
+
+3:1 | astuta | Em hebraico, *arum*, que ecoa *arummim*, "nus", de 2:25.
+3:4 | Não morrendo morrereis | A serpente repete a construção de 2:17 ("morrendo morrerás") com a negação à frente: "certamente não morrereis".
+3:5 | como Deus | Ou: "como deuses". *Elohim* admite as duas leituras aqui.
+3:8 | ao vento do dia | Em hebraico, *leruach hayom*: provavelmente a hora da brisa, no fim da tarde.
+3:15 | a tua semente | Em hebraico, *zera*, "semente": a descendência.
+3:15 | te ferirá a cabeça | O mesmo verbo, *shuf*, aparece nas duas frases. É raro, e o sentido exato é incerto: ferir, esmagar ou espreitar.
+3:16 | a tua fadiga e a tua gravidez | Talvez uma só ideia: "a fadiga da tua gravidez". *Itsavon*, "fadiga", é a mesma palavra do v. 17 ("com fadiga dele comerás").
+3:17 | Adão | Aqui *adam* vem sem artigo e pode ser lido como nome próprio, Adão.
+3:20 | Eva | Em hebraico, *Chavah*, nome que soa como *chay*, "vivente".
+3:24 | querubins | Em hebraico, *keruvim*: seres celestiais que guardam lugares santos.
+
+4:1 | conheceu | "Conhecer" é aqui o modo hebraico de falar da união conjugal.
+4:1 | Adquiri | Em hebraico, *qaniti*, que soa como o nome Caim (*Qayin*).
+4:1 | com YHWH | Ou: "com [a ajuda de] YHWH". O sentido da partícula *et* aqui é discutido.
+4:2 | o seu irmão, Abel | Em hebraico, *Hevel*, "sopro", "vapor": a mesma palavra traduzida por "vaidade" em Eclesiastes.
+4:7 | elevação | Em hebraico, *se'et*, de "levantar": provavelmente o rosto levantado, isto é, a aceitação, em contraste com o rosto "caído" dos v. 5–6. O versículo é difícil.
+4:7 | deitado | O verbo *ravats* descreve um animal agachado, à espreita.
+4:8 | E disse Caim a Abel, seu irmão. | O texto hebraico não traz o que Caim disse. O Pentateuco Samaritano, a Septuaginta e outras versões antigas acrescentam: "Vamos ao campo".
+4:10 | sangues | O hebraico usa o plural, *deme*, como costuma fazer para o sangue derramado.
+4:13 | iniquidade | *Avon* designa a culpa e também o castigo dela. Ou: "Maior é o meu castigo do que se possa suportar".
+4:16 | Node | Em hebraico, *Nod*, que soa como *nad*, "errante" (v. 12 e 14).
+4:25 | Sete | Em hebraico, *Shet*, que soa como *shat*, "pôs".
+4:26 | Enos | Em hebraico, *Enosh*, outra palavra para "ser humano".
+
+5:1 | Adão | Aqui *adam* é nome próprio; no v. 2, a mesma palavra nomeia a humanidade.
+5:2 | Homem | Em hebraico, *Adam*.
+5:24 | Deus o tomou | Ao contrário dos outros nomes da lista, o texto não diz que Enoque morreu.
+5:29 | Noé | Em hebraico, *Noach*. O nome soa como "descanso", e a explicação usa o verbo *nacham*, "consolar".
+5:32 | filho de quinhentos anos | Modo hebraico de dizer a idade: "tinha quinhentos anos".
+
+6:2 | os filhos de Deus | Em hebraico, *bene ha'elohim*. Em Jó 1:6 e 2:1, a expressão designa seres celestiais; aqui, a identidade deles é discutida.
+6:3 | contenderá | O verbo hebraico, *yadon*, só aparece aqui, e o sentido é incerto. Ou: "não permanecerá".
+6:4 | nefilins | Palavra de sentido incerto, talvez ligada a *nafal*, "cair". Em Nm 13:33, designa homens de grande estatura.
+6:6 | arrependeu-se | O verbo *nicham* expressa pesar e mudança de atitude.
+6:9 | íntegro | Em hebraico, *tamim*: completo, sem defeito.
+6:14 | uma arca | Em hebraico, *tevah*, a mesma palavra usada para o cesto em que Moisés foi posto no Nilo (Êx 2:3).
+6:14 | gofer | Madeira não identificada; a palavra só aparece aqui.
+6:14 | ninhos | Em hebraico, *qinnim*, "ninhos": compartimentos. Com outras vogais, alguns leem *qanim*, "juncos".
+6:14 | betume | Verbo e substantivo são da mesma raiz: *kafarta … bakofer*, "betumarás… com betume".
+6:15 | trezentos côvados | O côvado (*ammah*) media cerca de 45 cm: a arca teria uns 135 m de comprimento, 22 m de largura e 13,5 m de altura.
+6:16 | abertura de luz | Em hebraico, *tsohar*, palavra que só aparece aqui. O sentido é incerto: abertura para a luz, ou teto.
+6:17 | o dilúvio | Em hebraico, *mabbul*, termo reservado ao dilúvio de Noé (fora do Gênesis, só em Sl 29:10).
+
+7:2 | sete [e] sete | Em hebraico, *shiv'ah shiv'ah*. Pode significar sete pares ou sete animais de cada espécie; o sentido é discutido.
+7:4 | todo ser existente | Em hebraico, *yequm*: tudo o que se levanta, todo ser que subsiste. Palavra rara (também no v. 23 e em Dt 11:6).
+7:11 | janelas dos céus | Em hebraico, *arubbot*: comportas, aberturas.
+7:20 | Quinze côvados | Cerca de 7 metros.
+7:22 | fôlego de espírito de vida | Em hebraico, *nishmat ruach chayyim*, expressão que junta as duas palavras para "fôlego".
+
+8:1 | lembrou-se | "Lembrar-se" (*zakhar*), na Bíblia, inclui agir em favor de alguém.
+8:1 | vento | Em hebraico, *ruach*, a mesma palavra de 1:2.
+8:4 | Ararate | Região montanhosa ao norte da Mesopotâmia, chamada Urartu nos textos assírios.
+8:11 | arrancada | Em hebraico, *taraf*. Ou: "fresca", "recém-colhida".
+8:13 | cobertura | Em hebraico, *mikhseh*, a mesma palavra usada para a cobertura do tabernáculo.
+8:21 | aroma agradável | Em hebraico, *reach hannichoach*. *Nichoach*, "agradável", "que acalma", soa como o nome Noé (*Noach*).
+8:21 | disse YHWH ao seu coração | Ou: "disse YHWH consigo mesmo".
+
+9:4 | a carne com a sua alma, o seu sangue | O sangue é visto como a sede da vida (*nefesh*); compare Lv 17:11.
+9:6 | pelo homem o seu sangue será derramado | O hebraico forma um espelho sonoro: *shofekh dam ha'adam ba'adam damo yishafekh*. *Ba'adam* pode ser "pelo homem" ou "em troca do homem".
+9:13 | O meu arco | Em hebraico, *qeshet*, a palavra comum para o arco de guerra.
+9:20 | e plantou uma vinha | Ou: "E Noé, homem do solo, foi o primeiro a plantar uma vinha".
+9:24 | menor | Em hebraico, *qatan*: o menor ou o mais novo. Nas listas, Cam aparece em segundo lugar.
+9:25 | servo de servos | Superlativo hebraico: o mais baixo dos servos.
+9:27 | Alargue | Em hebraico, *yaft*, jogo de palavras com o nome Jafé (*Yefet*).
+
+10:2 | Javã | Em hebraico, *Yavan*: os gregos (jônios).
+10:4 | Dodanim | Em 1Cr 1:7, *Rodanim*. As letras hebraicas ד (d) e ר (r) são muito parecidas.
+10:5 | ilhas | Em hebraico, *iyyim*: ilhas e terras do litoral.
+10:6 | Mizraim | Nome hebraico do Egito.
+10:8 | valente | Em hebraico, *gibbor*: guerreiro, homem poderoso.
+10:10 | Calné | Com as mesmas consoantes, alguns leem *kullanah*, "todas elas": "Babel, Ereque e Acade, todas elas na terra de Sinear".
+10:10 | Sinear | A Babilônia, no sul da Mesopotâmia.
+10:11 | saiu Assur | Ou: "Daquela terra ele saiu para a Assíria", referindo-se a Ninrode.
+10:21 | irmão de Jafé, o maior | O hebraico é ambíguo: "o maior" pode referir-se a Sem ou a Jafé.
+10:25 | Pelegue | Em hebraico, *Peleg*, nome ligado ao verbo *palag*, "dividir".
+
+11:1 | lábio | Em hebraico, *safah*, "lábio", usado no sentido de língua, idioma.
+11:1 | palavras unas | Ou: "as mesmas palavras".
+11:3 | queimemo-los em queima | O hebraico brinca com os sons: *nilbenah levenim venisrefah lisrefah*.
+11:3 | argamassa | Outro jogo de sons: *chemar*, "betume", e *chomer*, "argamassa".
+11:4 | a sua cabeça nos céus | Isto é, o topo da torre.
+11:7 | confundamos | Em hebraico, *navlah*, do verbo *balal*, "confundir", que soa como Babel (v. 9).
+11:9 | Babel | O nome é explicado pelo verbo *balal*, "confundir". Em acádio, *Bab-ili* era entendido como "porta de deus".
+11:28 | diante de Terá | Isto é, ainda em vida de Terá.
+11:28 | Ur dos caldeus | Em hebraico, *Ur Kasdim*.
+11:31 | até Harã | O nome da cidade, *Charan*, começa em hebraico com outra letra que o nome de Harã, irmão de Abrão (*Haran*).
