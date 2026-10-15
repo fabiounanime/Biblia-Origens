@@ -1,25 +1,50 @@
-export type SectionId = "torah" | "neviim" | "ketuvim";
+export type SectionId = "torah" | "neviim" | "ketuvim" | "brit";
+
+/** Idioma do texto original: hebraico (Antigo Testamento) ou grego (Novo). */
+export type OriginalLang = "he" | "gr";
 
 export type Book = {
   id: string;
   section: SectionId;
   namePt: string;
+  /** Nome no idioma original (hebraico no AT, grego no NT). */
   nameHe: string;
   nameTranslit: string;
   chapters: number;
 };
 
-export type Section = { id: SectionId; title: string; subtitle: string; nameHe: string };
+export type Section = { id: SectionId; title: string; subtitle: string; nameHe: string; lang: OriginalLang };
 
 export const SECTIONS: Section[] = [
-  { id: "torah", title: "Torá", subtitle: "Instrução", nameHe: "תּוֹרָה" },
-  { id: "neviim", title: "Neviim", subtitle: "Profetas", nameHe: "נְבִיאִים" },
-  { id: "ketuvim", title: "Ketuvim", subtitle: "Escritos", nameHe: "כְּתוּבִים" },
+  { id: "torah", title: "Torá", subtitle: "Instrução", nameHe: "תּוֹרָה", lang: "he" },
+  { id: "neviim", title: "Neviim", subtitle: "Profetas", nameHe: "נְבִיאִים", lang: "he" },
+  { id: "ketuvim", title: "Ketuvim", subtitle: "Escritos", nameHe: "כְּתוּבִים", lang: "he" },
+  { id: "brit", title: "Novo Testamento", subtitle: "Evangelhos e cartas", nameHe: "Καινὴ Διαθήκη", lang: "gr" },
 ];
 
+/** Como mostrar o texto original de cada idioma. */
+export const ORIGINAL: Record<
+  OriginalLang,
+  { lang: string; dir: "rtl" | "ltr"; font: string; read: string; label: string; short: string; from: string }
+> = {
+  he: { lang: "he", dir: "rtl", font: "he", read: "read-he", label: "Hebraico", short: "HE", from: "do hebraico" },
+  gr: { lang: "grc", dir: "ltr", font: "gr", read: "read-gr", label: "Grego", short: "GR", from: "do grego" },
+};
+
+export function bookLang(book: Book): OriginalLang {
+  return book.section === "brit" ? "gr" : "he";
+}
+
+/** Atributos de um texto no idioma original: classe da fonte, lang e direção. */
+export function originalProps(lang: OriginalLang, className = "") {
+  const style = ORIGINAL[lang];
+  return { className: `${style.font} ${className}`.trim(), lang: style.lang, dir: style.dir };
+}
+
 /**
- * Cor de cada parte do Tanakh. Classes literais para o Tailwind encontrar.
- * Torá = zahav (ouro), Neviim = tekhelet (azul), Ketuvim = argaman (púrpura).
+ * Cor de cada parte da Bíblia. Classes literais para o Tailwind encontrar.
+ * Torá = zahav (ouro), Neviim = tekhelet (azul), Ketuvim = argaman (púrpura),
+ * Novo Testamento = shani (escarlate), as quatro cores do Tabernáculo.
  */
 export const SECTION_TONE: Record<
   SectionId,
@@ -46,6 +71,13 @@ export const SECTION_TONE: Record<
     border: "border-argaman/35",
     bar: "from-argaman/30",
   },
+  brit: {
+    text: "text-shani",
+    dot: "bg-shani",
+    soft: "bg-shani/12",
+    border: "border-shani/35",
+    bar: "from-shani/30",
+  },
 };
 
 export const BOOKS: Book[] = [
@@ -64,7 +96,7 @@ export const BOOKS: Book[] = [
   { id: "jr", section: "neviim", namePt: "Jeremias", nameHe: "יִרְמְיָהוּ", nameTranslit: "Yirmeyahu", chapters: 52 },
   { id: "ez", section: "neviim", namePt: "Ezequiel", nameHe: "יְחֶזְקֵאל", nameTranslit: "Yechezkel", chapters: 48 },
   { id: "ho", section: "neviim", namePt: "Oséias", nameHe: "הוֹשֵׁעַ", nameTranslit: "Hoshea", chapters: 14 },
-  { id: "jl", section: "neviim", namePt: "Joel", nameHe: "יוֹאֵל", nameTranslit: "Yoel", chapters: 3 },
+  { id: "jl", section: "neviim", namePt: "Joel", nameHe: "יוֹאֵל", nameTranslit: "Yoel", chapters: 4 },
   { id: "am", section: "neviim", namePt: "Amós", nameHe: "עָמוֹס", nameTranslit: "Amos", chapters: 9 },
   { id: "ob", section: "neviim", namePt: "Obadias", nameHe: "עֹבַדְיָה", nameTranslit: "Ovadyah", chapters: 1 },
   { id: "jn", section: "neviim", namePt: "Jonas", nameHe: "יוֹנָה", nameTranslit: "Yonah", chapters: 4 },
@@ -88,6 +120,33 @@ export const BOOKS: Book[] = [
   { id: "ne", section: "ketuvim", namePt: "Neemias", nameHe: "נְחֶמְיָה", nameTranslit: "Nechemyah", chapters: 13 },
   { id: "1ch", section: "ketuvim", namePt: "1 Crônicas", nameHe: "דִּבְרֵי הַיָּמִים א", nameTranslit: "Divrei HaYamim I", chapters: 29 },
   { id: "2ch", section: "ketuvim", namePt: "2 Crônicas", nameHe: "דִּבְרֵי הַיָּמִים ב", nameTranslit: "Divrei HaYamim II", chapters: 36 },
+  { id: "mt", section: "brit", namePt: "Mateus", nameHe: "Κατὰ Μαθθαῖον", nameTranslit: "Kata Maththaion", chapters: 28 },
+  { id: "mc", section: "brit", namePt: "Marcos", nameHe: "Κατὰ Μᾶρκον", nameTranslit: "Kata Markon", chapters: 16 },
+  { id: "lc", section: "brit", namePt: "Lucas", nameHe: "Κατὰ Λουκᾶν", nameTranslit: "Kata Loukan", chapters: 24 },
+  { id: "jo", section: "brit", namePt: "João", nameHe: "Κατὰ Ἰωάννην", nameTranslit: "Kata Ioannen", chapters: 21 },
+  { id: "at", section: "brit", namePt: "Atos", nameHe: "Πράξεις", nameTranslit: "Praxeis", chapters: 28 },
+  { id: "rm", section: "brit", namePt: "Romanos", nameHe: "Πρὸς Ῥωμαίους", nameTranslit: "Pros Rhomaious", chapters: 16 },
+  { id: "1co", section: "brit", namePt: "1 Coríntios", nameHe: "Πρὸς Κορινθίους Α", nameTranslit: "Pros Korinthious A", chapters: 16 },
+  { id: "2co", section: "brit", namePt: "2 Coríntios", nameHe: "Πρὸς Κορινθίους Β", nameTranslit: "Pros Korinthious B", chapters: 13 },
+  { id: "gl", section: "brit", namePt: "Gálatas", nameHe: "Πρὸς Γαλάτας", nameTranslit: "Pros Galatas", chapters: 6 },
+  { id: "ef", section: "brit", namePt: "Efésios", nameHe: "Πρὸς Ἐφεσίους", nameTranslit: "Pros Ephesious", chapters: 6 },
+  { id: "fp", section: "brit", namePt: "Filipenses", nameHe: "Πρὸς Φιλιππησίους", nameTranslit: "Pros Philippesious", chapters: 4 },
+  { id: "cl", section: "brit", namePt: "Colossenses", nameHe: "Πρὸς Κολοσσαεῖς", nameTranslit: "Pros Kolossaeis", chapters: 4 },
+  { id: "1ts", section: "brit", namePt: "1 Tessalonicenses", nameHe: "Πρὸς Θεσσαλονικεῖς Α", nameTranslit: "Pros Thessalonikeis A", chapters: 5 },
+  { id: "2ts", section: "brit", namePt: "2 Tessalonicenses", nameHe: "Πρὸς Θεσσαλονικεῖς Β", nameTranslit: "Pros Thessalonikeis B", chapters: 3 },
+  { id: "1tm", section: "brit", namePt: "1 Timóteo", nameHe: "Πρὸς Τιμόθεον Α", nameTranslit: "Pros Timotheon A", chapters: 6 },
+  { id: "2tm", section: "brit", namePt: "2 Timóteo", nameHe: "Πρὸς Τιμόθεον Β", nameTranslit: "Pros Timotheon B", chapters: 4 },
+  { id: "tt", section: "brit", namePt: "Tito", nameHe: "Πρὸς Τίτον", nameTranslit: "Pros Titon", chapters: 3 },
+  { id: "fm", section: "brit", namePt: "Filemom", nameHe: "Πρὸς Φιλήμονα", nameTranslit: "Pros Philemona", chapters: 1 },
+  { id: "heb", section: "brit", namePt: "Hebreus", nameHe: "Πρὸς Ἑβραίους", nameTranslit: "Pros Hebraious", chapters: 13 },
+  { id: "tg", section: "brit", namePt: "Tiago", nameHe: "Ἰακώβου", nameTranslit: "Iakobou", chapters: 5 },
+  { id: "1pe", section: "brit", namePt: "1 Pedro", nameHe: "Πέτρου Α", nameTranslit: "Petrou A", chapters: 5 },
+  { id: "2pe", section: "brit", namePt: "2 Pedro", nameHe: "Πέτρου Β", nameTranslit: "Petrou B", chapters: 3 },
+  { id: "1jo", section: "brit", namePt: "1 João", nameHe: "Ἰωάννου Α", nameTranslit: "Ioannou A", chapters: 5 },
+  { id: "2jo", section: "brit", namePt: "2 João", nameHe: "Ἰωάννου Β", nameTranslit: "Ioannou B", chapters: 1 },
+  { id: "3jo", section: "brit", namePt: "3 João", nameHe: "Ἰωάννου Γ", nameTranslit: "Ioannou G", chapters: 1 },
+  { id: "jd", section: "brit", namePt: "Judas", nameHe: "Ἰούδα", nameTranslit: "Iouda", chapters: 1 },
+  { id: "ap", section: "brit", namePt: "Apocalipse", nameHe: "Ἀποκάλυψις Ἰωάννου", nameTranslit: "Apokalypsis Ioannou", chapters: 22 },
 ];
 
 export const BOOK_IDS = new Set(BOOKS.map((book) => book.id));
@@ -101,7 +160,7 @@ export function sectionById(id: SectionId): Section {
 }
 
 export function isSectionId(value: unknown): value is SectionId {
-  return value === "torah" || value === "neviim" || value === "ketuvim";
+  return value === "torah" || value === "neviim" || value === "ketuvim" || value === "brit";
 }
 
 export type ChapterRef = { book: Book; chapter: number };

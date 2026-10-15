@@ -3,7 +3,7 @@ import { Link, Navigate, useRouterState } from "@tanstack/react-router";
 import { BookOpen, CircleUser, House, Map as MapIcon, ScrollText } from "lucide-react";
 import { SIGN_IN_PATH } from "@/lib/auth/gates";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
-import { bookById } from "@/lib/bible/catalog";
+import { bookById, bookLang, originalProps } from "@/lib/bible/catalog";
 import { useStudy } from "@/lib/study/store";
 import { Avatar, BrandMark, Wordmark, cx } from "@/components/ui";
 
@@ -138,9 +138,7 @@ export function Shell({
               <span className="font-semibold">
                 {continueBook.namePt} {position.chapter}
               </span>
-              <span className="he text-lg text-zahav" lang="he" dir="rtl">
-                {continueBook.nameHe}
-              </span>
+              <span {...originalProps(bookLang(continueBook), "text-lg text-zahav")}>{continueBook.nameHe}</span>
             </span>
           </Link>
         ) : null}

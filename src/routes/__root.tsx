@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content: "Leitura do Tanakh em português direto, hebraico e transliterado.",
+        content: "Leitura da Bíblia em português direto, no hebraico e no grego originais, e transliterado.",
       },
       { name: "theme-color", content: "#0d1120" },
       // Nome do ícone na Tela de Início (iPhone) e no Android.
@@ -35,7 +35,7 @@ export const Route = createRootRoute({
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=IM+Fell+English:ital@1&family=Uncial+Antiqua&family=Frank+Ruhl+Libre:wght@400;500;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=IM+Fell+English:ital@1&family=Uncial+Antiqua&family=Frank+Ruhl+Libre:wght@400;500;700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap",
       },
     ],
     scripts: [

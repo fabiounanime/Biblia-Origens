@@ -7,8 +7,10 @@ import {
   BOOKS,
   SECTIONS,
   SECTION_TONE,
+  bookLang,
   foldText,
   isSectionId,
+  originalProps,
   type SectionId,
 } from "@/lib/bible/catalog";
 import { useStudy } from "@/lib/study/store";
@@ -51,7 +53,7 @@ function LerPage() {
 
   return (
     <Shell>
-      <Page title="Livros" lead="Os 39 livros na ordem do cânon hebraico.">
+      <Page title="Livros" lead="Os 66 livros: o Tanakh na ordem do cânon hebraico e, depois, o Novo Testamento.">
         {/* Busca e filtros ficam presos ao topo enquanto a lista rola */}
         <div className="glass sticky top-14 z-20 -mx-4 border-b border-line/60 px-4 pt-1 pb-3 sm:-mx-6 sm:px-6 md:top-0 md:pt-4">
           <label className="relative block">
@@ -107,7 +109,7 @@ function LerPage() {
                 <h2 className="text-lg font-semibold tracking-tight">
                   {section.title} <span className="font-normal text-muted">{section.subtitle}</span>
                 </h2>
-                <span className={cx("he text-xl", tone.text)} lang="he" dir="rtl">
+                <span {...originalProps(section.lang, cx(section.lang === "he" ? "text-xl" : "text-lg", tone.text))}>
                   {section.nameHe}
                 </span>
               </div>
@@ -135,7 +137,12 @@ function LerPage() {
                             {book.nameTranslit}, {book.chapters} {book.chapters === 1 ? "capítulo" : "capítulos"}
                           </span>
                         </span>
-                        <span className={cx("he shrink-0 text-2xl", tone.text)} lang="he" dir="rtl">
+                        <span
+                          {...originalProps(
+                            bookLang(book),
+                            cx(bookLang(book) === "he" ? "shrink-0 text-2xl" : "max-w-[45%] truncate text-lg", tone.text),
+                          )}
+                        >
                           {book.nameHe}
                         </span>
                       </Link>

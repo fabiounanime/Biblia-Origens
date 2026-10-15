@@ -3,7 +3,7 @@ import { Bookmark, BookOpen, CircleCheck, NotebookPen } from "lucide-react";
 import { Shell } from "@/components/shell";
 import { SectionTitle, cx } from "@/components/ui";
 import { useCurrentUser } from "@/lib/auth/use-current-user";
-import { BOOKS, SECTIONS, SECTION_TONE, bookById } from "@/lib/bible/catalog";
+import { BOOKS, ORIGINAL, SECTIONS, SECTION_TONE, bookById, bookLang } from "@/lib/bible/catalog";
 import { GUIDES } from "@/lib/bible/guides";
 import { activeMarks, useStudy } from "@/lib/study/store";
 
@@ -54,7 +54,7 @@ function Inicio() {
           )}
         </div>
 
-        {/* As três partes do Tanakh */}
+        {/* As partes da Bíblia: Torá, Profetas e Escritos (o Tanakh) e o Novo Testamento */}
         <section className="mt-10">
           <SectionTitle
             action={
@@ -63,9 +63,9 @@ function Inicio() {
               </Link>
             }
           >
-            As três partes do Tanakh
+            As partes da Bíblia
           </SectionTitle>
-          <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
+          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4 sm:gap-3">
             {SECTIONS.map((section) => {
               const tone = SECTION_TONE[section.id];
               const count = BOOKS.filter((row) => row.section === section.id).length;
@@ -80,7 +80,16 @@ function Inicio() {
                     "hover:bg-raised/70",
                   )}
                 >
-                  <span className={cx("he text-right text-2xl leading-none sm:text-4xl", tone.text)} lang="he" dir="rtl">
+                  <span
+                    className={cx(
+                      ORIGINAL[section.lang].font,
+                      section.lang === "he" ? "text-right text-2xl sm:text-4xl" : "text-left text-xl sm:text-2xl",
+                      "leading-none",
+                      tone.text,
+                    )}
+                    lang={ORIGINAL[section.lang].lang}
+                    dir={ORIGINAL[section.lang].dir}
+                  >
                     {section.nameHe}
                   </span>
                   <span className="mt-6 block">
@@ -208,9 +217,12 @@ function ContinueCard({
       className="group relative block overflow-hidden rounded-[28px] border border-tekhelet/30 bg-gradient-to-br from-tekhelet/25 via-surface to-argaman/15 p-5 shadow-float sm:p-7"
     >
       <span
-        className="he pointer-events-none absolute -top-3 right-3 text-[4.25rem] leading-none text-zahav/15 select-none sm:right-6 sm:text-[7rem]"
-        lang="he"
-        dir="rtl"
+        className={cx(
+          ORIGINAL[bookLang(book)].font,
+          "pointer-events-none absolute -top-3 right-3 text-[4.25rem] leading-none whitespace-nowrap text-zahav/15 select-none sm:right-6 sm:text-[7rem]",
+        )}
+        lang={ORIGINAL[bookLang(book)].lang}
+        dir={ORIGINAL[bookLang(book)].dir}
         aria-hidden
       >
         {book.nameHe}
