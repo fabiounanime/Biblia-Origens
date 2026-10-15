@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState, type ReactNode, type TouchEvent } from "react";
+import { useCallback, useEffect, useId, useRef, useState, type ReactNode, type TouchEvent } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import {
   ALargeSmall,
@@ -11,6 +11,7 @@ import {
   Copy,
   NotebookPen,
   ScrollText,
+  X,
 } from "lucide-react";
 import { Page, Shell } from "@/components/shell";
 import { ReadingSettings } from "@/components/reading-settings";
@@ -27,6 +28,9 @@ export const Route = createFileRoute("/ler/$book/$chapter")({
 });
 
 type SheetName = "chapters" | "settings" | null;
+/** Linha tocada para ver a tradução num balão: hebraico ou transliterado. */
+type GlossLayer = "he" | "tr";
+type Gloss = { verse: number; layer: GlossLayer } | null;
 
 function ChapterPage() {
   const { book: bookId, chapter: chapterParam } = Route.useParams();
@@ -39,6 +43,7 @@ function ChapterPage() {
   const [sheet, setSheet] = useState<SheetName>(null);
   const [noteFor, setNoteFor] = useState<number | null>(null);
   const [openVerse, setOpenVerse] = useState<number | null>(null);
+  const [gloss, setGloss] = useState<Gloss>(null);
   const progressRef = useRef<HTMLDivElement>(null);
   const touch = useRef<{ x: number; y: number } | null>(null);
   const multiTouch = useRef(false);
@@ -73,6 +78,7 @@ function ChapterPage() {
     let cancel = false;
     setVerses("loading");
     setOpenVerse(null);
+    setGloss(null);
     void loadChapter(bookId, chapter)
       .catch(() => null)
       .then((rows) => {
@@ -137,10 +143,29 @@ function ChapterPage() {
     };
   }, [verses]);
 
+  // Balão da tradução: fecha ao tocar fora dele ou com Esc.
+  useEffect(() => {
+    if (!gloss) return;
+    const onPointer = (event: PointerEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (target?.closest("[data-gloss]")) return;
+      setGloss(null);
+    };
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setGloss(null);
+    };
+    document.addEventListener("pointerdown", onPointer);
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onPointer);
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [gloss]);
+
   // Setas do teclado trocam de capítulo.
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
-      if (sheet || noteFor !== null || event.altKey || event.metaKey || event.ctrlKey) return;
+      if (sheet || noteFor !== null || gloss || event.altKey || event.metaKey || event.ctrlKey) return;
       const target = event.target as HTMLElement | null;
       if (target && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
       if (event.key === "ArrowRight") go(next);
@@ -148,7 +173,7 @@ function ChapterPage() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [go, next, previous, sheet, noteFor]);
+  }, [go, next, previous, sheet, noteFor, gloss]);
 
   if (!book || !valid) {
     return (
@@ -249,7 +274,7 @@ function ChapterPage() {
         {Array.isArray(verses) && verses.length > 0 ? (
           <>
             <p className="mb-2 text-center text-sm text-muted">
-              Toque no número para guardar, anotar ou copiar.
+              Toque no número para guardar, anotar ou copiar. Toque no hebraico ou no transliterado para ver a tradução.
               <span className="block md:hidden">Use dois dedos em pinça para ajustar a letra.</span>
             </p>
             <div>
@@ -262,6 +287,10 @@ function ChapterPage() {
                   open={openVerse === verse.v}
                   onToggle={() => setOpenVerse(openVerse === verse.v ? null : verse.v)}
                   onNote={() => setNoteFor(verse.v)}
+                  gloss={gloss?.verse === verse.v ? gloss.layer : null}
+                  onGloss={(layer) =>
+                    setGloss(layer && !(gloss?.verse === verse.v && gloss.layer === layer) ? { verse: verse.v, layer } : null)
+                  }
                 />
               ))}
             </div>
@@ -398,6 +427,8 @@ function VerseBlock({
   open,
   onToggle,
   onNote,
+  gloss,
+  onGloss,
 }: {
   book: Book;
   chapter: number;
@@ -405,6 +436,8 @@ function VerseBlock({
   open: boolean;
   onToggle: () => void;
   onNote: () => void;
+  gloss: GlossLayer | null;
+  onGloss: (layer: GlossLayer | null) => void;
 }) {
   const layers = useLayers();
   const showNiqqud = useStudy((state) => state.showNiqqud);
@@ -458,11 +491,29 @@ function VerseBlock({
             </p>
           ) : null}
           {layers.he ? (
-            <p className="read-he" lang="he" dir="rtl">
+            <GlossLine
+              layer="he"
+              active={gloss === "he"}
+              onToggle={() => onGloss("he")}
+              onClose={() => onGloss(null)}
+              reference={`${book.namePt} ${chapter}:${verse.v}`}
+              translation={verse.pt}
+            >
               {displayHebrew(verse.he, showNiqqud)}
-            </p>
+            </GlossLine>
           ) : null}
-          {layers.tr ? <p className="read-tr">{verse.tr}</p> : null}
+          {layers.tr ? (
+            <GlossLine
+              layer="tr"
+              active={gloss === "tr"}
+              onToggle={() => onGloss("tr")}
+              onClose={() => onGloss(null)}
+              reference={`${book.namePt} ${chapter}:${verse.v}`}
+              translation={verse.pt}
+            >
+              {verse.tr}
+            </GlossLine>
+          ) : null}
 
           {note?.body ? (
             <button
@@ -500,6 +551,93 @@ function VerseBlock({
         </div>
       </div>
     </article>
+  );
+}
+
+/**
+ * Linha em hebraico ou transliterada: um toque abre, logo abaixo dela, um balão
+ * com a tradução do versículo. Texto selecionado não abre o balão.
+ */
+function GlossLine({
+  layer,
+  active,
+  onToggle,
+  onClose,
+  reference,
+  translation,
+  children,
+}: {
+  layer: GlossLayer;
+  active: boolean;
+  onToggle: () => void;
+  onClose: () => void;
+  reference: string;
+  translation: string;
+  children: ReactNode;
+}) {
+  const bubbleRef = useRef<HTMLDivElement>(null);
+  const id = useId();
+
+  useEffect(() => {
+    if (!active) return;
+    const bubble = bubbleRef.current;
+    if (!bubble) return;
+    // Se o balão abriu perto do fim da tela, rola só o necessário para vê-lo.
+    const rect = bubble.getBoundingClientRect();
+    if (rect.bottom > window.innerHeight - 16) {
+      window.scrollBy({ top: rect.bottom - window.innerHeight + 24, behavior: "smooth" });
+    }
+  }, [active]);
+
+  return (
+    <div className="relative" data-gloss>
+      <p
+        role="button"
+        tabIndex={0}
+        aria-expanded={active}
+        aria-controls={active ? id : undefined}
+        aria-label={layer === "he" ? "Hebraico: toque para ver a tradução" : "Transliterado: toque para ver a tradução"}
+        onClick={() => {
+          if (window.getSelection()?.toString()) return;
+          onToggle();
+        }}
+        onKeyDown={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            onToggle();
+          }
+        }}
+        className={cx("gloss-line", layer === "he" ? "read-he" : "read-tr", active && "gloss-line-on")}
+        {...(layer === "he" ? { lang: "he", dir: "rtl" } : {})}
+      >
+        {children}
+      </p>
+      {active ? (
+        <div
+          ref={bubbleRef}
+          id={id}
+          role="dialog"
+          aria-label={`Tradução de ${reference}`}
+          className={cx("gloss-bubble", layer === "he" ? "gloss-bubble-he" : "gloss-bubble-tr")}
+        >
+          <div className="flex items-center gap-2">
+            <span className="text-[11px] font-bold tracking-[0.14em] text-tekhelet uppercase">Tradução</span>
+            <span className="text-xs text-muted tabular-nums">{reference}</span>
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Fechar tradução"
+              className="-mr-1.5 ml-auto grid size-8 place-items-center rounded-full text-muted hover:bg-raised hover:text-fg"
+            >
+              <X className="size-4" aria-hidden />
+            </button>
+          </div>
+          <p className="gloss-text">
+            <PtText text={translation} />
+          </p>
+        </div>
+      ) : null}
+    </div>
   );
 }
 

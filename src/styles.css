@@ -138,6 +138,68 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   color: var(--c-muted);
 }
 
+/* ---------- Balão de tradução (toque no hebraico ou no transliterado) ---------- */
+
+.gloss-line {
+  cursor: pointer;
+  border-radius: 0.75rem;
+  margin-inline: -0.375rem;
+  padding-inline: 0.375rem;
+  transition: background-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (hover: hover) {
+  .gloss-line:hover { background: color-mix(in srgb, var(--c-zahav) 9%, transparent); }
+}
+.gloss-line:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--c-tekhelet) 70%, transparent);
+  outline-offset: 2px;
+}
+.gloss-line-on { background: color-mix(in srgb, var(--c-zahav) 14%, transparent); }
+
+.gloss-bubble {
+  position: absolute;
+  z-index: 25;
+  top: calc(100% + 0.6rem);
+  width: min(26rem, 100%);
+  padding: 0.55rem 0.95rem 0.85rem;
+  border: 1px solid var(--c-line);
+  border-radius: 1.1rem;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-float);
+  animation: gloss-in 0.18s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+/* Ponta do balão, apontando para a linha tocada. */
+.gloss-bubble::before {
+  content: "";
+  position: absolute;
+  top: -0.42rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: var(--c-surface);
+  border-left: 1px solid var(--c-line);
+  border-top: 1px solid var(--c-line);
+  transform: rotate(45deg);
+}
+/* O hebraico começa à direita: o balão sai do lado direito; o transliterado, do esquerdo. */
+.gloss-bubble-he { right: 0; transform-origin: top right; }
+.gloss-bubble-he::before { right: 1.4rem; }
+.gloss-bubble-tr { left: 0; transform-origin: top left; }
+.gloss-bubble-tr::before { left: 1.4rem; }
+
+.gloss-text {
+  margin-top: 0.15rem;
+  font-family: var(--font-read);
+  font-size: calc(var(--read-size) * 0.9);
+  line-height: 1.6;
+  color: var(--c-fg);
+}
+
+@keyframes gloss-in {
+  from { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+
 /* ---------- Superfícies ---------- */
 
 /* Fundo da página: um halo de tekhelet no topo, sem ruído. */
@@ -286,6 +348,7 @@ html.light .brand-dark .wordmark {
   .splash-slogan,
   .splash-rule,
   .pin-active,
+  .gloss-bubble,
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }
 }
