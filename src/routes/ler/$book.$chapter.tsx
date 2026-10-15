@@ -16,7 +16,17 @@ import {
 import { Page, Shell } from "@/components/shell";
 import { ReadingSettings } from "@/components/reading-settings";
 import { Sheet, cx } from "@/components/ui";
-import { SECTION_TONE, bookById, neighborChapter, type Book, type ChapterRef } from "@/lib/bible/catalog";
+import {
+  ORIGINAL,
+  SECTION_TONE,
+  bookById,
+  bookLang,
+  neighborChapter,
+  originalProps,
+  type Book,
+  type ChapterRef,
+  type OriginalLang,
+} from "@/lib/bible/catalog";
 import {
   chapterNotes,
   displayHebrew,
@@ -286,16 +296,16 @@ function ChapterPage() {
 
         {verses === "loading" ? <VerseSkeleton /> : null}
         {verses === null || (Array.isArray(verses) && verses.length === 0) ? (
-          <EmptyChapter bookId={book.id} chapter={chapter} onNote={() => setNoteFor(0)} />
+          <EmptyChapter bookId={book.id} chapter={chapter} lang={bookLang(book)} onNote={() => setNoteFor(0)} />
         ) : null}
         {Array.isArray(verses) && verses.length > 0 ? (
           <>
             <p className="mb-2 text-center text-sm text-muted">
-              Toque no número para guardar, anotar ou copiar. Toque numa palavra em hebraico ou no transliterado para ver o significado.
+              Toque no número para guardar, anotar ou copiar. Toque numa palavra em {ORIGINAL[bookLang(book)].label.toLowerCase()} ou no transliterado para ver o significado.
               <span className="block md:hidden">Use dois dedos em pinça para ajustar a letra.</span>
             </p>
             <div>
-              {verses.map((verse) => (
+              {verses.map((verse, index) => (
                 <VerseBlock
                   key={verse.v}
                   book={book}
@@ -307,12 +317,14 @@ function ChapterPage() {
                   notes={notes}
                   gloss={gloss?.verse === verse.v ? gloss : null}
                   onGloss={(layer, word) => setGloss(word === null ? null : { verse: verse.v, layer, word })}
-                  words={words === "loading" || words === null ? words : (words[verse.v - 1] ?? null)}
+                  // O arquivo de palavras segue a ordem dos versículos (no NT há versículos
+                  // que os manuscritos mais antigos não trazem, e a numeração pula).
+                  words={words === "loading" || words === null ? words : (words[index] ?? null)}
                 />
               ))}
             </div>
             <ChapterNotes chapter={chapter} notes={notes} />
-            <SourceNote />
+            <SourceNote lang={bookLang(book)} />
           </>
         ) : null}
 
@@ -388,9 +400,7 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
 
   return (
     <header data-anchor className="pt-8 pb-6 text-center sm:pt-12">
-      <p className={cx("he text-5xl leading-tight sm:text-6xl", tone.text)} lang="he" dir="rtl">
-        {book.nameHe}
-      </p>
+      <p {...originalProps(bookLang(book), cx("text-5xl leading-tight sm:text-6xl", tone.text))}>{book.nameHe}</p>
       <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
         {book.namePt} {chapter}
       </h1>
@@ -408,15 +418,15 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
                 type="button"
                 aria-pressed={on}
                 onClick={() => layers.toggle(layer.id)}
-                title={on ? `Ocultar ${layer.label.toLowerCase()}` : `Mostrar ${layer.label.toLowerCase()}`}
+                title={`${on ? "Ocultar" : "Mostrar"} ${(layer.id === "he" ? ORIGINAL[bookLang(book)].label : layer.label).toLowerCase()}`}
                 className={cx(
                   "inline-flex h-9 items-center gap-1.5 rounded-full px-3 text-sm font-semibold transition-colors",
                   on ? "bg-raised text-fg" : "text-muted line-through decoration-muted/60",
                 )}
               >
                 <span className={cx("size-2 rounded-full", layer.dot, !on && "opacity-40")} aria-hidden />
-                {layer.id.toUpperCase()}
-                <span className="sr-only">{layer.label}</span>
+                {layer.id === "he" ? ORIGINAL[bookLang(book)].short : layer.id.toUpperCase()}
+                <span className="sr-only">{layer.id === "he" ? ORIGINAL[bookLang(book)].label : layer.label}</span>
               </button>
             );
           })}
@@ -515,6 +525,7 @@ function VerseBlock({
           {layers.he ? (
             <GlossLine
               layer="he"
+              lang={bookLang(book)}
               text={verse.he}
               he={verse.he}
               tr={verse.tr}
@@ -531,6 +542,7 @@ function VerseBlock({
           {layers.tr ? (
             <GlossLine
               layer="tr"
+              lang={bookLang(book)}
               text={verse.tr}
               he={verse.he}
               tr={verse.tr}
@@ -590,6 +602,7 @@ function VerseBlock({
  */
 function GlossLine({
   layer,
+  lang,
   text,
   he,
   tr,
@@ -603,6 +616,8 @@ function GlossLine({
   words,
 }: {
   layer: GlossLayer;
+  /** Idioma do original do livro (hebraico ou grego). */
+  lang: OriginalLang;
   /** Linha desta camada, como está no acervo. */
   text: string;
   /** As duas linhas completas, para mostrar a palavra nas duas escritas no balão. */
@@ -645,8 +660,8 @@ function GlossLine({
   return (
     <div className="relative" data-gloss>
       <p
-        className={cx(layer === "he" ? "read-he" : "read-tr", "gloss-line")}
-        {...(layer === "he" ? { lang: "he", dir: "rtl" } : {})}
+        className={cx(layer === "he" ? ORIGINAL[lang].read : "read-tr", "gloss-line")}
+        {...(layer === "he" ? { lang: ORIGINAL[lang].lang, dir: ORIGINAL[lang].dir } : {})}
       >
         {parts.map((part, index) => {
           if (index % 2 === 1) return part === " " ? part : null;
@@ -686,6 +701,7 @@ function GlossLine({
           ref={bubbleRef}
           id={id}
           layer={layer}
+          lang={lang}
           index={active}
           count={count}
           heWord={display(splitWords(he, "he")[active * 2] ?? "")}
@@ -706,6 +722,7 @@ function WordBubble({
   ref,
   id,
   layer,
+  lang,
   index,
   count,
   heWord,
@@ -719,6 +736,7 @@ function WordBubble({
   ref: Ref<HTMLDivElement>;
   id: string;
   layer: GlossLayer;
+  lang: OriginalLang;
   index: number;
   count: number;
   heWord: string;
@@ -730,13 +748,15 @@ function WordBubble({
   onClose: () => void;
 }) {
   const [showVerse, setShowVerse] = useState(false);
+  // Só o hebraico corre da direita para a esquerda; o grego e o transliterado, não.
+  const rtl = layer === "he" && ORIGINAL[lang].dir === "rtl";
   return (
     <div
       ref={ref}
       id={id}
       role="dialog"
       aria-label={`Significado de ${heWord}`}
-      className={cx("gloss-bubble", layer === "he" ? "gloss-bubble-he" : "gloss-bubble-tr")}
+      className={cx("gloss-bubble", rtl ? "gloss-bubble-he" : "gloss-bubble-tr")}
     >
       <div className="flex items-center gap-2">
         <span className="text-[11px] font-bold tracking-[0.14em] text-tekhelet uppercase">Palavra</span>
@@ -754,9 +774,7 @@ function WordBubble({
       </div>
 
       <div className="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
-        <span className="he text-[1.7rem] leading-snug text-zahav" lang="he" dir="rtl">
-          {heWord}
-        </span>
+        <span {...originalProps(lang, "text-[1.7rem] leading-snug text-zahav")}>{heWord}</span>
         <span className="font-read text-[0.95rem] text-tekhelet italic">{trWord}</span>
       </div>
 
@@ -780,9 +798,7 @@ function WordBubble({
           {info.l ? (
             <p className="mt-1 text-[13px] text-muted">
               Dicionário:{" "}
-              <span className="he text-base text-soft" lang="he" dir="rtl">
-                {info.l}
-              </span>
+              <span {...originalProps(lang, "text-base text-soft")}>{info.l}</span>
             </p>
           ) : null}
         </>
@@ -794,14 +810,14 @@ function WordBubble({
         </p>
       ) : null}
 
-      <div className="mt-3 flex items-center gap-1.5" dir={layer === "he" ? "rtl" : "ltr"}>
+      <div className="mt-3 flex items-center gap-1.5" dir={rtl ? "rtl" : "ltr"}>
         <button
           type="button"
           onClick={() => onMove(-1)}
           aria-label="Palavra anterior"
           className="grid size-9 place-items-center rounded-full border border-line text-soft hover:text-fg"
         >
-          {layer === "he" ? <ChevronRight className="size-4" aria-hidden /> : <ChevronLeft className="size-4" aria-hidden />}
+          {rtl ? <ChevronRight className="size-4" aria-hidden /> : <ChevronLeft className="size-4" aria-hidden />}
         </button>
         <button
           type="button"
@@ -809,7 +825,7 @@ function WordBubble({
           aria-label="Próxima palavra"
           className="grid size-9 place-items-center rounded-full border border-line text-soft hover:text-fg"
         >
-          {layer === "he" ? <ChevronLeft className="size-4" aria-hidden /> : <ChevronRight className="size-4" aria-hidden />}
+          {rtl ? <ChevronLeft className="size-4" aria-hidden /> : <ChevronRight className="size-4" aria-hidden />}
         </button>
         <button
           type="button"
@@ -824,14 +840,14 @@ function WordBubble({
   );
 }
 
-/** Palavras [entre colchetes] não existem no hebraico: aparecem mais claras e em itálico. */
+/** Palavras [entre colchetes] não existem no original: aparecem mais claras e em itálico. */
 function PtText({ text }: { text: string }) {
   const parts = text.split(/(\[[^\]]+\])/);
   return (
     <>
       {parts.map((part, index) =>
         part.startsWith("[") && part.endsWith("]") ? (
-          <span key={index} className="added-word" title="Acrescentado pelo sentido; não está no hebraico">
+          <span key={index} className="added-word" title="Acrescentado pelo sentido; não está no original">
             {part.slice(1, -1)}
           </span>
         ) : (
@@ -918,17 +934,23 @@ function ChapterNotes({ chapter, notes }: { chapter: number; notes: LetteredNote
 }
 
 /** Como ler a tradução, ao fim de cada capítulo publicado. */
-function SourceNote() {
+function SourceNote({ lang }: { lang: OriginalLang }) {
+  const original = ORIGINAL[lang].label.toLowerCase();
   return (
     <aside className="mt-8 rounded-2xl border border-line bg-surface/60 px-4 py-3.5 text-[13px] leading-relaxed text-muted">
       <p>
-        <span className="font-semibold text-soft">Tradução direta do hebraico.</span> Palavras em{" "}
-        <span className="added-word">itálico claro</span> não estão no hebraico e foram acrescentadas pelo sentido. O nome
-        divino{" "}
-        <span lang="he" dir="rtl" className="he">
-          יהוה
-        </span>{" "}
-        aparece como YHWH.
+        <span className="font-semibold text-soft">Tradução direta {ORIGINAL[lang].from}.</span> Palavras em{" "}
+        <span className="added-word">itálico claro</span> não estão no {original} e foram acrescentadas pelo sentido.
+        {lang === "he" ? (
+          <>
+            {" "}
+            O nome divino{" "}
+            <span lang="he" dir="rtl" className="he">
+              יהוה
+            </span>{" "}
+            aparece como YHWH.
+          </>
+        ) : null}
       </p>
     </aside>
   );
@@ -978,7 +1000,17 @@ function VerseSkeleton() {
   );
 }
 
-function EmptyChapter({ bookId, chapter, onNote }: { bookId: string; chapter: number; onNote: () => void }) {
+function EmptyChapter({
+  bookId,
+  chapter,
+  lang,
+  onNote,
+}: {
+  bookId: string;
+  chapter: number;
+  lang: OriginalLang;
+  onNote: () => void;
+}) {
   const marks = useStudy((state) => state.marks);
   const note = findMark(marks, bookId, chapter, 0, "note");
   return (
@@ -990,7 +1022,7 @@ function EmptyChapter({ bookId, chapter, onNote }: { bookId: string; chapter: nu
       </div>
       <h2 className="mt-4 text-xl font-semibold">Este capítulo ainda não chegou ao acervo</h2>
       <p className="mx-auto mt-2 max-w-md text-muted">
-        A tradução direta, o hebraico e o transliterado aparecem aqui assim que forem publicados. Enquanto isso, você pode guardar o
+        A tradução direta, o {ORIGINAL[lang].label.toLowerCase()} e o transliterado aparecem aqui assim que forem publicados. Enquanto isso, você pode guardar o
         capítulo ou escrever uma nota.
       </p>
       {note?.body ? (

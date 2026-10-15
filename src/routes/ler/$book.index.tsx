@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { BookOpen } from "lucide-react";
 import { BackLabel, Page, Shell } from "@/components/shell";
 import { cx } from "@/components/ui";
-import { SECTION_TONE, bookById, sectionById } from "@/lib/bible/catalog";
+import { SECTION_TONE, bookById, bookLang, originalProps, sectionById } from "@/lib/bible/catalog";
 import { activeMarks, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/ler/$book/")({
@@ -44,7 +44,12 @@ function BookPage() {
         title={book.namePt}
         lead={`${book.nameTranslit}. ${section.title}, ${book.chapters} ${book.chapters === 1 ? "capítulo" : "capítulos"}.`}
         action={
-          <span className={cx("he text-5xl leading-none sm:text-6xl", tone.text)} lang="he" dir="rtl">
+          <span
+            {...originalProps(
+              bookLang(book),
+              cx(bookLang(book) === "he" ? "text-5xl sm:text-6xl" : "text-3xl sm:text-4xl", "leading-none", tone.text),
+            )}
+          >
             {book.nameHe}
           </span>
         }

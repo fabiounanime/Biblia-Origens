@@ -61,6 +61,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
   --font-read: "Literata", Georgia, "Times New Roman", serif;
   --font-hebrew: "Frank Ruhl Libre", "Times New Roman", serif;
+  --font-greek: "Gentium Book Plus", "Literata", Georgia, serif;
   --color-bg: var(--c-bg);
   --color-surface: var(--c-surface);
   --color-raised: var(--c-raised);
@@ -128,8 +129,20 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   color: color-mix(in srgb, var(--c-tekhelet) 62%, var(--c-muted));
 }
 
+/* Grego do Novo Testamento (SBLGNT), com acentos e espíritos (politônico). */
+.read-gr {
+  font-family: var(--font-greek);
+  font-size: calc(var(--read-size) * 1.12);
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--c-zahav) 32%, var(--c-fg));
+}
+
 .he {
   font-family: var(--font-hebrew);
+}
+
+.gr {
+  font-family: var(--font-greek);
 }
 
 /* Palavra acrescentada na tradução (no texto, entre colchetes). */

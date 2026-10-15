@@ -1,8 +1,11 @@
 /**
  * Monta o JSON de um livro para o leitor:
  *
- *   node tools/acervo/build.mjs gn            → public/content/bible/gn.json
- *   node tools/acervo/build.mjs gn --estudo 3 → folha de estudo do capítulo 3
+ *   node tools/acervo/build.mjs gn   → public/content/bible/gn.json
+ *
+ * Antigo Testamento a partir do hebraico (OSHB); Novo Testamento a partir do
+ * grego (SBLGNT com a análise da MorphGNT). Os livros e as fontes estão em
+ * livros.mjs; folha.mjs e lemas.mjs ajudam a traduzir.
  *
  * Entradas:
  *   - hebraico: Open Scriptures Hebrew Bible (Westminster Leningrad Codex), em
@@ -24,57 +27,30 @@
  *     capítulo, carregado só quando o leitor toca numa palavra.
  *
  * Só entram no JSON os capítulos com todos os versículos traduzidos. A
- * versificação é a do texto hebraico.
+ * versificação é a do texto original (hebraico no AT, SBLGNT no NT). No NT o
+ * significado de cada palavra vem de acervo/lexico/grego.txt (e grego.d/).
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import { hebrewLine, readBook } from "./oshb.mjs";
+import { dirname, join } from "node:path";
+import { hebrewLine } from "./oshb.mjs";
 import { transliterateVerse } from "./translit.mjs";
-import { createGlosser } from "./palavras.mjs";
+import { createGlosser, readTable } from "./palavras.mjs";
+import { createGreekGlosser, greekLine, transliterateGreekVerse } from "./grego.mjs";
+import { ROOT, SOURCES, readSource } from "./livros.mjs";
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
-
-/** Identificador do app → arquivo da OSHB. */
-const OSHB_FILE = {
-  gn: "Gen", ex: "Exod", lv: "Lev", nm: "Num", dt: "Deut",
-  js: "Josh", jz: "Judg", "1sm": "1Sam", "2sm": "2Sam", "1rs": "1Kgs", "2rs": "2Kgs",
-  is: "Isa", jr: "Jer", ez: "Ezek", ho: "Hos", jl: "Joel", am: "Amos", ob: "Obad",
-  jn: "Jonah", mi: "Mic", na: "Nah", hb: "Hab", zp: "Zeph", hg: "Hag", zc: "Zech", ml: "Mal",
-  ps: "Ps", pv: "Prov", job: "Job", ss: "Song", rt: "Ruth", lm: "Lam", ec: "Eccl", et: "Esth",
-  dn: "Dan", er: "Ezra", ne: "Neh", "1ch": "1Chr", "2ch": "2Chr",
-};
-
-const [bookId, flag, chapterArg] = process.argv.slice(2);
-const file = bookId ? OSHB_FILE[/** @type {keyof typeof OSHB_FILE} */ (bookId)] : undefined;
-if (!bookId || !file) {
-  console.error("Uso: node tools/acervo/build.mjs <livro> [--estudo <capítulo>]");
+const [bookId] = process.argv.slice(2);
+if (!bookId || !SOURCES[bookId]) {
+  console.error("Uso: node tools/acervo/build.mjs <livro>   (folha de tradução: node tools/acervo/folha.mjs)");
   process.exit(1);
 }
 
-const oshbDir = process.env.OSHB_DIR ?? join(ROOT, "tools/acervo/.cache/morphhb/wlc");
-const xmlPath = join(oshbDir, `${file}.xml`);
-if (!existsSync(xmlPath)) {
-  console.error(`Texto hebraico não encontrado em ${xmlPath}.`);
-  console.error("Baixe com: git clone --depth 1 https://github.com/openscriptures/morphhb tools/acervo/.cache/morphhb");
-  process.exit(1);
-}
-
-const source = readBook(xmlPath);
-
-if (flag === "--estudo") {
-  // Folha de estudo: cada palavra com a raiz (Strong) e a análise gramatical,
-  // para traduzir direto do hebraico.
-  const chapter = Number(chapterArg);
-  for (const verse of source.filter((v) => v.chapter === chapter)) {
-    console.log(`\n${verse.chapter}:${verse.verse}  ${hebrewLine(verse.words)}`);
-    for (const word of verse.words) {
-      console.log(`   ${word.text.replace(/[֑-ֽ֯]/g, "").padEnd(16)} ${word.lemma.padEnd(14)} ${word.morph}`);
-    }
-  }
-  process.exit(0);
-}
+const { lang, verses: source } = readSource(bookId);
+/** Linha original, transliteração e separador de palavras de cada idioma. */
+const ORIGINAL =
+  lang === "he"
+    ? { line: hebrewLine, translit: transliterateVerse, split: /[ ־]/ }
+    : { line: greekLine, translit: transliterateGreekVerse, split: / / };
 
 const ptPath = join(ROOT, "acervo/traducao", `${bookId}.txt`);
 /** @type {Record<string, Record<string, string>>} */
@@ -155,10 +131,10 @@ for (const verse of source) {
   byChapter.set(verse.chapter, list);
 }
 
-const glosser = createGlosser(
-  ROOT,
-  process.env.STRONG_XML ?? join(ROOT, "tools/acervo/.cache/HebrewLexicon/HebrewStrong.xml"),
-);
+const glosser =
+  lang === "he"
+    ? createGlosser(ROOT, process.env.STRONG_XML ?? join(ROOT, "tools/acervo/.cache/HebrewLexicon/HebrewStrong.xml"))
+    : createGreekGlosser(readTable, ROOT);
 /** @type {Map<number, { g: string; m: string; l: string; o: string }[][]>} */
 const wordFiles = new Map();
 
@@ -179,16 +155,17 @@ for (const [n, verses] of byChapter) {
       const text = translated[String(v.verse)].trim();
       const verseNotes = notesFor(n, v.verse, text);
       noteCount += verseNotes?.length ?? 0;
-      const he = hebrewLine(v.words);
-      const tr = transliterateVerse(v.words);
-      // O leitor separa as palavras por espaço e maqaf: as contas têm de bater.
-      const heCount = he.split(/[ ־]/).length;
+      // "he" guarda a linha no idioma original: hebraico (AT) ou grego (NT).
+      const he = ORIGINAL.line(v.words);
+      const tr = ORIGINAL.translit(v.words);
+      // O leitor separa as palavras por espaço (e maqaf): as contas têm de bater.
+      const heCount = he.split(ORIGINAL.split).length;
       const trCount = tr.split(/[ -]/).length;
       if (heCount !== v.words.length || trCount !== v.words.length) {
-        problems.push(`${bookId} ${n}:${v.verse}: ${v.words.length} palavras, ${heCount} no hebraico, ${trCount} no transliterado`);
+        problems.push(`${bookId} ${n}:${v.verse}: ${v.words.length} palavras, ${heCount} no original, ${trCount} no transliterado`);
       }
       const list = wordFiles.get(n) ?? [];
-      list.push(v.words.map((word) => glosser.gloss(word)));
+      list.push(v.words.map((word) => glosser.gloss(/** @type {any} */ (word))));
       wordFiles.set(n, list);
       return {
         v: v.verse,
@@ -206,7 +183,7 @@ for (const [key, list] of notes) {
 }
 
 if (glosser.missing.size) {
-  problems.push(`Sem significado em acervo/lexico: ${[...glosser.missing].join(", ")}`);
+  problems.push(`Sem significado em acervo/lexico: ${[...glosser.missing].join(", ")}  (veja: node tools/acervo/lemas.mjs ${bookId})`);
 }
 
 if (problems.length) {

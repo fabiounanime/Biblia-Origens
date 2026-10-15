@@ -7,7 +7,7 @@ import { Avatar, SectionTitle, Segmented, cx } from "@/components/ui";
 import { authEnabled, signOut } from "@/lib/auth/client";
 import { hasGateSessionMarker } from "@/lib/auth/gate-session-marker";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
-import { bookById } from "@/lib/bible/catalog";
+import { bookById, bookLang, originalProps } from "@/lib/bible/catalog";
 import { activeMarks, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/conta")({
@@ -153,9 +153,7 @@ function ContaPage() {
                           {mark.kind === "note" ? mark.body : mark.verse > 0 ? "Versículo guardado" : "Capítulo guardado"}
                         </span>
                       </span>
-                      <span className="he shrink-0 text-lg text-soft" lang="he" dir="rtl">
-                        {book.nameHe}
-                      </span>
+                      <span {...originalProps(bookLang(book), "shrink-0 text-lg text-soft")}>{book.nameHe}</span>
                     </Link>
                   </li>
                 );
@@ -171,9 +169,11 @@ function ContaPage() {
             Termos de Serviço
           </Link>
         </nav>
-        {/* Atribuição exigida pela licença CC BY 4.0 da fonte do texto hebraico. */}
+        {/* Atribuições exigidas pelas licenças das fontes do texto hebraico e do grego. */}
         <p className="mt-4 text-xs text-muted">
-          Texto hebraico: Códice de Leningrado, pela Open Scriptures Hebrew Bible (CC BY 4.0).
+          Texto hebraico: Códice de Leningrado, pela Open Scriptures Hebrew Bible (CC BY 4.0). Texto grego: SBL Greek New
+          Testament, © 2010 Society of Biblical Literature e Logos Bible Software (CC BY 4.0), com a análise morfológica da
+          MorphGNT (CC BY-SA 3.0).
         </p>
       </Page>
     </Shell>

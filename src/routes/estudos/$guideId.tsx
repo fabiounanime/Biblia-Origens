@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { BookOpen, CircleCheck, MapPin, RotateCcw } from "lucide-react";
 import { BackLabel, Page, Shell } from "@/components/shell";
 import { cx } from "@/components/ui";
-import { SECTION_TONE, bookById } from "@/lib/bible/catalog";
+import { SECTION_TONE, bookById, bookLang, originalProps } from "@/lib/bible/catalog";
 import { guideById } from "@/lib/bible/guides";
 import { placeById } from "@/lib/bible/places";
 import { useStudy } from "@/lib/study/store";
@@ -65,9 +65,7 @@ function GuidePage() {
                 <span className="text-2xl font-bold tracking-tight">
                   {book.namePt} {guide.chapter}
                 </span>
-                <span className={cx("he text-3xl", tone.text)} lang="he" dir="rtl">
-                  {book.nameHe}
-                </span>
+                <span {...originalProps(bookLang(book), cx("text-3xl", tone.text))}>{book.nameHe}</span>
               </span>
             </Link>
           ) : null}

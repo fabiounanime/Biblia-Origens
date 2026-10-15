@@ -13,7 +13,7 @@
  * de Strong da Open Scriptures (HebrewStrong.xml, domínio público).
  */
 
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 /** Graus do verbo (binyanim), códigos da OSHB. */
@@ -145,20 +145,36 @@ export function describe(code, aramaic = false, suffixed = false) {
 }
 
 /** Lê "lema | significado" (e "lema | nome | tipo"), ignorando comentários. */
-function readTable(path) {
+/**
+ * Lê "lema | significado" (e "lema | nome | tipo"), ignorando comentários.
+ * Além do arquivo principal (glosas.txt), lê os acréscimos de cada livro em
+ * glosas.d/*.txt. Um lema repetido no mesmo arquivo é erro; entre arquivos,
+ * vale o primeiro (o principal, depois os livros em ordem alfabética).
+ */
+export function readTable(path) {
   /** @type {Map<string, string[]>} */
   const table = new Map();
-  if (!existsSync(path)) return table;
-  readFileSync(path, "utf8")
-    .split("\n")
-    .forEach((raw, index) => {
-      const line = raw.trim();
-      if (!line || line.startsWith("#")) return;
-      const parts = line.split("|").map((part) => part.trim());
-      if (parts.length < 2 || !parts[0] || !parts[1]) throw new Error(`${path}:${index + 1}: linha fora do formato`);
-      if (table.has(parts[0])) throw new Error(`${path}:${index + 1}: lema ${parts[0]} repetido`);
-      table.set(parts[0], parts.slice(1));
-    });
+  const extraDir = path.replace(/\.txt$/, ".d");
+  const files = [path];
+  if (existsSync(extraDir)) {
+    for (const name of readdirSync(extraDir).sort()) if (name.endsWith(".txt")) files.push(join(extraDir, name));
+  }
+  for (const file of files) {
+    if (!existsSync(file)) continue;
+    /** @type {Set<string>} */
+    const seen = new Set();
+    readFileSync(file, "utf8")
+      .split("\n")
+      .forEach((raw, index) => {
+        const line = raw.trim();
+        if (!line || line.startsWith("#")) return;
+        const parts = line.split("|").map((part) => part.trim());
+        if (parts.length < 2 || !parts[0] || !parts[1]) throw new Error(`${file}:${index + 1}: linha fora do formato`);
+        if (seen.has(parts[0])) throw new Error(`${file}:${index + 1}: lema ${parts[0]} repetido`);
+        seen.add(parts[0]);
+        if (!table.has(parts[0])) table.set(parts[0], parts.slice(1));
+      });
+  }
   return table;
 }
 

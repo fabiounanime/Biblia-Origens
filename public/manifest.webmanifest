@@ -1,7 +1,7 @@
 {
   "name": "Bíblia Origens",
   "short_name": "Bíblia Origens",
-  "description": "Leitura do Tanakh em português direto, hebraico e transliterado.",
+  "description": "Leitura da Bíblia em português direto, no hebraico e no grego originais, e transliterado.",
   "id": "/",
   "start_url": "/abrir",
   "scope": "/",
