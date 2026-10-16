@@ -1,0 +1,51 @@
+# Josué 1–13 — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+
+1:7 | ajas com prudência | Em hebraico, *taskil*, do verbo *hiskil*: agir com discernimento e, daí, ter êxito. Ou: "tenhas êxito". O mesmo verbo volta no v. 8.
+2:1 | prostituta | Em hebraico, *zonah*, a palavra comum para prostituta. Alguns intérpretes antigos entenderam "estalajadeira".
+2:2 | sondar | O verbo *hafar* significa também "cavar"; aqui, explorar o terreno.
+2:6 | linhos do pau | Em hebraico, *pishtei ha'etz*, ao pé da letra "linhos da madeira": talos de linho postos a secar.
+2:10 | consagrastes ao extermínio | Em hebraico, *heherim*, de *herem*: aquilo que é separado para YHWH sem retorno, pela destruição de pessoas e coisas. A mesma raiz volta em 6:17–21 e em 7:1.
+2:14 | esta nossa palavra | Em hebraico, *dabar*: "palavra" ou "assunto". Aqui é o segredo da missão dos espias; o mesmo termo no v. 20.
+2:18 | cordão de fio escarlate | Em hebraico, *tiqvat khut hashani*. *Tiqvah* é "cordão"; em outros textos a mesma palavra quer dizer "esperança".
+3:4 | côvados | O côvado media cerca de 45 centímetros; dois mil côvados são, portanto, cerca de 900 metros.
+3:4 | de ontem [e] de anteontem | Em hebraico, *temol shilshom*: expressão para "antes", "no passado".
+3:15 | ceifa | A ceifa da cevada, na primavera, época em que o Jordão transborda.
+3:16 | Adão | Nome de uma cidade junto ao Jordão, com a mesma grafia de *adam*, "homem". A localização é discutida.
+4:9 | doze pedras levantou Josué | O texto parece tratar de um segundo conjunto de doze pedras, postas no leito do rio, além das levadas ao acampamento (v. 3, 8 e 20).
+5:1 | ocidente | Em hebraico, *yammah*, "para o mar": o Mediterrâneo, e por isso a palavra serve para "oeste".
+5:2 | espadas de rochas | Em hebraico, *harvot tsurim*. Ou: "facas de pedra afiada" (sílex).
+5:4 | a coisa pela qual | Em hebraico, *dabar*: "palavra" ou "coisa". Aqui, o motivo.
+5:5 | circuncidaram | O hebraico não traz objeto: *lo malu*, ao pé da letra "não circuncidaram"; o "[o]" é acrescentado. Ou, lendo o verbo como nifal: "não foram circuncidados".
+5:8 | até viverem | Ao pé da letra, "até o seu viver". O sentido é recobrar a saúde.
+5:9 | Gilgal | Jogo de palavras: *Gilgal* soa como *galoti*, "rolei".
+6:1 | fechando e fechada | Em hebraico, *sogeret umesugeret*: duas formas do mesmo verbo, uma ativa e uma passiva. O sentido é que a cidade se mantinha toda fechada.
+6:4 | shofares de carneiro | Em hebraico, *shofrot hayovelim*. *Yovel* é "carneiro" ou o seu chifre; a mesma palavra dá nome ao ano do Jubileu (Lv 25).
+6:5 | ao prolongar-se [o som] | Em hebraico, *bimshokh*, de um verbo que significa "puxar", "arrastar": o som longo do chifre.
+6:26 | no seu primogênito a fundará | O cumprimento é contado em 1Rs 16:34.
+7:1 | infidelidade | Em hebraico, *ma'al*: violação de algo que pertence a YHWH. Acã é chamado Acar em 1Cr 2:7.
+7:5 | Sebarim | Em hebraico, *shevarim*, "quebras". Nome de lugar; ou: "as pedreiras".
+7:15 | loucura | Em hebraico, *nevalah*: ato insensato e vergonhoso que fere a comunidade. A mesma expressão, "fazer loucura em Israel", está em Gn 34:7; em Dt 22:21 foi traduzida "infâmia".
+7:19 | ação de graças | Em hebraico, *todah*: também "louvor" ou "confissão".
+7:21 | língua de ouro | Em hebraico, *leshon zahav*: barra de ouro em forma de língua. O siclo pesava cerca de onze gramas e meio; Sinear é a Babilônia.
+7:26 | vale de Acor | Jogo de palavras: *Akhor* soa como *akhar*, "perturbar" (v. 25).
+8:7 | desapossareis | Em hebraico, *horashtem*, hifil de *yarash* (veja 3:10): ao pé da letra, "fareis desapossar". Tendo uma cidade por objeto, o sentido é tomá-la em posse.
+8:15 | foram tocados | Em hebraico, *wayyinnag'u*. O sentido é discutido: deixaram-se atingir, ou fingiram-se derrotados.
+8:28 | monte de ruínas | Em hebraico, *tel*: o monte que se forma sobre uma cidade destruída.
+9:4 | fizeram-se de mensageiros | Em hebraico, *wayyitstayyaru*, de sentido incerto. Vários manuscritos têm *wayyitstayyadu*, "abasteceram-se de provisões" (cf. v. 12).
+9:5 | biscoitos | Em hebraico, *niqqudim*, palavra rara. Ou: "esfarelado", "mofado".
+9:16 | perto dele | O sufixo hebraico é singular (*elav*, *bekirbo*) e se refere a Israel como povo.
+10:12 | emudece | Em hebraico, *dom*: calar-se, ficar imóvel. O sentido é: pára.
+10:13 | livro do Reto | Em hebraico, *sefer hayashar*, obra perdida, citada também em 2Sm 1:18.
+11:2 | ao sul de Quinerete | Em hebraico, *negev kinnerot*, ao pé da letra "Neguebe de Quinerete"; aqui *negev* indica o sul.
+11:6 | jarretarás | Em hebraico, *te'aqqer*: cortar os tendões das patas dos cavalos, para inutilizá-los.
+11:13 | monte de ruínas | Ao pé da letra, "sobre o seu *tel*": as cidades que ficaram em pé sobre os seus montes, isto é, que não foram destruídas.
+11:20 | favor | Em hebraico, *tehinnah*: súplica atendida, isto é, clemência.
+12:18 | o rei do Sarom | Em hebraico, *lasharon*. O prefixo pode fazer parte do nome (Lassarom).
+12:23 | o rei de nações | Em hebraico, *melekh goyim*. A tradução grega antiga lê "da Galileia"; o sentido do hebraico é incerto.
+13:6 | faze-a cair | Em hebraico, *hapileha*: fazer cair a sorte, isto é, repartir a terra por sorteio.
+13:14 | ofertas queimadas | Em hebraico, *ishei YHWH*, "ofertas pelo fogo de YHWH": as porções dos sacrifícios que cabiam aos levitas (Dt 18:1).
+13:21 | vassalos | Em hebraico, *nesikhei*, de *nasikh*: "chefe", "príncipe". Aqui os chefes midianitas aparecem ligados a Seom; ou: "chefes de Seom".
+13:23 | o Jordão e o limite | O hebraico é de difícil leitura; ao pé da letra, "o Jordão e limite".
