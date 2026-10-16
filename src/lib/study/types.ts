@@ -1,4 +1,9 @@
-export type ThemeName = "dark" | "light";
+/** "sepia" é o tema Pergaminho (claro e quente). */
+export type ThemeName = "dark" | "light" | "sepia";
+
+export function isThemeName(value: unknown): value is ThemeName {
+  return value === "dark" || value === "light" || value === "sepia";
+}
 export type FontScale = "sm" | "md" | "lg" | "xl";
 export type MarkKind = "bookmark" | "note";
 export type GuideStatus = "reading" | "done";

@@ -65,7 +65,7 @@ export function Shell({
   // Ainda resolvendo a sessão: não mostra o menu nem redireciona.
   if (isPending) {
     return (
-      <div className="app-backdrop grid min-h-dvh place-items-center text-muted">
+      <div className="app-backdrop grid min-h-dvh place-items-center font-app text-muted">
         <div className="flex flex-col items-center gap-4">
           <BrandMark className="size-12 animate-pulse" />
           <p className="text-sm">Abrindo a conta…</p>
@@ -83,7 +83,7 @@ export function Shell({
   const continueBook = ready && position ? bookById(position.bookId) : undefined;
 
   return (
-    <div className="app-backdrop min-h-dvh text-fg">
+    <div className="app-backdrop min-h-dvh font-app text-fg">
       {/* Barra superior — só no celular */}
       {!bare ? (
         <header className="glass sticky top-0 z-30 flex h-14 items-center justify-between border-b border-line/70 px-4 md:hidden">
@@ -131,9 +131,15 @@ export function Shell({
             to="/ler/$book/$chapter"
             params={{ book: continueBook.id, chapter: String(position.chapter) }}
             hash={position.verse > 1 ? `v${position.verse}` : undefined}
-            className="mt-auto block rounded-2xl border border-line bg-raised/60 p-4 transition-colors hover:border-tekhelet/50"
+            className="mt-auto block rounded-2xl border border-line bg-raised/60 p-4 shadow-edge transition-colors hover:border-tekhelet/50"
           >
-            <span className="text-sm text-muted">Continuar lendo</span>
+            <span className="flex items-center gap-2 text-sm text-muted">
+              <span className="font-mono text-[11px] font-semibold tracking-wider text-tekhelet uppercase">
+                {continueBook.id} {position.chapter}
+                {position.verse > 0 ? `:${position.verse}` : ""}
+              </span>
+              Continuar lendo
+            </span>
             <span className="mt-1 flex items-baseline justify-between gap-2">
               <span className="font-semibold">
                 {continueBook.namePt} {position.chapter}
@@ -154,7 +160,7 @@ export function Shell({
           navHidden && "nav-hidden",
         )}
       >
-        <div className="glass flex h-16 items-stretch rounded-[22px] border border-line/80 px-1.5 shadow-float">
+        <div className="glass flex h-16 items-stretch rounded-3xl border border-line/80 px-1.5 shadow-float">
           {NAV.map((item) => {
             const active = pathname === item.to || pathname.startsWith(`${item.to}/`);
             const Icon = item.icon;

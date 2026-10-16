@@ -35,7 +35,7 @@ export const Route = createRootRoute({
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=IM+Fell+English:ital@1&family=Uncial+Antiqua&family=Frank+Ruhl+Libre:wght@400;500;700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&family=IM+Fell+English:ital@1&family=Uncial+Antiqua&family=Frank+Ruhl+Libre:wght@400;500;700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap",
       },
     ],
     scripts: [
@@ -47,7 +47,7 @@ export const Route = createRootRoute({
         children: `(function(){var h=location.hostname;if(h==="www.bibliaorigens.app"||/\\.workers\\.dev$/.test(h)){location.replace("https://bibliaorigens.app"+location.pathname+location.search+location.hash);return;}var st=navigator.standalone===true||(window.matchMedia&&window.matchMedia("(display-mode: standalone)").matches);if(st&&location.pathname==="/"){location.replace("/abrir"+location.search+location.hash);}})();`,
       },
       {
-        children: `(function(){try{var r=localStorage.getItem("bo-study-v1");if(!r)return;var s=JSON.parse(r);if(s.theme==="light")document.documentElement.classList.add("light");if(s.fontScale)document.documentElement.dataset.scale=s.fontScale;}catch(e){}})();`,
+        children: `(function(){try{var r=localStorage.getItem("bo-study-v1");if(!r)return;var s=JSON.parse(r);if(s.theme==="light"||s.theme==="sepia")document.documentElement.classList.add("light");if(s.theme==="sepia")document.documentElement.classList.add("sepia");if(s.fontScale)document.documentElement.dataset.scale=s.fontScale;}catch(e){}})();`,
       },
     ],
   }),
@@ -64,6 +64,7 @@ export const Route = createRootRoute({
 const CRITICAL_CSS =
   "html{background:#0d1120;color:#f1ede4;color-scheme:dark}" +
   "html.light{background:#f4f5f9;color:#141832;color-scheme:light}" +
+  "html.light.sepia{background:#f3e9d4;color:#2b2112}" +
   "body{margin:0;visibility:hidden;animation:bo-reveal 0s linear 4s forwards}" +
   "@keyframes bo-reveal{to{visibility:visible}}";
 

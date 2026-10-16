@@ -38,6 +38,7 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { writeIndex } from "./indice.mjs";
 import { dirname, join } from "node:path";
 import { hebrewLine } from "./oshb.mjs";
 import { transliterateVerse } from "./translit.mjs";
@@ -222,3 +223,5 @@ for (const chapter of chapters) {
 }
 const count = chapters.reduce((sum, c) => sum + c.verses.length, 0);
 console.log(`${outPath}: ${chapters.length} capítulos, ${count} versículos, ${noteCount} notas.`);
+// Índice do acervo (o Início mostra quanto de cada parte já chegou).
+writeIndex(ROOT);

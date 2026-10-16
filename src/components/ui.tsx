@@ -188,7 +188,7 @@ export function Sheet({
         <Drawer.Overlay className="fixed inset-0 z-50 bg-black/60" />
         <Drawer.Content
           {...(description ? {} : { "aria-describedby": undefined })}
-          className="fixed inset-x-0 bottom-0 z-50 mx-auto flex max-h-[90dvh] max-w-xl flex-col rounded-t-[28px] border border-b-0 border-line bg-surface text-fg outline-none"
+          className="fixed inset-x-0 bottom-0 z-50 mx-auto flex max-h-[90dvh] max-w-xl flex-col rounded-t-[28px] border border-b-0 border-line bg-surface font-app text-fg shadow-edge outline-none"
         >
           <div className="mx-auto mt-3 h-1.5 w-11 shrink-0 rounded-full bg-line" aria-hidden="true" />
           <div className="flex items-start justify-between gap-4 px-5 pt-3 pb-2">

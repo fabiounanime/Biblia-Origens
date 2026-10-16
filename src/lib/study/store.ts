@@ -10,6 +10,7 @@ import type {
   SyncPull,
   ThemeName,
 } from "@/lib/study/types";
+import { isThemeName } from "@/lib/study/types";
 
 const KEY = "bo-study-v1";
 
@@ -162,7 +163,7 @@ export const useStudy = create<StudyState>((set, get) => ({
       const data = JSON.parse(raw) as Partial<StudyState>;
       set({
         ready: true,
-        theme: data.theme === "light" ? "light" : "dark",
+        theme: isThemeName(data.theme) ? data.theme : "dark",
         fontScale: data.fontScale && SCALES.includes(data.fontScale) ? data.fontScale : "md",
         showNiqqud: data.showNiqqud !== false,
         prefsUpdatedAt: typeof data.prefsUpdatedAt === "string" ? data.prefsUpdatedAt : stamp(),
