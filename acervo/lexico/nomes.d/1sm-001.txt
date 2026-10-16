@@ -2,13 +2,9 @@
 # Formato: lema | forma em português | tipo (p/l/g/d/r/o)
 # (Nomes já definidos em nomes.txt ou em 1sm-017.txt não se repetem aqui.)
 
-5941 | Eli | p
 2584 | Ana | p
 1537 | Gilgal | l
 1712 | Dagom | d
-7887 | Siló | l
-1053+ | Bete-Semes | l
-1053 | Bete-Semes | l
 4363 | Micmás | l
 7027 | Quis | p
 2652 | Hofni | p
@@ -20,27 +16,22 @@
 7157+ | Quiriate-Jearim | l
 7157 | Quiriate-Jearim | l
 6252 | Astarote | d
-1387 | Geba | l
 6689 | Zufe | p
 350 | Icabode | p
-1168 a | Baal | d
 22 | Abiel | p
 1007+ | Bete-Áven | l
 1007 | Bete-Áven | l
-281 | Aías | p
 7436+ | Ramataim-Zofim | l
 7436 | Ramataim-Zofim | l
 3395 | Jeroão | p
 453 | Eliú | p
 8459 | Toú | p
-663 | Afeque | l
 831 | Asquelom | l
 59 | Abel | l
 1033+ | Bete-Car | l
 1033 | Bete-Car | l
 8129 | Sen | l
 3100 | Joel | p
-29 | Abias | p
 6872 c | Zeror | p
 1064 | Becorate | p
 647 | Afias | p
@@ -50,21 +41,16 @@
 8396 | Tabor | l
 966 | Bezeque | l
 5516 | Sísera | p
-2674 | Hazor | l
 3378 | Jerubaal | p
 917 | Bedã | p
 3316 | Jefté | p
 6084 | Ofra | l
 7777 a | Sual | l
-1032+ | Bete-Horom | l
-1032 | Bete-Horom | l
 6650 | Zeboim | l
 4051 | Migrom | l
 949 | Bozez | l
 5573 | Sené | l
 357 | Aijalom | l
-6678 | Zobá | l
 4444+ | Malquisua | p
 4444 | Malquisua | p
-290 | Aimaás | p
 2923 | Telaim | l

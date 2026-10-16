@@ -1,0 +1,80 @@
+# 1 Samuel 1–16 — notas do tradutor
+
+1:5 | uma porção, uma, de duas narinas | Em hebraico, *appayim*, dual de *af*, "nariz, rosto". O sentido é incerto: talvez "porção dupla", "porção de honra" ou "porção única"; a expressão aparece só aqui.
+1:9 | o assento | Em hebraico, *hakkisse*, a palavra que em outros lugares é "trono" (por exemplo 2:8). Aqui, como em 4:13 e 4:18, é a cadeira de Eli, sacerdote e juiz; traduz-se "assento".
+1:11 | navalha não subirá sobre a sua cabeça | O voto lembra o do nazireu, em que a navalha não passa sobre a cabeça (veja Nm 6:5). Em hebraico, "semente de homens" é descendência masculina.
+1:20 | porque de YHWH o pedi | Em hebraico, *Shemu'el* é ligado aqui ao verbo *sha'al*, "pedir": "de YHWH o pedi" (*mey-YHWH she'iltiv*). O mesmo verbo volta em 1:27–28, onde *hish'iltihu* é "cedi-o" e *sha'ul* é "cedido, pedido".
+1:23 | somente levante YHWH a sua palavra | A Septuaginta e um manuscrito de Qumran (4QSamᵃ) trazem "o que sai da tua boca" no lugar de "a sua palavra". O texto massorético, aqui traduzido, tem "a sua palavra" (a de YHWH).
+1:24 | com três novilhos | A Septuaginta e 4QSamᵃ trazem "com um novilho de três anos"; o v. 25 fala em "o novilho", no singular, o que favorece essa leitura. O texto massorético tem "três novilhos".
+2:3 | e por ele as ações são pesadas | Ketiv/qere: o texto escrito traz *lo*, "não" ("e não são pesadas as ações"); a leitura tradicional (qere), traduzida aqui, traz *lo*, "por ele". O verbo *nitkenu* é "ser pesado, aferido".
+2:4 | despedaçados | Em hebraico, o adjetivo está no plural: "arco de valentes, despedaçados". O sentido é que os valentes têm o arco quebrado.
+2:10 | o chifre do seu ungido | O chifre é imagem de força. É a primeira vez que *mashiakh*, "ungido", aparece no livro; designa o rei (veja também 2:35). Esta parte do verso é difícil e a Septuaginta tem uma leitura bem diferente.
+2:13 | E o juízo dos sacerdotes | *Mishpat*, "juízo"; aqui significa o costume, a prática. Os nomes dos recipientes do v. 14 (*kiyyor*, *dud*, *qallakhat*, *parur*) são de sentido incerto; todos designam vasilhas de cozer.
+2:16 | agora mesmo | Ketiv/qere: o texto escrito traz *lo*, "a ele" ("e dizia-lhe: ..."); a leitura tradicional (qere), traduzida, traz *lo*, "não". A expressão *kayyom*, ao pé da letra "como o dia", significa "já, agora mesmo"; o mesmo sentido em 9:13.
+2:22 | mulheres que serviam | Em hebraico, *hatsov'ot*, "as que serviam em turnos"; o mesmo verbo em Êx 38:8: "as [mulheres] que serviam à entrada da tenda do encontro". A frase não consta em alguns manuscritos da Septuaginta.
+2:25 | Deus o julgará | O verbo *pillel* é discutido: "julgar, arbitrar" ou "interceder". Alguns entendem *Elohim* como "juízes": "o juiz o julgará". A pergunta seguinte usa o reflexivo do mesmo verbo ("orará por ele").
+2:33 | morrerá [como] homens | O sentido é discutido: morrer "na flor da idade" ou "pela mão de homens". *Marbit* é "acréscimo, descendência". Toda a passagem (vv. 31–33) é de texto difícil.
+3:13 | amaldiçoavam a si mesmos | O hebraico diz *lahem*, "para eles". Uma tradição dos escribas (*tiqqune soferim*) registra que o texto antigo trazia "a Deus", leitura que a Septuaginta tem: "amaldiçoavam a Deus".
+3:14 | Se for expiada | Fórmula de juramento, em que se cala a consequência; o sentido é "jamais será expiada". Veja a nota semelhante em Juízes 11:10.
+4:4 | que se assenta [sobre] os querubins | Em hebraico, *yoshev hakkeruvim*, "o que se assenta os querubins": o trono de YHWH estava sobre os querubins da arca.
+4:7 | Deus veio | Os filisteus dizem primeiro "Deus veio" (singular) e logo "estes deuses poderosos" (plural, v. 8). A referência ao "deserto" no v. 8 não corresponde às pragas, que foram no Egito; o texto não a explica.
+4:18 | quarenta anos | A Septuaginta traz "vinte anos" aqui.
+4:21 | Icabode | Em hebraico, *I-khavod*; o sentido do nome é discutido: "sem glória" ou "onde [está] a glória?". O verbo *galah* é "ir para o exílio" (qal): a glória "exilou-se".
+
+5:1 | de Ebenézer | O nome *Ebenézer* ("pedra do auxílio") só é explicado em 7:12; aqui e em 4:1 o texto já designa o lugar por ele.
+5:4 | somente Dagom ficara sobre ele | Em hebraico, apenas "Dagom"; a Septuaginta traz "só o tronco de Dagom". Dagom era deus dos filisteus (veja Juízes 16:23).
+5:5 | não pisam | O sujeito é composto: "os sacerdotes de Dagom e todos os que entram" não pisam o limiar. O costume se explica pelo que se conta em 5:4; compare Sofonias 1:9 ("os que saltam o limiar").
+5:6 | com tumores | Ketiv/qere: o texto escrito traz *ofalim*; a leitura tradicional (qere) traz *tekhorim*. Os dois termos designam inchaços ou tumores, às vezes entendidos como hemorroidas. A Septuaginta acrescenta aqui que brotaram ratos na terra, o que explicaria os ratos de ouro de 6:4–5.
+6:3 | uma oferta pela culpa | Em hebraico, *asham*: aqui a compensação entregue à divindade ofendida, em forma de objetos de ouro (vv. 4–5).
+6:18 | Abel, a grande | O hebraico massorético traz *Avel*, nome de lugar. Vários manuscritos, a Septuaginta e a Vulgata trazem *even*, "pedra": "a pedra grande", como nos vv. 14–15.
+6:19 | setenta homens, cinquenta mil homens | O hebraico traz os dois números, em construção estranha. O número é discutido; Josefo menciona apenas setenta. A expressão "olharam para a arca" é, em hebraico, *ra'u ba'aron*, "viram na arca".
+7:2 | lamentou-se | O verbo *nihu* (nifal) tem sentido incerto: "lamentar-se" ou, segundo alguns, "ser levado/seguir atrás".
+7:12 | Ebenézer | Em hebraico, *Even ha-ezer*, "pedra do auxílio". O verbo *azar*, "ajudar", dá o nome.
+8:11 | o juízo do rei | *Mishpat hammelekh*: aqui, os direitos e as exigências do rei sobre o povo. Veja também 10:25.
+8:16 | os vossos jovens | A Septuaginta traz "os vossos bois" (leitura *bekarkhem*) no lugar de "os vossos jovens" (*bakhurekhem*).
+
+9:8 | a quarta parte de um siclo | O siclo pesava cerca de onze gramas; a quarta parte de um siclo de prata, cerca de três gramas.
+9:9 | vamos ao vidente | Em hebraico, *ro'eh*, "o que vê". Este versículo é uma explicação posta no meio da narrativa: o que em seu tempo se chamava "profeta" (*navi*) antes se chamava "vidente".
+9:13 | agora mesmo | Em hebraico, *kehayyom*, "como o dia", expressão que quer dizer "já, agora mesmo". Veja também 2:16. Em 9:12–14 *bamah* é o "lugar alto", lugar de culto sobre uma elevação.
+9:16 | líder | Em hebraico, *nagid*, "líder, chefe designado"; o texto usa este termo, e não *melekh*, "rei", para a unção de Saul (também em 10:1).
+9:25 | no terraço | Em hebraico, *gag*, "teto" plano da casa. A Septuaginta traz aqui que prepararam uma cama para Saul no terraço, e que ele dormiu; é o que o v. 26 pressupõe ("madrugaram").
+10:1 | te ungiu por líder sobre a sua herança | A Septuaginta tem aqui um texto bem mais longo, que inclui as palavras "e tu governarás o povo de YHWH e o salvarás da mão dos seus inimigos; e este [é] o sinal"; o texto massorético é mais curto, provavelmente por salto de um trecho a outro semelhante.
+10:5 | as guarnições dos filisteus | Em hebraico, *netsivey peleshtim*; *netsiv* é "posto, oficial" ou "guarnição". O sentido é incerto.
+10:19 | Que um rei ponhas sobre nós! | Ketiv/qere: o texto escrito traz *lo*, "não" ("dissestes: Não! mas um rei porás sobre nós"); a leitura tradicional (qere), traduzida, traz *lo*, "a ele".
+10:27 | E ele foi como quem se cala | Em hebraico, *kemakharish*, "como quem se cala". A Septuaginta e um manuscrito de Qumran (4QSamᵃ) trazem "cerca de um mês depois" (*kemo-khodesh*), e antes do cap. 11 acrescentam um parágrafo: Naás, rei de Amom, oprimia os gaditas e os rubenitas, arrancava o olho direito de cada um, e sete mil homens fugiram dele para Jabes de Gileade. Josefo (*Antiguidades* 6.5.1) também o traz.
+11:8 | trezentos mil | Os números são muito altos (trezentos mil de Israel e trinta mil de Judá); a Septuaginta traz números diferentes. Em hebraico, *eleph* pode também significar "clã" ou "chefe de mil".
+12:3 | resgate | Em hebraico, *kofer*, "resgate, preço de vida", aqui um suborno. A Septuaginta acrescenta "ou um par de sandálias".
+12:5 | E disse: Testemunha! | O hebraico tem o verbo no singular; a Septuaginta e a Vulgata trazem "e eles disseram", isto é, o povo.
+12:11 | Bedã | Nome desconhecido no livro de Juízes; a Septuaginta e o siríaco trazem "Baraque". *Jerubaal* é Gideão (Jz 6:32).
+12:14 | atrás de YHWH, vosso Deus — | A frase fica sem conclusão no hebraico: depois de "se", falta o desfecho (que seria bom). Os vv. 14–15 formam duas condições em contraste.
+12:15 | contra os vossos pais | A Septuaginta traz "e contra o vosso rei" no lugar de "contra os vossos pais".
+12:21 | atrás do vazio | Em hebraico, *tohu*, a mesma palavra de Gn 1:2, ali traduzida "sem forma"; aqui designa o que é vazio, sem valor, isto é, os ídolos.
+
+13:1 | Filho de um ano [era] Saul ao reinar | Os números estão assim no hebraico, e o versículo não faz sentido tal como está; parece ter-se perdido o número exato. Alguns manuscritos da Septuaginta omitem o versículo inteiro. Traduz-se ao pé da letra.
+13:3 | a guarnição dos filisteus | Em hebraico, *netsiv*, palavra de sentido incerto: "guarnição", "oficial" ou "coluna". O mesmo termo volta em 13:4. Não confundir com *matsav*, o "posto" de 13:23 e 14:1.
+13:4 | tornou-se odioso | *Nivash*, nifal de *ba'ash* ("cheirar mal"): Israel tornou-se "malcheiroso" aos filisteus, isto é, odioso. Mais adiante, *vayyitsa'aqu* é o nifal de *tsa'aq*, "clamar": o povo foi "chamado às armas", convocado.
+13:5 | trinta mil carros | Assim no hebraico; versões antigas trazem "três mil", número mais próximo da escala dos seis mil cavaleiros.
+13:8 | até o tempo determinado | Refere-se à ordem dada por Samuel em 10:8: esperar sete dias no Gilgal até ele vir.
+13:21 | um pim | Em hebraico, *pim*, palavra rara; é um peso, cerca de dois terços de um siclo (alguns sete a oito gramas). O versículo é de leitura difícil no conjunto.
+14:14 | meio sulco de uma junta de campo | Em hebraico, *ma'anah* ("sulco") e *tsemed* ("junta", o par de bois e a terra que ele ara); a medida é incerta e indica um espaço pequeno.
+14:15 | um tremor de Deus | Literal: *kharedat Elohim*. O nome de Deus pode marcar a origem divina ou intensificar ("tremor enorme"); traduz-se ao pé da letra.
+14:16 | e ia, e [ia] para cá | Em hebraico, *vayyelekh vahalom*, literalmente "e ia e para cá" (ou "e batia"); o sentido exato é incerto. Entende-se que a multidão se dispersava em desordem.
+14:18 | Traze a arca de Deus | Assim no hebraico, embora a arca estivesse então em Quiriate-Jearim (7:1–2). A Septuaginta traz "Traze o éfode", o que combina com a consulta de 14:36–37 e com 14:3.
+14:30 | Quanto mais, se | Em hebraico, *af ki lu*, expressão que lamenta o que não houve ("quanto mais [melhor teria sido], se..."); a frase não se completa.
+14:32 | comeu sobre o sangue | Em hebraico, *'al hadam*, a mesma expressão de Lv 19:26, ali traduzida "com o sangue": proibição de comer a carne com o sangue. Veja também 14:33–34.
+14:41 | Dá íntegro | O texto hebraico é curto e obscuro. A Septuaginta traz um texto mais longo: pergunta por que YHWH não respondeu e pede a sorte Urim para um lado e Tumim para o outro. Traduz-se o hebraico.
+14:44 | Assim faça Deus | Fórmula de juramento: a pena fica por dizer, como em 3:17 ("assim te faça Deus, e assim acrescente").
+14:47 | condenava | Em hebraico, *yarshia'*, "declarava culpado, condenava". A Septuaginta traz "era salvo", o que supõe outra leitura.
+14:51 | [era] filho de Abiel | O hebraico traz *ben*, "filho", no singular, depois de Ner; em 9:1 Quis já é filho de Abiel. Em 1 Crônicas 8:33 e 9:39 Ner é pai de Quis, por isso a relação entre os três é discutida.
+15:2 | o que fez Amaleque a Israel | O ataque de Amaleque no caminho é contado em Êx 17:8 (em Refidim) e lembrado em Dt 25:17–19.
+15:4 | em Telaim | Nome de lugar; a palavra também significa "cordeiros", e antigos leitores a entenderam assim ("com os cordeiros"). O verbo *vayeshamma'* (piel de *shama'*, "ouvir") é "fez ouvir", isto é, convocou.
+15:5 | emboscou-se | O hebraico *vayyarev* pode vir de *riv*, "contender", ou de *arav*, "pôr emboscada"; segue-se este último pelo sentido.
+15:9 | dos segundos | Em hebraico, *mishnim*, de sentido incerto: "os de segunda [cria]", "os gordos" ou "os de dobro". O adjetivo *names* (nifal de *mus*, "derreter-se") diz o que é frágil, sem vigor.
+15:12 | erguendo para si uma mão | Em hebraico, *yad*, "mão", palavra usada para um monumento erguido; Saul levantou um sinal em sua própria honra.
+15:22 | Tem YHWH prazer | Os vv. 22–23 estão em verso, com paralelismo: "ouvir" e "atender" contra "sacrifício" e "gordura de carneiros".
+15:29 | a Perenidade de Israel | Em hebraico, *netsach Yisrael*, epíteto de Deus; também se traduziu "a Glória" ou "a Vitória". O verbo "arrepender-se" (*nicham*) é o mesmo de 15:11 e 15:35, ali dito de YHWH; aqui se nega que Ele se arrependa, "porque não é homem".
+15:32 | com delícias | Em hebraico, *ma'adannot*; o sentido é incerto: "com delícias", "com alegria" ou "com passo hesitante".
+16:7 | vê para os olhos | O hebraico repete o verbo "ver" nas duas partes: o homem vê "para os olhos", isto é, o que aparece; YHWH vê "para o coração", sede da mente e da vontade.
+16:11 | não nos poremos em volta [da mesa] | Em hebraico, *nasov*, "rodear"; entende-se, pelo contexto, que se tratava de pôr-se em volta da mesa do sacrifício.
+16:14 | um espírito mau | Em hebraico, *ruach ra'ah*; *ra'ah* diz "mau" e também "de desgraça". O verbo "aterrorizar" (*bi'et*) é o mesmo de 16:15.
+16:16 | tocar a lira | Em hebraico, *kinnor*, instrumento de cordas, aqui "lira"; o *nevel* é a "harpa".

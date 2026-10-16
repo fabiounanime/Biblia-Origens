@@ -1,0 +1,83 @@
+# 1 Samuel 17–31 — notas do tradutor
+
+17:4 | o homem do intervalo | Em hebraico, *ish habbenayim*, "o homem de entre os dois" (os dois exércitos); o sentido é discutido, e "campeão" é a leitura comum. Aparece de novo em 17:23.
+17:4 | seis côvados e um palmo | A Septuaginta e um manuscrito de Qumran (4QSamᵃ) trazem "quatro côvados e um palmo" (cerca de dois metros); o texto massorético, aqui traduzido, traz seis côvados (cerca de dois metros e noventa centímetros).
+17:7 | o rolo dos tecelões | Em hebraico, *menor orgim*, a trave do tear em que se enrola o fio. A palavra *lahevet*, "chama", designa aqui a lâmina da lança.
+17:12 | deste homem efrateu | Os vv. 12–31 faltam no códice Vaticano da Septuaginta, e também 17:55–18:5, 18:10–11 e 18:17–19, entre outros trechos. O texto massorético, aqui traduzido, é bem mais longo: nele Davi é apresentado de novo a Saul (17:55–58), embora já o servisse desde 16:21–23. Em hebraico, *efrati* é "de Efrata", nome ligado a Belém.
+17:12 | velho, vindo entre os homens | O sentido da expressão é incerto: talvez "avançado em anos entre os homens" ou "contado entre os velhos".
+17:18 | dez fatias de leite | Em hebraico, *kharitsey hekhalav*, ao pé da letra "fatias de leite", provavelmente queijos. O "penhor" (*arubbah*) é palavra rara: algum sinal de que os irmãos estavam bem.
+17:20 | à barricada | Em hebraico, *hammaggal*, de *agol*, "redondo": o círculo de carros ao redor do acampamento; alguns entendem "trilha".
+17:51 | da sua bainha | Em hebraico, *ta'ar*, que em outros lugares é "navalha"; aqui, bainha da espada.
+17:52 | até chegares ao vale | A Septuaginta traz "Gate" no lugar de "vale" (*gay*).
+17:54 | a Jerusalém | A cidade ainda era dos jebuseus (veja 2 Samuel 5:6, onde o rei marcha contra os jebuseus, habitantes da terra, em Jerusalém); o texto não explica a menção aqui.
+17:55 | Viva a tua alma, ó rei | Fórmula de juramento; veja também 1:26 e 14:45. A pergunta de Saul surpreende, pois Davi já tocara diante dele (16:21–23).
+18:5 | agia com entendimento | Em hebraico, *yaskil*, de *sakal*, "agir com entendimento, ter êxito". O mesmo verbo volta em 18:14, 15 e 30.
+18:6 | com triângulos | Em hebraico, *shalishim*; o instrumento é de identificação incerta (talvez "triângulos" ou instrumento "de três cordas").
+18:9 | olhando com suspeita | O verbo *oyen* é raro, ligado a *ayin*, "olho": "olhar de través, com suspeita". O sentido é incerto.
+18:18 | a minha vida | Em hebraico, *khayyay*, ao pé da letra "as minhas vidas"; o sentido é discutido, e talvez seja "a minha parentela".
+18:21 | Com duas te aparentarás comigo por casamento hoje | Em hebraico, *bishtayim*, "com duas"; o sentido é discutido: talvez "pela segunda vez" (Merabe lhe fora prometida em 18:17) ou "por duas [condições]".
+18:27 | duzentos homens | A Septuaginta traz "cem homens", como no pedido de 18:25 e em 2 Samuel 3:14 ("cem prepúcios de filisteus").
+18:27 | completaram-nos para o rei | Em hebraico, *vaymal'um*, piel de *male*, "encher": entregaram o número completo.
+19:13 | os terafins | Figuras do lar, aqui do tamanho de uma pessoa; compare Gênesis 31:19, os terafins de Labão. O "trançado das cabras" (*kevir ha'izzim*) é de sentido incerto: talvez um tecido de pelo de cabra.
+19:18 | em Naiote | Em hebraico, *Nayot*, nome de um lugar em Ramá (veja 19:19, 22, 23); o sentido é discutido, talvez "moradas" ou "pastagens".
+19:20 | e viu o grupo dos profetas | O verbo *vayyar* ("e viu") está no singular e o sujeito não é dito; entende-se os mensageiros. *Lahaqat*, "grupo", é palavra rara.
+19:24 | caiu nu | O adjetivo *arom*, "nu", pode indicar também que ficou sem as vestes exteriores. O dito "Também Saul entre os profetas?" aparece em 10:11–12, com outra origem.
+
+20:2 | Eis que meu pai não faz | Ketiv/qere: o texto escrito traz *lo* com vav (לו); a leitura tradicional (qere), traduzida, traz *lo* com álef (לא), "não".
+20:5 | o novilúnio | Em hebraico, *khodesh*, "mês", aqui o primeiro dia do mês, a lua nova, dia de ofertas (veja Números 28:11, "nos princípios dos vossos meses") e de refeição com o rei.
+20:6 | Pedindo, Davi pediu de mim [licença] | Em hebraico, o nifal de *sha'al*, "pedir": pedir licença; o mesmo em 20:28. O verbo *paqad*, "visitar", diz também "dar pela falta" (veja 20:18, 25 e 27).
+20:12 | YHWH, Deus de Israel! | Os vv. 12–14 são de construção difícil: a frase é uma fórmula de juramento que se completa só no v. 13, e o v. 14 é de leitura incerta. A Septuaginta tem um texto diferente nesse trecho.
+20:19 | descerás muito | O verbo *shillashta* (piel de *shalash*, "fazer três") é de sentido incerto: "ao terceiro [dia]" ou "depois de três dias". O "dia da obra" (*yom hamma'aseh*) também é incerto, e o nome *ha'even ha'azel*, "a pedra Ezel", é de sentido discutido.
+20:30 | Filho da pervertida da rebeldia | Em hebraico, *ben na'avat hammardut*: o sentido é discutido, "filho de mulher perversa e rebelde".
+20:41 | até que Davi engrandeceu | O sentido é discutido: Davi chorou mais do que Jônatas, ou chorou em excesso.
+21:6 | e quanto mais, porque hoje se santificará no utensílio | O fim do verso é de sentido incerto. Sobre o pão da face e quem o comia, veja Levítico 24:9: "o comerão em lugar santo".
+21:8 | o poderoso dos pastores | Em hebraico, *abbir haro'im*, "o poderoso dos pastores" (talvez "o chefe"). A Septuaginta traz outro texto ("o que pastoreava as mulas de Saul"). "Retido" (*ne'tsar*) não tem a razão dita.
+21:14 | mudou o seu sabor | Em hebraico, *ta'am*, "sabor", aqui juízo ou modo de agir. O verbo *vayyat* (de *tavah*, "fazer marcas") está no texto tradicional; a Septuaginta traz "tamborilava nas portas".
+22:6 | em Ramá | Em hebraico, *barramah*, "na altura" ou "em Ramá"; o texto não diz qual. Gibeá é a cidade de Saul (veja 10:26).
+22:8 | conspirastes | Em hebraico, *qashar*, "atar", o mesmo verbo de 18:1 ("foi atada"), aqui no sentido de conspirar.
+22:14 | para a tua audiência | Em hebraico, *mishma'at*; o sentido é discutido: "audiência", "à tua guarda pessoal" ou "à tua ordem".
+22:17 | investir contra | Em hebraico, *paga'*, "encontrar"; aqui e no v. 18 tem o sentido de cair sobre alguém, atacar.
+22:18 | oitenta e cinco | A Septuaginta traz "trezentos e cinco".
+22:22 | eu rodeei | Em hebraico, *sabboti*, de *sabab*, "rodear, voltar"; o sentido é discutido: "fui a causa" ou "voltei-me contra" (a morte da casa do teu pai).
+
+23:7 | Deus o fez estranho, na minha mão | Em hebraico, *nikkar*, piel de *nakar*, "tratar como estranho, rejeitar"; entende-se que Deus o entregou ou o rejeitou. O sentido é discutido.
+23:9 | tramando contra ele o mal | Em hebraico, *makharish*, de *kharash*, "arar, lavrar"; aqui, forjar, tramar.
+23:19 | do ermo | Em hebraico, *hayeshimon*, "o ermo, o lugar desolado", palavra diferente de *midbar*, "deserto".
+23:28 | Sela-Hamalecote | Em hebraico, *Sela ham-makhleqot*, "rocha das divisões"; o sentido do nome é discutido: o lugar onde Saul e Davi se separaram, ou onde as forças se dividiram.
+24:1 | e ficou nas fortalezas de En-Gedi | Este versículo é o 23:29 nas bíblias em português; por isso todos os versículos do capítulo 24 têm numeração um acima da dessas bíblias (24:2 é o 24:1 delas), e o capítulo hebraico tem 23 versículos.
+24:4 | para cobrir os seus pés | Expressão para aliviar-se; compare Juízes 3:24.
+24:5 | a ponta do manto | Em hebraico, *kenaf*, "asa", daí "aba, ponta" da veste (também nos vv. 6 e 12).
+24:8 | fendeu os seus homens com palavras | Em hebraico, *vayeshassa'*, de *shasa'*, "fender, rasgar": repreendeu-os com veemência.
+24:11 | e [ele] disse para matar-te, e [ela] poupou-te | O texto hebraico tem "disse" no masculino e "poupou" no feminino, sem sujeito dito. A Vulgata traz "o meu olho poupou-te".
+24:22 | jura-me por YHWH: se cortares | Fórmula de juramento em que o "se" nega: "jura que não cortarás...".
+25:1 | ao deserto de Parã | A Septuaginta traz "Maom" no lugar de "Parã".
+25:3 | calebita | Ketiv/qere: o texto escrito traz *kelibbo*, "como o seu coração"; a leitura tradicional (qere), traduzida, traz *kalibbi*, "calebita". O gentílico lembra também *keleb*, "cão".
+25:3 | formosa de forma | Em hebraico, *yefat to'ar*, "formosa de forma, de aparência".
+25:6 | ao vivo | Em hebraico, *lekhay*, palavra de sentido incerto: talvez "ao vivo", "à vida" ou "por muitos anos".
+25:9 | repousaram | Em hebraico, *vayyanukhu*, "repousaram, esperaram"; o sentido é discutido.
+25:18 | cinco seás | Em hebraico, *se'ah*, medida de volume, a terça parte de um efa.
+25:22 | aos inimigos de Davi | Provavelmente um eufemismo, em lugar de "a Davi". A expressão "o que urina em parede" designa o varão, o homem adulto; ela volta no v. 34.
+25:25 | e loucura [há] com ele | O nome *Nabal* soa como *naval*, "tolo, néscio", e como *nevalah*, "loucura".
+25:26 | em sangues | Em hebraico, *damim*, "sangues", plural que diz derramamento de sangue (assim também no v. 33).
+25:29 | E levantou-se um homem | O verbo hebraico (*vayyaqom*) é o passado narrativo, "levantou-se"; o sentido do contexto é de condição ou de futuro: "se se levantar um homem". A "trouxa dos vivos" (*tserur hakhayyim*) é imagem da guarda de YHWH.
+25:31 | por tropeço | Em hebraico, *puqah*, palavra que só aparece aqui; o sentido é "tropeço, obstáculo", como *mikhshol*, "obstáculo", que segue.
+25:33 | o teu sabor | Em hebraico, *ta'am*, "sabor", aqui juízo, discernimento (como em 21:14).
+25:34 | na verdade | Em hebraico, *ki im*, aqui reforço afirmativo ("na verdade"), e não adversativo.
+26:4 | com certeza | Em hebraico, *el nakhon*, ao pé da letra "ao firme, ao estabelecido"; a mesma expressão está em 23:23 ("com certeza"). O sentido é incerto: "com certeza" (Saul de fato viera) ou "a um lugar fixo".
+26:7 | fincada na terra | Em hebraico, *me'ukhah va'arets*, de um verbo que diz "apertar, comprimir"; o sentido de "fincada, cravada" vem do contexto.
+26:10 | Na verdade | Em hebraico, *ki im*, aqui reforço afirmativo, e não adversativo (como em 25:34).
+26:19 | cheire ele uma oferta | Em hebraico, *yarakh minkhah*, ao pé da letra "cheire uma oferta". O verbo seguinte do versículo, *mehistapeakh*, traduzido "de me unir", é raro e quer dizer "juntar-se, anexar-se".
+26:22 | Eis a lança do rei | O ketiv (o escrito) traz *hahanit*, "a lança", com artigo; o qere (o lido), traduzido, traz *hanit*, "lança".
+27:7 | dias e quatro meses | Em hebraico, *yamim*, "dias", seguido de "e quatro meses". O sentido de *yamim* é discutido: "dias" ou um ano completo.
+27:8 | fizeram incursão | Em hebraico, *vayyifshetu*, de *pashat*, "despir, despojar"; aqui, fazer incursão e despojar. O ketiv de "o gizrita" é *haggirzi*, "o gerzita"; o qere, traduzido, é *haggizri*. A última oração do versículo ("desde a eternidade, quando vens a Sur") tem texto difícil.
+27:10 | Não fizestes incursão hoje | Em hebraico, *al pesháttem hayyom*: a negação *al* com o perfeito é incomum, e o sentido é discutido (pergunta, "contra quem?", ou afirmação). Traduz-se ao pé da letra.
+28:13 | Vi deuses subindo da terra | Em hebraico, *elohim ra'iti olim*: *elohim* com o particípio no plural, "subindo". O mesmo substantivo, com verbo no singular, aparece em 28:15.
+28:16 | foi o teu adversário | Em hebraico, *vayehi arekha*; a palavra *ar* é rara e aparece aqui no sentido de "adversário, inimigo".
+29:3 | desde o dia da sua queda | Em hebraico, *miyom naflo*, "desde o dia do seu cair", isto é, desde que passou ao lado de Aquis (27:2).
+30:1 | amalequitas fizeram incursão | Em hebraico, o nome é singular (*amaleqi*) e o verbo, plural (*pashetu*).
+30:6 | por seus filhos | O ketiv traz *banu*, "seu filho" (singular); o qere, traduzido, *banav*, "seus filhos".
+30:17 | no dia seguinte a eles | Em hebraico, *lemakhoratam*. A palavra *neshef*, traduzida "crepúsculo", pode designar o da manhã ou o da tarde, e o sentido de todo o período é discutido.
+30:20 | diante daquele gado | O texto é difícil: *miqneh* significa "gado, posse em gado", e a relação da frase com o que precede é discutida.
+30:25 | pô-la por estatuto | O sujeito é Davi; a coisa posta como estatuto e juízo é a repartição do v. 24.
+31:3 | tremeu muito | Em hebraico, *vayyakhel*, forma que pode vir de *khul*, "tremer, contorcer-se", ou de *khalal*, "ser ferido". Traduz-se pela primeira.
+31:10 | fixaram | Em hebraico, *taqe'u*, "fixaram, cravaram".

@@ -1,0 +1,448 @@
+# 1 Samuel 1–16 — tradução direta do hebraico (Códice de Leningrado)
+# Primeira parte do livro; os capítulos 17–31 virão em 1sm.d/017.txt.
+#
+# Mesmas convenções de Gênesis a Juízes (veja acervo/traducao/gn.txt, ex.txt, dt.d/, js.d/ e jz.d/):
+#   - יהוה = YHWH; nomes na forma tradicional; יהוה צבאות = YHWH dos Exércitos.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#     O coletivo gentílico fica no singular ("o amalequita", "o queneu").
+#   - Infinitivo absoluto em dobro ao pé da letra ("vendo vires", "morrendo morrerá").
+#   - Onde o texto tem ketiv e qere, traduz-se o qere (2:3, 2:16, 5:6, 10:19, 13:20, 16:21).
+#   - O cântico de Ana (2:1–10) é poesia, um verso por linha.
+#   - Vocabulário retomado de Gênesis a Juízes:
+#     הֶחֱרִים = consagrar ao extermínio; לְפִי־חֶרֶב = à boca da espada; רֵעַ = próximo;
+#     נְבָלָה = loucura; בְּנֵי בְלִיַּעַל = filhos de vileza; שַׂר = chefe; נָשִׂיא = príncipe;
+#     מָשִׁיחַ = ungido; מָשַׁח = ungir; אָרוֹן = arca; הִשְׁתַּחֲוָה = prostrar-se;
+#     שׁוֹפָר = shofar; סְרָנִים = governantes (dos filisteus); גְּבוּל = território;
+#     נִחַם (nifal) = arrepender-se / condoer-se; נַעַר = moço; הִזְעִיק = convocar.
+#   - Vocabulário próprio de 1 Samuel 1–16:
+#     נָגִיד = líder; שֹׁפֵט / שָׁפַט = juiz / julgar; רֹאֶה = vidente; נָבִיא = profeta;
+#     בָּמָה = lugar alto; אָשָׁם = oferta pela culpa; עֳפָלִים / טְחֹרִים = tumores;
+#     עַכְבָּרִים = ratos; קֹלוֹת = trovões; נֶאֱמָן = fiel; נשא כלים = o que levava as armas;
+#     כִּנּוֹר = lira; נֵבֶל = harpa; אֵפוֹד = éfode; אֶלֶף = mil (chefes de mil);
+#     מוֹעֵד = tempo determinado; כְּהַיּוֹם = agora mesmo; כָּבֵד = tornar pesado;
+#     נְצִיב = guarnição; מַצָּב = posto; מַשְׁחִית = destruidor; רֹאשׁ (divisão) = companhia;
+#     חַטָּאת = pecado; מִשְׁפָּט = juízo; חָזוֹן = visão; מִנְחָה = oferta de manjares;
+#     אֱלֹהִים falando de Dagom = deus (minúsculo); הִתְנַבֵּא = profetizar.
+
+1:1 E houve um homem de Ramataim-Zofim, do monte de Efraim; e o seu nome [era] Elcana, filho de Jeroão, filho de Eliú, filho de Toú, filho de Zufe, efraimita.
+1:2 E tinha ele duas mulheres: o nome de uma, Ana, e o nome da segunda, Penina; e houve crianças para Penina, e para Ana não [havia] crianças.
+1:3 E subia aquele homem da sua cidade, de dias a dias, para prostrar-se e para sacrificar a YHWH dos Exércitos em Siló; e ali [estavam] os dois filhos de Eli, Hofni e Fineias, sacerdotes de YHWH.
+1:4 E aconteceu o dia, e sacrificou Elcana; e deu a Penina, sua mulher, e a todos os seus filhos e às suas filhas, porções.
+1:5 E a Ana dava uma porção, uma, de duas narinas, porque amava a Ana; e YHWH tinha fechado o seu ventre.
+1:6 E a sua rival irritava-a, também com irritação, a fim de fazê-la trovejar, porque YHWH tinha fechado o seu ventre.
+1:7 E assim [ele] fazia, ano a ano; cada vez que ela subia à casa de YHWH, assim a irritava; e [Ana] chorava e não comia.
+1:8 E disse-lhe Elcana, seu marido: Ana, por que choras, e por que não comes, e por que está mal o teu coração? Acaso não sou eu melhor para ti do que dez filhos?
+1:9 E levantou-se Ana depois de comer em Siló e depois de beber; e Eli, o sacerdote, [estava] sentado sobre o assento, junto ao umbral do templo de YHWH.
+1:10 E ela [estava] amarga de alma, e orou a YHWH, e chorando chorava.
+1:11 E fez voto e disse: YHWH dos Exércitos, se vendo vires a aflição da tua escrava, e te lembrares de mim, e não esqueceres a tua escrava, e deres à tua escrava semente de homens, eu o darei a YHWH todos os dias da sua vida, e navalha não subirá sobre a sua cabeça.
+1:12 E aconteceu que, quando ela multiplicou o orar diante de YHWH, Eli [estava] observando a sua boca.
+1:13 E Ana, ela [estava] falando no seu coração; somente os seus lábios tremiam, e a sua voz não era ouvida; e Eli a considerou como bêbada.
+1:14 E disse-lhe Eli: Até quando te embriagarás? Remove o teu vinho de sobre ti.
+1:15 E respondeu Ana e disse: Não, meu senhor! Mulher dura de espírito [sou] eu; e vinho e bebida forte não bebi; e derramei a minha alma diante de YHWH.
+1:16 Não dês a tua escrava diante de uma filha de vileza; porque da multidão da minha queixa e da minha irritação falei até aqui.
+1:17 E respondeu Eli e disse: Vai em paz; e o Deus de Israel dê o teu pedido, que pediste dele.
+1:18 E disse: Ache a tua serva graça aos teus olhos. E foi a mulher pelo seu caminho, e comeu; e o seu rosto não foi mais para ela.
+1:19 E madrugaram pela manhã, e prostraram-se diante de YHWH; e voltaram e vieram à sua casa, a Ramá. E conheceu Elcana a Ana, sua mulher, e lembrou-se dela YHWH.
+1:20 E aconteceu, no volver dos dias, que Ana concebeu e deu à luz um filho; e chamou o seu nome Samuel, porque de YHWH o pedi.
+1:21 E subiu o homem Elcana, e toda a sua casa, para sacrificar a YHWH o sacrifício dos dias, e o seu voto.
+1:22 E Ana não subiu, porque disse a seu marido: Até que o moço seja desmamado; e o trarei, e aparecerá à face de YHWH, e ficará ali para sempre.
+1:23 E disse-lhe Elcana, seu marido: Faze o que [é] bom aos teus olhos; fica até que o desmames; somente levante YHWH a sua palavra. E ficou a mulher e amamentou o seu filho, até que o desmamou.
+1:24 E fê-lo subir consigo, quando o desmamou, com três novilhos, e um efa de farinha, e um odre de vinho; e trouxe-o à casa de YHWH, a Siló; e o moço [era] moço.
+1:25 E imolaram o novilho, e trouxeram o moço a Eli.
+1:26 E disse: Ah, meu senhor! Viva a tua alma, meu senhor! Eu [sou] a mulher que estava de pé contigo aqui, orando a YHWH.
+1:27 Por este moço orei; e YHWH deu-me o meu pedido, que pedi dele.
+1:28 E eu, também, o cedi a YHWH; todos os dias que ele for, ele [é] cedido a YHWH. E prostrou-se ali a YHWH.
+
+2:1 E orou Ana e disse: Exultou o meu coração em YHWH; elevou-se o meu chifre em YHWH; alargou-se a minha boca sobre os meus inimigos, porque me alegrei na tua salvação.
+2:2 Não há santo como YHWH, porque não há [outro] além de ti; e não há rocha como o nosso Deus.
+2:3 Não multipliqueis o falar altivamente, altivamente; saia arrogância da vossa boca; porque Deus de conhecimentos [é] YHWH, e por ele as ações são pesadas.
+2:4 O arco dos valentes — despedaçados! E os que tropeçam cingiram-se de força.
+2:5 Os fartos, por pão, se alugaram; e os famintos cessaram; até a estéril deu à luz sete, e a de muitos filhos definhou.
+2:6 YHWH faz morrer e faz viver; faz descer ao Sheol e faz subir.
+2:7 YHWH desapossa e enriquece; abaixa, também exalta.
+2:8 Levanta do pó o pobre; do monturo ergue o necessitado, para fazê-lo sentar com os nobres; e faz-lhes herdar um trono de glória; porque de YHWH [são] as colunas da terra, e pôs sobre elas o mundo.
+2:9 Os pés dos seus piedosos guarda; e os ímpios nas trevas emudecem; porque não pela força prevalece o homem.
+2:10 YHWH — serão quebrados os que contendem com ele; sobre ele, nos céus, trovejará. YHWH julgará os confins da terra; e dará força ao seu rei, e elevará o chifre do seu ungido.
+2:11 E foi Elcana a Ramá, à sua casa; e o moço estava servindo a YHWH diante de Eli, o sacerdote.
+2:12 E os filhos de Eli [eram] filhos de vileza; não conheceram YHWH.
+2:13 E o juízo dos sacerdotes com o povo: todo homem que sacrificava sacrifício, vinha o moço do sacerdote, quando a carne cozia, e o garfo de três dentes na sua mão;
+2:14 e feria na pia, ou na panela, ou no caldeirão, ou na marmita; tudo o que o garfo fazia subir o sacerdote tomava com ele. Assim faziam a todo Israel, aos que vinham ali, a Siló.
+2:15 Também, antes que queimassem a gordura, vinha o moço do sacerdote e dizia ao homem que sacrificava: Dá carne para assar para o sacerdote; porque não tomará de ti carne cozida, mas crua.
+2:16 E dizia-lhe o homem: Queimando queimem, agora mesmo, a gordura; e toma para ti conforme deseja a tua alma. E dizia: Não, mas agora darás; e se não, tomo com força.
+2:17 E foi o pecado dos moços muito grande diante de YHWH, porque os homens desprezaram a oferta de manjares de YHWH.
+2:18 E Samuel estava servindo diante de YHWH, [sendo] moço cingido de éfode de linho.
+2:19 E um manto pequeno fazia-lhe a sua mãe, e fazia-lho subir de dias a dias, quando subia com o seu marido para sacrificar o sacrifício dos dias.
+2:20 E abençoava Eli a Elcana e a sua mulher, e dizia: Ponha YHWH para ti semente desta mulher, em lugar do pedido que pediu a YHWH. E iam para o seu lugar.
+2:21 Porque YHWH visitou Ana; e concebeu e deu à luz três filhos e duas filhas; e o moço Samuel cresceu com YHWH.
+2:22 E Eli [era] muito velho; e ouviu tudo o que seus filhos faziam a todo Israel, e que se deitavam com as mulheres que serviam à entrada da tenda do encontro.
+2:23 E disse-lhes: Por que fazeis conforme estas palavras, que eu ouço, as vossas palavras más, da parte de todo o povo, estes?
+2:24 Não, filhos meus; porque não [é] boa a notícia que eu ouço: fazeis passar o povo de YHWH.
+2:25 Se pecar um homem contra um homem, Deus o julgará; e se contra YHWH pecar um homem, quem orará por ele? E não escutaram a voz do pai deles, porque YHWH tinha prazer em matá-los.
+2:26 E o moço Samuel ia andando e crescendo, e [ia sendo] bom, tanto com YHWH como com os homens.
+2:27 E veio um homem de Deus a Eli e disse-lhe: Assim disse YHWH: Acaso me revelei, revelando-me, à casa de teu pai, quando estavam no Egito, na casa de Faraó?
+2:28 E escolhi-o de todas as tribos de Israel para mim, para sacerdote, para subir ao meu altar, para queimar incenso, para levar o éfode diante de mim? E dei à casa de teu pai todas as ofertas queimadas dos filhos de Israel?
+2:29 Por que dais coices ao meu sacrifício e à minha oferta de manjares, que ordenei [para a minha] morada, e honras os teus filhos mais do que a mim, engordando-vos com o primeiro de toda oferta de Israel, meu povo?
+2:30 Por isso, oráculo de YHWH, Deus de Israel: Dizendo disse: A tua casa e a casa de teu pai andarão diante de mim para sempre; e agora, oráculo de YHWH: Longe de mim! Porque os que me honram honrarei, e os que me desprezam serão leves.
+2:31 Eis que dias vêm, e cortarei o teu braço e o braço da casa de teu pai, para que não haja velho na tua casa.
+2:32 E verás a aflição da morada, em tudo o que [YHWH] fizer de bem a Israel; e não haverá velho na tua casa todos os dias.
+2:33 E um homem não cortarei para ti de junto do meu altar, para fazer acabar os teus olhos e para fazer definhar a tua alma; e todo o acréscimo da tua casa morrerá [como] homens.
+2:34 E este [é] para ti o sinal que virá sobre os teus dois filhos, sobre Hofni e Fineias: num dia morrerão ambos.
+2:35 E levantarei para mim um sacerdote fiel; conforme [o que está] no meu coração e na minha alma fará; e edificarei para ele uma casa fiel; e andará diante do meu ungido todos os dias.
+2:36 E acontecerá que todo o que restar da tua casa virá prostrar-se diante dele por uma moeda de prata e um pão redondo, e dirá: Junta-me, por favor, a um dos sacerdócios, para comer um bocado de pão.
+
+3:1 E o moço Samuel estava servindo a YHWH diante de Eli; e a palavra de YHWH era preciosa naqueles dias; não havia visão que irrompesse.
+3:2 E aconteceu, naquele dia, que Eli estava deitado no seu lugar — e os seus olhos tinham começado a escurecer, não podia ver —
+3:3 e a lâmpada de Deus ainda não se apagava; e Samuel estava deitado no templo de YHWH, onde [estava] a arca de Deus.
+3:4 E chamou YHWH a Samuel; e disse: Eis-me aqui.
+3:5 E correu a Eli e disse: Eis-me aqui, porque me chamaste. E disse: Não chamei; volta, deita-te. E foi e deitou-se.
+3:6 E tornou YHWH a chamar ainda Samuel; e levantou-se Samuel e foi a Eli e disse: Eis-me aqui, porque me chamaste. E disse: Não chamei, filho meu; volta, deita-te.
+3:7 E Samuel ainda não conhecia YHWH, e ainda não lhe tinha sido revelada a palavra de YHWH.
+3:8 E tornou YHWH a chamar Samuel pela terceira vez; e levantou-se e foi a Eli e disse: Eis-me aqui, porque me chamaste. E entendeu Eli que YHWH estava chamando o moço.
+3:9 E disse Eli a Samuel: Vai, deita-te; e acontecerá que, se te chamar, dirás: Fala, YHWH, porque o teu servo ouve. E foi Samuel e deitou-se no seu lugar.
+3:10 E veio YHWH e pôs-se de pé, e chamou como das outras vezes: Samuel, Samuel! E disse Samuel: Fala, porque o teu servo ouve.
+3:11 E disse YHWH a Samuel: Eis que eu faço uma coisa em Israel, que a todo o que a ouvir retinirão ambos os ouvidos.
+3:12 Naquele dia levantarei contra Eli tudo o que falei sobre a sua casa, começando e acabando.
+3:13 E lhe declarei que julgo a sua casa para sempre, pela iniquidade que conheceu; porque os seus filhos amaldiçoavam a si mesmos, e ele não os conteve.
+3:14 E por isso jurei à casa de Eli: Se for expiada a iniquidade da casa de Eli com sacrifício e com oferta de manjares, para sempre!
+3:15 E Samuel deitou-se até a manhã; e abriu as portas da casa de YHWH. E Samuel temia contar a visão a Eli.
+3:16 E chamou Eli a Samuel e disse: Samuel, filho meu! E disse: Eis-me aqui.
+3:17 E disse: Que [é] a palavra que falou a ti? Não a escondas de mim, por favor; assim te faça Deus, e assim acrescente, se esconderes de mim uma palavra de toda a palavra que falou a ti.
+3:18 E contou-lhe Samuel todas as palavras e não as escondeu dele. E disse: YHWH, ele [é]; o que [é] bom aos seus olhos fará.
+3:19 E cresceu Samuel; e YHWH estava com ele, e não deixou cair à terra [nenhuma] de todas as suas palavras.
+3:20 E soube todo o Israel, de Dã até Berseba, que Samuel [era] fiel como profeta de YHWH.
+3:21 E tornou YHWH a aparecer em Siló; porque YHWH se revelou a Samuel em Siló, pela palavra de YHWH.
+
+4:1 E a palavra de Samuel foi para todo o Israel. E saiu Israel ao encontro dos filisteus para a guerra, e acamparam junto a Ebenézer; e os filisteus acamparam em Afeque.
+4:2 E dispuseram-se os filisteus ao encontro de Israel; e a guerra estendeu-se; e Israel foi ferido diante dos filisteus; e [eles] feriram na linha de batalha, no campo, cerca de quatro mil homens.
+4:3 E veio o povo ao acampamento, e disseram os anciãos de Israel: Por que nos feriu YHWH hoje diante dos filisteus? Tomemos para nós, de Siló, a arca da aliança de YHWH, e venha ao nosso meio, e nos salve da palma dos nossos inimigos.
+4:4 E enviou o povo a Siló, e levaram dali a arca da aliança de YHWH dos Exércitos, que se assenta [sobre] os querubins; e ali [estavam] os dois filhos de Eli, com a arca da aliança de Deus, Hofni e Fineias.
+4:5 E aconteceu que, ao entrar a arca da aliança de YHWH no acampamento, bradou todo o Israel com grande brado, e a terra se alvoroçou.
+4:6 E ouviram os filisteus a voz do brado, e disseram: Que [é] a voz deste grande brado no acampamento dos hebreus? E souberam que a arca de YHWH tinha vindo ao acampamento.
+4:7 E temeram os filisteus, porque disseram: Deus veio ao acampamento. E disseram: Ai de nós! Porque não aconteceu algo como isto ontem nem anteontem.
+4:8 Ai de nós! Quem nos livrará da mão destes deuses poderosos? Estes [são] os deuses que feriram o Egito com toda praga no deserto.
+4:9 Esforçai-vos e sede homens, filisteus, para que não sirvais aos hebreus, como eles vos serviram; e sede homens, e pelejai.
+4:10 E pelejaram os filisteus, e Israel foi ferido; e fugiram, cada um para as suas tendas; e foi muito grande a praga; e caíram de Israel trinta mil homens a pé.
+4:11 E a arca de Deus foi tomada; e os dois filhos de Eli morreram, Hofni e Fineias.
+4:12 E correu um homem de Benjamim da linha de batalha, e veio a Siló naquele dia, com as suas vestes rasgadas e solo sobre a sua cabeça.
+4:13 E veio, e eis que Eli [estava] sentado sobre o assento, à beira do caminho, vigiando; porque o seu coração tremia pela arca de Deus. E o homem veio para contar na cidade; e toda a cidade clamou.
+4:14 E ouviu Eli a voz do clamor e disse: Que [é] a voz desta multidão? E o homem apressou-se e veio, e contou a Eli.
+4:15 E Eli [era] filho de noventa e oito anos; e os seus olhos fixaram-se, e não podia ver.
+4:16 E disse o homem a Eli: Eu [sou] o que veio da linha de batalha; e eu da linha de batalha fugi hoje. E disse: Que foi a coisa, filho meu?
+4:17 E respondeu o portador da notícia e disse: Israel fugiu diante dos filisteus, e também houve grande praga no povo, e também os teus dois filhos morreram, Hofni e Fineias, e a arca de Deus foi tomada.
+4:18 E aconteceu que, ao mencionar ele a arca de Deus, caiu de sobre o assento, para trás, ao lado da porta, e quebrou-se o seu pescoço, e morreu; porque o homem [era] velho e pesado; e ele julgou Israel quarenta anos.
+4:19 E a sua nora, mulher de Fineias, [estava] grávida, a ponto de dar à luz; e ouviu a notícia sobre a tomada da arca de Deus, e [que] tinham morrido o seu sogro e o seu marido; e dobrou-se e deu à luz, porque se voltaram sobre ela as suas dores.
+4:20 E ao tempo da sua morte, disseram as que estavam de pé junto dela: Não temas, porque deste à luz um filho. E ela não respondeu, nem pôs o seu coração.
+4:21 E chamou ao moço: Icabode, dizendo: Exilou-se a glória de Israel! — por causa da tomada da arca de Deus, e por causa do seu sogro e do seu marido.
+4:22 E disse: Exilou-se a glória de Israel, porque foi tomada a arca de Deus.
+
+5:1 E os filisteus tomaram a arca de Deus e trouxeram-na de Ebenézer a Asdode.
+5:2 E tomaram os filisteus a arca de Deus e trouxeram-na à casa de Dagom; e puseram-na junto a Dagom.
+5:3 E madrugaram os asdoditas, no dia seguinte, e eis que Dagom [estava] caído sobre o seu rosto, à terra, diante da arca de YHWH; e tomaram Dagom e fizeram-no voltar ao seu lugar.
+5:4 E madrugaram pela manhã, no dia seguinte, e eis que Dagom [estava] caído sobre o seu rosto, à terra, diante da arca de YHWH; e a cabeça de Dagom e as duas palmas das suas mãos [estavam] cortadas sobre o limiar; somente Dagom ficara sobre ele.
+5:5 Por isso não pisam os sacerdotes de Dagom e todos os que entram na casa de Dagom, o limiar de Dagom em Asdode, até este dia.
+5:6 E tornou-se pesada a mão de YHWH sobre os asdoditas, e assolou-os, e feriu-os com tumores, Asdode e o seu território.
+5:7 E viram os homens de Asdode que [era] assim; e disseram: Não ficará a arca do Deus de Israel conosco, porque a sua mão se endureceu sobre nós e sobre Dagom, nosso deus.
+5:8 E enviaram e ajuntaram a eles todos os governantes dos filisteus, e disseram: Que faremos com a arca do Deus de Israel? E disseram: A Gate circule a arca do Deus de Israel. E fizeram circular a arca do Deus de Israel.
+5:9 E aconteceu que, depois de a fazerem circular, foi a mão de YHWH contra a cidade, um tumulto muito grande; e feriu os homens da cidade, do pequeno ao grande; e irromperam neles tumores.
+5:10 E enviaram a arca de Deus a Ecrom. E aconteceu que, ao vir a arca de Deus a Ecrom, clamaram os ecronitas, dizendo: Fizeram circular até mim a arca do Deus de Israel, para me matar, a mim e ao meu povo.
+5:11 E enviaram e ajuntaram todos os governantes dos filisteus, e disseram: Enviai a arca do Deus de Israel, e volte ao seu lugar, e não me mate, a mim e ao meu povo; porque houve um tumulto de morte em toda a cidade; muito pesada esteve a mão de Deus ali.
+5:12 E os homens que não morreram foram feridos com tumores; e subiu o clamor da cidade aos céus.
+
+6:1 E esteve a arca de YHWH no campo dos filisteus sete meses.
+6:2 E chamaram os filisteus os sacerdotes e os adivinhos, dizendo: Que faremos com a arca de YHWH? Fazei-nos saber com que a enviaremos ao seu lugar.
+6:3 E disseram: Se enviais a arca do Deus de Israel, não a envieis vazia; porque devolvendo devolvereis-lhe uma oferta pela culpa; então sereis curados, e vos será conhecido por que não se afasta de vós a sua mão.
+6:4 E disseram: Qual [é] a oferta pela culpa que lhe devolveremos? E disseram: Conforme o número dos governantes dos filisteus, cinco tumores de ouro e cinco ratos de ouro; porque uma [mesma] praga [houve] para todos eles e para os vossos governantes.
+6:5 E fareis imagens dos vossos tumores e imagens dos vossos ratos, que destroem a terra; e dareis glória ao Deus de Israel; talvez alivie a sua mão de sobre vós, e de sobre os vossos deuses, e de sobre a vossa terra.
+6:6 E por que tornareis pesado o vosso coração, como tornaram pesado o Egito e Faraó o seu coração? Acaso não, quando zombou deles, os enviaram, e foram?
+6:7 E agora, tomai e fazei um carro novo, um, e duas vacas que amamentam, sobre as quais não subiu jugo; e atai as vacas ao carro, e fazei voltar os filhos delas de atrás delas, para casa.
+6:8 E tomareis a arca de YHWH e a colocareis sobre o carro; e os objetos de ouro que lhe devolvestes como oferta pela culpa, poreis na caixa, ao seu lado; e enviá-la-eis, e irá.
+6:9 E vereis: se pelo caminho do seu território subir a Bete-Semes, ele nos fez este grande mal; e se não, saberemos que não foi a sua mão que nos tocou; foi um acaso que nos aconteceu.
+6:10 E fizeram os homens assim: e tomaram duas vacas que amamentam, e prenderam-nas ao carro, e os filhos delas retiveram em casa.
+6:11 E puseram a arca de YHWH sobre o carro, e a caixa, e os ratos de ouro e as imagens dos seus tumores.
+6:12 E seguiram direto as vacas pelo caminho, pelo caminho de Bete-Semes; por uma só estrada foram, andando e mugindo, e não se desviaram nem à direita nem à esquerda; e os governantes dos filisteus [iam] andando atrás delas até o território de Bete-Semes.
+6:13 E Bete-Semes [estava] ceifando a ceifa do trigo no vale; e levantaram os seus olhos e viram a arca; e alegraram-se ao vê-la.
+6:14 E o carro veio ao campo de Josué, o bete-semita, e parou ali; e ali [havia] uma pedra grande; e racharam a madeira do carro, e as vacas fizeram subir como holocausto a YHWH.
+6:15 E os levitas fizeram descer a arca de YHWH e a caixa que [estava] com ela, na qual [havia] objetos de ouro, e puseram[-nas] sobre a pedra grande; e os homens de Bete-Semes fizeram subir holocaustos e sacrificaram sacrifícios naquele dia a YHWH.
+6:16 E os cinco governantes dos filisteus viram, e voltaram a Ecrom naquele dia.
+6:17 E estes [são] os tumores de ouro que os filisteus devolveram como oferta pela culpa a YHWH: por Asdode, um; por Gaza, um; por Asquelom, um; por Gate, um; por Ecrom, um.
+6:18 E os ratos de ouro, [segundo] o número de todas as cidades dos filisteus pertencentes aos cinco governantes, desde a cidade fortificada até a aldeia do campo aberto; e até Abel, a grande, sobre a qual deixaram a arca de YHWH, [que está] até este dia no campo de Josué, o bete-semita.
+6:19 E feriu entre os homens de Bete-Semes, porque olharam para a arca de YHWH; e feriu no povo setenta homens, cinquenta mil homens; e o povo fez luto, porque YHWH tinha ferido o povo com grande praga.
+6:20 E disseram os homens de Bete-Semes: Quem poderá ficar de pé diante de YHWH, este Deus santo? E para quem subirá [ele] de sobre nós?
+6:21 E enviaram mensageiros aos habitantes de Quiriate-Jearim, dizendo: Os filisteus devolveram a arca de YHWH; descei, fazei-a subir para vós.
+
+7:1 E vieram os homens de Quiriate-Jearim e fizeram subir a arca de YHWH, e trouxeram-na à casa de Abinadabe, na colina; e a Eleazar, seu filho, santificaram, para guardar a arca de YHWH.
+7:2 E aconteceu que, desde o dia em que ficou a arca em Quiriate-Jearim, multiplicaram-se os dias, e foram vinte anos; e lamentou-se toda a casa de Israel atrás de YHWH.
+7:3 E disse Samuel a toda a casa de Israel, dizendo: Se de todo o vosso coração voltais a YHWH, removei os deuses do estrangeiro do meio de vós, e as Astarotes; e preparai o vosso coração para YHWH, e servi-o só a ele; e livrar-vos-á da mão dos filisteus.
+7:4 E removeram os filhos de Israel os Baais e as Astarotes, e serviram só a YHWH.
+7:5 E disse Samuel: Ajuntai todo o Israel em Mispa, e orarei por vós a YHWH.
+7:6 E ajuntaram-se em Mispa, e tiraram água e derramaram-na diante de YHWH; e jejuaram naquele dia, e disseram ali: Pecamos contra YHWH. E julgou Samuel os filhos de Israel em Mispa.
+7:7 E ouviram os filisteus que se tinham ajuntado os filhos de Israel em Mispa, e subiram os governantes dos filisteus contra Israel; e ouviram os filhos de Israel e temeram diante dos filisteus.
+7:8 E disseram os filhos de Israel a Samuel: Não te cales de nós, de clamar a YHWH, nosso Deus; e que nos salve da mão dos filisteus.
+7:9 E tomou Samuel um cordeiro de leite e fê-lo subir, holocausto inteiro, a YHWH; e clamou Samuel a YHWH por Israel, e YHWH lhe respondeu.
+7:10 E aconteceu que, estando Samuel a fazer subir o holocausto, os filisteus aproximaram-se para a guerra contra Israel; e trovejou YHWH com grande voz naquele dia sobre os filisteus, e confundiu-os, e foram feridos diante de Israel.
+7:11 E saíram os homens de Israel de Mispa e perseguiram os filisteus, e feriram-nos até debaixo de Bete-Car.
+7:12 E tomou Samuel uma pedra, uma, e pô-la entre Mispa e Sen; e chamou o seu nome Ebenézer, e disse: Até aqui nos ajudou YHWH.
+7:13 E foram humilhados os filisteus, e não tornaram mais a vir ao território de Israel; e a mão de YHWH esteve contra os filisteus todos os dias de Samuel.
+7:14 E voltaram as cidades que os filisteus tinham tomado de Israel, a Israel, de Ecrom até Gate; e o território delas livrou Israel da mão dos filisteus. E houve paz entre Israel e o amorreu.
+7:15 E julgou Samuel a Israel todos os dias da sua vida.
+7:16 E andava, de ano em ano, e circulava por Betel, e Gilgal, e Mispa; e julgava Israel em todos estes lugares.
+7:17 E o seu regresso [era] a Ramá, porque ali [estava] a sua casa; e ali julgava Israel; e edificou ali um altar a YHWH.
+
+8:1 E aconteceu que, quando Samuel envelheceu, pôs os seus filhos [como] juízes para Israel.
+8:2 E foi o nome do seu filho primogênito Joel, e o nome do seu segundo, Abias; [eram] juízes em Berseba.
+8:3 E não andaram os seus filhos nos seus caminhos; e inclinaram-se atrás do lucro, e tomaram suborno, e inclinaram o juízo.
+8:4 E ajuntaram-se todos os anciãos de Israel e vieram a Samuel, a Ramá.
+8:5 E disseram-lhe: Eis que tu envelheceste, e os teus filhos não andaram nos teus caminhos; agora, põe-nos um rei para nos julgar, como todas as nações.
+8:6 E foi má a palavra aos olhos de Samuel, quando disseram: Dá-nos um rei para nos julgar; e orou Samuel a YHWH.
+8:7 E disse YHWH a Samuel: Ouve a voz do povo, em tudo o que te disserem; porque não a ti rejeitaram, mas a mim rejeitaram, para que eu não reine sobre eles.
+8:8 Conforme todas as obras que fizeram desde o dia em que os fiz subir do Egito até este dia, e deixaram-me e serviram a outros deuses, assim eles fazem também a ti.
+8:9 E agora, ouve a sua voz; somente, testemunhando testemunharás contra eles, e lhes declararás o juízo do rei que reinará sobre eles.
+8:10 E disse Samuel todas as palavras de YHWH ao povo que lhe pedia um rei.
+8:11 E disse: Este será o juízo do rei que reinará sobre vós: tomará os vossos filhos e os porá para si nos seus carros e entre os seus cavaleiros, e correrão diante do seu carro;
+8:12 e para pôr para si chefes de mil e chefes de cinquenta, e para arar a sua lavra, e para ceifar a sua ceifa, e para fazer os seus utensílios de guerra e os utensílios dos seus carros.
+8:13 E as vossas filhas tomará para perfumistas, e para cozinheiras, e para padeiras.
+8:14 E os vossos campos, e as vossas vinhas, e as vossas oliveiras, as melhores, tomará e dará aos seus servos.
+8:15 E as vossas sementes e as vossas vinhas dizimará, e dará aos seus oficiais e aos seus servos.
+8:16 E os vossos servos, e as vossas servas, e os vossos jovens, os melhores, e os vossos jumentos tomará, e fará para a sua obra.
+8:17 As vossas ovelhas dizimará; e vós sereis para ele servos.
+8:18 E clamareis naquele dia por causa do vosso rei que escolhestes para vós; e YHWH não vos responderá naquele dia.
+8:19 E recusou o povo ouvir a voz de Samuel; e disseram: Não, mas haverá um rei sobre nós;
+8:20 e seremos também nós como todas as nações; e o nosso rei nos julgará, e sairá diante de nós, e pelejará as nossas guerras.
+8:21 E ouviu Samuel todas as palavras do povo e falou-as aos ouvidos de YHWH.
+8:22 E disse YHWH a Samuel: Ouve a sua voz e faze reinar sobre eles um rei. E disse Samuel aos homens de Israel: Ide, cada homem à sua cidade.
+
+9:1 E houve um homem de Benjamim, e o seu nome [era] Quis, filho de Abiel, filho de Zeror, filho de Becorate, filho de Afias, filho de um homem benjamita, valente de valor.
+9:2 E ele tinha um filho, e o seu nome [era] Saul, jovem e bom; e não havia homem dos filhos de Israel melhor do que ele; do seu ombro para cima [era] mais alto do que todo o povo.
+9:3 E perderam-se as jumentas de Quis, pai de Saul; e disse Quis a Saul, seu filho: Toma contigo, por favor, um dos moços, e levanta-te, vai, busca as jumentas.
+9:4 E passou pelo monte de Efraim, e passou pela terra de Salisa, e não [as] acharam; e passaram pela terra de Saalim, e não [havia]; e passou pela terra do benjamita, e não [as] acharam.
+9:5 Eles vieram à terra de Zufe; e Saul disse ao seu moço que [estava] com ele: Vem, e voltemos, para que não cesse meu pai [de cuidar] das jumentas e se inquiete por nós.
+9:6 E disse-lhe: Eis que há, por favor, um homem de Deus nesta cidade, e o homem é honrado; tudo o que fala, vindo virá; agora, vamos para lá; talvez nos declare o nosso caminho, por onde andamos.
+9:7 E disse Saul ao seu moço: E eis que vamos; e que traremos ao homem? Porque o pão se acabou dos nossos recipientes, e presente não há para trazer ao homem de Deus; que [há] conosco?
+9:8 E tornou o moço a responder a Saul e disse: Eis que se achou na minha mão a quarta parte de um siclo de prata; e darei ao homem de Deus, e nos declarará o nosso caminho.
+9:9 Antigamente, em Israel, assim dizia o homem, ao ir buscar a Deus: Vinde, e vamos ao vidente; porque ao profeta de hoje se chamava antigamente o vidente.
+9:10 E disse Saul ao seu moço: Boa [é] a tua palavra; vem, vamos. E foram à cidade onde [estava] o homem de Deus.
+9:11 Eles [estavam] subindo pela subida da cidade, e encontraram moças que saíam para tirar água; e disseram-lhes: Há aqui o vidente?
+9:12 E responderam-lhes e disseram: Há; eis que [está] diante de ti; apressa-te agora, porque hoje veio à cidade, porque [há] hoje um sacrifício para o povo no lugar alto.
+9:13 Ao entrardes na cidade, assim o achareis, antes que suba ao lugar alto para comer; porque o povo não comerá até que ele venha, porque ele abençoa o sacrifício; depois comem os convidados; e agora subi, porque a ele, agora mesmo, achareis.
+9:14 E subiram à cidade; eles [estavam] entrando no meio da cidade, e eis que Samuel saía ao encontro deles, para subir ao lugar alto.
+9:15 E YHWH tinha descoberto o ouvido de Samuel, um dia antes de vir Saul, dizendo:
+9:16 Como a esta hora, amanhã, enviarei a ti um homem da terra de Benjamim; e o ungirás por líder sobre o meu povo Israel; e salvará o meu povo da mão dos filisteus; porque olhei para o meu povo, porque o seu clamor chegou a mim.
+9:17 E Samuel viu Saul; e YHWH respondeu-lhe: Eis o homem de quem te falei; este reterá o meu povo.
+9:18 E aproximou-se Saul de Samuel, no meio da porta, e disse: Declara-me, por favor, onde [fica] a casa do vidente.
+9:19 E respondeu Samuel a Saul e disse: Eu [sou] o vidente; sobe diante de mim ao lugar alto, e comereis comigo hoje; e enviar-te-ei pela manhã, e tudo o que [está] no teu coração te declararei.
+9:20 E quanto às jumentas que se perderam para ti hoje [há] três dias, não ponhas o teu coração nelas, porque foram achadas. E para quem [é] todo o desejo de Israel? Acaso não para ti e para toda a casa de teu pai?
+9:21 E respondeu Saul e disse: Acaso não [sou] eu filho de benjamita, dos menores das tribos de Israel? E a minha família, a mais nova de todas as famílias das tribos de Benjamim? E por que me falaste conforme esta palavra?
+9:22 E tomou Samuel a Saul e ao seu moço e trouxe-os à câmara, e deu-lhes lugar à cabeça dos convidados; e eles [eram] cerca de trinta homens.
+9:23 E disse Samuel ao cozinheiro: Dá a porção que te dei, da qual te disse: Põe-na contigo.
+9:24 E levantou o cozinheiro a coxa e o que [estava] sobre ela, e pô-la diante de Saul; e disse: Eis o que ficou; põe diante de ti, come; porque para o tempo determinado foi guardado para ti, dizendo: Convidei o povo. E comeu Saul com Samuel naquele dia.
+9:25 E desceram do lugar alto para a cidade; e falou com Saul no terraço.
+9:26 E madrugaram; e aconteceu que, ao subir a alva, chamou Samuel a Saul no terraço, dizendo: Levanta-te, e enviar-te-ei. E levantou-se Saul, e saíram os dois, ele e Samuel, para fora.
+9:27 Eles [estavam] descendo à extremidade da cidade, e Samuel disse a Saul: Dize ao moço que passe adiante de nós — e passou — e tu, fica de pé agora, e far-te-ei ouvir a palavra de Deus.
+
+10:1 E tomou Samuel o frasco de azeite e derramou sobre a sua cabeça, e beijou-o, e disse: Acaso não [é] que YHWH te ungiu por líder sobre a sua herança?
+10:2 Ao partires hoje de junto de mim, acharás dois homens junto à sepultura de Raquel, no território de Benjamim, em Zelza; e dirão a ti: Foram achadas as jumentas que foste buscar; e eis que teu pai deixou o assunto das jumentas e se inquieta por vós, dizendo: Que farei por meu filho?
+10:3 E passarás dali adiante e virás ao carvalho de Tabor; e encontrar-te-ão ali três homens que sobem a Deus, a Betel: um levando três cabritos, e um levando três pães redondos, e um levando um odre de vinho.
+10:4 E perguntarão pela tua paz, e dar-te-ão dois pães; e tomarás da mão deles.
+10:5 Depois virás à Gibeá de Deus, onde [estão] as guarnições dos filisteus; e acontecerá que, ao entrares ali na cidade, encontrarás um bando de profetas que descem do lugar alto, e diante deles harpa, e tamboril, e flauta, e lira, e eles profetizando.
+10:6 E irromperá sobre ti o espírito de YHWH, e profetizarás com eles, e serás mudado em outro homem.
+10:7 E acontecerá que, quando vierem a ti estes sinais, faze para ti o que achar a tua mão, porque Deus [está] contigo.
+10:8 E descerás diante de mim a Gilgal; e eis que eu descerei a ti, para fazer subir holocaustos, para sacrificar sacrifícios pacíficos; sete dias esperarás, até eu vir a ti; e far-te-ei saber o que farás.
+10:9 E aconteceu que, quando ele voltou o seu ombro para ir-se de junto de Samuel, Deus virou-lhe outro coração; e vieram todos esses sinais naquele dia.
+10:10 E vieram ali à colina, e eis que um bando de profetas [vinha] ao seu encontro; e irrompeu sobre ele o espírito de Deus, e profetizou no meio deles.
+10:11 E aconteceu que todos os que o conheciam desde ontem e anteontem viram, e eis que profetizava com os profetas; e disse o povo, cada homem ao seu próximo: Que [é] isto que aconteceu ao filho de Quis? Também Saul entre os profetas?
+10:12 E respondeu um homem dali e disse: E quem [é] o pai deles? Por isso se tornou provérbio: Também Saul entre os profetas?
+10:13 E acabou de profetizar, e veio ao lugar alto.
+10:14 E disse o tio de Saul a ele e ao seu moço: Aonde fostes? E disse: Buscar as jumentas; e vimos que não [havia nada], e viemos a Samuel.
+10:15 E disse o tio de Saul: Declara-me, por favor, o que vos disse Samuel.
+10:16 E disse Saul ao seu tio: Declarando declarou-nos que as jumentas foram achadas. E o assunto do reino, de que falou Samuel, não lho declarou.
+10:17 E convocou Samuel o povo a YHWH, em Mispa.
+10:18 E disse aos filhos de Israel: Assim disse YHWH, Deus de Israel: Eu fiz subir Israel do Egito, e livrei-vos da mão do Egito e da mão de todos os reinos que vos oprimiam.
+10:19 E vós, hoje, rejeitastes o vosso Deus, que é o vosso salvador de todos os vossos males e das vossas angústias; e dissestes-lhe: Que um rei ponhas sobre nós! E agora, apresentai-vos diante de YHWH, segundo as vossas tribos e os vossos milhares.
+10:20 E fez Samuel aproximar todas as tribos de Israel, e foi tomada a tribo de Benjamim.
+10:21 E fez aproximar a tribo de Benjamim segundo as suas famílias, e foi tomada a família do matrita; e foi tomado Saul, filho de Quis; e buscaram-no, e não foi achado.
+10:22 E perguntaram ainda a YHWH: Veio ainda aqui [algum] homem? E disse YHWH: Eis que ele está escondido entre os utensílios.
+10:23 E correram e tomaram-no dali; e pôs-se de pé no meio do povo, e era mais alto do que todo o povo, do seu ombro para cima.
+10:24 E disse Samuel a todo o povo: Vistes aquele a quem YHWH escolheu? Porque não há como ele em todo o povo. E bradou todo o povo e disse: Viva o rei!
+10:25 E falou Samuel ao povo o juízo da realeza, e escreveu-o no livro, e pô-lo diante de YHWH; e despediu Samuel todo o povo, cada homem para a sua casa.
+10:26 E também Saul foi para a sua casa, a Gibeá; e foram com ele os valorosos, cujo coração Deus tocou.
+10:27 E os filhos de vileza disseram: Como nos salvará este? E desprezaram-no, e não lhe trouxeram tributo. E ele foi como quem se cala.
+
+11:1 E subiu Naás, o amonita, e acampou contra Jabes de Gileade; e disseram todos os homens de Jabes a Naás: Corta conosco aliança, e servir-te-emos.
+11:2 E disse-lhes Naás, o amonita: Nisto cortarei [aliança] convosco: arrancando-vos todo olho direito; e porei isto como vergonha sobre todo o Israel.
+11:3 E disseram-lhe os anciãos de Jabes: Deixa-nos sete dias, e enviaremos mensageiros por todo o território de Israel; e se não houver quem nos salve, sairemos a ti.
+11:4 E vieram os mensageiros a Gibeá de Saul e falaram as palavras aos ouvidos do povo; e levantou todo o povo a sua voz e chorou.
+11:5 E eis que Saul vinha atrás dos bois, do campo; e disse Saul: Que [há] com o povo, que chora? E contaram-lhe as palavras dos homens de Jabes.
+11:6 E irrompeu o espírito de Deus sobre Saul, quando ouviu estas palavras; e acendeu-se muito a sua ira.
+11:7 E tomou uma junta de bois e cortou-a em pedaços, e enviou por todo o território de Israel, pela mão dos mensageiros, dizendo: Quem não sair atrás de Saul e atrás de Samuel, assim se fará aos seus bois. E caiu o pavor de YHWH sobre o povo, e saíram como um só homem.
+11:8 E contou-os em Bezeque; e foram os filhos de Israel trezentos mil, e os homens de Judá trinta mil.
+11:9 E disseram aos mensageiros que tinham vindo: Assim direis aos homens de Jabes de Gileade: Amanhã tereis salvação, ao calor do sol. E vieram os mensageiros e contaram aos homens de Jabes; e alegraram-se.
+11:10 E disseram os homens de Jabes: Amanhã sairemos a vós, e fareis conosco conforme tudo o que [é] bom aos vossos olhos.
+11:11 E aconteceu, no dia seguinte, que Saul pôs o povo em três companhias; e vieram ao meio do acampamento na vigília da manhã, e feriram Amom até o calor do dia; e aconteceu que os restantes se espalharam, e não ficaram deles dois juntos.
+11:12 E disse o povo a Samuel: Quem [é] o que disse: Saul reinará sobre nós? Dai os homens, e matá-los-emos.
+11:13 E disse Saul: Não será morto homem algum neste dia, porque hoje fez YHWH salvação em Israel.
+11:14 E disse Samuel ao povo: Ide, e vamos a Gilgal, e renovemos ali a realeza.
+11:15 E foi todo o povo a Gilgal, e fizeram ali reinar a Saul diante de YHWH, em Gilgal; e sacrificaram ali sacrifícios pacíficos diante de YHWH; e alegrou-se ali Saul e todos os homens de Israel, muitíssimo.
+
+12:1 E disse Samuel a todo o Israel: Eis que ouvi a vossa voz, em tudo o que me dissestes; e fiz reinar sobre vós um rei.
+12:2 E agora, eis que o rei anda diante de vós; e eu envelheci e encaneci, e os meus filhos, eis que [estão] convosco; e eu andei diante de vós desde a minha mocidade até este dia.
+12:3 Eis-me aqui; respondei contra mim diante de YHWH e diante do seu ungido: o boi de quem tomei? E o jumento de quem tomei? E a quem defraudei? A quem esmaguei? E da mão de quem tomei resgate, para que eu escondesse os meus olhos por ele? E devolver-vos-ei.
+12:4 E disseram: Não nos defraudaste, e não nos esmagaste, e não tomaste da mão de ninguém coisa alguma.
+12:5 E disse-lhes: Testemunha [é] YHWH contra vós, e testemunha o seu ungido, neste dia, de que não achastes coisa alguma na minha mão. E disse: Testemunha!
+12:6 E disse Samuel ao povo: [É] YHWH, que fez Moisés e Arão, e que fez subir os vossos pais da terra do Egito.
+12:7 E agora, apresentai-vos, e entrarei em juízo convosco diante de YHWH, a respeito de todas as justiças de YHWH, que fez convosco e com os vossos pais.
+12:8 Quando Jacó veio ao Egito, e clamaram os vossos pais a YHWH, enviou YHWH Moisés e Arão, e fizeram sair os vossos pais do Egito, e fizeram-nos habitar neste lugar.
+12:9 E esqueceram YHWH, seu Deus; e vendeu-os na mão de Sísera, chefe do exército de Hazor, e na mão dos filisteus, e na mão do rei de Moabe; e pelejaram contra eles.
+12:10 E clamaram a YHWH e disseram: Pecamos, porque deixamos YHWH e servimos aos Baais e às Astarotes; e agora, livra-nos da mão dos nossos inimigos, e servir-te-emos.
+12:11 E enviou YHWH Jerubaal, e Bedã, e Jefté, e Samuel, e livrou-vos da mão dos vossos inimigos em redor, e habitastes em segurança.
+12:12 E vistes que Naás, rei dos filhos de Amom, veio contra vós; e dissestes-me: Não, mas um rei reinará sobre nós; e YHWH, vosso Deus, [era] o vosso rei.
+12:13 E agora, eis o rei que escolhestes, que pedistes; e eis que YHWH deu sobre vós um rei.
+12:14 Se temerdes YHWH, e o servirdes, e ouvirdes a sua voz, e não vos rebelardes contra a boca de YHWH, e fordes, tanto vós como o rei que reina sobre vós, atrás de YHWH, vosso Deus —
+12:15 e se não ouvirdes a voz de YHWH, e vos rebelardes contra a boca de YHWH, a mão de YHWH será contra vós e contra os vossos pais.
+12:16 Também agora, apresentai-vos e vede esta grande coisa que YHWH faz diante dos vossos olhos.
+12:17 Acaso não [é] hoje a ceifa do trigo? Clamarei a YHWH, e dará trovões e chuva; e sabei e vede que é grande o vosso mal, que fizestes aos olhos de YHWH, pedindo para vós um rei.
+12:18 E clamou Samuel a YHWH, e deu YHWH trovões e chuva naquele dia; e temeu todo o povo muito a YHWH e a Samuel.
+12:19 E disse todo o povo a Samuel: Ora por teus servos a YHWH, teu Deus, e que não morramos; porque acrescentamos a todos os nossos pecados um mal, pedindo para nós um rei.
+12:20 E disse Samuel ao povo: Não temais; vós fizestes todo este mal; somente não vos desvieis de atrás de YHWH, e servi a YHWH com todo o vosso coração.
+12:21 E não vos desvieis; porque [seria ir] atrás do vazio, que não aproveita e não livra, porque vazio [são] eles.
+12:22 Porque YHWH não deixará o seu povo, por causa do seu grande nome; porque YHWH consentiu em fazer-vos para si por povo.
+12:23 Também eu, longe de mim pecar contra YHWH, cessando de orar por vós; e ensinar-vos-ei no caminho bom e reto.
+12:24 Somente temei YHWH e servi-o em verdade, com todo o vosso coração; porque vede o que engrandeceu convosco.
+12:25 E se fazendo mal fizerdes mal, tanto vós como o vosso rei sereis consumidos.
+
+13:1 Filho de um ano [era] Saul ao reinar; e dois anos reinou sobre Israel.
+13:2 E escolheu Saul para si três mil de Israel; e estavam com Saul dois mil em Micmás e no monte de Betel, e mil estavam com Jônatas em Gibeá de Benjamim; e o resto do povo enviou cada homem às suas tendas.
+13:3 E feriu Jônatas a guarnição dos filisteus que [estava] em Geba; e ouviram os filisteus. E Saul tocou o shofar em toda a terra, dizendo: Ouçam os hebreus.
+13:4 E todo Israel ouviu dizer: Saul feriu a guarnição dos filisteus, e também Israel tornou-se odioso aos filisteus. E o povo foi convocado atrás de Saul, ao Gilgal.
+13:5 E os filisteus reuniram-se para pelejar com Israel: trinta mil carros, e seis mil cavaleiros, e um povo como a areia que [está] à beira do mar, em multidão; e subiram e acamparam em Micmás, a leste de Bete-Áven.
+13:6 E o homem de Israel viu que estava em aperto, porque o povo foi oprimido; e o povo escondeu-se nas cavernas, e nas brenhas, e nas rochas, e nos abrigos, e nas covas.
+13:7 E hebreus passaram o Jordão para a terra de Gade e Gileade; e Saul [estava] ainda no Gilgal, e todo o povo tremeu atrás dele.
+13:8 E esperou sete dias, até o tempo determinado que Samuel [marcara]; e Samuel não veio ao Gilgal, e o povo espalhou-se de sobre ele.
+13:9 E disse Saul: Trazei-me o holocausto e as ofertas pacíficas. E fez subir o holocausto.
+13:10 E aconteceu que, ao acabar ele de fazer subir o holocausto, eis que Samuel vinha; e Saul saiu ao seu encontro, para o abençoar.
+13:11 E disse Samuel: Que fizeste? E disse Saul: Porque vi que o povo se espalhara de sobre mim, e tu não vieste no tempo determinado dos dias, e os filisteus [estavam] reunidos em Micmás,
+13:12 e eu disse: Agora descerão os filisteus a mim, ao Gilgal, e a face de YHWH não abrandei. E contive-me, e fiz subir o holocausto.
+13:13 E disse Samuel a Saul: Agiste loucamente; não guardaste o mandamento de YHWH, teu Deus, que te ordenou; porque agora YHWH teria firmado o teu reino sobre Israel para sempre.
+13:14 E agora o teu reino não se levantará; YHWH buscou para si um homem segundo o seu coração, e YHWH ordenou-o por líder sobre o seu povo; porque não guardaste o que YHWH te ordenou.
+13:15 E levantou-se Samuel e subiu do Gilgal a Gibeá de Benjamim. E Saul contou o povo que se achava com ele: cerca de seiscentos homens.
+13:16 E Saul, e Jônatas, seu filho, e o povo que se achava com eles estavam sentados em Geba de Benjamim; e os filisteus acamparam em Micmás.
+13:17 E saiu o destruidor do acampamento dos filisteus em três companhias: uma companhia voltava-se para o caminho de Ofra, para a terra de Sual;
+13:18 e uma companhia voltava-se para o caminho de Bete-Horom; e uma companhia voltava-se para o caminho do território que se debruça sobre o vale de Zeboim, para o deserto.
+13:19 E artífice não se achava em toda a terra de Israel; porque os filisteus disseram: Para que os hebreus não façam espada ou lança.
+13:20 E desciam todos os de Israel aos filisteus, para afiar cada homem a sua relha, e o seu enxadão, e o seu machado, e o seu picão.
+13:21 E o preço era um pim para os picões e para os enxadões, e para o forcado de três [dentes], e para os machados, e para erguer o aguilhão.
+13:22 E houve, no dia da guerra, que não se achou espada nem lança na mão de todo o povo que [estava] com Saul e com Jônatas; mas achou-se para Saul e para Jônatas, seu filho.
+13:23 E saiu o posto dos filisteus para a passagem de Micmás.
+
+14:1 E aconteceu num dia que disse Jônatas, filho de Saul, ao moço que levava as suas armas: Vem, e passemos ao posto dos filisteus, que [está] do lado de lá. E a seu pai não contou.
+14:2 E Saul estava sentado na extremidade de Gibeá, debaixo da romãzeira que [está] em Migrom; e o povo que [estava] com ele, cerca de seiscentos homens.
+14:3 E Aías, filho de Aitube, irmão de Icabode, filho de Fineias, filho de Eli, sacerdote de YHWH em Siló, levava o éfode. E o povo não sabia que Jônatas fora.
+14:4 E entre as passagens por onde Jônatas buscava passar ao posto dos filisteus, [havia] um dente de rocha deste lado e um dente de rocha daquele lado; e o nome de um [era] Bozez, e o nome do outro, Sené.
+14:5 O um dente [era] uma coluna ao norte, diante de Micmás, e o outro ao sul, diante de Geba.
+14:6 E disse Jônatas ao moço que levava as suas armas: Vem, e passemos ao posto destes incircuncisos; talvez YHWH faça por nós; porque não há impedimento para YHWH de salvar, com muitos ou com poucos.
+14:7 E disse-lhe o que levava as suas armas: Faze tudo o que [está] no teu coração; inclina-te; eis-me contigo, conforme o teu coração.
+14:8 E disse Jônatas: Eis que passamos aos homens, e revelar-nos-emos a eles.
+14:9 Se assim nos disserem: Calai-vos até chegarmos a vós, e ficaremos de pé no nosso lugar, e não subiremos a eles.
+14:10 E se assim disserem: Subi a nós, e subiremos; porque YHWH os deu na nossa mão; e isto [será] para nós o sinal.
+14:11 E revelaram-se os dois ao posto dos filisteus; e os filisteus disseram: Eis que os hebreus saem das covas onde se esconderam.
+14:12 E os homens do posto responderam a Jônatas e ao que levava as suas armas, e disseram: Subi a nós, e far-vos-emos saber uma coisa. E disse Jônatas ao que levava as suas armas: Sobe atrás de mim, porque YHWH os deu na mão de Israel.
+14:13 E subiu Jônatas sobre as suas mãos e sobre os seus pés, e o que levava as suas armas, atrás dele; e caíam diante de Jônatas, e o que levava as suas armas os matava atrás dele.
+14:14 E foi o primeiro golpe que feriram — Jônatas e o que levava as suas armas — cerca de vinte homens, em cerca de meio sulco de uma junta de campo.
+14:15 E houve tremor no acampamento, no campo, e em todo o povo; o posto e o destruidor também tremeram; e a terra agitou-se, e foi um tremor de Deus.
+14:16 E viram os vigias de Saul, em Gibeá de Benjamim, e eis que a multidão se derretia, e ia, e [ia] para cá.
+14:17 E disse Saul ao povo que [estava] com ele: Contai, por favor, e vede quem foi de entre nós. E contaram, e eis que Jônatas e o que levava as suas armas não [estavam].
+14:18 E disse Saul a Aías: Traze a arca de Deus; porque a arca de Deus estava naquele dia [com] os filhos de Israel.
+14:19 E aconteceu que, enquanto Saul falava ao sacerdote, a multidão que [estava] no acampamento dos filisteus ia indo e crescendo; e disse Saul ao sacerdote: Recolhe a tua mão.
+14:20 E Saul e todo o povo que [estava] com ele foram convocados e chegaram à guerra; e eis que a espada de cada um [estava] contra o seu próximo: tumulto muito grande.
+14:21 E os hebreus eram para os filisteus como ontem [e] anteontem, os que subiram com eles ao acampamento ao redor; e também eles [passaram] a ser com Israel, o que [estava] com Saul e Jônatas.
+14:22 E todo homem de Israel, os que se escondiam no monte de Efraim, ouviu que fugiam os filisteus; e apegaram-se, também eles, atrás deles, na guerra.
+14:23 E salvou YHWH naquele dia a Israel; e a guerra passou por Bete-Áven.
+14:24 E o homem de Israel foi oprimido naquele dia; e Saul fez jurar o povo, dizendo: Maldito o homem que comer pão até a tarde, e me vingarei dos meus inimigos. E todo o povo não provou pão.
+14:25 E toda a terra veio ao bosque; e havia mel sobre a face do campo.
+14:26 E veio o povo ao bosque, e eis uma corrente de mel; e não havia quem levasse a sua mão à sua boca, porque o povo temia o juramento.
+14:27 E Jônatas não ouvira quando o seu pai fez jurar o povo; e estendeu a ponta do cajado que [estava] na sua mão, e molhou-a no favo do mel, e fez voltar a sua mão à sua boca; e iluminaram-se os seus olhos.
+14:28 E respondeu um homem do povo e disse: Fazendo jurar, fez jurar teu pai o povo, dizendo: Maldito o homem que comer pão hoje. E o povo desfaleceu.
+14:29 E disse Jônatas: Meu pai perturbou a terra; vede, por favor, que se iluminaram os meus olhos, porque provei um pouco deste mel.
+14:30 Quanto mais, se hoje o povo, comendo, tivesse comido do despojo dos seus inimigos que achou! Porque agora não se multiplicou o golpe contra os filisteus.
+14:31 E feriram naquele dia os filisteus, de Micmás até Aijalom; e o povo desfaleceu muito.
+14:32 E lançou-se o povo ao despojo, e tomaram ovelhas, e bois, e filhos de bois, e imolaram-nos ao chão; e o povo comeu sobre o sangue.
+14:33 E contaram a Saul, dizendo: Eis que o povo peca contra YHWH, comendo sobre o sangue. E disse: Agistes deslealmente; rolai-me hoje uma pedra grande.
+14:34 E disse Saul: Espalhai-vos entre o povo, e dizei-lhes: Trazei-me cada homem o seu boi e cada homem o seu cordeiro, e imolai neste, e comei, e não pequeis contra YHWH, comendo sobre o sangue. E trouxe todo o povo, cada homem o seu boi na sua mão, aquela noite; e imolaram ali.
+14:35 E edificou Saul um altar para YHWH. Este começou a edificar: um altar para YHWH.
+14:36 E disse Saul: Desçamos atrás dos filisteus de noite, e saqueemo-los até a luz da manhã, e não deixemos restar deles homem. E disseram: Tudo o que [é] bom aos teus olhos, faze. E disse o sacerdote: Aproximemo-nos aqui de Deus.
+14:37 E Saul consultou a Deus: Descerei atrás dos filisteus? Tu os darás na mão de Israel? E não lhe respondeu naquele dia.
+14:38 E disse Saul: Aproximai-vos aqui, todos os cantos do povo; e sabei e vede em que foi este pecado hoje.
+14:39 Porque vive YHWH, o que salva Israel, mas se estiver em Jônatas, meu filho, morrendo morrerá. E não havia quem lhe respondesse de todo o povo.
+14:40 E disse a todo o Israel: Vós ficareis de um lado, e eu e Jônatas, meu filho, ficaremos do outro lado. E disse o povo a Saul: O que [é] bom aos teus olhos, faze.
+14:41 E disse Saul a YHWH, Deus de Israel: Dá íntegro. E foram tomados Jônatas e Saul, e o povo saiu.
+14:42 E disse Saul: Lançai [a sorte] entre mim e Jônatas, meu filho. E foi tomado Jônatas.
+14:43 E disse Saul a Jônatas: Conta-me o que fizeste. E contou-lhe Jônatas, e disse: Provando provei, com a ponta do cajado que [está] na minha mão, um pouco de mel. Eis-me, morrerei.
+14:44 E disse Saul: Assim faça Deus [a mim], e assim acrescente, porque morrendo morrerás, Jônatas.
+14:45 E disse o povo a Saul: Morrerá Jônatas, que fez esta grande salvação em Israel? Longe disso! Vive YHWH, se cair ao chão um fio de cabelo da sua cabeça! Porque com Deus fez hoje este dia. E o povo resgatou Jônatas, e não morreu.
+14:46 E subiu Saul de atrás dos filisteus; e os filisteus foram ao seu lugar.
+14:47 E Saul tomou a realeza sobre Israel, e pelejou ao redor contra todos os seus inimigos: contra Moabe, e contra os filhos de Amom, e contra Edom, e contra os reis de Zobá, e contra os filisteus; e para onde quer que se voltava, condenava.
+14:48 E fez força, e feriu Amaleque, e livrou Israel da mão dos que o saqueavam.
+14:49 E foram os filhos de Saul: Jônatas, e Isvi, e Malquisua; e o nome das suas duas filhas: o nome da primogênita, Merabe, e o nome da pequena, Mical.
+14:50 E o nome da mulher de Saul, Ainoã, filha de Aimaás; e o nome do chefe do seu exército, Abner, filho de Ner, tio de Saul.
+14:51 E Quis, pai de Saul, e Ner, pai de Abner, [era] filho de Abiel.
+14:52 E a guerra foi forte contra os filisteus todos os dias de Saul; e Saul via todo homem valente e todo filho de força, e ajuntava-o para si.
+
+15:1 E disse Samuel a Saul: A mim enviou YHWH para te ungir por rei sobre o seu povo, sobre Israel; e agora ouve a voz das palavras de YHWH.
+15:2 Assim disse YHWH dos Exércitos: Visitei o que fez Amaleque a Israel, que se pôs contra ele no caminho, ao subir ele do Egito.
+15:3 Agora, vai, e ferirás Amaleque, e consagrareis ao extermínio tudo o que [é] dele; e não terás compaixão dele; e matarás, desde homem até mulher, desde criança até lactente, desde boi até cordeiro, desde camelo até jumento.
+15:4 E Saul convocou o povo, e contou-os em Telaim: duzentos mil a pé, e dez mil, com o homem de Judá.
+15:5 E veio Saul até a cidade de Amaleque, e emboscou-se no vale.
+15:6 E disse Saul ao queneu: Ide, desviai-vos, descei de entre o amalequita, para que eu não te ajunte com ele; e tu fizeste bondade com todos os filhos de Israel, quando subiam do Egito. E desviou-se o queneu do meio de Amaleque.
+15:7 E feriu Saul Amaleque, desde Havilá, ao vires a Sur, que [está] diante do Egito.
+15:8 E capturou Agague, rei de Amaleque, vivo; e a todo o povo consagrou ao extermínio à boca da espada.
+15:9 E teve compaixão Saul, e o povo, de Agague, e do melhor das ovelhas, e dos bois, e dos segundos, e dos cordeiros, e de todo o bom; e não quiseram consagrá-los ao extermínio; e toda obra desprezível e frágil, essa consagraram ao extermínio.
+15:10 E foi a palavra de YHWH a Samuel, dizendo:
+15:11 Arrependi-me de ter feito Saul reinar como rei; porque voltou de atrás de mim, e as minhas palavras não cumpriu. E inflamou-se Samuel, e clamou a YHWH toda a noite.
+15:12 E Samuel madrugou para ir ao encontro de Saul pela manhã; e foi contado a Samuel, dizendo: Veio Saul ao Carmelo, e eis que está erguendo para si uma mão; e rodeou, e passou, e desceu ao Gilgal.
+15:13 E veio Samuel a Saul; e Saul disse-lhe: Bendito [sejas] tu para YHWH! Cumpri a palavra de YHWH.
+15:14 E disse Samuel: E que [é] esta voz de ovelhas nos meus ouvidos, e a voz de bois que eu ouço?
+15:15 E disse Saul: Do amalequita os trouxeram, porque o povo teve compaixão do melhor das ovelhas e dos bois, a fim de sacrificar a YHWH, teu Deus; e o resto consagramos ao extermínio.
+15:16 E disse Samuel a Saul: Cessa, e contar-te-ei o que YHWH falou a mim esta noite. E disse-lhe: Fala.
+15:17 E disse Samuel: Não é que, se pequeno [és] aos teus olhos, cabeça das tribos de Israel [és] tu? E ungiu-te YHWH por rei sobre Israel.
+15:18 E enviou-te YHWH em um caminho, e disse: Vai, e consagrarás ao extermínio os pecadores, Amaleque, e pelejarás contra ele até os acabar.
+15:19 E por que não ouviste a voz de YHWH, e te lançaste ao despojo, e fizeste o mau aos olhos de YHWH?
+15:20 E disse Saul a Samuel: [Sim,] ouvi a voz de YHWH, e fui pelo caminho por onde YHWH me enviou, e trouxe Agague, rei de Amaleque, e Amaleque consagrei ao extermínio.
+15:21 E tomou o povo do despojo ovelhas e bois, o princípio da coisa consagrada ao extermínio, para sacrificar a YHWH, teu Deus, no Gilgal.
+15:22 E disse Samuel: Tem YHWH prazer em holocaustos e sacrifícios, como em ouvir a voz de YHWH? Eis que ouvir [é] melhor do que sacrifício; atender, do que a gordura de carneiros.
+15:23 Porque pecado de adivinhação [é] a rebeldia; e iniquidade e terafins, a insistência. Porque rejeitaste a palavra de YHWH, e rejeitou-te ele de seres rei.
+15:24 E disse Saul a Samuel: Pequei; porque transgredi a boca de YHWH e as tuas palavras; porque temi o povo, e ouvi a sua voz.
+15:25 E agora, levanta, por favor, o meu pecado, e volta comigo, e prostrar-me-ei a YHWH.
+15:26 E disse Samuel a Saul: Não voltarei contigo; porque rejeitaste a palavra de YHWH, e rejeitou-te YHWH de seres rei sobre Israel.
+15:27 E Samuel virou-se para ir, e [Saul] agarrou a orla do seu manto, e rasgou-se.
+15:28 E disse-lhe Samuel: YHWH rasgou hoje de sobre ti o reino de Israel, e deu-o ao teu próximo, melhor do que tu.
+15:29 E também a Perenidade de Israel não mente e não se arrepende; porque não é homem, para se arrepender.
+15:30 E disse: Pequei; agora, honra-me, por favor, diante dos anciãos do meu povo e diante de Israel, e volta comigo, e prostrar-me-ei a YHWH, teu Deus.
+15:31 E voltou Samuel atrás de Saul, e Saul prostrou-se a YHWH.
+15:32 E disse Samuel: Trazei-me Agague, rei de Amaleque. E foi a ele Agague, com delícias; e disse Agague: Certamente passou a amargura da morte.
+15:33 E disse Samuel: Como a tua espada privou mulheres de filhos, assim ficará privada de filhos, entre as mulheres, a tua mãe. E Samuel despedaçou Agague diante de YHWH, em Gilgal.
+15:34 E foi Samuel a Ramá; e Saul subiu à sua casa, em Gibeá de Saul.
+15:35 E Samuel não tornou a ver Saul até o dia da sua morte; porque Samuel fez luto por Saul. E YHWH arrependeu-se de ter feito Saul reinar sobre Israel.
+
+16:1 E disse YHWH a Samuel: Até quando farás tu luto por Saul, e eu o rejeitei de reinar sobre Israel? Enche o teu chifre de azeite e vai; enviar-te-ei a Jessé, o belemita; porque vi entre os seus filhos um rei para mim.
+16:2 E disse Samuel: Como irei? E ouvirá Saul, e matar-me-á. E disse YHWH: Tomarás na tua mão uma novilha de gado, e dirás: Para sacrificar a YHWH vim.
+16:3 E chamarás Jessé ao sacrifício, e eu te farei saber o que farás; e ungirás para mim aquele que eu te disser.
+16:4 E fez Samuel o que falou YHWH, e veio a Belém; e os anciãos da cidade estremeceram ao seu encontro, e disse: [É] paz a tua vinda?
+16:5 E disse: Paz; para sacrificar a YHWH vim. Santificai-vos e vinde comigo ao sacrifício. E santificou Jessé e os seus filhos, e chamou-os ao sacrifício.
+16:6 E aconteceu que, ao virem eles, viu Eliabe, e disse: Certamente diante de YHWH [está] o seu ungido.
+16:7 E disse YHWH a Samuel: Não olhes para o seu aspecto, nem para a altura da sua estatura, porque o rejeitei; porque [não é] como vê o homem; porque o homem vê para os olhos, e YHWH vê para o coração.
+16:8 E chamou Jessé a Abinadabe, e fê-lo passar diante de Samuel; e disse: Também a este YHWH não escolheu.
+16:9 E fez Jessé passar Samá; e disse: Também a este YHWH não escolheu.
+16:10 E fez Jessé passar os seus sete filhos diante de Samuel; e disse Samuel a Jessé: YHWH não escolheu a estes.
+16:11 E disse Samuel a Jessé: Acabaram-se os moços? E disse: Ainda resta o pequeno, e eis que apascenta as ovelhas. E disse Samuel a Jessé: Envia e toma-o; porque não nos poremos em volta [da mesa] até que ele venha aqui.
+16:12 E enviou e trouxe-o; e ele [era] ruivo, com belos olhos e bom de aspecto. E disse YHWH: Levanta-te, unge-o, porque este é ele.
+16:13 E tomou Samuel o chifre do azeite e ungiu-o no meio dos seus irmãos; e irrompeu o espírito de YHWH sobre Davi, daquele dia para cima. E levantou-se Samuel e foi a Ramá.
+16:14 E o espírito de YHWH afastou-se de junto de Saul; e aterrorizava-o um espírito mau da parte de YHWH.
+16:15 E disseram a ele os servos de Saul: Eis que agora um espírito mau de Deus te aterroriza.
+16:16 Diga, por favor, o nosso senhor: os teus servos, diante de ti, busquem um homem que saiba tocar a lira; e acontecerá que, quando vier sobre ti o espírito mau de Deus, tocará com a sua mão, e irá bem contigo.
+16:17 E disse Saul aos seus servos: Vede, por favor, para mim um homem que toque bem, e trazei-o a mim.
+16:18 E respondeu um dos moços e disse: Eis que vi um filho de Jessé, o belemita, que sabe tocar, e valente de valor, e homem de guerra, e entendido na palavra, e homem de forma; e YHWH [está] com ele.
+16:19 E enviou Saul mensageiros a Jessé, e disse: Envia-me Davi, teu filho, que [está] com as ovelhas.
+16:20 E tomou Jessé um jumento [carregado] de pão, e um odre de vinho, e um cabrito das cabras, um; e enviou pela mão de Davi, seu filho, a Saul.
+16:21 E veio Davi a Saul, e ficou de pé diante dele; e amou-o muito; e tornou-se para ele o que levava as armas.
+16:22 E enviou Saul a Jessé, dizendo: Fique de pé, por favor, Davi diante de mim, porque achou graça aos meus olhos.
+16:23 E acontecia que, quando o espírito de Deus estava sobre Saul, Davi tomava a lira e tocava com a sua mão; e havia alívio para Saul, e ficava bem, e afastava-se de sobre ele o espírito mau.
