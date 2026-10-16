@@ -1,0 +1,3 @@
+# Juízes 10–21 — nomes próprios novos deste trecho.
+# Formato: lema | forma em português | p/l/g/d/r/o
+# Nenhum nome novo: todos já estão em nomes.d/jz.txt (e em nomes.txt / outros livros).

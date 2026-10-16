@@ -2,7 +2,7 @@
 # Formato: lema da OSHB | significado | grau: sentido…
 
 693 | emboscar, armar emboscada | p: pôr emboscada
-5633 a | chefe (dos filisteus, *seren*)
+5633 a | governante (dos filisteus, *seren*)
 7451 | mau, mal
 1492 | velo, lã tosquiada
 8252 | sossegar, ter descanso

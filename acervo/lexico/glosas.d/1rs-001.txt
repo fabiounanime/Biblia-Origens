@@ -33,7 +33,7 @@
 7799 | lírio
 7948 | junta, travessa
 3914 | grinalda
-1543 | globo, bacia, fonte
+1543 | bacia, globo, fonte
 484 | almugue (madeira)
 130 | edomita
 8251 | coisa detestável, ídolo

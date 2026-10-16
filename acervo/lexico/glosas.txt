@@ -954,7 +954,7 @@
 5117 | repousar
 6158 | corvo
 4494 | descanso, lugar de repouso
-2342 a | p: esperar
+2342 a | dançar, girar | p: esperar
 2132 | oliveira
 2965 | arrancado, fresco
 3176 | N: esperar
@@ -1213,7 +1213,7 @@
 6760 | mancar
 7521 | aceitar, agradar-se
 5763 | amamentar, criar
-1849 | forçar (a marcha)
+1849 | t: bater (à porta), insistir
 328 b | devagar, com calma
 5521 | cabana
 2513 a | porção (de campo)
@@ -1406,7 +1406,7 @@
 7998 | despojo
 2590 b | embalsamamento
 1068 | pranto
-7393 | carros
+7393 | carros, cavalaria | pedra de cima (do moinho)
 6571 b | cavaleiro
 4553 | lamentação
 577 | ah!, por favor

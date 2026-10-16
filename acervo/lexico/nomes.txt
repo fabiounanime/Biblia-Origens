@@ -437,7 +437,7 @@
 3503 | Jetro | p
 2722 | Horebe | l
 175 | Arão | p
-3500 | Jetro (*Jéter*) | p
+3500 | Jéter | p
 3845 | Libni | p
 8096 | Simei | p
 6019 | Anrão | p
