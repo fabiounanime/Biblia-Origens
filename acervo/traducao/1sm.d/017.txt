@@ -1,0 +1,431 @@
+# 1 Samuel 17–31 — tradução direta do hebraico (Códice de Leningrado)
+# Continuação de 1 Samuel 1–16 (1sm.d/001.txt), com as mesmas convenções e as mesmas formas de nomes.
+#   - יהוה = YHWH; [colchetes]: palavra que não existe no hebraico; o vav é "E".
+#   - Onde o texto tem ketiv e qere, traduz-se o qere (17:7, 17:23, 18:1, 18:6, 18:7, 18:9, 19:18, 19:19,
+#     19:22, 19:23, 20:1, 20:2, 20:24, 20:38, 21:12, 21:14, 22:13, 22:15, 22:17, 22:18, 22:22, 23:5, 24:5,
+#     24:9, 24:19, 25:3, 25:18, 25:34, 26:5, 26:7, 26:11, 26:16, 26:22, 27:4, 27:8, 28:8, 29:5, 30:6).
+#   - Infinitivo absoluto em dobro ao pé da letra ("fazendo farás", "alcançando alcançarás").
+#   - Vocabulário fixo (de Gênesis a Juízes e de 1 Samuel 1–16): הֶחֱרִים = consagrar ao extermínio;
+#     רֵעַ = próximo; נְבָלָה = loucura; בְּנֵי בְלִיַּעַל = filhos de vileza; מָשִׁיחַ = ungido;
+#     סְרָנִים = governantes (dos filisteus); נשא כלים = o que levava as armas; לֵךְ = Vai.
+#   - Vocabulário próprio de 1 Samuel 17–31: חֲנִית = lança; מַעְגָּל = barricada;
+#     צַפַּחַת = botija; תַּרְדֵּמָה = sono profundo; אוֹב = necromante; יִדְּעֹנִי = adivinho;
+#     פָּשַׁט = fazer incursão; גְּדוּד = bando; כְּלִי = utensílio (armas, bagagem);
+#     פָּקַד (nifal) = sentir a falta. אֱלֹהִים com verbo ou particípio no plural = deuses (28:13).
+#   - Os vv. 17:12–31, 17:55–18:5, 18:10–11 e 18:17–19 faltam em parte dos testemunhos gregos; traduz-se o
+#     texto massorético inteiro (veja as notas). A numeração de 24 segue o hebraico (24:1 = 23:29 nas
+#     Bíblias em português).
+
+17:1 E os filisteus reuniram os seus acampamentos para a guerra; e reuniram-se em Socó, que [é] de Judá; e acamparam entre Socó e entre Azeca, em Efes-Damim.
+17:2 E Saul e o homem de Israel reuniram-se e acamparam no vale de Elá; e dispuseram guerra ao encontro dos filisteus.
+17:3 E os filisteus [estavam] de pé sobre o monte, deste lado, e Israel [estava] de pé sobre o monte, deste lado; e o vale [estava] entre eles.
+17:4 E saiu dos acampamentos dos filisteus o homem do intervalo, Golias o seu nome, de Gate; a sua altura, seis côvados e um palmo.
+17:5 E um capacete de bronze [estava] sobre a sua cabeça, e uma couraça de escamas, ele [estava] vestido; e o peso da couraça, cinco mil siclos de bronze.
+17:6 E uma caneleira de bronze sobre as suas pernas, e um dardo de bronze entre os seus ombros.
+17:7 E a madeira da sua lança [era] como o rolo dos tecelões; e a lâmina da sua lança, seiscentos siclos de ferro; e o que levava o escudo grande ia diante dele.
+17:8 E pôs-se de pé e chamou as fileiras de Israel e disse-lhes: Por que saís para dispor guerra? Acaso não [sou] eu o filisteu, e vós servos de Saul? Escolhei para vós um homem, e desça a mim.
+17:9 Se puder pelejar comigo e ferir-me, e seremos para vós por servos; e se eu puder contra ele e feri-lo, e sereis para nós por servos, e nos servireis.
+17:10 E disse o filisteu: Eu afrontei as fileiras de Israel neste dia; dai-me um homem, e pelejemos juntamente.
+17:11 E ouviu Saul e todo o Israel estas palavras do filisteu, e apavoraram-se e temeram muito.
+17:12 E Davi [era] filho deste homem efrateu, de Belém de Judá, e o seu nome [era] Jessé; e tinha oito filhos; e o homem, nos dias de Saul, [era] velho, vindo entre os homens.
+17:13 E foram os três maiores filhos de Jessé; foram atrás de Saul para a guerra; e o nome dos seus três filhos que foram à guerra: Eliabe, o primogênito, e o seu segundo, Abinadabe, e o terceiro, Samá.
+17:14 E Davi, ele [era] o menor; e os três maiores foram atrás de Saul.
+17:15 E Davi andava e voltava de junto de Saul, para apascentar as ovelhas do seu pai em Belém.
+17:16 E o filisteu aproximou-se, madrugando e entardecendo, e postou-se quarenta dias.
+17:17 E disse Jessé a Davi, seu filho: Toma, por favor, para os teus irmãos, um efa deste grão tostado e estes dez pães, e faze correr [isto] ao acampamento, para os teus irmãos.
+17:18 E estas dez fatias de leite trarás ao chefe do mil; e os teus irmãos visitarás quanto à paz; e o penhor deles tomarás.
+17:19 E Saul, e eles, e todo homem de Israel [estavam] no vale de Elá, pelejando com os filisteus.
+17:20 E Davi madrugou pela manhã e deixou as ovelhas sobre um guarda; e levantou [a carga] e foi, como Jessé lhe ordenara; e veio à barricada, e a força que saía para a fileira; e davam brados na guerra.
+17:21 E dispôs Israel, e os filisteus, fileira ao encontro de fileira.
+17:22 E Davi deixou os utensílios de sobre si, sobre a mão do guarda dos utensílios, e correu à fileira; e veio e perguntou aos seus irmãos pela paz.
+17:23 E ele [estava] falando com eles, e eis que o homem do intervalo subia, Golias, o filisteu, o seu nome, de Gate, das fileiras dos filisteus; e falou conforme estas palavras; e Davi ouviu.
+17:24 E todo homem de Israel, ao vê-lo, o homem, fugiram da sua face e temeram muito.
+17:25 E disse o homem de Israel: Vistes este homem que sobe? Pois para afrontar Israel sobe; e será que o homem que o ferir, o rei o enriquecerá com grande riqueza, e a sua filha dar-lhe-á, e a casa do seu pai fará livre em Israel.
+17:26 E disse Davi aos homens que estavam com ele, dizendo: O que se fará ao homem que ferir aquele filisteu e remover a vergonha de sobre Israel? Pois quem [é] este filisteu, o incircunciso, que afrontou as fileiras do Deus vivo?
+17:27 E disse-lhe o povo conforme esta palavra, dizendo: Assim se fará ao homem que o ferir.
+17:28 E ouviu Eliabe, seu irmão maior, ao falar ele aos homens; e acendeu-se a ira de Eliabe contra Davi, e disse: Por que, pois, desceste, e sobre quem deixaste aquelas poucas ovelhas no deserto? Eu conheço a tua presunção e a ruindade do teu coração; pois para ver a guerra desceste.
+17:29 E disse Davi: O que fiz eu agora? Acaso não [é] uma palavra?
+17:30 E virou-se de junto dele para diante de outro, e disse conforme esta palavra; e o povo fê-lo voltar [com] palavra conforme a primeira palavra.
+17:31 E foram ouvidas as palavras que Davi falou, e contaram-nas diante de Saul; e tomou-o.
+17:32 E disse Davi a Saul: Não caia sobre ele o coração do homem; o teu servo irá e pelejará com este filisteu.
+17:33 E disse Saul a Davi: Não podes ir a este filisteu para pelejar com ele, porque moço [és] tu, e ele [é] homem de guerra desde a sua mocidade.
+17:34 E disse Davi a Saul: Pastor era o teu servo para o seu pai, nas ovelhas; e vinha o leão e o urso, e levava um cordeiro do rebanho;
+17:35 e eu saía atrás dele, e feria-o, e [o] livrava da sua boca; e levantava-se contra mim, e eu o segurava pela sua barba, e feria-o e matava-o.
+17:36 Também o leão, também o urso, feriu o teu servo; e este filisteu, o incircunciso, será como um deles, porque afrontou as fileiras do Deus vivo.
+17:37 E disse Davi: YHWH, que me livrou da mão do leão e da mão do urso, ele me livrará da mão deste filisteu. E disse Saul a Davi: Vai, e YHWH seja contigo.
+17:38 E Saul vestiu Davi com as suas vestes, e pôs um capacete de bronze sobre a sua cabeça, e vestiu-o com uma couraça.
+17:39 E Davi cingiu a sua espada por cima das suas vestes, e começou a andar, porque não [as] provara; e disse Davi a Saul: Não posso andar com estas, porque não [as] provei. E Davi tirou-as de sobre si.
+17:40 E tomou a sua vara na sua mão, e escolheu para si cinco pedras lisas do vale, e pô-las no utensílio dos pastores que [era] seu, e no alforje; e a sua funda [estava] na sua mão; e aproximou-se do filisteu.
+17:41 E o filisteu foi, indo e aproximando-se de Davi; e o homem que levava o escudo grande [ia] diante dele.
+17:42 E o filisteu olhou e viu Davi, e desprezou-o, porque era moço, e ruivo, com formosa aparência.
+17:43 E disse o filisteu a Davi: Sou eu um cão, que vens a mim com varas? E o filisteu amaldiçoou Davi pelos seus deuses.
+17:44 E disse o filisteu a Davi: Vem a mim, e darei a tua carne à ave dos céus e ao gado do campo.
+17:45 E disse Davi ao filisteu: Tu vens a mim com espada, e com lança, e com dardo; e eu venho a ti em nome de YHWH dos Exércitos, Deus das fileiras de Israel, que afrontaste.
+17:46 Neste dia YHWH te entregará na minha mão, e ferir-te-ei e removerei a tua cabeça de sobre ti; e darei o cadáver do acampamento dos filisteus, neste dia, à ave dos céus e ao animal da terra; e saberá toda a terra que há Deus para Israel;
+17:47 e saberá toda esta assembleia que não é com espada e com lança que YHWH salva; porque de YHWH [é] a guerra, e ele vos dará na nossa mão.
+17:48 E foi que, quando o filisteu se levantou e foi e aproximou-se ao encontro de Davi, Davi apressou-se e correu à fileira ao encontro do filisteu.
+17:49 E Davi estendeu a sua mão ao utensílio e tomou dali uma pedra, e atirou com a funda, e feriu o filisteu na sua testa; e a pedra afundou-se na sua testa, e caiu sobre a sua face, por terra.
+17:50 E Davi foi mais forte do que o filisteu, com a funda e com a pedra; e feriu o filisteu e matou-o; e espada não [havia] na mão de Davi.
+17:51 E Davi correu e pôs-se de pé junto ao filisteu, e tomou a sua espada e desembainhou-a da sua bainha, e matou-o, e cortou com ela a sua cabeça. E viram os filisteus que o seu valente morrera, e fugiram.
+17:52 E levantaram-se os homens de Israel e de Judá, e deram brados, e perseguiram os filisteus até chegares ao vale e até as portas de Ecrom; e caíram os mortos dos filisteus no caminho de Saaraim, e até Gate e até Ecrom.
+17:53 E voltaram os filhos de Israel de perseguir ardentemente atrás dos filisteus, e saquearam os seus acampamentos.
+17:54 E Davi tomou a cabeça do filisteu e trouxe-a a Jerusalém; e os utensílios dele pôs na sua tenda.
+17:55 E quando Saul viu Davi saindo ao encontro do filisteu, disse a Abner, chefe do exército: Filho de quem [é] este moço, Abner? E disse Abner: Viva a tua alma, ó rei, se eu [o] conheço!
+17:56 E disse o rei: Pergunta tu de quem [é] filho este jovem.
+17:57 E quando Davi voltou de ferir o filisteu, Abner tomou-o e trouxe-o diante de Saul; e a cabeça do filisteu [estava] na sua mão.
+17:58 E disse-lhe Saul: Filho de quem [és] tu, moço? E disse Davi: Filho do teu servo Jessé, o belemita.
+
+18:1 E foi que, ao acabar ele de falar a Saul, a alma de Jônatas foi atada à alma de Davi; e Jônatas amou-o como à sua alma.
+18:2 E Saul tomou-o naquele dia e não o deixou voltar à casa do seu pai.
+18:3 E cortou Jônatas, e Davi, aliança, no seu amor por ele como pela sua alma.
+18:4 E Jônatas despiu-se do manto que [estava] sobre ele e deu-o a Davi, e as suas vestes, e até a sua espada, e até o seu arco, e até o seu cinto.
+18:5 E Davi saía; em tudo a que Saul o enviava, agia com entendimento; e Saul pô-lo sobre os homens da guerra; e foi bom aos olhos de todo o povo, e também aos olhos dos servos de Saul.
+18:6 E foi que, ao virem eles, ao voltar Davi de ferir o filisteu, saíram as mulheres de todas as cidades de Israel para cantar e [para] as danças, ao encontro de Saul, o rei, com tamboris, com alegria e com triângulos.
+18:7 E responderam as mulheres que folgavam, e disseram: Feriu Saul nos seus milhares, e Davi nas suas dezenas de milhares.
+18:8 E Saul inflamou-se muito, e foi mau aos seus olhos esta palavra; e disse: Deram a Davi dezenas de milhares, e a mim deram os milhares; e ainda [lhe resta] somente a realeza.
+18:9 E Saul estava olhando com suspeita Davi, daquele dia e adiante.
+18:10 E foi, no dia seguinte, que irrompeu sobre Saul um espírito mau de Deus, e profetizou no meio da casa, enquanto Davi tocava com a sua mão, como dia a dia; e a lança [estava] na mão de Saul.
+18:11 E Saul arremessou a lança e disse: Ferirei em Davi e na parede! E Davi virou-se da sua face duas vezes.
+18:12 E Saul temeu diante de Davi, porque YHWH estava com ele, e de junto de Saul se afastara.
+18:13 E Saul removeu-o de junto de si e pô-lo por chefe de mil; e saía e entrava diante do povo.
+18:14 E Davi, em todos os seus caminhos, [era] o que agia com entendimento; e YHWH [estava] com ele.
+18:15 E Saul viu que ele agia com muito entendimento, e teve pavor diante dele.
+18:16 E todo Israel e Judá amava Davi, porque ele saía e entrava diante deles.
+18:17 E disse Saul a Davi: Eis a minha filha maior, Merabe; dar-ta-ei por mulher; somente sê-me filho de força e peleja as guerras de YHWH. E Saul disse: Não seja a minha mão contra ele, e seja contra ele a mão dos filisteus.
+18:18 E disse Davi a Saul: Quem [sou] eu, e quem [é] a minha vida, a família do meu pai, em Israel, que eu seja genro do rei?
+18:19 E foi que, no tempo de dar Merabe, filha de Saul, a Davi, ela foi dada a Adriel, o meolatita, por mulher.
+18:20 E Mical, filha de Saul, amou Davi; e contaram a Saul, e a coisa foi reta aos seus olhos.
+18:21 E disse Saul: Dá-la-ei a ele, e seja-lhe por laço, e seja contra ele a mão dos filisteus. E disse Saul a Davi: Com duas te aparentarás comigo por casamento hoje.
+18:22 E Saul ordenou aos seus servos: Falai a Davi em segredo, dizendo: Eis que o rei tem prazer em ti, e todos os seus servos amam-te; e agora, aparenta-te com o rei por casamento.
+18:23 E os servos de Saul falaram estas palavras aos ouvidos de Davi; e disse Davi: Acaso [é] leve aos vossos olhos aparentar-se com o rei por casamento, e eu [sou] homem pobre e de pouca conta?
+18:24 E os servos de Saul contaram-lhe, dizendo: Conforme estas palavras falou Davi.
+18:25 E disse Saul: Assim direis a Davi: Não há desejo para o rei em dote, mas em cem prepúcios de filisteus, para vingar-se nos inimigos do rei. E Saul pensou em fazer cair Davi na mão dos filisteus.
+18:26 E os seus servos contaram a Davi estas palavras, e a coisa foi reta aos olhos de Davi, para aparentar-se com o rei por casamento. E os dias não se encheram;
+18:27 e Davi levantou-se e foi, ele e os seus homens, e feriu entre os filisteus duzentos homens; e Davi trouxe os seus prepúcios, e completaram-nos para o rei, para aparentar-se com o rei por casamento. E Saul deu-lhe Mical, sua filha, por mulher.
+18:28 E Saul viu e soube que YHWH [estava] com Davi; e Mical, filha de Saul, amava-o.
+18:29 E Saul acrescentou ainda a temer diante de Davi; e Saul foi inimigo de Davi todos os dias.
+18:30 E saíram os chefes dos filisteus; e foi que, cada vez que saíam, Davi agiu com entendimento mais do que todos os servos de Saul; e o seu nome foi muito estimado.
+
+19:1 E Saul falou a Jônatas, seu filho, e a todos os seus servos, para matar Davi; e Jônatas, filho de Saul, tinha muito prazer em Davi.
+19:2 E Jônatas contou a Davi, dizendo: Saul, meu pai, procura matar-te; e agora, guarda-te, por favor, pela manhã, e assenta-te no oculto e esconde-te.
+19:3 E eu sairei e ficarei de pé ao lado do meu pai, no campo onde tu [estás] ali; e eu falarei de ti ao meu pai, e verei o que [há], e contar-te-ei.
+19:4 E Jônatas falou bem de Davi a Saul, seu pai, e disse-lhe: Não peque o rei contra o seu servo, contra Davi, porque não pecou contra ti, e porque as suas obras [são] muito boas para ti.
+19:5 E pôs a sua alma na sua palma e feriu o filisteu, e YHWH fez uma grande salvação para todo Israel; viste e alegraste-te; e por que pecarás em sangue inocente, matando Davi sem causa?
+19:6 E Saul ouviu a voz de Jônatas, e Saul jurou: Vive YHWH, se ele for morto!
+19:7 E Jônatas chamou Davi, e Jônatas contou-lhe todas estas palavras; e Jônatas trouxe Davi a Saul, e esteve diante dele como ontem [e] anteontem.
+19:8 E a guerra tornou a haver; e Davi saiu e pelejou contra os filisteus, e feriu-os com um grande golpe, e fugiram da sua face.
+19:9 E um espírito de YHWH, mau, foi sobre Saul; e ele [estava] sentado na sua casa, e a sua lança na sua mão; e Davi tocava com a mão.
+19:10 E Saul procurou ferir com a lança em Davi e na parede; e esquivou-se da face de Saul, e cravou a lança na parede; e Davi fugiu e escapou, naquela noite.
+19:11 E Saul enviou mensageiros à casa de Davi, para guardá-lo e para matá-lo pela manhã; e Mical, sua mulher, contou a Davi, dizendo: Se não pões a salvo a tua alma esta noite, amanhã tu [és] morto.
+19:12 E Mical fez Davi descer pela janela; e ele foi e fugiu e escapou.
+19:13 E Mical tomou os terafins e [os] pôs na cama; e o trançado das cabras pôs à sua cabeceira, e cobriu com a veste.
+19:14 E Saul enviou mensageiros para tomar Davi; e ela disse: Ele [está] doente.
+19:15 E Saul enviou os mensageiros para ver Davi, dizendo: Fazei-o subir a mim na cama, para matá-lo.
+19:16 E os mensageiros vieram, e eis os terafins na cama, e o trançado das cabras à sua cabeceira.
+19:17 E disse Saul a Mical: Por que assim me enganaste e despediste o meu inimigo, e escapou? E disse Mical a Saul: Ele me disse: Despede-me! Por que eu te mataria?
+19:18 E Davi fugira e escapara, e veio a Samuel, a Ramá, e contou-lhe tudo o que Saul lhe fizera; e foi ele e Samuel, e ficaram em Naiote.
+19:19 E foi contado a Saul, dizendo: Eis Davi em Naiote, em Ramá.
+19:20 E Saul enviou mensageiros para tomar Davi; e viu o grupo dos profetas profetizando, e Samuel de pé, postado sobre eles; e veio sobre os mensageiros de Saul o espírito de Deus, e profetizaram, também eles.
+19:21 E contaram a Saul, e enviou outros mensageiros, e profetizaram, também eles; e Saul acrescentou e enviou mensageiros terceiros, e profetizaram, também eles.
+19:22 E foi também ele a Ramá, e veio até a grande cova que [está] em Seco; e perguntou e disse: Onde [estão] Samuel e Davi? E disse [alguém]: Eis [estão] em Naiote, em Ramá.
+19:23 E foi para lá, a Naiote, em Ramá; e veio sobre ele, também ele, o espírito de Deus; e foi, andando, e profetizou, até entrar ele em Naiote, em Ramá.
+19:24 E despiu, também ele, as suas vestes, e profetizou, também ele, diante de Samuel; e caiu nu todo aquele dia e toda a noite. Por isso dizem: Também Saul entre os profetas?
+
+20:1 E Davi fugiu de Naiote, em Ramá, e veio e disse diante de Jônatas: O que fiz? Qual [é] a minha iniquidade, e qual o meu pecado diante do teu pai, porque busca a minha alma?
+20:2 E disse-lhe: Longe disso! Não morrerás. Eis que meu pai não faz coisa grande ou coisa pequena e não descobre o meu ouvido; e por que esconderia meu pai de mim esta coisa? Não [é] assim.
+20:3 E jurou ainda Davi e disse: Sabendo, sabe o teu pai que achei graça aos teus olhos; e disse: Não saiba isto Jônatas, para que não se magoe. E, porém, vive YHWH, e vive a tua alma, que como um passo [há] entre mim e entre a morte.
+20:4 E disse Jônatas a Davi: O que diz a tua alma? E eu farei por ti.
+20:5 E disse Davi a Jônatas: Eis que amanhã [é] o novilúnio, e eu, sentando-me, sentar-me-ei com o rei para comer; e despedir-me-ás, e esconder-me-ei no campo até a tarde do terceiro [dia].
+20:6 Se o teu pai, dando pela minha falta, der pela minha falta, e dirás: Pedindo, Davi pediu de mim [licença] para correr a Belém, a sua cidade, porque ali [há] o sacrifício dos dias para toda a família.
+20:7 Se assim disser: Bom, paz para o teu servo; e se, inflamando-se, se inflamar contra ele, sabe que se consumou o mal de junto dele.
+20:8 E faze bondade com o teu servo, porque em aliança de YHWH trouxeste contigo o teu servo; e se há em mim iniquidade, mata-me tu; e até o teu pai, por que, pois, me trarias?
+20:9 E disse Jônatas: Longe de ti! Mas se, sabendo, eu souber que se consumou o mal de junto do meu pai para vir sobre ti, e não to contarei?
+20:10 E disse Davi a Jônatas: Quem me contará, ou o que te responderá o teu pai duramente?
+20:11 E disse Jônatas a Davi: Vem, e saiamos ao campo. E saíram ambos ao campo.
+20:12 E disse Jônatas a Davi: YHWH, Deus de Israel! Quando eu sondar o meu pai como o tempo [de agora], amanhã, [ou] o terceiro [dia], e eis [que há] bem para Davi, e não então enviarei a ti e descobrirei o teu ouvido?
+20:13 Assim faça YHWH a Jônatas, e assim acrescente: se agradar a meu pai [fazer] o mal sobre ti, descobrirei o teu ouvido e despedir-te-ei, e irás em paz; e seja YHWH contigo, como foi com o meu pai.
+20:14 E não: se ainda [estou] vivo, e não farás comigo a bondade de YHWH, e não morrerei;
+20:15 e não cortarás a tua bondade de junto da minha casa para sempre; e não [mesmo] quando YHWH cortar os inimigos de Davi, cada homem, de sobre a face do solo.
+20:16 E Jônatas cortou [aliança] com a casa de Davi: E pedirá [contas] YHWH da mão dos inimigos de Davi.
+20:17 E Jônatas tornou a fazer jurar Davi, no seu amor por ele; porque o amava [com] o amor da sua alma.
+20:18 E disse-lhe Jônatas: Amanhã [é] o novilúnio, e será sentida a tua falta, porque será sentida a falta do teu lugar.
+20:19 E ao terceiro [dia] descerás muito, e virás ao lugar onde te escondeste no dia da obra, e ficarás junto à pedra Ezel.
+20:20 E eu atirarei as três flechas ao seu lado, para enviar para mim a um alvo.
+20:21 E eis que enviarei o moço: Vai, acha as flechas! Se, dizendo, eu disser ao moço: Eis que as flechas [estão] de ti e para cá, toma-as e vem — porque paz [há] para ti, e não [há] coisa [alguma], vive YHWH.
+20:22 E se assim eu disser ao jovem: Eis que as flechas [estão] de ti e para lá, vai, porque YHWH te despediu.
+20:23 E a palavra que falamos, eu e tu, eis que YHWH [está] entre mim e entre ti para sempre.
+20:24 E Davi escondeu-se no campo; e foi o novilúnio, e o rei sentou-se ao pão para comer.
+20:25 E o rei sentou-se no seu lugar, como vez em vez, no lugar junto à parede; e Jônatas levantou-se, e Abner sentou-se ao lado de Saul; e foi sentida a falta do lugar de Davi.
+20:26 E Saul não falou coisa alguma naquele dia, porque disse: Um acaso [é]; ele não [está] limpo; pois não [está] limpo.
+20:27 E foi, no dia seguinte ao novilúnio, o segundo, que foi sentida a falta do lugar de Davi; e disse Saul a Jônatas, seu filho: Por que não veio o filho de Jessé, nem ontem nem hoje, ao pão?
+20:28 E Jônatas respondeu a Saul: Pedindo, Davi pediu [licença] de junto de mim, até Belém.
+20:29 E disse: Despede-me, por favor, porque temos sacrifício de família na cidade, e ele, o meu irmão, ordenou-me; e agora, se achei graça aos teus olhos, escape eu, por favor, e veja os meus irmãos. Por isso não veio à mesa do rei.
+20:30 E acendeu-se a ira de Saul contra Jônatas, e disse-lhe: Filho da pervertida da rebeldia! Acaso não sei que escolhes o filho de Jessé, para a tua vergonha e para a vergonha da nudez da tua mãe?
+20:31 Porque todos os dias em que o filho de Jessé viver sobre o solo, não estarás firme, tu e o teu reino. E agora, envia e toma-o a mim, porque filho da morte [é] ele.
+20:32 E Jônatas respondeu a Saul, seu pai, e disse-lhe: Por que será morto? O que fez?
+20:33 E Saul arremessou a lança contra ele, para feri-lo; e Jônatas soube que ela [era] uma consumação, da parte de seu pai, para matar Davi.
+20:34 E Jônatas levantou-se de junto da mesa, em ardor de ira, e não comeu pão no dia do novilúnio, o segundo, porque se magoou por Davi, porque o seu pai o envergonhara.
+20:35 E foi, pela manhã, que Jônatas saiu ao campo, para o tempo determinado com Davi, e um moço pequeno com ele.
+20:36 E disse ao seu moço: Corre, acha, por favor, as flechas que eu atiro. O moço correu, e ele atirou a flecha para fazê-lo passar.
+20:37 E o moço veio até o lugar da flecha que Jônatas atirara; e Jônatas chamou atrás do moço e disse: Acaso a flecha [não está] de ti e para lá?
+20:38 E Jônatas chamou atrás do moço: Depressa! Apressa-te! Não te detenhas! E o moço de Jônatas ajuntou as flechas e veio ao seu senhor.
+20:39 E o moço não sabia coisa alguma; somente Jônatas e Davi sabiam o assunto.
+20:40 E Jônatas deu os seus utensílios ao moço que [era] seu, e disse-lhe: Vai, traze [-os] à cidade.
+20:41 O moço veio; e Davi levantou-se de junto do Neguebe, e caiu sobre o seu rosto por terra, e prostrou-se três vezes; e beijaram-se, cada homem ao seu próximo, e choraram, cada homem pelo seu próximo, até que Davi engrandeceu.
+20:42 E disse Jônatas a Davi: Vai em paz — o que juramos, nós dois, nós, em nome de YHWH, dizendo: YHWH seja entre mim e entre ti, e entre a minha semente e entre a tua semente, para sempre.
+
+21:1 E levantou-se e foi; e Jônatas entrou na cidade.
+21:2 E Davi veio a Nobe, a Aimeleque, o sacerdote; e Aimeleque estremeceu ao encontro de Davi, e disse-lhe: Por que [estás] tu só, e homem nenhum [está] contigo?
+21:3 E disse Davi a Aimeleque, o sacerdote: O rei ordenou-me um assunto, e disse-me: Homem nenhum saiba coisa alguma do assunto que eu te envio e que te ordenei; e aos moços fiz saber [o encontro] ao lugar de fulano de tal.
+21:4 E agora, o que há debaixo da tua mão? Cinco [pães], dá na minha mão; ou o que for achado.
+21:5 E o sacerdote respondeu a Davi e disse: Não há pão comum debaixo da minha mão, mas há pão santo, se os moços se guardaram, ao menos de mulher.
+21:6 E Davi respondeu ao sacerdote e disse-lhe: Mas mulher nos foi retida, como ontem [e] anteontem, ao sair eu; e os utensílios dos moços foram santos, e ele [é] caminho comum; e quanto mais, porque hoje se santificará no utensílio.
+21:7 E o sacerdote deu-lhe [o pão] santo, porque não havia ali pão senão o pão da face, os removidos de diante de YHWH, para pôr pão quente no dia de ser tomado.
+21:8 E ali [estava] um homem dos servos de Saul, naquele dia, retido diante de YHWH; e o seu nome [era] Doegue, o edomita, o poderoso dos pastores que [eram] de Saul.
+21:9 E disse Davi a Aimeleque: E acaso não há aqui, debaixo da tua mão, lança ou espada? Pois nem a minha espada nem os meus utensílios tomei na minha mão, porque o assunto do rei era urgente.
+21:10 E disse o sacerdote: A espada de Golias, o filisteu, que feriste no vale de Elá, eis que ela [está] envolta na capa, atrás do éfode; se essa tomares para ti, toma; porque não há outra, exceto ela, aqui. E disse Davi: Não há como ela; dá-ma.
+21:11 E Davi levantou-se e fugiu, naquele dia, da face de Saul, e veio a Aquis, rei de Gate.
+21:12 E disseram os servos de Aquis a ele: Acaso não [é] este Davi, rei da terra? Acaso não [é] a este que respondiam nas danças, dizendo: Feriu Saul nos seus milhares, e Davi nas suas dezenas de milhares?
+21:13 E Davi pôs estas palavras no seu coração, e temeu muito diante de Aquis, rei de Gate.
+21:14 E mudou o seu sabor aos olhos deles, e agiu como louco nas mãos deles, e rabiscou sobre as portas da porta, e fez descer a sua baba sobre a sua barba.
+21:15 E disse Aquis aos seus servos: Eis que vedes um homem que se faz de louco; por que o trazeis a mim?
+21:16 Carente de loucos [sou] eu, porque trouxestes este para fazer-se de louco sobre mim? Este virá à minha casa?
+
+22:1 E Davi foi dali e escapou para a caverna de Adulão; e ouviram os seus irmãos e toda a casa do seu pai, e desceram a ele ali.
+22:2 E ajuntaram-se a ele todo homem em aperto, e todo homem que tinha um credor, e todo homem amargo de alma; e foi sobre eles por chefe; e estavam com ele cerca de quatrocentos homens.
+22:3 E Davi foi dali a Mispa de Moabe, e disse ao rei de Moabe: Saia, por favor, meu pai e minha mãe convosco, até que eu saiba o que Deus fará por mim.
+22:4 E conduziu-os à face do rei de Moabe; e ficaram com ele todos os dias em que Davi esteve na fortaleza.
+22:5 E disse Gade, o profeta, a Davi: Não fiques na fortaleza; vai, e entra para ti na terra de Judá. E Davi foi e entrou no bosque de Herete.
+22:6 E Saul ouviu que Davi fora conhecido, e os homens que [estavam] com ele; e Saul [estava] sentado em Gibeá, debaixo da tamargueira, em Ramá, e a sua lança na sua mão, e todos os seus servos de pé sobre ele.
+22:7 E disse Saul aos seus servos que estavam de pé sobre ele: Ouvi, por favor, filhos do benjamita! Também a todos vós dará o filho de Jessé campos e vinhas? A todos vós porá chefes de mil e chefes de cem?
+22:8 Porque conspirastes todos contra mim, e não há quem descubra o meu ouvido quando o meu filho corta [aliança] com o filho de Jessé; e não há quem de vós esteja doente por mim e descubra o meu ouvido; porque o meu filho levantou o meu servo contra mim, para emboscar, como neste dia.
+22:9 E respondeu Doegue, o edomita — e ele estava de pé sobre os servos de Saul — e disse: Vi o filho de Jessé vindo a Nobe, a Aimeleque, filho de Aitube.
+22:10 E consultou por ele a YHWH, e deu-lhe provisão; e deu-lhe a espada de Golias, o filisteu.
+22:11 E o rei enviou chamar Aimeleque, filho de Aitube, o sacerdote, e toda a casa do seu pai, os sacerdotes que [estavam] em Nobe; e vieram todos eles ao rei.
+22:12 E disse Saul: Ouve, por favor, filho de Aitube. E disse: Eis-me, meu senhor.
+22:13 E disse-lhe Saul: Por que conspirastes contra mim, tu e o filho de Jessé, ao dares-lhe pão e espada, e consultando por ele a Deus, para levantar-se contra mim, para emboscar, como neste dia?
+22:14 E Aimeleque respondeu ao rei e disse: E quem entre todos os teus servos [é] como Davi, fiel, e genro do rei, e que se desvia para a tua audiência, e honrado na tua casa?
+22:15 Hoje comecei a consultar por ele a Deus? Longe de mim! Não ponha o rei coisa alguma sobre o seu servo, sobre toda a casa do meu pai; porque o teu servo não soube de tudo isto coisa pequena ou grande.
+22:16 E disse o rei: Morrendo morrerás, Aimeleque, tu e toda a casa do teu pai.
+22:17 E disse o rei aos corredores que estavam de pé sobre ele: Virai-vos e matai os sacerdotes de YHWH, porque também a mão deles [está] com Davi, e porque sabiam que ele fugia e não descobriram o meu ouvido. E os servos do rei não quiseram estender a sua mão para investir contra os sacerdotes de YHWH.
+22:18 E disse o rei a Doegue: Vira-te tu e investe contra os sacerdotes. E virou-se Doegue, o edomita, e ele investiu contra os sacerdotes, e matou naquele dia oitenta e cinco homens que levavam o éfode de linho.
+22:19 E Nobe, a cidade dos sacerdotes, feriu à boca da espada: desde o homem e até a mulher, desde a criancinha e até o que mama; e boi, e jumento, e cordeiro, à boca da espada.
+22:20 E escapou um filho de Aimeleque, filho de Aitube, e o seu nome [era] Abiatar; e fugiu atrás de Davi.
+22:21 E Abiatar contou a Davi que Saul matara os sacerdotes de YHWH.
+22:22 E disse Davi a Abiatar: Eu sabia, naquele dia, que ali [estava] Doegue, o edomita, que, contando, contaria a Saul; eu rodeei, em toda alma da casa do teu pai.
+22:23 Fica comigo, não temas; porque quem busca a minha alma busca a tua alma; porque guarda [és] tu comigo.
+
+23:1 E contaram a Davi, dizendo: Eis que os filisteus estão pelejando contra Queila, e eles estão saqueando as eiras.
+23:2 E Davi consultou a YHWH, dizendo: Irei, e ferirei estes filisteus? E disse YHWH a Davi: Vai, e ferirás os filisteus e salvarás Queila.
+23:3 E disseram os homens de Davi a ele: Eis que nós aqui, em Judá, [estamos] temerosos; e quanto mais se formos a Queila, às fileiras dos filisteus!
+23:4 E Davi tornou a consultar a YHWH, e YHWH respondeu-lhe e disse: Levanta-te, desce a Queila, porque eu estou dando os filisteus na tua mão.
+23:5 E Davi foi, e os seus homens, a Queila, e pelejou contra os filisteus, e conduziu o gado deles, e feriu neles com um grande golpe; e Davi salvou os que habitavam Queila.
+23:6 E foi que, ao fugir Abiatar, filho de Aimeleque, para Davi, a Queila, um éfode desceu na sua mão.
+23:7 E foi contado a Saul que Davi viera a Queila; e disse Saul: Deus o fez estranho, na minha mão, porque se fechou ao entrar numa cidade de duas portas e barra.
+23:8 E Saul convocou todo o povo para a guerra, para descer a Queila, para sitiar Davi e os seus homens.
+23:9 E Davi soube que Saul estava tramando contra ele o mal; e disse a Abiatar, o sacerdote: Faze aproximar o éfode.
+23:10 E disse Davi: YHWH, Deus de Israel, o teu servo, ouvindo, ouviu que Saul procura vir a Queila, para destruir a cidade por minha causa.
+23:11 Entregar-me-ão os senhores de Queila na sua mão? Descerá Saul, como ouviu o teu servo? YHWH, Deus de Israel, conta, por favor, ao teu servo. E disse YHWH: Descerá.
+23:12 E disse Davi: Entregarão os senhores de Queila a mim e aos meus homens na mão de Saul? E disse YHWH: Entregarão.
+23:13 E levantou-se Davi e os seus homens, cerca de seiscentos homens, e saíram de Queila e andaram por onde andaram; e foi contado a Saul que Davi escapara de Queila; e cessou de sair.
+23:14 E Davi ficou no deserto, nas fortalezas, e ficou no monte, no deserto de Zife; e Saul buscou-o todos os dias, e Deus não o deu na sua mão.
+23:15 E Davi viu que Saul saíra para buscar a sua alma; e Davi [estava] no deserto de Zife, em Horesa.
+23:16 E Jônatas, filho de Saul, levantou-se e foi a Davi, a Horesa, e fortaleceu a sua mão em Deus.
+23:17 E disse-lhe: Não temas, porque não te achará a mão de Saul, meu pai; e tu reinarás sobre Israel, e eu serei para ti por segundo; e também Saul, meu pai, sabe assim.
+23:18 E cortaram os dois aliança diante de YHWH; e Davi ficou em Horesa, e Jônatas foi para a sua casa.
+23:19 E subiram os zifeus a Saul, a Gibeá, dizendo: Acaso Davi não se esconde conosco nas fortalezas, em Horesa, na colina de Haquilá, que [está] à direita do ermo?
+23:20 E agora, conforme todo o desejo da tua alma, ó rei, para descer, desce; e a nós [cabe] entregá-lo na mão do rei.
+23:21 E disse Saul: Benditos [sois] vós para YHWH, porque tivestes compaixão de mim.
+23:22 Ide, por favor, preparai ainda, e sabei e vede o seu lugar onde estará o seu pé; quem o viu ali? Porque me disseram: Sendo astuto, age com astúcia ele.
+23:23 E vede e sabei, de todos os esconderijos em que ali se esconde; e voltai a mim com certeza, e irei convosco; e será que, se ele está na terra, procurá-lo-ei entre todos os milhares de Judá.
+23:24 E levantaram-se e foram a Zife, diante de Saul; e Davi e os seus homens [estavam] no deserto de Maom, na Arabá, à direita do ermo.
+23:25 E Saul foi, e os seus homens, para buscar; e contaram a Davi, e desceu à rocha e ficou no deserto de Maom; e Saul ouviu e perseguiu Davi, no deserto de Maom.
+23:26 E Saul foi por um lado do monte, deste [lado], e Davi e os seus homens por outro lado do monte, deste [lado]; e Davi estava apressando-se em pânico para ir de diante de Saul; e Saul e os seus homens cercavam Davi e os seus homens para capturá-los.
+23:27 E um mensageiro veio a Saul, dizendo: Apressa-te e vem, porque os filisteus fizeram incursão contra a terra.
+23:28 E Saul voltou de perseguir Davi, e foi ao encontro dos filisteus; por isso chamaram àquele lugar Sela-Hamalecote.
+
+24:1 E Davi subiu dali e ficou nas fortalezas de En-Gedi.
+24:2 E foi que, quando Saul voltou de atrás dos filisteus, contaram-lhe, dizendo: Eis que Davi [está] no deserto de En-Gedi.
+24:3 E Saul tomou três mil homens escolhidos de todo o Israel, e foi buscar Davi e os seus homens, sobre a face das rochas dos cabritos-monteses.
+24:4 E veio aos currais das ovelhas, junto ao caminho, e ali [havia] uma caverna; e Saul entrou para cobrir os seus pés; e Davi e os seus homens estavam sentados nos fundos da caverna.
+24:5 E disseram os homens de Davi a ele: Eis o dia em que YHWH te disse: Eis que eu estou dando o teu inimigo na tua mão, e farás com ele como for bom aos teus olhos. E levantou-se Davi e cortou a ponta do manto que [era] de Saul, em segredo.
+24:6 E foi que, depois disso, o coração de Davi o feriu por ter cortado a ponta que [era] de Saul.
+24:7 E disse aos seus homens: Longe de mim, da parte de YHWH, se eu fizer esta coisa ao meu senhor, ao ungido de YHWH, para estender a minha mão contra ele; porque o ungido de YHWH [é] ele.
+24:8 E Davi fendeu os seus homens com palavras, e não os deixou levantar-se contra Saul; e Saul levantou-se da caverna e foi pelo caminho.
+24:9 E depois disso Davi levantou-se e saiu da caverna, e chamou atrás de Saul, dizendo: Meu senhor, o rei! E Saul olhou atrás de si, e Davi inclinou-se com o rosto à terra e prostrou-se.
+24:10 E disse Davi a Saul: Por que ouves as palavras de homem, dizendo: Eis que Davi procura o teu mal?
+24:11 Eis que neste dia viram os teus olhos que YHWH te deu neste dia na minha mão, na caverna; e [ele] disse para matar-te, e [ela] poupou-te; e eu disse: Não estenderei a minha mão contra o meu senhor, porque o ungido de YHWH [é] ele.
+24:12 E, meu pai, vê, vê também a ponta do teu manto na minha mão; porque, ao cortar eu a ponta do teu manto e não te matar, sabe e vê que não há na minha mão mal nem transgressão, e não pequei contra ti; e tu estás armando cilada à minha alma, para tomá-la.
+24:13 Julgue YHWH entre mim e ti, e vingue-me YHWH de ti; e a minha mão não será contra ti.
+24:14 Como diz o provérbio do antigo: Dos ímpios sai perversidade; e a minha mão não será contra ti.
+24:15 Atrás de quem saiu o rei de Israel? Atrás de quem tu persegues? Atrás de um cão morto, atrás de uma pulga.
+24:16 E YHWH será por juiz e julgará entre mim e ti; e veja, e conteste a minha contenda, e julgue-me da tua mão.
+24:17 E foi que, quando Davi acabou de falar estas palavras a Saul, disse Saul: [É] esta a tua voz, meu filho Davi? E Saul levantou a sua voz e chorou.
+24:18 E disse a Davi: Mais justo [és] tu do que eu, porque tu me retribuíste o bem, e eu te retribuí o mal.
+24:19 E tu contaste hoje o que fizeste comigo de bom: que YHWH me entregou na tua mão, e não me mataste.
+24:20 E se um homem achar o seu inimigo, despedi-lo-á por bom caminho? E YHWH te pagará com bem, em lugar deste dia, o que fizeste a mim.
+24:21 E agora, eis que eu sei que, reinando, reinarás, e se levantará na tua mão o reino de Israel.
+24:22 E agora, jura-me por YHWH: se cortares a minha semente depois de mim, e se exterminares o meu nome da casa do meu pai.
+24:23 E Davi jurou a Saul; e Saul foi para a sua casa, e Davi e os seus homens subiram à fortaleza.
+
+25:1 E Samuel morreu; e reuniu-se todo o Israel, e prantearam-no, e sepultaram-no em sua casa, em Ramá. E Davi levantou-se e desceu ao deserto de Parã.
+25:2 E [havia] um homem em Maom, e a sua obra [era] no Carmelo; e o homem [era] muito grande; e tinha três mil ovelhas e mil cabras; e foi que estava tosquiando as suas ovelhas no Carmelo.
+25:3 E o nome do homem [era] Nabal, e o nome da sua mulher, Abigail; e a mulher [era] boa de entendimento e formosa de forma; e o homem [era] duro e mau de ações; e ele [era] calebita.
+25:4 E Davi ouviu no deserto que Nabal estava tosquiando as suas ovelhas.
+25:5 E Davi enviou dez moços, e disse Davi aos moços: Subi ao Carmelo, e vinde a Nabal e perguntai-lhe, em meu nome, pela paz.
+25:6 E direis assim ao vivo: E tu, paz; e a tua casa, paz; e tudo o que [é] teu, paz.
+25:7 E agora ouvi que há tosquiadores para ti; agora, os pastores que [são] teus estiveram conosco; não os envergonhamos, e não foi sentida, para eles, a falta de coisa alguma todos os dias em que estiveram no Carmelo.
+25:8 Pergunta aos teus moços, e eles te contarão; e achem os moços graça aos teus olhos, porque viemos em dia bom. Dá, por favor, o que a tua mão achar aos teus servos e a teu filho Davi.
+25:9 E vieram os moços de Davi e falaram a Nabal conforme todas estas palavras, em nome de Davi; e repousaram.
+25:10 E Nabal respondeu aos servos de Davi e disse: Quem [é] Davi? E quem [é] o filho de Jessé? Hoje multiplicaram-se os servos que se rompem, cada homem, de diante do seu senhor.
+25:11 E tomarei o meu pão, e as minhas águas, e a minha carne abatida que abati para os meus tosquiadores, e darei a homens que não sei de onde [são] eles?
+25:12 E os moços de Davi viraram-se para o seu caminho, e voltaram e vieram e contaram-lhe conforme todas estas palavras.
+25:13 E disse Davi aos seus homens: Cingi cada homem a sua espada. E cingiram cada homem a sua espada; e cingiu também Davi a sua espada; e subiram atrás de Davi cerca de quatrocentos homens, e duzentos ficaram junto aos utensílios.
+25:14 E a Abigail, mulher de Nabal, contou um dos moços, dizendo: Eis que Davi enviou mensageiros do deserto para abençoar o nosso senhor; e ele lançou-se sobre eles.
+25:15 E os homens [foram] muito bons para nós, e não fomos envergonhados, e não sentimos a falta de coisa alguma todos os dias em que andamos com eles, estando nós no campo.
+25:16 Muro foram para nós, tanto de noite quanto de dia, todos os dias em que estivemos com eles, apascentando as ovelhas.
+25:17 E agora, sabe e vê o que farás, porque se consumou o mal contra o nosso senhor e contra toda a sua casa; e ele [é] filho de vileza, de modo que não [se pode] falar-lhe.
+25:18 E Abigail apressou-se e tomou duzentos pães, e dois odres de vinho, e cinco ovelhas preparadas, e cinco seás de grão tostado, e cem bolos de passas, e duzentos bolos de figos; e pô-los sobre os jumentos.
+25:19 E disse aos seus moços: Passai adiante de mim; eis que vou atrás de vós. E a Nabal, seu marido, não contou.
+25:20 E foi que ela [estava] montada no jumento, e descendo ao esconderijo do monte, e eis que Davi e os seus homens desciam ao seu encontro; e ela os encontrou.
+25:21 E Davi dissera: Somente em vão guardei tudo o que [era] deste no deserto, e não foi sentida a falta de coisa alguma de tudo o que [era] seu; e fez-me voltar mal em lugar de bem.
+25:22 Assim faça Deus aos inimigos de Davi, e assim acrescente, se eu deixar restar de tudo o que [é] seu, até a manhã, o que urina em parede!
+25:23 E Abigail viu Davi, e apressou-se e desceu do jumento, e caiu ao rosto de Davi, sobre a sua face, e prostrou-se por terra.
+25:24 E caiu aos seus pés e disse: Em mim, eu, meu senhor, [seja] a iniquidade! E fale, por favor, a tua escrava aos teus ouvidos, e ouve as palavras da tua escrava.
+25:25 Não ponha, por favor, o meu senhor o seu coração neste homem de vileza, em Nabal; porque como o seu nome, assim [é] ele: Nabal [é] o seu nome, e loucura [há] com ele. E eu, a tua escrava, não vi os moços do meu senhor que enviaste.
+25:26 E agora, meu senhor, vive YHWH, e vive a tua alma, que YHWH te impediu de vir em sangues e de salvar a tua mão para ti; e agora sejam como Nabal os teus inimigos e os que buscam o mal contra o meu senhor.
+25:27 E agora esta bênção que a tua serva trouxe ao meu senhor, seja dada aos moços que andam aos pés do meu senhor.
+25:28 Perdoa, por favor, a transgressão da tua escrava, porque, fazendo, YHWH fará ao meu senhor uma casa fiel, porque as guerras de YHWH peleja o meu senhor; e mal não será achado em ti nos teus dias.
+25:29 E levantou-se um homem para perseguir-te e para buscar a tua alma; e a alma do meu senhor estará atada na trouxa dos vivos, com YHWH, teu Deus; e a alma dos teus inimigos, ele a lançará com funda no meio da palma da funda.
+25:30 E será que, quando YHWH fizer ao meu senhor conforme todo o bem que falou sobre ti, e te ordenar por líder sobre Israel,
+25:31 e isto não será para ti por tropeço e por obstáculo de coração ao meu senhor, por derramar sangue sem causa e por salvar-se o meu senhor a si mesmo; e fará bem YHWH ao meu senhor, e te lembrarás da tua escrava.
+25:32 E disse Davi a Abigail: Bendito [seja] YHWH, Deus de Israel, que te enviou neste dia ao meu encontro.
+25:33 E bendito [seja] o teu sabor, e bendita [és] tu, que me retiveste neste dia de vir em sangues e de salvar a minha mão para mim.
+25:34 E, porém, vive YHWH, Deus de Israel, que me impediu de fazer-te mal; pois, se não te tivesses apressado e vindo ao meu encontro, na verdade não restaria a Nabal, até a luz da manhã, o que urina em parede.
+25:35 E Davi tomou da mão dela o que lhe trouxera, e disse-lhe: Sobe em paz à tua casa; vê, ouvi a tua voz e levantei o teu rosto.
+25:36 E Abigail veio a Nabal, e eis que ele tinha um banquete em sua casa, como banquete de rei; e o coração de Nabal [estava] bom sobre ele, e ele [estava] muito embriagado; e ela não lhe contou coisa alguma, pequena ou grande, até a luz da manhã.
+25:37 E foi que pela manhã, ao sair o vinho de Nabal, a sua mulher contou-lhe estas palavras; e o seu coração morreu dentro dele, e ele ficou como pedra.
+25:38 E foi que, cerca de dez dias depois, YHWH feriu Nabal, e ele morreu.
+25:39 E Davi ouviu que Nabal morrera, e disse: Bendito [seja] YHWH, que contendeu a contenda da minha vergonha da mão de Nabal, e poupou o seu servo do mal; e o mal de Nabal YHWH fez voltar sobre a sua cabeça. E Davi enviou e falou com Abigail, para tomá-la para si por mulher.
+25:40 E os servos de Davi vieram a Abigail, ao Carmelo, e falaram-lhe, dizendo: Davi enviou-nos a ti, para tomar-te para si por mulher.
+25:41 E levantou-se e prostrou-se com o rosto por terra, e disse: Eis a tua escrava por serva, para lavar os pés dos servos do meu senhor.
+25:42 E Abigail apressou-se e levantou-se, e montou no jumento, com cinco das suas moças que andavam aos seus pés; e foi atrás dos mensageiros de Davi, e foi-lhe por mulher.
+25:43 E Ainoã, de Jezreel, Davi tomou; e foram também as duas dele por mulheres.
+25:44 E Saul dera Mical, sua filha, mulher de Davi, a Palti, filho de Laís, que [era] de Galim.
+26:1 E vieram os zifeus a Saul, a Gibeá, dizendo: Acaso Davi não se esconde na colina de Haquilá, diante do ermo?
+26:2 E levantou-se Saul e desceu ao deserto de Zife, e com ele três mil homens, escolhidos de Israel, para buscar Davi no deserto de Zife.
+26:3 E Saul acampou na colina de Haquilá, que [está] diante do ermo, junto ao caminho; e Davi estava sentado no deserto. E viu que Saul viera atrás dele ao deserto.
+26:4 E Davi enviou espiões, e soube que Saul viera com certeza.
+26:5 E Davi levantou-se e veio ao lugar onde Saul acampara; e Davi viu o lugar onde se deitara Saul, e Abner, filho de Ner, o chefe do seu exército; e Saul estava deitado na barricada, e o povo acampado ao redor dele.
+26:6 E Davi respondeu e disse a Aimeleque, o heteu, e a Abisai, filho de Zeruia, irmão de Joabe, dizendo: Quem descerá comigo a Saul, ao acampamento? E disse Abisai: Eu descerei contigo.
+26:7 E Davi e Abisai vieram ao povo de noite; e eis que Saul estava deitado, dormindo, na barricada, e a sua lança [estava] fincada na terra, à sua cabeceira; e Abner e o povo estavam deitados ao redor dele.
+26:8 E disse Abisai a Davi: Deus entregou hoje o teu inimigo na tua mão; e agora feri-lo-ei, peço, com a lança, e na terra, uma vez; e não lhe repetirei.
+26:9 E disse Davi a Abisai: Não o destruas! Pois quem estendeu a sua mão contra o ungido de YHWH e ficou livre de culpa?
+26:10 E disse Davi: Vive YHWH! Na verdade YHWH o ferirá; ou o seu dia virá e ele morrerá; ou descerá à guerra e perecerá.
+26:11 Longe de mim, da parte de YHWH, estender a minha mão contra o ungido de YHWH! E agora toma, peço, a lança que [está] à sua cabeceira, e a botija de água, e vamo-nos.
+26:12 E Davi tomou a lança e a botija de água da cabeceira de Saul, e foram-se; e não havia quem visse, e não havia quem soubesse, e não havia quem despertasse, pois todos eles dormiam, pois um sono profundo de YHWH caíra sobre eles.
+26:13 E Davi passou ao outro lado e ficou de pé sobre o cume do monte, de longe; grande [era] o lugar entre eles.
+26:14 E Davi chamou o povo e Abner, filho de Ner, dizendo: Não respondes, Abner? E respondeu Abner e disse: Quem [és] tu, que chamaste o rei?
+26:15 E disse Davi a Abner: Acaso não és homem? E quem [é] como tu em Israel? E por que não guardaste o teu senhor, o rei? Pois veio um do povo para destruir o rei, teu senhor.
+26:16 Não [é] boa esta coisa que fizeste. Vive YHWH, que sois filhos de morte, vós que não guardastes o vosso senhor, o ungido de YHWH. E agora, vê onde [estão] a lança do rei e a botija de água que [estavam] à sua cabeceira.
+26:17 E Saul reconheceu a voz de Davi e disse: Esta [é] a tua voz, meu filho Davi? E disse Davi: [É] a minha voz, meu senhor, o rei.
+26:18 E disse: Por que este, meu senhor, persegue o seu servo? Pois o que fiz? E que mal [há] na minha mão?
+26:19 E agora, ouça, peço, o meu senhor, o rei, as palavras do seu servo: Se YHWH te incitou contra mim, cheire ele uma oferta; e se [foram] filhos do homem, malditos [sejam] eles diante de YHWH, pois hoje me expulsaram de me unir à herança de YHWH, dizendo: Vai, serve a outros deuses.
+26:20 E agora, não caia o meu sangue em terra, longe da face de YHWH; pois o rei de Israel saiu a buscar uma pulga, como se persegue a perdiz nos montes.
+26:21 E disse Saul: Pequei. Volta, meu filho Davi, pois não te farei mais mal, porquanto a minha alma foi preciosa aos teus olhos neste dia. Eis que agi como tolo e errei, muito em demasia.
+26:22 E Davi respondeu e disse: Eis a lança do rei; passe um dos moços e tome-a.
+26:23 E YHWH fará voltar ao homem a sua justiça e a sua fidelidade, porquanto YHWH te deu hoje em [minha] mão, e eu não quis estender a minha mão contra o ungido de YHWH.
+26:24 E eis que, como foi grande neste dia a tua alma aos meus olhos, assim será grande a minha alma aos olhos de YHWH, e ele me livrará de toda angústia.
+26:25 E disse Saul a Davi: Bendito [és] tu, meu filho Davi; fazendo farás, e também podendo poderás. E Davi foi ao seu caminho, e Saul voltou ao seu lugar.
+27:1 E disse Davi ao seu coração: Agora perecerei um dia pela mão de Saul; não há para mim [coisa] boa, mas escapando escaparei para a terra dos filisteus; e Saul desesperará de mim, de buscar-me ainda em todo o território de Israel, e escaparei da sua mão.
+27:2 E Davi levantou-se e passou, ele e seiscentos homens que [estavam] com ele, a Aquis, filho de Maoque, rei de Gate.
+27:3 E Davi sentou-se com Aquis em Gate, ele e os seus homens, cada homem com a sua casa, Davi e as suas duas mulheres, Ainoã, a jezreelita, e Abigail, mulher de Nabal, a carmelita.
+27:4 E foi contado a Saul que Davi fugira para Gate; e não continuou mais a buscá-lo.
+27:5 E disse Davi a Aquis: Se, peço, achei graça aos teus olhos, deem-me lugar numa das cidades do campo, e sentarei ali; e por que sentaria o teu servo na cidade do reino contigo?
+27:6 E Aquis deu-lhe naquele dia Ziclague; por isso Ziclague foi dos reis de Judá até este dia.
+27:7 E foi o número dos dias que Davi sentou no campo dos filisteus: dias e quatro meses.
+27:8 E subiu Davi e os seus homens, e fizeram incursão contra o gesurita, e o gizrita, e o amalequita; pois elas [eram] as que habitavam a terra, que [é] desde a eternidade, quando vens a Sur e até a terra do Egito.
+27:9 E Davi feria a terra e não deixava vivo homem nem mulher; e tomava ovelhas e gado e jumentos e camelos e vestes; e voltava e vinha a Aquis.
+27:10 E disse Aquis: Não fizestes incursão hoje. E disse Davi: Sobre o Neguebe de Judá, e sobre o Neguebe do jerameelita, e para o Neguebe do queneu.
+27:11 E homem e mulher Davi não deixava vivo, para trazer a Gate, dizendo: Para que não contem sobre nós, dizendo: Assim fez Davi; e assim [foi] o seu juízo todos os dias que sentou no campo dos filisteus.
+27:12 E Aquis creu em Davi, dizendo: Tornando-se odioso, tornou-se odioso no seu povo, em Israel; e será para mim por servo para sempre.
+28:1 E foi, naqueles dias, que os filisteus juntaram os seus acampamentos para o exército, para pelejar contra Israel; e Aquis disse a Davi: Sabendo, saberás que comigo sairás no acampamento, tu e os teus homens.
+28:2 E disse Davi a Aquis: Por isso tu saberás o que fará o teu servo. E disse Aquis a Davi: Por isso, guarda da minha cabeça te porei todos os dias.
+28:3 E Samuel morrera, e todo o Israel pranteou-o, e sepultaram-no em Ramá, na sua cidade; e Saul removera os necromantes e os adivinhos da terra.
+28:4 E ajuntaram-se os filisteus, e vieram, e acamparam em Suném; e Saul ajuntou todo o Israel, e acamparam no Gilboa.
+28:5 E Saul viu o acampamento dos filisteus, e temeu, e o seu coração estremeceu muito.
+28:6 E Saul consultou a YHWH, e YHWH não lhe respondeu, nem nos sonhos, nem nos Urim, nem nos profetas.
+28:7 E disse Saul aos seus servos: Buscai-me uma mulher dona de necromante, e irei a ela e consultarei por ela. E disseram-lhe os seus servos: Eis uma mulher dona de necromante em En-Dor.
+28:8 E Saul disfarçou-se, e vestiu outras vestes, e foi, ele e dois homens com ele; e vieram à mulher de noite. E disse: Adivinha, peço, para mim, pelo necromante, e faze subir para mim aquele que eu te disser.
+28:9 E disse-lhe a mulher: Eis que tu sabes o que fez Saul, que eliminou os necromantes e o adivinho da terra; e por que armas laço à minha alma, para me matar?
+28:10 E Saul jurou-lhe por YHWH, dizendo: Vive YHWH, se te acontecer iniquidade nesta coisa!
+28:11 E disse a mulher: A quem farei subir para ti? E disse: Faze subir para mim Samuel.
+28:12 E a mulher viu Samuel e clamou em voz grande; e disse a mulher a Saul, dizendo: Por que me enganaste? E tu [és] Saul!
+28:13 E disse-lhe o rei: Não temas! Pois o que viste? E disse a mulher a Saul: Vi deuses subindo da terra.
+28:14 E disse-lhe: Qual [é] a sua forma? E disse: Um homem velho sobe, e ele está envolto num manto. E Saul soube que era Samuel, e inclinou-se com o rosto à terra, e prostrou-se.
+28:15 E disse Samuel a Saul: Por que me perturbaste, fazendo-me subir? E disse Saul: Estou muito angustiado, e os filisteus pelejam contra mim, e Deus se desviou de mim e não me respondeu mais, nem pela mão dos profetas nem em sonhos; e chamei-te, para me fazeres saber o que farei.
+28:16 E disse Samuel: E por que me perguntas? E YHWH se desviou de sobre ti e foi o teu adversário.
+28:17 E YHWH fez-lhe como falou pela minha mão; e YHWH rasgou o reino da tua mão e deu-o ao teu próximo, a Davi.
+28:18 Porque não ouviste a voz de YHWH e não fizeste o ardor da sua ira em Amaleque, por isso YHWH te fez esta coisa neste dia.
+28:19 E YHWH dará também Israel contigo na mão dos filisteus; e amanhã tu e os teus filhos [estareis] comigo; também o acampamento de Israel YHWH dará na mão dos filisteus.
+28:20 E Saul apressou-se e caiu, a plenitude da sua altura, por terra, e temeu muito as palavras de Samuel; também força não havia nele, pois não comera pão todo o dia e toda a noite.
+28:21 E veio a mulher a Saul e viu que estava muito perturbado; e disse-lhe: Eis que a tua serva ouviu a tua voz, e pus a minha alma na minha palma, e ouvi as tuas palavras que me falaste.
+28:22 E agora ouve, peço, também tu, a voz da tua serva; e porei diante de ti um bocado de pão, e come, e haverá em ti força, pois irás pelo caminho.
+28:23 E recusou e disse: Não comerei. E instaram com ele os seus servos, e também a mulher; e ouviu a voz deles, e levantou-se da terra e sentou-se na cama.
+28:24 E a mulher tinha em casa um bezerro de estábulo; e apressou-se e sacrificou-o; e tomou farinha, e amassou, e assou-o em pães sem fermento.
+28:25 E apresentou [a comida] diante de Saul e diante dos seus servos; e comeram; e levantaram-se e foram naquela noite.
+29:1 E os filisteus ajuntaram todos os seus acampamentos em Afeque; e Israel estava acampado na fonte que [está] em Jezreel.
+29:2 E os governantes dos filisteus passavam por centenas e por milhares; e Davi e os seus homens passavam na retaguarda, com Aquis.
+29:3 E disseram os governantes dos filisteus: Que [são] estes hebreus? E disse Aquis aos governantes dos filisteus: Acaso este não [é] Davi, servo de Saul, rei de Israel, que esteve comigo estes dias, ou estes anos? E não achei nele coisa alguma desde o dia da sua queda até este dia.
+29:4 E indignaram-se contra ele os governantes dos filisteus, e disseram-lhe os governantes dos filisteus: Faze voltar o homem, e volte ao seu lugar, onde o constituíste; e não desça conosco à guerra, e não seja para nós por adversário na guerra; e com que se tornaria aceito este ao seu senhor? Acaso não [é] com as cabeças daqueles homens?
+29:5 Acaso este não [é] Davi, a quem cantavam em danças, dizendo: Feriu Saul nos seus milhares, e Davi nas suas dezenas de milhares?
+29:6 E Aquis chamou Davi e disse-lhe: Vive YHWH, que reto [és] tu, e bom aos meus olhos o teu sair e o teu entrar comigo no acampamento; pois não achei em ti mal desde o dia do teu vir a mim até este dia; e aos olhos dos governantes não [és] bom tu.
+29:7 E agora volta e vai em paz, e não faças mal aos olhos dos governantes dos filisteus.
+29:8 E disse Davi a Aquis: Pois o que fiz? E o que achaste no teu servo, desde o dia em que estive diante de ti até este dia, para que eu não venha e pelee contra os inimigos do meu senhor, o rei?
+29:9 E respondeu Aquis e disse a Davi: Sei que [és] bom aos meus olhos, como um anjo de Deus; somente os governantes dos filisteus disseram: Não subirá conosco à guerra.
+29:10 E agora madruga de manhã, e os servos do teu senhor que vieram contigo; e madrugai de manhã, e [havendo] luz para vós, ide.
+29:11 E madrugou Davi, ele e os seus homens, para ir de manhã, para voltar à terra dos filisteus; e os filisteus subiram a Jezreel.
+30:1 E foi que, ao vir Davi e os seus homens a Ziclague, no terceiro dia, amalequitas fizeram incursão contra o Neguebe e contra Ziclague; e feriram Ziclague e queimaram-na a fogo.
+30:2 E levaram cativas as mulheres que [estavam] nela, do pequeno ao grande; não mataram homem [algum]; e conduziram, e foram pelo seu caminho.
+30:3 E Davi e os seus homens vieram à cidade, e eis que [estava] queimada a fogo; e as suas mulheres, e os seus filhos, e as suas filhas, foram levados cativos.
+30:4 E Davi e o povo que [estava] com ele levantaram a sua voz e choraram, até que não houve neles força para chorar.
+30:5 E as duas mulheres de Davi foram levadas cativas: Ainoã, a jezreelita, e Abigail, mulher de Nabal, o carmelita.
+30:6 E foi muito estreito para Davi, porque o povo disse de apedrejá-lo, porque a alma de todo o povo se amargou, cada homem por seus filhos e por suas filhas; e Davi fortaleceu-se em YHWH, seu Deus.
+30:7 E disse Davi a Abiatar, o sacerdote, filho de Aimeleque: Traze-me, peço, o éfode. E Abiatar trouxe o éfode a Davi.
+30:8 E Davi consultou a YHWH, dizendo: Perseguirei este bando? Alcançá-lo-ei? E disse-lhe: Persegue, pois alcançando alcançarás, e livrando livrarás.
+30:9 E foi Davi, ele e seiscentos homens que [estavam] com ele, e vieram até o vale do Besor; e os restantes ficaram de pé.
+30:10 E perseguiu Davi, ele e quatrocentos homens; e ficaram de pé duzentos homens, que estavam exaustos para passar o vale do Besor.
+30:11 E acharam um homem egípcio no campo e levaram-no a Davi; e deram-lhe pão, e comeu; e deram-lhe de beber água.
+30:12 E deram-lhe um pedaço de bolo de figos e dois bolos de passas; e comeu, e voltou-lhe o espírito, pois não comera pão nem bebera água três dias e três noites.
+30:13 E disse-lhe Davi: De quem [és] tu? E de onde [és] tu? E disse: Moço egípcio [sou] eu, servo de um homem amalequita; e o meu senhor deixou-me, porque adoeci há três [dias], hoje.
+30:14 Nós fizemos incursão contra o Neguebe do quereteu, e contra o que [é] de Judá, e contra o Neguebe de Calebe; e Ziclague queimamos a fogo.
+30:15 E disse-lhe Davi: Tu me levarás a este bando? E disse: Jura-me por Deus: se me matares, e se me entregares na mão do meu senhor! E eu te levarei a este bando.
+30:16 E levou-o; e eis que [estavam] espalhados sobre a face de toda a terra, comendo e bebendo e celebrando festa, por todo o grande despojo que tomaram da terra dos filisteus e da terra de Judá.
+30:17 E Davi feriu-os do crepúsculo até a tarde, no dia seguinte a eles; e não escapou deles homem, mas quatrocentos homens, moços, que montaram nos camelos e fugiram.
+30:18 E Davi livrou tudo o que Amaleque tomara; e as suas duas mulheres Davi livrou.
+30:19 E não lhes faltou [coisa alguma], do pequeno ao grande, e até filhos e filhas, e do despojo, e até tudo o que tomaram para si; tudo Davi fez voltar.
+30:20 E Davi tomou todas as ovelhas e o gado; conduziram-nos diante daquele gado, e disseram: Este [é] o despojo de Davi.
+30:21 E Davi veio aos duzentos homens que estavam exaustos para ir atrás de Davi, e fê-los ficar no vale do Besor; e saíram ao encontro de Davi e ao encontro do povo que [estava] com ele; e Davi aproximou-se do povo e perguntou-lhes pela paz.
+30:22 E respondeu todo homem mau e de vileza, dentre os homens que foram com Davi, e disseram: Porquanto não foram comigo, não lhes daremos do despojo que livramos, mas cada homem a sua mulher e os seus filhos; e que conduzam e vão.
+30:23 E disse Davi: Não façais assim, meus irmãos, com aquilo que YHWH nos deu: e guardou-nos, e entregou o bando que veio sobre nós na nossa mão.
+30:24 E quem vos ouvirá nesta coisa? Pois como a porção de quem desce à guerra, e como a porção de quem fica com os utensílios, juntos dividirão.
+30:25 E foi que, daquele dia em diante, pô-la por estatuto e por juízo para Israel, até este dia.
+30:26 E Davi veio a Ziclague, e enviou do despojo aos anciãos de Judá, ao seu próximo, dizendo: Eis para vós uma bênção do despojo dos inimigos de YHWH:
+30:27 aos que [estavam] em Betel, e aos que em Ramote do Neguebe, e aos que em Jatir;
+30:28 e aos que em Aroer, e aos que em Sifmote, e aos que em Estemoa;
+30:29 e aos que em Racal, e aos que nas cidades do jerameelita, e aos que nas cidades do queneu;
+30:30 e aos que em Hormá, e aos que em Corasã, e aos que em Atace;
+30:31 e aos que em Hebrom, e a todos os lugares onde andou Davi, ele e os seus homens.
+31:1 E os filisteus pelejavam contra Israel; e fugiram os homens de Israel de diante dos filisteus, e caíram mortos no monte Gilboa.
+31:2 E os filisteus alcançaram Saul e seus filhos, e os filisteus feriram Jônatas, e Abinadabe, e Malquisua, filhos de Saul.
+31:3 E a guerra pesou sobre Saul; e acharam-no os arqueiros, homens com o arco; e tremeu muito por causa dos arqueiros.
+31:4 E disse Saul ao que levava as armas: Desembainha a tua espada e atravessa-me com ela, para que não venham estes incircuncisos e me atravessem e me escarneçam. E o que levava as armas não quis, pois temia muito. E Saul tomou a espada e caiu sobre ela.
+31:5 E o que levava as armas viu que Saul morrera; e caiu também ele sobre a sua espada, e morreu com ele.
+31:6 E morreram Saul, e seus três filhos, e o que levava as armas, também todos os seus homens, naquele dia, juntos.
+31:7 E viram os homens de Israel que [estavam] do outro lado do vale e do outro lado do Jordão que os homens de Israel fugiram e que Saul e seus filhos morreram; e deixaram as cidades e fugiram; e vieram os filisteus e habitaram nelas.
+31:8 E foi que, no dia seguinte, vieram os filisteus para despojar os mortos, e acharam Saul e seus três filhos caídos no monte Gilboa.
+31:9 E cortaram-lhe a cabeça e tiraram-lhe as armas; e enviaram à terra dos filisteus, ao redor, para anunciar a boa notícia à casa dos seus ídolos e ao povo.
+31:10 E puseram as suas armas na casa de Astarote; e o seu corpo fixaram no muro de Bete-Seã.
+31:11 E ouviram a respeito dele os habitantes de Jabes de Gileade o que os filisteus fizeram a Saul.
+31:12 E levantaram-se todos os homens de força, e andaram toda a noite, e tomaram o corpo de Saul e os corpos dos seus filhos do muro de Bete-Seã; e vieram a Jabes e queimaram-nos ali.
+31:13 E tomaram os ossos deles e sepultaram-nos debaixo da tamargueira em Jabes; e jejuaram sete dias.

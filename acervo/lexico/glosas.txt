@@ -53,7 +53,7 @@
 4480 a | de, desde, mais que
 5973 a | com
 4994 | por favor, peço
-1288 | ajoelhar | p: abençoar | N: ser abençoado | t: abençoar-se | h: fazer ajoelhar
+1288 | ajoelhar | q: bendito, ajoelhar | p: abençoar | N: ser abençoado | t: abençoar-se | h: fazer ajoelhar
 1696 | falar | p: falar
 113 | senhor, dono
 3427 | sentar, habitar, ficar | h: fazer habitar, assentar
@@ -67,7 +67,7 @@
 8147 | dois
 4100 | que?, o quê?, por quê?
 6629 | ovelhas, rebanho miúdo
-8085 | ouvir, escutar | N: ser ouvido
+8085 | ouvir, escutar | N: ser ouvido | p: convocar
 7651 | sete
 1697 | palavra, coisa, assunto
 2233 | semente, descendência
@@ -143,7 +143,7 @@
 3201 | poder, conseguir
 929 | gado, animal
 2029 | conceber, engravidar
-6310 | boca
+6310 | boca, pim (peso, 1Sm 13:21)
 2022 | monte
 3426 | há, existe
 7901 | deitar-se
@@ -454,7 +454,7 @@
 5503 | negociar, percorrer
 761 | arameu
 1423 | cabrito
-7921 a | ficar sem filhos | p: abortar, privar de filhos
+7921 a | ficar sem filhos | p: privar de filhos, abortar
 1736 | mandrágoras
 5172 | p: adivinhar
 3179 | aquecer-se, conceber (no cio) | p: entrar no cio
@@ -524,7 +524,7 @@
 990 | ventre
 3816 | povo, gente
 349 a | como?
-7378 | contender, discutir
+7378 | contender, discutir | h: emboscar-se (1Sm 15:5)
 4959 | apalpar | p: apalpar, revistar
 60 | luto
 6951 | assembleia, multidão
@@ -563,7 +563,7 @@
 6093 | dor, fadiga
 2425 | viver
 1644 | p: expulsar
-6817 | clamar, gritar
+6817 | clamar, gritar | N: ser convocado
 3581 b | força
 6087 a | t: entristecer-se, magoar-se | N: magoar-se
 4605 | acima, por cima
@@ -700,7 +700,7 @@
 5641 | N: esconder-se
 7659 | sete vezes
 5358 | H: ser vingado
-8610 | tocar (instrumento), segurar
+8610 | segurar, capturar, tocar (instrumento)
 3658 | lira
 977 | escolher
 3336 | inclinação, desígnio
@@ -1068,7 +1068,7 @@
 2551 | compaixão
 1614 | enxofre
 6780 | o que brota
-5333 | estátua, coluna
+5333 | estátua, coluna, guarnição
 3536 | fornalha
 2018 | destruição
 4283 | dia seguinte, amanhã
@@ -1230,7 +1230,7 @@
 983 | segurança, confiadamente
 2491 a | morto, ferido
 5916 | perturbar
-887 | cheirar mal, feder | h: fazer odioso
+887 | cheirar mal, feder | N: tornar-se odioso | h: fazer odioso
 4962 | homens
 8045 | N: ser destruído | h: exterminar, destruir
 2891 | t: purificar-se
@@ -1249,7 +1249,7 @@
 1605 | repreender
 375 | onde?
 5230 | t: tramar contra
-6584 | h: despir
+6584 | h: despir | despir, fazer incursão
 736 | caravana
 1215 | proveito, ganho
 4084 | midianita
@@ -1287,7 +1287,7 @@
 6496 | encarregado, administrador
 2567 | p: tomar a quinta parte
 6487 | reserva, depósito
-3678 | trono
+3678 | trono, assento
 2885 | anel, sinete
 8336 b | linho fino
 7242 | colar
@@ -1436,7 +1436,7 @@
 1802 | tirar (água)
 3467 | h: salvar, livrar
 584 | N: gemer, suspirar
-2199 | clamar
+2199 | clamar | N: ser convocado
 7775 | clamor
 5009 | gemido
 2859 a | sogro (o que dá a filha em casamento)
@@ -1649,7 +1649,7 @@
 7311 b | criar (bichos)
 8438 a | bicho, verme
 2552 | aquecer
-4549 | N: derreter-se
+4549 | N: derreter-se, ser frágil
 7677 | descanso solene
 7676 | sábado
 7415 | bicho, verme
@@ -2349,7 +2349,7 @@
 4013 | fortaleza
 7330 | magro
 2156 | ramo
-657 a | contudo, somente
+657 a | contudo, somente, confim
 2013 | h: fazer calar
 957 | presa, despojo
 5006 | p: desprezar
