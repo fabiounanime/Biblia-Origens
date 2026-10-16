@@ -76,7 +76,7 @@ function LerPage() {
               </button>
             ) : null}
           </label>
-          <div className="scrollbar-none mt-3 flex gap-2 overflow-x-auto" role="tablist" aria-label="Parte do Tanakh">
+          <div className="scrollbar-none mt-3 flex gap-2 overflow-x-auto" role="tablist" aria-label="Parte da Bíblia">
             {filters.map((filter) => {
               const active = filter.id === secao;
               return (

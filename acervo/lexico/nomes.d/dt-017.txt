@@ -1,0 +1,4 @@
+# Deuteronômio 17–34 — nomes próprios novos desta parte.
+# Formato: lema | forma em português (a mesma da tradução) | tipo
+
+3484 | Jesurum | g

@@ -26,6 +26,12 @@
  *     public/content/bible/palavras/{livro}/{capítulo}.json, um arquivo por
  *     capítulo, carregado só quando o leitor toca numa palavra.
  *
+ * Livros traduzidos em partes: acervo/traducao/{livro}.d/*.txt e
+ * acervo/notas/{livro}.d/*.txt valem como continuação de {livro}.txt.
+ *
+ * Para conferir só alguns capítulos, sem gravar nada:
+ *   node tools/acervo/build.mjs is --verificar 1-33
+ *
  * Só entram no JSON os capítulos com todos os versículos traduzidos. A
  * versificação é a do texto original (hebraico no AT, SBLGNT no NT). No NT o
  * significado de cada palavra vem de acervo/lexico/grego.txt (e grego.d/).
@@ -37,13 +43,17 @@ import { hebrewLine } from "./oshb.mjs";
 import { transliterateVerse } from "./translit.mjs";
 import { createGlosser, readTable } from "./palavras.mjs";
 import { createGreekGlosser, greekLine, transliterateGreekVerse } from "./grego.mjs";
-import { ROOT, SOURCES, readSource } from "./livros.mjs";
+import { ROOT, SOURCES, parseRange, partFiles, readSource } from "./livros.mjs";
 
-const [bookId] = process.argv.slice(2);
-if (!bookId || !SOURCES[bookId]) {
-  console.error("Uso: node tools/acervo/build.mjs <livro>   (folha de tradução: node tools/acervo/folha.mjs)");
+const [bookId, flag, range] = process.argv.slice(2);
+if (!bookId || !SOURCES[bookId] || (flag && flag !== "--verificar")) {
+  console.error("Uso: node tools/acervo/build.mjs <livro> [--verificar 1-10]   (folha de tradução: node tools/acervo/folha.mjs)");
   process.exit(1);
 }
+/** Com --verificar, confere só esses capítulos e não grava nada. */
+const checkOnly = flag === "--verificar";
+const [firstChapter, lastChapter] = checkOnly ? parseRange(range) : [1, 999];
+const inRange = (/** @type {number} */ n) => n >= firstChapter && n <= lastChapter;
 
 const { lang, verses: source } = readSource(bookId);
 /** Linha original, transliteração e separador de palavras de cada idioma. */
@@ -52,10 +62,9 @@ const ORIGINAL =
     ? { line: hebrewLine, translit: transliterateVerse, split: /[ ־]/ }
     : { line: greekLine, translit: transliterateGreekVerse, split: / / };
 
-const ptPath = join(ROOT, "acervo/traducao", `${bookId}.txt`);
 /** @type {Record<string, Record<string, string>>} */
 const pt = {};
-if (existsSync(ptPath)) {
+for (const ptPath of partFiles("acervo/traducao", bookId)) {
   readFileSync(ptPath, "utf8")
     .split("\n")
     .forEach((raw, index) => {
@@ -71,10 +80,9 @@ if (existsSync(ptPath)) {
 
 const problems = [];
 
-/** @type {Map<string, { at: string; t: string; line: number }[]>} */
+/** @type {Map<string, { at: string; t: string; line: string }[]>} */
 const notes = new Map();
-const notesPath = join(ROOT, "acervo/notas", `${bookId}.txt`);
-if (existsSync(notesPath)) {
+for (const notesPath of partFiles("acervo/notas", bookId)) {
   readFileSync(notesPath, "utf8")
     .split("\n")
     .forEach((raw, index) => {
@@ -87,7 +95,7 @@ if (existsSync(notesPath)) {
       }
       const key = `${match[1]}:${match[2]}`;
       const list = notes.get(key) ?? [];
-      list.push({ at: match[3], t: match[4], line: index + 1 });
+      list.push({ at: match[3], t: match[4], line: `${notesPath}:${index + 1}` });
       notes.set(key, list);
     });
 }
@@ -100,7 +108,7 @@ function notesFor(chapter, verse, text) {
   const out = [];
   for (const note of list) {
     const start = text.indexOf(note.at);
-    const where = `${notesPath}:${note.line} (${chapter}:${verse})`;
+    const where = `${note.line} (${chapter}:${verse})`;
     if (start < 0) {
       problems.push(`${where}: "${note.at}" não está no versículo`);
       continue;
@@ -142,7 +150,7 @@ const chapters = [];
 let noteCount = 0;
 for (const [n, verses] of byChapter) {
   const translated = pt[String(n)];
-  if (!translated) continue;
+  if (!translated || !inRange(n)) continue;
   const missing = verses.filter((v) => !translated[String(v.verse)]?.trim()).map((v) => v.verse);
   const extra = Object.keys(translated).filter((v) => !verses.some((s) => String(s.verse) === v));
   if (missing.length || extra.length) {
@@ -179,7 +187,8 @@ for (const [n, verses] of byChapter) {
 }
 
 for (const [key, list] of notes) {
-  for (const note of list) problems.push(`${notesPath}:${note.line}: ${key} não existe ou não foi traduzido`);
+  if (!inRange(Number(key.split(":")[0]))) continue;
+  for (const note of list) problems.push(`${note.line}: ${key} não existe ou não foi traduzido`);
 }
 
 if (glosser.missing.size) {
@@ -189,6 +198,14 @@ if (glosser.missing.size) {
 if (problems.length) {
   console.error(problems.join("\n"));
   process.exit(1);
+}
+
+if (checkOnly) {
+  const count = chapters.reduce((sum, c) => sum + c.verses.length, 0);
+  const done = chapters.map((c) => c.n);
+  const pending = [...byChapter.keys()].filter((n) => inRange(n) && !done.includes(n));
+  console.log(`OK: ${chapters.length} capítulos, ${count} versículos, ${noteCount} notas.${pending.length ? ` Ainda sem tradução: ${pending.join(", ")}.` : ""}`);
+  process.exit(0);
 }
 
 const outPath = join(ROOT, "public/content/bible", `${bookId}.json`);

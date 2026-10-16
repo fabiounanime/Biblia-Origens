@@ -18,7 +18,7 @@ function BookPage() {
   if (!book) {
     return (
       <Shell>
-        <Page title="Livro não encontrado" lead="Este endereço não corresponde a nenhum livro do Tanakh.">
+        <Page title="Livro não encontrado" lead="Este endereço não corresponde a nenhum livro da Bíblia.">
           <Link to="/ler" className="font-medium text-tekhelet">
             Ver todos os livros
           </Link>

@@ -20,8 +20,8 @@ function PrivacidadePage() {
     >
       <LegalSection n={1} title="Quem somos">
         <p>
-          A Bíblia Origens (<strong>bibliaorigens.app</strong>) é um aplicativo de leitura do Tanakh em português, hebraico e
-          transliterado. O responsável pelo aplicativo e pelo tratamento dos dados descritos aqui é a{" "}
+          A Bíblia Origens (<strong>bibliaorigens.app</strong>) é um aplicativo de leitura da Bíblia em português, no hebraico e no grego
+          originais e transliterado. O responsável pelo aplicativo e pelo tratamento dos dados descritos aqui é a{" "}
           <strong>Innovati Soluções Web</strong>, dirigida por Fábio Araujo, que pode ser contatada pelo e-mail{" "}
           <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
         </p>

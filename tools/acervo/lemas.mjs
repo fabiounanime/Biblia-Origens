@@ -1,7 +1,8 @@
 /**
  * Lemas de um livro que ainda não têm significado em acervo/lexico.
  *
- *   node tools/acervo/lemas.mjs dt
+ *   node tools/acervo/lemas.mjs dt          → o livro inteiro
+ *   node tools/acervo/lemas.mjs is 1-33     → só esses capítulos (livro em partes)
  *
  * Hebraico: lista por lema de Strong (como na OSHB), com a forma de dicionário,
  * a classe, quantas vezes aparece, um exemplo e a definição do léxico de Strong
@@ -15,14 +16,18 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { readTable } from "./palavras.mjs";
-import { ROOT, SOURCES, readSource } from "./livros.mjs";
+import { ROOT, SOURCES, parseRange, readSource } from "./livros.mjs";
 
-const [bookId] = process.argv.slice(2);
+const [bookId, range] = process.argv.slice(2);
 if (!bookId || !SOURCES[bookId]) {
-  console.error("Uso: node tools/acervo/lemas.mjs <livro>");
+  console.error("Uso: node tools/acervo/lemas.mjs <livro> [capítulos, ex.: 1-33]");
   process.exit(1);
 }
-const { lang, verses } = readSource(bookId);
+const [from, last] = parseRange(range);
+const { lang, verses: all } = readSource(bookId);
+const verses = all.filter((verse) => verse.chapter >= from && verse.chapter <= last);
+/** Arquivo do glossário: o do livro ou, num livro em partes, o da parte. */
+const fileName = range ? `${bookId}-${String(from).padStart(3, "0")}.txt` : `${bookId}.txt`;
 
 if (lang === "he") {
   const glosses = readTable(join(ROOT, "acervo/lexico/glosas.txt"));
@@ -55,8 +60,8 @@ if (lang === "he") {
   }
   const rows = [...missing].sort((a, b) => b[1].n - a[1].n);
   for (const [title, isName, target] of /** @type {const} */ ([
-    ["PALAVRAS", false, `acervo/lexico/glosas.d/${bookId}.txt  (lema | significado | grau: sentido…)`],
-    ["NOMES", true, `acervo/lexico/nomes.d/${bookId}.txt  (lema | forma em português | p/l/g/d/r/o)`],
+    ["PALAVRAS", false, `acervo/lexico/glosas.d/${fileName}  (lema | significado | grau: sentido…)`],
+    ["NOMES", true, `acervo/lexico/nomes.d/${fileName}  (lema | forma em português | p/l/g/d/r/o)`],
   ])) {
     const list = rows.filter(([, row]) => row.name === isName);
     console.log(`\n## ${title}: ${list.length} → ${target}`);
@@ -87,7 +92,7 @@ if (lang === "he") {
     }
   }
   const rows = [...missing].sort((a, b) => b[1].n - a[1].n);
-  console.log(`## ${rows.length} lemas → acervo/lexico/grego.d/${bookId}.txt  (lema | significado)`);
+  console.log(`## ${rows.length} lemas → acervo/lexico/grego.d/${fileName}  (lema | significado)`);
   for (const [lemma, row] of rows) {
     console.log(`${lemma}\t${row.pos}\t${row.n}x\t${row.ref}\t${(strong.get(fold(lemma.replace(/\(.*?\)/g, ""))) ?? "").slice(0, 140)}`);
   }

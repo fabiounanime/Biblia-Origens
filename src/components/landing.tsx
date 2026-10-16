@@ -9,7 +9,7 @@ const FEATURES: { icon: typeof BookOpen; title: string; text: string }[] = [
   {
     icon: BookOpen,
     title: "Leitor em três camadas",
-    text: "Português, hebraico com sinais vocálicos e transliterado, nesta ordem. Mostre só as camadas que quiser e ajuste o tamanho da letra com dois dedos.",
+    text: "Português, original (hebraico com sinais vocálicos ou grego) e transliterado, nesta ordem. Mostre só as camadas que quiser e ajuste o tamanho da letra com dois dedos.",
   },
   {
     icon: Bookmark,
@@ -19,12 +19,12 @@ const FEATURES: { icon: typeof BookOpen; title: string; text: string }[] = [
   {
     icon: ScrollText,
     title: "Guias de estudo",
-    text: "Percursos que ligam um capítulo âncora aos temas da Torá, dos Profetas e dos Escritos.",
+    text: "Percursos que ligam um capítulo âncora aos temas da Torá, dos Profetas, dos Escritos e do Novo Testamento.",
   },
   {
     icon: MapIcon,
     title: "Mapas",
-    text: "Os lugares do Tanakh no Crescente Fértil, com o nome em hebraico e transliterado.",
+    text: "Os lugares da Bíblia no Crescente Fértil, com o nome no original e transliterado.",
   },
   {
     icon: Smartphone,
@@ -36,11 +36,11 @@ const FEATURES: { icon: typeof BookOpen; title: string; text: string }[] = [
 /** Título e descrição da página pública (início). */
 export const LANDING_HEAD = {
   meta: [
-    { title: "Bíblia Origens · Tanakh em português, hebraico e transliterado" },
+    { title: "Bíblia Origens · A Bíblia em português, no original e transliterada" },
     {
       name: "description",
       content:
-        "Aplicativo gratuito de leitura e estudo do Tanakh: cada versículo em português direto, no hebraico original e transliterado, com marcas, notas, guias e mapas.",
+        "Aplicativo gratuito de leitura e estudo da Bíblia: cada versículo em português direto, no hebraico ou no grego original e transliterado, com marcas, notas, guias e mapas.",
     },
   ],
 };
@@ -78,11 +78,11 @@ export function LandingPage() {
           <div>
             <img src="/icons/logo-360.png" alt="" width={96} height={96} className="splash-logo size-24" />
             <h1 className="mt-6 text-[2.25rem] leading-[1.1] font-bold tracking-tight sm:text-[3rem]">
-              O Tanakh lido em três camadas, versículo por versículo.
+              A Bíblia lida em três camadas, versículo por versículo.
             </h1>
             <p className="mt-4 max-w-xl text-lg text-soft">
-              A <strong className="text-fg">Bíblia Origens</strong> é um aplicativo gratuito de leitura e estudo das Escrituras
-              Hebraicas. Cada versículo aparece em português direto, no hebraico original e transliterado, sem versões no meio.
+              A <strong className="text-fg">Bíblia Origens</strong> é um aplicativo gratuito de leitura e estudo dos 66 livros, do
+              Tanakh ao Novo Testamento. Cada versículo aparece em português direto, no hebraico ou no grego original e transliterado, sem versões no meio.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
@@ -117,7 +117,7 @@ export function LandingPage() {
             </div>
             <div className="mt-5 flex gap-2 text-xs font-semibold text-muted">
               <Layer dot="bg-fg">Português</Layer>
-              <Layer dot="bg-zahav">Hebraico</Layer>
+              <Layer dot="bg-zahav">Hebraico ou grego</Layer>
               <Layer dot="bg-tekhelet">Transliterado</Layer>
             </div>
           </figure>

@@ -1,0 +1,536 @@
+# Deuteronômio (Devarim) 17–34 — tradução direta do hebraico (Códice de Leningrado)
+# Segunda parte do livro; os capítulos 1–16 estão em dt.d/001.txt.
+#
+# Mesmas convenções de Gênesis a Números (veja acervo/traducao/gn.txt, ex.txt, lv.txt e nm.txt):
+#   - יהוה = YHWH; יְהוָה אֱלֹהֶיךָ = YHWH, teu Deus; nomes na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#     No início da consequência de uma lei ("Quando…, e farás…") o vav fica, ou cai quando o
+#     português não o comporta (como em Êx 1:16).
+#   - כִּי é "porque", "que", "quando"; depois de uma negação, quando contrapõe, "mas" (20:17; 21:17, 23; 29:14).
+#   - Infinitivo absoluto em dobro ao pé da letra ("apedrejando apedrejarás").
+#   - Fórmulas de Deuteronômio, sempre do mesmo jeito:
+#       הַמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה … לְשַׁכֵּן שְׁמוֹ שָׁם = o lugar que YHWH escolher para fazer habitar o seu nome ali
+#       (לָשׂוּם שְׁמוֹ שָׁם = para pôr o seu nome ali);
+#       הָאָרֶץ אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ = a terra que YHWH, teu Deus, te dá
+#       (… נַחֲלָה לְרִשְׁתָּהּ = … por herança, para a possuíres);
+#       בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ = com todo o teu coração e com toda a tua alma;
+#       וּבִעַרְתָּ הָרָע מִקִּרְבֶּךָ = e eliminarás o mal do meio de ti;
+#       אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם = que eu te ordeno hoje; שָׁמַר לַעֲשׂוֹת = guardar para fazer;
+#       לְמַעַן יִיטַב לָךְ = para que te vá bem; הֶאֱרִיךְ יָמִים = prolongar [os] dias;
+#       לֹא תָחוֹס עֵינְךָ = não terá pena o teu olho; בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה = com mão forte e com braço estendido.
+#   - Vocabulário: יָרַשׁ = possuir (a terra) / desapossar (os povos); הוֹרִישׁ = desapossar;
+#     נַחֲלָה = herança; הִנְחִיל = fazer herdar; הִכְרִית = extirpar; הֶחֱרִים = consagrar ao extermínio;
+#     חֵרֶם = coisa consagrada ao extermínio; הִשְׁמִיד = exterminar; שַׁעַר = porta ("dentro das tuas portas" = nas tuas cidades); זָקֵן = ancião;
+#     שֹׁפֵט = juiz; שֹׁטֵר = oficial; גֵּר = estrangeiro; נָכְרִי = estranho; רֵעַ = próximo;
+#     רֹצֵחַ = homicida; גֹּאֵל הַדָּם = vingador do sangue; תּוֹעֵבָה = abominação; זָדוֹן = presunção;
+#     בְּרָכָה / קְלָלָה = bênção / maldição; אָרוּר = maldito; בָּרוּךְ = bendito; מִשְׁפָּט = juízo
+#     (o "direito" devido, com nota, em 18:3 e 21:17); חָזָק וֶאֱמָץ = forte e corajoso;
+#     אָלָה = imprecação (juramento com maldição); צוּר = Rocha (Deus, no cântico do cap. 32); יְשֻׁרוּן = Jesurum; עֶלְיוֹן = Altíssimo.
+#   - Versificação hebraica: 23:1 aqui = 22:30 nas bíblias em português (23:2–26 = 23:1–25);
+#     28:69 = 29:1; 29:1–28 = 29:2–29.
+
+17:1 Não sacrificarás a YHWH, teu Deus, boi e cordeiro em que houver defeito, qualquer coisa má; porque abominação de YHWH, teu Deus, [é] isso.
+17:2 Quando se achar no meio de ti, em uma das tuas portas que YHWH, teu Deus, te dá, homem ou mulher que fizer o mal aos olhos de YHWH, teu Deus, para transgredir a sua aliança,
+17:3 e for, e servir a outros deuses, e se prostrar a eles, e ao sol, ou à lua, ou a todo o exército dos céus, o que eu não ordenei,
+17:4 e te for contado, e ouvires, e inquirires bem, e eis: verdade, firme [é] a coisa, foi feita esta abominação em Israel,
+17:5 farás sair aquele homem ou aquela mulher que fizeram esta coisa má às tuas portas, o homem ou a mulher, e os apedrejarás com pedras, e morrerão.
+17:6 Pela boca de duas testemunhas ou de três testemunhas será morto o que [há de] morrer; não será morto pela boca de uma testemunha.
+17:7 A mão das testemunhas será contra ele primeiro, para o matar, e a mão de todo o povo por último; e eliminarás o mal do meio de ti.
+17:8 Quando for difícil demais para ti uma coisa para o juízo, entre sangue e sangue, entre causa e causa, e entre praga e praga, coisas de contendas dentro das tuas portas, então te levantarás e subirás ao lugar que YHWH, teu Deus, escolher;
+17:9 e virás aos sacerdotes, os levitas, e ao juiz que houver naqueles dias, e inquirirás, e eles te declararão a palavra do juízo.
+17:10 E farás conforme a palavra que te declararem daquele lugar que YHWH escolher; e guardarás para fazer conforme tudo o que te ensinarem.
+17:11 Conforme a instrução que te ensinarem e conforme o juízo que te disserem farás; não te desviarás da palavra que te declararem, [para a] direita ou [para a] esquerda.
+17:12 E o homem que agir com presunção, para não ouvir o sacerdote que está em pé para servir ali a YHWH, teu Deus, ou o juiz, esse homem morrerá; e eliminarás o mal de Israel.
+17:13 E todo o povo ouvirá, e temerá, e não agirá mais com presunção.
+17:14 Quando entrares na terra que YHWH, teu Deus, te dá, e a possuíres, e habitares nela, e disseres: Porei sobre mim um rei, como todas as nações que [estão] ao redor de mim,
+17:15 pondo porás sobre ti um rei que YHWH, teu Deus, escolher; do meio de teus irmãos porás sobre ti um rei; não poderás pôr sobre ti um homem estranho, que não [é] teu irmão.
+17:16 Somente não multiplicará para si cavalos, e não fará voltar o povo ao Egito para multiplicar cavalos; e YHWH vos disse: Não tornareis mais a voltar por este caminho.
+17:17 E não multiplicará para si mulheres, e não se desviará o seu coração; e prata e ouro não multiplicará para si muito.
+17:18 E será que, quando se sentar sobre o trono do seu reino, escreverá para si uma cópia desta instrução num livro, de diante dos sacerdotes, os levitas.
+17:19 E ela estará com ele, e nela lerá todos os dias da sua vida, para que aprenda a temer a YHWH, seu Deus, a guardar todas as palavras desta instrução e estes estatutos, para os fazer;
+17:20 para que não se eleve o seu coração acima de seus irmãos, e para que não se desvie do mandamento, [para a] direita ou [para a] esquerda; para que prolongue [os] dias sobre o seu reino, ele e os seus filhos, no meio de Israel.
+
+18:1 Não haverá para os sacerdotes, os levitas, toda a tribo de Levi, porção e herança com Israel; as ofertas queimadas de YHWH e a sua herança comerão.
+18:2 E herança não terá no meio de seus irmãos; YHWH, ele [é] a sua herança, como lhe falou.
+18:3 E este será o direito dos sacerdotes da parte do povo, da parte dos que sacrificam sacrifício, seja boi, seja cordeiro: dará ao sacerdote a espádua, e as queixadas, e o bucho.
+18:4 As primícias do teu trigo, do teu mosto e do teu azeite, e as primícias da tosquia das tuas ovelhas lhe darás.
+18:5 Porque a ele escolheu YHWH, teu Deus, de todas as tuas tribos, para estar em pé para servir no nome de YHWH, ele e os seus filhos, todos os dias.
+18:6 E quando o levita vier de uma das tuas portas, de todo Israel, onde ele peregrina, e vier com todo o desejo da sua alma ao lugar que YHWH escolher,
+18:7 e servir no nome de YHWH, seu Deus, como todos os seus irmãos, os levitas, que estão em pé ali diante de YHWH,
+18:8 porção como porção comerão, além das suas vendas [do patrimônio] dos pais.
+18:9 Quando tu entrares na terra que YHWH, teu Deus, te dá, não aprenderás a fazer conforme as abominações daquelas nações.
+18:10 Não se achará em ti quem faça passar o seu filho e a sua filha pelo fogo, praticante de adivinhações, agoureiro, e áugure, e feiticeiro,
+18:11 e encantador de encantos, e quem pergunte a necromante e a adivinho, e quem busque os mortos.
+18:12 Porque abominação de YHWH [é] todo o que faz estas [coisas]; e por causa destas abominações YHWH, teu Deus, os desapossa de diante de ti.
+18:13 Íntegro serás com YHWH, teu Deus.
+18:14 Porque estas nações que tu desapossas ouvem os agoureiros e os praticantes de adivinhações; e tu, não assim te deu YHWH, teu Deus.
+18:15 Profeta do meio de ti, de teus irmãos, como eu, te levantará YHWH, teu Deus; a ele ouvireis.
+18:16 Conforme tudo o que pediste a YHWH, teu Deus, em Horebe, no dia da assembleia, dizendo: Não tornarei a ouvir a voz de YHWH, meu Deus, e este grande fogo não verei mais, e não morrerei.
+18:17 E disse-me YHWH: Fizeram bem [no] que falaram.
+18:18 Profeta lhes levantarei do meio de seus irmãos, como tu, e porei as minhas palavras na sua boca, e ele lhes falará tudo o que eu lhe ordenar.
+18:19 E será que o homem que não ouvir as minhas palavras que ele falar em meu nome, eu [o] requererei dele.
+18:20 Porém o profeta que presumir falar em meu nome palavra que eu não lhe ordenei falar, e o que falar em nome de outros deuses, esse profeta morrerá.
+18:21 E quando disseres no teu coração: Como conheceremos a palavra que YHWH não falou?
+18:22 O que o profeta falar em nome de YHWH, e não acontecer a palavra, e não vier, essa [é] a palavra que YHWH não falou; com presunção a falou o profeta; não terás medo dele.
+
+19:1 Quando YHWH, teu Deus, extirpar as nações cuja terra YHWH, teu Deus, te dá, e as desapossares, e habitares nas suas cidades e nas suas casas,
+19:2 três cidades separarás para ti no meio da tua terra que YHWH, teu Deus, te dá para a possuíres.
+19:3 Prepararás para ti o caminho, e dividirás em três [partes] o território da tua terra que YHWH, teu Deus, te fará herdar; e será para que fuja para lá todo homicida.
+19:4 E este [é] o caso do homicida que fugir para lá e viver: o que ferir o seu próximo sem saber, e não o odiava desde ontem [e] anteontem;
+19:5 e o que entrar com o seu próximo no bosque para rachar lenha, e a sua mão for impelida com o machado para cortar a árvore, e o ferro se soltar da madeira e achar o seu próximo, e ele morrer; ele fugirá para uma destas cidades e viverá;
+19:6 para que não persiga o vingador do sangue o homicida, quando se aquecer o seu coração, e o alcance, porque o caminho [é] longo, e o fira [na] alma; e para ele não há juízo de morte, porque não o odiava desde ontem [e] anteontem.
+19:7 Por isso eu te ordeno, dizendo: Três cidades separarás para ti.
+19:8 E se YHWH, teu Deus, alargar o teu território, como jurou a teus pais, e te der toda a terra que falou dar a teus pais,
+19:9 quando guardares todo este mandamento para o fazer, que eu te ordeno hoje, para amar a YHWH, teu Deus, e para andar nos seus caminhos todos os dias, então acrescentarás para ti ainda três cidades, além destas três;
+19:10 e não se derrame sangue inocente no meio da tua terra que YHWH, teu Deus, te dá por herança, e haja sobre ti sangues.
+19:11 E quando houver um homem que odeie o seu próximo, e o espreite, e se levante contra ele, e o fira [na] alma, e ele morra, e fugir para uma destas cidades,
+19:12 enviarão os anciãos da sua cidade, e o tomarão dali, e o entregarão na mão do vingador do sangue, e morrerá.
+19:13 Não terá pena dele o teu olho; e eliminarás o sangue inocente de Israel, e te irá bem.
+19:14 Não removerás o limite do teu próximo, que os primeiros limitaram, na tua herança que herdarás na terra que YHWH, teu Deus, te dá para a possuíres.
+19:15 Não se levantará uma testemunha contra um homem por qualquer iniquidade e por qualquer pecado, em qualquer pecado que pecar; pela boca de duas testemunhas ou pela boca de três testemunhas se levantará a causa.
+19:16 Quando se levantar testemunha de violência contra um homem, para responder contra ele [acusando-o de] desvio,
+19:17 estarão em pé os dois homens que [têm] a contenda diante de YHWH, diante dos sacerdotes e dos juízes que houver naqueles dias.
+19:18 E os juízes inquirirão bem, e eis: testemunha de mentira [é] a testemunha, mentira respondeu contra o seu irmão;
+19:19 e lhe fareis como ele planejou fazer a seu irmão; e eliminarás o mal do meio de ti.
+19:20 E os que restarem ouvirão e temerão, e não tornarão a fazer mais coisa má como esta no meio de ti.
+19:21 E não terá pena o teu olho: alma por alma, olho por olho, dente por dente, mão por mão, pé por pé.
+
+20:1 Quando saíres à guerra contra os teus inimigos, e vires cavalo e carro, povo mais numeroso do que tu, não temerás deles; porque YHWH, teu Deus, [está] contigo, o que te fez subir da terra do Egito.
+20:2 E será que, quando vos aproximardes da guerra, chegar-se-á o sacerdote e falará ao povo.
+20:3 E lhes dirá: Ouve, Israel: vós vos chegais hoje à guerra contra os vossos inimigos; não amoleça o vosso coração, não temais, e não vos precipiteis, e não vos aterrorizeis diante deles;
+20:4 porque YHWH, vosso Deus, [é] o que anda convosco, para pelejar por vós contra os vossos inimigos, para vos salvar.
+20:5 E os oficiais falarão ao povo, dizendo: Quem [é] o homem que edificou casa nova e não a dedicou? Vá e volte para a sua casa, para que não morra na guerra, e outro homem a dedique.
+20:6 E quem [é] o homem que plantou vinha e não a profanou? Vá e volte para a sua casa, para que não morra na guerra, e outro homem a profane.
+20:7 E quem [é] o homem que desposou mulher e não a tomou? Vá e volte para a sua casa, para que não morra na guerra, e outro homem a tome.
+20:8 E os oficiais tornarão a falar ao povo, e dirão: Quem [é] o homem medroso e tenro de coração? Vá e volte para a sua casa, e não se derreta o coração de seus irmãos como o seu coração.
+20:9 E será que, quando os oficiais acabarem de falar ao povo, designarão chefes de exércitos à cabeça do povo.
+20:10 Quando te aproximares de uma cidade para pelejar contra ela, proclamar-lhe-ás paz.
+20:11 E será que, se paz te responder e te abrir [as portas], todo o povo que se achar nela te será por trabalho forçado, e te servirá.
+20:12 E se não fizer paz contigo, e fizer contigo guerra, sitiá-la-ás.
+20:13 E YHWH, teu Deus, a dará na tua mão, e ferirás todo o seu varão à boca da espada.
+20:14 Somente as mulheres, e as crianças, e o gado, e tudo o que houver na cidade, todo o seu despojo, saquearás para ti; e comerás o despojo dos teus inimigos, que YHWH, teu Deus, te deu.
+20:15 Assim farás a todas as cidades muito distantes de ti, que não [são] das cidades destas nações.
+20:16 Somente das cidades destes povos que YHWH, teu Deus, te dá por herança não deixarás viver nenhum fôlego.
+20:17 Mas consagrando ao extermínio os consagrarás ao extermínio: o heteu, e o amorreu, o cananeu, e o perizeu, o heveu, e o jebuseu, como te ordenou YHWH, teu Deus;
+20:18 para que não vos ensinem a fazer conforme todas as suas abominações que fizeram a seus deuses, e pequeis contra YHWH, vosso Deus.
+20:19 Quando sitiares uma cidade muitos dias, pelejando contra ela para a tomar, não destruirás a sua árvore, lançando contra ela machado; porque dela comerás, e não a cortarás. Porventura a árvore do campo [é] homem, para entrar diante de ti no cerco?
+20:20 Somente a árvore que souberes que não [é] árvore de comida, essa destruirás e cortarás, e edificarás cerco contra a cidade que faz contigo guerra, até que ela desça.
+
+21:1 Quando se achar um morto no solo que YHWH, teu Deus, te dá para o possuíres, caído no campo, [e] não se souber quem o feriu,
+21:2 sairão os teus anciãos e os teus juízes, e medirão até as cidades que [estão] ao redor do morto.
+21:3 E será que a cidade [mais] próxima do morto, os anciãos daquela cidade tomarão uma novilha do gado, com a qual não se trabalhou, que não puxou em jugo.
+21:4 E os anciãos daquela cidade farão descer a novilha a um vale perene, em que não se trabalha nem se semeia; e desnucarão ali a novilha, no vale.
+21:5 E se chegarão os sacerdotes, filhos de Levi, porque a eles escolheu YHWH, teu Deus, para o servirem e para abençoarem no nome de YHWH; e pela sua boca será toda contenda e toda praga.
+21:6 E todos os anciãos daquela cidade, os próximos do morto, lavarão as suas mãos sobre a novilha desnucada no vale.
+21:7 E responderão e dirão: As nossas mãos não derramaram este sangue, e os nossos olhos não [o] viram.
+21:8 Faze expiação pelo teu povo Israel, que resgataste, YHWH, e não ponhas sangue inocente no meio do teu povo Israel. E lhes será expiado o sangue.
+21:9 E tu eliminarás o sangue inocente do meio de ti, quando fizeres o reto aos olhos de YHWH.
+21:10 Quando saíres à guerra contra os teus inimigos, e YHWH, teu Deus, os der na tua mão, e levares os seus cativos cativos,
+21:11 e vires entre os cativos uma mulher formosa de aparência, e te apegares a ela, e [a] tomares para ti por mulher,
+21:12 trá-la-ás para dentro da tua casa, e ela rapará a sua cabeça, e fará as suas unhas,
+21:13 e tirará de sobre si o manto do seu cativeiro, e habitará na tua casa, e chorará o seu pai e a sua mãe um mês de dias; e depois disso entrarás a ela, e a desposarás, e ela te será por mulher.
+21:14 E será que, se não te agradares dela, deixá-la-ás ir conforme a sua alma; e vendendo não a venderás por prata; não a tratarás como escrava, porquanto a humilhaste.
+21:15 Quando um homem tiver duas mulheres, uma amada e a outra odiada, e lhe derem filhos, a amada e a odiada, e o filho primogênito for da odiada,
+21:16 será que, no dia em que fizer herdar a seus filhos o que tiver, não poderá dar a primogenitura ao filho da amada diante do filho da odiada, o primogênito;
+21:17 mas ao primogênito, filho da odiada, reconhecerá, dando-lhe boca de dois em tudo o que se achar com ele; porque ele [é] o princípio do seu vigor; dele [é] o direito da primogenitura.
+21:18 Quando um homem tiver um filho obstinado e rebelde, que não ouve a voz de seu pai e a voz de sua mãe, e o corrigirem, e não os ouvir,
+21:19 seu pai e sua mãe lançarão mão dele, e o farão sair aos anciãos da sua cidade e à porta do seu lugar.
+21:20 E dirão aos anciãos da sua cidade: Este nosso filho [é] obstinado e rebelde, não ouve a nossa voz, [é] glutão e beberrão.
+21:21 E todos os homens da sua cidade o apedrejarão com pedras, e morrerá; e eliminarás o mal do meio de ti, e todo Israel ouvirá e temerá.
+21:22 E quando houver num homem pecado [de] juízo de morte, e for morto, e o pendurares sobre madeiro,
+21:23 não pernoitará o seu cadáver sobre o madeiro, mas sepultando o sepultarás naquele dia; porque maldição de Deus [é] o pendurado; e não contaminarás o teu solo que YHWH, teu Deus, te dá por herança.
+
+22:1 Não verás o boi de teu irmão ou o seu cordeiro desgarrados e te esconderás deles; fazendo voltar os farás voltar a teu irmão.
+22:2 E se teu irmão não [estiver] perto de ti, e não o conheceres, recolhê-lo-ás para dentro da tua casa, e estará contigo até que teu irmão o busque; e o farás voltar para ele.
+22:3 E assim farás com o seu jumento, e assim farás com o seu manto, e assim farás com toda coisa perdida de teu irmão que se perder dele e a achares; não poderás esconder-te.
+22:4 Não verás o jumento de teu irmão ou o seu boi caídos no caminho e te esconderás deles; levantando [os] levantarás com ele.
+22:5 Não haverá objeto de varão sobre mulher, e não vestirá varão manto de mulher; porque abominação de YHWH, teu Deus, [é] todo o que faz estas [coisas].
+22:6 Quando se deparar diante de ti um ninho de pássaro no caminho, em qualquer árvore ou sobre a terra, [com] filhotes ou ovos, e a mãe deitada sobre os filhotes ou sobre os ovos, não tomarás a mãe com os filhos.
+22:7 Soltando soltarás a mãe, e os filhos tomarás para ti; para que te vá bem, e prolongues [os] dias.
+22:8 Quando edificares casa nova, farás parapeito para o teu telhado; e não porás sangues na tua casa, quando cair dele o que cair.
+22:9 Não semearás a tua vinha [com] duas espécies, para que não se torne santa a plenitude, a semente que semeares e o produto da vinha.
+22:10 Não lavrarás com boi e com jumento juntos.
+22:11 Não vestirás tecido misto, lã e linho juntos.
+22:12 Borlas farás para ti sobre as quatro asas da tua cobertura com que te cobres.
+22:13 Quando um homem tomar mulher, e entrar a ela, e a odiar,
+22:14 e lhe imputar pretextos de palavras, e fizer sair sobre ela nome mau, e disser: Esta mulher tomei, e me cheguei a ela, e não achei nela virgindade,
+22:15 o pai da moça e a sua mãe tomarão e farão sair [as provas da] virgindade da moça aos anciãos da cidade, à porta.
+22:16 E dirá o pai da moça aos anciãos: Minha filha dei a este homem por mulher, e ele a odiou.
+22:17 E eis que ele lhe imputa pretextos de palavras, dizendo: Não achei na tua filha virgindade. E estas [são as provas da] virgindade de minha filha. E estenderão o manto diante dos anciãos da cidade.
+22:18 E os anciãos daquela cidade tomarão o homem e o castigarão;
+22:19 e o multarão em cem [siclos] de prata, e [os] darão ao pai da moça, porque fez sair nome mau sobre uma virgem de Israel; e ela lhe será por mulher; não poderá despedi-la todos os seus dias.
+22:20 E se verdade foi esta coisa, [e] não se acharam [provas de] virgindade na moça,
+22:21 farão sair a moça à entrada da casa de seu pai, e os homens da sua cidade a apedrejarão com pedras, e morrerá; porque fez infâmia em Israel, prostituindo-se [na] casa de seu pai; e eliminarás o mal do meio de ti.
+22:22 Quando for achado um homem deitado com mulher casada com marido, morrerão também ambos, o homem que se deitou com a mulher, e a mulher; e eliminarás o mal de Israel.
+22:23 Quando houver uma moça virgem desposada com um homem, e um homem a achar na cidade e se deitar com ela,
+22:24 fareis sair ambos à porta daquela cidade, e os apedrejareis com pedras, e morrerão: a moça, por não ter clamado na cidade, e o homem, por ter humilhado a mulher do seu próximo; e eliminarás o mal do meio de ti.
+22:25 E se no campo o homem achar a moça desposada, e o homem a agarrar e se deitar com ela, morrerá o homem que se deitou com ela, só ele.
+22:26 E à moça não farás coisa alguma; não há na moça pecado de morte; porque como quando um homem se levanta contra o seu próximo e o mata [na] alma, assim [é] esta coisa.
+22:27 Porque no campo a achou; clamou a moça desposada, e não há quem a salve.
+22:28 Quando um homem achar uma moça virgem que não [está] desposada, e a pegar, e se deitar com ela, e forem achados,
+22:29 o homem que se deitou com ela dará ao pai da moça cinquenta [siclos] de prata, e ela lhe será por mulher, porquanto a humilhou; não poderá despedi-la todos os seus dias.
+
+23:1 Não tomará um homem a mulher de seu pai, e não descobrirá a asa de seu pai.
+23:2 Não entrará o ferido de esmagamento e o cortado de membro na assembleia de YHWH.
+23:3 Não entrará bastardo na assembleia de YHWH; também a décima geração dele não entrará na assembleia de YHWH.
+23:4 Não entrará amonita e moabita na assembleia de YHWH; também a décima geração deles não entrará na assembleia de YHWH, para sempre;
+23:5 por não vos terem vindo ao encontro com pão e com água no caminho, quando saíeis do Egito, e porque contratou contra ti a Balaão, filho de Beor, de Petor, de Arã-Naaraim, para te amaldiçoar.
+23:6 E não quis YHWH, teu Deus, ouvir a Balaão, e YHWH, teu Deus, te converteu a maldição em bênção, porque YHWH, teu Deus, te ama.
+23:7 Não buscarás a sua paz e o seu bem todos os teus dias, para sempre.
+23:8 Não abominarás o edomita, porque ele [é] teu irmão; não abominarás o egípcio, porque estrangeiro foste na sua terra.
+23:9 Os filhos que lhes nascerem, a terceira geração deles, entrará na assembleia de YHWH.
+23:10 Quando saíres [em] acampamento contra os teus inimigos, guardar-te-ás de toda coisa má.
+23:11 Quando houver em ti um homem que não estiver puro por acidente da noite, sairá para fora do acampamento; não entrará no meio do acampamento.
+23:12 E será que, ao declinar da tarde, se lavará nas águas; e ao pôr do sol entrará no meio do acampamento.
+23:13 E terás uma mão fora do acampamento, e sairás para lá, fora.
+23:14 E terás uma estaca junto à tua ferramenta; e será que, quando te sentares fora, cavarás com ela, e voltarás e cobrirás o teu excremento.
+23:15 Porque YHWH, teu Deus, anda no meio do teu acampamento, para te livrar e para entregar os teus inimigos diante de ti; e o teu acampamento será santo, e não veja ele em ti nudez de coisa, e se volte de detrás de ti.
+23:16 Não entregarás a seu senhor o servo que escapar para ti de junto de seu senhor.
+23:17 Contigo habitará, no meio de ti, no lugar que escolher em uma das tuas portas, onde [for] bom para ele; não o oprimirás.
+23:18 Não haverá consagrada dentre as filhas de Israel, e não haverá consagrado dentre os filhos de Israel.
+23:19 Não trarás a paga de prostituta e o preço de cão à casa de YHWH, teu Deus, por qualquer voto; porque abominação de YHWH, teu Deus, [são] também ambos.
+23:20 Não farás pagar juros a teu irmão: juros de prata, juros de comida, juros de qualquer coisa que se empresta a juros.
+23:21 Ao estranho farás pagar juros, e a teu irmão não farás pagar juros; para que YHWH, teu Deus, te abençoe em todo o empreendimento da tua mão sobre a terra a que tu entras para a possuíres.
+23:22 Quando fizeres voto a YHWH, teu Deus, não tardarás em pagá-lo; porque requerendo o requererá YHWH, teu Deus, de ti, e haverá em ti pecado.
+23:23 E quando deixares de fazer voto, não haverá em ti pecado.
+23:24 O que sair dos teus lábios guardarás, e farás como votaste a YHWH, teu Deus, oferta voluntária, o que falaste com a tua boca.
+23:25 Quando entrares na vinha do teu próximo, comerás uvas conforme a tua alma, [até] a tua fartura; e na tua vasilha não [as] porás.
+23:26 Quando entrares na seara do teu próximo, arrancarás espigas com a tua mão; e foice não moverás sobre a seara do teu próximo.
+
+24:1 Quando um homem tomar uma mulher e a desposar, e for que ela não achar graça aos seus olhos, porque achou nela nudez de coisa, e lhe escrever livro de divórcio, e [o] der na sua mão, e a despedir da sua casa,
+24:2 e ela sair da sua casa, e for, e vier a ser de outro homem,
+24:3 e o último homem a odiar, e lhe escrever livro de divórcio, e [o] der na sua mão, e a despedir da sua casa, ou quando morrer o último homem que a tomou para si por mulher,
+24:4 não poderá o seu primeiro marido, que a despediu, voltar a tomá-la para que lhe seja por mulher, depois que foi contaminada; porque abominação [é] isso diante de YHWH; e não farás pecar a terra que YHWH, teu Deus, te dá por herança.
+24:5 Quando um homem tomar mulher nova, não sairá no exército, e não passará [encargo] sobre ele para coisa alguma; livre estará para a sua casa um ano, e alegrará a sua mulher que tomou.
+24:6 Não tomará em penhor as duas mós e a mó de cima; porque [é] a alma que ele toma em penhor.
+24:7 Quando se achar um homem furtando uma alma de seus irmãos, dos filhos de Israel, e a tratar como escravo e a vender, morrerá esse ladrão; e eliminarás o mal do meio de ti.
+24:8 Guarda-te na praga da lepra, para guardar muito e para fazer conforme tudo o que vos ensinarem os sacerdotes, os levitas; como lhes ordenei, guardareis para fazer.
+24:9 Lembra-te do que YHWH, teu Deus, fez a Miriã no caminho, quando saíeis do Egito.
+24:10 Quando emprestares ao teu próximo empréstimo de qualquer coisa, não entrarás na sua casa para tomar o seu penhor.
+24:11 Fora ficarás em pé, e o homem a quem tu emprestas te fará sair para fora o penhor.
+24:12 E se ele [for] homem pobre, não te deitarás com o seu penhor.
+24:13 Devolvendo lhe devolverás o penhor ao pôr do sol, e ele se deitará no seu manto e te abençoará; e para ti será justiça diante de YHWH, teu Deus.
+24:14 Não oprimirás o assalariado pobre e necessitado, de teus irmãos ou de teu estrangeiro que [está] na tua terra, dentro das tuas portas.
+24:15 No seu dia darás o seu salário, e não se porá sobre ele o sol; porque pobre [é] ele, e por ele levanta a sua alma; e não clame contra ti a YHWH, e haja em ti pecado.
+24:16 Não serão mortos os pais pelos filhos, e os filhos não serão mortos pelos pais; cada um pelo seu pecado será morto.
+24:17 Não inclinarás o juízo do estrangeiro [e do] órfão, e não tomarás em penhor a veste da viúva.
+24:18 E te lembrarás de que servo foste no Egito, e YHWH, teu Deus, te resgatou dali; por isso eu te ordeno fazer esta coisa.
+24:19 Quando segares a tua ceifa no teu campo, e esqueceres um feixe no campo, não voltarás para tomá-lo; para o estrangeiro, para o órfão e para a viúva será; para que YHWH, teu Deus, te abençoe em toda obra das tuas mãos.
+24:20 Quando bateres a tua oliveira, não rebuscarás os ramos atrás de ti; para o estrangeiro, para o órfão e para a viúva será.
+24:21 Quando vindimares a tua vinha, não rebuscarás atrás de ti; para o estrangeiro, para o órfão e para a viúva será.
+24:22 E te lembrarás de que servo foste na terra do Egito; por isso eu te ordeno fazer esta coisa.
+
+25:1 Quando houver contenda entre homens, e se chegarem ao juízo, e os julgarem, justificarão o justo e condenarão o ímpio.
+25:2 E será que, se o ímpio [for] filho de açoites, o juiz o fará deitar e o fará ferir diante de si, conforme a sua perversidade, por número.
+25:3 Quarenta [golpes] o fará ferir, não acrescentará; para que não acrescente a feri-lo, além destes, com muitos golpes, e seja aviltado teu irmão aos teus olhos.
+25:4 Não açaimarás o boi quando debulha.
+25:5 Quando irmãos habitarem juntos, e morrer um deles, e não tiver filho, a mulher do morto não será para fora, de homem estranho; o seu cunhado entrará a ela, e a tomará para si por mulher, e cumprirá com ela o dever de cunhado.
+25:6 E será que o primogênito que ela der à luz se levantará sobre o nome de seu irmão morto, e não se apagará o seu nome de Israel.
+25:7 E se o homem não tiver prazer em tomar a sua cunhada, a sua cunhada subirá à porta, aos anciãos, e dirá: Recusa o meu cunhado levantar a seu irmão nome em Israel; não quis cumprir comigo o dever de cunhado.
+25:8 E os anciãos da sua cidade o chamarão e lhe falarão; e [se] ele ficar em pé e disser: Não tenho prazer em tomá-la,
+25:9 a sua cunhada se chegará a ele aos olhos dos anciãos, e lhe tirará a sandália de sobre o seu pé, e cuspirá na sua face, e responderá e dirá: Assim se fará ao homem que não edificar a casa de seu irmão.
+25:10 E será chamado o seu nome em Israel: Casa do descalçado da sandália.
+25:11 Quando brigarem homens juntos, um homem e o seu irmão, e a mulher de um se chegar para livrar o seu marido da mão do que o fere, e estender a sua mão e o agarrar pelas suas partes íntimas,
+25:12 cortarás a palma da mão dela; não terá pena o teu olho.
+25:13 Não terás na tua bolsa pedra e pedra, grande e pequena.
+25:14 Não terás na tua casa efa e efa, grande e pequena.
+25:15 Pedra completa e de justiça terás; efa completa e de justiça terás; para que se prolonguem os teus dias sobre o solo que YHWH, teu Deus, te dá.
+25:16 Porque abominação de YHWH, teu Deus, [é] todo o que faz estas [coisas], todo o que faz injustiça.
+25:17 Lembra-te do que te fez Amaleque no caminho, quando saíeis do Egito;
+25:18 como te encontrou no caminho, e atacou na tua retaguarda todos os enfraquecidos atrás de ti, estando tu cansado e exausto; e não temeu a Deus.
+25:19 E será que, quando YHWH, teu Deus, te der repouso de todos os teus inimigos ao redor, na terra que YHWH, teu Deus, te dá por herança, para a possuíres, apagarás a memória de Amaleque de debaixo dos céus; não te esquecerás.
+
+26:1 E será que, quando entrares na terra que YHWH, teu Deus, te dá por herança, e a possuíres, e habitares nela,
+26:2 tomarás das primícias de todo o fruto do solo que trouxeres da tua terra que YHWH, teu Deus, te dá, e [o] porás no cesto, e irás ao lugar que YHWH, teu Deus, escolher para fazer habitar o seu nome ali.
+26:3 E virás ao sacerdote que houver naqueles dias, e lhe dirás: Declaro hoje a YHWH, teu Deus, que entrei na terra que YHWH jurou a nossos pais dar-nos.
+26:4 E o sacerdote tomará o cesto da tua mão, e o deporá diante do altar de YHWH, teu Deus.
+26:5 E responderás e dirás diante de YHWH, teu Deus: Um arameu errante [era] meu pai, e desceu ao Egito, e peregrinou ali com poucos homens, e veio a ser ali uma nação grande, poderosa e numerosa.
+26:6 E os egípcios nos maltrataram, e nos afligiram, e puseram sobre nós serviço duro.
+26:7 E clamamos a YHWH, Deus de nossos pais, e YHWH ouviu a nossa voz, e viu a nossa aflição, e o nosso trabalho, e a nossa opressão.
+26:8 E YHWH nos fez sair do Egito com mão forte, e com braço estendido, e com grande terror, e com sinais, e com prodígios.
+26:9 E nos trouxe a este lugar, e nos deu esta terra, terra que mana leite e mel.
+26:10 E agora, eis que trouxe as primícias do fruto do solo que me deste, YHWH. E o deporás diante de YHWH, teu Deus, e te prostrarás diante de YHWH, teu Deus.
+26:11 E te alegrarás com todo o bem que YHWH, teu Deus, te deu, a ti e à tua casa, tu, e o levita, e o estrangeiro que [está] no meio de ti.
+26:12 Quando acabares de dizimar todo o dízimo do teu produto no terceiro ano, o ano do dízimo, e [o] deres ao levita, ao estrangeiro, ao órfão e à viúva, e comerem dentro das tuas portas e se fartarem,
+26:13 dirás diante de YHWH, teu Deus: Removi da casa o que é santo, e também o dei ao levita, e ao estrangeiro, ao órfão e à viúva, conforme todo o teu mandamento que me ordenaste; não transgredi os teus mandamentos, e não [os] esqueci.
+26:14 Não comi dele no meu luto, e não removi dele [estando] impuro, e não dei dele para morto; ouvi a voz de YHWH, meu Deus; fiz conforme tudo o que me ordenaste.
+26:15 Olha da morada da tua santidade, dos céus, e abençoa o teu povo, Israel, e o solo que nos deste, como juraste a nossos pais, terra que mana leite e mel.
+26:16 Neste dia YHWH, teu Deus, te ordena fazer estes estatutos e os juízos; e os guardarás e os farás com todo o teu coração e com toda a tua alma.
+26:17 A YHWH fizeste dizer hoje que ele te será por Deus, e [que] andarás nos seus caminhos, e guardarás os seus estatutos, e os seus mandamentos, e os seus juízos, e ouvirás a sua voz.
+26:18 E YHWH te fez dizer hoje que lhe serás por povo de propriedade particular, como te falou, e [que] guardarás todos os seus mandamentos,
+26:19 e para te pôr acima de todas as nações que fez, para louvor, e para nome, e para esplendor, e para seres povo santo a YHWH, teu Deus, como falou.
+
+27:1 E ordenou Moisés, e os anciãos de Israel, ao povo, dizendo: Guardai todo o mandamento que eu vos ordeno hoje.
+27:2 E será que, no dia em que passardes o Jordão para a terra que YHWH, teu Deus, te dá, levantarás para ti pedras grandes, e as caiarás com cal;
+27:3 e escreverás sobre elas todas as palavras desta instrução, quando passares, para que entres na terra que YHWH, teu Deus, te dá, terra que mana leite e mel, como YHWH, Deus de teus pais, te falou.
+27:4 E será que, quando passardes o Jordão, levantareis estas pedras que eu vos ordeno hoje no monte Ebal, e as caiarás com cal.
+27:5 E edificarás ali um altar a YHWH, teu Deus, altar de pedras; não moverás sobre elas ferro.
+27:6 De pedras inteiras edificarás o altar de YHWH, teu Deus, e farás subir sobre ele holocaustos a YHWH, teu Deus;
+27:7 e sacrificarás ofertas pacíficas, e comerás ali, e te alegrarás diante de YHWH, teu Deus.
+27:8 E escreverás sobre as pedras todas as palavras desta instrução, explicando bem.
+27:9 E falou Moisés, e os sacerdotes, os levitas, a todo Israel, dizendo: Faze silêncio e ouve, Israel: neste dia te tornaste povo para YHWH, teu Deus.
+27:10 E ouvirás a voz de YHWH, teu Deus, e farás os seus mandamentos e os seus estatutos que eu te ordeno hoje.
+27:11 E ordenou Moisés ao povo naquele dia, dizendo:
+27:12 Estes estarão em pé para abençoar o povo sobre o monte Gerizim, quando passardes o Jordão: Simeão, e Levi, e Judá, e Issacar, e José, e Benjamim.
+27:13 E estes estarão em pé para a maldição no monte Ebal: Rúben, Gade, e Aser, e Zebulom, Dã, e Naftali.
+27:14 E os levitas responderão e dirão a todo homem de Israel, [em] voz alta:
+27:15 Maldito o homem que fizer imagem esculpida e imagem fundida, abominação de YHWH, obra das mãos de artífice, e [a] puser em oculto. E todo o povo responderá e dirá: Amém.
+27:16 Maldito o que despreza seu pai e sua mãe. E todo o povo dirá: Amém.
+27:17 Maldito o que remove o limite do seu próximo. E todo o povo dirá: Amém.
+27:18 Maldito o que faz errar o cego no caminho. E todo o povo dirá: Amém.
+27:19 Maldito o que inclina o juízo do estrangeiro, do órfão e da viúva. E todo o povo dirá: Amém.
+27:20 Maldito o que se deita com a mulher de seu pai, porque descobriu a asa de seu pai. E todo o povo dirá: Amém.
+27:21 Maldito o que se deita com qualquer animal. E todo o povo dirá: Amém.
+27:22 Maldito o que se deita com a sua irmã, filha de seu pai ou filha de sua mãe. E todo o povo dirá: Amém.
+27:23 Maldito o que se deita com a sua sogra. E todo o povo dirá: Amém.
+27:24 Maldito o que fere o seu próximo em oculto. E todo o povo dirá: Amém.
+27:25 Maldito o que toma suborno para ferir uma alma, sangue inocente. E todo o povo dirá: Amém.
+27:26 Maldito o que não levantar as palavras desta instrução, para as fazer. E todo o povo dirá: Amém.
+
+28:1 E será que, se ouvindo ouvires a voz de YHWH, teu Deus, para guardar para fazer todos os seus mandamentos que eu te ordeno hoje, YHWH, teu Deus, te porá acima de todas as nações da terra.
+28:2 E virão sobre ti todas estas bênçãos, e te alcançarão, quando ouvires a voz de YHWH, teu Deus.
+28:3 Bendito [serás] tu na cidade, e bendito [serás] tu no campo.
+28:4 Bendito [será] o fruto do teu ventre, e o fruto do teu solo, e o fruto do teu gado, a cria dos teus bois e as crias das tuas ovelhas.
+28:5 Bendito [será] o teu cesto e a tua amassadeira.
+28:6 Bendito [serás] tu ao entrares, e bendito [serás] tu ao saíres.
+28:7 YHWH entregará os teus inimigos que se levantam contra ti feridos diante de ti; por um caminho sairão contra ti, e por sete caminhos fugirão diante de ti.
+28:8 Ordene YHWH contigo a bênção nos teus celeiros e em todo o empreendimento da tua mão; e te abençoará na terra que YHWH, teu Deus, te dá.
+28:9 YHWH te levantará para si por povo santo, como te jurou, quando guardares os mandamentos de YHWH, teu Deus, e andares nos seus caminhos.
+28:10 E todos os povos da terra verão que o nome de YHWH é chamado sobre ti, e temerão de ti.
+28:11 E YHWH te fará sobejar para o bem, no fruto do teu ventre, e no fruto do teu gado, e no fruto do teu solo, sobre o solo que YHWH jurou a teus pais dar-te.
+28:12 YHWH te abrirá o seu bom tesouro, os céus, para dar a chuva da tua terra no seu tempo, e para abençoar toda a obra da tua mão; e emprestarás a muitas nações, e tu não tomarás emprestado.
+28:13 E YHWH te porá por cabeça e não por cauda, e estarás somente em cima, e não estarás embaixo, quando ouvires os mandamentos de YHWH, teu Deus, que eu te ordeno hoje, para [os] guardar e para [os] fazer,
+28:14 e não te desviares de todas as palavras que eu vos ordeno hoje, [para a] direita ou [para a] esquerda, para andar após outros deuses, para os servir.
+28:15 E será que, se não ouvires a voz de YHWH, teu Deus, para guardar para fazer todos os seus mandamentos e os seus estatutos que eu te ordeno hoje, virão sobre ti todas estas maldições, e te alcançarão.
+28:16 Maldito [serás] tu na cidade, e maldito [serás] tu no campo.
+28:17 Maldito [será] o teu cesto e a tua amassadeira.
+28:18 Maldito [será] o fruto do teu ventre, e o fruto do teu solo, a cria dos teus bois e as crias das tuas ovelhas.
+28:19 Maldito [serás] tu ao entrares, e maldito [serás] tu ao saíres.
+28:20 YHWH enviará contra ti a execração, a confusão e a ameaça, em todo o empreendimento da tua mão que fizeres, até seres exterminado e até pereceres depressa, por causa da maldade das tuas obras, pelas quais me abandonaste.
+28:21 YHWH fará apegar-se a ti a peste, até te consumir de sobre o solo a que tu entras para o possuíres.
+28:22 YHWH te ferirá com tísica, e com febre, e com inflamação, e com ardor, e com espada, e com crestamento, e com ferrugem; e te perseguirão até pereceres.
+28:23 E os teus céus que [estão] sobre a tua cabeça serão bronze, e a terra que [está] debaixo de ti, ferro.
+28:24 YHWH dará [por] chuva da tua terra poeira e pó; dos céus descerá sobre ti, até seres exterminado.
+28:25 YHWH te entregará ferido diante dos teus inimigos; por um caminho sairás contra ele, e por sete caminhos fugirás diante dele; e serás por objeto de terror a todos os reinos da terra.
+28:26 E o teu cadáver será por comida a toda ave dos céus e ao animal da terra, e não há quem [os] espante.
+28:27 YHWH te ferirá com a úlcera do Egito, e com tumores, e com sarna, e com coceira, de que não poderás ser curado.
+28:28 YHWH te ferirá com loucura, e com cegueira, e com pasmo de coração.
+28:29 E estarás apalpando ao meio-dia, como o cego apalpa na escuridão, e não farás prosperar os teus caminhos; e serás somente oprimido e roubado todos os dias, e não há quem [te] salve.
+28:30 Mulher desposarás, e outro homem se deitará com ela; casa edificarás, e não habitarás nela; vinha plantarás, e não a profanarás.
+28:31 O teu boi [será] abatido aos teus olhos, e não comerás dele; o teu jumento [será] roubado de diante de ti, e não voltará a ti; as tuas ovelhas [serão] dadas aos teus inimigos, e não há para ti quem salve.
+28:32 Os teus filhos e as tuas filhas [serão] dados a outro povo, e os teus olhos [o] verão, e desfalecerão por eles todo o dia; e não há poder na tua mão.
+28:33 O fruto do teu solo e todo o teu trabalho comerá um povo que não conheceste; e serás somente oprimido e esmagado todos os dias.
+28:34 E serás enlouquecido pela visão dos teus olhos que verás.
+28:35 YHWH te ferirá com úlcera má sobre os joelhos e sobre as pernas, de que não poderás ser curado, desde a planta do teu pé até o alto da tua cabeça.
+28:36 YHWH levará a ti e o teu rei que levantares sobre ti a uma nação que não conheceste, tu e teus pais; e servirás ali outros deuses, madeira e pedra.
+28:37 E serás por espanto, por provérbio e por motejo entre todos os povos para onde YHWH te conduzir.
+28:38 Muita semente farás sair ao campo, e pouco recolherás, porque o gafanhoto a devorará.
+28:39 Vinhas plantarás e [as] lavrarás, e vinho não beberás, e não [o] recolherás, porque o verme as comerá.
+28:40 Oliveiras terás em todo o teu território, e com azeite não te ungirás, porque a tua azeitona cairá.
+28:41 Filhos e filhas gerarás, e não serão teus, porque irão para o cativeiro.
+28:42 Todas as tuas árvores e o fruto do teu solo possuirá o grilo.
+28:43 O estrangeiro que [está] no meio de ti subirá sobre ti, acima, acima; e tu descerás abaixo, abaixo.
+28:44 Ele te emprestará, e tu não lhe emprestarás; ele será por cabeça, e tu serás por cauda.
+28:45 E virão sobre ti todas estas maldições, e te perseguirão, e te alcançarão, até seres exterminado; porque não ouviste a voz de YHWH, teu Deus, para guardar os seus mandamentos e os seus estatutos que te ordenou.
+28:46 E serão em ti por sinal e por prodígio, e na tua semente, para sempre.
+28:47 Porquanto não serviste a YHWH, teu Deus, com alegria e com bem de coração, pela abundância de tudo,
+28:48 servirás os teus inimigos, que YHWH enviará contra ti, com fome, e com sede, e com nudez, e com falta de tudo; e ele porá jugo de ferro sobre o teu pescoço, até te exterminar.
+28:49 YHWH levantará contra ti uma nação de longe, da extremidade da terra, como voa a águia; nação cuja língua não entenderás;
+28:50 nação dura de face, que não levantará a face ao velho, e do moço não terá compaixão;
+28:51 e comerá o fruto do teu gado e o fruto do teu solo, até seres exterminado; que não te deixará trigo, mosto e azeite, a cria dos teus bois e as crias das tuas ovelhas, até te fazer perecer.
+28:52 E te sitiará em todas as tuas portas, até descerem os teus muros altos e fortificados, em que tu confias, em toda a tua terra; e te sitiará em todas as tuas portas, em toda a tua terra que YHWH, teu Deus, te deu.
+28:53 E comerás o fruto do teu ventre, a carne de teus filhos e de tuas filhas, que YHWH, teu Deus, te deu, no cerco e no aperto com que te apertará o teu inimigo.
+28:54 O homem tenro entre ti e muito delicado, mau será o seu olho para com seu irmão, e para com a mulher do seu seio, e para com o resto de seus filhos que lhe restarem,
+28:55 para não dar a um deles da carne de seus filhos que comer, por não lhe ter restado nada no cerco e no aperto com que te apertará o teu inimigo em todas as tuas portas.
+28:56 A tenra entre ti e delicada, que não experimentou pôr a planta do seu pé sobre a terra, por delicadeza e por moleza, mau será o seu olho para com o marido do seu seio, e para com seu filho, e para com sua filha,
+28:57 e para com a sua placenta que sai de entre os seus pés, e para com os seus filhos que der à luz; porque os comerá às escondidas, na falta de tudo, no cerco e no aperto com que te apertará o teu inimigo dentro das tuas portas.
+28:58 Se não guardares para fazer todas as palavras desta instrução que estão escritas neste livro, para temeres este nome glorioso e temível, YHWH, teu Deus,
+28:59 YHWH tornará extraordinárias as tuas pragas e as pragas da tua semente, pragas grandes e duradouras, e doenças más e duradouras.
+28:60 E fará voltar sobre ti todas as enfermidades do Egito, diante das quais temeste, e se apegarão a ti.
+28:61 Também toda doença e toda praga que não [está] escrita no livro desta instrução, YHWH as fará subir sobre ti, até seres exterminado.
+28:62 E restareis poucos homens, em vez de terdes sido como as estrelas dos céus em multidão; porque não ouviste a voz de YHWH, teu Deus.
+28:63 E será que, como YHWH se alegrou sobre vós para vos fazer bem e para vos multiplicar, assim YHWH se alegrará sobre vós para vos fazer perecer e para vos exterminar; e sereis arrancados de sobre o solo a que tu entras para o possuíres.
+28:64 E YHWH te espalhará entre todos os povos, desde a extremidade da terra até a extremidade da terra; e servirás ali outros deuses que não conheceste, tu e teus pais, madeira e pedra.
+28:65 E entre aquelas nações não terás sossego, e não haverá descanso para a planta do teu pé; e YHWH te dará ali coração trêmulo, e desfalecimento de olhos, e definhamento de alma.
+28:66 E a tua vida estará suspensa diante de ti, e tremerás de noite e de dia, e não crerás na tua vida.
+28:67 Pela manhã dirás: Quem dera a tarde! E à tarde dirás: Quem dera a manhã! Pelo pavor do teu coração com que tremerás, e pela visão dos teus olhos que verás.
+28:68 E YHWH te fará voltar ao Egito em navios, pelo caminho de que te disse: Não tornarás mais a vê-lo; e ali vos vendereis aos teus inimigos como servos e como servas, e não há quem compre.
+28:69 Estas [são] as palavras da aliança que YHWH ordenou a Moisés cortar com os filhos de Israel na terra de Moabe, além da aliança que cortou com eles em Horebe.
+
+29:1 E chamou Moisés a todo Israel, e disse-lhes: Vós vistes tudo o que YHWH fez aos vossos olhos na terra do Egito a Faraó, e a todos os seus servos, e a toda a sua terra:
+29:2 as grandes provas que viram os teus olhos, aqueles grandes sinais e prodígios.
+29:3 E YHWH não vos deu coração para conhecer, e olhos para ver, e ouvidos para ouvir, até este dia.
+29:4 E vos fiz andar quarenta anos no deserto; não envelheceram os vossos mantos sobre vós, e a tua sandália não envelheceu sobre o teu pé.
+29:5 Pão não comestes, e vinho e bebida forte não bebestes, para que conheçais que eu [sou] YHWH, vosso Deus.
+29:6 E viestes a este lugar, e saíram Seom, rei de Hesbom, e Ogue, rei de Basã, ao nosso encontro para a guerra, e os ferimos.
+29:7 E tomamos a sua terra, e a demos por herança aos rubenitas, e aos gaditas, e à meia tribo dos manassitas.
+29:8 E guardareis as palavras desta aliança, e as fareis, para que prospereis em tudo o que fizerdes.
+29:9 Vós estais hoje, todos vós, em pé diante de YHWH, vosso Deus: os vossos cabeças, as vossas tribos, os vossos anciãos e os vossos oficiais, todo homem de Israel,
+29:10 as vossas crianças, as vossas mulheres, e o teu estrangeiro que [está] no meio do teu acampamento, desde o que racha a tua lenha até o que tira a tua água,
+29:11 para passares na aliança de YHWH, teu Deus, e na sua imprecação, que YHWH, teu Deus, corta contigo hoje;
+29:12 para te levantar hoje para si por povo, e ele te será por Deus, como te falou, e como jurou a teus pais, a Abraão, a Isaque e a Jacó.
+29:13 E não convosco sozinhos eu corto esta aliança e esta imprecação,
+29:14 mas com o que está aqui conosco, em pé hoje diante de YHWH, nosso Deus, e com o que não está aqui conosco hoje.
+29:15 Porque vós conheceis como habitamos na terra do Egito, e como passamos pelo meio das nações por que passastes.
+29:16 E vistes as suas coisas detestáveis e os seus ídolos, madeira e pedra, prata e ouro, que [estão] com eles.
+29:17 Para que não haja entre vós homem, ou mulher, ou família, ou tribo, cujo coração se volte hoje de junto de YHWH, nosso Deus, para ir servir os deuses daquelas nações; para que não haja entre vós raiz que dê por fruto veneno e absinto.
+29:18 E será que, ao ouvir ele as palavras desta imprecação, se abençoará no seu coração, dizendo: Paz terei, ainda que ande na obstinação do meu coração; para acabar com o regado [e] o sedento.
+29:19 YHWH não quererá perdoar-lhe; porque então fumegará a ira de YHWH e o seu zelo contra esse homem, e se deitará sobre ele toda a imprecação escrita neste livro, e YHWH apagará o seu nome de debaixo dos céus.
+29:20 E YHWH o separará para o mal de todas as tribos de Israel, conforme todas as imprecações da aliança escrita neste livro da instrução.
+29:21 E dirá a geração vindoura, os vossos filhos que se levantarem depois de vós, e o estranho que vier de terra distante, quando virem as pragas daquela terra e as suas doenças com que YHWH a fez adoecer:
+29:22 Enxofre e sal, queimada toda a sua terra; não será semeada, e não fará brotar, e não subirá nela erva alguma, como a subversão de Sodoma e Gomorra, Admá e Zeboim, que YHWH subverteu na sua ira e no seu furor;
+29:23 e dirão todas as nações: Por que fez YHWH assim a esta terra? Que [é] o ardor desta grande ira?
+29:24 E dirão: Porque deixaram a aliança de YHWH, Deus de seus pais, que cortou com eles quando os fez sair da terra do Egito;
+29:25 e foram, e serviram a outros deuses, e se prostraram a eles, deuses que não conheciam e que [ele] não lhes repartira.
+29:26 E acendeu-se a ira de YHWH contra aquela terra, para trazer sobre ela toda a maldição escrita neste livro.
+29:27 E YHWH os arrancou de sobre o seu solo com ira, e com furor, e com grande indignação, e os lançou em outra terra, como neste dia.
+29:28 As [coisas] encobertas [são] de YHWH, nosso Deus; e as reveladas, nossas e de nossos filhos para sempre, para fazermos todas as palavras desta instrução.
+
+30:1 E será que, quando vierem sobre ti todas estas coisas, a bênção e a maldição que pus diante de ti, e [as] fizeres voltar ao teu coração entre todas as nações para onde YHWH, teu Deus, te baniu,
+30:2 e voltares até YHWH, teu Deus, e ouvires a sua voz conforme tudo o que eu te ordeno hoje, tu e os teus filhos, com todo o teu coração e com toda a tua alma,
+30:3 YHWH, teu Deus, fará voltar o teu cativeiro, e terá misericórdia de ti, e voltará e te ajuntará de todos os povos para onde YHWH, teu Deus, te espalhou.
+30:4 Se o teu banido estiver na extremidade dos céus, dali te ajuntará YHWH, teu Deus, e dali te tomará.
+30:5 E YHWH, teu Deus, te trará à terra que teus pais possuíram, e a possuirás; e te fará bem, e te multiplicará mais do que a teus pais.
+30:6 E YHWH, teu Deus, circuncidará o teu coração e o coração da tua semente, para amares a YHWH, teu Deus, com todo o teu coração e com toda a tua alma, por causa da tua vida.
+30:7 E YHWH, teu Deus, porá todas estas imprecações sobre os teus inimigos e sobre os que te odeiam, que te perseguiram.
+30:8 E tu voltarás, e ouvirás a voz de YHWH, e farás todos os seus mandamentos que eu te ordeno hoje.
+30:9 E YHWH, teu Deus, te fará sobejar em toda obra da tua mão, no fruto do teu ventre, e no fruto do teu gado, e no fruto do teu solo, para o bem; porque YHWH voltará a se alegrar sobre ti para o bem, como se alegrou sobre teus pais,
+30:10 quando ouvires a voz de YHWH, teu Deus, para guardar os seus mandamentos e os seus estatutos escritos neste livro da instrução, quando voltares a YHWH, teu Deus, com todo o teu coração e com toda a tua alma.
+30:11 Porque este mandamento que eu te ordeno hoje não [é] difícil demais para ti, e não [está] longe.
+30:12 Não [está] nos céus, para dizeres: Quem subirá por nós aos céus, e no-lo trará, e no-lo fará ouvir, e o faremos?
+30:13 E não [está] do outro lado do mar, para dizeres: Quem passará por nós ao outro lado do mar, e no-lo trará, e no-lo fará ouvir, e o faremos?
+30:14 Porque muito perto de ti [está] a palavra, na tua boca e no teu coração, para a fazeres.
+30:15 Vê: pus diante de ti hoje a vida e o bem, e a morte e o mal;
+30:16 porquanto eu te ordeno hoje amar a YHWH, teu Deus, andar nos seus caminhos, e guardar os seus mandamentos, e os seus estatutos, e os seus juízos; e viverás, e te multiplicarás, e YHWH, teu Deus, te abençoará na terra a que tu entras para a possuíres.
+30:17 E se o teu coração se voltar, e não ouvires, e te deixares arrastar, e te prostrares a outros deuses, e os servires,
+30:18 declaro-vos hoje que perecendo perecereis; não prolongareis [os] dias sobre o solo para o qual tu passas o Jordão, para entrares ali para o possuíres.
+30:19 Tomo hoje por testemunhas contra vós os céus e a terra: a vida e a morte pus diante de ti, a bênção e a maldição; e escolherás a vida, para que vivas, tu e a tua semente,
+30:20 para amares a YHWH, teu Deus, para ouvires a sua voz, e para te apegares a ele; porque ele [é] a tua vida e o comprimento dos teus dias, para habitares sobre o solo que YHWH jurou a teus pais, a Abraão, a Isaque e a Jacó, dar-lhes.
+
+31:1 E foi Moisés, e falou estas palavras a todo Israel.
+31:2 E disse-lhes: Filho de cento e vinte anos [sou] eu hoje; não posso mais sair e entrar; e YHWH me disse: Não passarás este Jordão.
+31:3 YHWH, teu Deus, ele passa diante de ti; ele exterminará estas nações de diante de ti, e as desapossarás; Josué, ele passa diante de ti, como falou YHWH.
+31:4 E YHWH lhes fará como fez a Seom e a Ogue, reis do amorreu, e à sua terra, aos quais exterminou.
+31:5 E YHWH os entregará diante de vós, e lhes fareis conforme todo o mandamento que vos ordenei.
+31:6 Sede fortes e corajosos; não temais, e não vos aterrorizeis diante deles; porque YHWH, teu Deus, ele [é] o que anda contigo; não te largará e não te abandonará.
+31:7 E chamou Moisés a Josué, e disse-lhe aos olhos de todo Israel: Sê forte e corajoso, porque tu entrarás com este povo na terra que YHWH jurou a seus pais dar-lhes, e tu a farás herdar a eles.
+31:8 E YHWH, ele [é] o que anda diante de ti; ele estará contigo; não te largará e não te abandonará; não temerás e não te espantarás.
+31:9 E escreveu Moisés esta instrução, e a deu aos sacerdotes, filhos de Levi, que levavam a arca da aliança de YHWH, e a todos os anciãos de Israel.
+31:10 E ordenou-lhes Moisés, dizendo: Ao fim de sete anos, no tempo determinado do ano da remissão, na festa das cabanas,
+31:11 quando todo Israel vier para aparecer diante da face de YHWH, teu Deus, no lugar que ele escolher, lerás esta instrução diante de todo Israel, aos seus ouvidos.
+31:12 Congrega o povo, os homens, e as mulheres, e as crianças, e o teu estrangeiro que [está] dentro das tuas portas, para que ouçam, e para que aprendam, e temam a YHWH, vosso Deus, e guardem para fazer todas as palavras desta instrução;
+31:13 e os seus filhos, que não [a] conheceram, ouvirão e aprenderão a temer a YHWH, vosso Deus, todos os dias que vós [estiverdes] vivos sobre o solo para o qual vós passais o Jordão para o possuirdes.
+31:14 E disse YHWH a Moisés: Eis que se aproximaram os teus dias de morrer; chama Josué, e ponde-vos na tenda do encontro, e eu lhe darei ordem. E foram Moisés e Josué, e se puseram na tenda do encontro.
+31:15 E YHWH apareceu na tenda, numa coluna de nuvem; e a coluna de nuvem ficou sobre a entrada da tenda.
+31:16 E disse YHWH a Moisés: Eis que tu te deitas com teus pais; e este povo se levantará e se prostituirá após os deuses estranhos da terra no meio da qual ele entra, e me deixará, e quebrará a minha aliança que cortei com ele.
+31:17 E se acenderá a minha ira contra ele naquele dia, e os deixarei, e esconderei a minha face deles, e será para ser devorado, e o acharão muitos males e angústias; e dirá naquele dia: Porventura não [é] porque não [está] o meu Deus no meio de mim [que] me acharam estes males?
+31:18 E eu, escondendo esconderei a minha face naquele dia, por todo o mal que fez, porque se voltou para outros deuses.
+31:19 E agora, escrevei para vós este cântico, e ensina-o aos filhos de Israel; põe-no na sua boca, para que este cântico me seja por testemunha contra os filhos de Israel.
+31:20 Porque o trarei ao solo que jurei a seus pais, que mana leite e mel, e comerá, e se fartará, e engordará, e se voltará para outros deuses, e os servirão, e me desprezarão, e quebrará a minha aliança.
+31:21 E será que, quando o acharem muitos males e angústias, este cântico responderá diante dele como testemunha, porque não será esquecido da boca da sua semente; porque conheço a sua inclinação, que ele faz hoje, antes que o traga à terra que jurei.
+31:22 E escreveu Moisés este cântico naquele dia, e o ensinou aos filhos de Israel.
+31:23 E ordenou a Josué, filho de Num, e disse: Sê forte e corajoso, porque tu farás entrar os filhos de Israel na terra que lhes jurei; e eu estarei contigo.
+31:24 E aconteceu que, quando Moisés acabou de escrever as palavras desta instrução num livro, até se completarem,
+31:25 ordenou Moisés aos levitas que levavam a arca da aliança de YHWH, dizendo:
+31:26 Tomai este livro da instrução, e ponde-o ao lado da arca da aliança de YHWH, vosso Deus; e estará ali contra ti por testemunha.
+31:27 Porque eu conheço a tua rebeldia e a tua nuca dura; eis que, estando eu ainda vivo convosco hoje, rebeldes tendes sido contra YHWH; e quanto mais depois da minha morte!
+31:28 Congregai a mim todos os anciãos das vossas tribos e os vossos oficiais, e falarei aos seus ouvidos estas palavras, e tomarei por testemunhas contra eles os céus e a terra.
+31:29 Porque sei que, depois da minha morte, corrompendo vos corrompereis, e vos desviareis do caminho que vos ordenei; e vos sobrevirá o mal no fim dos dias, porque fareis o mal aos olhos de YHWH, para o irritar com a obra das vossas mãos.
+31:30 E falou Moisés aos ouvidos de toda a assembleia de Israel as palavras deste cântico, até se completarem.
+
+32:1 Dai ouvidos, ó céus, e falarei; e ouça a terra os ditos da minha boca.
+32:2 Goteje como a chuva o meu ensino, destile como o orvalho a minha palavra; como chuviscos sobre a relva, e como aguaceiros sobre a erva.
+32:3 Porque o nome de YHWH proclamarei; dai grandeza ao nosso Deus.
+32:4 A Rocha: perfeita [é] a sua obra, porque todos os seus caminhos [são] juízo; Deus de fidelidade, e não há injustiça; justo e reto [é] ele.
+32:5 Corrompeu-se para com ele, não seus filhos, a mancha deles; geração perversa e tortuosa.
+32:6 Acaso a YHWH retribuís isto, povo insensato e não sábio? Não [é] ele teu pai, que te adquiriu? Ele te fez e te estabeleceu.
+32:7 Lembra-te dos dias da antiguidade, considerai os anos de geração e geração; pergunta a teu pai, e ele te declarará; a teus anciãos, e eles te dirão.
+32:8 Quando o Altíssimo dava herança às nações, quando separava os filhos do homem, fixou os limites dos povos segundo o número dos filhos de Israel.
+32:9 Porque a porção de YHWH [é] o seu povo; Jacó, o lote da sua herança.
+32:10 Achou-o numa terra de deserto, e no vazio, no uivo do ermo; rodeou-o, atentou nele, guardou-o como a pupila do seu olho.
+32:11 Como a águia desperta o seu ninho, sobre os seus filhotes paira, estende as suas asas, toma-o, leva-o sobre as suas penas,
+32:12 YHWH sozinho o conduziu, e não havia com ele deus estranho.
+32:13 Fê-lo cavalgar sobre as alturas da terra, e comeu o produto do campo; e fê-lo sugar mel da penha, e azeite da pederneira da rocha;
+32:14 coalhada de gado e leite de ovelhas, com gordura de cordeiros e carneiros, filhos de Basã, e bodes, com a gordura dos rins do trigo; e o sangue da uva bebeste, vinho.
+32:15 E engordou Jesurum, e escoiceou; engordaste, engrossaste, ficaste coberto [de gordura]; e abandonou Deus, que o fez, e desprezou a Rocha da sua salvação.
+32:16 Provocaram-no a zelos com estranhos, com abominações o irritaram.
+32:17 Sacrificaram aos demônios, não a Deus; a deuses que não conheciam, novos, vindos há pouco, que vossos pais não temeram.
+32:18 A Rocha que te gerou negligenciaste, e esqueceste o Deus que te deu à luz.
+32:19 E viu YHWH, e [os] rejeitou, pela provocação de seus filhos e de suas filhas.
+32:20 E disse: Esconderei a minha face deles, verei qual [será] o seu fim; porque geração de perversidades [são] eles, filhos em quem não há lealdade.
+32:21 Eles me provocaram a zelos com o que não [é] Deus, irritaram-me com as suas vaidades; e eu os provocarei a zelos com o que não [é] povo, com nação insensata os irritarei.
+32:22 Porque um fogo se acendeu na minha ira, e arde até o Sheol mais profundo, e devora a terra e a sua colheita, e abrasa os fundamentos dos montes.
+32:23 Amontoarei sobre eles males; as minhas flechas esgotarei neles.
+32:24 Exaustos de fome, e devorados de chama, e de destruição amarga; e dente de animais enviarei contra eles, com a peçonha dos que rastejam no pó.
+32:25 Fora, desfilhará a espada, e das câmaras, o terror; tanto o jovem como a virgem, o que mama com o homem de cabelos brancos.
+32:26 Eu disse: Eu os reduziria a nada, faria cessar dentre os homens a sua memória,
+32:27 se não temesse a provocação do inimigo, que os seus adversários não [o] entendessem mal, que não dissessem: A nossa mão [está] alta, e não [foi] YHWH [que] fez tudo isto.
+32:28 Porque nação perdida de conselhos [são] eles, e não há neles entendimento.
+32:29 Se fossem sábios, entenderiam isto, considerariam o seu fim.
+32:30 Como perseguiria um a mil, e dois poriam em fuga dez mil, se não [fosse] que a sua Rocha os vendeu, e YHWH os entregou?
+32:31 Porque não [é] como a nossa Rocha a rocha deles; e os nossos inimigos [são] juízes.
+32:32 Porque da videira de Sodoma [é] a videira deles, e dos campos de Gomorra; as suas uvas [são] uvas de veneno, cachos amargos [são] para eles.
+32:33 Peçonha de serpentes [é] o vinho deles, e veneno cruel de áspides.
+32:34 Não [está] isto guardado comigo, selado nos meus tesouros?
+32:35 Minha [é] a vingança e a retribuição, para o tempo [em que] vacilar o seu pé; porque perto [está] o dia da sua calamidade, e se apressa o que lhes está preparado.
+32:36 Porque YHWH julgará o seu povo, e dos seus servos se compadecerá, quando vir que se foi a mão, e não há [ninguém], retido ou solto.
+32:37 E dirá: Onde [estão] os seus deuses, a rocha em que se refugiavam,
+32:38 que comiam a gordura dos seus sacrifícios, bebiam o vinho das suas libações? Levantem-se e vos ajudem; seja [ela] sobre vós um abrigo.
+32:39 Vede agora que eu, eu [sou] ele, e não há deus comigo; eu mato e faço viver; feri, e eu curo; e não há quem livre da minha mão.
+32:40 Porque levanto aos céus a minha mão, e digo: Vivo eu para sempre!
+32:41 Se eu afiar o relâmpago da minha espada, e a minha mão agarrar o juízo, farei voltar vingança aos meus adversários, e aos que me odeiam pagarei.
+32:42 Embriagarei de sangue as minhas flechas, e a minha espada comerá carne, do sangue do morto e do cativo, da cabeça dos chefes do inimigo.
+32:43 Jubilai, nações, [com] o seu povo, porque o sangue dos seus servos ele vingará; e vingança fará voltar aos seus adversários, e fará expiação pelo seu solo, [pelo] seu povo.
+32:44 E veio Moisés, e falou todas as palavras deste cântico aos ouvidos do povo, ele e Oseias, filho de Num.
+32:45 E acabou Moisés de falar todas estas palavras a todo Israel.
+32:46 E disse-lhes: Ponde o vosso coração em todas as palavras que eu hoje testifico contra vós, as quais ordenareis a vossos filhos, para guardarem para fazer todas as palavras desta instrução.
+32:47 Porque não [é] palavra vã para vós; porque ela [é] a vossa vida, e por esta palavra prolongareis [os] dias sobre o solo para o qual vós passais o Jordão, para o possuirdes.
+32:48 E falou YHWH a Moisés naquele mesmo dia, dizendo:
+32:49 Sobe a este monte Abarim, ao monte Nebo, que [está] na terra de Moabe, que [está] defronte de Jericó; e vê a terra de Canaã, que eu dou aos filhos de Israel por possessão.
+32:50 E morre no monte ao qual tu sobes, e sê recolhido ao teu povo, como morreu Arão, teu irmão, no monte Hor, e foi recolhido ao seu povo;
+32:51 porque fostes infiéis contra mim no meio dos filhos de Israel, nas águas de Meribá de Cades, no deserto de Zim; porque não me santificastes no meio dos filhos de Israel.
+32:52 Porque de defronte verás a terra, e para lá não entrarás, para a terra que eu dou aos filhos de Israel.
+
+33:1 E esta [é] a bênção com que Moisés, o homem de Deus, abençoou os filhos de Israel antes da sua morte.
+33:2 E disse: YHWH veio do Sinai, e lhes raiou de Seir; resplandeceu do monte Parã, e veio de miríades de santidade; da sua direita, fogo de lei para eles.
+33:3 Também ama os povos; todos os seus santos [estão] na tua mão; e eles se assentam aos teus pés, [cada um] recebe das tuas palavras.
+33:4 Instrução nos ordenou Moisés, possessão da assembleia de Jacó.
+33:5 E houve rei em Jesurum, quando se ajuntaram os cabeças do povo, juntamente as tribos de Israel.
+33:6 Viva Rúben, e não morra; e sejam os seus homens um número.
+33:7 E esta [é] para Judá; e disse: Ouve, YHWH, a voz de Judá, e ao seu povo o trarás; as suas mãos contendem por ele, e ajuda contra os seus adversários serás.
+33:8 E de Levi disse: O teu Tumim e o teu Urim [sejam] para o teu homem piedoso, a quem provaste em Massá, com quem contendeste junto às águas de Meribá;
+33:9 o que disse de seu pai e de sua mãe: Não o vi; e a seus irmãos não reconheceu, e a seus filhos não conheceu; porque guardaram a tua palavra, e a tua aliança observam.
+33:10 Ensinarão os teus juízos a Jacó, e a tua instrução a Israel; porão incenso no teu nariz, e oferta inteira sobre o teu altar.
+33:11 Abençoa, YHWH, a sua força, e a obra das suas mãos aceita; fere os lombos dos que se levantam contra ele, e dos que o odeiam, para que não se levantem.
+33:12 De Benjamim disse: O amado de YHWH habitará em segurança junto a ele; ele o cobre todo o dia, e entre os seus ombros habita.
+33:13 E de José disse: Bendita de YHWH [seja] a sua terra, com o precioso dos céus, com o orvalho, e com o abismo que jaz embaixo;
+33:14 e com o precioso dos produtos do sol, e com o precioso do que brota dos meses;
+33:15 e com a cabeça dos montes antigos, e com o precioso das colinas eternas;
+33:16 e com o precioso da terra e da sua plenitude, e o favor daquele que habitava na sarça. Venha [isso] sobre a cabeça de José, e sobre o alto da cabeça do consagrado entre seus irmãos.
+33:17 O primogênito do seu boi, majestade [há] para ele, e chifres de boi selvagem [são] os seus chifres; com eles escorneará os povos, juntamente, os confins da terra; e eles [são] as miríades de Efraim, e eles [são] os milhares de Manassés.
+33:18 E de Zebulom disse: Alegra-te, Zebulom, na tua saída, e [tu], Issacar, nas tuas tendas.
+33:19 Povos ao monte chamarão; ali sacrificarão sacrifícios de justiça; porque a abundância dos mares sugarão, e os tesouros escondidos da areia.
+33:20 E de Gade disse: Bendito o que alarga Gade; como leoa habita, e despedaça o braço, e também o alto da cabeça.
+33:21 E viu para si a primeira [parte], porque ali [estava] guardada a porção do legislador; e veio [com] os cabeças do povo; a justiça de YHWH executou, e os seus juízos com Israel.
+33:22 E de Dã disse: Dã [é] filhote de leão, que salta de Basã.
+33:23 E de Naftali disse: Naftali, farto de favor, e cheio da bênção de YHWH, possui o mar e o sul.
+33:24 E de Aser disse: Bendito dentre os filhos [seja] Aser; seja o favorecido de seus irmãos, e molhe no azeite o seu pé.
+33:25 Ferro e bronze [sejam] os teus ferrolhos; e como os teus dias, a tua força.
+33:26 Não há como o Deus, ó Jesurum, que cavalga os céus em tua ajuda, e na sua majestade, as nuvens.
+33:27 Morada [é] o Deus da antiguidade, e por baixo, os braços eternos; e expulsou de diante de ti o inimigo, e disse: Extermina!
+33:28 E habitou Israel em segurança, sozinho, a fonte de Jacó, numa terra de trigo e de mosto; também os seus céus gotejam orvalho.
+33:29 Feliz [és] tu, Israel! Quem [é] como tu, povo salvo por YHWH, escudo da tua ajuda, e que [é] a espada da tua majestade? E os teus inimigos te fingirão submissão, e tu pisarás sobre os seus altos.
+
+34:1 E subiu Moisés das planícies de Moabe ao monte Nebo, à cabeça do Pisga, que [está] defronte de Jericó; e YHWH lhe mostrou toda a terra: Gileade até Dã,
+34:2 e todo Naftali, e a terra de Efraim e Manassés, e toda a terra de Judá, até o mar último,
+34:3 e o Neguebe, e a campina, o vale de Jericó, cidade das palmeiras, até Zoar.
+34:4 E disse-lhe YHWH: Esta [é] a terra que jurei a Abraão, a Isaque e a Jacó, dizendo: À tua semente a darei. Fiz-te vê-la com os teus olhos, e para lá não passarás.
+34:5 E morreu ali Moisés, servo de YHWH, na terra de Moabe, pela boca de YHWH.
+34:6 E ele o sepultou no vale, na terra de Moabe, defronte de Bete-Peor; e ninguém conhece a sua sepultura até este dia.
+34:7 E Moisés [era] filho de cento e vinte anos quando morreu; não se escurecera o seu olho, e não fugira o seu vigor.
+34:8 E os filhos de Israel choraram Moisés nas planícies de Moabe trinta dias; e acabaram-se os dias do choro do luto de Moisés.
+34:9 E Josué, filho de Num, [estava] cheio do espírito de sabedoria, porque Moisés pusera as suas mãos sobre ele; e os filhos de Israel lhe deram ouvidos, e fizeram como YHWH ordenara a Moisés.
+34:10 E não se levantou mais profeta em Israel como Moisés, a quem YHWH conheceu face a face,
+34:11 em todos os sinais e prodígios que YHWH o enviou fazer na terra do Egito, a Faraó, e a todos os seus servos, e a toda a sua terra,
+34:12 e em toda a mão forte, e em todo o grande terror que Moisés fez aos olhos de todo Israel.

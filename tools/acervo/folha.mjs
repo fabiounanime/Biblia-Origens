@@ -12,20 +12,19 @@
  * palavra ainda sem significado em acervo/lexico.
  */
 
-import { existsSync, readFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { hebrewLine } from "./oshb.mjs";
 import { createGlosser, readTable } from "./palavras.mjs";
 import { createGreekGlosser, greekLine } from "./grego.mjs";
-import { ROOT, SOURCES, readSource } from "./livros.mjs";
+import { ROOT, SOURCES, parseRange, partFiles, readSource } from "./livros.mjs";
 
 const [bookId, range = "", flag] = process.argv.slice(2);
 if (!bookId || !SOURCES[bookId]) {
   console.error("Uso: node tools/acervo/folha.mjs <livro> <capítulos, ex.: 1-3> [--revisao]");
   process.exit(1);
 }
-const [from, to] = range ? range.split("-").map(Number) : [1, 999];
-const last = to ?? from;
+const [from, last] = parseRange(range);
 
 const { lang, verses } = readSource(bookId);
 const glosser =
@@ -35,8 +34,7 @@ const glosser =
 
 /** @type {Record<string, string>} */
 const pt = {};
-const ptPath = join(ROOT, "acervo/traducao", `${bookId}.txt`);
-if (flag === "--revisao" && existsSync(ptPath)) {
+for (const ptPath of flag === "--revisao" ? partFiles("acervo/traducao", bookId) : []) {
   for (const raw of readFileSync(ptPath, "utf8").split("\n")) {
     const match = /^(\d+:\d+)\s+(.+)$/.exec(raw.trim());
     if (match) pt[match[1]] = match[2];

@@ -14,7 +14,7 @@
 2:3 | juncos | Em hebraico, *suf*: a mesma palavra do *yam suf*, o "mar de Juncos" (10:19).
 2:10 | Moisés | Em hebraico, *Moshe*, que soa como "o que tira", do verbo *mashah*, "tirar (da água)". O nome também lembra a palavra egípcia para "filho", "nascido de".
 2:18 | Reuel | O sogro de Moisés tem dois nomes no livro: Reuel aqui e Jetro em 3:1 e 18:1.
-2:22 | Gérson | Jogo de palavras: *Gershom* soa como *ger sham*, "peregrino ali".
+2:22 | Gersom | Jogo de palavras: *Gershom* soa como *ger sham*, "peregrino ali".
 3:1 | Horebe | Outro nome do monte Sinai, usado sobretudo em Êxodo 3, 17 e 33 e em Deuteronômio.
 3:2 | do meio da sarça | Em hebraico, *seneh*, arbusto espinhoso. A palavra soa como "Sinai", o monte onde a cena acontece.
 3:5 | solo de santidade | Ao pé da letra, "solo de santidade é": o lugar é santo pela presença de Deus.
@@ -26,10 +26,12 @@
 3:22 | despojareis o Egito | O verbo *natsal* (no piel) descreve tirar os despojos depois de uma vitória: o povo sai como vencedor, não como fugitivo.
 4:6 | leprosa | Em hebraico, *metsora'at*. *Tsara'at* é um nome geral para doenças de pele (e até mofo em roupas e casas), não necessariamente a lepra moderna.
 4:10 | pesado de boca e pesado de língua | Ao pé da letra: falta de facilidade para falar. Não fica claro se é um defeito físico ou falta de eloquência.
+4:18 | voltou a Jetro | Em hebraico, aqui *Yeter*, forma breve de *Yitro* (Jetro); no fim do versículo volta a forma *Yitro*.
 4:21 | fortalecerei o seu coração | Êxodo usa três verbos para o coração de Faraó: *chazaq* ("fortalecer", firmar), *kaved* ("tornar pesado", insensível) e *qashah* ("endurecer"). A tradução distingue os três.
 4:24 | procurou matá-lo | O texto não diz quem é "o": Moisés ou seu filho. O episódio (vv. 24–26) é um dos mais obscuros da Bíblia.
 4:25 | tocou[-o] aos pés dele | "Pés" pode ser eufemismo para as partes íntimas. Também não está claro de quem são os pés: de Moisés, do filho ou do próprio atacante.
 4:25 | esposo de sangues | Em hebraico, *chatan damim*. *Chatan* é "noivo, esposo" e também "genro"; a expressão liga casamento e circuncisão (v. 26), mas o sentido exato é incerto.
+5:14 | a vossa porção | Em hebraico, *choq*, que nesta tradução costuma ser "estatuto": aqui é a quota de tijolos fixada para cada um.
 6:3 | Deus Todo-Poderoso | Em hebraico, *El Shaddai*, nome usado em Gênesis (17:1; 28:3; 35:11). O sentido de *Shaddai* é incerto.
 6:3 | não me fiz conhecer a eles | Os patriarcas já usam o nome YHWH em Gênesis; o sentido parece ser que eles não conheceram o que o nome significa em ação: a libertação prometida.
 6:12 | incircunciso de lábios | Imagem para quem fala com dificuldade: lábios "fechados", como que cobertos.
@@ -79,54 +81,6 @@
 20:7 | teu Deus, em vão | Em hebraico, *lashav*: para o nada, para a falsidade. Inclui o juramento falso.
 20:7 | Não levantarás o nome | Ao pé da letra, "não levantarás (*nasa*)": pronunciar, invocar, tomar o nome sobre os lábios.
 20:13 | Não assassinarás | O verbo *ratsach* indica matar alguém injustamente; não é usado para guerra ou para pena de morte, que têm outros verbos.
-21:2 | servo hebreu | Em hebraico, *eved*: servo ou escravo. A lei limita a servidão do hebreu a seis anos.
-21:6 | o levará a Deus | Em hebraico, *el ha-elohim*: ao santuário, diante de Deus. Muitos entendem "aos juízes", que julgam em nome de Deus.
-21:10 | direito conjugal | Em hebraico, *onah*, palavra rara. A tradição judaica entende o direito às relações conjugais; outros, "habitação" ou "óleo".
-21:24 | olho por olho | A lei de talião limita a pena ao tamanho do dano. Já na tradição judaica antiga foi aplicada como indenização em dinheiro.
-21:37 | Se alguém furtar | Aqui as bíblias em português começam o capítulo 22: 21:37 aqui = 22:1 lá, e 22:1–30 aqui = 22:2–31 lá.
-22:1 | arrombando | Em hebraico, *machteret*: cavando ou arrombando a parede de uma casa, à noite (compare o v. 2).
-22:7 | se chegará a Deus | Como em 21:6, "Deus" (*ha-elohim*) pode indicar o santuário ou os juízes.
-22:17 | feiticeira | Em hebraico, *mekhashefah*, forma feminina.
-22:19 | será destruído por anátema | Em hebraico, *yochoram*, do verbo *charam*: ser consagrado ao extermínio, entregue a Deus por destruição.
-22:27 | A Deus não amaldiçoarás | "Deus" (*elohim*) aqui também pode ser lido "os juízes", paralelo a "príncipe do teu povo".
-23:19 | Não cozerás o cabrito | Repetido em 34:26 e Deuteronômio 14:21. Na tradição judaica é a base da separação entre carne e leite.
-23:28 | a vespa | Em hebraico, *tsir'ah*, palavra de sentido incerto: vespa, praga ou pânico enviado por Deus.
-24:10 | safira | Em hebraico, *sappir*: provavelmente o lápis-lazúli, pedra azul-escura.
-24:11 | nobres | Em hebraico, *atsilim*, palavra rara: os principais, os chefes.
-25:2 | me tragam uma oferta alçada | Em hebraico, *terumah*: a parte "levantada", separada para Deus.
-25:4 | azul, e púrpura, e carmesim | Tecidos tingidos: *tekhelet* (azul-violeta de um molusco), *argaman* (púrpura) e *tola'at shani* (carmesim, de um inseto).
-25:5 | texugo | Em hebraico, *tachash*, animal de identificação incerta. Outras propostas: golfinho, dugongo, ou um couro fino tingido.
-25:5 | acácia | Em hebraico, *shittim*: madeira dura do deserto.
-25:8 | habitarei | Verbo *shakan*, "habitar". Dele vem *mishkan*, "tabernáculo, morada" (v. 9).
-25:9 | tabernáculo | Em hebraico, *mishkan*: a "morada" de Deus no meio do povo.
-25:16 | o testemunho | Em hebraico, *edut*: as tábuas da aliança (31:18), testemunho do compromisso entre Deus e Israel.
-25:17 | propiciatório | Em hebraico, *kapporet*, a tampa da arca. Liga-se ao verbo *kipper*, "fazer expiação"; é o lugar da expiação no Dia do Perdão (Levítico 16).
-25:18 | querubins | Em hebraico, *keruvim*: seres alados que guardam a presença divina (Gênesis 3:24).
-25:30 | o pão da face | Em hebraico, *lechem panim*: o pão posto "diante da face" de Deus. Também chamado "pão da presença" ou "pães da proposição".
-26:31 | véu | Em hebraico, *parokhet*: a cortina que separa o Santo do Santo dos Santos (v. 33).
-27:2 | E farás as suas pontas | Em hebraico, *qarnot*, "chifres": saliências nos quatro cantos do altar.
-28:4 | éfode | Em hebraico, *efod*: veste sacerdotal, espécie de avental ou colete.
-28:30 | o Urim e o Tumim | Em hebraico, "as luzes e as perfeições". Objetos guardados no peitoral, usados para consultar a vontade de Deus. Sua forma é desconhecida.
-28:36 | Santidade a YHWH | Ou "Consagrado a YHWH".
-28:41 | encherás a sua mão | Expressão hebraica para a investidura no sacerdócio: "encher a mão" é consagrar, dar o ofício.
-29:24 | oferta movida | Em hebraico, *tenufah*: a oferta erguida e movida diante de YHWH, como gesto de entrega.
-29:42 | tenda do encontro | Em hebraico, *ohel mo'ed*: a tenda onde Deus "se encontra" com o povo, como diz o próprio versículo.
-30:13 | segundo o siclo do santuário | Medida de peso, cerca de 11 gramas. A gera é a vigésima parte do siclo.
-30:34 | ônica | Em hebraico, *shechelet*: talvez a concha de um molusco usada em perfumes. Identificação incerta.
-31:3 | espírito de Deus | Em hebraico, *ruach Elohim*. O dom do espírito, aqui, é habilidade artística para a obra do tabernáculo.
-31:18 | dedo de Deus | A mesma expressão dos magos do Egito em 8:15: obra feita pelo próprio Deus.
-32:4 | Estes [são] os teus deuses | *Elohim* com verbo no plural: "os teus deuses que te fizeram subir". Também se pode ler "Este é o teu Deus", mas o plural do verbo favorece "deuses" (compare 1 Reis 12:28).
-32:6 | brincar | Em hebraico, *letsacheq*: divertir-se, folgar. Pode incluir dança e festa licenciosa (v. 19).
-32:25 | desenfreado | Em hebraico, *parua*: solto, sem controle; a mesma raiz de "soltar o cabelo".
-32:29 | Enchei hoje a vossa mão | A expressão da investidura sacerdotal (28:41): os levitas são consagrados pelo zelo deste dia.
-33:7 | E Moisés tomava a tenda | Esta tenda, fora do acampamento, é diferente do tabernáculo ainda a ser construído.
-33:11 | face a face | Imagem de intimidade, não de visão do rosto de Deus (v. 20).
-34:6 | bondade e verdade | Em hebraico, *chesed ve-emet*: amor fiel à aliança e fidelidade.
-34:6 | longo de iras | Ao pé da letra, "longo de narizes": a ira é "longa", demora a chegar. Lento para a ira.
-34:7 | inocentando não inocenta | Infinitivo em dobro: "de modo nenhum terá por inocente" o culpado.
-34:13 | postes-ídolos | Em hebraico, *asherim*: postes ou árvores sagradas ligados à deusa cananeia Aserá.
-34:14 | Zeloso | O nome de YHWH aqui é *Qanna*, "Zeloso" (20:5).
-34:28 | as dez palavras | Em hebraico, *aseret ha-devarim*: daí o nome "Decálogo".
-34:29 | resplandecia | O verbo *qaran* vem de *qeren*, "chifre, raio de luz". A Vulgata traduziu "tinha chifres", de onde vêm as estátuas de Moisés com chifres.
-38:8 | que serviam, que serviam | Em hebraico, *tsove'ot*, "que serviam em turnos", como num serviço organizado. Mulheres que serviam à entrada da tenda (1 Samuel 2:22).
-40:34 | a glória de YHWH | Em hebraico, *kevod YHWH*, palavra ligada a "peso": a presença visível e majestosa de Deus.
+20:24 | altar de terra | Em hebraico, *adamah*, que nesta tradução é "solo": aqui designa o material do altar, terra amontoada, em contraste com o altar de pedras do v. 25.
+10:17 | levanta, peço-te, o meu pecado | *Nasa* (levantar, carregar) com "pecado" é a expressão hebraica para perdoar: tirar o peso da culpa.
+20:25 | a tua espada | Em hebraico, *charbekha*, "a tua espada": a palavra designa aqui a ferramenta de ferro usada para lavrar a pedra.

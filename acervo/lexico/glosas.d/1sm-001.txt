@@ -1,0 +1,120 @@
+# 1 Samuel 1–16 — significados acrescentados por esta parte.
+# Formato: lema da OSHB | significado | grau: sentido
+# (Lemas já definidos em glosas.txt ou em 1sm-017.txt não se repetem aqui.)
+
+2914 | tumor
+4673 | posto, guarnição
+7203 a | vidente
+4103 | tumulto, confusão
+712 | caixa, cofre
+2938 | provar, saborear
+7481 | trovejar | h: trovejar, irritar
+3707 | irritar-se | p: irritar | h: irritar, provocar
+3708 a | irritação, desgosto
+1964 | templo, palácio
+4690 | coluna, pilar
+4207 a | garfo
+8052 | notícia, rumor
+4583 | morada
+796 | asdodita
+4670 | limiar
+1030+ | bete-semita
+1030 | bete-semita
+970 | jovem, moço
+1672 | inquietar-se, preocupar-se
+2256 a | bando, corda, porção
+5984 | amonita
+6776 | junta (de bois), parelha
+855 | enxadão, relha
+7134 | machado
+4281 | picão
+3293 b | bosque, floresta
+5860 b | lançar-se (sobre a presa)
+1204 | p: aterrorizar, sobressaltar
+6869 c | rival
+3415 | estar mal, ser mau
+4177 | navalha
+7879 | queixa, lamento
+5970 | exultar
+6277 | arrogante, insolente
+1844 | conhecimento
+8505 | pesar, medir | N: ser pesado
+5949 | feito, ação
+2844 b | despedaçado, quebrado
+247 | cingir
+7457 | faminto
+535 | K: definhar
+8213 | abaixar-se | h: abaixar, humilhar
+830 | monturo
+8398 | mundo
+2623 | piedoso, fiel
+5181 | descer | N: descer, penetrar
+1731 | panela
+7037 | caldeirão
+6740 | assar
+2394 | força
+1163 | dar coices
+1254 b | h: engordar
+1438 | cortar, decepar
+6862 b | aflição, angústia
+109 | h: fazer definhar
+95 | moeda (pequena)
+3368 | raro, precioso
+2377 | visão
+6750 | retinir
+3543 b | p: repreender, conter
+1949 | N: alvoroçar-se, estremecer
+2730 | tremente, temeroso
+4665 | pescoço
+6735 c | dor (de parto)
+350+ | Icabode
+8368 | N: irromper
+6139 | ecronita
+1600 | mugir
+3724 d | aldeia
+6521 | aldeão, do campo aberto
+5091 | lamentar | N: lamentar-se
+2924 | cordeiro
+8666 | volta, retorno
+6571 a | cavaleiro
+7548 | perfumista
+2879 | cozinheira
+235 | acabar-se, esgotar-se
+8670 | presente
+4608 | subida
+2532 a | desejo, coisa desejável
+1145+ | benjamita
+1145 | benjamita
+3957 | câmara, sala
+6378 | frasco
+5035 b | harpa
+2485 | flauta
+4309 | matrita
+1361 | ser alto | h: elevar
+2318 | p: renovar
+7867 | encanecer
+3276 | h: ser útil, aproveitar
+2337 | brenha, fenda
+6877 | abrigo (subterrâneo), refúgio
+4282 | relha
+6477 | preço, cobrança
+7053 | forcado
+1861 a | aguilhão
+4569 b | passagem, desfiladeiro
+4622 | impedimento
+2356 | buraco, toca
+4675 | posto, guarnição
+4618 | sulco
+1986 | bater, golpear
+422 | jurar, amaldiçoar | h: fazer jurar (sob maldição)
+1982 | corrente, fluxo
+3295 | favo
+8185 | fio de cabelo
+3733 c | cordeiro (cevado)
+5240 | desprezível
+7181 | h: atender, prestar atenção
+4468 | reinado
+5331 | perenidade, constância, glória
+8158 | p: despedaçar
+4997 | odre
+7304 | aliviar-se, ter alívio

@@ -1,0 +1,36 @@
+# Josué (Yehoshua) 1–13 — tradução direta do hebraico (Códice de Leningrado)
+# Primeira parte do livro; os capítulos 14–24 estão em js.d/014.txt.
+#
+# Mesmas convenções de Gênesis a Deuteronômio (veja acervo/traducao/gn.txt, ex.txt e dt.d/):
+#   - יהוה = YHWH; יְהוָה אֱלֹהֶיךָ = YHWH, teu Deus; אֲדוֹן כָּל־הָאָרֶץ = Senhor de toda a terra;
+#     nomes na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#     Depois de uma oração de tempo ("Quando…"), o vav da oração principal cai quando o
+#     português não o comporta. וַיְהִי … וַ… = "E aconteceu, …, que …".
+#   - Infinitivo absoluto em dobro ao pé da letra ("desapossando desapossará").
+#   - Vocabulário retomado de Deuteronômio:
+#     חֵרֶם = coisa consagrada ao extermínio; הֶחֱרִים = consagrar ao extermínio;
+#     יָרַשׁ = possuir (a terra) / desapossar (com pessoas por objeto, e no hifil);
+#     יְרֻשָּׁה = possessão; נַחֲלָה = herança; הִנְחִיל = fazer herdar; רֵעַ = próximo;
+#     חֲזַק וֶאֱמָץ = sê forte e corajoso; עָרַץ = aterrorizar-se; חָתַת = espantar-se;
+#     לֹא יִתְיַצֵּב אִישׁ = não se manterá homem algum; שֹׁטֵר = oficial; זָקֵן = ancião; טַף = crianças;
+#     חֲמֻשִׁים, חֲלוּצִים = armados; גִּבּוֹרֵי הַחַיִל = valentes de valor;
+#     אֲרוֹן הַבְּרִית = arca da aliança; נָשָׂא (a arca) = levar; הֵקִים = levantar (pedras);
+#     לְפִי־חֶרֶב = à boca da espada; שָׂרִיד = sobrevivente; שָׁלָל = despojo; בָּזַז = saquear;
+#     תֵּל = monte de ruínas; יַם־סוּף = mar de Juncos; יָם הַמֶּלַח = mar do Sal; עֲרָבָה = Arabá;
+#     עַרְבוֹת = planícies; עֵבֶר הַיַּרְדֵּן = além do Jordão; מִזְרַח הַשֶּׁמֶשׁ = nascente do sol;
+#     מְבוֹא הַשֶּׁמֶשׁ = pôr do sol; נָמוֹג, נָמַס = derreter-se (o coração, os habitantes).
+#   - Vocabulário próprio de Josué 1–13:
+#     שֵׁבֶט e מַטֶּה = tribo; חֲצִי שֵׁבֶט הַמְנַשֶּׁה = metade da tribo de Manassés;
+#     גְּבוּל = território (região) / limite (linha da fronteira); גְּלִילוֹת = distritos;
+#     מְרַגְּלִים = espias; זוֹנָה = prostituta; תִּקְוָה = cordão; גָּג = terraço;
+#     יָבֵשׁ (hifil) = secar; חָרָבָה, יַבָּשָׁה = seco ("em seco", como em Êx 14);
+#     נֵד = montão; מָלוֹן = lugar de pernoite; זִכָּרוֹן = memorial;
+#     שׁוֹפָר = shofar; שׁוֹפְרוֹת הַיּוֹבְלִים = shofares de carneiro; תְּרוּעָה = brado;
+#     מַעַל = infidelidade; עָכַר = perturbar; שָׁפָט = juiz; אֹרֵב = emboscada;
+#     חֹטְבֵי עֵצִים וְשֹׁאֲבֵי מַיִם = rachadores de lenha e tiradores de água;
+#     נָשִׂיא = príncipe; עֵדָה = congregação; קָהָל = assembleia;
+#     שְׁפֵלָה = Sefelá; נֶגֶב = Neguebe; אֲשֵׁדוֹת = encostas; סְרָנִים = governantes (dos filisteus);
+#     עִקֵּר = jarretar (cavalos); עֲנָקִים = anaquins; רְפָאִים = refains.
+#   - Os números por extenso; as listas de reis (cap. 12) seguem o hebraico: "o rei de X, um".
