@@ -1,0 +1,3 @@
+# Josué 1–13 — significados dos lemas novos desta parte.
+# Formato: lema da OSHB | significado | grau: sentido…
+# Nenhum lema novo: os de Josué 1–13 já estão em glosas.d/js.txt.

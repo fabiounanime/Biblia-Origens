@@ -1,0 +1,363 @@
+# Josué (Yehoshua) 14–24 — tradução direta do hebraico (Códice de Leningrado)
+# Segunda parte do livro; os capítulos 1–13 estão em js.d/001.txt.
+#
+# Mesmas convenções de Gênesis a Deuteronômio e de Josué 1–13 (veja acervo/traducao/gn.txt, ex.txt,
+# dt.d/ e js.d/001.txt):
+#   - יהוה = YHWH; יְהוָה אֱלֹהֶיךָ = YHWH, teu Deus; nomes na forma tradicional (nomes.d/js.txt).
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#     Depois de uma oração de tempo ("Quando…") ou de um relativo ("Quem ferir…"), e no começo da
+#     consequência, o vav cai quando o português não o comporta (como em js.d/001.txt).
+#     וַיְהִי … = "E aconteceu, …, que …".
+#   - Infinitivo absoluto em dobro ao pé da letra ("desapossando não o desapossaram", "voltando voltardes").
+#   - Descrição de limites (caps. 15–19): o perfeito com vav (וְעָלָה, וְיָצָא, וְעָבַר…), que traça a linha
+#     da fronteira, vai no presente ("sobe", "sai", "passa", "desce", "dá a volta"); יֵלֵךְ também.
+#     O sufixo direcional ־ָה: נֶגְבָּה = para o sul; יָמָּה = para o mar (ocidente); צָפוֹנָה = para o norte;
+#     קֵדְמָה, מִזְרָחָה = para o oriente, para o nascente.
+#   - Vocabulário retomado de Josué 1–13 e do Pentateuco:
+#     גּוֹרָל = sorte; נַחֲלָה = herança; נָחַל = herdar; נִחֵל / הִנְחִיל = fazer herdar;
+#     יָרַשׁ = possuir (a terra) / desapossar (com pessoas por objeto, e no hifil);
+#     אֲחֻזָּה = possessão; מַטֶּה e שֵׁבֶט = tribo; מִשְׁפָּחָה = família; חֵלֶק = porção;
+#     גְּבוּל = limite (linha da fronteira) / território (região); תֹּצְאוֹת = saídas (do limite);
+#     קָצֶה = extremidade; יָם הַמֶּלַח = mar do Sal; נַחַל = ribeiro; עֵמֶק = vale; שְׁפֵלָה = Sefelá;
+#     עֲרָבָה = Arabá; גְּלִילוֹת = distritos; חָצֵר = aldeia; מִגְרָשׁ = arredores;
+#     רֹאשׁ (do monte) = cabeça; עֲנָקִים = anaquins; רְפָאִים = refains; נָשִׂיא = príncipe;
+#     עֵדָה = congregação; זָקֵן = ancião; שֹׁטֵר = oficial; שֹׁפֵט = juiz;
+#     חֵרֶם = coisa consagrada ao extermínio; לְפִי־חֶרֶב = à boca da espada;
+#     רֵעַ = próximo; גֹּאֵל הַדָּם = vingador do sangue; רֹצֵחַ = homicida;
+#     בִּשְׁגָגָה = por erro; בִּבְלִי־דַעַת = sem saber; כֹּהֵן גָּדוֹל = sumo sacerdote;
+#     עִיר מִקְלָט = cidade de refúgio (como em Nm 35 e Dt 19); מַעַל = infidelidade;
+#     אֹהֶל מוֹעֵד = tenda do encontro; מִשְׁכָּן = tabernáculo; הִשְׁתַּחֲוָה = prostrar-se;
+#     הִכְרִית בְּרִית = cortar aliança; הִשְׁמִיד = exterminar; יַם־סוּף = mar de Juncos.
+#   - Vocabulário próprio de Josué 14–24:
+#     מִלֵּא אַחֲרֵי יְהוָה = encher após YHWH (como em Dt 1:36); חֶבֶל = cordel (parte medida);
+#     מַס עֹבֵד = trabalho forçado, servindo; בָּנוֹת (de uma cidade) = filhas (cidades dependentes);
+#     הַמִּבְדָּלוֹת = as separadas; נָפֶת = altura (cf. 11:2); כֶּתֶף = flanco (ao pé da letra, ombro);
+#     גֻּלֹּת = bacias (de água); בְּהֵמָה = animais; מִקְנֶה = gado; קְשִׂיטָה = quesita;
+#     הַצִּרְעָה = a vespa; אֱלֹהֵי נֵכָר = deuses estranhos; כִּי אִם = mas; לֹא כִּי = não, mas.
+#   - Listas de cidades (caps. 15, 18–19, 21): "N cidades e as suas aldeias" segue o hebraico; quando a soma
+#     dos nomes não bate com o total, uma nota avisa.
+#   - Versificação: a do hebraico, que neste livro coincide com a das bíblias em português.
+
+14:1 E estes [são] os que os filhos de Israel herdaram na terra de Canaã, que lhes fizeram herdar Eleazar, o sacerdote, e Josué, filho de Num, e os cabeças dos pais das tribos dos filhos de Israel;
+14:2 por sorte [foi] a sua herança, como ordenou YHWH pela mão de Moisés, para as nove tribos e a metade da tribo.
+14:3 Porque Moisés deu a herança das duas tribos e da metade da tribo além do Jordão; e aos levitas não deu herança no meio deles.
+14:4 Porque os filhos de José foram duas tribos, Manassés e Efraim; e não deram porção aos levitas na terra, mas [deram] cidades para habitar, e os seus arredores para o seu gado e para os seus bens.
+14:5 Como YHWH ordenou a Moisés, assim fizeram os filhos de Israel, e repartiram a terra.
+14:6 E aproximaram-se os filhos de Judá de Josué, em Gilgal; e disse-lhe Calebe, filho de Jefoné, o quenezeu: Tu conheces a palavra que falou YHWH a Moisés, o homem de Deus, a respeito de mim e a respeito de ti, em Cades-Barneia.
+14:7 Filho de quarenta anos [era] eu, quando Moisés, servo de YHWH, me enviou de Cades-Barneia para espiar a terra; e fiz voltar a ele uma palavra, como [estava] com o meu coração.
+14:8 E os meus irmãos, que subiram comigo, fizeram derreter o coração do povo; e eu enchi após YHWH, meu Deus.
+14:9 E jurou Moisés naquele dia, dizendo: Certamente a terra em que pisou o teu pé será para ti por herança, e para os teus filhos, para sempre; porque encheste após YHWH, meu Deus.
+14:10 E agora, eis que YHWH me deixou viver, como falou, estes quarenta e cinco anos, desde que YHWH falou esta palavra a Moisés, quando andou Israel no deserto; e agora, eis que hoje eu [sou] filho de oitenta e cinco anos.
+14:11 Ainda hoje [estou] forte como no dia em que Moisés me enviou; como a minha força então, [assim é] a minha força agora, para a guerra, e para sair, e para entrar.
+14:12 E agora dá-me este monte de que falou YHWH naquele dia; porque tu ouviste, naquele dia, que anaquins [estão] ali, e cidades grandes, fortificadas. Talvez YHWH [esteja] comigo, e os desapossarei, como falou YHWH.
+14:13 E Josué o abençoou, e deu Hebrom a Calebe, filho de Jefoné, por herança.
+14:14 Por isso Hebrom foi de Calebe, filho de Jefoné, o quenezeu, por herança, até este dia, porquanto encheu após YHWH, Deus de Israel.
+14:15 E o nome de Hebrom, antigamente, [era] Quiriate-Arba; o homem, o grande entre os anaquins, [era] ele. E a terra sossegou da guerra.
+15:1 E foi a sorte para a tribo dos filhos de Judá, segundo as suas famílias, até o limite de Edom, o deserto de Zim, para o sul, desde a extremidade do sul.
+15:2 E foi-lhes o limite do sul desde a extremidade do mar do Sal, desde a língua que se volta para o sul.
+15:3 E sai para o sul da subida de Acrabim, e passa a Zim, e sobe do sul a Cades-Barneia, e passa Hezrom, e sobe a Adar, e dá a volta a Carca.
+15:4 E passa a Azmom, e sai ao ribeiro do Egito; e as saídas do limite são para o mar; este vos será o limite do sul.
+15:5 E o limite do oriente [é] o mar do Sal, até a extremidade do Jordão. E o limite do lado do norte [vai] desde a língua do mar, desde a extremidade do Jordão;
+15:6 e sobe o limite a Bete-Hogla, e passa, desde o norte, a Bete-Arabá; e sobe o limite à pedra de Boã, filho de Rúben;
+15:7 e sobe o limite a Debir, desde o vale de Acor, e para o norte volta-se para Gilgal, que [está] defronte da subida de Adumim, que [fica] ao sul do ribeiro; e passa o limite às águas de En-Semes, e as suas saídas são em En-Rogel;
+15:8 e sobe o limite pelo vale do filho de Hinom, ao flanco do jebuseu, desde o sul, ela [é] Jerusalém; e sobe o limite à cabeça do monte que [está] diante do vale de Hinom, para o mar, que [está] na extremidade do vale dos refains, para o norte;
+15:9 e o limite estende-se da cabeça do monte à fonte das águas de Neftoa, e sai às cidades do monte Efrom; e estende-se o limite a Baalá, ela [é] Quiriate-Jearim;
+15:10 e o limite dá a volta de Baalá para o mar, ao monte Seir, e passa ao flanco do monte Jearim, desde o norte, ela [é] Quesalom, e desce a Bete-Semes, e passa a Timna;
+15:11 e sai o limite ao flanco de Ecrom, para o norte; e estende-se o limite a Siquerom, e passa o monte de Baalá, e sai a Jabneel; e as saídas do limite são para o mar.
+15:12 E o limite do ocidente [é] o mar, o Grande, e o limite. Este [é] o limite dos filhos de Judá ao redor, segundo as suas famílias.
+15:13 E a Calebe, filho de Jefoné, deu porção no meio dos filhos de Judá, à boca de YHWH, a Josué: Quiriate-Arba, o pai de Anaque; ela [é] Hebrom.
+15:14 E desapossou Calebe dali os três filhos de Anaque: Sesai, e Aimã, e Talmai, os nascidos de Anaque.
+15:15 E subiu dali aos habitantes de Debir; e o nome de Debir, antigamente, [era] Quiriate-Sefer.
+15:16 E disse Calebe: Quem ferir Quiriate-Sefer e a tomar, eu lhe darei Acsa, minha filha, por mulher.
+15:17 E tomou-a Otniel, filho de Quenaz, irmão de Calebe; e deu-lhe Acsa, sua filha, por mulher.
+15:18 E aconteceu, quando ela veio, que ela o incitou a pedir de seu pai um campo; e ela apeou do jumento; e disse-lhe Calebe: Que [tens]?
+15:19 E disse ela: Dá-me uma bênção; porque me deste terra do Neguebe, e dá-me bacias de águas. E deu-lhe as bacias de cima e as bacias de baixo.
+15:20 Esta [é] a herança da tribo dos filhos de Judá, segundo as suas famílias.
+15:21 E foram as cidades, da extremidade da tribo dos filhos de Judá, até o limite de Edom, no sul: Cabzeel, e Éder, e Jagur,
+15:22 e Quiná, e Dimona, e Adada,
+15:23 e Quedes, e Hazor, e Itnã,
+15:24 Zife, e Telém, e Bealote,
+15:25 e Hazor-Hadata, e Queriote-Hezrom, ela [é] Hazor,
+15:26 Amã, e Sema, e Moladá,
+15:27 e Hazar-Gada, e Hesmom, e Bete-Pelete,
+15:28 e Hazar-Sual, e Berseba, e Biziotiá,
+15:29 Baalá, e Iim, e Ezém,
+15:30 e Eltolade, e Quesil, e Hormá,
+15:31 e Ziclague, e Madmana, e Sansana,
+15:32 e Lebaote, e Silim, e Aim, e Rimom: todas as cidades, vinte e nove, e as suas aldeias.
+15:33 Na Sefelá: Estaol, e Zorá, e Asná,
+15:34 e Zanoa, e En-Ganim, Tapua, e Enaim,
+15:35 Jarmute, e Adulão, Socó, e Azeca,
+15:36 e Saaraim, e Aditaim, e Gedera, e Gederotaim: catorze cidades e as suas aldeias.
+15:37 Zenã, e Hadasa, e Migdal-Gade,
+15:38 e Dileã, e Mispa, e Jocteel,
+15:39 Laquis, e Bozcate, e Eglom,
+15:40 e Cabom, e Laamás, e Quitlis,
+15:41 e Gederote, Bete-Dagom, e Naamá, e Maquedá: dezesseis cidades e as suas aldeias.
+15:42 Libna, e Eter, e Asã,
+15:43 e Jefté, e Asná, e Nezibe,
+15:44 e Queila, e Aczibe, e Maressa: nove cidades e as suas aldeias.
+15:45 Ecrom e as suas filhas e as suas aldeias;
+15:46 de Ecrom e para o mar, tudo o que [está] ao lado de Asdode, e as suas aldeias;
+15:47 Asdode, as suas filhas e as suas aldeias; Gaza, as suas filhas e as suas aldeias, até o ribeiro do Egito, e o mar Grande e o limite.
+15:48 E no monte: Samir, e Jatir, e Socó,
+15:49 e Daná, e Quiriate-Sana, ela [é] Debir,
+15:50 e Anabe, e Estemoa, e Anim,
+15:51 e Gósen, e Holom, e Gilo: onze cidades e as suas aldeias.
+15:52 Arabe, e Dumá, e Esã,
+15:53 e Janim, e Bete-Tapua, e Afeca,
+15:54 e Hunta, e Quiriate-Arba, ela [é] Hebrom, e Zior: nove cidades e as suas aldeias.
+15:55 Maom, Carmelo, e Zife, e Jutá,
+15:56 e Jezreel, e Jocdeão, e Zanoa,
+15:57 Caim, Gibeá, e Timna: dez cidades e as suas aldeias.
+15:58 Halul, Bete-Zur, e Gedor,
+15:59 e Maarate, e Bete-Anote, e Eltecom: seis cidades e as suas aldeias.
+15:60 Quiriate-Baal, ela [é] Quiriate-Jearim, e Rabá: duas cidades e as suas aldeias.
+15:61 No deserto: Bete-Arabá, Midim, e Secacá,
+15:62 e Nibsã, e a Cidade do Sal, e En-Gedi: seis cidades e as suas aldeias.
+15:63 E aos jebuseus, habitantes de Jerusalém, não puderam os filhos de Judá desapossá-los; e o jebuseu habitou com os filhos de Judá em Jerusalém, até este dia.
+16:1 E saiu a sorte para os filhos de José, desde o Jordão de Jericó, às águas de Jericó, para o nascente: o deserto, subindo de Jericó, no monte, [até] Betel;
+16:2 e sai de Betel para Luz, e passa ao limite do arquita, [até] Atarote;
+16:3 e desce para o mar, ao limite do jafletita, até o limite de Bete-Horom de baixo, e até Gezer; e as suas saídas são para o mar.
+16:4 E herdaram os filhos de José, Manassés e Efraim.
+16:5 E foi o limite dos filhos de Efraim, segundo as suas famílias: foi o limite da sua herança, para o nascente, Atarote-Adar, até Bete-Horom de cima;
+16:6 e sai o limite para o mar, a Micmetá, desde o norte; e dá a volta o limite, para o nascente, a Taanate-Siló, e passa-o, desde o nascente, para Janoa;
+16:7 e desce de Janoa a Atarote e a Naarate, e encontra Jericó, e sai ao Jordão.
+16:8 De Tapua vai o limite para o mar, ao ribeiro de Caná; e as suas saídas são para o mar. Esta [é] a herança da tribo dos filhos de Efraim, segundo as suas famílias.
+16:9 E as cidades separadas para os filhos de Efraim, no meio da herança dos filhos de Manassés, todas as cidades e as suas aldeias.
+16:10 E não desapossaram o cananeu que habitava em Gezer; e habitou o cananeu no meio de Efraim, até este dia; e foi para trabalho forçado, servindo.
+17:1 E foi a sorte para a tribo de Manassés, porque ele [é] o primogênito de José, para Maquir, primogênito de Manassés, pai de Gileade, porque ele era homem de guerra; e foram-lhe Gileade e Basã.
+17:2 E foi para os filhos de Manassés que restavam, segundo as suas famílias: para os filhos de Abiezer, e para os filhos de Heleque, e para os filhos de Asriel, e para os filhos de Siquém, e para os filhos de Héfer, e para os filhos de Semida; estes [são] os filhos de Manassés, filho de José, os machos, segundo as suas famílias.
+17:3 E Zelofeade, filho de Héfer, filho de Gileade, filho de Maquir, filho de Manassés, não teve filhos, mas filhas; e estes [são] os nomes das suas filhas: Maalá, e Noa, Hogla, Milca e Tirza.
+17:4 E chegaram-se diante de Eleazar, o sacerdote, e diante de Josué, filho de Num, e diante dos príncipes, dizendo: YHWH ordenou a Moisés que nos desse herança no meio dos nossos irmãos; e deu-lhes, à boca de YHWH, herança no meio dos irmãos do pai delas.
+17:5 E caíram os cordéis de Manassés, dez, à parte a terra de Gileade e de Basã, que [está] além do Jordão;
+17:6 porque as filhas de Manassés herdaram herança no meio de seus filhos; e a terra de Gileade foi para os filhos de Manassés que restavam.
+17:7 E foi o limite de Manassés desde Aser [até] Micmetá, que [está] diante de Siquém; e vai o limite para a direita, aos habitantes de En-Tapua.
+17:8 A Manassés pertencia a terra de Tapua; e Tapua, junto ao limite de Manassés, [pertencia] aos filhos de Efraim.
+17:9 E desce o limite ao ribeiro de Caná, para o sul do ribeiro; estas cidades [são] de Efraim, no meio das cidades de Manassés; e o limite de Manassés [vai] ao norte do ribeiro, e as suas saídas foram para o mar.
+17:10 Para o sul, [é] de Efraim, e para o norte, de Manassés; e o mar foi o seu limite; e em Aser se encontram, desde o norte, e em Issacar, desde o nascente.
+17:11 E foram a Manassés, em Issacar e em Aser: Bete-Seã e as suas filhas, e Ibleão e as suas filhas, e os habitantes de Dor e as suas filhas, e os habitantes de En-Dor e as suas filhas, e os habitantes de Taanaque e as suas filhas, e os habitantes de Megido e as suas filhas: as três alturas.
+17:12 E não puderam os filhos de Manassés desapossar estas cidades; e o cananeu ousou habitar nesta terra.
+17:13 E aconteceu que, quando se fortaleceram os filhos de Israel, deram o cananeu a trabalho forçado, e desapossando não o desapossaram.
+17:14 E falaram os filhos de José com Josué, dizendo: Por que me deste por herança uma sorte e um cordel, sendo eu povo numeroso, tanto que, até aqui, me abençoou YHWH?
+17:15 E disse-lhes Josué: Se [és] povo numeroso, sobe para ti ao bosque, e corta [árvores] para ti ali, na terra do perizeu e dos refains, porque te aperta o monte de Efraim.
+17:16 E disseram os filhos de José: Não se achará para nós o monte; e carros de ferro [há] em todo o cananeu que habita na terra do vale, para os que [estão] em Bete-Seã e nas suas filhas, e para os que [estão] no vale de Jezreel.
+17:17 E disse Josué à casa de José, a Efraim e a Manassés, dizendo: Povo numeroso [és] tu, e grande força [há] para ti; não terás uma só sorte;
+17:18 porque o monte será teu; porque bosque [é] ele, e o cortarás, e as suas saídas serão tuas; porque desapossarás o cananeu, porque carros de ferro [há] para ele, porque forte [é] ele.
+18:1 E reuniu-se toda a congregação dos filhos de Israel em Siló, e fizeram habitar ali a tenda do encontro; e a terra foi subjugada diante deles.
+18:2 E restaram entre os filhos de Israel os que não tinham repartido a sua herança: sete tribos.
+18:3 E disse Josué aos filhos de Israel: Até quando vos afrouxais para entrar a possuir a terra que vos deu YHWH, Deus dos vossos pais?
+18:4 Dai para vós três homens por tribo, e eu os enviarei; e levantar-se-ão, e percorrerão a terra, e a escreverão conforme a sua herança, e virão a mim.
+18:5 E a repartirão entre si em sete porções: Judá ficará de pé sobre o seu território, ao sul, e a casa de José ficará de pé sobre o seu território, ao norte.
+18:6 E vós escrevereis a terra em sete porções, e a trareis a mim aqui; e eu lançarei para vós a sorte aqui, diante de YHWH, nosso Deus.
+18:7 Porque não há porção para os levitas no meio de vós, porque o sacerdócio de YHWH [é] a sua herança; e Gade, e Rúben, e a metade da tribo de Manassés tomaram a sua herança além do Jordão, para o nascente, que lhes deu Moisés, servo de YHWH.
+18:8 E levantaram-se os homens e foram; e ordenou Josué aos que iam escrever a terra, dizendo: Ide, e percorrei a terra, e escrevei-a, e voltai a mim; e aqui lançarei para vós a sorte diante de YHWH, em Siló.
+18:9 E foram os homens, e passaram pela terra, e escreveram-na por cidades em sete porções, num livro; e vieram a Josué, ao acampamento, em Siló.
+18:10 E lançou-lhes Josué a sorte em Siló, diante de YHWH; e repartiu ali Josué a terra aos filhos de Israel, segundo as suas divisões.
+18:11 E subiu a sorte da tribo dos filhos de Benjamim, segundo as suas famílias; e saiu o limite da sua sorte entre os filhos de Judá e os filhos de José.
+18:12 E o limite foi-lhes, do lado do norte, desde o Jordão; e sobe o limite ao flanco de Jericó, desde o norte, e sobe pelo monte, para o mar; e as suas saídas são para o deserto de Bete-Áven;
+18:13 e passa dali o limite a Luz, ao flanco de Luz, para o sul, ela [é] Betel; e desce o limite a Atarote-Adar, sobre o monte que [está] ao sul de Bete-Horom de baixo;
+18:14 e estende-se o limite, e dá a volta ao lado do mar, para o sul, desde o monte que [está] diante de Bete-Horom, para o sul; e as suas saídas são em Quiriate-Baal, ela [é] Quiriate-Jearim, cidade dos filhos de Judá; este [é] o lado do mar.
+18:15 E o lado do sul [vai] desde a extremidade de Quiriate-Jearim; e sai o limite para o mar, e sai à fonte das águas de Neftoa;
+18:16 e desce o limite à extremidade do monte que [está] diante do vale do filho de Hinom, que [está] no vale dos refains, para o norte; e desce o vale de Hinom ao flanco do jebuseu, para o sul, e desce a En-Rogel;
+18:17 e estende-se desde o norte, e sai a En-Semes, e sai a Gelilote, que [está] defronte da subida de Adumim; e desce à pedra de Boã, filho de Rúben;
+18:18 e passa ao flanco defronte da Arabá, para o norte; e desce para a Arabá;
+18:19 e passa o limite ao flanco de Bete-Hogla, para o norte; e as saídas do limite são na língua do mar do Sal, para o norte, na extremidade do Jordão, para o sul; este [é] o limite do sul.
+18:20 E o Jordão o limita, do lado do oriente. Esta [é] a herança dos filhos de Benjamim, segundo os seus limites ao redor, segundo as suas famílias.
+18:21 E foram as cidades da tribo dos filhos de Benjamim, segundo as suas famílias: Jericó, e Bete-Hogla, e o vale de Queziz,
+18:22 e Bete-Arabá, e Zemaraim, e Betel,
+18:23 e os aveus, e Pará, e Ofra,
+18:24 e Quefar-Amonai, e Ofni, e Geba: doze cidades e as suas aldeias.
+18:25 Gibeom, e Ramá, e Beerote,
+18:26 e Mispa, e Quefira, e Moza,
+18:27 e Requém, e Irpeel, e Tarala,
+18:28 e Zela, Elefe, e o jebuseu, ela [é] Jerusalém, Gibeate, Quiriate: catorze cidades e as suas aldeias. Esta [é] a herança dos filhos de Benjamim, segundo as suas famílias.
+19:1 E saiu a segunda sorte para Simeão, para a tribo dos filhos de Simeão, segundo as suas famílias; e foi a sua herança no meio da herança dos filhos de Judá.
+19:2 E foi-lhes na sua herança: Berseba, e Seba, e Moladá,
+19:3 e Hazar-Sual, e Balá, e Ezém,
+19:4 e Eltolade, e Betul, e Hormá,
+19:5 e Ziclague, e Bete-Marcabote, e Hazar-Susa,
+19:6 e Bete-Lebaote, e Saruém: treze cidades e as suas aldeias;
+19:7 Aim, Rimom, e Eter, e Asã: quatro cidades e as suas aldeias;
+19:8 e todas as aldeias que [estão] ao redor destas cidades, até Baalate-Beer, Ramá do Neguebe. Esta [é] a herança da tribo dos filhos de Simeão, segundo as suas famílias.
+19:9 Do cordel dos filhos de Judá [foi] a herança dos filhos de Simeão; porque a porção dos filhos de Judá era grande demais para eles; e herdaram os filhos de Simeão no meio da herança deles.
+19:10 E subiu a terceira sorte para os filhos de Zebulom, segundo as suas famílias; e foi o limite da sua herança até Saride;
+19:11 e sobe o seu limite para o mar, e Marala, e encontra Dabesete, e encontra o ribeiro que [está] diante de Jocneão;
+19:12 e volta de Saride para o oriente, ao nascente do sol, ao limite de Quislote-Tabor; e sai a Daberate, e sobe a Jafia;
+19:13 e dali passa para o oriente, para o nascente, a Gate-Héfer, a Ete-Cazim; e sai a Rimom, que é traçado [até] Neá;
+19:14 e dá a volta a ele o limite, desde o norte, a Hanatom; e as suas saídas são o vale de Iftá-El;
+19:15 e Catate, e Naalal, e Sinrom, e Idala, e Belém: doze cidades e as suas aldeias.
+19:16 Esta [é] a herança dos filhos de Zebulom, segundo as suas famílias: estas cidades e as suas aldeias.
+19:17 Para Issacar saiu a quarta sorte, para os filhos de Issacar, segundo as suas famílias.
+19:18 E foi o seu limite: para Jezreel, e Quesulote, e Suném,
+19:19 e Hafaraim, e Siom, e Anaarate,
+19:20 e Rabite, e Quisiom, e Ebes,
+19:21 e Remete, e En-Ganim, e En-Hadá, e Bete-Pazez;
+19:22 e encontra o limite Tabor, e Saazim, e Bete-Semes; e as saídas do seu limite são o Jordão: dezesseis cidades e as suas aldeias.
+19:23 Esta [é] a herança da tribo dos filhos de Issacar, segundo as suas famílias: as cidades e as suas aldeias.
+19:24 E saiu a quinta sorte para a tribo dos filhos de Aser, segundo as suas famílias.
+19:25 E foi o seu limite: Helcate, e Hali, e Betém, e Acsafe,
+19:26 e Alameleque, e Amade, e Misal; e encontra o Carmelo, para o mar, e Sior-Libnate;
+19:27 e volta ao nascente do sol, [a] Bete-Dagom, e encontra Zebulom e o vale de Iftá-El, para o norte, Bete-Emeque e Neiel; e sai a Cabul, pela esquerda;
+19:28 e Ebrom, e Reobe, e Hamom, e Caná, até Sidom, a grande;
+19:29 e volta o limite a Ramá, e até a cidade fortificada de Tiro; e volta o limite a Hosa; e as suas saídas são para o mar, desde o cordel de Aczibe;
+19:30 e Umá, e Afeque, e Reobe: vinte e duas cidades e as suas aldeias.
+19:31 Esta [é] a herança da tribo dos filhos de Aser, segundo as suas famílias: estas cidades e as suas aldeias.
+19:32 Para os filhos de Naftali saiu a sexta sorte, para os filhos de Naftali, segundo as suas famílias.
+19:33 E foi o seu limite: desde Helefe, desde o carvalho em Zaananim, e Adami-Nequebe, e Jabneel, até Lacum; e as suas saídas foram o Jordão;
+19:34 e volta o limite para o mar, a Aznote-Tabor, e sai dali a Hucoque; e encontra Zebulom, pelo sul, e em Aser encontra, desde o mar, e em Judá, o Jordão, ao nascente do sol.
+19:35 E as cidades fortificadas: Zidim, Zer, e Hamate, Racate, e Quinerete,
+19:36 e Adamá, e Ramá, e Hazor,
+19:37 e Quedes, e Edrei, e En-Hazor,
+19:38 e Irom, e Migdal-El, Horém, e Bete-Anate, e Bete-Semes: dezenove cidades e as suas aldeias.
+19:39 Esta [é] a herança da tribo dos filhos de Naftali, segundo as suas famílias: as cidades e as suas aldeias.
+19:40 Para a tribo dos filhos de Dã, segundo as suas famílias, saiu a sétima sorte.
+19:41 E foi o limite da sua herança: Zorá, e Estaol, e Ir-Semes,
+19:42 e Saalbim, e Aijalom, e Itla,
+19:43 e Elom, e Timna, e Ecrom,
+19:44 e Elteque, e Gibetom, e Baalate,
+19:45 e Jeúde, e Bene-Beraque, e Gate-Rimom,
+19:46 e Me-Jarcom, e Racom, com o limite diante de Jope.
+19:47 E saiu deles o limite dos filhos de Dã; e subiram os filhos de Dã, e pelejaram contra Lesém, e a tomaram, e a feriram à boca da espada, e a possuíram, e habitaram nela; e chamaram a Lesém Dã, conforme o nome de Dã, seu pai.
+19:48 Esta [é] a herança da tribo dos filhos de Dã, segundo as suas famílias: estas cidades e as suas aldeias.
+19:49 E acabaram de herdar a terra, segundo os seus limites; e os filhos de Israel deram herança a Josué, filho de Num, no meio deles;
+19:50 à boca de YHWH lhe deram a cidade que pediu: Timnate-Sera, no monte de Efraim; e edificou a cidade e habitou nela.
+19:51 Estas [são] as heranças que fizeram herdar Eleazar, o sacerdote, e Josué, filho de Num, e os cabeças dos pais, às tribos dos filhos de Israel, por sorte, em Siló, diante de YHWH, à entrada da tenda do encontro; e acabaram de repartir a terra.
+20:1 E falou YHWH a Josué, dizendo:
+20:2 Fala aos filhos de Israel, dizendo: Dai para vós as cidades de refúgio, de que vos falei pela mão de Moisés,
+20:3 para que fuja para lá o homicida que ferir uma alma por erro, sem saber; e vos serão por refúgio do vingador do sangue.
+20:4 E fugirá para uma destas cidades, e ficará de pé à entrada da porta da cidade, e falará aos ouvidos dos anciãos daquela cidade as suas palavras; e o recolherão na cidade, junto a si, e lhe darão lugar, e habitará com eles.
+20:5 E quando o vingador do sangue o perseguir, não entregarão o homicida na sua mão; porque sem saber feriu o seu próximo, e não o odiava desde ontem [e] anteontem.
+20:6 E habitará naquela cidade até comparecer diante da congregação para o juízo, até a morte do sumo sacerdote que houver naqueles dias; então voltará o homicida e virá à sua cidade e à sua casa, à cidade de onde fugiu.
+20:7 E santificaram Quedes, na Galileia, no monte de Naftali, e Siquém, no monte de Efraim, e Quiriate-Arba, ela [é] Hebrom, no monte de Judá.
+20:8 E além do Jordão de Jericó, para o nascente, deram Bezer, no deserto, no planalto, da tribo de Rúben, e Ramote, em Gileade, da tribo de Gade, e Golã, em Basã, da tribo de Manassés.
+20:9 Estas foram as cidades da designação para todos os filhos de Israel e para o estrangeiro que peregrina no meio deles, para que fugisse para lá todo aquele que ferisse uma alma por erro, e não morresse pela mão do vingador do sangue, até comparecer diante da congregação.
+21:1 E aproximaram-se os cabeças dos pais dos levitas de Eleazar, o sacerdote, e de Josué, filho de Num, e dos cabeças dos pais das tribos dos filhos de Israel;
+21:2 e falaram-lhes em Siló, na terra de Canaã, dizendo: YHWH ordenou pela mão de Moisés dar-nos cidades para habitar, e os seus arredores para os nossos animais.
+21:3 E deram os filhos de Israel aos levitas, da sua herança, à boca de YHWH, estas cidades e os seus arredores.
+21:4 E saiu a sorte para as famílias do coatita; e foram para os filhos de Arão, o sacerdote, dentre os levitas, da tribo de Judá, e da tribo do simeonita, e da tribo de Benjamim, por sorte, treze cidades.
+21:5 E para os filhos de Coate que restavam, das famílias da tribo de Efraim, e da tribo de Dã, e da metade da tribo de Manassés, por sorte, dez cidades.
+21:6 E para os filhos de Gérson, das famílias da tribo de Issacar, e da tribo de Aser, e da tribo de Naftali, e da metade da tribo de Manassés, em Basã, por sorte, treze cidades.
+21:7 Para os filhos de Merari, segundo as suas famílias, da tribo de Rúben, e da tribo de Gade, e da tribo de Zebulom, doze cidades.
+21:8 E deram os filhos de Israel aos levitas estas cidades e os seus arredores, como ordenou YHWH pela mão de Moisés, por sorte.
+21:9 E deram, da tribo dos filhos de Judá e da tribo dos filhos de Simeão, estas cidades, que chamará pelo nome;
+21:10 e foram para os filhos de Arão, das famílias do coatita, dos filhos de Levi, porque para eles foi a primeira sorte;
+21:11 e deram-lhes Quiriate-Arba, pai de Anaque, ela [é] Hebrom, no monte de Judá, e os seus arredores ao redor dela.
+21:12 E o campo da cidade e as suas aldeias deram a Calebe, filho de Jefoné, na sua possessão.
+21:13 E aos filhos de Arão, o sacerdote, deram a cidade de refúgio do homicida, Hebrom, e os seus arredores; e Libna e os seus arredores;
+21:14 e Jatir e os seus arredores, e Estemoa e os seus arredores;
+21:15 e Holom e os seus arredores, e Debir e os seus arredores;
+21:16 e Aim e os seus arredores, e Jutá e os seus arredores, Bete-Semes e os seus arredores: nove cidades destas duas tribos.
+21:17 E da tribo de Benjamim: Gibeom e os seus arredores, Geba e os seus arredores,
+21:18 Anatote e os seus arredores, e Almom e os seus arredores: quatro cidades.
+21:19 Todas as cidades dos filhos de Arão, os sacerdotes: treze cidades e os seus arredores.
+21:20 E às famílias dos filhos de Coate, os levitas que restavam dos filhos de Coate, foram as cidades da sua sorte, da tribo de Efraim.
+21:21 E deram-lhes a cidade de refúgio do homicida, Siquém e os seus arredores, no monte de Efraim; e Gezer e os seus arredores;
+21:22 e Quibzaim e os seus arredores, e Bete-Horom e os seus arredores: quatro cidades.
+21:23 E da tribo de Dã: Elteque e os seus arredores, Gibetom e os seus arredores,
+21:24 Aijalom e os seus arredores, Gate-Rimom e os seus arredores: quatro cidades.
+21:25 E da metade da tribo de Manassés: Taanaque e os seus arredores, e Gate-Rimom e os seus arredores: duas cidades.
+21:26 Todas as cidades: dez, e os seus arredores, para as famílias dos filhos de Coate que restavam.
+21:27 E aos filhos de Gérson, das famílias dos levitas, da metade da tribo de Manassés: a cidade de refúgio do homicida, Golã, em Basã, e os seus arredores; e Beestera e os seus arredores: duas cidades.
+21:28 E da tribo de Issacar: Quisiom e os seus arredores, Daberate e os seus arredores,
+21:29 Jarmute e os seus arredores, En-Ganim e os seus arredores: quatro cidades.
+21:30 E da tribo de Aser: Misal e os seus arredores, Abdom e os seus arredores,
+21:31 Helcate e os seus arredores, e Reobe e os seus arredores: quatro cidades.
+21:32 E da tribo de Naftali: a cidade de refúgio do homicida, Quedes, na Galileia, e os seus arredores; e Hamote-Dor e os seus arredores, e Cartã e os seus arredores: três cidades.
+21:33 Todas as cidades do gersonita, segundo as suas famílias: treze cidades, e os seus arredores.
+21:34 E às famílias dos filhos de Merari, os levitas que restavam, da tribo de Zebulom: Jocneão e os seus arredores, Cartá e os seus arredores,
+21:35 Dimna e os seus arredores, Naalal e os seus arredores: quatro cidades.
+21:36 E da tribo de Rúben: Bezer e os seus arredores, e Jaza e os seus arredores,
+21:37 Quedemote e os seus arredores, e Mefaate e os seus arredores: quatro cidades.
+21:38 E da tribo de Gade: a cidade de refúgio do homicida, Ramote, em Gileade, e os seus arredores; e Maanaim e os seus arredores;
+21:39 Hesbom e os seus arredores, Jazer e os seus arredores: ao todo, quatro cidades.
+21:40 Todas as cidades para os filhos de Merari, segundo as suas famílias, que restavam das famílias dos levitas; e foi a sua sorte: doze cidades.
+21:41 Todas as cidades dos levitas no meio da possessão dos filhos de Israel: quarenta e oito cidades e os seus arredores.
+21:42 Estas cidades eram, cidade por cidade, com os seus arredores ao redor dela; assim [era] para todas estas cidades.
+21:43 E deu YHWH a Israel toda a terra que jurou dar aos pais deles; e a possuíram e habitaram nela.
+21:44 E deu-lhes repouso YHWH ao redor, conforme tudo o que jurou a seus pais; e não se manteve homem algum diante deles, de todos os seus inimigos; todos os seus inimigos entregou YHWH na mão deles.
+21:45 Não caiu uma só palavra de toda a boa palavra que falou YHWH à casa de Israel; tudo veio.
+22:1 Então chamou Josué os rubenitas, e os gaditas, e a metade da tribo de Manassés,
+22:2 e disse-lhes: Vós guardastes tudo o que vos ordenou Moisés, servo de YHWH, e ouvistes a minha voz em tudo o que vos ordenei;
+22:3 não deixastes os vossos irmãos, estes muitos dias, até este dia; e guardastes a guarda do mandamento de YHWH, vosso Deus.
+22:4 E agora YHWH, vosso Deus, deu repouso a vossos irmãos, como lhes falou; e agora voltai-vos e ide para vós às vossas tendas, à terra da vossa possessão, que vos deu Moisés, servo de YHWH, além do Jordão.
+22:5 Somente guardai muito, para fazer o mandamento e a instrução que vos ordenou Moisés, servo de YHWH: para amar a YHWH, vosso Deus, e para andar em todos os seus caminhos, e para guardar os seus mandamentos, e para vos apegardes a ele, e para o servir com todo o vosso coração e com toda a vossa alma.
+22:6 E abençoou-os Josué e enviou-os; e foram às suas tendas.
+22:7 E à metade da tribo de Manassés deu Moisés em Basã; e à [outra] metade dela deu Josué, com os seus irmãos, além do Jordão, para o ocidente. E também quando Josué os enviou às suas tendas, abençoou-os,
+22:8 e disse-lhes, dizendo: Com muitos bens voltai às vossas tendas, e com gado numerosíssimo, com prata, e com ouro, e com bronze, e com ferro, e com vestes em grande quantidade; reparti o despojo dos vossos inimigos com os vossos irmãos.
+22:9 E voltaram e foram os filhos de Rúben, e os filhos de Gade, e a metade da tribo de Manassés, de junto dos filhos de Israel, de Siló, que [está] na terra de Canaã, para irem à terra de Gileade, à terra da sua possessão, na qual tomaram possessão, à boca de YHWH, pela mão de Moisés.
+22:10 E chegaram aos distritos do Jordão, que [estão] na terra de Canaã; e edificaram ali os filhos de Rúben, e os filhos de Gade, e a metade da tribo de Manassés um altar junto ao Jordão, um altar grande à vista.
+22:11 E ouviram os filhos de Israel, dizendo: Eis que edificaram os filhos de Rúben, e os filhos de Gade, e a metade da tribo de Manassés o altar, em frente da terra de Canaã, nos distritos do Jordão, do lado dos filhos de Israel.
+22:12 E ouviram os filhos de Israel, e reuniu-se toda a congregação dos filhos de Israel em Siló, para subir contra eles, em exército.
+22:13 E enviaram os filhos de Israel aos filhos de Rúben, e aos filhos de Gade, e à metade da tribo de Manassés, à terra de Gileade, Fineias, filho de Eleazar, o sacerdote,
+22:14 e dez príncipes com ele, um príncipe, um príncipe, por casa paterna, para todas as tribos de Israel; e cada homem [era] cabeça da casa dos seus pais, eles, entre os milhares de Israel.
+22:15 E vieram aos filhos de Rúben, e aos filhos de Gade, e à metade da tribo de Manassés, à terra de Gileade, e falaram com eles, dizendo:
+22:16 Assim disse toda a congregação de YHWH: Que infidelidade [é] esta que cometestes contra o Deus de Israel, para voltardes hoje de após YHWH, edificando para vós um altar, para vos rebelardes hoje contra YHWH?
+22:17 Foi pouco para nós a iniquidade de Peor, da qual não nos purificamos até este dia, e houve a praga na congregação de YHWH,
+22:18 e vós voltais hoje de após YHWH? E será que, vós vos rebelando hoje contra YHWH, amanhã contra toda a congregação de Israel ele se indignará.
+22:19 Mas, se a terra da vossa possessão [é] impura, passai para vós à terra da possessão de YHWH, onde habita o tabernáculo de YHWH, e tomai possessão no meio de nós; mas contra YHWH não vos rebeleis, e contra nós não vos rebeleis, edificando para vós um altar fora do altar de YHWH, nosso Deus.
+22:20 Acaso Acã, filho de Zerá, não cometeu infidelidade com a coisa consagrada ao extermínio, e sobre toda a congregação de Israel houve ira? E ele, um só homem, não expirou na sua iniquidade.
+22:21 E responderam os filhos de Rúben, e os filhos de Gade, e a metade da tribo de Manassés, e falaram aos cabeças dos milhares de Israel:
+22:22 Deus, Deus, YHWH! Deus, Deus, YHWH! Ele sabe, e Israel, ele saberá: se [foi] em rebelião, e se em infidelidade contra YHWH, não nos salves neste dia.
+22:23 [Se foi] para edificar para nós um altar, para voltar de após YHWH, e se para fazer subir sobre ele holocausto e oferta de manjares, e se para fazer sobre ele sacrifícios pacíficos, YHWH, ele [o] requererá.
+22:24 E se não [foi] por ansiedade, por causa de uma palavra, que fizemos isto, dizendo: Amanhã dirão os vossos filhos aos nossos filhos: Que [há] entre vós e YHWH, Deus de Israel?
+22:25 Pois YHWH pôs um limite entre nós e vós, filhos de Rúben e filhos de Gade: o Jordão; não tendes porção em YHWH; e farão cessar os vossos filhos os nossos filhos, para não temerem a YHWH.
+22:26 E dissemos: Façamos, por favor, para nós: edificar o altar, não para holocausto e não para sacrifício;
+22:27 porque testemunha ele [é] entre nós e vós, e entre as nossas gerações depois de nós, para servir o serviço de YHWH diante dele, com os nossos holocaustos, e com os nossos sacrifícios, e com as nossas ofertas pacíficas; e não dirão os vossos filhos amanhã aos nossos filhos: Não tendes porção em YHWH.
+22:28 E dissemos: E será que, quando disserem a nós e às nossas gerações amanhã, nós diremos: Vede o modelo do altar de YHWH, que fizeram os nossos pais, não para holocausto e não para sacrifício; porque testemunha ele [é] entre nós e vós.
+22:29 Longe [esteja] de nós rebelar-nos contra YHWH, e voltar hoje de após YHWH, edificando altar para holocausto, para oferta de manjares e para sacrifício, além do altar de YHWH, nosso Deus, que [está] diante do seu tabernáculo.
+22:30 E ouviu Fineias, o sacerdote, e os príncipes da congregação, e os cabeças dos milhares de Israel que [estavam] com ele, as palavras que falaram os filhos de Rúben, e os filhos de Gade, e os filhos de Manassés; e foi bom aos olhos deles.
+22:31 E disse Fineias, filho de Eleazar, o sacerdote, aos filhos de Rúben, e aos filhos de Gade, e aos filhos de Manassés: Hoje sabemos que no meio de nós [está] YHWH, porque não cometestes contra YHWH esta infidelidade; então livrastes os filhos de Israel da mão de YHWH.
+22:32 E voltou Fineias, filho de Eleazar, o sacerdote, e os príncipes, de junto dos filhos de Rúben e dos filhos de Gade, da terra de Gileade, à terra de Canaã, aos filhos de Israel; e fizeram voltar a eles uma palavra.
+22:33 E foi boa a palavra aos olhos dos filhos de Israel; e abençoaram a Deus os filhos de Israel; e não disseram de subir contra eles, em exército, para destruir a terra em que os filhos de Rúben e os filhos de Gade habitavam.
+22:34 E chamaram os filhos de Rúben e os filhos de Gade ao altar: Porque testemunha ele [é] entre nós de que YHWH [é] o Deus.
+23:1 E aconteceu, depois de muitos dias, depois que YHWH deu repouso a Israel de todos os seus inimigos ao redor, e Josué [era] velho, avançado em dias,
+23:2 que Josué chamou a todo o Israel, aos seus anciãos, e aos seus cabeças, e aos seus juízes, e aos seus oficiais, e disse-lhes: Eu envelheci, avancei em dias.
+23:3 E vós vistes tudo o que fez YHWH, vosso Deus, a todas estas nações diante de vós; porque YHWH, vosso Deus, ele [é] o que peleja por vós.
+23:4 Vede: fiz cair para vós estas nações que restam, em herança para as vossas tribos, desde o Jordão, e todas as nações que extirpei, e [até] o mar Grande, o pôr do sol.
+23:5 E YHWH, vosso Deus, ele as empurrará de diante de vós, e as desapossará de diante de vós; e possuireis a terra delas, como vos falou YHWH, vosso Deus.
+23:6 E sede muito fortes para guardar e para fazer tudo o que [está] escrito no livro da instrução de Moisés, para não vos desviardes dele, à direita nem à esquerda;
+23:7 para não entrardes entre estas nações, estas que restam convosco, e o nome dos seus deuses não mencionareis, e não fareis jurar, e não os servireis, e não vos prostrareis diante deles;
+23:8 mas a YHWH, vosso Deus, vos apegareis, como fizestes até este dia.
+23:9 E desapossou YHWH de diante de vós nações grandes e poderosas; e a vós, não se manteve homem algum diante de vós até este dia.
+23:10 Um só homem de vós perseguirá mil; porque YHWH, vosso Deus, ele [é] o que peleja por vós, como vos falou.
+23:11 E guardai-vos muito pelas vossas almas, para amar a YHWH, vosso Deus.
+23:12 Mas, se voltando voltardes e vos apegardes ao resto destas nações, estas que restam convosco, e vos aparentardes por casamento com elas, e entrardes nelas, e elas em vós,
+23:13 sabendo sabei que YHWH, vosso Deus, não voltará a desapossar estas nações de diante de vós; e serão para vós por armadilha, e por laço, e por açoite nos vossos lados, e por aguilhões nos vossos olhos, até perecerdes de sobre este bom solo que vos deu YHWH, vosso Deus.
+23:14 E eis que hoje eu vou pelo caminho de toda a terra; e sabei, com todo o vosso coração e com toda a vossa alma, que não caiu uma só palavra de todas as boas palavras que falou YHWH, vosso Deus, a vosso respeito; todas vos vieram; dele não caiu uma só palavra.
+23:15 E será que, assim como veio sobre vós toda a boa palavra que YHWH, vosso Deus, falou a vós, assim fará vir YHWH sobre vós toda a má palavra, até vos exterminar de sobre este bom solo que YHWH, vosso Deus, vos deu.
+23:16 Quando transgredirdes a aliança de YHWH, vosso Deus, que vos ordenou, e fordes e servirdes outros deuses, e vos prostrardes diante deles, se acenderá a ira de YHWH contra vós, e perecereis depressa de sobre a boa terra que vos deu.
+24:1 E reuniu Josué todas as tribos de Israel em Siquém; e chamou os anciãos de Israel, e os seus cabeças, e os seus juízes, e os seus oficiais; e puseram-se diante de Deus.
+24:2 E disse Josué a todo o povo: Assim disse YHWH, Deus de Israel: Além do rio habitaram os vossos pais, desde a antiguidade, Terá, pai de Abraão e pai de Naor; e serviram outros deuses.
+24:3 E tomei o vosso pai Abraão de além do rio, e fi-lo andar por toda a terra de Canaã, e multipliquei a sua semente, e dei-lhe Isaque.
+24:4 E a Isaque dei Jacó e Esaú; e a Esaú dei o monte Seir, para o possuir; e Jacó e os seus filhos desceram ao Egito.
+24:5 E enviei Moisés e Arão, e feri o Egito, conforme o que fiz no meio dele; e depois vos fiz sair.
+24:6 E fiz sair os vossos pais do Egito, e viestes ao mar; e perseguiram os egípcios os vossos pais com carros e com cavaleiros, [até] o mar de Juncos.
+24:7 E clamaram a YHWH, e pôs escuridão entre vós e os egípcios, e fez vir sobre ele o mar, e o cobriu; e os vossos olhos viram o que fiz no Egito; e habitastes no deserto muitos dias.
+24:8 E vos trouxe à terra do amorreu que habitava além do Jordão; e pelejaram convosco, e os dei na vossa mão, e possuístes a terra deles; e os exterminei de diante de vós.
+24:9 E levantou-se Balaque, filho de Zipor, rei de Moabe, e pelejou contra Israel; e enviou e chamou Balaão, filho de Beor, para vos amaldiçoar.
+24:10 E não quis ouvir a Balaão; e abençoando vos abençoou; e livrei-vos da mão dele.
+24:11 E passastes o Jordão, e viestes a Jericó; e pelejaram contra vós os senhores de Jericó: o amorreu, e o perizeu, e o cananeu, e o heteu, e o girgaseu, o heveu, e o jebuseu; e os dei na vossa mão.
+24:12 E enviei diante de vós a vespa, e expulsou-os de diante de vós, os dois reis do amorreu; não com a tua espada e não com o teu arco.
+24:13 E dei-vos uma terra em que não labutaste, e cidades que não edificastes, e habitastes nelas; vinhas e oliveiras que não plantastes, vós comeis.
+24:14 E agora temei a YHWH e servi-o com integridade e com verdade; e removei os deuses que serviram os vossos pais além do rio e no Egito; e servi a YHWH.
+24:15 E se é mau aos vossos olhos servir a YHWH, escolhei hoje para vós a quem servireis: se aos deuses que serviram os vossos pais, os que [estavam] além do rio, ou se aos deuses do amorreu, em cuja terra habitais; e eu e a minha casa serviremos a YHWH.
+24:16 E respondeu o povo e disse: Longe [esteja] de nós deixar a YHWH para servir outros deuses;
+24:17 porque YHWH, nosso Deus, ele [é] o que fez subir a nós e aos nossos pais da terra do Egito, da casa de servos, e o que fez diante dos nossos olhos estes grandes sinais; e nos guardou em todo o caminho em que andamos, e entre todos os povos pelo meio dos quais passamos;
+24:18 e expulsou YHWH todos os povos, e o amorreu, habitante da terra, de diante de nós; também nós serviremos a YHWH, porque ele [é] o nosso Deus.
+24:19 E disse Josué ao povo: Não podereis servir a YHWH; porque ele [é] Deus santo, ele [é] Deus zeloso; não perdoará as vossas transgressões e os vossos pecados.
+24:20 Quando deixardes a YHWH e servirdes deuses estranhos, voltará, e vos fará mal, e vos consumirá, depois de vos ter feito bem.
+24:21 E disse o povo a Josué: Não, mas a YHWH serviremos.
+24:22 E disse Josué ao povo: Sois testemunhas contra vós mesmos de que vós escolhestes para vós a YHWH, para o servir. E disseram: Testemunhas.
+24:23 E agora removei os deuses estranhos que [estão] no meio de vós, e inclinai o vosso coração para YHWH, Deus de Israel.
+24:24 E disse o povo a Josué: A YHWH, nosso Deus, serviremos, e a sua voz ouviremos.
+24:25 E cortou Josué aliança para o povo naquele dia, e pôs-lhe estatuto e juízo em Siquém.
+24:26 E escreveu Josué estas palavras no livro da instrução de Deus; e tomou uma pedra grande, e levantou-a ali, debaixo do carvalho que [estava] no santuário de YHWH.
+24:27 E disse Josué a todo o povo: Eis que esta pedra será entre nós por testemunho; porque ela ouviu todos os ditos de YHWH que falou conosco; e será em vós por testemunho, para que não negueis ao vosso Deus.
+24:28 E enviou Josué o povo, cada homem à sua herança.
+24:29 E aconteceu, depois destas palavras, que morreu Josué, filho de Num, servo de YHWH, filho de cento e dez anos.
+24:30 E sepultaram-no no território da sua herança, em Timnate-Sera, que [está] no monte de Efraim, ao norte do monte Gaás.
+24:31 E serviu Israel a YHWH todos os dias de Josué, e todos os dias dos anciãos que prolongaram os dias depois de Josué, e que conheceram toda a obra de YHWH que fez por Israel.
+24:32 E os ossos de José, que os filhos de Israel fizeram subir do Egito, sepultaram em Siquém, na porção do campo que comprou Jacó dos filhos de Hamor, pai de Siquém, por cem quesitas; e foram para os filhos de José por herança.
+24:33 E Eleazar, filho de Arão, morreu; e sepultaram-no na colina de Fineias, seu filho, que lhe foi dada no monte de Efraim.

@@ -1,0 +1,63 @@
+# Josué 14–24 — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+
+14:8 | enchi após YHWH | Em hebraico, *mille aharei*, ao pé da letra "encher após": seguir por inteiro, sem reserva. A mesma expressão está em Nm 14:24 (sobre Calebe) e em Dt 1:36; veja também os v. 9 e 14.
+14:12 | anaquins | Em hebraico, *anaqim*; veja 11:21–22. Os "filhos de Anaque" são os de grande estatura de Nm 13:22, 28, 33.
+14:15 | Quiriate-Arba | Em hebraico, *Qiryat Arba*, "cidade de Arba" (ou: "cidade dos quatro"). Arba é o "homem grande entre os anaquins" (15:13; 21:11).
+15:3 | sai | O hebraico usa aqui o perfeito com vav (*weyatsa*, *we'avar*, *we'alah*), que descreve o traçado da linha de fronteira. Aqui e nos capítulos seguintes foi vertido no presente. Em Nm 34:4–5 a mesma descrição está no futuro.
+15:8 | flanco | Em hebraico, *ketef*, ao pé da letra "ombro": a vertente de um monte.
+15:12 | e o limite | O hebraico é de difícil leitura: ao pé da letra, "e o limite do mar [é] o mar, o Grande, e o limite". Provavelmente "o limite" é a costa; o mesmo se repete no v. 47.
+15:19 | bacias de águas | Em hebraico, *gullot mayim*: depressões que retêm a água, isto é, nascentes ou reservatórios. A passagem paralela está em Jz 1:12–15.
+15:32 | vinte e nove | A soma dos nomes dos v. 21–32 é trinta e seis (contando "Queriote-Hezrom" como um só nome; trinta e cinco se Aim e Rimom formam um só nome, En-Rimom). O total do hebraico foi mantido.
+15:36 | catorze | Os nomes dos v. 33–36 são quinze. Alguns leitores contam "Gedera e Gederotaim" como um só nome, ou leem "Gederotaim" como epíteto de Gedera.
+15:49 | Quiriate-Sana | Em hebraico, *Qiryat Sannah*, que aqui se diz ser Debir, a mesma cidade que em 15:15 se chamava Quiriate-Sefer (*Qiryat Sefer*); o nome varia por grafia ou tradição.
+15:59 | seis cidades | A Septuaginta traz aqui mais um grupo de onze cidades (entre elas Tecoa, Efrata, isto é, Belém, e Peor), que falta no texto hebraico.
+15:63 | habitou com os filhos de Judá | Em hebraico, *wayyeshev ... et benei Yehudah*: a partícula *et*, que em geral marca o objeto direto, tem aqui o sentido de "com". Em Jz 1:21 a mesma notícia aparece sobre os benjamitas.
+16:10 | trabalho forçado, servindo | Em hebraico, *las-mas oved*: *mas* é o trabalho imposto a um povo submetido; *oved* é o particípio de "servir". A mesma expressão está em Gn 49:15 e em Jz 1:30, 33, 35.
+17:5 | cordéis | Em hebraico, *hevlei*, plural de *hevel*, "corda" ou "cordel de medir": a parte medida e recebida em herança. Os dez cordéis parecem corresponder às cinco famílias do v. 2 (sem Héfer) e às cinco filhas de Zelofeade (v. 3).
+17:11 | as três alturas | Em hebraico, *shelishat hanafet*. *Nafet* é "altura" (cf. 11:2; 12:23, "alturas de Dor"). O sentido é discutido: "o terceiro da altura", ou "as três alturas".
+17:14 | tanto que | Em hebraico, *ad asher-ad koh*, ao pé da letra "até que, até aqui". O sentido é: visto que até agora YHWH me abençoou.
+17:15 | corta [árvores] | Em hebraico, *uvera'ta*, de *bara* no piel: cortar, desbastar. O mesmo verbo, que no qal quer dizer "criar", volta no v. 18.
+17:18 | porque desapossarás | O hebraico repete *ki*, "porque". Os dois últimos podem ter sentido concessivo: "embora tenha carros de ferro, embora seja forte".
+18:3 | vos afrouxais | Em hebraico, *mitrappim*, do verbo *rafah*: "soltar-se", "afrouxar". É o desânimo de quem deixa de agir.
+18:4 | escreverão | Em hebraico, *weyiktevu*, "e escreverão": registrar a terra por escrito, em levantamento (v. 6, 8 e 9: "num livro").
+18:23 | os aveus | Em hebraico, *ha'avvim*. É o mesmo nome do povo de 13:3 e de Dt 2:23; aqui aparece numa lista de cidades de Benjamim, de modo que pode ser um lugar.
+18:28 | Gibeate, Quiriate | Em hebraico, *Giv'at Qiryat*. Alguns leem um só nome, "Gibeate-Quiriate" (isto é, Quiriate-Jearim, v. 14); com dois nomes, o total de catorze cidades fecha.
+19:6 | treze cidades | A lista dos v. 2–6 traz catorze nomes; o total de treze fecha se "Berseba e Seba" forem um só nome (cf. 15:28 e 1Cr 4:28, que trazem só Berseba).
+19:13 | traçado | Em hebraico, *hammetoar*, particípio passivo de *tavar*, "assinalar": "que é traçado". Ou: "Rimom-Metoar", como nome do lugar.
+19:15 | doze cidades | Dos v. 10–15 só o v. 15 traz nomes de cidades (cinco); os pontos do traçado dos v. 10–14 não completam o total de doze.
+19:29 | cordel de Aczibe | Em hebraico, *mehevel Akhzivah*; *hevel* é "cordel de medir", aqui a faixa de território; o sentido é incerto.
+19:30 | vinte e duas | Os v. 25–30 misturam cidades e pontos da fronteira, e os nomes não se deixam somar com segurança até vinte e duas.
+19:34 | em Judá, o Jordão | O hebraico, *uvihudah haYarden mizrach hashamesh*, é de difícil leitura: Judá fica longe de Naftali. O sentido é discutido.
+19:38 | dezenove | Os v. 35–38 trazem dezesseis nomes (quinze se Zidim-Zer forem um só); o total de dezenove só fecha somando os nomes do v. 33.
+19:47 | E saiu deles o limite | Em hebraico, *wayetse gevul-benei-Dan mehem*, ao pé da letra "saiu deles o limite": o território lhes escapou, ou lhes ficou pequeno. O sentido é discutido.
+19:47 | pelejaram contra Lesém | Lesém é a cidade chamada Laís em Jz 18:7, 27–29, onde também é tomada pelos danitas.
+19:50 | Timnate-Sera | Em Jz 2:9 o nome é Timnate-Heres; as letras *sera* e *heres* diferem apenas na ordem.
+20:2 | cidades de refúgio | Em hebraico, *arei hammiqlat*: "cidades do abrigo". As normas estão em Nm 35:9–34 e em Dt 19:1–13; os termos aqui são os mesmos.
+20:7 | santificaram | Em hebraico, *wayyaqdishu*; o nome de Quedes (*Qedesh*) vem da mesma raiz de *qadash*, "ser santo".
+20:9 | da designação | Em hebraico, *hammu'adah*, particípio de *ya'ad*, "designar", "fixar". Ou: "da reunião".
+21:9 | que chamará pelo nome | O sujeito é indefinido: o texto passa a nomear as cidades, uma a uma, nos v. 13–19.
+21:25 | Gate-Rimom | O nome repete o do v. 24 e é tido por erro de cópia; em 1Cr 6:55 (hebraico) as cidades de Manassés são Aner e Bileão.
+21:45 | tudo veio | Em hebraico, *hakkol ba*: "tudo chegou". O sentido é: tudo se cumpriu.
+22:10 | à vista | Em hebraico, *lemar'eh*, ao pé da letra "para o aspecto": um altar visível de longe. O sentido é discutido; ou: "de grande aparência".
+22:12 | em exército | Em hebraico, *latsava*: subir contra eles com a hoste de guerra de Israel.
+22:17 | iniquidade de Peor | O episódio de Baal-Peor, em Nm 25:1–9 (cf. Dt 4:3). A praga que se seguiu matou vinte e quatro mil (Nm 25:9).
+22:20 | Acã | Veja o cap. 7. O argumento é que o pecado de um só homem trouxe ira sobre toda a congregação.
+22:22 | Deus, Deus, YHWH! Deus, Deus, YHWH | Em hebraico, *El Elohim YHWH*, três nomes divinos, ditos duas vezes, como invocação solene. Ou: "O Deus dos deuses, YHWH".
+22:23 | requererá | Em hebraico, *yevaqqesh*, ao pé da letra "buscará": pedirá contas do ato.
+22:28 | modelo | Em hebraico, *tavnit*: cópia ou desenho. A mesma palavra descreve o modelo do tabernáculo em Êx 25:9.
+22:34 | Porque testemunha | O hebraico não traz o nome dado ao altar, e a frase fica suspensa. Alguns manuscritos hebraicos e a versão siríaca trazem ali *Ed*, "Testemunha", que o contexto pede (v. 27–28).
+23:6 | sede muito fortes | Em hebraico, *wachazaqtem*, perfeito com vav, com valor de ordem (como o verbo do v. 11, que a prolonga). Compare 1:7.
+23:13 | armadilha | Em hebraico, *pach*, "armadilha"; *moqesh*, "laço"; *shotet*, "açoite" (palavra rara); *tsenninim*, "aguilhões", como em Nm 33:55, onde também se fala de espinhos nos olhos.
+23:14 | caminho de toda a terra | Expressão para a morte (1Rs 2:2).
+24:2 | Além do rio | O rio Eufrates, como em 1:4 e 24:3. Sobre Terá, Abraão e Naor, veja Gn 11:26–32.
+24:6 | os egípcios | Em hebraico, *Mitsrayim*, "Egito", aqui com o verbo no plural: os egípcios.
+24:12 | a vespa | Em hebraico, *hatsir'ah*; o sentido é incerto (Êx 23:28; Dt 7:20). Ou: "o pânico", "o desânimo".
+24:19 | Deus santo | Em hebraico, *Elohim qedoshim*: o adjetivo está no plural, como a palavra *Elohim*; ao pé da letra "Deus santos".
+24:26 | carvalho | Em hebraico, *alah*, árvore grande (carvalho ou terebinto). O "santuário de YHWH" em Siquém não é descrito; cf. Gn 12:6; 35:4.
+24:27 | negueis | Em hebraico, *tekhachashun*, "negar", "mentir contra": faltar à verdade perante o Deus a quem prometeram servir.
+24:30 | Timnate-Sera | Veja 19:50. Em Jz 2:9, Timnate-Heres.
+24:32 | quesitas | Em hebraico, *qesitah*, uma medida de valor de peso incerto (também em Gn 33:19). Os ossos de José foram trazidos conforme Gn 50:25 e Êx 13:19.
+24:33 | colina de Fineias | Em hebraico, *Giv'at Pinchas*: ou "Gibeá de Fineias", como nome de lugar.
