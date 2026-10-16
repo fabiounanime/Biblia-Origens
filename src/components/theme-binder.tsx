@@ -22,5 +22,21 @@ export function ThemeBinder() {
     apply();
     return useStudy.subscribe(apply);
   }, []);
+
+  // iPhone: o Safari ignora "user-scalable=no"; bloquear os eventos de gesto
+  // impede o zoom da página. A pinça do leitor usa eventos de toque, que seguem
+  // funcionando normalmente.
+  useEffect(() => {
+    const block = (event: Event) => event.preventDefault();
+    const options: AddEventListenerOptions = { passive: false };
+    document.addEventListener("gesturestart", block, options);
+    document.addEventListener("gesturechange", block, options);
+    document.addEventListener("gestureend", block, options);
+    return () => {
+      document.removeEventListener("gesturestart", block, options);
+      document.removeEventListener("gesturechange", block, options);
+      document.removeEventListener("gestureend", block, options);
+    };
+  }, []);
   return null;
 }

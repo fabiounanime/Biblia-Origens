@@ -115,12 +115,23 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   html {
     background: var(--c-bg);
     color: var(--c-fg);
+    /*
+     * App, não página: sem zoom de pinça nem de toque duplo em lugar nenhum.
+     * A pinça só existe no texto bíblico, onde o leitor muda o tamanho da letra
+     * (src/lib/reader/use-pinch-font.ts). Nada vaza para os lados.
+     */
+    touch-action: pan-x pan-y;
+    overflow-x: clip;
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
   }
-  body { min-height: 100%; }
+  body {
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
   button:not(:disabled),
   [role="button"]:not(:disabled) { cursor: pointer; }
   h1, h2, h3 { text-wrap: balance; }
