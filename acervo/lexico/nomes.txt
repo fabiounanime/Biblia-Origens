@@ -433,7 +433,7 @@
 6326 | Puá | p
 4872 | Moisés | p
 6855 | Zípora | p
-1647 | Gérson | p
+1647 | Gersom | p
 3503 | Jetro | p
 2722 | Horebe | l
 175 | Arão | p

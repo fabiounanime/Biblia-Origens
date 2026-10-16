@@ -201,7 +201,7 @@
 6996 b | pequeno, menor
 2145 | macho
 1588 | jardim
-905 | à parte, só (com preposição: sozinho)
+905 | à parte, só (com preposição: sozinho), vara (de transporte)
 5978 | com, junto de
 3254 | acrescentar, continuar | h: acrescentar, tornar a fazer
 7227 a | muito, numeroso, grande
@@ -354,7 +354,7 @@
 5930 a | holocausto
 7198 | arco
 8071 | capa, manto
-7453 | companheiro, próximo
+7453 | próximo, companheiro
 5045 | Neguebe, sul
 4616 | por causa de, para que
 3225 | direita, mão direita
@@ -400,7 +400,7 @@
 6190 | prepúcio
 5971 b | parente, povo (do pai)
 2204 | envelhecer
-2388 | ser forte, prevalecer | h: segurar, agarrar | t: esforçar-se
+2388 | ser forte, prevalecer | p: fortalecer, firmar | h: segurar, agarrar | t: esforçar-se
 3198 | h: repreender, decidir, julgar | N: ser justificado
 3972 | coisa alguma, nada
 571 | verdade, fidelidade
@@ -441,7 +441,7 @@
 7291 | perseguir
 2803 | considerar, contar, planejar | N: ser considerado
 352 a | carneiro
-6031 b | p: oprimir, afligir, humilhar
+6031 b | p: oprimir, afligir, humilhar | N: humilhar-se, ser afligido
 7872 | velhice, cabelos brancos
 8199 | julgar
 7230 | multidão, abundância
@@ -681,7 +681,7 @@
 8345 | sexto
 7880 | arbusto
 5397 | fôlego
-2530 a | N: ser desejável
+2530 a | desejar, cobiçar | N: ser desejável
 1847 | conhecimento
 6926 | oriente
 5828 | ajuda
@@ -828,7 +828,7 @@
 3884 | se não fosse
 6343 | temor
 3950 | ajuntar | p: ajuntar
-3384 b | atirar (com arco) | h: atirar
+3384 b | atirar (com arco) | h: ensinar, atirar
 2076 | sacrificar
 2077 | sacrifício
 7794 | boi
@@ -886,7 +886,7 @@
 4315 | o melhor
 656 | acabar, faltar
 5483 b | cavalo
-3499 a | excelência, resto
+3499 a | resto, excelência
 5794 | forte, violento
 738 b | leão
 2348 | costa, praia
@@ -1119,14 +1119,14 @@
 155 | manto
 8181 | pelo
 8535 | íntegro, pacato
-2102 | h: cozinhar (um guisado)
+2102 | agir com soberba | h: agir com presunção, cozinhar (um guisado)
 3938 | h: deixar engolir, dar de comer
 5742 | lentilhas
 959 | desprezar
 4931 | guarda, encargo
 4687 | mandamento
 2708 | estatuto
-8451 | lei, instrução
+8451 | instrução, lei
 748 | prolongar-se
 817 | culpa
 8180 | medida, cem vezes
@@ -1205,7 +1205,7 @@
 6994 | ser pequeno, ser indigno
 6499 | novilho
 7305 | espaço, intervalo
-3722 a | p: aplacar
+3722 a | p: fazer expiação, aplacar
 4569 a | vau
 3363 | deslocar-se
 8280 | lutar
@@ -1230,9 +1230,9 @@
 983 | segurança, confiadamente
 2491 a | morto, ferido
 5916 | perturbar
-887 | h: fazer odioso
+887 | cheirar mal, feder | h: fazer odioso
 4962 | homens
-8045 | N: ser destruído
+8045 | N: ser destruído | h: exterminar, destruir
 2891 | t: purificar-se
 2934 | esconder, enterrar
 424 | carvalho, terebinto
@@ -1272,7 +1272,7 @@
 2196 | estar abatido, triste
 6524 a | brotar, florescer
 5322 a | flor
-1310 | h: amadurecer
+1310 | cozer, amadurecer | p: cozer | h: amadurecer
 811 | cacho
 7818 | espremer
 2751 | pão branco, bolo

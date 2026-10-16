@@ -28,13 +28,28 @@ Exemplo com `dt`; os identificadores dos livros estão em `tools/acervo/livros.m
 3. **Folha.** Rode `node tools/acervo/folha.mjs dt 1-5`: cada versículo vem com o original e o significado + análise de cada palavra.
 4. **Tradução.** Em `acervo/traducao/dt.txt`, uma linha por versículo (`1:1 texto`), com cabeçalho de comentários (`#`) que lista o vocabulário próprio do livro.
 5. **Notas.** Em `acervo/notas/dt.txt`.
-6. **Build.** `node tools/acervo/build.mjs dt` precisa terminar sem erros. Ele confere:
+6. **Build.** `node tools/acervo/build.mjs dt --verificar 1-34` precisa terminar sem erros. Ele confere:
    - se falta ou sobra algum versículo;
    - se cada nota aponta para um trecho que existe;
    - se alguma palavra ficou sem significado.
 7. **Revisão independente.** Rode `node tools/acervo/folha.mjs dt 1-34 --revisao`. A folha mostra original + palavras + português, e o revisor confere versículo a versículo.
 
 Nunca edite os arquivos de `public/content/bible/`: eles são gerados pelo build.
+
+### Livro em partes
+
+Livros grandes são traduzidos em partes, ao mesmo tempo, por tradutores diferentes. Cada parte tem seus próprios arquivos, nomeados pelo primeiro capítulo com três dígitos (ex.: Isaías 34–66 → `034`):
+
+| O quê | Arquivo da parte |
+|---|---|
+| Tradução | `acervo/traducao/is.d/034.txt` |
+| Notas | `acervo/notas/is.d/034.txt` |
+| Glossário | `acervo/lexico/glosas.d/is-034.txt`, `nomes.d/is-034.txt` (grego: `grego.d/mt-016.txt`) |
+| Revisão | `acervo/revisao/is-034.md` |
+
+- Os comandos recebem os capítulos da parte: `lemas.mjs is 34-66`, `folha.mjs is 34-40`.
+- Para conferir, use `node tools/acervo/build.mjs is --verificar 34-66`: confere só esses capítulos e não grava nada.
+- Antes de começar, leia o que as outras partes do mesmo livro já escreveram e siga as mesmas escolhas para os termos recorrentes.
 
 ## Português — regras gerais (AT e NT)
 
@@ -43,7 +58,7 @@ Nunca edite os arquivos de `public/content/bible/`: eles são gerados pelo build
   - Artigos, preposições e pronomes exigidos pela gramática portuguesa não levam colchetes.
   - No app, os colchetes aparecem em itálico claro.
 - **Conjunção inicial.**
-  - No hebraico, o vav que liga as frases é **"E"**, nunca "mas"; "mas" só quando o original tem uma adversativa (כִּי אִם, אֲבָל, אַךְ…).
+  - No hebraico, o vav que liga as frases é **"E"**, nunca "mas"; "mas" só quando o original tem uma adversativa (כִּי אִם, אֲבָל, אַךְ…, ou כִּי depois de uma negação: "não… mas…").
   - No grego, καί = "e"; δέ = "e" ou "mas", conforme o contraste do contexto; ἀλλά = "mas".
 - **Ordem das palavras.** Segue o original sempre que o português permite.
 - **Tempo, pessoa, número, gênero e voz** como no original:
@@ -81,6 +96,8 @@ Nunca edite os arquivos de `public/content/bible/`: eles são gerados pelo build
 | שִׁפְחָה | serva |
 | אָמָה | escrava |
 | עֶבֶד | servo |
+| רֵעַ | próximo |
+| גֵּר | estrangeiro (peregrino, no verbo גּוּר) |
 | נָשִׂיא | príncipe |
 | עֵדָה | congregação |
 | קָהָל | assembleia |
@@ -356,7 +373,7 @@ O revisor não viu a tradução sendo feita. Ele confere **todos** os versículo
 **Ao terminar,** o revisor:
 - corrige diretamente os erros claros;
 - registra cada correção em `acervo/revisao/{livro}.md`, no formato `C:V — problema — como ficou`;
-- roda o build de novo.
+- roda o build de novo (`--verificar`).
 
 ## Códigos de análise (resumo)
 

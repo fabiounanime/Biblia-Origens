@@ -103,7 +103,7 @@ export function Shell({
           <BrandMark className="size-10" />
           <span className="leading-tight">
             <Wordmark className="block text-[1.2rem] leading-none" />
-            <span className="mt-1 block text-sm text-muted">Tanakh em três camadas</span>
+            <span className="mt-1 block text-sm text-muted">A Bíblia em três camadas</span>
           </span>
         </Link>
         <nav className="mt-8 flex flex-col gap-1" aria-label="Principal">

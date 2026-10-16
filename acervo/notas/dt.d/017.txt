@@ -1,0 +1,80 @@
+# Deuteronômio 17–34 — notas do tradutor (segunda parte do livro; caps. 1–16 em 001.txt)
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+
+17:7 | eliminarás o mal | Fórmula repetida em Deuteronômio (17:12; 19:19; 21:21; 22:21–24; 24:7). O verbo *bi'er* é "queimar, consumir" e daí "remover por completo". *Ha-ra'* pode ser "o mal" ou "o mau", o culpado. Paulo cita a frase em 1 Coríntios 5:13.
+17:8 | difícil demais | Em hebraico, *yippale'*, de *pele'*, "maravilha": algo extraordinário, além do que se consegue julgar. *Nega'*, "praga", é golpe, ferida ou a doença de pele de Lv 13; aqui o sentido é discutido.
+17:18 | uma cópia desta instrução | Em hebraico, *mishneh ha-torah ha-zot*, "a repetição (ou duplicata) desta instrução". A Septuaginta traduziu "este segundo livro da lei" (*to deuteronomion touto*), de onde vem o nome do livro.
+18:3 | o direito dos sacerdotes | Em hebraico, *mishpat*, normalmente "juízo"; aqui, o que é devido por regra. O mesmo em 21:17.
+18:8 | além das suas vendas [do patrimônio] dos pais | Hebraico obscuro: *levad mimkarav 'al ha-avot*, "à parte das suas vendas sobre os pais". Talvez o que o levita recebeu pela venda dos bens de família.
+18:10 | praticante de adivinhações, agoureiro, e áugure, e feiticeiro | Os termos técnicos de 18:10–11 têm sentido aproximado: *qosem qesamim* (tirar sortes), *me'onen* (ler presságios, talvez nas nuvens), *menachesh* (ler augúrios), *mekhashef* (fazer feitiçaria), *chover chaver* (atar encantamentos), *ov* (o espírito de um morto, ou quem o evoca) e *yidde'oni* ("o que sabe").
+19:6 | o vingador do sangue | Em hebraico, *go'el ha-dam*: o parente próximo, com o dever de resgatar (*ga'al*) e de vingar o sangue do morto. "Ferir [na] alma" é ferir de morte.
+20:6 | e não a profanou | Isto é, não a tornou de uso comum, comendo os seus frutos pela primeira vez (cf. Lv 19:23–25).
+20:19 | Porventura a árvore do campo [é] homem | Ao pé da letra, "o homem árvore do campo?", lendo o *ha-* de *ha-adam* como partícula de pergunta. A vocalização do texto é a do artigo, e permite ler sem pergunta: "porque o homem [é] a árvore do campo", isto é, dela depende a vida do homem.
+21:4 | a um vale perene | Em hebraico, *nachal eitan*. *Nachal* é o leito de um ribeiro, seco ou com água, e o vale por onde ele corre; em outros lugares do livro é "ribeiro" (2:13; 3:16), mas aqui se fala de terra que se poderia lavrar e semear. *Eitan* é "perene" (de água que não seca) ou "firme", de terra dura, não cultivada.
+21:17 | boca de dois | Expressão hebraica para "porção dobrada" (cf. 2 Rs 2:9).
+21:23 | maldição de Deus [é] o pendurado | Ou "maldição para Deus". Paulo cita o versículo em Gálatas 3:13.
+
+22:9 | se torne santa a plenitude | Isto é, toda a colheita ficaria consagrada ao santuário e perdida para o dono. Compare Lv 19:19.
+22:11 | tecido misto | Em hebraico, *sha'atnez*, palavra de origem incerta, explicada aqui como "lã e linho juntos" (cf. Lv 19:19).
+23:1 | e não descobrirá a asa de seu pai | Nas bíblias em português, este versículo é 22:30, e 23:2–26 são 23:1–25. A "asa" é a borda do manto (cf. Rute 3:9; Ez 16:8): tomar a mulher do pai é "descobrir" o que pertence a ele.
+23:3 | bastardo | Em hebraico, *mamzer*, palavra de sentido incerto: talvez o filho de uma união proibida ou de casamento misto (cf. Zc 9:6).
+23:13 | uma mão | Isto é, um lugar, um sinal que marca o lugar.
+23:15 | nudez de coisa | Em hebraico, *'erwat davar*: algo indecente, vergonhoso. A mesma expressão aparece em 24:1.
+23:18 | consagrada | Em hebraico, *qedeshah* (e *qadesh*, "consagrado"): pessoa ligada a um santuário, entendida em geral como prostituta de culto (cf. Gn 38:21). O sentido exato é discutido, assim como o do "preço de cão" do v. 19, talvez o pagamento de um prostituto.
+
+24:1 | livro de divórcio | Em hebraico, *sefer keritut*, "documento de corte", do verbo *karat*, "cortar". Citado em Mt 5:31; 19:7; Mc 10:4.
+24:6 | as duas mós e a mó de cima | O moinho doméstico de duas pedras (*reichayim*) e a pedra de cima (*rekhev*). Sem ele, não se fazia o pão de cada dia; por isso tomá-lo em penhor é tomar a "alma", a vida.
+25:5 | cumprirá com ela o dever de cunhado | Em hebraico, o verbo *yibbem*, de *yavam*, "cunhado": o casamento com a viúva do irmão morto sem filhos (o "levirato"). Compare Gn 38:8 e Rute 4; citado em Mt 22:24.
+25:13 | pedra e pedra | Isto é, dois pesos diferentes, um para comprar e outro para vender. A efa (v. 14) é medida de secos, cerca de 22 litros.
+
+26:5 | Um arameu errante [era] meu pai | Em hebraico, *arami 'oved avi*. *'Oved* é "que perece": errante, perdido, ou a ponto de morrer. O "pai" é Jacó, que viveu em Arã (Gn 28–31). A tradição judaica antiga leu "um arameu [Labão] quis destruir meu pai".
+26:13 | Removi | O mesmo verbo de "eliminarás o mal" (17:7): *bi'er*, "queimar, consumir", daí "remover por completo". O "que é santo" é o dízimo consagrado.
+26:14 | no meu luto | Em hebraico, *be'oni*. O luto tornava impuro, e o alimento do luto não podia ser oferecido (cf. Os 9:4). "Para morto" talvez se refira a ofertas aos mortos.
+26:17 | fizeste dizer | O verbo *amar*, "dizer", aparece aqui (e no v. 18) numa forma causativa rara, de sentido discutido: "fazer declarar", "proclamar", ou "aceitar a palavra" de alguém.
+27:4 | no monte Ebal | O Pentateuco Samaritano lê "no monte Gerizim", o monte sagrado dos samaritanos (cf. v. 12; Jo 4:20).
+27:26 | Maldito o que não levantar as palavras desta instrução | Isto é, o que não as mantiver de pé, não as cumprir. Paulo cita o versículo, segundo a Septuaginta, em Gálatas 3:10.
+
+28:4 | as crias das tuas ovelhas | Em hebraico, *'ashterot tson'kha*. *'Ashterot* é também o nome da deusa Astarte, associada à fertilidade; aqui designa as crias do rebanho. O mesmo em 7:13 e 28:18, 51.
+28:22 | e com espada | Em hebraico, *uvacherev*. Com outra vocalização (*uvachorev*), "e com seca", que combina melhor com as pragas da lavoura da lista; assim leem a Vulgata e o Pentateuco Samaritano.
+28:32 | e não há poder na tua mão | Expressão hebraica: *ein le'el yadekha*, ao pé da letra "não há para *el* a tua mão", em que *el* é "força, poder".
+28:69 | Estas [são] as palavras da aliança | Nas bíblias em português, este versículo é 29:1, e 29:1–28 aqui são 29:2–29.
+
+29:11 | e na sua imprecação | Em hebraico, *'alah*: juramento que invoca maldição sobre quem o quebrar. O mesmo nos vv. 13, 18–20 e em 30:7.
+29:17 | raiz que dê por fruto veneno e absinto | *Rosh* é uma planta venenosa; *la'anah*, o absinto, de sabor amargo. Citado em Hebreus 12:15.
+29:18 | para acabar com o regado [e] o sedento | Hebraico de sentido incerto, talvez um provérbio: "o úmido com o seco", isto é, tudo, o bom e o mau juntos.
+29:28 | nossas e de nossos filhos | No texto hebraico, as palavras *lanu ulevaneinu*, "nossas e de nossos filhos", e a primeira letra de *'ad*, "para", levam pontos extraordinários por cima, sinal antigo dos escribas cujo sentido é discutido.
+30:3 | fará voltar o teu cativeiro | Em hebraico, *shav et shevut'kha*: "voltar o teu cativeiro" ou "mudar a tua sorte", restaurar.
+30:16 | porquanto eu te ordeno hoje | A Septuaginta começa o versículo com "Se ouvires os mandamentos de YHWH, teu Deus, que eu te ordeno hoje", talvez a forma mais antiga do texto.
+
+31:1 | E foi Moisés, e falou | Um manuscrito de Qumran e a Septuaginta leem "E acabou Moisés de falar", com as mesmas consoantes em outra ordem (*vaykhal* em vez de *vayyelekh*).
+31:11 | para aparecer diante da face de YHWH | As consoantes também permitem ler "para ver a face de YHWH"; a vocalização tradicional evita a expressão (compare Êx 23:15; 34:23).
+
+32:4 | A Rocha | Em hebraico, *ha-tsur*. Título de Deus que volta no cântico (vv. 15, 18, 30, 31): firmeza e refúgio. Quando designa os deuses dos outros povos, fica em minúscula (vv. 31, 37).
+32:5 | Corrompeu-se para com ele, não seus filhos, a mancha deles | Versículo de texto difícil, talvez danificado; a tradução segue palavra por palavra. Leituras propostas: "Os que não são seus filhos agiram mal contra ele, por causa da sua mancha", ou "Agiram mal contra ele; não [são] seus filhos, [é] a sua mancha". "Geração perversa e tortuosa" é citada em Fp 2:15.
+32:6 | que te adquiriu | Em hebraico, *qanekha*: o verbo *qanah* é "adquirir", e às vezes "criar, gerar" (cf. Gn 14:19). No texto hebraico, a partícula de pergunta do início do versículo é escrita grande e separada.
+32:8 | segundo o número dos filhos de Israel | Assim o texto massorético. Um manuscrito de Qumran (4QDeut^j) lê "segundo o número dos filhos de Deus", e a Septuaginta, "dos anjos de Deus". Nessa leitura, o Altíssimo divide as nações entre os "filhos de Deus" e guarda Israel como porção de YHWH (v. 9).
+32:9 | o lote da sua herança | Ao pé da letra, "a corda da sua herança": a corda de medir terrenos, e daí a parte medida, o lote.
+32:14 | a gordura dos rins do trigo | Expressão poética para o trigo da melhor qualidade. "Sangue da uva" é o vinho.
+32:15 | Jesurum | Em hebraico, *Yeshurun*, nome poético de Israel, talvez de *yashar*, "reto". Aparece também em 33:5, 26 e Is 44:2.
+32:17 | aos demônios | Em hebraico, *shedim*, palavra rara (também em Sl 106:37), talvez de origem acádica: espíritos ou divindades menores. A Septuaginta traduz *daimonia*; compare 1 Co 10:20.
+32:24 | e devorados de chama | *Reshef*, "chama", é também o nome de uma divindade cananeia da peste; *qetev*, "destruição", também designa uma praga (cf. Sl 91:6).
+32:26 | Eu os reduziria a nada | Em hebraico, *af'eihem*, palavra de sentido incerto: "eu os dispersaria", "eu os cortaria em pedaços" ou "eu os sopraria para longe".
+32:31 | e os nossos inimigos [são] juízes | Hebraico obscuro, talvez: "os nossos próprios inimigos o reconhecem". A Septuaginta lê "os nossos inimigos [são] insensatos".
+32:35 | Minha [é] a vingança e a retribuição | A Septuaginta lê "No dia da vingança retribuirei". Citado em Rm 12:19 e Hb 10:30; Hebreus também cita o v. 36.
+32:36 | retido ou solto | Expressão hebraica que abrange todos, de qualquer condição: escravo e livre, ou guardado em casa e o que anda fora.
+32:42 | da cabeça dos chefes do inimigo | Em hebraico, *mero'sh par'ot oyev*. *Par'ot* pode ser "chefes" ou "cabelos soltos" (dos guerreiros consagrados para a guerra, cf. Jz 5:2).
+32:43 | Jubilai, nações, [com] o seu povo | O texto massorético tem quatro linhas. Um manuscrito de Qumran (4QDeut^q) e a Septuaginta trazem um texto mais longo, que inclui "prostrem-se diante dele todos os deuses" (na Septuaginta, "todos os anjos de Deus", citado em Hb 1:6). Rm 15:10 cita a primeira linha segundo a Septuaginta: "Alegrai-vos, nações, com o seu povo". No fim, a Septuaginta e o manuscrito de Qumran leem "o solo do seu povo".
+32:44 | ele e Oseias, filho de Num | Oseias, *Hoshea*, era o nome de Josué antes de Moisés mudá-lo (Nm 13:16). A Septuaginta e o Pentateuco Samaritano leem "Josué".
+
+33:2 | e veio de miríades de santidade | Hebraico difícil. Talvez "de Meribá de Cades", com outra vocalização, ou "com miríades de santos" (assim a Septuaginta, que fala de anjos à sua direita).
+33:2 | fogo de lei | Assim a leitura tradicional (qere), *esh dat*, com *dat*, palavra persa para "lei". O texto escrito (ketiv) tem uma só palavra, *eshdat*, de sentido incerto: talvez "encostas", ou "fogo ardente".
+33:3 | Também ama os povos | A Septuaginta lê "e poupou o seu povo". O verso é obscuro; "os povos" talvez sejam as tribos de Israel. *Tukku*, "se assentam", ocorre só aqui, e o sentido é incerto.
+33:6 | e sejam os seus homens um número | Isto é, poucos, que se podem contar; ou, ao contrário, "que não diminua o número dos seus homens". A bênção de Simeão não aparece no cântico.
+33:8 | O teu Tumim e o teu Urim | Os objetos de consulta do sumo sacerdote (Êx 28:30). Um manuscrito de Qumran e a Septuaginta começam com "Dai a Levi o teu Tumim…". Massá ("prova") e Meribá ("contenda"): veja Êx 17:7.
+33:17 | boi selvagem | Em hebraico, *re'em*, o auroque, boi selvagem já extinto; as traduções antigas o chamaram de "unicórnio".
+33:21 | a porção do legislador | Versículo obscuro. Gade escolheu a primeira terra conquistada, a leste do Jordão (Nm 32); o "legislador" talvez seja Moisés, que a repartiu.
+33:25 | a tua força | Em hebraico, *dove'*, palavra que só ocorre aqui; o sentido é incerto: "força", "descanso" ou "riqueza".
+33:26 | Não há como o Deus, ó Jesurum | Com outra vocalização, como na Septuaginta: "Não há [ninguém] como o Deus de Jesurum".
+34:6 | E ele o sepultou | O sujeito não é nomeado; pelo contexto, é YHWH. A Septuaginta e o Pentateuco Samaritano leem "e o sepultaram".

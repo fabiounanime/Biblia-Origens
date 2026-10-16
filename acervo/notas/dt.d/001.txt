@@ -1,0 +1,67 @@
+# Deuteronômio 1–16 — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+
+1:1 | além do Jordão | Em hebraico, *beever hayarden*, "do outro lado do Jordão". Aqui designa o lado leste, onde Moisés fala; em 3:20, 25 e 11:30, a mesma expressão designa o lado oeste.
+1:1 | na Arabá | Em hebraico, *haaravah*, "a estepe": a depressão do vale do Jordão e do mar Morto, que continua para o sul até o golfo de Ácaba.
+1:6 | Basta-vos | Ao pé da letra, "muito para vós". A mesma expressão em 2:3 e 3:26.
+1:17 | Não reconhecereis faces | Expressão hebraica para favorecer uma das partes no julgamento: "não fareis acepção de pessoas". A mesma expressão em 16:19.
+1:28 | fortificadas nos céus | Ao pé da letra. A imagem é de muralhas tão altas que parecem chegar ao céu; a mesma expressão em 9:1.
+1:35 | Não verá homem algum | Ao pé da letra, "se vir algum homem": fórmula de juramento em que se cala a imprecação ("[que me aconteça tal coisa] se…"); o sentido é de negação firme, como em Nm 14:23.
+1:36 | encheu após YHWH | Expressão hebraica para seguir alguém por inteiro, sem reserva. A mesma é dita de Calebe em Nm 14:24 e 32:12.
+2:11 | refains | Em hebraico, *refaim*: nome de antigos povos de grande estatura, a leste do Jordão. Em textos poéticos, a mesma palavra designa os mortos (Is 14:9; Sl 88:11).
+2:12 | desapossaram | O verbo é *yarash*, traduzido "possuir" quando o objeto é a terra. Com pessoas por objeto, o sentido é tomar o lugar delas: "desapossar".
+2:23 | caftorins | Gente de Caftor, lugar geralmente identificado com Creta. Em Am 9:7, os filisteus vêm de Caftor.
+2:34 | consagramos ao extermínio | Em hebraico, *vannacharem*, do verbo *charam*: separar uma cidade ou um povo de todo uso comum, entregando-o inteiramente à destruição. O substantivo é *cherem* (7:26; 13:18).
+3:11 | o seu leito | Em hebraico, *eres*: leito, cama. Há quem entenda "sarcófago"; o sentido é discutido.
+3:11 | pelo côvado de homem | O côvado comum, do cotovelo à ponta dos dedos, cerca de 45 cm. O leito teria cerca de 4 m por 1,8 m.
+3:17 | o mar do Sal | O mar Morto. Quinerete é o lago chamado depois mar da Galileia.
+3:24 | Senhor YHWH | Em hebraico, *Adonai YHWH*. Nesta combinação, a leitura judaica tradicional diz *Adonai Elohim*, para não repetir *Adonai*.
+4:7 | deuses perto de si | O adjetivo "perto" está no plural; *elohim* pode ser lido aqui como "deuses" ou como "Deus".
+4:13 | as dez palavras | Em hebraico, *aseret haddevarim* (também em 10:4 e Êx 34:28); daí o nome grego "Decálogo".
+4:27 | homens de número | Isto é, poucos, que se podem contar (como em Gn 34:30).
+4:37 | com a sua face | Isto é, com a sua presença (como em Êx 33:14).
+4:42 | o homicida que matar | O verbo é *ratsach*, o mesmo de 5:17 ("Não assassinarás"). Aqui se trata de morte sem intenção, por isso "homicida" e "matar".
+4:48 | Siom | Em hebraico, *Sion* (com *sin*), outro nome do Hermom, diferente de Sião (*Tsiyon*). A versão siríaca traz "Siriom", como em 3:9.
+5:6 | Eu [sou] YHWH, teu Deus | Os vv. 6–21 trazem as Dez Palavras (4:13), em texto muito próximo de Êx 20:2–17. As diferenças do hebraico estão anotadas nos versículos.
+5:8 | imagem esculpida, figura alguma | Em Êx 20:4, "imagem esculpida *e* toda figura"; aqui o hebraico não tem o "e".
+5:9 | e na terceira | Êx 20:5 não tem o "e" antes de "terceira".
+5:10 | os meus mandamentos | O texto escrito (ketiv) traz "os seus mandamentos"; a leitura tradicional (qere), como em Êx 20:6, é "os meus mandamentos".
+5:12 | Guarda o dia do sábado | Em Êx 20:8, "Lembra-te" (*zakhor*); aqui, "Guarda" (*shamor*). Também é próprio de Deuteronômio "como te ordenou YHWH, teu Deus" (aqui e no v. 16); e o v. 16 acrescenta "e para que te vá bem" ao texto de Êx 20:12.
+5:14 | e o teu boi, e o teu jumento, e todo o teu animal | Êx 20:10 diz só "o teu animal". O fim do versículo e o v. 15 também são próprios de Deuteronômio, que dá como motivo do sábado a saída do Egito; Êx 20:11 dá a criação.
+5:18 | E não adulterarás | Nos vv. 18–21, cada proibição começa com "e" (*velo*); em Êx 20:14–17, não.
+5:20 | testemunha vã | Em Êx 20:16, *ed shaqer*, "testemunha de mentira"; aqui, *ed shav*, com a palavra traduzida "em vão" no v. 11.
+5:21 | E não cobiçarás a mulher do teu próximo | Êx 20:17 põe a casa antes da mulher e usa duas vezes o verbo *chamad*, "cobiçar". Aqui a mulher vem primeiro; para a casa o verbo é *hitavvah*, "desejar"; e acrescenta-se "o seu campo".
+6:4 | YHWH [é] nosso Deus, YHWH [é] um | Em hebraico, *Shema Yisrael, YHWH Elohenu, YHWH echad*. A frase não tem verbo, e o sentido é discutido. A construção admite outras leituras: "YHWH, nosso Deus, YHWH [é] um" (a unidade de YHWH) ou "YHWH [é] o nosso Deus, YHWH somente" (a exclusividade dele para Israel). *Echad* é "um"; o sentido "único, só" também aparece (1Cr 29:1).
+6:5 | com toda a tua força | Em hebraico, *meodekha*, de *meod*, "muito": o máximo de que alguém é capaz.
+6:7 | inculcarás | Em hebraico, *shinnantam*, de um verbo que significa "afiar": repetir até gravar.
+6:8 | frontais | Em hebraico, *totafot*, palavra rara (também em 11:18 e Êx 13:16): faixa ou distintivo usado na testa. O sentido exato é discutido.
+6:16 | Massá | O nome significa "prova" (Êx 17:7).
+7:5 | postes-ídolos | Em hebraico, *asherim*: postes ou árvores sagradas ligados ao culto da deusa Aserá.
+7:13 | a cria dos teus bois e as crias das tuas ovelhas | Em hebraico, *sheghar* e *ashterot*, palavras raras (também em 28:4, 18, 51). Os dois termos lembram nomes de divindades cananeias da fertilidade, Shagar e Astarote.
+7:20 | a vespa | Em hebraico, *tsirah* (também em Êx 23:28 e Js 24:12). O sentido é incerto: vespa, ou, em sentido figurado, pânico ou desânimo.
+8:15 | serpente ardente | Em hebraico, *nachash saraf*: serpente venenosa, de picada que queima (Nm 21:6).
+9:4 | E pela perversidade destas nações | Pelo "de diante de ti", esta frase já não é o que Israel diria no coração, mas a resposta de Moisés, que o v. 5 desenvolve. Há quem a leia como continuação da fala de Israel; o sentido é discutido.
+9:18 | lancei-me | Em hebraico, *vaetnappal*: lançar-se ao chão, em súplica. Não é o verbo traduzido por "prostrar-se".
+9:22 | Taberá | Os nomes significam "incêndio" (Taberá, Nm 11:3), "prova" (Massá, Êx 17:7) e "sepulcros do desejo" (Quibrote-Hataavá, Nm 11:34).
+10:6 | Beerote-Bene-Jaacã | O nome significa "poços dos filhos de Jaacã". Os vv. 6–9 interrompem o discurso com uma notícia do caminho no deserto; em Nm 33:30–38, os lugares aparecem em outra ordem, e Arão morre no monte Hor.
+10:16 | o prepúcio do vosso coração | Imagem do coração fechado, que não ouve (também em 30:6; Jr 4:4).
+10:17 | não levanta face | Isto é, não favorece ninguém no julgamento (veja 1:17).
+11:2 | porque não [falo] com vossos filhos | A frase hebraica é elíptica, e o sentido é discutido. Ao pé da letra: "porque não com vossos filhos, que não conheceram e que não viram a disciplina de YHWH…". Aqui, "a disciplina" e o que segue (até o v. 6) são objeto de "sabereis"; também se pode ligá-los a "não conheceram e não viram". O contraste se completa no v. 7: "os vossos olhos [são] os que viram".
+11:6 | todo o ser que [estava] aos seus pés | Isto é, tudo o que os seguia: gente e gado (Nm 16:32).
+11:10 | [a] regavas com o teu pé | Alusão à irrigação do Egito, em que a água era levada pelos canais com o trabalho dos pés: abrindo e fechando regos ou movendo rodas d'água.
+11:14 | darei | Moisés fala na primeira pessoa de Deus aqui e no v. 15. A Septuaginta traz "ele dará".
+11:24 | o mar último | Isto é, o mar de trás, o ocidental: o Mediterrâneo.
+12:5 | para pôr o seu nome ali | Fórmula própria de Deuteronômio para o lugar de culto escolhido por YHWH; em outros versículos, "para fazer habitar o seu nome ali" (12:11). O lugar não é nomeado no livro.
+13:1 | Toda a palavra | Nas bíblias em português, este versículo é 12:32; daqui até o fim do capítulo, a numeração delas é um a menos (13:2 aqui = 13:1).
+13:10 | mas matando o matarás | A Septuaginta traz "denunciando o denunciarás".
+13:14 | filhos de vileza | Em hebraico, *bene veliyyaal*: homens sem valor, perversos. O sentido exato de *beliyyaal* é discutido.
+13:17 | inteiramente | Em hebraico, *kalil*: "inteiro"; a mesma palavra designa a oferta queimada por inteiro (Lv 6:15–16).
+14:1 | não vos fareis incisões | Ritos de luto pelos mortos; a mesma proibição em Lv 19:28 e 21:5. A "calva entre os olhos" é a cabeça rapada na fronte.
+14:5 | o corço, e a cabra-montês, e o antílope, e o órix, e o carneiro-montês | A identificação destes animais é incerta; vários nomes só aparecem aqui.
+14:13 | o milhafre | Em hebraico, *raah*, palavra que não aparece em Lv 11:14, que traz *daah*, "milhano". A ave não é identificada com segurança; "milhano" (*dayyah*) também está no versículo.
+15:1 | remissão | Em hebraico, *shemittah*, do verbo *shamat*, "soltar, deixar cair": o perdão das dívidas no sétimo ano. O mesmo verbo é usado para a terra deixada em descanso em Êx 23:11.
+15:18 | o dobro do salário de um assalariado | Ou: "o equivalente ao salário de um assalariado". O sentido de *mishneh* aqui é discutido.
+16:1 | Guarda o mês de Abibe | *Aviv*, "espigas maduras": o primeiro mês do ano (Êx 13:4; 23:15), chamado depois Nisã.
+16:7 | E [a] cozerás | O verbo *bishshel* significa "cozinhar". Êx 12:9 manda assar a Páscoa e proíbe cozê-la em água; 2Cr 35:13 usa o mesmo verbo com "no fogo".

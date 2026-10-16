@@ -1,0 +1,517 @@
+# Deuteronômio (Devarim) 1–16 — tradução direta do hebraico (Códice de Leningrado)
+#
+# Mesmas convenções de Gênesis a Números (veja acervo/traducao/gn.txt e ex.txt):
+#   - יהוה = YHWH; אֱלֹהִים = Deus; אֲדֹנָי יְהוִה = Senhor YHWH; nomes na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#   - Infinitivo absoluto em dobro ao pé da letra ("ouvindo ouvirdes", "dizimando dizimarás").
+#   - Vocabulário próprio de Deuteronômio:
+#     יָרַשׁ = possuir (com pessoas por objeto, e no hifil: desapossar); יְרֻשָּׁה = possessão;
+#     נַחֲלָה = herança; נָחַל = herdar (hifil: fazer herdar);
+#     חֻקִּים = estatutos; מִשְׁפָּטִים = juízos; מִצְוָה = mandamento; עֵדֹת = testemunhos;
+#     תּוֹרָה = instrução; דָּבָר = palavra / coisa; שָׁמַר = guardar ("guardar para fazer");
+#     הֶחֱרִים = consagrar ao extermínio; חֵרֶם = coisa consagrada ao extermínio;
+#     הִשְׁמִיד = exterminar; אָבַד = perecer (hifil: fazer perecer);
+#     בְּעֵבֶר הַיַּרְדֵּן = além do Jordão; הָעֲרָבָה = a Arabá; נַחַל = ribeiro; גַּיְא = vale;
+#     שַׂר = chefe; שֹׁטֵר = oficial; שֹׁפֵט = juiz; זָקֵן = ancião; טַף = crianças;
+#     שַׁעַר = porta ("dentro das tuas portas" = nas tuas cidades); גֵּר = estrangeiro;
+#     מַצֵּבָה = coluna; אֲשֵׁרָה = poste-ídolo; פֶּסֶל = imagem esculpida; תְּמוּנָה = figura;
+#     תּוֹעֵבָה = abominação; סְגֻלָּה = propriedade particular; קְשֵׁה עֹרֶף = duro de nuca;
+#     מַעֲשֵׂר = dízimo; שְׁמִטָּה = remissão; פֶּסַח = Páscoa; שָׁבֻעוֹת = semanas; סֻכּוֹת = cabanas.
+#     רֵעַ = próximo (como em Êx 20); הִכְרִית = extirpar; נָשַׁל = lançar fora; אֲרוֹן = arca;
+#     שִׁקֵּץ / תִּעֵב = detestar / abominar; הִתְנַפֵּל = lançar-se (diferente de הִשְׁתַּחֲוָה = prostrar-se);
+#     בְּהֵמָה = gado (animal, quando segue Êx 20 e a lista da criação); בָּקָר = bois; טָהוֹר / טָמֵא = puro / impuro.
+#   - Fórmulas fixas: "a terra que YHWH, teu Deus, te dá"; "o lugar que YHWH, teu Deus,
+#     escolher para fazer habitar o seu nome ali" (ou "para pôr o seu nome ali");
+#     "com todo o teu coração e com toda a tua alma"; "com mão forte e com braço estendido";
+#     "para que se prolonguem os teus dias"; "terra que mana leite e mel"; "casa de servos".
+#   - 5:6–21 (as Dez Palavras) segue a tradução de Êx 20 onde o hebraico é igual.
+#   - Versificação hebraica (13:1 aqui = 12:32 nas bíblias em português).
+
+1:1 Estas [são] as palavras que falou Moisés a todo Israel além do Jordão, no deserto, na Arabá, diante de Sufe, entre Parã e entre Tofel, e Labã, e Hazerote, e Di-Zaabe.
+1:2 Onze dias [há] desde Horebe, pelo caminho do monte Seir, até Cades-Barneia.
+1:3 E aconteceu, no ano quarenta, no mês onze, no [dia] um do mês, [que] falou Moisés aos filhos de Israel conforme tudo o que YHWH lhe ordenara para eles,
+1:4 depois de ele ferir Seom, rei do amorreu, que habitava em Hesbom, e Ogue, rei de Basã, que habitava em Astarote, em Edrei.
+1:5 Além do Jordão, na terra de Moabe, começou Moisés a explicar esta instrução, dizendo:
+1:6 YHWH, nosso Deus, falou-nos em Horebe, dizendo: Basta-vos habitar neste monte.
+1:7 Voltai-vos, e parti, e ide ao monte do amorreu e a todos os seus vizinhos, na Arabá, no monte, e na Sefelá, e no Neguebe, e na costa do mar, a terra do cananeu, e o Líbano, até o rio grande, o rio Eufrates.
+1:8 Vê, dei diante de vós a terra; entrai e possuí a terra que YHWH jurou a vossos pais, a Abraão, a Isaque e a Jacó, dar a eles e à sua semente depois deles.
+1:9 E disse-vos naquele tempo, dizendo: Não posso eu sozinho carregar-vos.
+1:10 YHWH, vosso Deus, vos multiplicou, e eis-vos hoje como as estrelas dos céus em multidão.
+1:11 YHWH, o Deus de vossos pais, acrescente sobre vós, como vós [sois], mil vezes, e vos abençoe como vos falou.
+1:12 Como carregarei eu sozinho o vosso peso, e a vossa carga, e a vossa contenda?
+1:13 Dai-vos homens sábios, e entendidos, e conhecidos, segundo as vossas tribos, e eu os porei por vossas cabeças.
+1:14 E me respondestes, e dissestes: Boa [é] a coisa que falaste para fazer.
+1:15 E tomei os cabeças das vossas tribos, homens sábios e conhecidos, e os dei por cabeças sobre vós: chefes de mil, e chefes de cem, e chefes de cinquenta, e chefes de dez, e oficiais, segundo as vossas tribos.
+1:16 E ordenei aos vossos juízes naquele tempo, dizendo: Ouvi entre vossos irmãos, e julgai com justiça entre o homem e entre o seu irmão e entre o seu estrangeiro.
+1:17 Não reconhecereis faces no juízo; o menor como o maior ouvireis; não temereis diante da face de homem, porque o juízo [é] de Deus; e a causa que for dura demais para vós, trazê-la-eis a mim, e eu a ouvirei.
+1:18 E vos ordenei naquele tempo todas as coisas que havíeis de fazer.
+1:19 E partimos de Horebe, e andamos por todo aquele deserto grande e terrível que vistes, pelo caminho do monte do amorreu, como nos ordenou YHWH, nosso Deus; e chegamos até Cades-Barneia.
+1:20 E vos disse: Chegastes até o monte do amorreu, que YHWH, nosso Deus, nos dá.
+1:21 Vê, YHWH, teu Deus, deu diante de ti a terra; sobe, possui, como te falou YHWH, o Deus de teus pais; não temas e não te apavores.
+1:22 E vos chegastes a mim, todos vós, e dissestes: Enviemos homens diante de nós, e explorem por nós a terra, e nos tragam de volta palavra do caminho pelo qual subiremos e das cidades às quais chegaremos.
+1:23 E foi boa aos meus olhos a coisa; e tomei de vós doze homens, um homem por tribo.
+1:24 E voltaram-se, e subiram ao monte, e chegaram até o ribeiro de Escol, e a espiaram.
+1:25 E tomaram na sua mão do fruto da terra, e [o] fizeram descer a nós, e nos trouxeram de volta palavra, e disseram: Boa [é] a terra que YHWH, nosso Deus, nos dá.
+1:26 E não quisestes subir, e vos rebelastes contra a boca de YHWH, vosso Deus.
+1:27 E murmurastes nas vossas tendas, e dissestes: Pelo ódio de YHWH a nós, fez-nos sair da terra do Egito, para nos dar na mão do amorreu, para nos exterminar.
+1:28 Para onde subimos nós? Os nossos irmãos fizeram derreter o nosso coração, dizendo: Um povo maior e mais alto do que nós, cidades grandes e fortificadas nos céus; e também filhos de anaquins vimos ali.
+1:29 E vos disse: Não vos aterrorizeis e não os temais.
+1:30 YHWH, vosso Deus, que anda diante de vós, ele pelejará por vós, conforme tudo o que fez convosco no Egito aos vossos olhos,
+1:31 e no deserto, onde viste como te carregou YHWH, teu Deus, como carrega um homem o seu filho, por todo o caminho que andastes, até chegardes a este lugar.
+1:32 E nesta coisa vós não credes em YHWH, vosso Deus,
+1:33 que anda diante de vós no caminho, para explorar para vós lugar para acampardes, no fogo, de noite, para vos fazer ver o caminho pelo qual andareis, e na nuvem, de dia.
+1:34 E ouviu YHWH a voz das vossas palavras, e indignou-se, e jurou, dizendo:
+1:35 Não verá homem algum destes homens, desta geração má, a terra boa que jurei dar a vossos pais,
+1:36 exceto Calebe, filho de Jefoné; ele a verá, e a ele darei a terra que pisou, e a seus filhos, porquanto encheu após YHWH.
+1:37 Também contra mim se irou YHWH por vossa causa, dizendo: Também tu não entrarás ali.
+1:38 Josué, filho de Num, que está em pé diante de ti, ele entrará ali; a ele fortalece, porque ele a fará herdar a Israel.
+1:39 E as vossas crianças, das quais dissestes: Serão por presa; e os vossos filhos, que hoje não conhecem bem e mal, eles entrarão ali, e a eles a darei, e eles a possuirão.
+1:40 E vós, voltai-vos e parti para o deserto, pelo caminho do mar de Juncos.
+1:41 E respondestes, e me dissestes: Pecamos contra YHWH; nós subiremos e pelejaremos conforme tudo o que nos ordenou YHWH, nosso Deus. E cingistes cada homem as armas da sua guerra, e ousastes subir ao monte.
+1:42 E disse-me YHWH: Dize-lhes: Não subireis e não pelejareis, porque eu não [estou] no meio de vós; e não sejais feridos diante dos vossos inimigos.
+1:43 E vos falei, e não ouvistes; e vos rebelastes contra a boca de YHWH, e agistes com presunção, e subistes ao monte.
+1:44 E saiu o amorreu que habitava naquele monte ao vosso encontro, e vos perseguiram como fazem as abelhas, e vos esmagaram em Seir até Hormá.
+1:45 E voltastes, e chorastes diante de YHWH; e não ouviu YHWH a vossa voz, e não vos deu ouvidos.
+1:46 E habitastes em Cades muitos dias, conforme os dias que habitastes.
+
+2:1 E voltamo-nos, e partimos para o deserto, pelo caminho do mar de Juncos, como YHWH me falara; e rodeamos o monte Seir muitos dias.
+2:2 E disse-me YHWH, dizendo:
+2:3 Basta-vos rodear este monte; voltai-vos para o norte.
+2:4 E ao povo ordena, dizendo: Vós passais pelo território de vossos irmãos, os filhos de Esaú, que habitam em Seir, e eles vos temerão; e guardai-vos muito.
+2:5 Não entreis em contenda com eles, porque não vos darei da sua terra [nem] até a pisada da planta do pé; porque por possessão a Esaú dei o monte Seir.
+2:6 Alimento comprareis deles por prata, e comereis; e também água comprareis deles por prata, e bebereis.
+2:7 Porque YHWH, teu Deus, te abençoou em toda a obra da tua mão; conheceu o teu andar por este grande deserto; estes quarenta anos YHWH, teu Deus, [esteve] contigo; não careceste de coisa [alguma].
+2:8 E passamos de junto de nossos irmãos, os filhos de Esaú, que habitam em Seir, do caminho da Arabá, de Elate e de Eziom-Geber; e voltamo-nos, e passamos pelo caminho do deserto de Moabe.
+2:9 E disse-me YHWH: Não aflijas Moabe, e não entres em contenda com eles em guerra; porque não te darei da sua terra possessão, porque aos filhos de Ló dei Ar por possessão.
+2:10 Os emins habitaram nela antigamente, povo grande, e numeroso, e alto como os anaquins.
+2:11 Por refains são tidos também eles, como os anaquins; e os moabitas os chamam emins.
+2:12 E em Seir habitaram antigamente os horeus; e os filhos de Esaú os desapossaram, e os exterminaram de diante de si, e habitaram em lugar deles, como fez Israel à terra da sua possessão, que YHWH lhes deu.
+2:13 Agora, levantai-vos e passai o ribeiro de Zerede. E passamos o ribeiro de Zerede.
+2:14 E os dias que andamos desde Cades-Barneia até que passamos o ribeiro de Zerede [foram] trinta e oito anos, até se acabar toda a geração, os homens da guerra, do meio do acampamento, como YHWH lhes jurara.
+2:15 E também a mão de YHWH esteve contra eles, para os desbaratar do meio do acampamento, até se acabarem.
+2:16 E aconteceu que, quando se acabaram todos os homens da guerra, morrendo do meio do povo,
+2:17 falou-me YHWH, dizendo:
+2:18 Tu passas hoje o território de Moabe, Ar,
+2:19 e te aproximarás diante dos filhos de Amom; não os aflijas e não entres em contenda com eles; porque não te darei da terra dos filhos de Amom possessão, porque aos filhos de Ló a dei por possessão.
+2:20 Por terra de refains é tida também ela; refains habitaram nela antigamente, e os amonitas os chamam zanzumins,
+2:21 povo grande, e numeroso, e alto como os anaquins; e YHWH os exterminou de diante deles, e os desapossaram, e habitaram em lugar deles,
+2:22 como fez aos filhos de Esaú, que habitam em Seir, quando exterminou o horeu de diante deles; e os desapossaram, e habitaram em lugar deles até este dia.
+2:23 E os aveus, que habitavam em aldeias até Gaza, os caftorins, que saíram de Caftor, os exterminaram, e habitaram em lugar deles.
+2:24 Levantai-vos, parti e passai o ribeiro de Arnom. Vê, dei na tua mão Seom, rei de Hesbom, o amorreu, e a sua terra; começa, possui, e entra em contenda com ele em guerra.
+2:25 Neste dia começarei a pôr o teu pavor e o teu temor sobre a face dos povos debaixo de todos os céus, que ouvirão a tua fama, e tremerão, e se contorcerão diante de ti.
+2:26 E enviei mensageiros do deserto de Quedemote a Seom, rei de Hesbom, com palavras de paz, dizendo:
+2:27 Que eu passe pela tua terra; pelo caminho, pelo caminho irei; não me desviarei à direita nem à esquerda.
+2:28 Alimento por prata me venderás, e comerei; e água por prata me darás, e beberei; somente que eu passe com os meus pés,
+2:29 como me fizeram os filhos de Esaú, que habitam em Seir, e os moabitas, que habitam em Ar, até que eu passe o Jordão para a terra que YHWH, nosso Deus, nos dá.
+2:30 E não quis Seom, rei de Hesbom, deixar-nos passar por ele; porque YHWH, teu Deus, endureceu o seu espírito e obstinou o seu coração, para o dar na tua mão, como neste dia.
+2:31 E disse-me YHWH: Vê, comecei a dar diante de ti Seom e a sua terra; começa, possui, para possuíres a sua terra.
+2:32 E saiu Seom ao nosso encontro, ele e todo o seu povo, para a guerra, a Jaza.
+2:33 E YHWH, nosso Deus, o deu diante de nós; e o ferimos, a ele, e aos seus filhos, e a todo o seu povo.
+2:34 E tomamos todas as suas cidades naquele tempo, e consagramos ao extermínio toda cidade: homens, e as mulheres, e as crianças; não deixamos sobrevivente.
+2:35 Somente o gado saqueamos para nós, e o despojo das cidades que tomamos.
+2:36 Desde Aroer, que [está] sobre o lábio do ribeiro de Arnom, e a cidade que [está] no ribeiro, até o Gileade, não houve cidade que fosse alta demais para nós; tudo deu YHWH, nosso Deus, diante de nós.
+2:37 Somente da terra dos filhos de Amom não te aproximaste, de todo o lado do ribeiro Jaboque, e das cidades do monte, e de tudo o que YHWH, nosso Deus, ordenara.
+
+3:1 E voltamo-nos e subimos pelo caminho de Basã; e saiu Ogue, rei de Basã, ao nosso encontro, ele e todo o seu povo, para a guerra, a Edrei.
+3:2 E disse-me YHWH: Não o temas, porque na tua mão o dei, a ele, e a todo o seu povo, e a sua terra; e far-lhe-ás como fizeste a Seom, rei do amorreu, que habitava em Hesbom.
+3:3 E deu YHWH, nosso Deus, na nossa mão também Ogue, rei de Basã, e todo o seu povo; e o ferimos até não lhe restar sobrevivente.
+3:4 E tomamos todas as suas cidades naquele tempo; não houve cidade que não tomássemos deles: sessenta cidades, toda a região de Argobe, o reino de Ogue em Basã.
+3:5 Todas estas [eram] cidades fortificadas, [com] muro alto, portas e ferrolho; além das cidades abertas, muitíssimas.
+3:6 E as consagramos ao extermínio, como fizemos a Seom, rei de Hesbom, consagrando ao extermínio toda cidade: homens, as mulheres e as crianças.
+3:7 E todo o gado e o despojo das cidades saqueamos para nós.
+3:8 E tomamos naquele tempo a terra da mão dos dois reis do amorreu que [estavam] além do Jordão, desde o ribeiro de Arnom até o monte Hermom
+3:9 (os sidônios chamam ao Hermom Siriom, e o amorreu chama-lhe Senir),
+3:10 todas as cidades do planalto, e todo o Gileade, e todo o Basã, até Salcá e Edrei, cidades do reino de Ogue em Basã.
+3:11 Porque somente Ogue, rei de Basã, restou do resto dos refains; eis que o seu leito [era] um leito de ferro; não está ele em Rabá dos filhos de Amom? Nove côvados o seu comprimento, e quatro côvados a sua largura, pelo côvado de homem.
+3:12 E esta terra possuímos naquele tempo: desde Aroer, que [está] sobre o ribeiro de Arnom, e a metade do monte de Gileade e as suas cidades, dei ao rubenita e ao gadita.
+3:13 E o resto do Gileade e todo o Basã, o reino de Ogue, dei à metade da tribo de Manassés: toda a região de Argobe, com todo o Basã; esse se chama terra de refains.
+3:14 Jair, filho de Manassés, tomou toda a região de Argobe até o território do gesurita e do maacatita, e chamou-os pelo seu nome — o Basã — Havote-Jair, até este dia.
+3:15 E a Maquir dei o Gileade.
+3:16 E ao rubenita e ao gadita dei desde o Gileade até o ribeiro de Arnom, o meio do ribeiro e [o seu] limite, e até o ribeiro Jaboque, território dos filhos de Amom,
+3:17 e a Arabá, e o Jordão e [o seu] limite, desde Quinerete até o mar da Arabá, o mar do Sal, debaixo das encostas do Pisga, para o nascente.
+3:18 E vos ordenei naquele tempo, dizendo: YHWH, vosso Deus, vos deu esta terra para a possuirdes; armados passareis diante de vossos irmãos, os filhos de Israel, todos os filhos de valor.
+3:19 Somente as vossas mulheres, e as vossas crianças, e o vosso gado — sei que muito gado [é] vosso — habitarão nas vossas cidades que vos dei,
+3:20 até que YHWH dê descanso a vossos irmãos como a vós, e possuam também eles a terra que YHWH, vosso Deus, lhes dá além do Jordão; e voltareis cada um à sua possessão, que vos dei.
+3:21 E a Josué ordenei naquele tempo, dizendo: Os teus olhos [são] os que viram tudo o que YHWH, vosso Deus, fez a estes dois reis; assim fará YHWH a todos os reinos para onde tu passas.
+3:22 Não os temais, porque YHWH, vosso Deus, ele [é] o que peleja por vós.
+3:23 E supliquei a YHWH naquele tempo, dizendo:
+3:24 Senhor YHWH, tu começaste a mostrar ao teu servo a tua grandeza e a tua mão forte; pois que deus [há] nos céus e na terra que faça conforme as tuas obras e conforme os teus poderes?
+3:25 Que eu passe, por favor, e veja a terra boa que [está] além do Jordão, este monte bom, e o Líbano.
+3:26 E irou-se YHWH contra mim por vossa causa, e não me ouviu; e disse-me YHWH: Basta-te; não continues a falar-me mais nesta coisa.
+3:27 Sobe à cabeça do Pisga, e levanta os teus olhos para o mar, e para o norte, e para o sul, e para o nascente, e vê com os teus olhos; porque não passarás este Jordão.
+3:28 E ordena a Josué, e fortalece-o, e encoraja-o; porque ele passará diante deste povo, e ele os fará herdar a terra que verás.
+3:29 E habitamos no vale, diante de Bete-Peor.
+
+4:1 E agora, Israel, ouve os estatutos e os juízos que eu vos ensino para fazer, para que vivais, e entreis, e possuais a terra que YHWH, o Deus de vossos pais, vos dá.
+4:2 Não acrescentareis à palavra que eu vos ordeno, e não diminuireis dela, para guardar os mandamentos de YHWH, vosso Deus, que eu vos ordeno.
+4:3 Os vossos olhos [são] os que viram o que fez YHWH em Baal-Peor; porque todo homem que andou após Baal-Peor, YHWH, teu Deus, o exterminou do meio de ti.
+4:4 E vós, os apegados a YHWH, vosso Deus, [estais] vivos, todos vós, hoje.
+4:5 Vê, eu vos ensinei estatutos e juízos, como me ordenou YHWH, meu Deus, para fazer assim no meio da terra para onde vós entrais para a possuir.
+4:6 E guardareis e fareis, porque isso [é] a vossa sabedoria e o vosso entendimento aos olhos dos povos, que ouvirão todos estes estatutos e dirão: Certamente povo sábio e entendido [é] esta grande nação.
+4:7 Porque que nação grande [há] que tenha deuses perto de si, como YHWH, nosso Deus, em todo o nosso chamar a ele?
+4:8 E que nação grande [há] que tenha estatutos e juízos justos como toda esta instrução que eu dou diante de vós hoje?
+4:9 Somente guarda-te, e guarda muito a tua alma, para que não te esqueças das coisas que os teus olhos viram, e para que não se desviem do teu coração todos os dias da tua vida; e fá-las-ás saber a teus filhos e aos filhos de teus filhos:
+4:10 o dia em que estiveste em pé diante de YHWH, teu Deus, em Horebe, quando YHWH me disse: Congrega-me o povo, e os farei ouvir as minhas palavras, para que aprendam a temer-me todos os dias que eles [estiverem] vivos sobre o solo, e [as] ensinem a seus filhos.
+4:11 E vos aproximastes e estivestes em pé debaixo do monte; e o monte ardia em fogo até o coração dos céus: trevas, nuvem e escuridão espessa.
+4:12 E falou YHWH convosco do meio do fogo; voz de palavras vós ouvíeis, e figura não víeis, somente voz.
+4:13 E vos anunciou a sua aliança, que vos ordenou fazer, as dez palavras; e escreveu-as sobre duas tábuas de pedra.
+4:14 E a mim ordenou YHWH naquele tempo que vos ensinasse estatutos e juízos, para que os fizésseis na terra para onde vós passais para a possuir.
+4:15 E guardai-vos muito pelas vossas almas — porque não vistes figura alguma no dia em que YHWH vos falou em Horebe do meio do fogo —,
+4:16 para que não vos corrompais e façais para vós imagem esculpida, figura de qualquer imagem, forma de macho ou de fêmea,
+4:17 forma de qualquer animal que [há] na terra, forma de qualquer ave de asa que voa nos céus,
+4:18 forma de tudo o que rasteja sobre o solo, forma de qualquer peixe que [há] nas águas debaixo da terra;
+4:19 e para que não levantes os teus olhos aos céus, e vejas o sol, e a lua, e as estrelas, todo o exército dos céus, e sejas arrastado, e te prostres a eles, e os sirvas, os quais YHWH, teu Deus, repartiu a todos os povos debaixo de todos os céus.
+4:20 E a vós YHWH tomou, e vos fez sair da fornalha de ferro, do Egito, para lhe serdes por povo de herança, como neste dia.
+4:21 E YHWH irou-se contra mim por causa das vossas palavras, e jurou que eu não passaria o Jordão e que não entraria na terra boa que YHWH, teu Deus, te dá por herança.
+4:22 Porque eu morro nesta terra; não passo o Jordão; e vós passais e possuireis esta terra boa.
+4:23 Guardai-vos, para que não vos esqueçais da aliança de YHWH, vosso Deus, que cortou convosco, e façais para vós imagem esculpida, figura de tudo o que te ordenou YHWH, teu Deus, [não fazer].
+4:24 Porque YHWH, teu Deus, [é] fogo consumidor, ele [é] Deus zeloso.
+4:25 Quando gerares filhos e filhos de filhos, e envelhecerdes na terra, e vos corromperdes, e fizerdes imagem esculpida, figura de qualquer coisa, e fizerdes o mal aos olhos de YHWH, teu Deus, para o provocar à ira,
+4:26 faço hoje testemunhar contra vós os céus e a terra, que perecendo perecereis depressa de sobre a terra para onde vós passais o Jordão para a possuir; não prolongareis os dias sobre ela, porque sendo exterminados sereis exterminados.
+4:27 E YHWH vos espalhará entre os povos, e restareis homens de número entre as nações para onde YHWH vos conduzirá.
+4:28 E servireis ali deuses, obra de mãos de homem, madeira e pedra, que não veem, e não ouvem, e não comem, e não cheiram.
+4:29 E buscareis dali YHWH, teu Deus, e [o] acharás, quando o procurares com todo o teu coração e com toda a tua alma.
+4:30 Na tua angústia, quando te acharem todas estas coisas, no fim dos dias, voltarás a YHWH, teu Deus, e ouvirás a sua voz.
+4:31 Porque Deus misericordioso [é] YHWH, teu Deus; não te largará, e não te destruirá, e não se esquecerá da aliança de teus pais, que lhes jurou.
+4:32 Porque pergunta, por favor, aos dias primeiros, que foram antes de ti, desde o dia em que Deus criou o homem sobre a terra, e desde a extremidade dos céus até a extremidade dos céus: houve [coisa] como esta grande coisa, ou ouviu-se [algo] como ela?
+4:33 Ouviu [algum] povo a voz de Deus falando do meio do fogo, como tu [a] ouviste, e viveu?
+4:34 Ou tentou [algum] deus vir tomar para si nação do meio de nação, com provas, com sinais, e com prodígios, e com guerra, e com mão forte, e com braço estendido, e com grandes terrores, conforme tudo o que vos fez YHWH, vosso Deus, no Egito, aos teus olhos?
+4:35 A ti foi mostrado, para saberes que YHWH, ele [é] o Deus; não há mais [nenhum] além dele.
+4:36 Dos céus te fez ouvir a sua voz, para te disciplinar; e sobre a terra te fez ver o seu grande fogo, e as suas palavras ouviste do meio do fogo.
+4:37 E porque amou a teus pais, e escolheu a sua semente depois dele, e te fez sair com a sua face, com a sua grande força, do Egito,
+4:38 para desapossar nações maiores e mais poderosas do que tu de diante de ti, para te fazer entrar, para te dar a sua terra por herança, como neste dia,
+4:39 sabe hoje, e faze voltar ao teu coração, que YHWH, ele [é] o Deus nos céus em cima e sobre a terra embaixo; não há mais [nenhum].
+4:40 E guardarás os seus estatutos e os seus mandamentos, que eu te ordeno hoje, para que te vá bem, a ti e a teus filhos depois de ti, e para que prolongues os dias sobre o solo que YHWH, teu Deus, te dá, todos os dias.
+4:41 Então separou Moisés três cidades além do Jordão, ao nascente do sol,
+4:42 para fugir para ali o homicida que matar o seu próximo sem saber, e ele não o odiava desde ontem [e] anteontem; e fugirá para uma destas cidades, e viverá:
+4:43 Bezer, no deserto, na terra do planalto, para o rubenita; e Ramote, em Gileade, para o gadita; e Golã, em Basã, para o manassita.
+4:44 E esta [é] a instrução que Moisés pôs diante dos filhos de Israel.
+4:45 Estes [são] os testemunhos, e os estatutos, e os juízos que Moisés falou aos filhos de Israel quando saíram do Egito,
+4:46 além do Jordão, no vale, diante de Bete-Peor, na terra de Seom, rei do amorreu, que habitava em Hesbom, a quem feriram Moisés e os filhos de Israel quando saíram do Egito.
+4:47 E possuíram a sua terra e a terra de Ogue, rei de Basã, os dois reis do amorreu que [estavam] além do Jordão, ao nascente do sol,
+4:48 desde Aroer, que [está] sobre o lábio do ribeiro de Arnom, até o monte Siom, que [é] o Hermom,
+4:49 e toda a Arabá além do Jordão, para o nascente, e até o mar da Arabá, debaixo das encostas do Pisga.
+
+5:1 E chamou Moisés a todo Israel, e disse-lhes: Ouve, Israel, os estatutos e os juízos que eu falo hoje aos vossos ouvidos; e aprendê-los-eis, e guardareis para os fazer.
+5:2 YHWH, nosso Deus, cortou conosco aliança em Horebe.
+5:3 Não com nossos pais cortou YHWH esta aliança, mas conosco, nós, estes [que estamos] aqui hoje, todos nós vivos.
+5:4 Face a face falou YHWH convosco no monte, do meio do fogo
+5:5 (eu estava em pé entre YHWH e vós naquele tempo, para vos anunciar a palavra de YHWH, porque temestes diante do fogo e não subistes ao monte), dizendo:
+5:6 Eu [sou] YHWH, teu Deus, que te fiz sair da terra do Egito, da casa de servos.
+5:7 Não terás outros deuses diante da minha face.
+5:8 Não farás para ti imagem esculpida, figura alguma do que [há] nos céus em cima, nem do que [há] na terra embaixo, nem do que [há] nas águas debaixo da terra.
+5:9 Não te prostrarás a elas, nem as servirás; porque eu, YHWH, teu Deus, [sou] Deus zeloso, que visito a iniquidade dos pais nos filhos, e na terceira e na quarta [geração] dos que me odeiam,
+5:10 e faço bondade a milhares dos que me amam e guardam os meus mandamentos.
+5:11 Não levantarás o nome de YHWH, teu Deus, em vão; porque YHWH não terá por inocente aquele que levantar o seu nome em vão.
+5:12 Guarda o dia do sábado, para o santificar, como te ordenou YHWH, teu Deus.
+5:13 Seis dias trabalharás, e farás toda a tua obra;
+5:14 e o sétimo dia [é] sábado a YHWH, teu Deus; não farás nenhuma obra, tu, e o teu filho, e a tua filha, e o teu servo, e a tua escrava, e o teu boi, e o teu jumento, e todo o teu animal, e o teu estrangeiro que [está] dentro das tuas portas; para que repouse o teu servo e a tua escrava como tu.
+5:15 E lembrar-te-ás de que foste servo na terra do Egito, e YHWH, teu Deus, te fez sair dali com mão forte e com braço estendido; por isso YHWH, teu Deus, te ordenou fazer o dia do sábado.
+5:16 Honra teu pai e tua mãe, como te ordenou YHWH, teu Deus, para que se prolonguem os teus dias, e para que te vá bem sobre o solo que YHWH, teu Deus, te dá.
+5:17 Não assassinarás.
+5:18 E não adulterarás.
+5:19 E não furtarás.
+5:20 E não responderás contra o teu próximo [como] testemunha vã.
+5:21 E não cobiçarás a mulher do teu próximo; e não desejarás a casa do teu próximo, o seu campo, nem o seu servo, nem a sua escrava, o seu boi, nem o seu jumento, nem coisa alguma que [seja] do teu próximo.
+5:22 Estas palavras falou YHWH a toda a vossa assembleia no monte, do meio do fogo, da nuvem e da escuridão espessa, [com] grande voz, e não acrescentou; e escreveu-as sobre duas tábuas de pedra, e deu-mas.
+5:23 E aconteceu, quando ouvistes a voz do meio das trevas, e o monte ardia em fogo, que vos chegastes a mim, todos os cabeças das vossas tribos e os vossos anciãos,
+5:24 e dissestes: Eis que YHWH, nosso Deus, nos mostrou a sua glória e a sua grandeza, e a sua voz ouvimos do meio do fogo; neste dia vimos que Deus fala com o homem, e [este] vive.
+5:25 E agora, por que morreremos? Porque nos consumirá este grande fogo; se nós continuarmos a ouvir ainda a voz de YHWH, nosso Deus, morreremos.
+5:26 Porque quem [há], de toda carne, que ouviu a voz do Deus vivo falando do meio do fogo, como nós, e viveu?
+5:27 Chega-te tu, e ouve tudo o que disser YHWH, nosso Deus; e tu nos falarás tudo o que YHWH, nosso Deus, te falar, e ouviremos e faremos.
+5:28 E ouviu YHWH a voz das vossas palavras, quando me faláveis; e disse-me YHWH: Ouvi a voz das palavras deste povo, que te falaram; fizeram bem [em] tudo o que falaram.
+5:29 Quem dera que tivessem este coração, para me temerem e guardarem todos os meus mandamentos todos os dias, para que lhes fosse bem, a eles e a seus filhos, para sempre!
+5:30 Vai, dize-lhes: Voltai-vos para as vossas tendas.
+5:31 E tu, aqui, fica em pé comigo, e eu te falarei todo o mandamento, e os estatutos, e os juízos, que lhes ensinarás, e [os] farão na terra que eu lhes dou para a possuírem.
+5:32 E guardareis para fazer como vos ordenou YHWH, vosso Deus; não vos desviareis à direita nem à esquerda.
+5:33 Em todo o caminho que vos ordenou YHWH, vosso Deus, andareis, para que vivais, e vos vá bem, e prolongueis os dias na terra que possuireis.
+
+6:1 E este [é] o mandamento, os estatutos e os juízos, que YHWH, vosso Deus, ordenou ensinar-vos, para fazer na terra para onde vós passais para a possuir,
+6:2 para que temas YHWH, teu Deus, para guardar todos os seus estatutos e os seus mandamentos, que eu te ordeno, tu, e teu filho, e o filho de teu filho, todos os dias da tua vida; e para que se prolonguem os teus dias.
+6:3 E ouve, Israel, e guarda para fazer, para que te vá bem, e para que vos multipliqueis muito, como te falou YHWH, o Deus de teus pais, [na] terra que mana leite e mel.
+6:4 Ouve, Israel: YHWH [é] nosso Deus, YHWH [é] um.
+6:5 E amarás YHWH, teu Deus, com todo o teu coração, e com toda a tua alma, e com toda a tua força.
+6:6 E estarão estas palavras, que eu te ordeno hoje, sobre o teu coração;
+6:7 e as inculcarás a teus filhos, e falarás delas quando te sentares em tua casa, e quando andares pelo caminho, e quando te deitares, e quando te levantares.
+6:8 E as atarás por sinal sobre a tua mão, e serão por frontais entre os teus olhos.
+6:9 E as escreverás sobre os umbrais da tua casa e nas tuas portas.
+6:10 E será que, quando YHWH, teu Deus, te fizer entrar na terra que jurou a teus pais, a Abraão, a Isaque e a Jacó, dar-te — cidades grandes e boas, que não edificaste,
+6:11 e casas cheias de todo bem, que não encheste, e cisternas cavadas, que não cavaste, vinhas e oliveiras, que não plantaste —, e comeres e te fartares,
+6:12 guarda-te, para que não te esqueças de YHWH, que te fez sair da terra do Egito, da casa de servos.
+6:13 YHWH, teu Deus, temerás, e a ele servirás, e pelo seu nome jurarás.
+6:14 Não andareis após outros deuses, dos deuses dos povos que [estão] ao redor de vós;
+6:15 porque Deus zeloso [é] YHWH, teu Deus, no meio de ti; para que não se acenda a ira de YHWH, teu Deus, contra ti, e te extermine de sobre a face do solo.
+6:16 Não poreis à prova YHWH, vosso Deus, como o pusestes à prova em Massá.
+6:17 Guardando guardareis os mandamentos de YHWH, vosso Deus, e os seus testemunhos, e os seus estatutos, que te ordenou.
+6:18 E farás o reto e o bom aos olhos de YHWH, para que te vá bem, e entres e possuas a terra boa que YHWH jurou a teus pais,
+6:19 para empurrar todos os teus inimigos de diante de ti, como YHWH falou.
+6:20 Quando o teu filho te perguntar amanhã, dizendo: Que [são] os testemunhos, e os estatutos, e os juízos que YHWH, nosso Deus, vos ordenou?
+6:21 E dirás a teu filho: Servos fomos de Faraó no Egito, e YHWH nos fez sair do Egito com mão forte.
+6:22 E deu YHWH sinais e prodígios grandes e maus no Egito, em Faraó e em toda a sua casa, aos nossos olhos.
+6:23 E a nós fez sair dali, para nos trazer, para nos dar a terra que jurou a nossos pais.
+6:24 E ordenou-nos YHWH fazer todos estes estatutos, para temermos YHWH, nosso Deus, para o nosso bem todos os dias, para nos conservar vivos, como neste dia.
+6:25 E justiça será para nós, quando guardarmos para fazer todo este mandamento diante de YHWH, nosso Deus, como nos ordenou.
+
+7:1 Quando YHWH, teu Deus, te fizer entrar na terra para onde tu entras para a possuir, e lançar fora muitas nações de diante de ti — o heteu, e o girgaseu, e o amorreu, e o cananeu, e o perizeu, e o heveu, e o jebuseu, sete nações mais numerosas e mais poderosas do que tu —,
+7:2 e YHWH, teu Deus, as der diante de ti, e as ferires, consagrando ao extermínio as consagrarás ao extermínio; não cortarás com elas aliança, e não terás compaixão delas.
+7:3 E não te aparentarás com eles por casamento: a tua filha não darás ao filho dele, e a filha dele não tomarás para o teu filho.
+7:4 Porque [ele] desviará o teu filho de após mim, e servirão outros deuses; e se acenderá a ira de YHWH contra vós, e te exterminará depressa.
+7:5 Mas assim lhes fareis: os seus altares derrubareis, e as suas colunas quebrareis, e os seus postes-ídolos cortareis, e as suas imagens esculpidas queimareis no fogo.
+7:6 Porque povo santo [és] tu para YHWH, teu Deus; a ti escolheu YHWH, teu Deus, para lhe seres por povo de propriedade particular, dentre todos os povos que [há] sobre a face do solo.
+7:7 Não por serdes mais numerosos do que todos os povos se afeiçoou YHWH a vós e vos escolheu; porque vós [sois] os menos numerosos de todos os povos.
+7:8 Mas, por YHWH vos amar e por guardar o juramento que jurou a vossos pais, YHWH vos fez sair com mão forte, e te resgatou da casa de servos, da mão de Faraó, rei do Egito.
+7:9 E saberás que YHWH, teu Deus, ele [é] o Deus, o Deus fiel, que guarda a aliança e a bondade aos que o amam e aos que guardam os seus mandamentos, até mil gerações,
+7:10 e que retribui aos que o odeiam, à sua face, para o fazer perecer; não tardará para com quem o odeia; à sua face lhe retribuirá.
+7:11 E guardarás o mandamento, e os estatutos, e os juízos que eu te ordeno hoje para os fazer.
+7:12 E será que, por ouvirdes estes juízos, e [os] guardardes, e os fizerdes, YHWH, teu Deus, guardará para ti a aliança e a bondade que jurou a teus pais;
+7:13 e te amará, e te abençoará, e te multiplicará; e abençoará o fruto do teu ventre e o fruto do teu solo, o teu trigo, e o teu mosto, e o teu azeite, a cria dos teus bois e as crias das tuas ovelhas, sobre o solo que jurou a teus pais dar-te.
+7:14 Bendito serás mais do que todos os povos; não haverá em ti [macho] estéril nem [fêmea] estéril, nem no teu gado.
+7:15 E YHWH removerá de ti toda doença; e todas as enfermidades más do Egito, que conheceste, não as porá em ti, e as dará a todos os que te odeiam.
+7:16 E comerás todos os povos que YHWH, teu Deus, te dá; não terá pena deles o teu olho, e não servirás os seus deuses, porque isso [será] laço para ti.
+7:17 Quando disseres no teu coração: Estas nações [são] mais numerosas do que eu; como poderei desapossá-las?,
+7:18 não as temerás; lembrando te lembrarás do que fez YHWH, teu Deus, a Faraó e a todo o Egito:
+7:19 as grandes provas que os teus olhos viram, e os sinais, e os prodígios, e a mão forte, e o braço estendido com que YHWH, teu Deus, te fez sair; assim fará YHWH, teu Deus, a todos os povos diante dos quais tu temes.
+7:20 E também a vespa enviará YHWH, teu Deus, contra eles, até perecerem os que restarem e os que se esconderem de diante de ti.
+7:21 Não te aterrorizarás diante deles, porque YHWH, teu Deus, [está] no meio de ti, Deus grande e terrível.
+7:22 E YHWH, teu Deus, lançará fora estas nações de diante de ti pouco a pouco; não poderás acabar com elas depressa, para que não se multiplique contra ti o animal do campo.
+7:23 E YHWH, teu Deus, as dará diante de ti, e as desbaratará com grande tumulto, até serem exterminadas.
+7:24 E dará os seus reis na tua mão, e farás perecer o seu nome de debaixo dos céus; não se manterá homem algum diante da tua face, até que os tenhas exterminado.
+7:25 As imagens esculpidas dos seus deuses queimareis no fogo; não cobiçarás a prata e o ouro [que há] sobre elas, nem [o] tomarás para ti, para que não sejas enlaçado nisso; porque abominação de YHWH, teu Deus, [é] isso.
+7:26 E não trarás abominação à tua casa, e serás coisa consagrada ao extermínio como ela; detestando a detestarás, e abominando a abominarás, porque coisa consagrada ao extermínio [é] ela.
+
+8:1 Todo o mandamento que eu te ordeno hoje guardareis para fazer, para que vivais, e vos multipliqueis, e entreis, e possuais a terra que YHWH jurou a vossos pais.
+8:2 E lembrar-te-ás de todo o caminho pelo qual te fez andar YHWH, teu Deus, estes quarenta anos no deserto, para te humilhar, para te provar, para saber o que [havia] no teu coração, se guardarias os seus mandamentos ou não.
+8:3 E te humilhou, e te fez ter fome, e te fez comer o maná, que não conhecias, e não conheciam teus pais, para te fazer saber que não só de pão vive o homem, mas de tudo o que sai da boca de YHWH vive o homem.
+8:4 A tua veste não envelheceu sobre ti, e o teu pé não inchou, estes quarenta anos.
+8:5 E saberás com o teu coração que, como um homem disciplina o seu filho, YHWH, teu Deus, te disciplina.
+8:6 E guardarás os mandamentos de YHWH, teu Deus, para andar nos seus caminhos e para o temer.
+8:7 Porque YHWH, teu Deus, te faz entrar numa terra boa, terra de ribeiros de águas, de fontes e de abismos, que saem na planície e no monte;
+8:8 terra de trigo, e cevada, e videira, e figueira, e romã; terra de oliveira de azeite e de mel;
+8:9 terra em que não comerás pão com escassez; não carecerás de nada nela; terra cujas pedras [são] ferro, e de cujos montes cavarás bronze.
+8:10 E comerás, e te fartarás, e bendirás YHWH, teu Deus, pela terra boa que te deu.
+8:11 Guarda-te, para que não te esqueças de YHWH, teu Deus, deixando de guardar os seus mandamentos, e os seus juízos, e os seus estatutos, que eu te ordeno hoje;
+8:12 para que não comas, e te fartes, e edifiques casas boas, e [nelas] habites,
+8:13 e os teus bois e as tuas ovelhas se multipliquem, e a prata e o ouro se te multipliquem, e tudo o que [é] teu se multiplique,
+8:14 e se eleve o teu coração, e te esqueças de YHWH, teu Deus, que te fez sair da terra do Egito, da casa de servos;
+8:15 que te fez andar pelo deserto grande e terrível, [de] serpente ardente e escorpião, e [de] terra sedenta, onde não [havia] água; que te fez sair água da rocha de pederneira;
+8:16 que te fez comer maná no deserto, que teus pais não conheciam, para te humilhar e para te provar, para te fazer bem no teu fim;
+8:17 e digas no teu coração: A minha força e o vigor da minha mão me fizeram esta riqueza.
+8:18 E lembrar-te-ás de YHWH, teu Deus, porque ele [é] o que te dá força para fazer riqueza, para confirmar a sua aliança, que jurou a teus pais, como neste dia.
+8:19 E será que, se esquecendo te esqueceres de YHWH, teu Deus, e andares após outros deuses, e os servires, e te prostrares a eles, testifico hoje contra vós que perecendo perecereis.
+8:20 Como as nações que YHWH faz perecer de diante de vós, assim perecereis, por não ouvirdes a voz de YHWH, vosso Deus.
+
+9:1 Ouve, Israel: tu passas hoje o Jordão, para entrar a desapossar nações maiores e mais poderosas do que tu, cidades grandes e fortificadas nos céus,
+9:2 povo grande e alto, filhos de anaquins, que tu conheces, e [dos quais] tu ouviste: Quem se manterá diante dos filhos de Anaque?
+9:3 E saberás hoje que YHWH, teu Deus, ele [é] o que passa diante de ti, fogo consumidor; ele os exterminará, e ele os subjugará diante de ti; e os desapossarás e os farás perecer depressa, como YHWH te falou.
+9:4 Não digas no teu coração, quando YHWH, teu Deus, os empurrar de diante de ti, dizendo: Pela minha justiça me fez entrar YHWH para possuir esta terra. E pela perversidade destas nações YHWH as desapossa de diante de ti.
+9:5 Não pela tua justiça e pela retidão do teu coração tu entras para possuir a sua terra, mas pela perversidade destas nações YHWH, teu Deus, as desapossa de diante de ti, e para confirmar a palavra que YHWH jurou a teus pais, a Abraão, a Isaque e a Jacó.
+9:6 E saberás que não pela tua justiça YHWH, teu Deus, te dá esta terra boa para a possuíres; porque povo duro de nuca [és] tu.
+9:7 Lembra-te, não te esqueças, de como indignaste YHWH, teu Deus, no deserto; desde o dia em que saíste da terra do Egito até chegardes a este lugar, rebeldes fostes contra YHWH.
+9:8 E em Horebe indignastes YHWH, e irou-se YHWH contra vós, para vos exterminar,
+9:9 quando subi ao monte para tomar as tábuas de pedra, as tábuas da aliança que YHWH cortou convosco, e fiquei no monte quarenta dias e quarenta noites — pão não comi, e água não bebi —,
+9:10 e deu-me YHWH as duas tábuas de pedra, escritas com o dedo de Deus, e sobre elas, conforme todas as palavras que YHWH falou convosco no monte, do meio do fogo, no dia da assembleia.
+9:11 E aconteceu, ao fim de quarenta dias e quarenta noites, [que] me deu YHWH as duas tábuas de pedra, as tábuas da aliança.
+9:12 E disse-me YHWH: Levanta-te, desce depressa daqui, porque se corrompeu o teu povo, que fizeste sair do Egito; desviaram-se depressa do caminho que lhes ordenei; fizeram para si uma imagem de fundição.
+9:13 E disse-me YHWH, dizendo: Vi este povo, e eis que povo duro de nuca é ele.
+9:14 Larga-me, e eu os exterminarei, e apagarei o seu nome de debaixo dos céus; e farei de ti uma nação mais poderosa e mais numerosa do que ele.
+9:15 E voltei-me, e desci do monte, e o monte ardia em fogo; e as duas tábuas da aliança [estavam] sobre as minhas duas mãos.
+9:16 E olhei, e eis: pecastes contra YHWH, vosso Deus; fizestes para vós um bezerro de fundição; desviastes-vos depressa do caminho que YHWH vos ordenara.
+9:17 E agarrei as duas tábuas, e lancei-as de sobre as minhas duas mãos, e quebrei-as aos vossos olhos.
+9:18 E lancei-me diante de YHWH, como da primeira [vez], quarenta dias e quarenta noites — pão não comi, e água não bebi — por todo o vosso pecado que pecastes, fazendo o mal aos olhos de YHWH, para o provocar à ira.
+9:19 Porque temi diante da ira e do furor com que YHWH se indignou contra vós, para vos exterminar. E ouviu-me YHWH também naquela vez.
+9:20 E contra Arão irou-se YHWH muito, para o exterminar; e orei também por Arão naquele tempo.
+9:21 E o vosso pecado, que fizestes, o bezerro, tomei-o, e queimei-o no fogo, e esmaguei-o, moendo bem, até que ficou miúdo como pó; e lancei o seu pó no ribeiro que desce do monte.
+9:22 E em Taberá, e em Massá, e em Quibrote-Hataavá, fostes indignando YHWH.
+9:23 E quando YHWH vos enviou de Cades-Barneia, dizendo: Subi e possuí a terra que vos dei, vos rebelastes contra a boca de YHWH, vosso Deus, e não crestes nele, e não ouvistes a sua voz.
+9:24 Rebeldes fostes contra YHWH desde o dia em que vos conheci.
+9:25 E lancei-me diante de YHWH os quarenta dias e as quarenta noites em que me lancei, porque YHWH disse que vos exterminaria.
+9:26 E orei a YHWH, e disse: Senhor YHWH, não destruas o teu povo e a tua herança, que resgataste com a tua grandeza, que fizeste sair do Egito com mão forte.
+9:27 Lembra-te dos teus servos, de Abraão, de Isaque e de Jacó; não te voltes para a dureza deste povo, nem para a sua perversidade, nem para o seu pecado;
+9:28 para que não digam [os habitantes da] terra de onde nos fizeste sair: Por não poder YHWH fazê-los entrar na terra que lhes falou, e por os odiar, fê-los sair para os matar no deserto.
+9:29 E eles [são] o teu povo e a tua herança, que fizeste sair com a tua grande força e com o teu braço estendido.
+
+10:1 Naquele tempo disse-me YHWH: Lavra para ti duas tábuas de pedra como as primeiras, e sobe a mim ao monte; e faze para ti uma arca de madeira.
+10:2 E escreverei sobre as tábuas as palavras que estavam sobre as primeiras tábuas, que quebraste; e pô-las-ás na arca.
+10:3 E fiz uma arca de madeira de acácia, e lavrei duas tábuas de pedra como as primeiras, e subi ao monte, e as duas tábuas [estavam] na minha mão.
+10:4 E escreveu sobre as tábuas, conforme a primeira escrita, as dez palavras que YHWH vos falou no monte, do meio do fogo, no dia da assembleia; e deu-mas YHWH.
+10:5 E voltei-me, e desci do monte, e pus as tábuas na arca que fizera; e ficaram ali, como YHWH me ordenou.
+10:6 E os filhos de Israel partiram de Beerote-Bene-Jaacã para Moserá; ali morreu Arão, e ali foi sepultado; e Eleazar, seu filho, exerceu o sacerdócio em lugar dele.
+10:7 Dali partiram para Gudgodá, e de Gudgodá para Jotbatá, terra de ribeiros de águas.
+10:8 Naquele tempo separou YHWH a tribo de Levi para levar a arca da aliança de YHWH, para estar em pé diante de YHWH, para o servir e para abençoar em seu nome, até este dia.
+10:9 Por isso Levi não teve porção nem herança com os seus irmãos; YHWH, ele [é] a sua herança, como YHWH, teu Deus, lhe falou.
+10:10 E eu estive em pé no monte, como os dias primeiros, quarenta dias e quarenta noites; e ouviu-me YHWH também naquela vez; não quis YHWH destruir-te.
+10:11 E disse-me YHWH: Levanta-te, vai, para partir diante do povo; e entrem e possuam a terra que jurei a seus pais dar-lhes.
+10:12 E agora, Israel, que pede YHWH, teu Deus, de ti, senão temer YHWH, teu Deus, andar em todos os seus caminhos, e amá-lo, e servir YHWH, teu Deus, com todo o teu coração e com toda a tua alma,
+10:13 guardar os mandamentos de YHWH e os seus estatutos, que eu te ordeno hoje, para o teu bem?
+10:14 Eis que de YHWH, teu Deus, [são] os céus e os céus dos céus, a terra e tudo o que [há] nela.
+10:15 Somente a teus pais se afeiçoou YHWH, para os amar; e escolheu a sua semente depois deles, a vós, dentre todos os povos, como neste dia.
+10:16 E circuncidareis o prepúcio do vosso coração, e a vossa nuca não endurecereis mais.
+10:17 Porque YHWH, vosso Deus, ele [é] o Deus dos deuses e o Senhor dos senhores, o Deus grande, o poderoso e o terrível, que não levanta face e não toma suborno;
+10:18 que faz o juízo do órfão e da viúva, e ama o estrangeiro, para lhe dar pão e veste.
+10:19 E amareis o estrangeiro, porque estrangeiros fostes na terra do Egito.
+10:20 YHWH, teu Deus, temerás; a ele servirás, e a ele te apegarás, e pelo seu nome jurarás.
+10:21 Ele [é] o teu louvor, e ele [é] o teu Deus, que fez contigo estas [coisas] grandes e terríveis que os teus olhos viram.
+10:22 Com setenta almas desceram teus pais ao Egito; e agora YHWH, teu Deus, te pôs como as estrelas dos céus em multidão.
+
+11:1 E amarás YHWH, teu Deus, e guardarás a sua guarda, e os seus estatutos, e os seus juízos, e os seus mandamentos, todos os dias.
+11:2 E sabereis hoje — porque não [falo] com vossos filhos, que não conheceram e que não viram — a disciplina de YHWH, vosso Deus, a sua grandeza, a sua mão forte e o seu braço estendido,
+11:3 e os seus sinais, e as suas obras, que fez no meio do Egito, a Faraó, rei do Egito, e a toda a sua terra;
+11:4 e o que fez ao exército do Egito, aos seus cavalos e aos seus carros, como fez transbordar as águas do mar de Juncos sobre a sua face, quando vos perseguiam, e YHWH os fez perecer até este dia;
+11:5 e o que vos fez no deserto, até chegardes a este lugar;
+11:6 e o que fez a Datã e a Abirão, filhos de Eliabe, filho de Rúben, quando a terra abriu a sua boca e os engoliu, e às suas casas, e às suas tendas, e a todo o ser que [estava] aos seus pés, no meio de todo Israel.
+11:7 Porque os vossos olhos [são] os que viram toda a grande obra de YHWH, que fez.
+11:8 E guardareis todo o mandamento que eu te ordeno hoje, para que sejais fortes, e entreis, e possuais a terra para onde vós passais para a possuir;
+11:9 e para que prolongueis os dias sobre o solo que YHWH jurou a vossos pais dar a eles e à sua semente, terra que mana leite e mel.
+11:10 Porque a terra para onde tu entras para a possuir não [é] como a terra do Egito, de onde saístes, onde semeavas a tua semente e [a] regavas com o teu pé, como jardim de verdura.
+11:11 E a terra para onde vós passais para a possuir [é] terra de montes e de planícies; da chuva dos céus bebe águas;
+11:12 terra de que YHWH, teu Deus, cuida; continuamente os olhos de YHWH, teu Deus, [estão] nela, desde o princípio do ano até o fim do ano.
+11:13 E será que, se ouvindo ouvirdes os meus mandamentos, que eu vos ordeno hoje, para amar YHWH, vosso Deus, e para o servir com todo o vosso coração e com toda a vossa alma,
+11:14 darei a chuva da vossa terra no seu tempo, a primeira chuva e a chuva tardia, e ajuntarás o teu trigo, e o teu mosto, e o teu azeite.
+11:15 E darei erva no teu campo para o teu gado; e comerás e te fartarás.
+11:16 Guardai-vos, para que não seja seduzido o vosso coração, e vos desvieis, e sirvais outros deuses, e vos prostreis a eles;
+11:17 e se acenda a ira de YHWH contra vós, e ele feche os céus, e não haja chuva, e o solo não dê a sua colheita, e pereçais depressa de sobre a terra boa que YHWH vos dá.
+11:18 E poreis estas minhas palavras sobre o vosso coração e sobre a vossa alma, e as atareis por sinal sobre a vossa mão, e serão por frontais entre os vossos olhos.
+11:19 E as ensinareis a vossos filhos, para falar delas quando te sentares em tua casa, e quando andares pelo caminho, e quando te deitares, e quando te levantares.
+11:20 E as escreverás sobre os umbrais da tua casa e nas tuas portas,
+11:21 para que se multipliquem os vossos dias e os dias de vossos filhos sobre o solo que YHWH jurou a vossos pais dar-lhes, como os dias dos céus sobre a terra.
+11:22 Porque, se guardando guardardes todo este mandamento que eu vos ordeno, para o fazer, para amar YHWH, vosso Deus, para andar em todos os seus caminhos e para vos apegardes a ele,
+11:23 YHWH desapossará todas estas nações de diante de vós, e desapossareis nações maiores e mais poderosas do que vós.
+11:24 Todo lugar que a planta do vosso pé pisar será vosso: desde o deserto e o Líbano, desde o rio, o rio Eufrates, até o mar último, será o vosso território.
+11:25 Não se manterá homem algum diante da vossa face; o vosso pavor e o vosso terror porá YHWH, vosso Deus, sobre a face de toda a terra que pisardes, como vos falou.
+11:26 Vê, eu ponho diante de vós hoje bênção e maldição:
+11:27 a bênção, se ouvirdes os mandamentos de YHWH, vosso Deus, que eu vos ordeno hoje;
+11:28 e a maldição, se não ouvirdes os mandamentos de YHWH, vosso Deus, e vos desviardes do caminho que eu vos ordeno hoje, para andar após outros deuses, que não conhecestes.
+11:29 E será que, quando YHWH, teu Deus, te fizer entrar na terra para onde tu entras para a possuir, porás a bênção sobre o monte Gerizim e a maldição sobre o monte Ebal.
+11:30 Não [estão] eles além do Jordão, depois do caminho do pôr do sol, na terra do cananeu que habita na Arabá, diante de Gilgal, junto aos carvalhos de Moré?
+11:31 Porque vós passais o Jordão para entrar a possuir a terra que YHWH, vosso Deus, vos dá; e a possuireis, e habitareis nela.
+11:32 E guardareis para fazer todos os estatutos e os juízos que eu ponho diante de vós hoje.
+
+12:1 Estes [são] os estatutos e os juízos que guardareis para fazer na terra que YHWH, o Deus de teus pais, te deu para a possuíres, todos os dias que vós [estiverdes] vivos sobre o solo.
+12:2 Fazendo perecer fareis perecer todos os lugares onde as nações que vós desapossais serviram os seus deuses, sobre os montes altos, e sobre as colinas, e debaixo de toda árvore verdejante.
+12:3 E derrubareis os seus altares, e quebrareis as suas colunas, e os seus postes-ídolos queimareis no fogo, e as imagens esculpidas dos seus deuses cortareis, e fareis perecer o seu nome daquele lugar.
+12:4 Não fareis assim a YHWH, vosso Deus;
+12:5 mas o lugar que YHWH, vosso Deus, escolher de todas as vossas tribos para pôr o seu nome ali, para a sua habitação, procurareis, e irás para lá.
+12:6 E trareis para lá os vossos holocaustos, e os vossos sacrifícios, e os vossos dízimos, e a oferta alçada da vossa mão, e os vossos votos, e as vossas ofertas voluntárias, e os primogênitos dos vossos bois e das vossas ovelhas.
+12:7 E comereis ali diante de YHWH, vosso Deus, e vos alegrareis em todo o empreendimento da vossa mão, vós e as vossas casas, com que YHWH, teu Deus, te abençoou.
+12:8 Não fareis conforme tudo o que nós fazemos aqui hoje, cada um tudo o que [é] reto aos seus olhos;
+12:9 porque não entrastes até agora no descanso e na herança que YHWH, teu Deus, te dá.
+12:10 E passareis o Jordão, e habitareis na terra que YHWH, vosso Deus, vos faz herdar; e ele vos dará descanso de todos os vossos inimigos ao redor, e habitareis em segurança.
+12:11 E será que ao lugar que YHWH, vosso Deus, escolher para fazer habitar o seu nome ali, para lá trareis tudo o que eu vos ordeno: os vossos holocaustos, e os vossos sacrifícios, os vossos dízimos, e a oferta alçada da vossa mão, e todo o melhor dos vossos votos que votardes a YHWH.
+12:12 E vos alegrareis diante de YHWH, vosso Deus, vós, e os vossos filhos, e as vossas filhas, e os vossos servos, e as vossas escravas, e o levita que [está] dentro das vossas portas, porque não tem porção nem herança convosco.
+12:13 Guarda-te, para que não faças subir os teus holocaustos em qualquer lugar que vires;
+12:14 mas no lugar que YHWH escolher em uma das tuas tribos, ali farás subir os teus holocaustos, e ali farás tudo o que eu te ordeno.
+12:15 Somente, com todo o desejo da tua alma, sacrificarás e comerás carne, conforme a bênção de YHWH, teu Deus, que te deu, dentro de todas as tuas portas; o impuro e o puro a comerão, como a gazela e como o cervo.
+12:16 Somente o sangue não comereis; sobre a terra o derramarás como água.
+12:17 Não poderás comer dentro das tuas portas o dízimo do teu trigo, e do teu mosto, e do teu azeite, nem os primogênitos dos teus bois e das tuas ovelhas, nem todos os teus votos que votares, nem as tuas ofertas voluntárias, nem a oferta alçada da tua mão;
+12:18 mas diante de YHWH, teu Deus, o comerás, no lugar que YHWH, teu Deus, escolher, tu, e teu filho, e tua filha, e o teu servo, e a tua escrava, e o levita que [está] dentro das tuas portas; e te alegrarás diante de YHWH, teu Deus, em todo o empreendimento da tua mão.
+12:19 Guarda-te, para que não abandones o levita todos os teus dias sobre o teu solo.
+12:20 Quando YHWH, teu Deus, alargar o teu território, como te falou, e disseres: Comerei carne — porque a tua alma deseja comer carne —, com todo o desejo da tua alma comerás carne.
+12:21 Quando estiver longe de ti o lugar que YHWH, teu Deus, escolher para pôr o seu nome ali, sacrificarás dos teus bois e das tuas ovelhas que YHWH te deu, como te ordenei, e comerás dentro das tuas portas, com todo o desejo da tua alma.
+12:22 Somente, como se come a gazela e o cervo, assim a comerás; o impuro e o puro juntamente a comerão.
+12:23 Somente sê forte para não comer o sangue, porque o sangue, ele [é] a alma; e não comerás a alma com a carne.
+12:24 Não o comerás; sobre a terra o derramarás como água.
+12:25 Não o comerás, para que te vá bem, a ti e a teus filhos depois de ti, quando fizeres o reto aos olhos de YHWH.
+12:26 Somente as tuas coisas santas que tiveres e os teus votos levarás, e irás ao lugar que YHWH escolher;
+12:27 e farás os teus holocaustos, a carne e o sangue, sobre o altar de YHWH, teu Deus; e o sangue dos teus sacrifícios será derramado sobre o altar de YHWH, teu Deus, e a carne comerás.
+12:28 Guarda e ouve todas estas palavras que eu te ordeno, para que te vá bem, a ti e a teus filhos depois de ti, para sempre, quando fizeres o bom e o reto aos olhos de YHWH, teu Deus.
+12:29 Quando YHWH, teu Deus, extirpar de diante de ti as nações para onde tu entras para as desapossar, e as desapossares, e habitares na sua terra,
+12:30 guarda-te, para que não sejas enlaçado após elas, depois de serem exterminadas de diante de ti, e para que não procures os seus deuses, dizendo: Como servem estas nações os seus deuses? E farei assim também eu.
+12:31 Não farás assim a YHWH, teu Deus; porque toda abominação de YHWH, que ele odeia, fizeram a seus deuses; porque até os seus filhos e as suas filhas queimam no fogo a seus deuses.
+
+13:1 Toda a palavra que eu vos ordeno, essa guardareis para fazer; não lhe acrescentarás e não diminuirás dela.
+13:2 Quando se levantar no meio de ti profeta ou sonhador de sonho, e te der sinal ou prodígio,
+13:3 e vier o sinal e o prodígio de que te falou, dizendo: Andemos após outros deuses, que não conheceste, e sirvamo-los,
+13:4 não ouvirás as palavras daquele profeta, ou daquele sonhador de sonho; porque YHWH, vosso Deus, vos prova, para saber se vós amais YHWH, vosso Deus, com todo o vosso coração e com toda a vossa alma.
+13:5 Após YHWH, vosso Deus, andareis, e a ele temereis, e os seus mandamentos guardareis, e a sua voz ouvireis, e a ele servireis, e a ele vos apegareis.
+13:6 E aquele profeta, ou aquele sonhador de sonho, será morto, porque falou desvio contra YHWH, vosso Deus, que vos fez sair da terra do Egito e te resgatou da casa de servos, para te desviar do caminho em que YHWH, teu Deus, te ordenou andar; e eliminarás o mal do meio de ti.
+13:7 Quando te incitar o teu irmão, filho de tua mãe, ou o teu filho, ou a tua filha, ou a mulher do teu seio, ou o teu próximo, que [é] como a tua alma, em segredo, dizendo: Andemos e sirvamos outros deuses, que não conheceste, tu e teus pais,
+13:8 dos deuses dos povos que [estão] ao redor de vós, os que [estão] perto de ti ou os que [estão] longe de ti, desde a extremidade da terra até a extremidade da terra,
+13:9 não consentirás com ele, e não o ouvirás, e não terá pena dele o teu olho, e não [o] pouparás, e não o encobrirás;
+13:10 mas matando o matarás; a tua mão será contra ele primeiro, para o matar, e a mão de todo o povo por último.
+13:11 E o apedrejarás com pedras, e morrerá; porque buscou desviar-te de YHWH, teu Deus, que te fez sair da terra do Egito, da casa de servos.
+13:12 E todo Israel ouvirá e temerá, e não continuarão a fazer [coisa] como esta coisa má no meio de ti.
+13:13 Quando ouvires em uma das tuas cidades, que YHWH, teu Deus, te dá para habitares ali, dizer:
+13:14 Saíram homens, filhos de vileza, do meio de ti, e desviaram os habitantes da sua cidade, dizendo: Andemos e sirvamos outros deuses, que não conhecestes;
+13:15 inquirirás, e investigarás, e perguntarás bem; e eis: verdade, firme [é] a coisa, foi feita esta abominação no meio de ti;
+13:16 ferindo ferirás os habitantes daquela cidade à boca da espada, consagrando-a ao extermínio, a ela, e a tudo o que [há] nela, e o seu gado, à boca da espada.
+13:17 E todo o seu despojo ajuntarás no meio da sua praça, e queimarás no fogo a cidade e todo o seu despojo, inteiramente, a YHWH, teu Deus; e será um monte de ruínas para sempre; não será edificada mais.
+13:18 E não se apegará à tua mão coisa alguma da coisa consagrada ao extermínio, para que YHWH se volte do ardor da sua ira, e te dê misericórdia, e tenha misericórdia de ti, e te multiplique, como jurou a teus pais,
+13:19 quando ouvires a voz de YHWH, teu Deus, para guardar todos os seus mandamentos que eu te ordeno hoje, para fazer o reto aos olhos de YHWH, teu Deus.
+
+14:1 Filhos [sois] vós de YHWH, vosso Deus; não vos fareis incisões, e não poreis calva entre os vossos olhos por um morto.
+14:2 Porque povo santo [és] tu para YHWH, teu Deus, e a ti escolheu YHWH para lhe seres por povo de propriedade particular, dentre todos os povos que [há] sobre a face do solo.
+14:3 Não comerás nenhuma abominação.
+14:4 Estes [são] os animais que comereis: o boi, o cordeiro de ovelhas e o cordeiro de cabras;
+14:5 o cervo, e a gazela, e o corço, e a cabra-montês, e o antílope, e o órix, e o carneiro-montês.
+14:6 E todo animal que tem unha fendida, e que tem a fenda em duas unhas, [e] que rumina, entre os animais, esse comereis.
+14:7 Somente estes não comereis dos que ruminam e dos que têm a unha fendida [e] dividida: o camelo, e a lebre, e o coelho-da-rocha; porque ruminam, e não têm unha fendida; impuros são para vós.
+14:8 E o porco, porque tem unha fendida, e não [tem] ruminação; impuro é para vós; da sua carne não comereis, e nos seus cadáveres não tocareis.
+14:9 Isto comereis de tudo o que [há] nas águas: tudo o que tem barbatanas e escamas comereis.
+14:10 E tudo o que não tem barbatanas e escamas não comereis; impuro é para vós.
+14:11 Toda ave pura comereis.
+14:12 E estas [são as] que não comereis delas: a águia, e o quebrantosso, e a águia-marinha,
+14:13 e o milhafre, e o falcão, e o milhano segundo a sua espécie,
+14:14 e todo corvo segundo a sua espécie,
+14:15 e o avestruz, e o mocho, e a gaivota, e o gavião segundo a sua espécie,
+14:16 o bufo, e a coruja, e a coruja-branca,
+14:17 e o pelicano, e o abutre, e o corvo-marinho,
+14:18 e a cegonha, e a garça segundo a sua espécie, e a poupa, e o morcego.
+14:19 E todo inseto alado impuro é para vós; não se comerão.
+14:20 Toda ave pura comereis.
+14:21 Não comereis nenhum cadáver; ao estrangeiro que [está] dentro das tuas portas o darás, e ele o comerá, ou vende[-o] a um estranho; porque povo santo [és] tu para YHWH, teu Deus. Não cozerás o cabrito no leite da sua mãe.
+14:22 Dizimando dizimarás todo o produto da tua semente, que sai do campo, ano a ano.
+14:23 E comerás diante de YHWH, teu Deus, no lugar que escolher para fazer habitar o seu nome ali, o dízimo do teu trigo, do teu mosto e do teu azeite, e os primogênitos dos teus bois e das tuas ovelhas, para que aprendas a temer YHWH, teu Deus, todos os dias.
+14:24 E quando o caminho for longo demais para ti, de modo que não o possas levar, porque está longe de ti o lugar que YHWH, teu Deus, escolher para pôr o seu nome ali, quando YHWH, teu Deus, te abençoar,
+14:25 darás [o dízimo] por prata, e atarás a prata na tua mão, e irás ao lugar que YHWH, teu Deus, escolher;
+14:26 e darás a prata por tudo o que desejar a tua alma: por bois, e por ovelhas, e por vinho, e por bebida forte, e por tudo o que te pedir a tua alma; e comerás ali diante de YHWH, teu Deus, e te alegrarás, tu e a tua casa.
+14:27 E o levita que [está] dentro das tuas portas, não o abandonarás, porque não tem porção nem herança contigo.
+14:28 Ao fim de três anos, tirarás todo o dízimo do teu produto naquele ano, e [o] depositarás dentro das tuas portas.
+14:29 E virá o levita — porque não tem porção nem herança contigo —, e o estrangeiro, e o órfão, e a viúva que [estão] dentro das tuas portas, e comerão, e se fartarão; para que YHWH, teu Deus, te abençoe em toda a obra da tua mão que fizeres.
+
+15:1 Ao fim de sete anos farás remissão.
+15:2 E esta [é] a palavra da remissão: todo dono de empréstimo da sua mão remitirá o que emprestar ao seu próximo; não pressionará o seu próximo nem o seu irmão, porque se proclamou remissão para YHWH.
+15:3 O estranho pressionarás; e o que for teu com teu irmão, a tua mão [o] remitirá.
+15:4 Contudo, não haverá em ti necessitado, porque abençoando te abençoará YHWH na terra que YHWH, teu Deus, te dá por herança, para a possuíres,
+15:5 somente se ouvindo ouvires a voz de YHWH, teu Deus, para guardar para fazer todo este mandamento que eu te ordeno hoje.
+15:6 Porque YHWH, teu Deus, te abençoou, como te falou; e emprestarás sob penhor a muitas nações, e tu não tomarás emprestado; e governarás muitas nações, e sobre ti não governarão.
+15:7 Quando houver em ti um necessitado, de um de teus irmãos, em uma das tuas portas, na tua terra que YHWH, teu Deus, te dá, não obstinarás o teu coração, e não fecharás a tua mão ao teu irmão necessitado;
+15:8 mas abrindo abrirás a tua mão para ele, e emprestando lhe emprestarás o bastante para a sua falta, o que lhe faltar.
+15:9 Guarda-te, para que não haja no teu coração palavra de vileza, dizendo: Aproximou-se o ano sétimo, o ano da remissão; e o teu olho seja mau para com teu irmão necessitado, e não lhe dês, e ele clame contra ti a YHWH, e haja em ti pecado.
+15:10 Dando lhe darás, e não seja mau o teu coração quando lhe deres; porque por causa desta coisa te abençoará YHWH, teu Deus, em toda a tua obra e em todo o empreendimento da tua mão.
+15:11 Porque não cessará o necessitado do meio da terra; por isso eu te ordeno, dizendo: Abrindo abrirás a tua mão ao teu irmão, ao teu pobre e ao teu necessitado na tua terra.
+15:12 Quando for vendido a ti teu irmão, o hebreu, ou a hebreia, e te servir seis anos, no sétimo ano o despedirás livre de junto de ti.
+15:13 E quando o despedires livre de junto de ti, não o despedirás de mãos vazias.
+15:14 Provendo o proverás das tuas ovelhas, e da tua eira, e do teu lagar; do que YHWH, teu Deus, te abençoou lhe darás.
+15:15 E lembrar-te-ás de que foste servo na terra do Egito, e YHWH, teu Deus, te resgatou; por isso eu te ordeno esta coisa hoje.
+15:16 E será que, se ele te disser: Não sairei de junto de ti — porque te ama, a ti e à tua casa, porque lhe vai bem contigo —,
+15:17 tomarás a sovela, e [a] porás na sua orelha e na porta, e será teu servo para sempre; e também à tua escrava farás assim.
+15:18 Não seja duro aos teus olhos, quando o despedires livre de junto de ti, porque o dobro do salário de um assalariado te serviu seis anos; e YHWH, teu Deus, te abençoará em tudo o que fizeres.
+15:19 Todo primogênito macho que nascer entre os teus bois e entre as tuas ovelhas santificarás a YHWH, teu Deus; não trabalharás com o primogênito do teu boi, e não tosquiarás o primogênito das tuas ovelhas.
+15:20 Diante de YHWH, teu Deus, o comerás de ano em ano, no lugar que YHWH escolher, tu e a tua casa.
+15:21 E quando houver nele defeito — coxo ou cego, qualquer defeito mau —, não o sacrificarás a YHWH, teu Deus.
+15:22 Dentro das tuas portas o comerás; o impuro e o puro juntamente, como a gazela e como o cervo.
+15:23 Somente o seu sangue não comerás; sobre a terra o derramarás como água.
+
+16:1 Guarda o mês de Abibe, e farás a Páscoa a YHWH, teu Deus; porque no mês de Abibe YHWH, teu Deus, te fez sair do Egito, de noite.
+16:2 E sacrificarás a Páscoa a YHWH, teu Deus, de ovelhas e de bois, no lugar que YHWH escolher para fazer habitar o seu nome ali.
+16:3 Não comerás com ela [nada] levedado; sete dias comerás com ela pães sem fermento, pão de aflição — porque com pressa saíste da terra do Egito —, para que te lembres do dia da tua saída da terra do Egito todos os dias da tua vida.
+16:4 E não se verá contigo fermento em todo o teu território sete dias; e não pernoitará [nada] da carne que sacrificares à tarde, no primeiro dia, até a manhã.
+16:5 Não poderás sacrificar a Páscoa em uma das tuas portas que YHWH, teu Deus, te dá;
+16:6 mas no lugar que YHWH, teu Deus, escolher para fazer habitar o seu nome ali, sacrificarás a Páscoa à tarde, ao pôr do sol, no tempo determinado da tua saída do Egito.
+16:7 E [a] cozerás e comerás no lugar que YHWH, teu Deus, escolher; e pela manhã te voltarás e irás às tuas tendas.
+16:8 Seis dias comerás pães sem fermento, e no sétimo dia [haverá] assembleia solene a YHWH, teu Deus; não farás obra.
+16:9 Sete semanas contarás para ti; desde o começo da foice na seara começarás a contar sete semanas.
+16:10 E farás a festa das semanas a YHWH, teu Deus, segundo a medida da oferta voluntária da tua mão, que darás conforme YHWH, teu Deus, te abençoar.
+16:11 E te alegrarás diante de YHWH, teu Deus, tu, e teu filho, e tua filha, e o teu servo, e a tua escrava, e o levita que [está] dentro das tuas portas, e o estrangeiro, e o órfão, e a viúva que [estão] no meio de ti, no lugar que YHWH, teu Deus, escolher para fazer habitar o seu nome ali.
+16:12 E lembrar-te-ás de que foste servo no Egito, e guardarás e farás estes estatutos.
+16:13 A festa das cabanas farás para ti sete dias, quando recolheres da tua eira e do teu lagar.
+16:14 E te alegrarás na tua festa, tu, e teu filho, e tua filha, e o teu servo, e a tua escrava, e o levita, e o estrangeiro, e o órfão, e a viúva que [estão] dentro das tuas portas.
+16:15 Sete dias celebrarás festa a YHWH, teu Deus, no lugar que YHWH escolher; porque YHWH, teu Deus, te abençoará em todo o teu produto e em toda a obra das tuas mãos; e estarás certamente alegre.
+16:16 Três vezes no ano aparecerá todo o teu macho diante da face de YHWH, teu Deus, no lugar que escolher: na festa dos pães sem fermento, e na festa das semanas, e na festa das cabanas; e não aparecerá diante da face de YHWH de mãos vazias.
+16:17 Cada um conforme o dom da sua mão, conforme a bênção de YHWH, teu Deus, que te deu.
+16:18 Juízes e oficiais porás para ti em todas as tuas portas que YHWH, teu Deus, te dá, segundo as tuas tribos; e julgarão o povo com juízo de justiça.
+16:19 Não inclinarás o juízo; não reconhecerás faces, e não tomarás suborno; porque o suborno cega os olhos dos sábios e perverte as palavras dos justos.
+16:20 Justiça, justiça perseguirás, para que vivas e possuas a terra que YHWH, teu Deus, te dá.
+16:21 Não plantarás para ti poste-ídolo, árvore alguma, junto ao altar de YHWH, teu Deus, que fizeres para ti.
+16:22 E não levantarás para ti coluna, que YHWH, teu Deus, odeia.

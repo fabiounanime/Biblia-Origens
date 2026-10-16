@@ -16,8 +16,8 @@ function TermosPage() {
     <LegalPage current="termos" title="Termos de Serviço" lead="As regras para usar a Bíblia Origens. Ao criar uma conta, você concorda com elas.">
       <LegalSection n={1} title="O serviço">
         <p>
-          A Bíblia Origens (<strong>bibliaorigens.app</strong>) é um aplicativo gratuito de leitura e estudo do Tanakh em
-          português, hebraico e transliterado, com marcas, notas, guias de estudo e mapas. O uso exige uma conta.
+          A Bíblia Origens (<strong>bibliaorigens.app</strong>) é um aplicativo gratuito de leitura e estudo da Bíblia em
+          português, no hebraico e no grego originais e transliterado, com marcas, notas, guias de estudo e mapas. O uso exige uma conta.
         </p>
       </LegalSection>
 

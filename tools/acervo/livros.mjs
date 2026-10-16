@@ -4,7 +4,7 @@
  *   gr: MorphGNT / SBLGNT (tools/acervo/.cache/sblgnt/{arquivo}-morphgnt.txt)
  */
 
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { readBook } from "./oshb.mjs";
@@ -60,4 +60,28 @@ export function readSource(bookId) {
     throw new Error(`Grego não encontrado em ${path}. Baixe com: git clone --depth 1 https://github.com/morphgnt/sblgnt tools/acervo/.cache/sblgnt`);
   }
   return { lang: source.lang, verses: readGreekBook(path) };
+}
+
+/**
+ * Arquivos de um livro numa pasta do acervo: {livro}.txt e, quando o livro é
+ * traduzido em partes, {livro}.d/*.txt (em ordem alfabética).
+ *   partFiles("acervo/traducao", "is") → [".../is.txt", ".../is.d/01-33.txt", ".../is.d/34-66.txt"]
+ * @param {string} dir pasta relativa à raiz do repositório
+ * @param {string} bookId
+ */
+export function partFiles(dir, bookId) {
+  const base = join(ROOT, dir, bookId);
+  const files = existsSync(`${base}.txt`) ? [`${base}.txt`] : [];
+  if (existsSync(`${base}.d`)) {
+    for (const name of readdirSync(`${base}.d`).filter((n) => n.endsWith(".txt")).sort()) files.push(join(`${base}.d`, name));
+  }
+  return files;
+}
+
+/** "3-9" → [3, 9]; "4" → [4, 4]; vazio → todos. */
+export function parseRange(/** @type {string | undefined} */ range) {
+  if (!range) return [1, 999];
+  const [from, to] = range.split("-").map(Number);
+  if (!from) throw new Error(`Capítulos inválidos: ${range} (use, por exemplo, 3-9)`);
+  return [from, to || from];
 }
