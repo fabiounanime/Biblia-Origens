@@ -1,0 +1,354 @@
+# Juízes (Shoftim) 10–21 — tradução direta do hebraico (Códice de Leningrado)
+# Segunda parte do livro; os capítulos 1–9 estão em jz.d/001.txt.
+#
+# Mesmas convenções e mesmas escolhas de Juízes 1–9 (veja acervo/traducao/jz.d/001.txt) e de Gênesis a Josué:
+#   - יהוה = YHWH; מַלְאַךְ יְהוָה / מַלְאַךְ הָאֱלֹהִים = anjo de YHWH / anjo de Deus; מַלְאָךְ humano = mensageiro;
+#     nomes na forma tradicional; [colchetes] = palavra acrescentada pelo sentido; o vav é "E".
+#     וַיְהִי … וַ… = "E aconteceu, …, que …". O coletivo gentílico fica no singular ("o homem de Efraim", "o homem de Israel").
+#   - Vocabulário retomado de 1–9: שֹׁפֵט / שָׁפַט = juiz / julgar; הוֹסִיף לַעֲשׂוֹת = tornar a fazer;
+#     הָרַע בְּעֵינֵי יְהוָה = o mal aos olhos de YHWH; מָכַר בְּיַד = vender na mão de; זָעַק = clamar;
+#     בַּעַל, בְּעָלִים = Baal, os Baais; אֱלֹהִים de deus alheio (Dagom, Camos) = deus(es), minúsculo; שַׂר = chefe;
+#     סֶרֶן (dos filisteus) = governante; נָשִׂיא = príncipe; נַחַל = ribeiro; רֵעַ = próximo; נְבָלָה = loucura;
+#     בַּעֲלֵי (cidade) = senhores de; מְסִלָּה = estrada; לְפִי־חֶרֶב = à boca da espada; הֶחֱרִים = consagrar ao extermínio;
+#     יָרַשׁ = possuir (a terra) / הוֹרִישׁ = desapossar; מִנְחָה (a YHWH) = oferta de manjares; עֹלָה = holocausto;
+#     שְׁלָמִים = ofertas pacíficas; הוֹאִיל = consentir (17:11; 19:6).
+#   - Vocabulário próprio de Juízes 10–21:
+#     נְזִיר = nazireu (13:5, 7; 16:17); פֶּסֶל = imagem esculpida; מַסֵּכָה = imagem fundida; אֵפוֹד = éfode;
+#     תְּרָפִים = terafins; פִּילֶגֶשׁ = concubina; קָצִין = comandante (11:6, 11) e רֹאשׁ = cabeça;
+#     מֵרֵעַ / רֵעָה (11:37; 14:11) = companheiro / companheira; גִּבּוֹר חַיִל = valente de valor;
+#     בְּנֵי חַיִל / אַנְשֵׁי חַיִל = filhos de valor / homens de valor; בְּנֵי בְלִיַּעַל = filhos de vileza;
+#     זִמָּה = infâmia; שֵׁבֶט = tribo; עֵדָה = congregação; קָהָל = assembleia;
+#     עִנָּה (piel) = afligir; humilhar (violentar: 19:24; 20:5); נִזְעַק / נֶאֱסַף (nifal) = ser convocado / ser reunido;
+#     הִתְפָּקֵד = ser contado; נִחַם (nifal) = condoer-se (21:6, 15); לְחִי = queixada;
+#     צֶמֶד חֲמֹרִים = junta de jumentos; הִשְׁחִית (20:21, 25, 35) = destruir; גֵּרֵשׁ = expulsar;
+#     קָרָא שָׁלוֹם (21:13) = proclamar paz; שָׁאַל בֵּאלֹהִים = perguntar a Deus.
+#   - Os capítulos 19–21 (o levita e a concubina; a guerra contra Benjamim) seguem o hebraico sem suavizar:
+#     יָדַע = conhecer (também no sentido sexual), como em Gênesis.
+
+10:1 E levantou-se, depois de Abimeleque, para salvar Israel, Tola, filho de Puva, filho de Dodô, homem de Issacar; e ele habitava em Samir, no monte de Efraim.
+10:2 E julgou Israel vinte e três anos; e morreu, e foi sepultado em Samir.
+10:3 E levantou-se depois dele Jair, o gileadita; e julgou Israel vinte e dois anos.
+10:4 E teve ele trinta filhos, montando sobre trinta jumentinhos; e trinta jumentinhos para eles; para eles chamam Havote-Jair até este dia, que [fica] na terra de Gileade.
+10:5 E morreu Jair e foi sepultado em Camom.
+10:6 E tornaram os filhos de Israel a fazer o mal aos olhos de YHWH, e serviram aos Baais, e às Astarotes, e aos deuses de Arã, e aos deuses de Sidom, e aos deuses de Moabe, e aos deuses dos filhos de Amom, e aos deuses dos filisteus; e deixaram YHWH e não o serviram.
+10:7 E acendeu-se a ira de YHWH contra Israel, e vendeu-os na mão dos filisteus e na mão dos filhos de Amom.
+10:8 E estilhaçaram e esmagaram os filhos de Israel naquele ano, dezoito anos, a todos os filhos de Israel que [estavam] do outro lado do Jordão, na terra do amorreu que [fica] em Gileade.
+10:9 E passaram os filhos de Amom o Jordão para pelejar também contra Judá, e contra Benjamim, e contra a casa de Efraim; e Israel ficou muito angustiado.
+10:10 E clamaram os filhos de Israel a YHWH, dizendo: Pecamos contra ti, e porque deixamos o nosso Deus e servimos aos Baais.
+10:11 E disse YHWH aos filhos de Israel: [Não vos livrei] acaso do Egito, e do amorreu, e dos filhos de Amom, e dos filisteus?
+10:12 E os sidônios, e Amaleque, e Maom vos oprimiram; e clamastes a mim, e vos salvei da mão deles.
+10:13 E vós me deixastes e servistes a outros deuses; por isso não tornarei a salvar-vos.
+10:14 Ide e clamai aos deuses que escolhestes; eles vos salvem no tempo da vossa angústia.
+10:15 E disseram os filhos de Israel a YHWH: Pecamos; faze tu conosco conforme tudo o que [é] bom aos teus olhos; somente livra-nos, por favor, neste dia.
+10:16 E removeram os deuses do estrangeiro do meio deles e serviram a YHWH; e encurtou-se a sua alma no trabalho de Israel.
+10:17 E foram convocados os filhos de Amom e acamparam em Gileade; e foram reunidos os filhos de Israel e acamparam em Mispa.
+10:18 E disse o povo, os chefes de Gileade, cada homem ao seu próximo: Quem [é] o homem que começar a pelejar contra os filhos de Amom? Será por cabeça de todos os habitantes de Gileade.
+
+11:1 E Jefté, o gileadita, era valente de valor; e ele [era] filho de mulher prostituta; e gerou Gileade a Jefté.
+11:2 E deu à luz a mulher de Gileade, para ele, filhos; e cresceram os filhos da mulher e expulsaram Jefté, e disseram-lhe: Não herdarás na casa de nosso pai, porque filho de outra mulher [és] tu.
+11:3 E fugiu Jefté de diante de seus irmãos e habitou na terra de Tobe; e ajuntaram-se a Jefté homens vazios, e saíram com ele.
+11:4 E aconteceu, depois de dias, que pelejaram os filhos de Amom contra Israel.
+11:5 E aconteceu que, quando pelejaram os filhos de Amom contra Israel, foram os anciãos de Gileade tomar Jefté da terra de Tobe.
+11:6 E disseram a Jefté: Vai, e serás para nós comandante, e pelejaremos contra os filhos de Amom.
+11:7 E disse Jefté aos anciãos de Gileade: Acaso não vós me odiastes e me expulsastes da casa de meu pai? E por que viestes a mim agora, quando [estais] em aperto?
+11:8 E disseram os anciãos de Gileade a Jefté: Por isso agora voltamos a ti; e andarás conosco, e pelejarás contra os filhos de Amom, e serás para nós por cabeça de todos os habitantes de Gileade.
+11:9 E disse Jefté aos anciãos de Gileade: Se vós me fazeis voltar para pelejar contra os filhos de Amom, e YHWH os der diante de mim, eu serei para vós por cabeça.
+11:10 E disseram os anciãos de Gileade a Jefté: YHWH será ouvinte entre nós; se não, conforme a tua palavra, assim faremos.
+11:11 E foi Jefté com os anciãos de Gileade, e o povo o pôs sobre eles por cabeça e por comandante; e falou Jefté todas as suas palavras diante de YHWH, em Mispa.
+11:12 E enviou Jefté mensageiros ao rei dos filhos de Amom, dizendo: Que [há] entre mim e ti, que vieste a mim para pelejar na minha terra?
+11:13 E disse o rei dos filhos de Amom aos mensageiros de Jefté: Porque Israel tomou a minha terra, ao subir do Egito, desde o Arnom até o Jaboque e até o Jordão; e agora devolve-as em paz.
+11:14 E tornou ainda Jefté, e enviou mensageiros ao rei dos filhos de Amom.
+11:15 E disse-lhe: Assim disse Jefté: Israel não tomou a terra de Moabe nem a terra dos filhos de Amom;
+11:16 porque, ao subirem do Egito, foi Israel pelo deserto até o mar de Juncos, e veio a Cades.
+11:17 E enviou Israel mensageiros ao rei de Edom, dizendo: Passe eu, por favor, pela tua terra; e o rei de Edom não ouviu. E também ao rei de Moabe enviou, e não quis. E ficou Israel em Cades.
+11:18 E foi pelo deserto, e rodeou a terra de Edom e a terra de Moabe, e veio pelo nascente do sol à terra de Moabe, e acamparam do outro lado do Arnom; e não entraram no território de Moabe, porque o Arnom [é] o território de Moabe.
+11:19 E enviou Israel mensageiros a Seom, rei do amorreu, rei de Hesbom; e disse-lhe Israel: Passemos, por favor, pela tua terra até o meu lugar.
+11:20 E Seom não creu em Israel [para] passar pelo seu território; e ajuntou Seom todo o seu povo, e acamparam em Jaza, e pelejou com Israel.
+11:21 E deu YHWH, Deus de Israel, a Seom e a todo o seu povo na mão de Israel, e feriram-nos; e possuiu Israel toda a terra do amorreu, habitante daquela terra.
+11:22 E possuíram todo o território do amorreu, desde o Arnom até o Jaboque, e desde o deserto até o Jordão.
+11:23 E agora YHWH, Deus de Israel, desapossou o amorreu de diante do seu povo Israel; e tu o possuirás?
+11:24 Acaso o que Camos, teu deus, te desapossa, isso possuirás? E tudo o que YHWH, nosso Deus, desapossou de diante de nós, isso possuiremos.
+11:25 E agora, [és] tu bom, bom, mais do que Balaque, filho de Zipor, rei de Moabe? Contendendo contendeu ele com Israel, ou pelejando pelejou contra eles?
+11:26 Quando habitava Israel em Hesbom e nas suas filhas, e em Aroer e nas suas filhas, e em todas as cidades que [estão] às margens do Arnom, trezentos anos, e por que não as livrastes naquele tempo?
+11:27 E eu não pequei contra ti, e tu fazes comigo o mal, pelejando contra mim; julgue YHWH, o juiz, hoje, entre os filhos de Israel e entre os filhos de Amom.
+11:28 E o rei dos filhos de Amom não ouviu as palavras de Jefté, que lhe enviou.
+11:29 E esteve sobre Jefté o espírito de YHWH, e passou por Gileade e por Manassés, e passou por Mispa de Gileade, e de Mispa de Gileade passou [até] os filhos de Amom.
+11:30 E fez Jefté um voto a YHWH, e disse: Se dando deres os filhos de Amom na minha mão,
+11:31 E será que o que sair, que sair das portas da minha casa ao meu encontro, quando eu voltar em paz dos filhos de Amom, será para YHWH; e o farei subir [como] holocausto.
+11:32 E passou Jefté aos filhos de Amom para pelejar contra eles; e deu-os YHWH na sua mão.
+11:33 E feriu-os de Aroer até a tua chegada a Minite, vinte cidades, e até Abel-Queramim, com um golpe muito grande; e foram humilhados os filhos de Amom diante dos filhos de Israel.
+11:34 E veio Jefté a Mispa, à sua casa; e eis a sua filha saindo ao seu encontro, com tamboris e com danças; e somente ela [era] a única; não havia para ele, de si, filho nem filha.
+11:35 E aconteceu que, ao vê-la, rasgou as suas vestes e disse: Ah, minha filha! Fazendo-me curvar, fizeste-me curvar, e tu [estás] entre os que me perturbam; e eu abri a minha boca a YHWH, e não posso voltar.
+11:36 E ela disse-lhe: Meu pai, abriste a tua boca a YHWH; faze-me conforme o que saiu da tua boca, depois que YHWH fez por ti vinganças dos teus inimigos, dos filhos de Amom.
+11:37 E disse a seu pai: Seja feita a mim esta palavra: Deixa-me por dois meses, e irei, e descerei sobre os montes, e chorarei sobre a minha virgindade, eu e as minhas companheiras.
+11:38 E disse: Vai. E enviou-a por dois meses; e foi ela e as suas companheiras, e chorou sobre a sua virgindade sobre os montes.
+11:39 E aconteceu, ao fim de dois meses, que voltou a seu pai; e fez-lhe o seu voto que fez; e ela não conheceu homem. E tornou-se estatuto em Israel:
+11:40 De dias em dias vão as filhas de Israel para repetir à filha de Jefté, o gileadita, quatro dias no ano.
+
+12:1 E foi convocado o homem de Efraim, e passou para o norte, e disseram a Jefté: Por que passaste para pelejar contra os filhos de Amom, e a nós não chamaste para ir contigo? A tua casa queimaremos sobre ti com fogo.
+12:2 E disse-lhes Jefté: Homem de contenda fui, eu e o meu povo e os filhos de Amom, muito; e vos convoquei, e não me salvastes da mão deles.
+12:3 E vi que [não eras] salvador; e pus a minha alma na minha palma, e passei aos filhos de Amom; e deu-os YHWH na minha mão; e para que subistes a mim neste dia, para pelejar contra mim?
+12:4 E ajuntou Jefté todos os homens de Gileade e pelejou com Efraim; e feriram os homens de Gileade a Efraim, porque disseram: Fugitivos de Efraim [sois] vós, Gileade, no meio de Efraim, no meio de Manassés.
+12:5 E tomou Gileade as passagens do Jordão a Efraim; e acontecia que, quando diziam os fugitivos de Efraim: Passarei, diziam-lhe os homens de Gileade: [És] tu efraimita? E dizia: Não.
+12:6 E diziam-lhe: Dize, por favor, Chibolete; e dizia: Sibolete, e não acertava em pronunciar assim; e agarravam-no e degolavam-no nas passagens do Jordão. E caíram naquele tempo, de Efraim, quarenta e dois mil.
+12:7 E julgou Jefté a Israel seis anos; e morreu Jefté, o gileadita, e foi sepultado nas cidades de Gileade.
+12:8 E julgou depois dele a Israel Ibsã, de Belém.
+12:9 E teve ele trinta filhos e trinta filhas; enviou-as para fora; e trinta filhas trouxe de fora para os seus filhos; e julgou Israel sete anos.
+12:10 E morreu Ibsã e foi sepultado em Belém.
+12:11 E julgou depois dele a Israel Elom, o zebulonita; e julgou Israel dez anos.
+12:12 E morreu Elom, o zebulonita, e foi sepultado em Aijalom, na terra de Zebulom.
+12:13 E julgou depois dele a Israel Abdom, filho de Hilel, o piratonita.
+12:14 E teve ele quarenta filhos e trinta filhos de filhos, montando sobre setenta jumentinhos; e julgou Israel oito anos.
+12:15 E morreu Abdom, filho de Hilel, o piratonita, e foi sepultado em Piratom, na terra de Efraim, no monte do amalequita.
+
+13:1 E tornaram os filhos de Israel a fazer o mal aos olhos de YHWH, e deu-os YHWH na mão dos filisteus quarenta anos.
+13:2 E houve um homem de Zorá, da família do danita, e o seu nome [era] Manoá; e a sua mulher [era] estéril e não tinha dado à luz.
+13:3 E apareceu o anjo de YHWH à mulher e disse-lhe: Eis que tu [és] estéril e não deste à luz; e conceberás e darás à luz um filho.
+13:4 E agora guarda-te, por favor, e não bebas vinho nem bebida forte, e não comas nada impuro.
+13:5 Porque eis que estás grávida e darás à luz um filho; e navalha não subirá sobre a sua cabeça, porque nazireu de Deus será o moço desde o ventre; e ele começará a salvar Israel da mão dos filisteus.
+13:6 E veio a mulher e disse ao seu marido: Um homem de Deus veio a mim, e o seu aspecto [era] como o aspecto do anjo de Deus, muito temível; e não lhe perguntei de onde [era] ele, e o seu nome não me declarou.
+13:7 E disse-me: Eis que estás grávida e darás à luz um filho; e agora não bebas vinho nem bebida forte, e não comas nenhuma impureza, porque nazireu de Deus será o moço desde o ventre até o dia da sua morte.
+13:8 E suplicou Manoá a YHWH e disse: Ah, meu Senhor! O homem de Deus que enviaste, venha, por favor, ainda a nós e ensine-nos o que faremos ao moço que nascer.
+13:9 E ouviu Deus a voz de Manoá, e veio o anjo de Deus ainda à mulher, e ela estava sentada no campo; e Manoá, seu marido, não [estava] com ela.
+13:10 E apressou-se a mulher, e correu, e contou ao seu marido, e disse-lhe: Eis que me apareceu o homem que veio a mim no [outro] dia.
+13:11 E levantou-se Manoá e foi atrás da sua mulher, e veio ao homem e disse-lhe: És tu o homem que falaste à mulher? E disse: Eu.
+13:12 E disse Manoá: Agora venham as tuas palavras; qual será o juízo do moço e a sua obra?
+13:13 E disse o anjo de YHWH a Manoá: De tudo o que eu disse à mulher guarde-se.
+13:14 De tudo o que sai da videira do vinho não comerá; e vinho e bebida forte não beba; e nenhuma impureza coma; tudo o que lhe ordenei guardará.
+13:15 E disse Manoá ao anjo de YHWH: Retenhamos-te, por favor, e façamos diante de ti um cabrito de cabras.
+13:16 E disse o anjo de YHWH a Manoá: Se me retiveres, não comerei do teu pão; e se fizeres holocausto a YHWH, fá-la-ás subir. Porque Manoá não sabia que ele [era] o anjo de YHWH.
+13:17 E disse Manoá ao anjo de YHWH: Qual [é] o teu nome? Porque, quando vier a tua palavra, te honraremos.
+13:18 E disse-lhe o anjo de YHWH: Por que isto perguntas pelo meu nome? E ele [é] maravilhoso.
+13:19 E tomou Manoá o cabrito de cabras e a oferta de manjares, e fez subir sobre a rocha, a YHWH; e [ele] agiu maravilhosamente, e Manoá e a sua mulher viam.
+13:20 E aconteceu que, ao subir a chama de sobre o altar para os céus, subiu o anjo de YHWH na chama do altar; e Manoá e a sua mulher viam, e caíram sobre as suas faces à terra.
+13:21 E o anjo de YHWH não tornou mais a aparecer a Manoá e à sua mulher. Então soube Manoá que ele [era] o anjo de YHWH.
+13:22 E disse Manoá à sua mulher: Morrendo morreremos, porque vimos Deus.
+13:23 E disse-lhe a sua mulher: Se YHWH quisesse matar-nos, não teria tomado da nossa mão holocausto e oferta de manjares, e não nos teria mostrado tudo isto, e neste tempo não nos teria feito ouvir [coisa] como esta.
+13:24 E deu à luz a mulher um filho e chamou o seu nome Sansão; e cresceu o moço, e abençoou-o YHWH.
+13:25 E começou o espírito de YHWH a agitá-lo no acampamento de Dã, entre Zorá e Estaol.
+
+14:1 E desceu Sansão a Timna e viu uma mulher em Timna, das filhas dos filisteus.
+14:2 E subiu e contou a seu pai e a sua mãe, e disse: Uma mulher vi em Timna, das filhas dos filisteus; e agora tomai-a para mim por mulher.
+14:3 E disseram-lhe seu pai e sua mãe: Acaso não há entre as filhas dos teus irmãos, e em todo o meu povo, mulher, que vais tomar mulher dos filisteus, os incircuncisos? E disse Sansão a seu pai: Toma-me essa, porque ela é reta aos meus olhos.
+14:4 E seu pai e sua mãe não sabiam que isso [era] de YHWH, porque ele buscava uma ocasião contra os filisteus; e naquele tempo os filisteus governavam em Israel.
+14:5 E desceu Sansão, e seu pai e sua mãe, a Timna; e vieram até as vinhas de Timna; e eis um leão novo rugindo ao seu encontro.
+14:6 E irrompeu sobre ele o espírito de YHWH, e fendeu-o como se fende o cabrito, e nada [havia] na sua mão; e não contou a seu pai e a sua mãe o que fez.
+14:7 E desceu e falou à mulher; e foi reta aos olhos de Sansão.
+14:8 E voltou, depois de dias, para a tomar; e desviou-se para ver a carcaça do leão; e eis um enxame de abelhas no corpo do leão, e mel.
+14:9 E raspou-o para as suas palmas, e foi andando e comendo; e foi a seu pai e a sua mãe e deu-lhes, e comeram; e não lhes contou que do corpo do leão raspara o mel.
+14:10 E desceu seu pai à mulher; e fez ali Sansão um banquete, porque assim faziam os jovens.
+14:11 E aconteceu que, ao vê-lo, tomaram trinta companheiros, e estiveram com ele.
+14:12 E disse-lhes Sansão: Proponha-vos eu, por favor, um enigma; se, declarando, mo declarardes nos sete dias do banquete, e achardes, dar-vos-ei trinta túnicas de linho e trinta mudas de vestes.
+14:13 E se não puderdes declarar-mo, dareis vós a mim trinta túnicas de linho e trinta mudas de vestes. E disseram-lhe: Propõe o teu enigma, e o ouviremos.
+14:14 E disse-lhes: Do que come saiu comida, e do forte saiu doce. E não puderam declarar o enigma em três dias.
+14:15 E aconteceu, ao dia sétimo, que disseram à mulher de Sansão: Seduze o teu marido, e que nos declare o enigma, para que não queimemos a ti e a casa de teu pai com fogo. Para nos desapossar nos chamastes? Acaso não?
+14:16 E chorou a mulher de Sansão sobre ele e disse: Somente me odeias, e não me amas; o enigma propuseste aos filhos do meu povo, e a mim não [o] declaraste. E disse-lhe: Eis que a meu pai e a minha mãe não [o] declarei, e a ti [o] declararei?
+14:17 E chorou sobre ele os sete dias em que o banquete era para eles; e aconteceu, ao dia sétimo, que lhe declarou, porque ela o apertou; e declarou ela o enigma aos filhos do seu povo.
+14:18 E disseram-lhe os homens da cidade, ao dia sétimo, antes que entrasse o sol: Que [é] mais doce do que o mel? E que [é] mais forte do que o leão? E disse-lhes: Se não tivésseis arado com a minha novilha, não teríeis achado o meu enigma.
+14:19 E irrompeu sobre ele o espírito de YHWH, e desceu a Asquelom, e feriu deles trinta homens, e tomou os seus despojos, e deu as mudas aos que declararam o enigma; e acendeu-se a sua ira, e subiu à casa de seu pai.
+14:20 E a mulher de Sansão foi para o seu companheiro, que tinha sido companheiro dele.
+
+15:1 E aconteceu, depois de dias, nos dias da ceifa do trigo, que Sansão visitou a sua mulher com um cabrito de cabras; e disse: Entrarei à minha mulher, ao quarto. E o pai dela não lhe permitiu entrar.
+15:2 E disse o pai dela: Dizendo, disse eu: Odiando, odiaste-a; e dei-a ao teu companheiro. Acaso a irmã dela, a menor, [não é] melhor do que ela? Seja, por favor, tua em lugar dela.
+15:3 E disse-lhes Sansão: Estou livre, desta vez, dos filisteus, porque faço com eles o mal.
+15:4 E foi Sansão e apanhou trezentas raposas; e tomou tochas, e virou cauda com cauda, e pôs uma tocha entre as duas caudas, no meio.
+15:5 E acendeu fogo nas tochas e soltou-as nas searas dos filisteus; e queimou desde o feixe até a seara em pé, e até a vinha de oliveira.
+15:6 E disseram os filisteus: Quem fez isto? E disseram: Sansão, genro do timnita, porque tomou a sua mulher e a deu ao seu companheiro. E subiram os filisteus e queimaram-na, e ao pai dela, com fogo.
+15:7 E disse-lhes Sansão: Se fazeis como esta, mas me terei vingado de vós; e depois cessarei.
+15:8 E feriu-os, perna sobre coxa, com um golpe grande; e desceu e habitou na fenda da rocha de Etã.
+15:9 E subiram os filisteus e acamparam em Judá, e espalharam-se em Leí.
+15:10 E disse o homem de Judá: Por que subistes contra nós? E disseram: Para amarrar Sansão subimos, para fazer-lhe como fez a nós.
+15:11 E desceram três mil homens de Judá à fenda da rocha de Etã e disseram a Sansão: Acaso não sabes que os filisteus governam sobre nós? E que [é] isto que nos fizeste? E disse-lhes: Como fizeram a mim, assim fiz a eles.
+15:12 E disseram-lhe: Para te amarrar descemos, para te dar na mão dos filisteus. E disse-lhes Sansão: Jurai-me, para que não me atinjais vós.
+15:13 E disseram-lhe, dizendo: Não, mas amarrando-te amarraremos e te daremos na mão deles; e matando não te mataremos. E amarraram-no com duas cordas novas e fizeram-no subir da rocha.
+15:14 Ele veio até Leí; e os filisteus levantaram brados ao seu encontro; e irrompeu sobre ele o espírito de YHWH, e as cordas que [estavam] sobre os seus braços foram como linho que arde com fogo; e derreteram-se as suas amarras de sobre as suas mãos.
+15:15 E achou uma queixada fresca de jumento; e estendeu a sua mão e tomou-a, e feriu com ela mil homens.
+15:16 E disse Sansão: Com a queixada do jumento, um montão, dois montões; com a queixada do jumento feri mil homens.
+15:17 E aconteceu que, ao acabar de falar, lançou a queixada da sua mão; e chamou àquele lugar Ramate-Leí.
+15:18 E teve muita sede e chamou a YHWH, e disse: Tu deste na mão do teu servo esta grande salvação; e agora morrerei de sede e cairei na mão dos incircuncisos.
+15:19 E rompeu Deus a cavidade que [está] em Leí, e saíram dela águas; e bebeu, e voltou o seu espírito, e viveu. Por isso chamou o seu nome En-Hacoré, que [fica] em Leí, até este dia.
+15:20 E julgou Israel nos dias dos filisteus vinte anos.
+
+16:1 E foi Sansão a Gaza e viu ali uma mulher prostituta, e entrou a ela.
+16:2 [Foi contado] aos gazitas, dizendo: Veio aqui Sansão. E rodearam-no e emboscaram-no toda a noite à porta da cidade; e ficaram em silêncio toda a noite, dizendo: Até a luz da manhã; e o mataremos.
+16:3 E deitou-se Sansão até a metade da noite, e levantou-se à metade da noite, e agarrou as portas da porta da cidade e os dois umbrais, e arrancou-os com a trave; e pôs [-os] sobre os seus ombros e fê-los subir ao cume do monte que [está] diante de Hebrom.
+16:4 E aconteceu, depois disso, que amou uma mulher no ribeiro de Soreque, e o seu nome [era] Dalila.
+16:5 E subiram a ela os governantes dos filisteus e disseram-lhe: Seduze-o e vê em que [está] a sua grande força, e em que poderemos contra ele, e o amarraremos para o afligir; e nós te daremos, cada homem, mil e cem de prata.
+16:6 E disse Dalila a Sansão: Declara-me, por favor, em que [está] a tua grande força, e em que serias amarrado para te afligir.
+16:7 E disse-lhe Sansão: Se me amarrarem com sete cordas frescas, que não secaram, enfraquecerei e serei como um dos homens.
+16:8 E fizeram subir-lhe os governantes dos filisteus sete cordas frescas, que não secaram; e amarrou-o com elas.
+16:9 E o emboscado estava sentado para ela no quarto; e disse-lhe: Os filisteus [estão] sobre ti, Sansão! E arrebentou as cordas como se arrebenta um fio de estopa ao cheirar o fogo; e não foi conhecida a sua força.
+16:10 E disse Dalila a Sansão: Eis que me enganaste e falaste-me mentiras; agora declara-me, por favor, em que serias amarrado.
+16:11 E disse-lhe: Se, amarrando, me amarrarem com cordas novas, em que não se fez obra, enfraquecerei e serei como um dos homens.
+16:12 E tomou Dalila cordas novas e amarrou-o com elas, e disse-lhe: Os filisteus [estão] sobre ti, Sansão! E o emboscado estava sentado no quarto. E arrebentou-as de sobre os seus braços como o fio.
+16:13 E disse Dalila a Sansão: Até aqui me enganaste e falaste-me mentiras; declara-me em que serias amarrado. E disse-lhe: Se teceres as sete tranças da minha cabeça com a urdidura,
+16:14 e cravou com a estaca, e disse-lhe: Os filisteus [estão] sobre ti, Sansão! E despertou do seu sono e arrancou a estaca do tear e a urdidura.
+16:15 E disse-lhe: Como dizes: Amo-te, e o teu coração não [está] comigo? Estas três vezes me enganaste e não me declaraste em que [está] a tua grande força.
+16:16 E aconteceu que, porque ela o apertava com as suas palavras todos os dias, e o instava, encurtou-se a sua alma, para morrer.
+16:17 E declarou-lhe todo o seu coração, e disse-lhe: Navalha não subiu sobre a minha cabeça, porque nazireu de Deus [sou] eu desde o ventre de minha mãe; se for rapado, afastar-se-á de mim a minha força, e enfraquecerei e serei como todo homem.
+16:18 E viu Dalila que lhe declarara todo o seu coração; e enviou e chamou os governantes dos filisteus, dizendo: Subi desta vez, porque me declarou todo o seu coração. E subiram a ela os governantes dos filisteus e fizeram subir a prata na sua mão.
+16:19 E fê-lo dormir sobre os seus joelhos, e chamou o homem, e rapou as sete tranças da sua cabeça; e começou a afligi-lo, e afastou-se dele a sua força.
+16:20 E disse: Os filisteus [estão] sobre ti, Sansão! E despertou do seu sono e disse: Sairei como de vez em vez e me sacudirei. E ele não sabia que YHWH se afastara dele.
+16:21 E agarraram-no os filisteus e arrancaram-lhe os olhos, e fizeram-no descer a Gaza e amarraram-no com duas [cadeias] de bronze; e ficou moendo na casa dos presos.
+16:22 E começou o cabelo da sua cabeça a brotar, depois que fora rapado.
+16:23 E os governantes dos filisteus foram reunidos para sacrificar um grande sacrifício a Dagom, seu deus, e para alegria; e disseram: Deu o nosso deus na nossa mão Sansão, nosso inimigo.
+16:24 E viram-no o povo e louvaram o seu deus, porque disseram: Deu o nosso deus na nossa mão o nosso inimigo, e o devastador da nossa terra, e aquele que multiplicou os nossos mortos.
+16:25 E aconteceu que, quando o seu coração estava bom, disseram: Chamai Sansão, e que brinque para nós. E chamaram Sansão da casa dos presos, e brincou diante deles; e puseram-no de pé entre as colunas.
+16:26 E disse Sansão ao moço que o segurava pela mão: Deixa-me e faze-me apalpar as colunas sobre as quais a casa está firme, e me recostarei nelas.
+16:27 E a casa estava cheia de homens e mulheres; e ali [estavam] todos os governantes dos filisteus; e sobre o telhado, cerca de três mil, homens e mulheres, os que viam o brincar de Sansão.
+16:28 E chamou Sansão a YHWH e disse: Senhor YHWH, lembra-te de mim, por favor, e fortalece-me, por favor, somente esta vez, ó Deus; e vingue-me eu, uma vingança, por um dos meus dois olhos, dos filisteus.
+16:29 E agarrou Sansão as duas colunas do meio, sobre as quais a casa estava firme, e apoiou-se nelas, uma na sua direita e uma na sua esquerda.
+16:30 E disse Sansão: Morra a minha alma com os filisteus! E inclinou-se com força, e caiu a casa sobre os governantes e sobre todo o povo que [estava] nela; e foram os mortos que matou na sua morte mais numerosos do que os que matou na sua vida.
+16:31 E desceram seus irmãos e toda a casa de seu pai e levantaram-no, e subiram, e sepultaram-no entre Zorá e Estaol, na sepultura de Manoá, seu pai; e ele julgou Israel vinte anos.
+
+17:1 E havia um homem do monte de Efraim, e o seu nome [era] Micaías.
+17:2 E disse a sua mãe: Os mil e cem de prata que te foram tomados, e tu juraste, e também o disseste aos meus ouvidos — eis que a prata [está] comigo; eu a tomei. E disse a sua mãe: Bendito [seja] o meu filho a YHWH.
+17:3 E devolveu os mil e cem de prata a sua mãe; e disse a sua mãe: Consagrando, consagrei a prata a YHWH, da minha mão, para o meu filho, para fazer uma imagem esculpida e uma imagem fundida; e agora devolvê-la-ei a ti.
+17:4 E devolveu a prata a sua mãe; e tomou a sua mãe duzentos de prata e deu-os ao fundidor, e ele fez disso uma imagem esculpida e uma imagem fundida; e esteve na casa de Micaías.
+17:5 E o homem Mica teve uma casa de Deus; e fez um éfode e terafins, e encheu a mão de um dos seus filhos, e foi-lhe por sacerdote.
+17:6 Naqueles dias não havia rei em Israel; cada homem fazia o reto aos seus olhos.
+17:7 E havia um moço de Belém de Judá, da família de Judá; e ele [era] levita, e peregrinava ali.
+17:8 E foi o homem da cidade, de Belém de Judá, para peregrinar onde achasse; e veio ao monte de Efraim, até a casa de Mica, para fazer o seu caminho.
+17:9 E disse-lhe Mica: De onde vens? E disse-lhe: Levita [sou] eu, de Belém de Judá; e eu vou peregrinar onde achar.
+17:10 E disse-lhe Mica: Fica comigo, e sê-me por pai e por sacerdote, e eu te darei dez de prata por ano, e um conjunto de vestes, e o teu sustento. E foi o levita.
+17:11 E consentiu o levita em ficar com o homem; e o moço foi para ele como um dos seus filhos.
+17:12 E encheu Mica a mão do levita, e foi-lhe o moço por sacerdote; e esteve na casa de Mica.
+17:13 E disse Mica: Agora sei que YHWH me fará bem, porque o levita me é por sacerdote.
+
+18:1 Naqueles dias não havia rei em Israel; e naqueles dias a tribo do danita buscava para si uma herança para habitar, porque até aquele dia não lhe caíra, no meio das tribos de Israel, em herança.
+18:2 E enviaram os filhos de Dã, da sua família, cinco homens das suas extremidades, homens filhos de valor, de Zorá e de Estaol, para espiar a terra e sondá-la; e disseram-lhes: Ide, sondai a terra. E vieram ao monte de Efraim, até a casa de Mica, e pernoitaram ali.
+18:3 Eles [estavam] junto à casa de Mica, e eles reconheceram a voz do moço, o levita; e desviaram-se para lá e disseram-lhe: Quem te trouxe aqui? E que fazes tu neste [lugar]? E que [tens] aqui?
+18:4 E disse-lhes: Assim e assim fez comigo Mica, e contratou-me, e fui-lhe por sacerdote.
+18:5 E disseram-lhe: Pergunta, por favor, a Deus, e saberemos se prosperará o nosso caminho no qual andamos.
+18:6 E disse-lhes o sacerdote: Ide em paz; diante de YHWH [está] o vosso caminho em que andais.
+18:7 E foram os cinco homens e vieram a Laís, e viram o povo que [estava] no meio dela, habitando em segurança, à maneira dos sidônios, sossegado e confiante, e sem quem envergonhasse por coisa alguma na terra, possuidor de domínio; e longe [estavam] eles dos sidônios, e coisa alguma não tinham com homem [algum].
+18:8 E vieram aos seus irmãos, a Zorá e Estaol, e disseram-lhes os seus irmãos: Que [trazeis] vós?
+18:9 E disseram: Levanta-te, e subamos contra eles, porque vimos a terra, e eis que [é] muito boa; e vós [estais] calados! Não sejais preguiçosos em ir, em entrar, para possuir a terra.
+18:10 Quando entrardes, entrareis a um povo confiante, e a terra [é] ampla de mãos, porque Deus a deu na vossa mão: lugar em que não há falta de coisa alguma das que [há] na terra.
+18:11 E partiram dali, da família do danita, de Zorá e de Estaol, seiscentos homens cingidos de armas de guerra.
+18:12 E subiram e acamparam em Quiriate-Jearim, em Judá; por isso chamaram àquele lugar Maané-Dã, até este dia; eis que [fica] atrás de Quiriate-Jearim.
+18:13 E passaram dali ao monte de Efraim e vieram até a casa de Mica.
+18:14 E responderam os cinco homens que foram espiar a terra, Laís, e disseram a seus irmãos: Sabeis que há nestas casas éfode e terafins, e imagem esculpida e imagem fundida? E agora sabei o que fareis.
+18:15 E desviaram-se para lá e vieram à casa do moço, o levita, a casa de Mica, e perguntaram-lhe pela paz.
+18:16 E seiscentos homens cingidos das suas armas de guerra [estavam] de pé à entrada da porta, os que [eram] dos filhos de Dã.
+18:17 E subiram os cinco homens que foram espiar a terra, entraram ali, tomaram a imagem esculpida, e o éfode, e os terafins, e a imagem fundida; e o sacerdote estava de pé à entrada da porta, e os seiscentos homens, o cingido de armas de guerra.
+18:18 E aqueles entraram na casa de Mica e tomaram a imagem esculpida do éfode, e os terafins, e a imagem fundida; e disse-lhes o sacerdote: Que fazeis?
+18:19 E disseram-lhe: Cala-te, põe a tua mão sobre a tua boca e vai conosco, e sê-nos por pai e por sacerdote. [É] melhor seres sacerdote para a casa de um só homem, ou seres sacerdote para uma tribo e uma família em Israel?
+18:20 E foi bom o coração do sacerdote; e tomou o éfode, e os terafins, e a imagem esculpida, e entrou no meio do povo.
+18:21 E voltaram-se e foram, e puseram as crianças, e o gado, e os bens diante deles.
+18:22 Eles tinham-se afastado da casa de Mica, e os homens que [estavam] nas casas junto à casa de Mica foram convocados e alcançaram os filhos de Dã.
+18:23 E chamaram os filhos de Dã; e voltaram os seus rostos e disseram a Mica: Que [tens] para ti, que foste convocado?
+18:24 E disse: Os meus deuses que fiz tomastes, e o sacerdote, e fostes embora; e que [tenho] eu ainda? E que [é] isto que me dizeis: Que [tens] para ti?
+18:25 E disseram-lhe os filhos de Dã: Não faças ouvir a tua voz conosco, para que não se lancem sobre vós homens amargos de alma, e recolhas a tua alma e a alma da tua casa.
+18:26 E foram os filhos de Dã para o seu caminho; e viu Mica que eles [eram] mais fortes do que ele, e voltou-se e voltou à sua casa.
+18:27 E eles tomaram o que Mica fez e o sacerdote que tinha, e vieram a Laís, a um povo sossegado e confiante, e feriram-nos à boca da espada, e a cidade queimaram com fogo.
+18:28 E não havia quem livrasse, porque [estava] longe de Sidom, e coisa alguma não tinham com homem [algum]; e ela [ficava] no vale que [é] de Bete-Reobe. E edificaram a cidade e habitaram nela.
+18:29 E chamaram o nome da cidade Dã, pelo nome de Dã, seu pai, que nasceu a Israel; porém Laís [era] o nome da cidade no princípio.
+18:30 E levantaram para si os filhos de Dã a imagem esculpida; e Jônatas, filho de Gersom, filho de Manassés, ele e seus filhos foram sacerdotes para a tribo do danita até o dia do exílio da terra.
+18:31 E puseram para si a imagem esculpida de Mica, que ele fez, todos os dias em que a casa de Deus esteve em Siló.
+
+19:1 E aconteceu, naqueles dias, não [havendo] rei em Israel, que houve um homem levita, peregrinando nos confins do monte de Efraim; e tomou para si uma mulher, concubina, de Belém de Judá.
+19:2 E prostituiu-se contra ele a sua concubina, e foi-se dele à casa de seu pai, a Belém de Judá; e esteve ali dias, quatro meses.
+19:3 E levantou-se o seu marido e foi atrás dela, para falar ao seu coração, para fazê-la voltar; e o seu moço [estava] com ele, e uma junta de jumentos; e ela o trouxe à casa de seu pai; e viu-o o pai da moça e alegrou-se ao seu encontro.
+19:4 E reteve-o o seu sogro, o pai da moça, e ficou com ele três dias; e comeram e beberam e pernoitaram ali.
+19:5 E aconteceu, ao dia quarto, que madrugaram pela manhã, e levantou-se para ir; e disse o pai da moça ao seu genro: Sustenta o teu coração com um bocado de pão, e depois ide.
+19:6 E sentaram-se e comeram, os dois juntos, e beberam; e disse o pai da moça ao homem: Consente, por favor, e pernoita, e seja bom o teu coração.
+19:7 E levantou-se o homem para ir; e instou com ele o seu sogro, e voltou e pernoitou ali.
+19:8 E madrugou pela manhã, ao dia quinto, para ir; e disse o pai da moça: Sustenta, por favor, o teu coração, e demorai-vos até declinar o dia. E comeram, os dois.
+19:9 E levantou-se o homem para ir, ele e a sua concubina e o seu moço; e disse-lhe o seu sogro, o pai da moça: Eis que o dia declinou para o entardecer; pernoitai, por favor; eis o acampar do dia: pernoita aqui, e seja bom o teu coração; e madrugareis amanhã para o vosso caminho, e irás à tua tenda.
+19:10 E o homem não quis pernoitar; e levantou-se e foi, e chegou até defronte de Jebus — ela [é] Jerusalém — e com ele [havia] uma junta de jumentos albardados, e a sua concubina com ele.
+19:11 Eles [estavam] junto a Jebus, e o dia tinha descido muito; e disse o moço a seu senhor: Vai, por favor, e desviemo-nos para esta cidade do jebuseu e pernoitemos nela.
+19:12 E disse-lhe o seu senhor: Não nos desviaremos para uma cidade estrangeira, que não [é] dos filhos de Israel aqui; e passaremos até Gibeá.
+19:13 E disse ao seu moço: Vai, e aproximemo-nos de um dos lugares, e pernoitemos em Gibeá ou em Ramá.
+19:14 E passaram e foram; e entrou-lhes o sol junto a Gibeá, que [é] de Benjamim.
+19:15 E desviaram-se para lá, para entrar para pernoitar em Gibeá; e entrou e sentou-se na praça da cidade; e não havia homem que os recolhesse em casa para pernoitar.
+19:16 E eis um homem velho vindo da sua obra, do campo, à tarde; e o homem [era] do monte de Efraim, e ele peregrinava em Gibeá; e os homens do lugar [eram] filhos do benjamita.
+19:17 E levantou os olhos e viu o homem viandante na praça da cidade; e disse o homem velho: Para onde vais, e de onde vens?
+19:18 E disse-lhe: Passamos de Belém de Judá até os confins do monte de Efraim; dali [sou] eu, e fui até Belém de Judá; e à casa de YHWH eu vou, e não há homem que me recolha em casa.
+19:19 E também há palha, também forragem, para os nossos jumentos; e também pão e vinho há para mim e para a tua escrava e para o moço com os teus servos; não há falta de coisa alguma.
+19:20 E disse o homem velho: Paz para ti! Somente toda a tua falta [seja] sobre mim; somente na praça não pernoites.
+19:21 E levou-o à sua casa e deu forragem aos jumentos; e lavaram os seus pés e comeram e beberam.
+19:22 Eles [estavam] alegrando o seu coração, e eis que os homens da cidade, homens filhos de vileza, rodearam a casa, batendo à porta; e disseram ao homem, o dono da casa, o velho, dizendo: Faze sair o homem que veio à tua casa, e o conheceremos.
+19:23 E saiu a eles o homem, o dono da casa, e disse-lhes: Não, meus irmãos, não façais mal, por favor; depois que este homem veio à minha casa, não façais esta loucura.
+19:24 Eis a minha filha, a virgem, e a concubina dele; fa-las-ei sair, por favor; e humilhai-as, e fazei-lhes o que [é] bom aos vossos olhos; e a este homem não façais coisa desta loucura.
+19:25 E os homens não quiseram ouvi-lo; e agarrou o homem a sua concubina e fê-la sair a eles, para fora; e conheceram-na e abusaram dela toda a noite até a manhã; e enviaram-na ao subir da alva.
+19:26 E veio a mulher ao virar da manhã e caiu à entrada da casa do homem onde [estava] o seu senhor, até a luz.
+19:27 E levantou-se o seu senhor pela manhã e abriu as portas da casa e saiu para ir ao seu caminho; e eis a mulher, a sua concubina, caída à entrada da casa, e as suas mãos sobre a soleira.
+19:28 E disse-lhe: Levanta-te, e vamos. E não havia quem respondesse. E tomou-a sobre o jumento; e levantou-se o homem e foi ao seu lugar.
+19:29 E veio à sua casa e tomou a faca, e agarrou a sua concubina e cortou-a em pedaços, segundo os seus ossos, em doze pedaços; e enviou-a por todo o território de Israel.
+19:30 E será que todo o que vir dirá: Não aconteceu nem se viu [coisa] como esta, desde o dia em que subiram os filhos de Israel da terra do Egito até este dia; ponde-vos sobre ela, aconselhai-vos e falai.
+
+20:1 E saíram todos os filhos de Israel, e foi reunida a congregação como um só homem, desde Dã e até Berseba e a terra de Gileade, a YHWH, em Mispa.
+20:2 E apresentaram-se os cantos de todo o povo, todas as tribos de Israel, na assembleia do povo de Deus, quatrocentos mil homens de a pé, desembainhando espada.
+20:3 E ouviram os filhos de Benjamim que os filhos de Israel tinham subido a Mispa. E disseram os filhos de Israel: Falai: como aconteceu este mal?
+20:4 E respondeu o homem, o levita, marido da mulher assassinada, e disse: A Gibeá, que [é] de Benjamim, vim eu e a minha concubina, para pernoitar.
+20:5 E levantaram-se contra mim os senhores de Gibeá e rodearam contra mim a casa, de noite; a mim planejaram matar, e a minha concubina humilharam, e morreu.
+20:6 E agarrei a minha concubina e cortei-a em pedaços e enviei-a por todo o campo da herança de Israel; porque fizeram infâmia e loucura em Israel.
+20:7 Eis que todos vós [sois] filhos de Israel; dai-vos aqui palavra e conselho.
+20:8 E levantou-se todo o povo como um só homem, dizendo: Não iremos, nenhum homem, à sua tenda, e não nos desviaremos, nenhum homem, para a sua casa.
+20:9 E agora esta [é] a coisa que faremos a Gibeá: sobre ela, por sorte.
+20:10 E tomaremos dez homens por cem, de todas as tribos de Israel, e cem por mil, e mil por dez mil, para tomar provisão para o povo, para fazer, ao virem eles a Geba de Benjamim, conforme toda a loucura que fez em Israel.
+20:11 E foi reunido todo homem de Israel contra a cidade, como um só homem, companheiros.
+20:12 E enviaram as tribos de Israel homens por todas as tribos de Benjamim, dizendo: Que [é] este mal que aconteceu entre vós?
+20:13 E agora entregai os homens, filhos de vileza, que [estão] em Gibeá, e os mataremos, e eliminaremos o mal de Israel. E Benjamim não quis ouvir a voz de seus irmãos, os filhos de Israel.
+20:14 E foram reunidos os filhos de Benjamim, das cidades, a Gibeá, para sair à guerra com os filhos de Israel.
+20:15 E foram contados os filhos de Benjamim, naquele dia, das cidades, vinte e seis mil homens que desembainhavam espada, à parte dos habitantes de Gibeá; foram contados setecentos homens escolhidos.
+20:16 De todo este povo, setecentos homens escolhidos, impedidos da mão direita; todos estes atiravam pedras com funda ao fio de cabelo e não erravam.
+20:17 E o homem de Israel foi contado, à parte de Benjamim, quatrocentos mil homens que desembainhavam espada; todos estes, homens de guerra.
+20:18 E levantaram-se e subiram a Betel e perguntaram a Deus; e disseram os filhos de Israel: Quem subirá por nós, no princípio, para a guerra com os filhos de Benjamim? E disse YHWH: Judá, no princípio.
+20:19 E levantaram-se os filhos de Israel pela manhã e acamparam contra Gibeá.
+20:20 E saiu o homem de Israel para a guerra com Benjamim; e os homens de Israel dispuseram com eles guerra contra Gibeá.
+20:21 E saíram os filhos de Benjamim de Gibeá e destruíram em Israel, naquele dia, vinte e dois mil homens por terra.
+20:22 E fortaleceu-se o povo, o homem de Israel, e tornaram a dispor guerra, no lugar em que a dispuseram no primeiro dia.
+20:23 E subiram os filhos de Israel e choraram diante de YHWH até a tarde; e perguntaram a YHWH, dizendo: Tornarei a aproximar-me para a guerra com os filhos de Benjamim, meu irmão? E disse YHWH: Subi contra ele.
+20:24 E aproximaram-se os filhos de Israel dos filhos de Benjamim no segundo dia.
+20:25 E saiu Benjamim ao encontro deles, de Gibeá, no segundo dia, e destruíram nos filhos de Israel ainda dezoito mil homens por terra; todos estes desembainhavam espada.
+20:26 E subiram todos os filhos de Israel e todo o povo, e vieram a Betel, e choraram, e sentaram-se ali diante de YHWH; e jejuaram naquele dia até a tarde; e fizeram subir holocaustos e ofertas pacíficas diante de YHWH.
+20:27 E perguntaram os filhos de Israel a YHWH — e ali [estava] a arca da aliança de Deus, naqueles dias,
+20:28 e Fineias, filho de Eleazar, filho de Arão, de pé diante dele, naqueles dias — dizendo: Tornarei ainda a sair para a guerra com os filhos de Benjamim, meu irmão, ou cessarei? E disse YHWH: Subi, porque amanhã o darei na tua mão.
+20:29 E pôs Israel emboscados contra Gibeá, ao redor.
+20:30 E subiram os filhos de Israel contra os filhos de Benjamim, no terceiro dia, e dispuseram-se contra Gibeá como de vez em vez.
+20:31 E saíram os filhos de Benjamim ao encontro do povo, foram arrancados da cidade; e começaram a ferir, do povo, mortos, como de vez em vez, nas estradas, das quais uma sobe a Betel e uma [vai] a Gibeá, no campo, cerca de trinta homens em Israel.
+20:32 E disseram os filhos de Benjamim: Estão feridos diante de nós, como no primeiro [tempo]. E os filhos de Israel disseram: Fujamos, e arranquemo-lo da cidade para as estradas.
+20:33 E todo homem de Israel levantou-se do seu lugar e dispôs-se em Baal-Tamar; e o emboscado de Israel irrompeu do seu lugar, do descampado de Geba.
+20:34 E vieram de defronte de Gibeá dez mil homens escolhidos de todo Israel, e a guerra [era] pesada; e eles não sabiam que o mal os tocava.
+20:35 E feriu YHWH a Benjamim diante de Israel; e destruíram os filhos de Israel em Benjamim, naquele dia, vinte e cinco mil e cem homens; todos estes desembainhavam espada.
+20:36 E viram os filhos de Benjamim que foram feridos; e os homens de Israel deram lugar a Benjamim, porque confiaram no emboscado que puseram contra Gibeá.
+20:37 E os emboscados apressaram-se e lançaram-se sobre Gibeá; e o emboscado puxou [a tropa] e feriu toda a cidade à boca da espada.
+20:38 E o tempo marcado era, para o homem de Israel com o emboscado: Multiplica, para fazê-los subir uma elevação de fumaça da cidade.
+20:39 E virou-se o homem de Israel na guerra; e Benjamim começou a ferir mortos entre os homens de Israel, cerca de trinta homens, porque disseram: Somente ferido, ferido [está] ele diante de nós, como na guerra primeira.
+20:40 E a elevação começou a subir da cidade, coluna de fumaça; e Benjamim voltou-se para trás, e eis que subia toda a cidade para os céus.
+20:41 E o homem de Israel virou-se; e perturbou-se o homem de Benjamim, porque viu que o mal o tocava.
+20:42 E voltaram-se diante do homem de Israel para o caminho do deserto; e a guerra o alcançou; e os que [vinham] das cidades destruíam-no no meio dele.
+20:43 Cercaram Benjamim, perseguiram-no [sem] descanso, pisaram-no até defronte de Gibeá, do nascente do sol.
+20:44 E caíram de Benjamim dezoito mil homens; todos estes, homens de valor.
+20:45 E voltaram-se e fugiram para o deserto, à rocha de Rimom; e rebuscaram-no nas estradas, cinco mil homens, e alcançaram-no até Gidom, e feriram dele dois mil homens.
+20:46 E foram todos os que caíram de Benjamim vinte e cinco mil homens que desembainhavam espada, naquele dia, todos estes homens de valor.
+20:47 E voltaram-se e fugiram para o deserto, à rocha de Rimom, seiscentos homens; e habitaram na rocha de Rimom quatro meses.
+20:48 E o homem de Israel voltou aos filhos de Benjamim e feriu-os à boca da espada, da cidade inteira até o gado, até tudo o que foi achado; também todas as cidades que foram achadas enviaram ao fogo.
+
+21:1 E o homem de Israel jurou em Mispa, dizendo: Homem de nós não dará a sua filha a Benjamim por mulher.
+21:2 E veio o povo a Betel e sentaram-se ali até a tarde diante de Deus; e levantaram a sua voz e choraram com grande choro.
+21:3 E disseram: Por que, YHWH, Deus de Israel, aconteceu isto em Israel, faltar hoje de Israel uma tribo?
+21:4 E aconteceu, no dia seguinte, que madrugou o povo e edificaram ali um altar, e fizeram subir holocaustos e ofertas pacíficas.
+21:5 E disseram os filhos de Israel: Quem, de todas as tribos de Israel, não subiu na assembleia a YHWH? Porque o grande juramento foi para o que não subiu a YHWH, a Mispa, dizendo: Morrendo, será morto.
+21:6 E condoeram-se os filhos de Israel por Benjamim, seu irmão, e disseram: Foi cortada hoje uma tribo de Israel.
+21:7 Que faremos por eles, pelos que ficaram, quanto a mulheres? E nós juramos por YHWH não lhes dar das nossas filhas por mulheres.
+21:8 E disseram: Qual uma das tribos de Israel que não subiu a YHWH, a Mispa? E eis que não veio homem ao acampamento de Jabes de Gileade, à assembleia.
+21:9 E foi contado o povo, e eis que não havia ali homem dos habitantes de Jabes de Gileade.
+21:10 E enviou para lá a congregação doze mil homens dos filhos do valor, e ordenaram-lhes, dizendo: Ide, e ferireis os habitantes de Jabes de Gileade à boca da espada, e as mulheres e as crianças.
+21:11 E esta [é] a coisa que fareis: todo macho e toda mulher que conheceu o leito de macho consagrareis ao extermínio.
+21:12 E acharam, dos habitantes de Jabes de Gileade, quatrocentas moças virgens, que não conheceram homem no leito de macho; e trouxeram-nas ao acampamento, a Siló, que [fica] na terra de Canaã.
+21:13 E enviou toda a congregação e falaram aos filhos de Benjamim que [estavam] na rocha de Rimom, e proclamaram-lhes paz.
+21:14 E voltou Benjamim naquele tempo; e deram-lhes as mulheres que conservaram vivas, das mulheres de Jabes de Gileade; e não acharam para eles assim.
+21:15 E o povo condoeu-se por Benjamim, porque YHWH fez uma brecha nas tribos de Israel.
+21:16 E disseram os anciãos da congregação: Que faremos pelos que ficaram, quanto a mulheres? Porque foi destruída, de Benjamim, mulher.
+21:17 E disseram: [Haja] possessão dos escapados para Benjamim, e não seja apagada uma tribo de Israel.
+21:18 E nós não podemos dar-lhes mulheres das nossas filhas, porque juraram os filhos de Israel, dizendo: Maldito [seja] o que der mulher a Benjamim.
+21:19 E disseram: Eis a festa de YHWH em Siló, de dias em dias, que [fica] ao norte de Betel, ao nascente do sol da estrada que sobe de Betel a Siquém, e ao sul de Lebona.
+21:20 E ordenaram aos filhos de Benjamim, dizendo: Ide, e emboscai-vos nas vinhas.
+21:21 E vereis; e eis que, se as filhas de Siló saírem para dançar nas danças, saireis das vinhas e arrebatareis, para vós, cada homem a sua mulher das filhas de Siló; e ireis à terra de Benjamim.
+21:22 E será que, quando vierem os pais deles ou os irmãos deles contender conosco, diremos a eles: Fazei-nos graça com eles, porque não tomamos, cada homem, a sua mulher na guerra; porque vós não as destes a eles; nesse tempo sereis culpados.
+21:23 E fizeram assim os filhos de Benjamim, e levaram mulheres, conforme o seu número, das dançarinas que roubaram; e foram e voltaram à sua herança, e edificaram as cidades e habitaram nelas.
+21:24 E foram-se dali os filhos de Israel, naquele tempo, cada homem para a sua tribo e para a sua família; e saíram dali, cada homem, para a sua herança.
+21:25 Naqueles dias não havia rei em Israel; cada homem fazia o reto aos seus olhos.

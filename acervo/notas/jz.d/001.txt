@@ -1,0 +1,53 @@
+# Juízes 1–9 — notas do tradutor
+#
+# Formato: capítulo:versículo | trecho da tradução | texto da nota
+# A chamada (a, b, c…) aparece logo depois do trecho. *Asteriscos* = itálico.
+
+1:7 | Setenta reis | Os "polegares" são, em hebraico, *bohonot*: os polegares das mãos e os dedos grandes dos pés. Cortá-los impedia o homem de segurar armas e de andar com firmeza.
+1:15 | bacias de águas | Em hebraico, *gullot mayim*; *gullah* é uma bacia ou taça e, por extensão, uma fonte ou um reservatório de água. As duas "bacias", a de cima e a de baixo, eram nascentes.
+1:18 | tomou Judá Gaza | Alguns manuscritos da Septuaginta trazem "e Judá não tomou". O v. 19 diz que Judá não desapossou os habitantes do vale, por causa dos carros de ferro.
+2:3 | flancos | Em hebraico, *letsidim*, ao pé da letra "para lados". O sentido é discutido; alguns leem *letsarim*, "para adversários". Veja Nm 33:55, onde os que ficarem da terra serão "espinhos nos vossos flancos".
+2:16 | juízes | Em hebraico, *shofetim* (singular *shofet*), de *shafat*, "julgar". O termo vai além do tribunal: nestes capítulos o *shofet* é quem liberta o povo dos opressores e depois o governa. Por isso o app mantém "juiz" e "julgar" em todo o livro.
+2:18 | se condoía | O verbo *nikham* (nifal) é o mesmo que costuma ser traduzido "arrepender-se"; aqui exprime o pesar e a compaixão de YHWH diante do gemido do povo.
+3:8 | Cusã-Risataim, rei | Em hebraico, *Kushan-rish'atayim*, "Cusã da dupla maldade", nome que talvez seja uma alcunha. *Aram-Naharayim* é "Arã dos Dois Rios", a região entre o Eufrates e o Tigre.
+3:15 | impedido da mão direita | Em hebraico, *itter yad-yemino*: "impedido [quanto à] mão direita", isto é, canhoto. Há um jogo com "benjamita" (*ben-hayemini*, "filho da direita").
+3:15 | um tributo | Em hebraico, *minkhah*, aqui o presente entregue a um rei (tributo); em 6:18 o mesmo termo é a oferta de manjares a YHWH.
+3:16 | côvado curto | Em hebraico, *gomed*, palavra que só ocorre aqui; a medida é incerta, menor que o côvado comum (cerca de 45 centímetros).
+3:19 | imagens esculpidas | Em hebraico, *pesilim*: imagens talhadas, ou, segundo alguns, pedras lavradas que marcavam o lugar. O sentido é discutido.
+3:22 | parshedon | Palavra que só ocorre aqui; o sentido é incerto (escoadouro, abertura ou pórtico).
+3:24 | cobre os seus pés | Expressão que designa o ato de aliviar-se; os servos entendem que o rei está no quarto reservado.
+4:4 | Lapidote | Em hebraico, *Lappidot*, que também significa "tochas" (plural de *lappid*). Alguns entendem "mulher de Lapidote"; outros, "mulher de tochas".
+4:6 | puxa [a tropa] | O verbo *mashakh* quer dizer "puxar, arrastar"; aqui, convocar a tropa e levá-la ao ponto de reunião. O mesmo verbo no v. 7.
+4:11 | Caim | Em hebraico, *Qayin*, o clã dos queneus. Hobabe, aqui "sogro de Moisés", é chamado em Nm 10:29 filho de Reuel, o midianita; em Jz 1:16 é "o queneu, sogro de Moisés".
+4:21 | desceu na terra | O verbo está no feminino: o sujeito pode ser Jael ou a estaca, que penetrou o crânio e chegou ao chão.
+5:2 | soltarem-se as madeixas | Em hebraico, *bifro'a pera'ot*, ao pé da letra "no soltar-se das madeixas". O sentido é discutido: cabelos soltos, em sinal de guerra ou de voto, ou "chefes" que tomaram a frente. O cântico de Débora (cap. 5) é um dos textos mais antigos e mais difíceis da Bíblia, com muitas palavras raras.
+5:7 | povoados abertos | Em hebraico, *perazon*, palavra rara: aldeias sem muros, ou, segundo alguns, os camponeses ou os governantes. O sentido é discutido.
+5:8 | Escolhia deuses novos | O sujeito e a pontuação são incertos. Ou: "Deus escolheu coisas novas". Em "guerra às portas" (*lakhem she'arim*), a vocalização é incerta; a palavra para "pão" é *lekhem*.
+5:11 | arqueiros | Em hebraico, *mekhatsetsim*; o sentido é incerto: "arqueiros" ou "os que repartem" (a água ou o despojo).
+5:13 | Então dominou | O verbo *yerad* é lido por muitos como de *radah*, "dominar", e por outros como de *yarad*, "descer". O verso inteiro é de leitura difícil.
+5:14 | bastão de escriba | Em hebraico, *shevet sofer*; *shevet* é aqui "bastão" ou "cetro" (e não "tribo"). O "escriba" talvez seja o oficial que recrutava e registrava os homens.
+5:15 | decisões do coração | Em hebraico, *khiqqe-lev*, "decretos do coração"; no v. 16, *khiqrei-lev*, "sondagens do coração". É um jogo de sons entre *khqq* e *khqr*.
+5:21 | tempos antigos | Em hebraico, *qedumim*, que só ocorre aqui; o sentido é incerto: "antigo" ou "que vai ao encontro".
+5:28 | tarda | O verbo *bosheish* está ligado à raiz de "envergonhar-se" (*bosh*), mas aqui quer dizer "demorar".
+5:30 | Um ventre, dois ventres | Em hebraico, *rakhem rakhamatayim*: moças tomadas como despojo. A palavra é ao pé da letra "ventre".
+6:11 | malhava trigo no lagar | O trigo costumava ser malhado na eira, ao ar livre; Gideão faz isso no lagar, para escondê-lo dos midianitas.
+6:15 | o meu clã | Em hebraico, *alpi*, ao pé da letra "o meu milhar": subdivisão da tribo.
+6:25 | o segundo novilho, de sete anos | O texto hebraico é de leitura difícil: a tradução segue a leitura de dois animais (o novilho do pai e um segundo, de sete anos), pois o v. 26 e o v. 28 falam do "segundo novilho"; outros entendem um só, "o novilho do boi... o segundo, de sete anos".
+6:26 | na ordem devida | Em hebraico, *bamma'arakhah*, palavra que só ocorre aqui; talvez "em fileira", isto é, com as pedras bem dispostas.
+6:32 | Jerubaal | Em hebraico, *Yerubba'al*: "Baal contenda [com ele]". Em 2Sm 11:21 aparece a forma Jerubeset (*Yerubbesheth*), com *besheth*, "vergonha", no lugar de *Baal*.
+7:3 | monte Gileade | Gileade é a região a leste do Jordão, longe de En-Harode (v. 1). O nome é discutido: talvez outro lugar de nome semelhante, talvez uma corrupção do texto. O verbo *yitsfor*, "retire-se", só ocorre aqui; o sentido é aproximado.
+7:5 | a esse porás à parte | O hebraico termina o v. 5 sem verbo para o segundo grupo ("e todo aquele que se encurvar sobre os seus joelhos para beber"); entende-se que também é posto à parte, como mostra o v. 6.
+7:19 | somente levantando levantaram os guardas | Infinitivo absoluto em dobro, ao pé da letra. O sentido é que os guardas tinham acabado de ser postos (a troca de turno). A vigília do meio era a da meia-noite.
+7:20 | Espada para YHWH | No v. 18 o grito é apenas "Para YHWH e para Gideão"; aqui o texto traz "espada" a mais.
+8:5 | pães redondos | Em hebraico, *kikkarot lekhem*; *kikkar* é "disco, círculo" e também um peso (talento); aqui designa os pães em forma de disco.
+8:13 | desde a subida de Heres | Em hebraico, *mile'ma'aleh heheres*. A tradução toma *Heres* como nome de lugar ("a subida de Heres"); *heres* também é "sol" em poesia, e alguns leem "antes de nascer o sol". O sentido é incerto.
+8:16 | e fez saber, com eles | O verbo é *yada'*, "conhecer, fazer saber". Algumas versões antigas leem "debulhou" (*dash*), em eco do que Gideão prometeu no v. 7.
+8:27 | éfode | Em hebraico, *efod*: a veste do sacerdote, mas aqui um objeto de culto feito com o ouro, posto numa cidade. O sentido preciso é discutido.
+8:33 | Baal-Berite | Em hebraico, *Ba'al Berit*: "Baal da aliança". Em 9:46 o santuário é chamado *El Berit*, "Deus da aliança".
+9:2 | senhores de Siquém | Em hebraico, *ba'alei shekhem*: ao pé da letra "donos" (ou "maridos") de Siquém, os cidadãos principais. O mesmo termo ocorre em todo o cap. 9.
+9:6 | carvalho do monumento | Em hebraico, *elon mutsav*: "carvalho posto", talvez o carvalho junto a um pilar (*matsevah*). O sentido é incerto.
+9:22 | foi chefe | O verbo é *sarar*, "ser chefe", e não *malakh*, "reinar", usado nos v. 6 e 8–16. O texto evita dizer que Abimeleque "reinou" por três anos.
+9:27 | festas de louvor | Em hebraico, *hillulim*, de *halal*, "louvar": festa da colheita da vinha. Veja Lv 19:24, onde o fruto do quarto ano é "santo, de louvor".
+9:31 | em segredo | Em hebraico, *betormah*: "com astúcia, em segredo", ou o nome de um lugar, Tormá (comparar com Aruma, v. 41).
+9:37 | umbigo da terra | Em hebraico, *tabbur ha'arets*: expressão rara, talvez "centro" ou "o ponto mais alto" da região.
+9:53 | pedaço de pedra de moinho | Em hebraico, *pelakh rekhev*; *rekhev* designa aqui a pedra de cima do moinho, a que gira sobre a de baixo (no hebraico comum, "carro"). Em 2Sm 11:21 a morte de Abimeleque é lembrada: uma mulher lançou sobre ele, da muralha, "um pedaço de pedra de moinho" (*pelakh rekhev*), e ele morreu em Tebes.

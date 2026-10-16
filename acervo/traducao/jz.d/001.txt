@@ -1,0 +1,342 @@
+# Juízes (Shoftim) 1–9 — tradução direta do hebraico (Códice de Leningrado)
+# Primeira parte do livro; os capítulos 10–21 virão em jz.d/010.txt.
+#
+# Mesmas convenções de Gênesis a Josué (veja acervo/traducao/gn.txt, ex.txt, dt.d/ e js.d/):
+#   - יהוה = YHWH; מַלְאַךְ יְהוָה = anjo de YHWH; nomes na forma tradicional.
+#   - [colchetes]: palavra que não existe no hebraico, acrescentada pelo sentido.
+#   - O vav é "E"; a ordem das palavras segue o hebraico quando o português permite.
+#     וַיְהִי … וַ… = "E aconteceu, …, que …". O coletivo gentílico fica no singular
+#     ("o cananeu", "o amorreu"), como em Josué.
+#   - Infinitivo absoluto em dobro ao pé da letra ("desapossando não o desapossou").
+#   - Vocabulário retomado de Josué:
+#     יָרַשׁ = possuir (a terra) / desapossar (pessoas, e no hifil); נַחֲלָה = herança;
+#     הֶחֱרִים = consagrar ao extermínio; לְפִי־חֶרֶב = à boca da espada;
+#     הִשְׁתַּחֲוָה = prostrar-se; סְרָנִים = governantes (dos filisteus); שׁוֹפָר = shofar;
+#     גְּבוּל = território; נֶגֶב = Neguebe; שְׁפֵלָה = Sefelá; עִיר הַתְּמָרִים = cidade das palmeiras;
+#     חָרוֹן אַף / וַיִּחַר־אַף = acendeu-se a ira; רֵעַ = próximo; נְבָלָה = loucura; עֶבֶד = servo.
+#   - Vocabulário próprio de Juízes 1–9:
+#     שֹׁפֵט / שָׁפַט = juiz / julgar (também: governar e libertar; nota em 2:16);
+#     מוֹשִׁיעַ = salvador; הוֹשִׁיעַ = salvar; הֵקִים = levantar (um juiz, um salvador);
+#     מָכַר בְּיַד = vender na mão de; מַס = trabalho forçado; הוֹאִיל = persistir em;
+#     הוֹסִיף לַעֲשׂוֹת = tornar a fazer; הָרַע בְּעֵינֵי יְהוָה = o mal aos olhos de YHWH;
+#     זָעַק = clamar; שָׁקַט = sossegar (a terra, tantos anos); נִלְחַם = pelejar;
+#     תָּקַע בַּשּׁוֹפָר = tocar o shofar; אֲשֵׁרָה = aserá; בַּעַל, בְּעָלִים = Baal, os Baais;
+#     מִנְחָה (tributo a rei, 3:15) = tributo; (oferta a YHWH, 6:18) = oferta de manjares;
+#     פְּסִילִים = imagens esculpidas; עֲלִיָּה = quarto de cima; אֶלֶף (6:15) = clã;
+#     שַׂר = chefe (נָשִׂיא continua "príncipe"); שָׂרָה = princesa; בַּעֲלֵי שְׁכֶם = senhores de Siquém;
+#     רֹאשׁ (divisão do exército) = companhia; נַחַל = ribeiro; אֹרַח = trilha; מְסִלָּה = estrada;
+#     חוֹקֵק = legislador; מָשַׁךְ = puxar; הִזְעִיק = convocar; תִּפְאֶרֶת = esplendor;
+#     אֱלֹהִים falando de Baal ou de deus alheio = deus (minúsculo): 6:31, 8:33, 9:27;
+#     אֶל־/בַּעַל + בְּרִית = El-Berite / Baal-Berite (nome de deus); הִשְׁחִית = corromper-se (2:19);
+#     o gentílico coletivo fica no singular mesmo com verbo no plural ("o povo levantou… e chorou", 2:4).
+
+1:1 E aconteceu, depois da morte de Josué, que os filhos de Israel perguntaram a YHWH, dizendo: Quem subirá por nós ao cananeu, no princípio, para pelejar contra ele?
+1:2 E disse YHWH: Judá subirá; eis que dei a terra na sua mão.
+1:3 E disse Judá a Simeão, seu irmão: Sobe comigo na minha sorte, e pelejemos contra o cananeu; e eu também irei contigo na tua sorte. E foi com ele Simeão.
+1:4 E subiu Judá, e deu YHWH o cananeu e o perizeu na mão deles; e feriram-nos em Bezeque, dez mil homens.
+1:5 E acharam Adoni-Bezeque em Bezeque, e pelejaram contra ele; e feriram o cananeu e o perizeu.
+1:6 E fugiu Adoni-Bezeque, e perseguiram-no, e o agarraram, e cortaram os polegares das suas mãos e dos seus pés.
+1:7 E disse Adoni-Bezeque: Setenta reis, com os polegares das suas mãos e dos seus pés cortados, estavam recolhendo [migalhas] debaixo da minha mesa; conforme fiz, assim me pagou Deus. E o trouxeram a Jerusalém, e morreu ali.
+1:8 E pelejaram os filhos de Judá contra Jerusalém e a tomaram, e feriram-na à boca da espada, e a cidade enviaram ao fogo.
+1:9 E depois desceram os filhos de Judá para pelejar contra o cananeu, que habita o monte, e o Neguebe, e a Sefelá.
+1:10 E foi Judá contra o cananeu que habitava em Hebrom — e o nome de Hebrom, antes, [era] Quiriate-Arba — e feriram Sesai, e Aimã, e Talmai.
+1:11 E foi dali contra os habitantes de Debir — e o nome de Debir, antes, [era] Quiriate-Sefer.
+1:12 E disse Calebe: Aquele que ferir Quiriate-Sefer e a tomar, a ele darei Acsa, minha filha, por mulher.
+1:13 E tomou-a Otniel, filho de Quenaz, irmão de Calebe, o menor que ele; e deu-lhe Acsa, sua filha, por mulher.
+1:14 E aconteceu, quando ela veio, que o incitou a pedir de seu pai o campo; e apeou do jumento, e disse-lhe Calebe: Que [há] para ti?
+1:15 E disse-lhe: Dá-me uma bênção; porque terra do Neguebe me deste, e dá-me bacias de águas. E deu-lhe Calebe as bacias de cima e as bacias de baixo.
+1:16 E os filhos do queneu, sogro de Moisés, subiram da cidade das palmeiras com os filhos de Judá, ao deserto de Judá, que [fica] no Neguebe de Arade; e foi, e habitou com o povo.
+1:17 E foi Judá com Simeão, seu irmão, e feriram o cananeu que habitava Zefate, e consagraram-na ao extermínio; e chamou o nome da cidade Hormá.
+1:18 E tomou Judá Gaza e o seu território, e Asquelom e o seu território, e Ecrom e o seu território.
+1:19 E YHWH esteve com Judá, e possuiu o monte; porque [não foi] para desapossar os habitantes do vale, porque carros de ferro [havia] para eles.
+1:20 E deram a Calebe Hebrom, como falou Moisés; e desapossou dali os três filhos de Anaque.
+1:21 E o jebuseu, habitante de Jerusalém, não desapossaram os filhos de Benjamim; e habitou o jebuseu com os filhos de Benjamim em Jerusalém até este dia.
+1:22 E subiram, também eles, a casa de José a Betel; e YHWH [estava] com eles.
+1:23 E espiaram a casa de José em Betel — e o nome da cidade, antes, [era] Luz.
+1:24 E viram os guardas um homem que saía da cidade; e disseram-lhe: Mostra-nos, por favor, a entrada da cidade, e faremos contigo bondade.
+1:25 E mostrou-lhes a entrada da cidade; e feriram a cidade à boca da espada, e o homem e toda a sua família enviaram [embora].
+1:26 E foi o homem à terra dos heteus, e edificou uma cidade, e chamou o seu nome Luz; esse [é] o seu nome até este dia.
+1:27 E Manassés não desapossou Bete-Seã e as suas filhas, e Taanaque e as suas filhas, e os habitantes de Dor e as suas filhas, e os habitantes de Ibleão e as suas filhas, e os habitantes de Megido e as suas filhas; e o cananeu persistiu em habitar nesta terra.
+1:28 E aconteceu que, quando Israel se fortaleceu, pôs o cananeu a trabalho forçado, e desapossando não o desapossou.
+1:29 E Efraim não desapossou o cananeu que habitava em Gezer; e habitou o cananeu no meio dele, em Gezer.
+1:30 Zebulom não desapossou os habitantes de Quitrom e os habitantes de Naalal; e habitou o cananeu no meio dele, e foram a trabalho forçado.
+1:31 Aser não desapossou os habitantes de Aco, e os habitantes de Sidom, e Alabe, e Aczibe, e Helba, e Afeque, e Reobe.
+1:32 E habitou o aserita no meio do cananeu, habitantes da terra, porque não o desapossou.
+1:33 Naftali não desapossou os habitantes de Bete-Semes e os habitantes de Bete-Anate; e habitou no meio do cananeu, habitantes da terra; e os habitantes de Bete-Semes e de Bete-Anate foram para eles a trabalho forçado.
+1:34 E o amorreu oprimiu os filhos de Dã para o monte, porque não os deixou descer ao vale.
+1:35 E o amorreu persistiu em habitar no monte Heres, em Aijalom e em Saalbim; e pesou a mão da casa de José, e foram a trabalho forçado.
+1:36 E o território do amorreu [ia] da subida de Acrabim, da Rocha, e para cima.
+
+2:1 E subiu o anjo de YHWH de Gilgal a Boquim, e disse: Eu vos fiz subir do Egito e vos trouxe à terra que jurei a vossos pais; e disse: Não quebrarei a minha aliança convosco para sempre.
+2:2 E vós, não cortareis aliança com os habitantes desta terra; os seus altares derrubareis. E não ouvistes a minha voz; que [é] isto que fizestes?
+2:3 E também eu disse: Não os expulsarei de diante de vós; e serão para vós flancos, e os seus deuses serão para vós um laço.
+2:4 E aconteceu que, ao falar o anjo de YHWH estas palavras a todos os filhos de Israel, o povo levantou a sua voz e chorou.
+2:5 E chamaram o nome daquele lugar Boquim; e sacrificaram ali a YHWH.
+2:6 E Josué enviou o povo; e foram os filhos de Israel, cada homem à sua herança, para possuir a terra.
+2:7 E o povo serviu a YHWH todos os dias de Josué e todos os dias dos anciãos que prolongaram dias depois de Josué, os quais viram toda a grande obra de YHWH que fez por Israel.
+2:8 E morreu Josué, filho de Num, servo de YHWH, filho de cento e dez anos.
+2:9 E sepultaram-no no território da sua herança, em Timnate-Heres, no monte de Efraim, ao norte do monte Gaás.
+2:10 E também toda aquela geração foi recolhida a seus pais; e levantou-se outra geração depois deles, os quais não conheceram YHWH, e também [não] a obra que fez por Israel.
+2:11 E os filhos de Israel fizeram o mal aos olhos de YHWH, e serviram aos Baais.
+2:12 E deixaram YHWH, Deus de seus pais, que os fez sair da terra do Egito, e foram atrás de outros deuses, dos deuses dos povos que [estavam] ao redor deles, e prostraram-se diante deles; e irritaram YHWH.
+2:13 E deixaram YHWH e serviram a Baal e às Astarotes.
+2:14 E acendeu-se a ira de YHWH contra Israel, e os deu na mão de saqueadores, e saquearam-nos; e vendeu-os na mão dos seus inimigos ao redor, e não puderam mais ficar de pé diante dos seus inimigos.
+2:15 Em tudo por onde saíram, a mão de YHWH foi contra eles, para o mal, como falou YHWH e como jurou YHWH a eles; e ficaram muito angustiados.
+2:16 E levantou YHWH juízes, e salvaram-nos da mão dos que os saqueavam.
+2:17 E também aos seus juízes não ouviram, porque se prostituíram atrás de outros deuses e prostraram-se diante deles; desviaram-se depressa do caminho em que andaram seus pais, para ouvir os mandamentos de YHWH; não fizeram assim.
+2:18 E, quando YHWH lhes levantava juízes, YHWH estava com o juiz e os salvava da mão dos seus inimigos todos os dias do juiz; porque YHWH se condoía do gemido deles, por causa dos que os oprimiam e dos que os acossavam.
+2:19 E acontecia que, com a morte do juiz, voltavam e corrompiam-se mais do que seus pais, indo atrás de outros deuses, para os servir e para se prostrarem diante deles; não deixavam cair [nada] das suas obras e do seu caminho duro.
+2:20 E acendeu-se a ira de YHWH contra Israel, e disse: Porque esta nação transgrediu a minha aliança, que ordenei a seus pais, e não ouviu a minha voz,
+2:21 também eu não continuarei a desapossar homem algum de diante deles, das nações que Josué deixou quando morreu;
+2:22 a fim de provar por elas a Israel: guardam eles o caminho de YHWH, para andar nele, como guardaram seus pais, ou não?
+2:23 E deixou YHWH aquelas nações, para não as desapossar depressa; e não as deu na mão de Josué.
+
+3:1 E estas [são] as nações que YHWH deixou para provar por elas a Israel, a todos os que não conheceram todas as guerras de Canaã;
+3:2 somente para que as gerações dos filhos de Israel conhecessem, para ensinar-lhes a guerra; somente os que antes não as conheceram.
+3:3 Cinco governantes dos filisteus, e todo o cananeu, e o sidônio, e o heveu que habita o monte Líbano, desde o monte Baal-Hermom até a entrada de Hamate.
+3:4 E foram para provar por elas a Israel, para saber se ouviriam os mandamentos de YHWH, que ordenou a seus pais por mão de Moisés.
+3:5 E os filhos de Israel habitaram no meio do cananeu, do heteu, e do amorreu, e do perizeu, e do heveu, e do jebuseu.
+3:6 E tomaram as filhas deles para si por mulheres, e as suas filhas deram aos filhos deles; e serviram aos deuses deles.
+3:7 E os filhos de Israel fizeram o mal aos olhos de YHWH, e esqueceram YHWH, seu Deus, e serviram aos Baais e às aserás.
+3:8 E acendeu-se a ira de YHWH contra Israel, e vendeu-os na mão de Cusã-Risataim, rei de Arã-Naaraim; e serviram os filhos de Israel a Cusã-Risataim oito anos.
+3:9 E clamaram os filhos de Israel a YHWH; e levantou YHWH um salvador para os filhos de Israel, e salvou-os — a Otniel, filho de Quenaz, irmão de Calebe, o menor que ele.
+3:10 E esteve sobre ele o espírito de YHWH, e julgou Israel; e saiu para a guerra, e deu YHWH na sua mão Cusã-Risataim, rei de Arã; e prevaleceu a sua mão sobre Cusã-Risataim.
+3:11 E sossegou a terra quarenta anos; e morreu Otniel, filho de Quenaz.
+3:12 E tornaram os filhos de Israel a fazer o mal aos olhos de YHWH; e fortaleceu YHWH a Eglom, rei de Moabe, contra Israel, porque fizeram o mal aos olhos de YHWH.
+3:13 E ajuntou a si os filhos de Amom e Amaleque, e foi, e feriu Israel; e possuíram a cidade das palmeiras.
+3:14 E serviram os filhos de Israel a Eglom, rei de Moabe, dezoito anos.
+3:15 E clamaram os filhos de Israel a YHWH; e levantou YHWH para eles um salvador, a Eúde, filho de Gera, o benjamita, homem impedido da mão direita; e enviaram os filhos de Israel por sua mão um tributo a Eglom, rei de Moabe.
+3:16 E fez para si Eúde uma espada, e tinha ela dois gumes, de um côvado curto o seu comprimento; e cingiu-a por baixo das suas vestes, sobre a coxa direita.
+3:17 E apresentou o tributo a Eglom, rei de Moabe; e Eglom [era] homem muito gordo.
+3:18 E aconteceu que, quando acabou de apresentar o tributo, enviou [embora] o povo que levava o tributo.
+3:19 E ele voltou das imagens esculpidas que [ficam] junto a Gilgal, e disse: Uma palavra secreta [tenho] para ti, ó rei. E disse: Silêncio! E saíram de junto dele todos os que estavam de pé junto dele.
+3:20 E Eúde veio a ele, e ele estava sentado no quarto de cima do frescor, que [era] só dele; e disse Eúde: Uma palavra de Deus [tenho] para ti. E levantou-se do trono.
+3:21 E estendeu Eúde a mão da sua esquerda, e tomou a espada de sobre a coxa direita, e cravou-a no ventre dele.
+3:22 E entrou também o cabo atrás da lâmina, e a gordura fechou-se ao redor da lâmina, porque não tirou a espada do ventre dele; e saiu para o parshedon.
+3:23 E saiu Eúde para o pórtico, e fechou as portas do quarto de cima atrás dele, e trancou.
+3:24 E ele saiu, e os seus servos vieram e viram, e eis que as portas do quarto de cima [estavam] trancadas; e disseram: Certamente ele cobre os seus pés no quarto do frescor.
+3:25 E esperaram até se envergonharem, e eis que ele não abria as portas do quarto de cima; e tomaram a chave e abriram, e eis o seu senhor caído por terra, morto.
+3:26 E Eúde escapou enquanto eles se demoravam, e ele passou as imagens esculpidas e escapou para Seirá.
+3:27 E aconteceu que, ao chegar, tocou o shofar no monte de Efraim; e desceram com ele os filhos de Israel do monte, e ele [ia] à frente deles.
+3:28 E disse-lhes: Perseguí atrás de mim, porque YHWH deu os vossos inimigos, Moabe, na vossa mão. E desceram atrás dele, e tomaram as passagens do Jordão contra Moabe; e não deixaram homem passar.
+3:29 E feriram Moabe naquele tempo, cerca de dez mil homens, todo [homem] gordo e todo homem de valor; e não escapou homem.
+3:30 E Moabe foi humilhado naquele dia sob a mão de Israel; e a terra sossegou oitenta anos.
+3:31 E depois dele foi Sangar, filho de Anate; e feriu os filisteus, seiscentos homens, com um aguilhão de bois; e salvou também ele a Israel.
+
+4:1 E os filhos de Israel tornaram a fazer o mal aos olhos de YHWH, e Eúde [estava] morto.
+4:2 E vendeu-os YHWH na mão de Jabim, rei de Canaã, que reinou em Hazor; e o chefe do seu exército [era] Sísera, e ele habitava em Harosete das Nações.
+4:3 E clamaram os filhos de Israel a YHWH, porque novecentos carros de ferro [havia] para ele; e ele oprimiu os filhos de Israel com força vinte anos.
+4:4 E Débora, mulher, profetisa, mulher de Lapidote, ela julgava Israel naquele tempo.
+4:5 E ela habitava debaixo da palmeira de Débora, entre Ramá e entre Betel, no monte de Efraim; e subiam a ela os filhos de Israel para o juízo.
+4:6 E enviou e chamou Baraque, filho de Abinoão, de Quedes de Naftali, e disse-lhe: Acaso não ordenou YHWH, Deus de Israel: Vai e puxa [a tropa] para o monte Tabor, e toma contigo dez mil homens dos filhos de Naftali e dos filhos de Zebulom?
+4:7 E puxarei para ti, ao ribeiro de Quisom, Sísera, chefe do exército de Jabim, e os seus carros e a sua multidão; e o darei na tua mão.
+4:8 E disse-lhe Baraque: Se tu fores comigo, irei; e se não fores comigo, não irei.
+4:9 E disse: Indo, irei contigo; contudo, não será o teu esplendor no caminho em que vais, porque na mão de uma mulher YHWH venderá Sísera. E levantou-se Débora e foi com Baraque a Quedes.
+4:10 E convocou Baraque a Zebulom e a Naftali em Quedes; e subiram a seus pés dez mil homens; e subiu com ele Débora.
+4:11 E Héber, o queneu, separou-se de Caim, dos filhos de Hobabe, sogro de Moisés, e estendeu a sua tenda até o carvalho em Zaananim, que [fica] junto a Quedes.
+4:12 E contaram a Sísera que subira Baraque, filho de Abinoão, ao monte Tabor.
+4:13 E convocou Sísera todos os seus carros, novecentos carros de ferro, e todo o povo que [estava] com ele, de Harosete das Nações, ao ribeiro de Quisom.
+4:14 E disse Débora a Baraque: Levanta-te, porque este [é] o dia em que YHWH deu Sísera na tua mão; acaso YHWH não saiu diante de ti? E desceu Baraque do monte Tabor, e dez mil homens atrás dele.
+4:15 E YHWH confundiu Sísera e todos os carros e todo o acampamento à boca da espada diante de Baraque; e Sísera desceu do carro e fugiu a pé.
+4:16 E Baraque perseguiu os carros e o acampamento até Harosete das Nações; e todo o acampamento de Sísera caiu à boca da espada; não restou nem um.
+4:17 E Sísera fugiu a pé para a tenda de Jael, mulher de Héber, o queneu, porque [havia] paz entre Jabim, rei de Hazor, e a casa de Héber, o queneu.
+4:18 E saiu Jael ao encontro de Sísera e disse-lhe: Desvia-te, meu senhor, desvia-te para mim; não temas. E desviou-se para ela, para a tenda; e ela o cobriu com uma manta.
+4:19 E disse-lhe: Dá-me de beber, por favor, um pouco de água, porque tenho sede. E ela abriu o odre do leite e deu-lhe de beber; e cobriu-o.
+4:20 E disse-lhe: Fica de pé à entrada da tenda; e acontecerá que, se vier homem e te perguntar e disser: Há aqui homem? — e dirás: Não há.
+4:21 E tomou Jael, mulher de Héber, uma estaca da tenda, e pôs o martelo na sua mão, e veio a ele suavemente, e cravou a estaca na sua têmpora, e desceu na terra — e ele estava profundamente adormecido, e exausto — e morreu.
+4:22 E eis que Baraque perseguia Sísera; e saiu Jael ao seu encontro e disse-lhe: Vai, e mostrar-te-ei o homem que procuras. E veio a ela, e eis Sísera caído, morto, e a estaca na sua têmpora.
+4:23 E humilhou Deus naquele dia a Jabim, rei de Canaã, diante dos filhos de Israel.
+4:24 E a mão dos filhos de Israel ia indo e endurecendo contra Jabim, rei de Canaã, até que cortaram [fora] a Jabim, rei de Canaã.
+
+5:1 E cantou Débora, e Baraque, filho de Abinoão, naquele dia, dizendo:
+5:2 Ao soltarem-se as madeixas em Israel, ao oferecer-se o povo, bendizei a YHWH!
+5:3 Ouvi, reis; dai ouvidos, dignitários! Eu, a YHWH, eu cantarei; salmodiarei a YHWH, Deus de Israel.
+5:4 YHWH, ao saíres de Seir, ao marchares do campo de Edom, a terra tremeu; também os céus gotejaram, também as nuvens gotejaram águas.
+5:5 Os montes escorreram diante de YHWH, este Sinai, diante de YHWH, Deus de Israel.
+5:6 Nos dias de Sangar, filho de Anate, nos dias de Jael, cessaram as trilhas; e os que andavam por veredas andavam por trilhas tortuosas.
+5:7 Cessaram os povoados abertos em Israel, cessaram, até que me levantei, Débora, até que me levantei, mãe em Israel.
+5:8 Escolhia deuses novos; então [havia] guerra às portas. Escudo se via, e lança, entre quarenta mil em Israel?
+5:9 O meu coração [está] com os legisladores de Israel, os que se oferecem entre o povo: bendizei a YHWH!
+5:10 Vós que montais jumentas brancas, que vos sentais sobre mantos, e vós que andais pelo caminho, falai!
+5:11 Da voz dos arqueiros, entre os bebedouros, ali repetirão as justiças de YHWH, as justiças do seu povoado aberto em Israel; então desceu às portas o povo de YHWH.
+5:12 Desperta, desperta, Débora! Desperta, desperta, fala um cântico! Levanta-te, Baraque, e leva cativo o teu cativeiro, filho de Abinoão!
+5:13 Então dominou um sobrevivente os poderosos; o povo de YHWH dominou por mim entre os valentes.
+5:14 De Efraim, cuja raiz [está] em Amaleque; atrás de ti, Benjamim, entre os teus povos; de Maquir desceram legisladores, e de Zebulom os que puxam com o bastão de escriba.
+5:15 E os meus chefes em Issacar [estavam] com Débora; e Issacar [estava] assim, [como] Baraque; no vale foi enviado a seus pés. Nas divisões de Rúben, grandes [foram] as decisões do coração.
+5:16 Por que ficaste sentado entre os currais, para ouvir os assobios dos rebanhos? Nas divisões de Rúben, grandes [foram] as sondagens do coração.
+5:17 Gileade habitou além do Jordão; e Dã, por que peregrinou em navios? Aser sentou-se à costa dos mares, e junto às suas enseadas habita.
+5:18 Zebulom, povo que afrontou a sua alma para morrer; e Naftali, sobre as alturas do campo.
+5:19 Vieram reis, pelejaram; então pelejaram os reis de Canaã, em Taanaque, junto às águas de Megido; ganho de prata não tomaram.
+5:20 Dos céus pelejaram, das suas estradas as estrelas pelejaram contra Sísera.
+5:21 O ribeiro de Quisom os arrastou, o ribeiro dos tempos antigos, o ribeiro de Quisom. Pisas, minha alma, [com] força!
+5:22 Então bateram os cascos do cavalo, dos galopes, galopes dos seus poderosos.
+5:23 Amaldiçoai Meroz, disse o anjo de YHWH; amaldiçoai amaldiçoando os seus habitantes, porque não vieram em socorro de YHWH, em socorro de YHWH entre os valentes.
+5:24 Bendita seja mais do que as mulheres Jael, mulher de Héber, o queneu; mais do que as mulheres na tenda seja bendita.
+5:25 Água pediu; leite deu; em taça de poderosos trouxe coalhada.
+5:26 A sua mão à estaca estendeu, e a sua direita ao martelo dos trabalhadores; e golpeou Sísera, esmagou a sua cabeça, e quebrou, e traspassou a sua têmpora.
+5:27 Entre os seus pés encurvou-se, caiu, jazeu; entre os seus pés encurvou-se, caiu; onde se encurvou, ali caiu, devastado.
+5:28 Pela janela olhou e lamentou-se a mãe de Sísera, pela gelosia: Por que tarda o seu carro em vir? Por que se demoram os passos dos seus carros?
+5:29 As sábias das suas princesas lhe respondem; ela também faz voltar a si as suas palavras:
+5:30 Acaso não acham, não repartem o despojo? Um ventre, dois ventres, para a cabeça de cada homem; despojo de tecidos tingidos para Sísera, despojo de tecidos tingidos, bordado; tecido tingido, bordado em dobro, para os pescoços do despojo?
+5:31 Assim pereçam todos os teus inimigos, YHWH; e os que o amam [sejam] como o sair do sol na sua força! E sossegou a terra quarenta anos.
+
+6:1 E os filhos de Israel fizeram o mal aos olhos de YHWH, e deu-os YHWH na mão de Midiã sete anos.
+6:2 E prevaleceu a mão de Midiã sobre Israel; por causa de Midiã fizeram para si os filhos de Israel as covas que [há] nos montes, e as cavernas, e as fortalezas.
+6:3 E acontecia que, se Israel semeava, subiam Midiã, e Amaleque, e os filhos do oriente, e subiam contra ele.
+6:4 E acampavam contra eles e destruíam a colheita da terra, até a tua chegada a Gaza; e não deixavam sustento em Israel, nem cordeiro, nem boi, nem jumento.
+6:5 Porque eles e o seu gado subiam, e as suas tendas, e vinham como gafanhotos em multidão; e para eles e para os seus camelos não havia número; e entravam na terra para a destruir.
+6:6 E Israel ficou muito enfraquecido por causa de Midiã; e clamaram os filhos de Israel a YHWH.
+6:7 E aconteceu que, quando clamaram os filhos de Israel a YHWH por causa de Midiã,
+6:8 enviou YHWH um homem, profeta, aos filhos de Israel, e disse-lhes: Assim disse YHWH, Deus de Israel: Eu vos fiz subir do Egito e vos fiz sair da casa de servos.
+6:9 E vos livrei da mão do Egito e da mão de todos os que vos oprimiam; e os expulsei de diante de vós e vos dei a sua terra.
+6:10 E disse-vos: Eu [sou] YHWH, vosso Deus; não temereis os deuses do amorreu, em cuja terra habitais; e não ouvistes a minha voz.
+6:11 E veio o anjo de YHWH e sentou-se debaixo do carvalho que [está] em Ofra, que [é] de Joás, o abiezrita; e Gideão, seu filho, malhava trigo no lagar, para o fazer fugir de diante de Midiã.
+6:12 E apareceu-lhe o anjo de YHWH e disse-lhe: YHWH [está] contigo, valente de valor!
+6:13 E disse-lhe Gideão: Ah, meu senhor! E há YHWH conosco? E por que nos achou tudo isto? E onde [estão] todas as suas maravilhas que nos contaram nossos pais, dizendo: Acaso do Egito não nos fez subir YHWH? E agora nos abandonou YHWH e nos deu na palma de Midiã.
+6:14 E voltou-se para ele YHWH e disse: Vai nesta tua força e salvarás Israel da palma de Midiã; acaso não te enviei?
+6:15 E disse-lhe: Ah, meu Senhor! Com que salvarei Israel? Eis que o meu clã [é] o mais fraco em Manassés, e eu [sou] o mais novo na casa de meu pai.
+6:16 E disse-lhe YHWH: Porque eu serei contigo, ferirás Midiã como um só homem.
+6:17 E disse-lhe: Se achei graça aos teus olhos, faze-me um sinal de que tu [és] o que fala comigo.
+6:18 Não te retires daqui, por favor, até que eu venha a ti e traga a minha oferta de manjares e a ponha diante de ti. E disse: Eu me sentarei até o teu regresso.
+6:19 E Gideão entrou e preparou um cabrito de cabras e uma efa de farinha, pães sem fermento; a carne pôs num cesto, e o caldo pôs numa panela; e levou-os a ele para debaixo do carvalho e [os] apresentou.
+6:20 E disse-lhe o anjo de Deus: Toma a carne e os pães sem fermento e deixa-os sobre esta rocha, e o caldo derrama. E assim fez.
+6:21 E estendeu o anjo de YHWH a ponta do bordão que [estava] na sua mão, e tocou a carne e os pães sem fermento; e subiu fogo da rocha e comeu a carne e os pães sem fermento; e o anjo de YHWH foi-se de seus olhos.
+6:22 E viu Gideão que era o anjo de YHWH; e disse Gideão: Ai, Senhor YHWH! Porque por isso vi o anjo de YHWH face a face.
+6:23 E disse-lhe YHWH: Paz para ti; não temas; não morrerás.
+6:24 E edificou ali Gideão um altar a YHWH, e chamou-lhe YHWH-Paz; até este dia ainda [está] em Ofra do abiezrita.
+6:25 E aconteceu naquela noite que lhe disse YHWH: Toma o novilho do boi que [é] de teu pai, e o segundo novilho, de sete anos, e derruba o altar de Baal que [é] de teu pai, e a aserá que [está] sobre ele cortarás.
+6:26 E edifica um altar a YHWH, teu Deus, sobre o topo desta fortaleza, na ordem devida; e toma o segundo novilho e faze subir um holocausto com a madeira da aserá que cortares.
+6:27 E tomou Gideão dez homens dos seus servos e fez como lhe falou YHWH; e aconteceu que, temendo a casa de seu pai e os homens da cidade para o fazer de dia, fez de noite.
+6:28 E madrugaram os homens da cidade pela manhã, e eis que fora derrubado o altar de Baal, e a aserá que [estava] sobre ele cortada; e o segundo novilho [fora] feito subir sobre o altar edificado.
+6:29 E disseram cada homem ao seu próximo: Quem fez esta coisa? E inquiriram e buscaram, e disseram: Gideão, filho de Joás, fez esta coisa.
+6:30 E disseram os homens da cidade a Joás: Faze sair o teu filho, e morra; porque derrubou o altar de Baal, e porque cortou a aserá que [estava] sobre ele.
+6:31 E disse Joás a todos os que estavam de pé contra ele: Acaso contendeis vós por Baal? Ou o salvais vós? Aquele que contender por ele será morto até a manhã. Se ele [é] deus, contenda por si, porque derrubou o seu altar.
+6:32 E chamou-lhe naquele dia Jerubaal, dizendo: Conteste Baal contra ele, porque derrubou o seu altar.
+6:33 E todos de Midiã, e Amaleque, e os filhos do oriente ajuntaram-se juntos, e passaram, e acamparam no vale de Jezreel.
+6:34 E o espírito de YHWH vestiu Gideão; e tocou o shofar, e foi convocado Abiezer atrás dele.
+6:35 E mensageiros enviou por todo Manassés, e foi convocado também ele atrás dele; e mensageiros enviou a Aser, e a Zebulom, e a Naftali; e subiram ao seu encontro.
+6:36 E disse Gideão a Deus: Se tu [estás] salvando por minha mão a Israel, como falaste,
+6:37 eis que eu ponho o velo de lã na eira; se houver orvalho sobre o velo só, e sobre toda a terra [houver] secura, e saberei que salvas por minha mão a Israel, como falaste.
+6:38 E assim foi; e madrugou no dia seguinte, e apertou o velo, e espremeu orvalho do velo, uma taça cheia de água.
+6:39 E disse Gideão a Deus: Que não se acenda a tua ira contra mim, e falarei só desta vez; provarei, por favor, só desta vez com o velo: haja, por favor, secura sobre o velo só, e sobre toda a terra haja orvalho.
+6:40 E fez Deus assim naquela noite; e houve secura sobre o velo só, e sobre toda a terra houve orvalho.
+
+7:1 E madrugou Jerubaal, que [é] Gideão, e todo o povo que [estava] com ele, e acamparam junto a En-Harode; e o acampamento de Midiã estava para ele ao norte, desde a colina de Moré, no vale.
+7:2 E disse YHWH a Gideão: O povo que [está] contigo [é] muito para eu dar Midiã na mão deles, para que Israel não se glorie contra mim, dizendo: A minha mão me salvou.
+7:3 E agora, chama, por favor, aos ouvidos do povo, dizendo: Quem [é] temeroso e tremente, volte e retire-se do monte Gileade. E voltaram do povo vinte e dois mil; e dez mil ficaram.
+7:4 E disse YHWH a Gideão: Ainda o povo [é] muito; faze-os descer às águas, e ali o refinarei para ti; e acontecerá que aquele de quem eu te disser: Este irá contigo, ele irá contigo; e todo aquele de quem eu te disser: Este não irá contigo, ele não irá.
+7:5 E fez descer o povo às águas; e disse YHWH a Gideão: Todo aquele que lamber das águas com a sua língua, como lambe o cão, a esse porás à parte; e todo aquele que se encurvar sobre os seus joelhos para beber.
+7:6 E foi o número dos que lamberam com a mão à sua boca trezentos homens; e todo o resto do povo encurvou-se sobre os seus joelhos para beber água.
+7:7 E disse YHWH a Gideão: Pelos trezentos homens que lamberam vos salvarei, e darei Midiã na tua mão; e todo o povo vá, cada homem ao seu lugar.
+7:8 E tomaram a provisão do povo na sua mão, e os seus shofares; e a todo homem de Israel enviou cada um às suas tendas, e com os trezentos homens se firmou; e o acampamento de Midiã estava para ele por baixo, no vale.
+7:9 E aconteceu naquela noite que lhe disse YHWH: Levanta-te, desce ao acampamento, porque o dei na tua mão.
+7:10 E se tu temes descer, desce tu e Pura, teu moço, ao acampamento;
+7:11 e ouvirás o que falam, e depois se fortalecerão as tuas mãos, e descerás ao acampamento. E desceu ele e Pura, seu moço, à extremidade dos armados que [estavam] no acampamento.
+7:12 E Midiã, e Amaleque, e todos os filhos do oriente estavam caídos no vale como gafanhotos em multidão; e para os seus camelos não havia número, como a areia que [está] no lábio do mar em multidão.
+7:13 E veio Gideão, e eis um homem contando ao seu próximo um sonho; e disse: Eis que sonhei um sonho: e eis um bolo de pão de cevada rodava no acampamento de Midiã; e veio até a tenda e a feriu, e ela caiu; e virou-a para cima, e a tenda caiu.
+7:14 E respondeu o seu próximo e disse: Isto não [é] senão a espada de Gideão, filho de Joás, homem de Israel; deu Deus na sua mão Midiã e todo o acampamento.
+7:15 E aconteceu que, ao ouvir Gideão o relato do sonho e a sua interpretação, prostrou-se; e voltou ao acampamento de Israel e disse: Levantai-vos, porque YHWH deu na vossa mão o acampamento de Midiã.
+7:16 E dividiu os trezentos homens em três companhias, e pôs shofares na mão de todos eles, e cântaros vazios, e tochas dentro dos cântaros.
+7:17 E disse-lhes: Olhai para mim e assim fareis; e eis que eu chego à extremidade do acampamento, e acontecerá que, como eu fizer, assim fareis.
+7:18 E tocarei o shofar, eu e todos os que [estão] comigo; e tocareis os shofares, também vós, ao redor de todo o acampamento, e direis: Para YHWH e para Gideão!
+7:19 E veio Gideão e os cem homens que [estavam] com ele à extremidade do acampamento, no começo da vigília do meio; somente levantando levantaram os guardas; e tocaram os shofares, e despedaçando os cântaros que [estavam] na sua mão.
+7:20 E tocaram as três companhias os shofares e quebraram os cântaros, e seguraram com a mão esquerda as tochas, e com a mão direita os shofares para tocar; e gritaram: Espada para YHWH e para Gideão!
+7:21 E ficaram de pé, cada homem no seu lugar, ao redor do acampamento; e todo o acampamento correu, e deram brados, e fugiram.
+7:22 E tocaram os trezentos shofares; e pôs YHWH a espada de cada homem contra o seu próximo, e em todo o acampamento; e fugiu o acampamento até Bete-Sita, para Zererá, até a borda de Abel-Meolá, junto a Tabate.
+7:23 E foram convocados os homens de Israel, de Naftali, e de Aser, e de todo Manassés, e perseguiram Midiã.
+7:24 E mensageiros enviou Gideão por todo o monte de Efraim, dizendo: Descei ao encontro de Midiã e tomai-lhes as águas até Bete-Bara, e o Jordão. E foram convocados todos os homens de Efraim, e tomaram as águas até Bete-Bara, e o Jordão.
+7:25 E tomaram os dois chefes de Midiã, Orebe e Zeebe; e mataram Orebe na rocha de Orebe, e Zeebe mataram no lagar de Zeebe; e perseguiram Midiã; e a cabeça de Orebe e de Zeebe trouxeram a Gideão, de além do Jordão.
+
+8:1 E disseram-lhe os homens de Efraim: Que coisa [é] esta que nos fizeste, não nos chamando quando foste pelejar contra Midiã? E contenderam com ele com força.
+8:2 E disse-lhes: Que fiz eu agora, comparado convosco? Acaso não [é] melhor o rebusco de Efraim que a vindima de Abiezer?
+8:3 Na vossa mão deu Deus os chefes de Midiã, Orebe e Zeebe; e que pude eu fazer, comparado convosco? Então afrouxou-se o espírito deles sobre ele, quando falou esta palavra.
+8:4 E veio Gideão ao Jordão, passando, ele e os trezentos homens que [estavam] com ele, cansados e perseguindo.
+8:5 E disse aos homens de Sucote: Dai, por favor, pães redondos ao povo que [está] a meus pés, porque [estão] cansados, e eu [estou] perseguindo Zeba e Zalmuna, reis de Midiã.
+8:6 E disseram os chefes de Sucote: Está a palma de Zeba e Zalmuna agora na tua mão, para que demos pão ao teu exército?
+8:7 E disse Gideão: Por isso, quando YHWH der Zeba e Zalmuna na minha mão, debulharei a vossa carne com os espinhos do deserto e com os abrolhos.
+8:8 E subiu dali a Penuel e falou-lhes semelhantemente; e responderam-lhe os homens de Penuel como responderam os homens de Sucote.
+8:9 E disse também aos homens de Penuel, dizendo: Quando eu voltar em paz, derrubarei esta torre.
+8:10 E Zeba e Zalmuna [estavam] em Carcor, e os seus acampamentos com eles, cerca de quinze mil, todos os que restaram de todo o acampamento dos filhos do oriente; e os caídos [foram] cento e vinte mil homens que desembainhavam espada.
+8:11 E subiu Gideão pelo caminho dos que habitam em tendas, ao oriente de Noba e de Jogbeá, e feriu o acampamento; e o acampamento estava seguro.
+8:12 E fugiram Zeba e Zalmuna; e perseguiu-os, e tomou os dois reis de Midiã, Zeba e Zalmuna; e todo o acampamento fez estremecer.
+8:13 E voltou Gideão, filho de Joás, da guerra, desde a subida de Heres.
+8:14 E tomou um moço dos homens de Sucote e interrogou-o; e escreveu-lhe os chefes de Sucote e os seus anciãos, setenta e sete homens.
+8:15 E veio aos homens de Sucote e disse: Eis Zeba e Zalmuna, a respeito dos quais me afrontastes, dizendo: Está a palma de Zeba e Zalmuna agora na tua mão, para que demos pão aos teus homens cansados?
+8:16 E tomou os anciãos da cidade, e os espinhos do deserto e os abrolhos, e fez saber, com eles, aos homens de Sucote.
+8:17 E a torre de Penuel derrubou; e matou os homens da cidade.
+8:18 E disse a Zeba e a Zalmuna: Onde [estão] os homens que matastes em Tabor? E disseram: Como tu, como eles, um, como o aspecto dos filhos do rei.
+8:19 E disse: Meus irmãos, filhos da minha mãe, [eram] eles; vive YHWH, se os tivésseis deixado viver, não vos mataria.
+8:20 E disse a Jéter, seu primogênito: Levanta-te, mata-os. E o moço não desembainhou a sua espada, porque temeu, porque ainda [era] moço.
+8:21 E disseram Zeba e Zalmuna: Levanta-te tu e investe contra nós, porque como o homem [é] a sua força. E levantou-se Gideão e matou Zeba e Zalmuna; e tomou os crescentes que [estavam] no pescoço dos seus camelos.
+8:22 E disseram os homens de Israel a Gideão: Governa sobre nós, tu e também o teu filho e também o filho do teu filho, porque nos salvaste da mão de Midiã.
+8:23 E disse-lhes Gideão: Eu não governarei sobre vós, e meu filho não governará sobre vós; YHWH governará sobre vós.
+8:24 E disse-lhes Gideão: Pedirei de vós um pedido: dai-me cada homem a argola do seu despojo — porque tinham argolas de ouro, porque [eram] ismaelitas.
+8:25 E disseram: Dando daremos; e estenderam o manto, e lançaram ali cada homem a argola do seu despojo.
+8:26 E foi o peso das argolas de ouro que pediu mil e setecentos [siclos] de ouro, à parte os crescentes, e os pingentes, e as vestes de púrpura que [estavam] sobre os reis de Midiã, e à parte os colares que [estavam] no pescoço dos seus camelos.
+8:27 E fez dele Gideão um éfode, e pô-lo na sua cidade, em Ofra; e prostituiu-se todo o Israel atrás dele, ali; e foi para Gideão e para a sua casa um laço.
+8:28 E humilhou-se Midiã diante dos filhos de Israel, e não tornaram a levantar a sua cabeça; e a terra sossegou quarenta anos nos dias de Gideão.
+8:29 E foi Jerubaal, filho de Joás, e habitou em sua casa.
+8:30 E para Gideão havia setenta filhos, saídos da sua coxa, porque muitas mulheres havia para ele.
+8:31 E a sua concubina que [estava] em Siquém deu-lhe também ela um filho; e pôs o seu nome Abimeleque.
+8:32 E morreu Gideão, filho de Joás, em boa velhice, e foi sepultado na sepultura de Joás, seu pai, em Ofra do abiezrita.
+8:33 E aconteceu que, quando morreu Gideão, voltaram os filhos de Israel e prostituíram-se atrás dos Baais, e puseram para si Baal-Berite por deus.
+8:34 E os filhos de Israel não se lembraram de YHWH, seu Deus, o que os livrou da mão de todos os seus inimigos ao redor.
+8:35 E não fizeram bondade com a casa de Jerubaal, Gideão, conforme todo o bem que fez com Israel.
+
+9:1 E foi Abimeleque, filho de Jerubaal, a Siquém, aos irmãos de sua mãe, e falou-lhes, e a toda a família da casa do pai de sua mãe, dizendo:
+9:2 Falai, por favor, aos ouvidos de todos os senhores de Siquém: Que [é] bom para vós: governarem sobre vós setenta homens, todos os filhos de Jerubaal, ou governar sobre vós um só homem? E lembrai-vos de que eu [sou] vosso osso e vossa carne.
+9:3 E falaram os irmãos de sua mãe sobre ele, aos ouvidos de todos os senhores de Siquém, todas estas palavras; e inclinou-se o coração deles atrás de Abimeleque, porque disseram: Nosso irmão [é] ele.
+9:4 E deram-lhe setenta [siclos] de prata da casa de Baal-Berite; e Abimeleque contratou com eles homens vazios e levianos, e foram atrás dele.
+9:5 E veio à casa de seu pai, em Ofra, e matou os seus irmãos, filhos de Jerubaal, setenta homens, sobre uma [só] pedra; e ficou Jotão, filho de Jerubaal, o menor, porque se escondera.
+9:6 E reuniram-se todos os senhores de Siquém e toda a casa de Milo, e foram e fizeram reinar a Abimeleque por rei, junto ao carvalho do monumento que [está] em Siquém.
+9:7 E contaram a Jotão, e foi e ficou de pé no cume do monte Gerizim, e levantou a sua voz e clamou e disse-lhes: Ouvi-me, senhores de Siquém, e vos ouça Deus.
+9:8 Indo, foram as árvores ungir sobre si um rei; e disseram à oliveira: Reina sobre nós.
+9:9 E disse-lhes a oliveira: Cessaria eu a minha gordura, com a qual por mim honram a Deus e os homens, e iria vaguear sobre as árvores?
+9:10 E disseram as árvores à figueira: Vai tu, reina sobre nós.
+9:11 E disse-lhes a figueira: Cessaria eu a minha doçura e o meu bom fruto, e iria vaguear sobre as árvores?
+9:12 E disseram as árvores à videira: Vai tu, reina sobre nós.
+9:13 E disse-lhes a videira: Cessaria eu o meu mosto, que alegra a Deus e os homens, e iria vaguear sobre as árvores?
+9:14 E disseram todas as árvores ao espinheiro: Vai tu, reina sobre nós.
+9:15 E disse o espinheiro às árvores: Se em verdade me ungis por rei sobre vós, vinde, refugiai-vos na minha sombra; e se não, saia fogo do espinheiro e coma os cedros do Líbano.
+9:16 E agora, se em verdade e com integridade fizestes, e fizestes reinar a Abimeleque, e se bem fizestes com Jerubaal e com a sua casa, e se conforme o feito das suas mãos lhe fizestes —
+9:17 pois meu pai pelejou por vós, e lançou a sua alma para longe, e vos livrou da mão de Midiã;
+9:18 e vós vos levantastes hoje contra a casa de meu pai e matastes os seus filhos, setenta homens, sobre uma [só] pedra, e fizestes reinar a Abimeleque, filho da sua escrava, sobre os senhores de Siquém, porque vosso irmão [é] ele —
+9:19 e se em verdade e com integridade fizestes com Jerubaal e com a sua casa neste dia, alegrai-vos em Abimeleque, e alegre-se também ele em vós;
+9:20 e se não, saia fogo de Abimeleque e coma os senhores de Siquém e a casa de Milo; e saia fogo dos senhores de Siquém e da casa de Milo e coma Abimeleque.
+9:21 E fugiu Jotão, e evadiu-se, e foi a Beer, e habitou ali, por causa de Abimeleque, seu irmão.
+9:22 E foi chefe Abimeleque sobre Israel três anos.
+9:23 E enviou Deus um espírito mau entre Abimeleque e os senhores de Siquém; e os senhores de Siquém agiram deslealmente com Abimeleque,
+9:24 para vir a violência feita aos setenta filhos de Jerubaal, e o sangue deles ser posto sobre Abimeleque, seu irmão, que os matou, e sobre os senhores de Siquém, que fortaleceram as suas mãos para matar os seus irmãos.
+9:25 E puseram-lhe os senhores de Siquém emboscadores sobre os cumes dos montes, e roubavam todo aquele que passava por eles no caminho; e foi contado a Abimeleque.
+9:26 E veio Gaal, filho de Ebede, e seus irmãos, e passaram por Siquém; e os senhores de Siquém confiaram nele.
+9:27 E saíram ao campo, e vindimaram as suas vinhas, e pisaram [as uvas], e fizeram festas de louvor; e entraram na casa do seu deus, e comeram e beberam, e amaldiçoaram Abimeleque.
+9:28 E disse Gaal, filho de Ebede: Quem [é] Abimeleque, e quem [é] Siquém, para que o sirvamos? Acaso não [é] filho de Jerubaal, e Zebul, seu encarregado? Servi aos homens de Hamor, pai de Siquém; e por que o serviremos nós?
+9:29 E quem dará este povo na minha mão? E removerei Abimeleque. E disse a Abimeleque: Multiplica o teu exército e sai.
+9:30 E ouviu Zebul, chefe da cidade, as palavras de Gaal, filho de Ebede, e acendeu-se a sua ira.
+9:31 E enviou mensageiros a Abimeleque em segredo, dizendo: Eis que Gaal, filho de Ebede, e seus irmãos vêm a Siquém, e eis que estão sitiando a cidade contra ti.
+9:32 E agora levanta-te de noite, tu e o povo que [está] contigo, e põe-te em emboscada no campo;
+9:33 e acontecerá que, pela manhã, ao nascer o sol, madrugarás e irromperás contra a cidade; e eis que ele e o povo que [está] com ele saem a ti, e farás a ele conforme achar a tua mão.
+9:34 E levantou-se Abimeleque e todo o povo que [estava] com ele de noite, e emboscaram-se contra Siquém em quatro companhias.
+9:35 E saiu Gaal, filho de Ebede, e ficou de pé à entrada da porta da cidade; e levantou-se Abimeleque e o povo que [estava] com ele da emboscada.
+9:36 E viu Gaal o povo e disse a Zebul: Eis um povo descendo dos cumes dos montes. E disse-lhe Zebul: A sombra dos montes vês como homens.
+9:37 E tornou Gaal ainda a falar e disse: Eis povo descendo do umbigo da terra, e uma companhia vem pelo caminho do carvalho dos adivinhos.
+9:38 E disse-lhe Zebul: Onde, pois, [está] a tua boca, que dizias: Quem [é] Abimeleque, para que o sirvamos? Não [é] este o povo que desprezaste? Sai agora e peleja contra ele.
+9:39 E saiu Gaal à frente dos senhores de Siquém e pelejou contra Abimeleque.
+9:40 E perseguiu-o Abimeleque, e fugiu de diante dele; e caíram muitos mortos até a entrada da porta.
+9:41 E habitou Abimeleque em Aruma; e expulsou Zebul a Gaal e a seus irmãos de habitarem em Siquém.
+9:42 E aconteceu no dia seguinte que o povo saiu ao campo; e contaram a Abimeleque.
+9:43 E tomou o povo e dividiu-os em três companhias, e emboscou-se no campo; e viu, e eis o povo saindo da cidade; e levantou-se contra eles e feriu-os.
+9:44 E Abimeleque e as companhias que [estavam] com ele irromperam e ficaram de pé à entrada da porta da cidade; e as duas companhias irromperam sobre todos os que [estavam] no campo e feriram-nos.
+9:45 E Abimeleque pelejou contra a cidade todo aquele dia, e tomou a cidade e matou o povo que [estava] nela; e derrubou a cidade e semeou-a de sal.
+9:46 E ouviram todos os senhores da torre de Siquém, e entraram no abrigo da casa de El-Berite.
+9:47 E foi contado a Abimeleque que se tinham ajuntado todos os senhores da torre de Siquém.
+9:48 E subiu Abimeleque ao monte Zalmom, ele e todo o povo que [estava] com ele; e tomou Abimeleque os machados na sua mão, e cortou um ramo de árvores, e levantou-o e pô-lo sobre o seu ombro, e disse ao povo que [estava] com ele: O que me vistes fazer, apressai-vos, fazei como eu.
+9:49 E cortou também todo o povo, cada homem, o seu ramo, e foram atrás de Abimeleque, e puseram [os ramos] sobre o abrigo, e atearam sobre eles fogo, ao abrigo; e morreram também todos os homens da torre de Siquém, cerca de mil, homem e mulher.
+9:50 E foi Abimeleque a Tebes, e acampou em Tebes e tomou-a.
+9:51 E uma torre forte havia no meio da cidade; e fugiram para lá todos os homens e as mulheres, e todos os senhores da cidade, e fecharam [a porta] atrás de si, e subiram ao terraço da torre.
+9:52 E veio Abimeleque até a torre e pelejou contra ela, e aproximou-se até a entrada da torre para a queimar no fogo.
+9:53 E lançou uma mulher um pedaço de pedra de moinho sobre a cabeça de Abimeleque, e esmagou o seu crânio.
+9:54 E chamou depressa o moço que levava as suas armas e disse-lhe: Desembainha a tua espada e mata-me, para que não digam de mim: Uma mulher o matou. E o seu moço o traspassou, e morreu.
+9:55 E viram os homens de Israel que Abimeleque morrera, e foram cada homem ao seu lugar.
+9:56 E fez Deus voltar o mal de Abimeleque, que fez a seu pai, matando os seus setenta irmãos.
+9:57 E todo o mal dos homens de Siquém fez Deus voltar sobre a sua cabeça; e veio sobre eles a maldição de Jotão, filho de Jerubaal.

@@ -1,0 +1,3 @@
+# Juízes 1–9 — palavras comuns novas deste trecho.
+# Formato: lema da OSHB | significado | grau: sentido…
+# Nenhum lema novo: os lemas de Juízes já estão em glosas.d/jz.txt (tentativa anterior, não editada).
