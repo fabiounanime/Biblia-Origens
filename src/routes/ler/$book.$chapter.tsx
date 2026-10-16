@@ -10,7 +10,9 @@ import {
   ChevronRight,
   Copy,
   NotebookPen,
+  Rows3,
   ScrollText,
+  Share2,
   X,
 } from "lucide-react";
 import { Page, Shell } from "@/components/shell";
@@ -263,6 +265,9 @@ function ChapterPage() {
             className="mx-auto inline-flex h-10 min-w-0 items-center gap-1.5 rounded-full px-4 font-semibold hover:bg-raised"
             aria-haspopup="dialog"
           >
+            <span className="font-mono text-xs font-semibold tracking-wider text-zahav uppercase" aria-hidden>
+              {book.id} {chapter}
+            </span>
             <span className="truncate">
               {book.namePt} {chapter}
             </span>
@@ -300,10 +305,7 @@ function ChapterPage() {
         ) : null}
         {Array.isArray(verses) && verses.length > 0 ? (
           <>
-            <p className="mb-2 text-center text-sm text-muted">
-              Toque no número para guardar, anotar ou copiar. Toque numa palavra em {ORIGINAL[bookLang(book)].label.toLowerCase()} ou no transliterado para ver o significado.
-              <span className="block md:hidden">Use dois dedos em pinça para ajustar a letra.</span>
-            </p>
+            <ReaderHint lang={bookLang(book)} />
             <div>
               {verses.map((verse, index) => (
                 <VerseBlock
@@ -405,11 +407,11 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
         {book.namePt} {chapter}
       </h1>
       <p className="mt-1 text-muted">
-        {book.nameTranslit}, capítulo {chapter} de {book.chapters}
+        {book.nameTranslit} · capítulo {chapter} de {book.chapters}
       </p>
 
       <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
-        <div className="flex rounded-full border border-line bg-surface p-1" role="group" aria-label="Camadas do texto">
+        <div className="flex gap-1 rounded-2xl border border-line bg-surface p-1 shadow-edge" role="group" aria-label="Camadas do texto">
           {LAYERS.map((layer) => {
             const on = layers[layer.id];
             return (
@@ -420,11 +422,11 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
                 onClick={() => layers.toggle(layer.id)}
                 title={`${on ? "Ocultar" : "Mostrar"} ${(layer.id === "he" ? ORIGINAL[bookLang(book)].label : layer.label).toLowerCase()}`}
                 className={cx(
-                  "inline-flex h-9 items-center gap-1.5 rounded-full px-3 text-sm font-semibold transition-colors",
-                  on ? "bg-raised text-fg" : "text-muted line-through decoration-muted/60",
+                  "inline-flex h-9 items-center gap-1.5 rounded-xl px-3 font-mono text-xs font-semibold transition-colors",
+                  on ? "bg-raised text-fg shadow-edge" : "text-muted hover:text-soft",
                 )}
               >
-                <span className={cx("size-2 rounded-full", layer.dot, !on && "opacity-40")} aria-hidden />
+                <span className={cx("size-2 rounded-full transition-opacity", layer.dot, !on && "opacity-30")} aria-hidden />
                 {layer.id === "he" ? ORIGINAL[bookLang(book)].short : layer.id.toUpperCase()}
                 <span className="sr-only">{layer.id === "he" ? ORIGINAL[bookLang(book)].label : layer.label}</span>
               </button>
@@ -433,15 +435,29 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
         </div>
         <button
           type="button"
+          onClick={layers.toggleInter}
+          aria-pressed={layers.inter}
+          title={layers.inter ? "Voltar ao texto corrido" : "Ver palavra por palavra"}
+          className={cx(
+            "inline-flex h-11 items-center gap-1.5 rounded-2xl border px-3.5 text-sm font-semibold transition-colors",
+            layers.inter ? "border-tekhelet/60 bg-tekhelet/12 text-tekhelet" : "border-line text-soft hover:border-muted",
+          )}
+        >
+          <Rows3 className="size-4" aria-hidden />
+          Interlinear
+        </button>
+        <button
+          type="button"
           onClick={() => toggleBookmark(book.id, chapter, 0)}
           aria-pressed={saved}
           className={cx(
-            "inline-flex h-11 items-center gap-1.5 rounded-full border px-4 text-sm font-semibold transition-colors",
+            "inline-flex h-11 items-center gap-1.5 rounded-2xl border px-3.5 text-sm font-semibold transition-colors",
             saved ? "border-shani/50 bg-shani/12 text-shani" : "border-line text-soft hover:border-muted",
           )}
         >
           {saved ? <BookmarkCheck key="on" className="pop size-4" aria-hidden /> : <Bookmark className="size-4" aria-hidden />}
-          {saved ? "Capítulo guardado" : "Guardar capítulo"}
+          {saved ? "Guardado" : "Guardar"}
+          <span className="sr-only"> capítulo</span>
         </button>
       </div>
     </header>
@@ -479,8 +495,11 @@ function VerseBlock({
   const note = findMark(marks, book.id, chapter, verse.v, "note");
   const [copied, setCopied] = useState(false);
 
+  const lines = [`${book.namePt} ${chapter}:${verse.v}`, verse.pt, verse.he, verse.tr].filter(Boolean);
+  // Compartilhar só aparece onde o aparelho oferece (celulares, em geral).
+  const canShare = typeof navigator !== "undefined" && typeof navigator.share === "function";
+
   async function copy() {
-    const lines = [`${book.namePt} ${chapter}:${verse.v}`, verse.pt, verse.he, verse.tr].filter(Boolean);
     try {
       await navigator.clipboard.writeText(lines.join("\n"));
       setCopied(true);
@@ -490,13 +509,21 @@ function VerseBlock({
     }
   }
 
+  async function share() {
+    try {
+      await navigator.share({ title: `${book.namePt} ${chapter}:${verse.v}`, text: lines.join("\n") });
+    } catch {
+      // Cancelado pela pessoa ou indisponível: nada a fazer.
+    }
+  }
+
   return (
     <article
       id={`v${verse.v}`}
       data-verse={verse.v}
       className={cx(
         "relative -mx-3 scroll-mt-20 rounded-3xl px-3 py-5 transition-colors",
-        open && "bg-surface ring-1 ring-line",
+        open && "bg-surface shadow-edge ring-1 ring-tekhelet/30",
       )}
     >
       <div className="flex gap-3.5">
@@ -506,7 +533,7 @@ function VerseBlock({
           aria-expanded={open}
           aria-label={`Versículo ${verse.v}: ações`}
           className={cx(
-            "mt-1 grid h-8 min-w-8 shrink-0 place-items-center self-start rounded-full px-1.5 text-sm font-bold tabular-nums transition-colors",
+            "mt-1 grid h-8 min-w-8 shrink-0 place-items-center self-start rounded-xl px-1.5 font-mono text-xs font-semibold tabular-nums transition-colors",
             saved
               ? "bg-shani text-on-accent"
               : open
@@ -522,7 +549,17 @@ function VerseBlock({
               <PtWithNotes text={verse.pt} notes={notes.filter((note) => note.verse === verse.v)} />
             </p>
           ) : null}
-          {layers.he ? (
+          {layers.inter ? (
+            <InterlinearLine
+              lang={bookLang(book)}
+              he={verse.he}
+              tr={verse.tr}
+              showTr={layers.tr}
+              display={(word) => displayHebrew(word, showNiqqud)}
+              words={words}
+            />
+          ) : null}
+          {layers.he && !layers.inter ? (
             <GlossLine
               layer="he"
               lang={bookLang(book)}
@@ -539,7 +576,7 @@ function VerseBlock({
               words={words}
             />
           ) : null}
-          {layers.tr ? (
+          {layers.tr && !layers.inter ? (
             <GlossLine
               layer="tr"
               lang={bookLang(book)}
@@ -569,25 +606,38 @@ function VerseBlock({
           ) : null}
 
           {open ? (
-            <div className="flex flex-wrap gap-2 pt-1">
-              <ActionButton
+            <div
+              role="toolbar"
+              aria-label={`Ações de ${book.namePt} ${chapter}:${verse.v}`}
+              className="verse-bar glass fixed inset-x-3 bottom-[calc(max(0.75rem,env(safe-area-inset-bottom))+4.75rem)] z-40 mx-auto flex max-w-md items-center gap-0.5 rounded-3xl border border-line px-1.5 py-1.5 shadow-float md:bottom-6"
+            >
+              <span className="ms-2 me-auto min-w-0 truncate font-mono text-xs font-semibold tracking-wider text-zahav uppercase">
+                {book.id} {chapter}:{verse.v}
+              </span>
+              <BarButton
                 onClick={() => toggleBookmark(book.id, chapter, verse.v)}
                 active={saved}
-                icon={saved ? <BookmarkCheck className="pop size-4" /> : <Bookmark className="size-4" />}
+                icon={saved ? <BookmarkCheck className="pop size-5" /> : <Bookmark className="size-5" />}
                 label={saved ? "Guardado" : "Guardar"}
               />
-              <ActionButton
-                onClick={onNote}
-                active={!!note}
-                icon={<NotebookPen className="size-4" />}
-                label={note ? "Editar nota" : "Nota"}
-              />
-              <ActionButton
+              <BarButton onClick={onNote} active={!!note} icon={<NotebookPen className="size-5" />} label={note ? "Editar" : "Nota"} />
+              <BarButton
                 onClick={() => void copy()}
                 active={copied}
-                icon={copied ? <Check className="size-4" /> : <Copy className="size-4" />}
+                icon={copied ? <Check className="size-5" /> : <Copy className="size-5" />}
                 label={copied ? "Copiado" : "Copiar"}
               />
+              {canShare ? (
+                <BarButton onClick={() => void share()} active={false} icon={<Share2 className="size-5" />} label="Enviar" />
+              ) : null}
+              <button
+                type="button"
+                onClick={onToggle}
+                aria-label="Fechar ações"
+                className="grid size-10 shrink-0 place-items-center rounded-2xl text-muted hover:bg-raised hover:text-fg"
+              >
+                <X className="size-5" aria-hidden />
+              </button>
             </div>
           ) : null}
         </div>
@@ -956,7 +1006,8 @@ function SourceNote({ lang }: { lang: OriginalLang }) {
   );
 }
 
-function ActionButton({
+/** Botão da barra de ações do versículo: ícone em cima, rótulo embaixo. */
+function BarButton({
   onClick,
   active,
   icon,
@@ -972,13 +1023,140 @@ function ActionButton({
       type="button"
       onClick={onClick}
       className={cx(
-        "inline-flex h-10 items-center gap-1.5 rounded-full border px-4 text-sm font-semibold transition-colors",
-        active ? "border-shani/50 bg-shani/12 text-shani" : "border-line bg-bg text-soft hover:border-muted hover:text-fg",
+        "flex h-12 min-w-12 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl px-1.5 text-[11px] font-semibold transition-colors",
+        active ? "text-shani" : "text-soft hover:bg-raised hover:text-fg",
       )}
     >
       <span aria-hidden>{icon}</span>
       {label}
     </button>
+  );
+}
+
+const HINT_KEY = "bo-dica-leitor-v1";
+
+/** Como usar o leitor: aparece até a pessoa tocar em "Entendi", e não volta mais neste aparelho. */
+function ReaderHint({ lang }: { lang: OriginalLang }) {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    try {
+      setShow(localStorage.getItem(HINT_KEY) !== "1");
+    } catch {
+      setShow(true);
+    }
+  }, []);
+  if (!show) return null;
+  const dismiss = () => {
+    setShow(false);
+    try {
+      localStorage.setItem(HINT_KEY, "1");
+    } catch {
+      // Sem armazenamento: a dica volta na próxima visita.
+    }
+  };
+  return (
+    <aside className="mb-3 flex items-start gap-3 rounded-2xl border border-line bg-surface px-4 py-3 text-sm text-soft shadow-edge">
+      <p className="flex-1 leading-relaxed">
+        Toque no número para guardar, anotar ou copiar. Toque numa palavra em {ORIGINAL[lang].label.toLowerCase()} ou no
+        transliterado para ver o significado, ou use o modo <strong className="font-semibold text-fg">Interlinear</strong>.
+        <span className="md:hidden"> Use dois dedos em pinça para ajustar a letra.</span>
+      </p>
+      <button
+        type="button"
+        onClick={dismiss}
+        className="-my-1 -me-1 inline-flex h-9 shrink-0 items-center rounded-xl px-3 font-semibold text-tekhelet hover:bg-raised"
+      >
+        Entendi
+      </button>
+    </aside>
+  );
+}
+
+/**
+ * Versículo palavra por palavra: cada palavra do original com o transliterado
+ * e o significado embaixo. Um toque mostra a gramática e a forma de dicionário.
+ */
+function InterlinearLine({
+  lang,
+  he,
+  tr,
+  showTr,
+  display,
+  words,
+}: {
+  lang: OriginalLang;
+  he: string;
+  tr: string;
+  showTr: boolean;
+  display: (word: string) => string;
+  words: WordInfo[] | "loading" | null;
+}) {
+  const [active, setActive] = useState<number | null>(null);
+  const heWords = splitWords(he, "he").filter((_, index) => index % 2 === 0);
+  const trWords = splitWords(tr, "tr").filter((_, index) => index % 2 === 0);
+  const info = active === null || !Array.isArray(words) ? null : words[active];
+
+  return (
+    <div>
+      <ol className="flex flex-wrap gap-2" dir={ORIGINAL[lang].dir} aria-label="Palavra por palavra">
+        {heWords.map((word, index) => {
+          const on = active === index;
+          const gloss = Array.isArray(words) ? words[index]?.g : undefined;
+          return (
+            <li key={index}>
+              <button
+                type="button"
+                aria-pressed={on}
+                onClick={() => setActive(on ? null : index)}
+                className={cx("inter-word", on && "inter-word-on")}
+              >
+                <span {...originalProps(lang, "inter-original")}>{display(word)}</span>
+                {showTr ? (
+                  <span className="inter-tr" dir="ltr">
+                    {(trWords[index] ?? "").replace(/[.,;:!?]+$/, "")}
+                  </span>
+                ) : null}
+                <span className="inter-gloss" dir="ltr">
+                  {words === "loading" ? "…" : gloss ? <NoteText text={gloss} /> : "—"}
+                </span>
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+      {active !== null ? (
+        <div className="mt-3 rounded-2xl border border-line bg-sunken/60 px-4 py-3" aria-live="polite">
+          <div className="flex items-baseline justify-between gap-3">
+            <span className="font-mono text-[11px] font-semibold tracking-wider text-muted uppercase">
+              Palavra {active + 1} de {heWords.length}
+            </span>
+            <span {...originalProps(lang, "text-2xl leading-tight text-zahav")}>{display(heWords[active] ?? "")}</span>
+          </div>
+          {info ? (
+            <>
+              <p className="gloss-meaning mt-1">
+                <NoteText text={info.g} />
+              </p>
+              {info.o ? (
+                <p className="mt-0.5 text-sm text-soft">
+                  Também: <NoteText text={info.o} />
+                </p>
+              ) : null}
+              <p className="mt-2 text-[13px] leading-snug text-muted">{info.m}</p>
+              {info.l ? (
+                <p className="mt-1 text-[13px] text-muted">
+                  Dicionário: <span {...originalProps(lang, "text-base text-soft")}>{info.l}</span>
+                </p>
+              ) : null}
+            </>
+          ) : (
+            <p className="mt-1 text-sm text-muted">
+              {words === "loading" ? "Abrindo o significado…" : "O significado desta palavra não pôde ser aberto agora."}
+            </p>
+          )}
+        </div>
+      ) : null}
+    </div>
   );
 }
 

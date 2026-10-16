@@ -1,4 +1,4 @@
-import { Moon, Sun } from "lucide-react";
+import { Moon, ScrollText, Sun } from "lucide-react";
 import { LAYERS, useLayers } from "@/lib/reader/layers";
 import { useStudy } from "@/lib/study/store";
 import type { FontScale, ThemeName } from "@/lib/study/types";
@@ -32,6 +32,7 @@ export function ReadingSettings({ showLayers = true }: { showLayers?: boolean })
           options={[
             { id: "dark", label: (<><Moon className="size-4" aria-hidden /> Escuro</>) },
             { id: "light", label: (<><Sun className="size-4" aria-hidden /> Claro</>) },
+            { id: "sepia", label: (<><ScrollText className="size-4" aria-hidden /> Pergaminho</>) },
           ]}
         />
       </div>

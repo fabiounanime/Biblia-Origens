@@ -13,6 +13,7 @@ import type {
   SyncPush,
   ThemeName,
 } from "@/lib/study/types";
+import { isThemeName } from "@/lib/study/types";
 
 const SCALES = new Set<FontScale>(["sm", "md", "lg", "xl"]);
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -31,7 +32,7 @@ function clampTime(value: unknown, serverNow: string): string | null {
 function cleanPrefs(value: unknown, serverNow: string): Prefs | null {
   const row = asObject(value);
   if (!row) return null;
-  const theme: ThemeName | null = row.theme === "light" || row.theme === "dark" ? row.theme : null;
+  const theme: ThemeName | null = isThemeName(row.theme) ? row.theme : null;
   const fontScale = SCALES.has(row.fontScale as FontScale) ? (row.fontScale as FontScale) : null;
   const updatedAt = clampTime(row.updatedAt, serverNow);
   if (!theme || !fontScale || !updatedAt) return null;
@@ -224,7 +225,7 @@ async function pullSince(
     serverNow,
     prefs: pref
       ? {
-          theme: pref.theme === "light" ? "light" : "dark",
+          theme: isThemeName(pref.theme) ? pref.theme : "dark",
           fontScale: SCALES.has(pref.font_scale as FontScale) ? (pref.font_scale as FontScale) : "md",
           showNiqqud: pref.show_niqqud === "true",
           updatedAt: pref.updated_at,

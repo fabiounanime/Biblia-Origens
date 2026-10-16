@@ -28,6 +28,8 @@
   --c-on-accent: #0a0d19;
   --c-glow: 91 140 255;
   --shadow-float: 0 18px 40px -18px rgb(0 0 0 / 0.75), 0 2px 6px rgb(0 0 0 / 0.35);
+  /* Borda de luz no alto dos cartões: dá camada sem sombra pesada. */
+  --edge-highlight: inset 0 1px 0 rgb(255 255 255 / 0.06);
   --read-size: 1.2rem;
   color-scheme: dark;
 }
@@ -48,7 +50,32 @@ html.light {
   --c-on-accent: #ffffff;
   --c-glow: 39 83 214;
   --shadow-float: 0 18px 40px -20px rgb(20 24 50 / 0.35), 0 2px 6px rgb(20 24 50 / 0.08);
+  --edge-highlight: inset 0 1px 0 rgb(255 255 255 / 0.7);
   color-scheme: light;
+}
+
+/*
+ * Pergaminho: tema claro e quente para leitura longa. O <html> recebe
+ * "light sepia", então tudo o que vale para o claro (tinta da marca, etc.)
+ * vale aqui; só as cores mudam.
+ */
+html.light.sepia {
+  --c-bg: #f3e9d4;
+  --c-surface: #faf4e6;
+  --c-raised: #eadcc0;
+  --c-sunken: #e6d7b8;
+  --c-fg: #2b2112;
+  --c-soft: #46381f;
+  --c-muted: #6a5735;
+  --c-line: #d9c9a6;
+  --c-tekhelet: #2a4fb8;
+  --c-zahav: #855400;
+  --c-argaman: #6b2fb0;
+  --c-shani: #b0233d;
+  --c-on-accent: #ffffff;
+  --c-glow: 133 84 0;
+  --shadow-float: 0 18px 40px -20px rgb(60 40 10 / 0.35), 0 2px 6px rgb(60 40 10 / 0.08);
+  --edge-highlight: inset 0 1px 0 rgb(255 255 255 / 0.55);
 }
 
 /* A escala de fonte afeta só o texto de leitura, não a interface. */
@@ -62,6 +89,9 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   --font-read: "Literata", Georgia, "Times New Roman", serif;
   --font-hebrew: "Frank Ruhl Libre", "Times New Roman", serif;
   --font-greek: "Gentium Book Plus", "Literata", Georgia, serif;
+  /* Interface do app (telas internas) e referências bíblicas (GN 1:1). */
+  --font-app: "Manrope", "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --color-bg: var(--c-bg);
   --color-surface: var(--c-surface);
   --color-raised: var(--c-raised);
@@ -78,6 +108,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   /* Alias antigo, mantido para componentes da plataforma. */
   --color-gold: var(--c-zahav);
   --shadow-float: var(--shadow-float);
+  --shadow-edge: var(--edge-highlight);
 }
 
 @layer base {
@@ -270,6 +301,57 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   to { opacity: 1; transform: none; }
 }
 
+/* ---------- Modo interlinear: cada palavra com transliteração e significado ---------- */
+
+.inter-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  min-width: 4.25rem;
+  padding: 0.55rem 0.6rem 0.6rem;
+  border-radius: 1rem;
+  border: 1px solid var(--c-line);
+  background: var(--c-surface);
+  box-shadow: var(--edge-highlight);
+  text-align: center;
+  transition: border-color 0.12s ease, background-color 0.12s ease, box-shadow 0.12s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (hover: hover) {
+  .inter-word:hover { border-color: color-mix(in srgb, var(--c-tekhelet) 45%, var(--c-line)); }
+}
+.inter-word-on {
+  border-color: var(--c-tekhelet);
+  background: color-mix(in srgb, var(--c-tekhelet) 10%, var(--c-surface));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--c-tekhelet) 20%, transparent);
+}
+.inter-original {
+  font-size: calc(var(--read-size) * 1.25);
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--c-zahav) 40%, var(--c-fg));
+}
+.inter-tr {
+  font-family: var(--font-read);
+  font-style: italic;
+  font-size: calc(var(--read-size) * 0.72);
+  color: color-mix(in srgb, var(--c-tekhelet) 62%, var(--c-muted));
+}
+.inter-gloss {
+  font-family: var(--font-app);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--c-soft);
+}
+
+/* Barra de ações do versículo, flutuando sobre o texto. */
+@keyframes bar-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.verse-bar { animation: bar-in 0.2s cubic-bezier(0.2, 0.8, 0.2, 1); }
+
 /* ---------- Superfícies ---------- */
 
 /* Fundo da página: um halo de tekhelet no topo, sem ruído. */
@@ -419,6 +501,7 @@ html.light .brand-dark .wordmark {
   .splash-rule,
   .pin-active,
   .gloss-bubble,
+  .verse-bar,
   .note-flash,
   .pop { animation: none; }
   * { scroll-behavior: auto !important; }

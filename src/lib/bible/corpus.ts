@@ -138,3 +138,36 @@ export function loadWords(bookId: string, chapter: number): Promise<WordInfo[][]
   request.catch(() => wordFiles.delete(key));
   return request;
 }
+
+/** Livros que já têm capítulos no acervo (lido de `indice.json`, gerado pelo build do acervo). */
+export type AcervoIndex = Record<string, { capitulos: number; versiculos: number }>;
+
+let indexRequest: Promise<AcervoIndex | null> | null = null;
+
+export function loadIndex(): Promise<AcervoIndex | null> {
+  if (indexRequest) return indexRequest;
+  const request = fetch("/content/bible/indice.json")
+    .then((response) => (response.ok ? response.json() : null))
+    .then((data: unknown) => {
+      const livros = data && typeof data === "object" ? (data as { livros?: unknown }).livros : null;
+      if (!livros || typeof livros !== "object") return null;
+      const out: AcervoIndex = {};
+      for (const [id, row] of Object.entries(livros as Record<string, unknown>)) {
+        if (!row || typeof row !== "object") continue;
+        const { capitulos, versiculos } = row as { capitulos?: unknown; versiculos?: unknown };
+        if (typeof capitulos === "number" && typeof versiculos === "number") out[id] = { capitulos, versiculos };
+      }
+      return out;
+    });
+  indexRequest = request;
+  request.catch(() => {
+    indexRequest = null;
+  });
+  return request;
+}
+
+/** Um versículo do acervo, ou null se ainda não foi publicado. */
+export async function loadVerse(bookId: string, chapter: number, verse: number): Promise<Verse | null> {
+  const verses = await loadChapter(bookId, chapter);
+  return verses?.find((row) => row.v === verse) ?? null;
+}
