@@ -5,3 +5,7 @@
 # מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
 3:18 | @9 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 9:2 | @13 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# מַטֶּה (4294) mostra "tribo" e בָּלַל (1101 a) "misturar" em destaque; aqui o sentido é outro.
+14:27 | 4294 | cajado, vara
+14:43 | 4294 | cajado, vara

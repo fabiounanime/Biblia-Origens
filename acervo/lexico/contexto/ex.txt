@@ -188,3 +188,18 @@
 37:25 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 39:5 | @5 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 40:31 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# מַטֶּה (4294) mostra "tribo" e בָּלַל (1101 a) "misturar" em destaque; aqui o sentido é outro.
+4:2 | 4294 | cajado, vara
+4:4 | 4294 | cajado, vara
+4:17 | 4294 | cajado, vara
+4:20 | 4294 | cajado, vara
+7:10 | 4294 | cajado, vara
+7:12 | 4294 | cajado, vara
+7:15 | 4294 | cajado, vara
+7:17 | 4294 | cajado, vara
+7:20 | 4294 | cajado, vara
+8:13 | 4294 | cajado, vara
+9:23 | 4294 | cajado, vara
+10:13 | 4294 | cajado, vara
+17:9 | 4294 | cajado, vara
