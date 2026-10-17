@@ -3,3 +3,169 @@
 # Veja tools/acervo/contexto.mjs.
 
 2:14 | 8269 | príncipe, chefe
+2:12 | 3541 | aqui (para cá, para lá), assim
+2:21 | 2974 | consentir, começar a, ousar
+3:18 | 7136 a | encontrar (sair ao encontro), acontecer
+5:3 | 7122 | encontrar, acontecer
+7:16 | 3541 | aqui (até agora), assim
+7:19 | 6086 | madeira, árvore
+10:13 | 7307 | vento, espírito, fôlego
+10:19 | 7307 | vento, espírito, fôlego
+10:23 | 8478 | lugar (onde se está), debaixo de
+11:5 | 3427 | sentar, habitar
+12:15 | 389 | logo, certamente, somente
+12:29 | 3427 | sentar, habitar
+14:4 | 2428 | exército, força
+14:9 | 2428 | exército, força
+14:21 | 7307 | vento, espírito, fôlego
+14:28 | 2428 | exército, força
+15:4 | 2428 | exército, força
+15:8 | 7307 | fôlego, vento, espírito
+15:9 | 7324 | desembainhar (espada), esvaziar, armar
+16:14 | 1851 | miúdo, fino, magro
+16:29 | 3427 | ficar, habitar
+17:12 | 3427 | sentar, habitar
+18:7 | 7592 | perguntar, pedir
+18:13 | 3427 | sentar, habitar
+18:14 | 3427 | sentar, habitar
+20:18 | 5128 | tremer, vaguear
+21:20 | 7626 | vara, cetro
+21:23 | 8478 | em troca de, em lugar de, debaixo de
+21:24 | 8478 | em troca de, em lugar de, debaixo de
+21:25 | 8478 | em troca de, em lugar de, debaixo de
+21:26 | 8478 | em troca de, em lugar de, debaixo de
+21:27 | 8478 | em troca de, em lugar de, debaixo de
+21:28 | 1167 | dono, senhor, marido
+21:29 | 1167 | dono, senhor, marido
+21:34 | 1167 | dono, senhor, marido
+21:36 | 8478 | em troca de, em lugar de, debaixo de
+21:37 | 8478 | em troca de, em lugar de, debaixo de
+22:7 | 1167 | dono, senhor, marido
+22:7 | 4399 | bens, obra, trabalho
+22:10 | 1167 | dono, senhor, marido
+22:10 | 4399 | bens, obra, trabalho
+22:11 | 1167 | dono, senhor, marido
+22:13 | 1167 | dono, senhor, marido
+22:14 | 1167 | dono, senhor, marido
+24:4 | 7626 | tribo, cetro
+24:10 | 3840 | pavimento (ladrilho), brancura
+24:14 | 3427 | ficar, esperar, habitar
+24:14 | 1167 | dono (de uma causa), senhor, marido
+25:5 | 6086 | madeira, árvore
+25:10 | 6086 | madeira, árvore
+25:12 | 6471 | pé, vez, passo
+25:13 | 6086 | madeira, árvore
+25:13 | 905 | vara (de transporte), só
+25:14 | 905 | vara (de transporte), só
+25:15 | 905 | vara (de transporte), só
+25:23 | 6086 | madeira, árvore
+25:27 | 905 | vara (de transporte), só
+25:28 | 6086 | madeira, árvore
+25:28 | 905 | vara (de transporte), só
+25:29 | 3709 | colher (concha), palma (da mão)
+26:1 | 2803 | desenhar (artífice), planejar, considerar
+26:3 | 802 | uma (à outra), mulher
+26:5 | 802 | uma (à outra), mulher
+26:6 | 802 | uma (à outra), mulher
+26:15 | 6086 | madeira, árvore
+26:17 | 802 | uma (à outra), mulher
+26:26 | 6086 | madeira, árvore
+26:31 | 2803 | desenhar (artífice), planejar, considerar
+27:1 | 6086 | madeira, árvore
+27:6 | 6086 | madeira, árvore
+27:6 | 905 | vara (de transporte), só
+27:7 | 905 | vara (de transporte), só
+28:6 | 2803 | desenhar (artífice), planejar, considerar
+28:7 | 3802 | ombro (ombreira), lado
+28:12 | 3802 | ombro (ombreira), lado
+28:15 | 2803 | desenhar (artífice), planejar, considerar
+28:21 | 7626 | tribo, cetro
+28:25 | 3802 | ombro (ombreira), lado
+28:27 | 3802 | ombro (ombreira), lado
+29:2 | 1101 a | misturar (amassar), confundir
+29:9 | 2280 | atar, cingir, albardar
+29:22 | 4394 | consagração, engaste
+29:26 | 4394 | consagração, engaste
+29:27 | 4394 | consagração, engaste
+29:30 | 8478 | em lugar de, debaixo de
+29:31 | 4394 | consagração, engaste
+29:34 | 4394 | consagração, engaste
+29:36 | 2398 | purificar (do pecado), expiar
+29:40 | 1101 a | misturar (amassar), confundir
+30:1 | 6086 | madeira, árvore
+30:4 | 905 | vara (de transporte), só
+30:5 | 6086 | madeira, árvore
+30:5 | 905 | vara (de transporte), só
+30:12 | 6485 a | contar (recensear), visitar
+30:13 | 6485 a | contar (recensear), visitar
+30:14 | 6485 a | contar (recensear), visitar
+30:18 | 3653 | base, posto
+30:28 | 3653 | base, posto
+31:2 | 4294 | tribo, cajado
+31:4 | 2803 | desenhar (artífice), planejar, considerar
+31:4 | 4284 | desenho (de artífice), desígnio, pensamento
+31:5 | 6086 | madeira, árvore
+31:5 | 2799 | obra (de lapidar, entalhar), lavra
+31:6 | 4294 | tribo, cajado
+31:9 | 3653 | base, posto
+31:13 | 389 | certamente, somente
+32:6 | 3427 | sentar, habitar
+34:24 | 3423 | desapossar, herdar, possuir
+35:7 | 6086 | madeira, árvore
+35:12 | 905 | vara (de transporte), só
+35:13 | 905 | vara (de transporte), só
+35:15 | 905 | vara (de transporte), só
+35:16 | 905 | vara (de transporte), só
+35:16 | 3653 | base, posto
+35:24 | 6086 | madeira, árvore
+35:30 | 4294 | tribo, cajado
+35:32 | 2803 | desenhar (artífice), planejar, considerar
+35:32 | 4284 | desenho (de artífice), desígnio, pensamento
+35:33 | 6086 | madeira, árvore
+35:33 | 2799 | obra (de lapidar, entalhar), lavra
+35:33 | 4284 | desenho (de artífice), desígnio, pensamento
+35:34 | 4294 | tribo, cajado
+35:35 | 2803 | desenhar (artífice), planejar, considerar
+35:35 | 4284 | desenho (de artífice), desígnio, pensamento
+36:8 | 2803 | desenhar (artífice), planejar, considerar
+36:20 | 6086 | madeira, árvore
+36:31 | 6086 | madeira, árvore
+36:35 | 2803 | desenhar (artífice), planejar, considerar
+37:1 | 6086 | madeira, árvore
+37:3 | 6471 | pé, vez, passo
+37:4 | 6086 | madeira, árvore
+37:4 | 905 | vara (de transporte), só
+37:5 | 905 | vara (de transporte), só
+37:10 | 6086 | madeira, árvore
+37:14 | 905 | vara (de transporte), só
+37:15 | 6086 | madeira, árvore
+37:15 | 905 | vara (de transporte), só
+37:16 | 3709 | colher (concha), palma (da mão)
+37:25 | 6086 | madeira, árvore
+37:27 | 905 | vara (de transporte), só
+37:28 | 6086 | madeira, árvore
+37:28 | 905 | vara (de transporte), só
+38:1 | 6086 | madeira, árvore
+38:5 | 905 | vara (de transporte), só
+38:6 | 6086 | madeira, árvore
+38:6 | 905 | vara (de transporte), só
+38:7 | 905 | vara (de transporte), só
+38:8 | 3653 | base, posto
+38:21 | 6485 a | contar (recensear), visitar
+38:22 | 4294 | tribo, cajado
+38:23 | 4294 | tribo, cajado
+38:23 | 2803 | desenhar (artífice), planejar, considerar
+38:25 | 6485 a | contar (recensear), visitar
+38:26 | 6485 a | contar (recensear), visitar
+39:3 | 2803 | desenhar (artífice), planejar, considerar
+39:4 | 3802 | ombro (ombreira), lado
+39:7 | 3802 | ombro (ombreira), lado
+39:8 | 2803 | desenhar (artífice), planejar, considerar
+39:14 | 7626 | tribo, cetro
+39:18 | 3802 | ombro (ombreira), lado
+39:20 | 3802 | ombro (ombreira), lado
+39:35 | 905 | vara (de transporte), só
+39:39 | 905 | vara (de transporte), só
+39:39 | 3653 | base, posto
+40:11 | 3653 | base, posto
+40:20 | 905 | vara (de transporte), só

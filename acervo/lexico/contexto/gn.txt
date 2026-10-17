@@ -84,3 +84,6 @@
 48:2 | 3427 | sentar(-se), habitar
 49:24 | 3427 | permanecer, habitar
 12:15 | 8269 | príncipe, chefe
+
+2:21 | 6763 | costela, lado
+2:22 | 6763 | costela, lado
