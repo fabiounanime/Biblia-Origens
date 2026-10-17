@@ -87,3 +87,11 @@
 
 2:21 | 6763 | costela, lado
 2:22 | 6763 | costela, lado
+
+# מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
+2:17 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+2:17 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+3:3 | @10 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+3:11 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+3:17 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+48:19 | @18 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular

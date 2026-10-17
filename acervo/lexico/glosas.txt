@@ -16,7 +16,7 @@
 1961 | ser, haver, tornar-se, acontecer
 776 | terra
 5921 a | sobre, acima de, junto a, contra
-3588 a | porque, que, quando, pois
+3588 a | que/porque/quando, pois, se, certamente
 430 | Deus, deuses
 935 | vir, entrar, chegar | h: trazer, fazer entrar | H: ser trazido
 3808 | não
@@ -469,7 +469,7 @@
 1375 | taça
 2822 | trevas
 8415 | abismo
-4150 | tempo determinado, estação
+4150 | encontro (tempo ou lugar marcado), tempo determinado, estação, festa
 402 | alimento
 6635 a | exército
 7637 | sétimo

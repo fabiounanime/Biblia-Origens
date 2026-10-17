@@ -12,3 +12,11 @@
 22:40 | 8269 | príncipe, chefe
 23:6 | 8269 | príncipe, chefe
 23:17 | 8269 | príncipe, chefe
+
+# מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
+9:12 | @3 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+18:26 | @19 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+18:28 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+18:30 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+18:32 | @8 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+21:1 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular

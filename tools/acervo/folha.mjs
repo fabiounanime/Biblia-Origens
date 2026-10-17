@@ -53,7 +53,7 @@ for (const verse of verses) {
   const line = lang === "he" ? hebrewLine(/** @type {any} */ (verse.words)) : greekLine(/** @type {any} */ (verse.words));
   const senses = contextFor(context.get(key), /** @type {any} */ (verse.words), lang);
   const words = verse.words.map((/** @type {any} */ word, /** @type {number} */ i) => {
-    const info = glosser.gloss(word, senses[i]);
+    const info = senses[i]?.whole ? { g: senses[i].sense.split(/\s*\|\s*/)[0] } : glosser.gloss(word, senses[i]);
     const code = lang === "he" ? word.morph : `${word.pos} ${word.parse}`;
     return `${info.g} [${code}]`;
   });
