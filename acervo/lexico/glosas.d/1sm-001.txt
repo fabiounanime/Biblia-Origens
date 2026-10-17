@@ -19,7 +19,7 @@
 1030 | bete-semita
 970 | jovem, moço
 1672 | inquietar-se, preocupar-se
-2256 a | bando, corda, porção
+2256 a | porção, região, corda, bando
 5984 | amonita
 855 | enxadão, relha
 7134 | machado

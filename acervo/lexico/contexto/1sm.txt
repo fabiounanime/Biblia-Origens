@@ -9,3 +9,6 @@
 # מַטֶּה (4294) mostra "tribo" e בָּלַל (1101 a) "misturar" em destaque; aqui o sentido é outro.
 14:27 | 4294 | cajado, vara
 14:43 | 4294 | cajado, vara
+
+10:5 | 2256 a | bando, corda, porção
+10:10 | 2256 a | bando, corda, porção
