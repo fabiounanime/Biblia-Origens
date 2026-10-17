@@ -39,3 +39,48 @@
 49:16 | 7626 | tribo, cetro
 49:23 | 1167 | senhor, dono, marido
 49:28 | 7626 | tribo, cetro
+2:21 | 8478 | em lugar de, debaixo de
+4:25 | 8478 | em lugar de, debaixo de
+9:5 | 389 | certamente, somente
+22:13 | 8478 | em lugar de, debaixo de
+26:9 | 389 | certamente, somente
+29:14 | 389 | certamente, somente
+30:2 | 8478 | em lugar de, debaixo de
+30:15 | 8478 | em troca de, em lugar de, debaixo de
+30:37 | 3839 | álamo, estoraque
+34:21 | 8003 | pacífico, completo
+34:29 | 2428 | riqueza, força
+36:33 | 8478 | em lugar de, debaixo de
+36:34 | 8478 | em lugar de, debaixo de
+36:35 | 8478 | em lugar de, debaixo de
+36:36 | 8478 | em lugar de, debaixo de
+36:37 | 8478 | em lugar de, debaixo de
+36:38 | 8478 | em lugar de, debaixo de
+36:39 | 8478 | em lugar de, debaixo de
+39:9 | 2820 | reter, negar, poupar
+40:13 | 4941 | costume, juízo
+42:24 | 5437 | virar-se, rodear
+44:4 | 8478 | em troca de, debaixo de
+44:28 | 389 | certamente, somente
+44:33 | 8478 | em lugar de, debaixo de
+49:4 | 3498 | ter primazia, deixar sobrar
+50:19 | 8478 | em lugar de, debaixo de
+
+# יָשַׁב (3427): o glossário põe "habitar" em destaque; aqui o verbo é sentar, ficar ou permanecer.
+18:1 | 3427 | sentar(-se), habitar
+19:1 | 3427 | sentar(-se), habitar
+21:16 | 3427 | sentar(-se), habitar
+22:5 | 3427 | ficar, habitar
+23:10 | 3427 | sentar(-se), habitar
+24:55 | 3427 | ficar, habitar
+27:19 | 3427 | sentar(-se), habitar
+29:19 | 3427 | ficar, habitar
+31:34 | 3427 | sentar(-se), habitar
+37:25 | 3427 | sentar(-se), habitar
+38:11 | 3427 | ficar, habitar
+38:14 | 3427 | sentar(-se), habitar
+43:33 | 3427 | sentar(-se), habitar
+44:33 | 3427 | ficar, habitar
+48:2 | 3427 | sentar(-se), habitar
+49:24 | 3427 | permanecer, habitar
+12:15 | 8269 | príncipe, chefe
