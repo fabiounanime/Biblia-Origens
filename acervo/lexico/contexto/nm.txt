@@ -1,0 +1,14 @@
+# Sentido de uma palavra num versículo, quando difere do primeiro sentido do glossário.
+# Formato: capítulo:versículo | lema | sentido   (lema#2 = só a 2ª ocorrência no versículo)
+# Veja tools/acervo/contexto.mjs.
+
+21:18 | 8269 | príncipe, chefe
+22:8 | 8269 | príncipe, chefe
+22:13 | 8269 | príncipe, chefe
+22:14 | 8269 | príncipe, chefe
+22:15 | 8269 | príncipe, chefe
+22:21 | 8269 | príncipe, chefe
+22:35 | 8269 | príncipe, chefe
+22:40 | 8269 | príncipe, chefe
+23:6 | 8269 | príncipe, chefe
+23:17 | 8269 | príncipe, chefe

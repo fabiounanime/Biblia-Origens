@@ -56,7 +56,7 @@
 1288 | ajoelhar | q: bendito, ajoelhar | p: abençoar | N: ser abençoado | t: abençoar-se | h: fazer ajoelhar
 1696 | falar | p: falar
 113 | senhor, dono
-3427 | sentar, habitar, ficar | h: fazer habitar, assentar
+3427 | habitar, sentar, ficar | h: fazer habitar, assentar
 5869 a | olho
 7725 | voltar, tornar | h: fazer voltar, devolver | H: ser devolvido
 518 a | se
@@ -127,7 +127,7 @@
 6963 a | voz, som
 2568 | cinco
 1471 a | nação
-8269 | príncipe, chefe
+8269 | chefe, príncipe
 1581 | camelo
 3899 | pão, alimento
 269 | irmã
