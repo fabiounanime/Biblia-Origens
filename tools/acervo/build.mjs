@@ -45,6 +45,7 @@ import { transliterateVerse } from "./translit.mjs";
 import { createGlosser, readTable } from "./palavras.mjs";
 import { createGreekGlosser, greekLine, transliterateGreekVerse } from "./grego.mjs";
 import { ROOT, SOURCES, parseRange, partFiles, readSource } from "./livros.mjs";
+import { contextFor, readContext, unusedContext } from "./contexto.mjs";
 
 const [bookId, flag, range] = process.argv.slice(2);
 if (!bookId || !SOURCES[bookId] || (flag && flag !== "--verificar")) {
@@ -144,6 +145,8 @@ const glosser =
   lang === "he"
     ? createGlosser(ROOT, process.env.STRONG_XML ?? join(ROOT, "tools/acervo/.cache/HebrewLexicon/HebrewStrong.xml"))
     : createGreekGlosser(readTable, ROOT);
+/** Sentidos de palavras em versículos específicos (acervo/lexico/contexto/{livro}.txt). */
+const context = readContext(bookId);
 /** @type {Map<number, { g: string; m: string; l: string; o: string }[][]>} */
 const wordFiles = new Map();
 
@@ -174,7 +177,8 @@ for (const [n, verses] of byChapter) {
         problems.push(`${bookId} ${n}:${v.verse}: ${v.words.length} palavras, ${heCount} no original, ${trCount} no transliterado`);
       }
       const list = wordFiles.get(n) ?? [];
-      list.push(v.words.map((word) => glosser.gloss(/** @type {any} */ (word))));
+      const senses = contextFor(context.get(`${n}:${v.verse}`), /** @type {any} */ (v.words), lang);
+      list.push(v.words.map((word, i) => glosser.gloss(/** @type {any} */ (word), senses[i])));
       wordFiles.set(n, list);
       return {
         v: v.verse,
@@ -191,6 +195,13 @@ for (const [key, list] of notes) {
   if (!inRange(Number(key.split(":")[0]))) continue;
   for (const note of list) problems.push(`${note.line}: ${key} não existe ou não foi traduzido`);
 }
+
+problems.push(
+  ...unusedContext(context, (key) => {
+    const [c, v] = key.split(":");
+    return chapters.some((ch) => ch.n === Number(c)) || (inRange(Number(c)) && byChapter.has(Number(c)) && !!pt[c]?.[v]);
+  }),
+);
 
 if (glosser.missing.size) {
   problems.push(`Sem significado em acervo/lexico: ${[...glosser.missing].join(", ")}  (veja: node tools/acervo/lemas.mjs ${bookId})`);
