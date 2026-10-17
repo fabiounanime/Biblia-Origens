@@ -193,16 +193,19 @@ export function createGreekGlosser(readTable, root) {
   /** @type {Set<string>} */
   const missing = new Set();
 
-  /** @param {GreekWord} word */
-  function gloss(word) {
+  /**
+   * @param {GreekWord} word
+   * @param {{ lemma: string, sense: string }} [context] sentido deste versículo (acervo/lexico/contexto)
+   */
+  function gloss(word, context) {
     const m = describeGreek(word.pos, word.parse);
     if (word.pos === "RA") return { g: articleGloss(word.parse), m: "Artigo, " + caseNumberGender(word.parse), l: word.lemma, o: "" };
-    const row = table.get(word.lemma);
+    const row = context?.lemma === word.lemma ? [context.sense] : table.get(word.lemma);
     if (!row) {
       missing.add(`${word.lemma} (${word.pos})`);
       return { g: "?", m, l: word.lemma, o: "" };
     }
-    const isName = /^\p{Lu}/u.test(word.lemma);
+    const isName = /^\p{Lu}/u.test(word.lemma) && !context;
     const [first, ...rest] = isName ? [row[0]] : row[0].split(/,\s(?![^(]*\))/);
     return { g: first, m, l: word.lemma, o: rest.join(", ") };
   }

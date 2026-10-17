@@ -32,7 +32,8 @@ Exemplo com `dt`; os identificadores dos livros estão em `tools/acervo/livros.m
    - se falta ou sobra algum versículo;
    - se cada nota aponta para um trecho que existe;
    - se alguma palavra ficou sem significado.
-7. **Revisão independente.** Rode `node tools/acervo/folha.mjs dt 1-34 --revisao`. A folha mostra original + palavras + português, e o revisor confere versículo a versículo.
+7. **Sentidos de contexto.** `node tools/acervo/folha.mjs dt 1-34 --glosas` e, onde o sentido em destaque engana o leitor, uma linha em `acervo/lexico/contexto/dt.txt` (veja "Glossário").
+8. **Revisão independente.** Rode `node tools/acervo/folha.mjs dt 1-34 --revisao`. A folha mostra original + palavras + português, e o revisor confere versículo a versículo.
 
 Nunca edite os arquivos de `public/content/bible/`: eles são gerados pelo build.
 
@@ -347,6 +348,17 @@ lema da MorphGNT, exatamente como aparece | significado
 
 - Nomes próprios também ficam aqui, com a forma em português.
 - O artigo (ὁ, ἡ, τό) não precisa de significado: o app o traduz pelo caso.
+
+**Sentido num versículo específico** (`acervo/lexico/contexto/{livro}.txt`):
+
+```
+capítulo:versículo | lema | sentido
+```
+
+- O glossário dá um significado por lema, e o primeiro sentido aparece embaixo da palavra no leitor. Quando, num versículo, esse sentido não serve (ex.: אֶלֶף = "gado" no glossário, mas "clã" em Jz 6:15), escreva aqui o sentido certo.
+- `lema#2` vale só para a segunda ocorrência do lema no versículo.
+- Não mude a ordem dos sentidos de um lema compartilhado por causa de um versículo: isso altera o que aparece em todos os livros já publicados. Use este arquivo.
+- Para achar os casos: `node tools/acervo/folha.mjs {livro} X-Y --glosas` mostra o português e só as palavras com mais de um sentido cujo sentido em destaque não aparece na tradução. O sentido literal correto não é erro (עָבַד = "servir" em "lavrador do solo" está certo); erro é o sentido que engana o leitor ("gado" onde o texto fala de clã).
 
 **Regras de forma:**
 - significado curto, em português, no infinitivo para verbos e no singular para nomes;

@@ -1,0 +1,41 @@
+# Sentido de uma palavra num versículo, quando difere do primeiro sentido do glossário.
+# Formato: capítulo:versículo | lema | sentido   (lema#2 = só a 2ª ocorrência no versículo)
+# Veja tools/acervo/contexto.mjs.
+
+4:21 | 8610 | tocar (instrumento), segurar
+3:8 | 7307 | vento, espírito, fôlego
+6:12 | 7843#2 | corromper, destruir
+6:14 | 6086 | madeira, árvore
+7:2 | 376 | macho, homem
+7:2 | 802 | fêmea, mulher
+7:16 | 1157 | atrás de, por, ao redor de
+8:1 | 7307 | vento, espírito, fôlego
+8:9 | 3709 | planta (do pé), palma (da mão)
+12:11 | 7126 | aproximar-se, trazer
+14:13 | 1167 | aliado (dono de aliança), senhor, dono
+22:3 | 6086 | lenha, madeira, árvore
+22:6 | 6086 | lenha, madeira, árvore
+22:7 | 6086 | lenha, madeira, árvore
+22:9 | 6086 | lenha, madeira, árvore
+22:9 | 6186 a | arrumar, pôr em ordem
+24:14 | 3198 | designar, decidir, repreender
+24:44 | 3198 | designar, decidir, repreender
+24:67 | 5162 | consolar-se, arrepender-se
+25:29 | 2102 | cozinhar (um guisado), agir com presunção
+27:3 | 6720 | caça, provisão
+31:37 | 3198 | julgar, decidir, repreender
+32:21 | 3722 a | aplacar, cobrir, fazer expiação
+32:24 | 5158 a | ribeiro, vale
+34:10 | 270 | tomar posse, ser preso
+37:19 | 1167 | senhor, dono, marido
+38:1 | 5186 | desviar-se, inclinar
+38:12 | 5162 | consolar-se, arrepender-se
+38:16 | 5186 | desviar-se, inclinar
+40:4 | 6485 a | encarregar, pôr à frente, visitar
+42:35 | 7324 | esvaziar, armar
+47:22 | 2706 | porção fixa, estatuto
+47:27 | 270 | tomar posse, ser preso
+49:3 | 3499 a | excelência, resto
+49:16 | 7626 | tribo, cetro
+49:23 | 1167 | senhor, dono, marido
+49:28 | 7626 | tribo, cetro

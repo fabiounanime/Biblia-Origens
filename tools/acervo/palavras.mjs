@@ -212,8 +212,11 @@ export function createGlosser(root, strongXml) {
   /** @type {Set<string>} */
   const missing = new Set();
 
-  /** @param {import("./oshb.mjs").Word} word */
-  function gloss(word) {
+  /**
+   * @param {import("./oshb.mjs").Word} word
+   * @param {{ lemma: string, sense: string }} [context] sentido deste versículo (acervo/lexico/contexto)
+   */
+  function gloss(word, context) {
     const aramaic = word.morph.startsWith("A");
     const morphs = word.morph.slice(1).split("/");
     const lemmas = word.lemma.split("/");
@@ -232,10 +235,12 @@ export function createGlosser(root, strongXml) {
         return;
       }
       const key = lemma.trim();
-      const name = names.get(key);
+      const own = context?.lemma === key ? context.sense : "";
+      const name = own ? undefined : names.get(key);
       const senses = glosses.get(key);
       let sense = "";
-      if (name) sense = name[0];
+      if (own) sense = own;
+      else if (name) sense = name[0];
       else if (senses) sense = pickSense(senses, code[0] === "V" ? code[1] : "");
       else missing.add(`${key} (${code})`);
       // O primeiro sentido entra na conta com os prefixos; os outros ficam à parte.
