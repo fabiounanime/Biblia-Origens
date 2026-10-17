@@ -95,3 +95,8 @@
 3:11 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 3:17 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 48:19 | @18 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# מַטֶּה (4294) mostra "tribo" e בָּלַל (1101 a) "misturar" em destaque; aqui o sentido é outro.
+11:7 | 1101 a | confundir, misturar
+11:9 | 1101 a | confundir, misturar
+38:25 | 4294 | cajado, vara

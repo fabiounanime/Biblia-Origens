@@ -20,3 +20,220 @@
 18:30 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 18:32 | @8 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 21:1 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# Capítulos 1-7
+1:3 | 6485 a | contar (recensear), visitar
+1:44 | 6485 a | contar (recensear), visitar
+1:45 | 6485 a | contar (recensear), visitar
+1:46 | 6485 a | contar (recensear), visitar
+1:47 | 6485 a | contar (recensear), visitar
+1:49 | 6485 a | contar (recensear), visitar
+2:9 | 6485 a | contar (recensear), visitar
+2:16 | 6485 a | contar (recensear), visitar
+2:24 | 6485 a | contar (recensear), visitar
+2:31 | 6485 a | contar (recensear), visitar
+2:32 | 6485 a | contar (recensear), visitar
+2:33 | 6485 a | contar (recensear), visitar
+3:15 | 6485 a | contar (recensear), visitar
+3:16 | 6485 a | contar (recensear), visitar
+3:39 | 6485 a | contar (recensear), visitar
+3:40 | 6485 a | contar (recensear), visitar
+3:42 | 6485 a | contar (recensear), visitar
+4:23 | 6485 a | contar (recensear), visitar
+4:29 | 6485 a | contar (recensear), visitar
+4:32 | 6485 a | contar (recensear), visitar
+4:34 | 6485 a | contar (recensear), visitar
+4:37 | 6485 a | contar (recensear), visitar
+4:38 | 6485 a | contar (recensear), visitar
+4:41 | 6485 a | contar (recensear), visitar
+4:42 | 6485 a | contar (recensear), visitar
+4:45 | 6485 a | contar (recensear), visitar
+4:46 | 6485 a | contar (recensear), visitar
+4:49 | 6485 a | contar (recensear), visitar
+7:2 | 6485 a | contar (recensear), visitar
+3:10 | 6485 a | designar (encarregar), visitar
+4:27 | 6485 a | confiar (encarregar), visitar
+3:12 | 8478 | em lugar de, debaixo de
+3:41 | 8478 | em lugar de, debaixo de
+3:45 | 8478 | em lugar de, debaixo de
+4:6 | 905 | vara (de transporte), só
+4:8 | 905 | vara (de transporte), só
+4:11 | 905 | vara (de transporte), só
+4:14 | 905 | vara (de transporte), só
+4:7 | 3709 | colher (concha), palma (da mão)
+4:9 | 4289 | apagador, braseiro
+4:18 | 7626 | tribo, cetro
+5:7 | 3034 | confessar, louvar
+5:14 | 7065 | ter ciúme, ter inveja
+5:30 | 7065 | ter ciúme, ter inveja
+6:2 | 6381 | fazer (voto especial), ser maravilhoso
+6:5 | 1431 | deixar crescer, engrandecer
+6:15 | 1101 a | misturar (amassar), confundir
+7:13 | 1101 a | misturar (amassar), confundir
+7:19 | 1101 a | misturar (amassar), confundir
+7:25 | 1101 a | misturar (amassar), confundir
+7:31 | 1101 a | misturar (amassar), confundir
+7:37 | 1101 a | misturar (amassar), confundir
+7:43 | 1101 a | misturar (amassar), confundir
+7:49 | 1101 a | misturar (amassar), confundir
+7:55 | 1101 a | misturar (amassar), confundir
+7:61 | 1101 a | misturar (amassar), confundir
+7:67 | 1101 a | misturar (amassar), confundir
+7:73 | 1101 a | misturar (amassar), confundir
+7:79 | 1101 a | misturar (amassar), confundir
+7:9 | 3802 | ombro, lado
+7:14 | 3709 | colher (concha), palma (da mão)
+7:20 | 3709 | colher (concha), palma (da mão)
+7:26 | 3709 | colher (concha), palma (da mão)
+7:32 | 3709 | colher (concha), palma (da mão)
+7:38 | 3709 | colher (concha), palma (da mão)
+7:44 | 3709 | colher (concha), palma (da mão)
+7:50 | 3709 | colher (concha), palma (da mão)
+7:56 | 3709 | colher (concha), palma (da mão)
+7:62 | 3709 | colher (concha), palma (da mão)
+7:68 | 3709 | colher (concha), palma (da mão)
+7:74 | 3709 | colher (concha), palma (da mão)
+7:80 | 3709 | colher (concha), palma (da mão)
+7:84 | 3709 | colher (concha), palma (da mão)
+7:86 | 3709 | colher (concha), palma (da mão)
+
+# Capítulos 8-14
+8:8 | 1101 a | misturar (amassar), confundir
+8:16 | 8478 | em lugar de, debaixo de
+8:18 | 8478 | em lugar de, debaixo de
+10:3 | 8628 | tocar (trombeta), armar (tenda)
+10:4 | 8628 | tocar (trombeta), armar (tenda)
+10:5 | 8628 | tocar (trombeta), armar (tenda)
+10:6 | 8628 | tocar (trombeta), armar (tenda)
+10:7 | 8628 | tocar (trombeta), armar (tenda)
+10:8 | 8628 | tocar (trombeta), armar (tenda)
+10:10 | 8628 | tocar (trombeta), armar (tenda)
+11:12 | 539 | aio (o que cria), crer
+11:29 | 7065 | ter ciúme, ter inveja
+11:31 | 7307 | vento, espírito, fôlego
+11:31 | 3541 | aqui (para cá, para lá), assim
+13:30 | 3423 | tomar posse, herdar, possuir
+14:11 | 575 | quando (com até: até quando?), para onde?
+
+# Capítulos 15-21
+15:3 | 6381 | fazer (voto especial), ser maravilhoso
+15:8 | 6381 | fazer (voto especial), ser maravilhoso
+15:4 | 1101 a | misturar (amassar), confundir
+15:6 | 1101 a | misturar (amassar), confundir
+15:9 | 1101 a | misturar (amassar), confundir
+15:20 | 7225 | primícias, princípio
+15:21 | 7225 | primícias, princípio
+18:12 | 7225 | primícias, princípio
+15:32 | 6086 | lenha, madeira, árvore
+15:33 | 6086 | lenha, madeira, árvore
+18:2 | 7626 | tribo, cetro
+18:16 | 6187 | avaliação, arranjo, ordem
+19:6 | 6086 | madeira, árvore
+19:9 | 5079 | impureza (água para a impureza), separação
+19:13 | 5079 | impureza (água para a impureza), separação
+19:20 | 5079 | impureza (água para a impureza), separação
+19:21 | 5079 | impureza (água para a impureza), separação
+20:1 | 3427 | ficar, sentar, habitar
+20:17 | 5186 | desviar-se, inclinar
+20:21 | 5186 | desviar-se, inclinar
+21:22 | 5186 | desviar-se, inclinar
+20:20 | 3515 | numeroso, pesado
+21:14 | 5158 a | ribeiro, vale
+21:15 | 5158 a | ribeiro, vale
+21:24 | 3423 | tomar posse, herdar, possuir
+21:35 | 3423 | tomar posse, herdar, possuir
+21:28 | 1167 | senhor (dono), marido
+21:32 | 3423 | desapossar, herdar, possuir
+
+# Capítulos 22-28
+22:8 | 3427 | ficar, sentar, habitar
+22:19 | 3427 | ficar, sentar, habitar
+22:17 | 3513 | honrar, ser pesado
+22:37 | 3513 | honrar, ser pesado
+24:11 | 3513 | honrar, ser pesado
+22:23 | 5186 | desviar-se, inclinar
+22:26 | 5186 | desviar-se, inclinar
+22:33 | 5186 | desviar-se, inclinar
+23:3 | 7136 a | sair ao encontro, acontecer
+23:4 | 7136 a | sair ao encontro, acontecer
+23:15 | 7136 a | sair ao encontro, acontecer
+23:16 | 7136 a | sair ao encontro, acontecer
+23:4 | 6186 a | arrumar, pôr em ordem
+23:8 | 5344 a | amaldiçoar, fixar
+23:15 | 3541 | aqui, assim
+24:2 | 7626 | tribo, cetro
+24:19 | 6 | destruir, perecer
+25:2 | 430 | deuses, Deus
+25:13 | 8478 | porque (em troca de), debaixo de
+25:13 | 7065 | ser zeloso, ter ciúme, ter inveja
+26:10 | 5251 | sinal (advertência), haste, bandeira
+26:51 | 6485 a | contar (recensear), visitar
+26:57 | 6485 a | contar (recensear), visitar
+26:62 | 6485 a | contar (recensear), visitar
+26:63 | 6485 a | contar (recensear), visitar
+26:64 | 6485 a | contar (recensear), visitar
+27:16 | 6485 a | designar (encarregar), visitar
+28:5 | 1101 a | misturar (amassar), confundir
+28:9 | 1101 a | misturar (amassar), confundir
+28:12 | 1101 a | misturar (amassar), confundir
+28:13 | 1101 a | misturar (amassar), confundir
+28:20 | 1101 a | misturar (amassar), confundir
+28:28 | 1101 a | misturar (amassar), confundir
+
+# Capítulos 29-36
+29:3 | 1101 a | misturar (amassar), confundir
+29:9 | 1101 a | misturar (amassar), confundir
+29:14 | 1101 a | misturar (amassar), confundir
+30:9 | 6565 a | anular, quebrar
+30:13 | 6565 a | anular, quebrar
+30:16 | 6565 a | anular, quebrar
+31:7 | 6633 | guerrear, servir (em turnos)
+31:42 | 6633 | guerrear, servir (em turnos)
+31:9 | 2428 | bens (riqueza), força
+31:14 | 2428 | exército, força
+31:14 | 6485 a | oficial (encarregado), visitar
+31:48 | 6485 a | oficial (encarregado), visitar
+31:49 | 6485 a | faltar, visitar
+31:20 | 6086 | madeira, árvore
+31:23 | 5079 | impureza (água para a impureza), separação
+32:6 | 3427 | ficar, sentar, habitar
+32:14 | 8478 | em lugar de, debaixo de
+32:14 | 5595 | acrescentar (aumentar), destruir
+32:30 | 270 | tomar posse, ser preso
+32:33 | 7626 | tribo, cetro
+32:38 | 5437 | mudar (o nome), rodear
+32:39 | 3423 | desapossar, herdar, possuir
+33:52 | 3423 | desapossar, herdar, possuir
+33:55 | 3423 | desapossar, herdar, possuir
+33:4 | 430 | deuses, Deus
+33:52 | 6 | destruir, perecer
+33:53 | 3423 | tomar posse, herdar, possuir
+34:5 | 5158 a | ribeiro, vale
+34:17 | 5157 | repartir (dar por herança), herdar
+34:18 | 5157 | repartir (dar por herança), herdar
+34:29 | 5157 | repartir (dar por herança), herdar
+35:6 | 7523 | matar, assassinar
+35:11 | 7523 | matar, assassinar
+35:12 | 7523 | matar, assassinar
+35:25 | 7523 | matar, assassinar
+35:26 | 7523 | matar, assassinar
+35:27 | 7523 | matar, assassinar
+35:28 | 7523 | matar, assassinar
+35:18 | 6086 | madeira, árvore
+35:28 | 3427 | ficar, habitar
+36:3 | 7626 | tribo, cetro
+36:7 | 5437 | passar (de tribo a tribo), rodear
+36:9 | 5437 | passar (de tribo a tribo), rodear
+
+# מַטֶּה (4294) mostra "tribo" e בָּלַל (1101 a) "misturar" em destaque; aqui o sentido é outro.
+17:17 | 4294 | vara, cajado
+17:18 | 4294 | vara, cajado
+17:20 | 4294 | vara, cajado
+17:21 | 4294 | vara, cajado
+17:22 | 4294 | vara, cajado
+17:23 | 4294 | vara, cajado
+17:24 | 4294 | vara, cajado
+17:25 | 4294 | vara, cajado
+20:8 | 4294 | vara, cajado
+20:9 | 4294 | vara, cajado
+20:11 | 4294 | vara, cajado

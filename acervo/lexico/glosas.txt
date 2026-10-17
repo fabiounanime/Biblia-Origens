@@ -268,7 +268,7 @@
 6256 | tempo, época
 7223 | primeiro
 3196 | vinho
-3423 | herdar, possuir, tomar posse | N: empobrecer
+3423 | possuir, herdar, tomar posse | N: empobrecer | h: desapossar, fazer possuir
 3541 | assim, aqui
 5869 b | fonte
 7323 | correr | h: fazer correr, trazer depressa
@@ -491,7 +491,7 @@
 3618 | nora
 436 | carvalho
 860 | jumenta
-3513 | ser pesado, ser grave | N: ser honrado
+3513 | ser pesado, ser grave | N: ser honrado | p: honrar | h: tornar pesado, endurecer | t: honrar-se, multiplicar-se
 8462 | princípio, primeira vez
 2752 | horeu
 1167 | marido, dono, senhor
@@ -731,7 +731,7 @@
 8313 | queimar | N: ser queimado
 2564 | betume
 4026 | torre
-1101 a | confundir, misturar
+1101 a | misturar (amassar), confundir
 6275 | h: mudar-se, passar adiante
 167 | armar tenda
 6828 | norte
@@ -807,7 +807,7 @@
 370 | de onde?
 7620 | semana
 5656 | serviço, trabalho
-3034 | h: louvar, dar graças
+3034 | h: louvar, dar graças | t: confessar
 7936 b | contratar, alugar
 2781 | vergonha, opróbrio
 8495 | bode
@@ -853,7 +853,7 @@
 2524 | sogro
 491 | viuvez
 6616 | cordão
-4294 | cajado, vara; tribo
+4294 | tribo, vara, cajado
 6663 | ser justo | t: justificar-se
 8144 | escarlate (fio)
 8334 | p: servir, assistir
@@ -1522,7 +1522,7 @@
 5953 a | t: tratar com escárnio, agir duramente
 697 | gafanhoto
 4170 | laço, armadilha
-6 | perecer, perder-se
+6 | perecer, perder-se | p: destruir, fazer perecer | h: destruir, fazer perecer
 2282 | festa
 1397 | homem, varão
 2821 | escurecer
@@ -1761,7 +1761,7 @@
 6887 d | afligir, ser adversário
 6880 | vespa (sentido incerto)
 8077 a | desolação
-5157 | herdar, possuir
+5157 | herdar, possuir | p: repartir por herança | h: dar por herança
 101 | bacia
 3840 | brancura, pavimento (de safira)
 5601 | safira (lápis-lazúli)
