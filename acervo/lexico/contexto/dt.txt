@@ -10,3 +10,164 @@
 26:14 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 26:14 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 28:31 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# אֱלֹהִים / אֵל: deuses estrangeiros (o 1º sentido do glossário é "Deus").
+4:7 | 430#1 | deuses, Deus
+4:28 | 430 | deuses, Deus
+4:34 | 430#1 | deus, Deus
+5:7 | 430 | deuses, Deus
+6:14 | 430 | deuses, Deus
+7:4 | 430 | deuses, Deus
+7:16 | 430#2 | deuses, Deus
+7:25 | 430#1 | deuses, Deus
+8:19 | 430#2 | deuses, Deus
+10:17 | 430#3 | deuses, Deus
+11:16 | 430 | deuses, Deus
+11:28 | 430#2 | deuses, Deus
+12:2 | 430 | deuses, Deus
+12:3 | 430 | deuses, Deus
+12:30 | 430 | deuses, Deus
+12:31 | 430#2 | deuses, Deus
+12:31 | 430#3 | deuses, Deus
+13:3 | 430 | deuses, Deus
+13:7 | 430 | deuses, Deus
+13:8 | 430 | deuses, Deus
+13:14 | 430 | deuses, Deus
+17:3 | 430 | deuses, Deus
+18:20 | 430 | deuses, Deus
+20:18 | 430#1 | deuses, Deus
+28:14 | 430 | deuses, Deus
+28:36 | 430 | deuses, Deus
+28:64 | 430 | deuses, Deus
+29:17 | 430#2 | deuses, Deus
+29:25 | 430 | deuses, Deus
+30:17 | 430 | deuses, Deus
+31:16 | 430 | deuses, Deus
+31:18 | 430 | deuses, Deus
+31:20 | 430 | deuses, Deus
+32:17 | 430 | deuses, Deus
+32:37 | 430 | deuses, Deus
+32:39 | 430 | deus, Deus
+3:24 | 410 | deus, Deus (*El*)
+32:12 | 410 | deus, Deus (*El*)
+28:32 | 410 | poder, Deus (*El*)
+
+# Capítulos 1-6
+1:23 | 7626 | tribo, cetro
+3:13 | 7626 | tribo, cetro
+1:24 | 5158 a | ribeiro, vale
+2:13 | 5158 a | ribeiro, vale
+2:14 | 5158 a | ribeiro, vale
+2:24 | 5158 a | ribeiro, vale
+2:36 | 5158 a | ribeiro, vale
+2:37 | 5158 a | ribeiro, vale
+3:8 | 5158 a | ribeiro, vale
+3:12 | 5158 a | ribeiro, vale
+3:16 | 5158 a | ribeiro, vale
+4:48 | 5158 a | ribeiro, vale
+2:5 | 3709 | planta (do pé), palma (da mão)
+2:12 | 8478 | em lugar de, debaixo de
+2:21 | 8478 | em lugar de, debaixo de
+2:22 | 8478 | em lugar de, debaixo de
+2:23 | 8478 | em lugar de, debaixo de
+4:37 | 8478 | porque (em troca de), debaixo de
+2:25 | 2342 a | contorcer-se (de dor), dançar, girar
+3:4 | 2256 a | região (porção), corda
+3:13 | 2256 a | região (porção), corda
+3:14 | 2256 a | região (porção), corda
+4:28 | 6086 | madeira, árvore
+4:42 | 7523 | matar, assassinar
+
+# Capítulos 7-12
+8:7 | 5158 a | ribeiro, vale
+9:21 | 5158 a | ribeiro, vale
+10:7 | 5158 a | ribeiro, vale
+9:9 | 3427 | ficar, sentar, habitar
+10:1 | 6086 | madeira, árvore
+10:3 | 6086 | madeira, árvore
+10:8 | 7626 | tribo, cetro
+11:4 | 2428 | exército, força
+11:24 | 3709 | planta (do pé), palma (da mão)
+9:1 | 3423 | desapossar, herdar, possuir
+11:23 | 3423 | desapossar, herdar, possuir
+12:2 | 3423 | desapossar, herdar, possuir
+12:29 | 3423 | desapossar, herdar, possuir
+
+# בִּעַר (piel): "eliminar" o mal do meio de ti, não "queimar".
+13:6 | 1197 a | eliminar, queimar
+17:7 | 1197 a | eliminar, queimar
+17:12 | 1197 a | eliminar, queimar
+19:13 | 1197 a | eliminar, queimar
+19:19 | 1197 a | eliminar, queimar
+21:9 | 1197 a | eliminar, queimar
+21:21 | 1197 a | eliminar, queimar
+22:21 | 1197 a | eliminar, queimar
+22:22 | 1197 a | eliminar, queimar
+22:24 | 1197 a | eliminar, queimar
+24:7 | 1197 a | eliminar, queimar
+26:13 | 1197 a | remover, eliminar, queimar
+26:14 | 1197 a | remover, eliminar, queimar
+
+# נָדַח: desviar, deixar-se arrastar, desgarrar-se, brandir (o machado).
+4:19 | 5080 | ser arrastado (seduzido), ser banido
+13:6 | 5080 | desviar (seduzir), banir
+13:11 | 5080 | desviar (seduzir), banir
+13:14 | 5080 | desviar (seduzir), banir
+19:5 | 5080 | ser impelido, ser banido
+20:19 | 5080 | brandir (o machado), banir
+22:1 | 5080 | desgarrar-se, ser banido
+30:17 | 5080 | ser arrastado (seduzido), ser banido
+
+# Capítulos 13-18
+15:2 | 1167 | dono, senhor, marido
+15:2 | 5065 | pressionar (cobrar), oprimir
+15:3 | 5065 | pressionar (cobrar), oprimir
+15:2 | 8058 | remitir (dívida), largar
+15:3 | 8058 | remitir (dívida), largar
+18:1 | 7626 | tribo, cetro
+18:3 | 3895 | queixada, face
+18:4 | 7225 | primícias, princípio
+26:2 | 7225 | primícias, princípio
+26:10 | 7225 | primícias, princípio
+18:14 | 3423 | desapossar, herdar, possuir
+
+# Capítulos 19-24
+19:3 | 7523 | matar, assassinar
+19:4 | 7523 | matar, assassinar
+19:6 | 7523 | matar, assassinar
+19:6 | 1350 a | vingar (o sangue), resgatar, redimir
+19:12 | 1350 a | vingar (o sangue), resgatar, redimir
+20:9 | 6485 a | designar (encarregar), visitar
+21:14 | 8478 | porque (em troca de), debaixo de
+22:29 | 8478 | porque (em troca de), debaixo de
+21:22 | 6086 | madeiro, árvore
+21:23 | 6086 | madeiro, árvore
+24:6 | 7393 | mó de cima, carros
+
+# Capítulos 25-30
+19:5 | 5394 | soltar-se, tirar
+28:40 | 5394 | cair (soltar-se), tirar
+26:5 | 6 | perder-se (errante), perecer
+28:35 | 3709 | planta (do pé), palma (da mão)
+28:56 | 3709 | planta (do pé), palma (da mão)
+28:65 | 3709 | planta (do pé), palma (da mão)
+28:36 | 6086 | madeira, árvore
+28:64 | 6086 | madeira, árvore
+29:16 | 6086 | madeira, árvore
+28:47 | 8478 | porque (em troca de), debaixo de
+28:62 | 8478 | em lugar de, debaixo de
+28:52 | 6887 b | sitiar (apertar), atar
+28:33 | 7533 | esmagar (oprimir), empurrar-se
+29:7 | 7626 | tribo, cetro
+29:17 | 7626 | tribo, cetro
+29:20 | 7626 | tribo, cetro
+
+# Capítulos 31-34
+32:9 | 2256 a | lote (porção), corda
+32:23 | 5595 | amontoar (acrescentar), destruir
+32:28 | 6 | perdido (privado de), perecer
+32:36 | 657 a | não há (fim), contudo
+33:17 | 657 a | confim, fim
+33:21 | 5603 | guardar (reservar), cobrir
+33:5 | 7626 | tribo, cetro
+33:12 | 3802 | ombro, lado

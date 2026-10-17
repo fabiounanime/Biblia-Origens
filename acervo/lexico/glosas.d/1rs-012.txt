@@ -91,7 +91,7 @@
 6684 | jejuar
 2814 | h: calar-se, ficar quieto
 3964 | que, o quê
-3895 | face, queixada
+3895 | queixada, face
 2247 | esconder | N: esconder-se
 3608 | prisão
 1694 | juntura
