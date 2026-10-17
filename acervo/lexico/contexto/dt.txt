@@ -1,0 +1,12 @@
+# Sentido de uma palavra num versículo, quando difere do primeiro sentido do glossário.
+# Formato: capítulo:versículo | lema | sentido   (lema#2 = só a 2ª ocorrência no versículo)
+# Veja tools/acervo/contexto.mjs.
+
+# מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
+4:2 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+20:19 | @18 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+22:3 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+26:14 | @4 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+26:14 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+26:14 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+28:31 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular

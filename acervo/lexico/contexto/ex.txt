@@ -169,3 +169,22 @@
 39:39 | 3653 | base, posto
 40:11 | 3653 | base, posto
 40:20 | 905 | vara (de transporte), só
+
+# מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
+4:26 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+12:9 | @3 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+12:10 | @3 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+12:10 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+16:16 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+16:19 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+16:20 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+16:32 | @10 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+17:6 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+19:21 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+28:8 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+30:2 | @9 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+30:19 | @4 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+30:33 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+37:25 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+39:5 | @5 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+40:31 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular

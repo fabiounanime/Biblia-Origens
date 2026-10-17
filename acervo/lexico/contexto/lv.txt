@@ -1,0 +1,102 @@
+# Sentido de uma palavra num versículo, quando difere do primeiro sentido do glossário.
+# Formato: capítulo:versículo | lema | sentido   (lema#2 = só a 2ª ocorrência no versículo)
+# Veja tools/acervo/contexto.mjs.
+
+1:7 | 6086 | lenha, madeira, árvore
+1:8 | 6086 | lenha, madeira, árvore
+1:12 | 6086 | lenha, madeira, árvore
+1:17 | 6086 | lenha, madeira, árvore
+2:4 | 1101 a | misturar (amassar), confundir
+2:5 | 1101 a | misturar (amassar), confundir
+3:5 | 6086 | lenha, madeira, árvore
+4:12 | 6086 | lenha, madeira, árvore
+5:15 | 6187 | avaliação, arranjo, ordem
+5:18 | 6187 | avaliação, arranjo, ordem
+5:25 | 6187 | avaliação, arranjo, ordem
+6:5 | 6086 | lenha, madeira, árvore
+6:15 | 8478 | em lugar de, debaixo de
+6:19 | 2398 | oferecer pelo pecado, purificar (do pecado), expiar
+7:10 | 1101 a | misturar (amassar), confundir
+7:12 | 1101 a | misturar (amassar), confundir
+7:37 | 4394 | consagração, engaste
+8:13 | 2280 | atar, cingir, albardar
+8:15 | 2398 | purificar (do pecado), expiar
+8:22 | 4394 | consagração, engaste
+8:28 | 4394 | consagração, engaste
+8:29 | 4394 | consagração, engaste
+8:31 | 4394 | consagração, engaste
+8:35 | 3427 | ficar, sentar, habitar
+9:4 | 1101 a | misturar (amassar), confundir
+11:32 | 6086 | madeira, árvore
+12:4 | 3427 | ficar, sentar, habitar
+12:5 | 3427 | ficar, sentar, habitar
+13:23 | 8478 | lugar (no seu lugar), debaixo de
+13:28 | 8478 | lugar (no seu lugar), debaixo de
+14:4 | 6086 | madeira, árvore
+14:6 | 6086 | madeira, árvore
+14:8 | 3427 | ficar, sentar, habitar
+14:10 | 1101 a | misturar (amassar), confundir
+14:21 | 1101 a | misturar (amassar), confundir
+14:36 | 6437 | esvaziar (desocupar), preparar
+14:42 | 8478 | em lugar de, debaixo de
+14:45 | 6086 | madeira, árvore
+14:49 | 2398 | purificar (do pecado), expiar
+14:49 | 6086 | madeira, árvore
+14:51 | 6086 | madeira, árvore
+14:52 | 2398 | purificar (do pecado), expiar
+14:52 | 6086 | madeira, árvore
+15:4 | 3427 | sentar, ficar, habitar
+15:6 | 3427 | sentar, ficar, habitar
+15:20 | 3427 | sentar, ficar, habitar
+15:22 | 3427 | sentar, ficar, habitar
+15:23 | 3427 | sentar, ficar, habitar
+15:26 | 3427 | sentar, ficar, habitar
+15:12 | 6086 | madeira, árvore
+16:32 | 8478 | em lugar de, debaixo de
+22:22 | 2782 | mutilar (cortar), aguçar
+23:13 | 1101 a | misturar (amassar), confundir
+24:11 | 4294 | tribo, cajado
+24:11 | 5344 a | pronunciar (o Nome), designar
+24:18 | 8478 | em troca de, em lugar de, debaixo de
+24:20 | 8478 | em troca de, em lugar de, debaixo de
+25:10 | 1865 | liberdade (alforria)
+26:33 | 7324 | desembainhar (esvaziar), fazer sair
+27:2 | 6187 | avaliação, arranjo, ordem
+27:3 | 6187 | avaliação, arranjo, ordem
+27:4 | 6187 | avaliação, arranjo, ordem
+27:5 | 6187 | avaliação, arranjo, ordem
+27:6 | 6187 | avaliação, arranjo, ordem
+27:7 | 6187 | avaliação, arranjo, ordem
+27:8 | 6187 | avaliação, arranjo, ordem
+27:12 | 6187 | avaliação, arranjo, ordem
+27:13 | 6187 | avaliação, arranjo, ordem
+27:15 | 6187 | avaliação, arranjo, ordem
+27:16 | 6187 | avaliação, arranjo, ordem
+27:17 | 6187 | avaliação, arranjo, ordem
+27:18 | 6187 | avaliação, arranjo, ordem
+27:19 | 6187 | avaliação, arranjo, ordem
+27:23 | 6187 | avaliação, arranjo, ordem
+27:25 | 6187 | avaliação, arranjo, ordem
+27:27 | 6187 | avaliação, arranjo, ordem
+27:32 | 7626 | vara, cetro
+
+# מִמֶּנּוּ: a OSHB marca "de nós" (1ª plural); aqui é "dele" (3ª masculino singular).
+2:11 | @16 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+3:14 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+4:8 | @7 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+4:19 | @5 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+5:2 | @21 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+5:3 | @12 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+5:4 | @16 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+6:8 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+7:3 | @5 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+7:14 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+7:15 | @10 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+7:16 | @14 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+7:18 | @20 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+8:11 | @2 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+15:16 | @4 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+15:32 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+22:4 | @23 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+22:30 | @6 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+27:9 | @11 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular

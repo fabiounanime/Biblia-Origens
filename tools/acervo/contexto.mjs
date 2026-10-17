@@ -15,6 +15,12 @@
  * vale só para a segunda vez que o lema aparece no versículo; sem número, vale
  * para todas. O sentido segue o formato do glossário: o primeiro aparece em
  * destaque, os outros (depois de vírgula) ficam como "Também".
+ *
+ * Com "@N" no lugar do lema, a linha vale para a N-ésima palavra do versículo
+ * e substitui o significado inteiro dela, com prefixos e sufixos (para quando a
+ * análise da OSHB erra um sufixo: מִמֶּנּוּ "de nós" onde é "dele"). Depois de
+ * outra barra, pode vir a gramática que substitui a da análise:
+ *     2:11 | @16 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
  */
 
 import { existsSync, readFileSync } from "node:fs";
@@ -55,13 +61,18 @@ export function contextFor(entries, words, lang) {
   if (!entries?.length) return words.map(() => undefined);
   /** @type {Map<string, number>} */
   const seen = new Map();
-  return words.map((word) => {
+  return words.map((word, index) => {
+    const whole = entries.find((e) => e.lemma === `@${index + 1}`);
+    if (whole) {
+      whole.used = true;
+      return { lemma: whole.lemma, sense: whole.sense, whole: true };
+    }
     const lemmas = lang === "he" ? word.lemma.split("/").map((l) => l.trim()) : [word.lemma];
     for (const lemma of lemmas) {
       if (lang === "he" && /^[a-z]$/.test(lemma)) continue;
       const count = (seen.get(lemma) ?? 0) + 1;
       seen.set(lemma, count);
-      const entry = entries.find((e) => e.lemma === lemma && (!e.nth || e.nth === count));
+      const entry = entries.find((e) => !e.lemma.startsWith("@") && e.lemma === lemma && (!e.nth || e.nth === count));
       if (entry) {
         entry.used = true;
         return { lemma, sense: entry.sense };

@@ -178,7 +178,15 @@ for (const [n, verses] of byChapter) {
       }
       const list = wordFiles.get(n) ?? [];
       const senses = contextFor(context.get(`${n}:${v.verse}`), /** @type {any} */ (v.words), lang);
-      list.push(v.words.map((word, i) => glosser.gloss(/** @type {any} */ (word), senses[i])));
+      list.push(
+        v.words.map((word, i) => {
+          const info = glosser.gloss(/** @type {any} */ (word), senses[i]);
+          if (!senses[i]?.whole) return info;
+          // "@N | significado | gramática": a gramática é opcional.
+          const [g, m] = senses[i].sense.split(/\s*\|\s*/);
+          return { ...info, g, m: m || info.m, o: "" };
+        }),
+      );
       wordFiles.set(n, list);
       return {
         v: v.verse,
