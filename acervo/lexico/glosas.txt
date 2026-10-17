@@ -687,7 +687,7 @@
 5828 | ajuda
 8639 | sono profundo
 3462 | dormir
-6763 | costela, lado
+6763 | lado, costela
 5929 | folha
 7779 | ferir, esmagar (sentido incerto)
 8669 | desejo
