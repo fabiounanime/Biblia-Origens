@@ -8,11 +8,10 @@ import { getRequest } from "@tanstack/react-start/server";
  * client/server module under a non-`.server` name, Vite ships it to the browser
  * and the app dies with: `AsyncLocalStorage is not a constructor`.
  *
- * Apps deployed on `*.grok.me` are "same-site" to each other but MUTUALLY
- * UNTRUSTED, and a `SameSite=Lax` session cookie IS sent on same-site
- * subrequests — so without this, a malicious sibling could make a SCRIPTED
- * (fetch/XHR/form-POST) request to this app's server functions and ride this
- * app's session cookie.
+ * A `SameSite=Lax` session cookie IS sent on same-site subrequests (e.g. from
+ * another subdomain), so without this a page on a sibling host could make a
+ * SCRIPTED (fetch/XHR/form-POST) request to this app's server functions and
+ * ride this app's session cookie.
  *
  * We allow only: same-origin requests (this app's own client), non-browser
  * requests (SSR / server-to-server, which send no `Sec-Fetch-Site`), and
@@ -39,7 +38,7 @@ export function assertSameSiteRequest(): void {
   // Non-browser client (no header), the app's own origin, or a direct
   // (address-bar/bookmark) load are all fine.
   if (!site || site === "same-origin" || site === "none") return;
-  // A top-level GET navigation (e.g. the broker's OAuth callback redirect) is
+  // A top-level GET navigation (e.g. the Google OAuth callback redirect) is
   // fine even when it's cross-site; scripted requests never set navigate mode.
   const dest = h.get("sec-fetch-dest");
   const isTopLevelGet =

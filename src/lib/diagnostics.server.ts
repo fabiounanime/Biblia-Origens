@@ -27,16 +27,14 @@ function safeMessage(err: unknown): string {
   return raw.replace(/postgres(ql)?:\/\/\S+/gi, "[endereço do banco]").slice(0, 240);
 }
 
-async function googleMode(origin: string): Promise<GoogleMode> {
-  const { googleDirectConfigured, grokClientInjected } = await import("@/lib/auth/server");
-  if (googleDirectConfigured) return "direct";
-  if (grokClientInjected || new URL(origin).hostname.endsWith(".grok-sandbox.com")) return "grok";
-  return "off";
+async function googleMode(): Promise<GoogleMode> {
+  const { googleDirectConfigured } = await import("@/lib/auth/server");
+  return googleDirectConfigured ? "direct" : "off";
 }
 
 /** Só o modo do Google, sem tocar no banco — usado pela tela de login. */
-export async function loginConfig(request: Request): Promise<{ googleMode: GoogleMode }> {
-  return { googleMode: await googleMode(new URL(request.url).origin) };
+export async function loginConfig(): Promise<{ googleMode: GoogleMode }> {
+  return { googleMode: await googleMode() };
 }
 
 export async function diagnose(request: Request): Promise<Diagnosis> {
@@ -142,7 +140,7 @@ export async function diagnose(request: Request): Promise<Diagnosis> {
   );
 
   // 6. Google
-  const mode = await googleMode(origin);
+  const mode = await googleMode();
   const callback = `${baseUrl ? stripSlash(baseUrl) : origin}/api/auth/callback/google`;
   if (mode === "direct") {
     checks.push({
@@ -151,8 +149,6 @@ export async function diagnose(request: Request): Promise<Diagnosis> {
       status: "ok",
       detail: `Login direto configurado. No Google Cloud, o endereço de retorno autorizado deve ser ${callback}.`,
     });
-  } else if (mode === "grok") {
-    checks.push({ id: "google", label: "Entrar com Google", status: "ok", detail: "Pelo intermediário do Grok (auth.grok.me)." });
   } else {
     checks.push({
       id: "google",

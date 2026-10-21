@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-router";
-import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
+import { authClient, authEnabled } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { BrandMark, Segmented, ThreadRing, Wordmark } from "@/components/ui";
 import type { GoogleMode } from "@/lib/diagnostics";
@@ -52,7 +52,7 @@ function LoginPage() {
   const [pending, setPending] = useState(false);
   const [googleMode, setGoogleMode] = useState<GoogleMode | "loading">("loading");
 
-  // Qual login com Google o servidor oferece (direto, pelo Grok ou nenhum).
+  // Se o servidor oferece o login com Google.
   useEffect(() => {
     let cancel = false;
     fetch("/api/diagnostico?resumo=1", { cache: "no-store" })
@@ -71,17 +71,12 @@ function LoginPage() {
   async function onGoogle() {
     setError(null);
     try {
-      if (googleMode === "direct") {
-        const { error: socialError } = await authClient.signIn.social({
-          provider: "google",
-          callbackURL: "/inicio",
-          errorCallbackURL: "/login",
-        });
-        if (socialError) setError(ptAuthError(socialError));
-        return;
-      }
-      const provider = GROK_PROVIDERS[0];
-      if (provider) await signIn(provider.providerId, { callbackURL: "/inicio", errorCallbackURL: "/login" });
+      const { error: socialError } = await authClient.signIn.social({
+        provider: "google",
+        callbackURL: "/inicio",
+        errorCallbackURL: "/login",
+      });
+      if (socialError) setError(ptAuthError(socialError));
     } catch {
       setError(ptSocialError(""));
     }

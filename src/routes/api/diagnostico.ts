@@ -13,7 +13,7 @@ export const Route = createFileRoute("/api/diagnostico")({
         const { diagnose, loginConfig } = await import("@/lib/diagnostics.server");
         const summary = new URL(request.url).searchParams.get("resumo") === "1";
         try {
-          const body = summary ? await loginConfig(request) : await diagnose(request);
+          const body = summary ? await loginConfig() : await diagnose(request);
           return Response.json(body, { headers: NO_STORE });
         } catch (err) {
           const message = err instanceof Error ? err.message : String(err);
