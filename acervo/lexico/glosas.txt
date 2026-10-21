@@ -355,7 +355,7 @@
 7198 | arco
 8071 | capa, manto
 7453 | próximo, companheiro
-5045 | Neguebe, sul
+5045 | sul, Neguebe
 4616 | por causa de, para que
 3225 | direita, mão direita
 3603 | planície; talento (peso)
@@ -572,7 +572,7 @@
 8210 | derramar | N: ser derramado
 3956 | língua
 2340 | heveu
-1366 | território, fronteira
+1366 | limite, território, fronteira
 4186 | habitação, morada
 2308 | cessar, deixar de
 6135 | estéril
@@ -668,7 +668,7 @@
 8552 | acabar, terminar
 2706 | estatuto, porção fixa
 4296 | cama, leito
-7626 | cetro, tribo
+7626 | tribo, cetro, vara
 2590 a | embalsamar
 3004 | porção seca, terra seca
 1877 | relva

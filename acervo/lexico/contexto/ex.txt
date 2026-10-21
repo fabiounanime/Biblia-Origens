@@ -203,3 +203,7 @@
 9:23 | 4294 | cajado, vara
 10:13 | 4294 | cajado, vara
 17:9 | 4294 | cajado, vara
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+10:14 | 1366 | território, limite
+10:19 | 1366 | território, limite

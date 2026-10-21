@@ -6,3 +6,103 @@
 1:7 | @15 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 23:6 | @13 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 23:14 | @31 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# Capítulos 1-6
+2:4 | 3651 a | sim (assim), certo
+2:6 | 6086 | haste (do linho), madeira, árvore
+2:14 | 8478 | em lugar de, debaixo de
+5:7 | 8478 | em lugar de, debaixo de
+5:8 | 8478 | no lugar (deles), debaixo de
+2:15 | 2256 a | corda, porção
+2:22 | 3427 | ficar, habitar, sentar
+5:8 | 3427 | ficar, habitar, sentar
+3:17 | 3559 a | firme (firmemente), preparar
+6:4 | 8628 | tocar (trombeta), armar (tenda)
+6:8 | 8628 | tocar (trombeta), armar (tenda)
+6:9 | 8628 | tocar (trombeta), armar (tenda)
+6:13 | 8628 | tocar (trombeta), armar (tenda)
+6:16 | 8628 | tocar (trombeta), armar (tenda)
+6:20 | 8628 | tocar (trombeta), armar (tenda)
+6:5 | 4900 | prolongar (o toque), puxar
+6:5 | 7321 | bradar, gritar, tocar alarme
+6:10 | 7321 | bradar, gritar, tocar alarme
+6:16 | 7321 | bradar, gritar, tocar alarme
+6:20 | 7321 | bradar, gritar, tocar alarme
+6:5 | 8643 | brado, sonido (de trombeta)
+6:20 | 8643 | brado, sonido (de trombeta)
+
+# Capítulos 7-12
+7:7 | 2974 | consentir (aceitar), começar a, ousar
+7:11 | 5674 a | ultrapassar (transgredir), passar
+7:15 | 5674 a | ultrapassar (transgredir), passar
+8:34 | 7121 | ler, chamar
+8:35 | 7121 | ler, chamar
+10:19 | 5975 | parar, ficar de pé
+8:9 | 3427 | ficar, habitar, sentar
+8:10 | 6485 a | passar em revista, visitar
+8:31 | 5130 b | brandir (a ferramenta), mover
+8:29 | 6086 | madeiro, árvore
+10:26 | 6086 | madeiro, árvore
+10:27 | 6086 | madeiro, árvore
+9:21 | 6086 | lenha, madeira, árvore
+9:23 | 6086 | lenha, madeira, árvore
+9:27 | 6086 | lenha, madeira, árvore
+10:13 | 8549 | inteiro, íntegro
+11:8 | 7227 a | grande, muito
+11:20 | 8467 | favor (clemência), súplica
+12:1 | 5158 a | ribeiro, vale
+12:2 | 5158 a | ribeiro, vale
+
+# Capítulos 13-18
+13:9 | 5158 a | ribeiro, vale
+13:16 | 5158 a | ribeiro, vale
+15:4 | 5158 a | ribeiro, vale
+15:7 | 5158 a | ribeiro, vale
+15:47 | 5158 a | ribeiro, vale
+16:8 | 5158 a | ribeiro, vale
+17:9 | 5158 a | ribeiro, vale
+17:5 | 2256 a | cordel (porção medida), região, corda
+17:14 | 2256 a | cordel (porção medida), região, corda
+17:12 | 2974 | ousar (decidir-se), começar a
+17:14 | 3541 | aqui (até aqui), assim
+17:14 | 7227 a | numeroso, muito, grande
+17:15 | 7227 a | numeroso, muito, grande
+17:17 | 7227 a | numeroso, muito, grande
+18:3 | 575 | quando (com até: até quando?), para onde?
+18:3 | 7503 | afrouxar-se (ser negligente), soltar
+
+# Capítulos 19-24
+19:11 | 5158 a | ribeiro, vale
+19:9 | 2256 a | cordel (porção medida), região, corda
+19:29 | 2256 a | cordel (região), corda
+19:9 | 7227 a | grande, muito
+19:28 | 7227 a | grande, muito
+20:3 | 7523 | homicida (o que matou), matar, assassinar
+20:5 | 7523 | homicida (o que matou), matar, assassinar
+20:6 | 7523 | homicida (o que matou), matar, assassinar
+21:13 | 7523 | homicida (o que matou), matar, assassinar
+21:21 | 7523 | homicida (o que matou), matar, assassinar
+21:27 | 7523 | homicida (o que matou), matar, assassinar
+21:32 | 7523 | homicida (o que matou), matar, assassinar
+21:38 | 7523 | homicida (o que matou), matar, assassinar
+20:3 | 1350 a | vingar (o sangue), resgatar, redimir
+20:5 | 1350 a | vingar (o sangue), resgatar, redimir
+20:9 | 1350 a | vingar (o sangue), resgatar, redimir
+22:9 | 270 | tomar posse, ser preso
+22:19 | 270 | tomar posse, ser preso
+23:16 | 5674 a | transgredir (passar além), passar
+24:11 | 1167 | senhor (cidadão), dono, marido
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+10:40 | 5045 | Neguebe (região), sul
+11:16 | 5045 | Neguebe (região), sul
+12:4 | 1366 | território, limite
+12:8 | 5045 | Neguebe (região), sul
+13:11 | 1366 | território, limite
+13:16 | 1366 | território, limite
+13:25 | 1366 | território, limite
+13:30 | 1366 | território, limite
+15:19 | 5045 | Neguebe (região), sul
+18:5 | 1366 | território, limite
+19:8 | 5045 | Neguebe (região), sul
+24:30 | 1366 | território, limite

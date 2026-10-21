@@ -12,3 +12,18 @@
 
 10:5 | 2256 a | bando, corda, porção
 10:10 | 2256 a | bando, corda, porção
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+5:6 | 1366 | território, limite
+6:9 | 1366 | território, limite
+6:12 | 1366 | território, limite
+7:13 | 1366 | território, limite
+10:2 | 1366 | território, limite
+11:3 | 1366 | território, limite
+11:7 | 1366 | território, limite
+13:18 | 1366 | território, limite
+20:41 | 5045 | Neguebe (região), sul
+27:1 | 1366 | território, limite
+27:10 | 5045 | Neguebe (região), sul
+30:1 | 5045 | Neguebe (região), sul
+30:14 | 5045 | Neguebe (região), sul

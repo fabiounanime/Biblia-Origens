@@ -237,3 +237,15 @@
 20:8 | 4294 | vara, cajado
 20:9 | 4294 | vara, cajado
 20:11 | 4294 | vara, cajado
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+13:17 | 5045 | Neguebe (região), sul
+13:22 | 5045 | Neguebe (região), sul
+13:29 | 5045 | Neguebe (região), sul
+20:23 | 1366 | território, limite
+21:1 | 5045 | Neguebe (região), sul
+21:23 | 1366 | território, limite
+21:24 | 1366 | território, limite
+24:17 | 7626 | cetro, tribo
+33:40 | 5045 | Neguebe (região), sul
+33:44 | 1366 | território, limite

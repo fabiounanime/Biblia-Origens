@@ -100,3 +100,13 @@
 11:7 | 1101 a | confundir, misturar
 11:9 | 1101 a | confundir, misturar
 38:25 | 4294 | cajado, vara
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+10:19 | 1366 | território, limite
+12:9 | 5045 | Neguebe (região), sul
+13:1 | 5045 | Neguebe (região), sul
+13:3 | 5045 | Neguebe (região), sul
+20:1 | 5045 | Neguebe (região), sul
+24:62 | 5045 | Neguebe (região), sul
+47:21 | 1366 | território, limite
+49:10 | 7626 | cetro, tribo
