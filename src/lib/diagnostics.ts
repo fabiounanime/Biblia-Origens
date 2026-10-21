@@ -1,5 +1,5 @@
 /** Tipos do diagnóstico, compartilhados entre servidor e tela (sem código de servidor). */
-export type GoogleMode = "direct" | "grok" | "off";
+export type GoogleMode = "direct" | "off";
 
 export type DiagnosisCheck = {
   id: string;

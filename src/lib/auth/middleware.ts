@@ -1,47 +1,28 @@
 import { createMiddleware } from "@tanstack/react-start";
 
 /**
- * Auth middleware for server functions — the standard way to get the caller's
- * verified user id. When deployed the session cookie is same-origin and rides
- * along automatically. In the live preview the client also forwards the bearer
- * token (partitioned cookies) via the `.client` hook below — call sites do not
- * thread it themselves.
+ * Middleware das funções do servidor: o jeito padrão de obter o id verificado
+ * de quem chama. A sessão vem no cookie, que segue sozinho em todo pedido.
  *
  *   import { createServerFn } from "@tanstack/react-start";
- *   import { getSql } from "@/lib/db";
  *   import { authMiddleware } from "@/lib/auth/middleware";
  *
- *   export const listTodos = createServerFn({ method: "GET" })
+ *   export const listar = createServerFn({ method: "GET" })
  *     .middleware([authMiddleware])
  *     .handler(async ({ context }) => {
- *       const sql = await getSql();
- *       return sql`select * from todos where user_id = ${context.userId}`;
+ *       // context.userId é o usuário da sessão; filtre toda consulta por ele.
  *     });
  *
- * Signed out with auth on (live preview included) -> throws `UnauthorizedError`
- * (see `verify.server.ts`). With auth disabled (`VITE_AUTH_ENABLED=false`, the
- * shipped default) it resolves the shared dev user — but throws instead when a
- * `DATABASE_URL` is also set, so an app without sign-in must not use this at
- * all. On the auth-on path, use it on every server function that touches
- * per-user data and scope every query by `context.userId`.
+ * Sem sessão, lança `UnauthorizedError` (veja `verify.server.ts`).
  */
-export const authMiddleware = createMiddleware({ type: "function" })
-  .client(async ({ next }) => {
-    // Live preview (partitioned iframe): the session rides a bearer token, not a
-    // cookie, so forward it to the server. Null when deployed (cookie auth), so
-    // this is a no-op there.
-    const { getBearerToken } = await import("./client");
-    return next({ sendContext: { bearerToken: getBearerToken() ?? undefined } });
-  })
-  .server(async ({ next, context }) => {
-    // ONLY import `*.server` modules here. This file is dual client/server
-    // (bearer hook on the client). A plain `./isolation` path was renamed to
-    // `isolation.server.ts` — keep this import in sync so image `tsc` resolves
-    // it, and so Vite does not ship `@tanstack/react-start/server` to the browser.
-    const { assertSameSiteRequest } = await import("./isolation.server");
-    const { requireUserId } = await import("./verify.server");
-    // Reject scripted cross-site/sibling requests before touching per-user data.
-    assertSameSiteRequest();
-    const userId = await requireUserId(context.bearerToken);
-    return next({ context: { userId } });
-  });
+export const authMiddleware = createMiddleware({ type: "function" }).server(async ({ next }) => {
+  // Importe só módulos `*.server` aqui, para o Vite não mandar código de
+  // servidor ao navegador.
+  const { assertSameSiteRequest } = await import("./isolation.server");
+  const { requireUserId } = await import("./verify.server");
+  // Recusa pedidos feitos por script a partir de outro site antes de tocar nos
+  // dados do usuário.
+  assertSameSiteRequest();
+  const userId = await requireUserId();
+  return next({ context: { userId } });
+});

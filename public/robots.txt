@@ -12,6 +12,5 @@ Disallow: /ler
 Disallow: /estudos
 Disallow: /mapas
 Disallow: /conta
-Disallow: /__grok/
 
 Sitemap: https://bibliaorigens.app/sitemap.xml

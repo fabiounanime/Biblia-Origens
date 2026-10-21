@@ -1,11 +1,10 @@
-import { useState, useSyncExternalStore } from "react";
+import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Bookmark, Cloud, CloudOff, LogOut, NotebookPen, RefreshCw } from "lucide-react";
 import { Page, Shell } from "@/components/shell";
 import { ReadingSettings } from "@/components/reading-settings";
 import { Avatar, SectionTitle, Segmented, cx } from "@/components/ui";
 import { authEnabled, signOut } from "@/lib/auth/client";
-import { hasGateSessionMarker } from "@/lib/auth/gate-session-marker";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { bookById, bookLang, originalProps } from "@/lib/bible/catalog";
 import { activeMarks, useStudy } from "@/lib/study/store";
@@ -14,9 +13,6 @@ export const Route = createFileRoute("/conta")({
   head: () => ({ meta: [{ title: "Conta · Bíblia Origens" }] }),
   component: ContaPage,
 });
-
-const subscribeToNothing = () => () => {};
-const noGateSessionOnServer = () => false;
 
 type Filter = "all" | "bookmark" | "note";
 
@@ -29,7 +25,6 @@ function ContaPage() {
   const sync = useStudy((state) => state.sync);
   const [filter, setFilter] = useState<Filter>("all");
   const [signingOut, setSigningOut] = useState(false);
-  const gateSession = useSyncExternalStore(subscribeToNothing, hasGateSessionMarker, noGateSessionOnServer);
 
   const all = activeMarks(marks)
     .slice()
@@ -51,7 +46,7 @@ function ContaPage() {
                 <p className="truncate text-lg font-semibold">{user.displayName ?? "Leitor"}</p>
                 {user.primaryEmail ? <p className="truncate text-sm text-muted">{user.primaryEmail}</p> : null}
               </div>
-              {authEnabled && !gateSession ? (
+              {authEnabled ? (
                 <button
                   type="button"
                   disabled={signingOut}

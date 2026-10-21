@@ -1,5 +1,5 @@
 /**
- * Contrato do acervo (Grok Expert). Um JSON por livro em
+ * Contrato do acervo. Um JSON por livro em
  * `public/content/bible/{bookId}.json`:
  *
  * {

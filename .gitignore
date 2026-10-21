@@ -1,8 +1,4 @@
 node_modules
-.vercel
-.grok
-screenshots
-artifacts
 dist
 *.log
 .env
