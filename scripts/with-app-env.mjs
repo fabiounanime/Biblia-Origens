@@ -104,6 +104,22 @@ export function isMainModule(moduleUrl) {
   }
 }
 
+/**
+ * How to spawn `command args…` on `platform`.
+ *
+ * On Windows the binaries in `node_modules/.bin` are `vite.cmd` shims, which
+ * `spawn("vite")` cannot find (ENOENT) and Node refuses to run without a shell
+ * (EINVAL). There the command goes through the shell as one quoted string —
+ * passing an args array together with `shell: true` is deprecated (DEP0190).
+ * Everywhere else it is a plain spawn, exactly as before.
+ */
+export function spawnPlan(command, args, platform = process.platform) {
+  if (platform !== "win32") return { file: command, args, shell: false };
+  const quote = (part) =>
+    /^[\w@%+=:,./\\-]+$/.test(part) ? part : `"${part.replace(/"/g, '\\"')}"`;
+  return { file: [command, ...args].map(quote).join(" "), args: [], shell: true };
+}
+
 function main(argv) {
   const [command, ...args] = argv;
   if (!command) {
@@ -111,7 +127,8 @@ function main(argv) {
     process.exit(2);
   }
   const env = mergeAppEnv(readAppEnv(projectRoot()), process.env);
-  const child = spawn(command, args, { stdio: "inherit", env });
+  const plan = spawnPlan(command, args);
+  const child = spawn(plan.file, plan.args, { stdio: "inherit", env, shell: plan.shell });
   // The dev server is long-running and is stopped by signalling this wrapper.
   for (const signal of ["SIGINT", "SIGTERM", "SIGHUP"]) {
     process.on(signal, () => child.kill(signal));
