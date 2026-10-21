@@ -8,3 +8,15 @@
 15:19 | @8 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 18:26 | @10 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
 20:45 | @17 | de + ele (dele) | Preposição; com sufixo de 3ª pessoa masculino singular
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+1:9 | 5045 | Neguebe (região), sul
+1:15 | 5045 | Neguebe (região), sul
+1:16 | 5045 | Neguebe (região), sul
+1:18 | 1366 | território, limite
+1:36 | 1366 | território, limite
+2:9 | 1366 | território, limite
+11:18 | 1366 | território, limite
+11:20 | 1366 | território, limite
+11:22 | 1366 | território, limite
+19:29 | 1366 | território, limite

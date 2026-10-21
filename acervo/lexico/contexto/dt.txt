@@ -171,3 +171,11 @@
 33:21 | 5603 | guardar (reservar), cobrir
 33:5 | 7626 | tribo, cetro
 33:12 | 3802 | ombro, lado
+
+# שֵׁבֶט (7626) mostra "tribo", נֶגֶב (5045) "sul" e גְּבוּל (1366) "limite" em destaque; aqui o sentido é outro.
+1:7 | 5045 | Neguebe (região), sul
+2:4 | 1366 | território, limite
+2:18 | 1366 | território, limite
+3:14 | 1366 | território, limite
+19:3 | 1366 | território, limite
+34:3 | 5045 | Neguebe (região), sul
