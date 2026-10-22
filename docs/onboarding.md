@@ -40,7 +40,7 @@ Em produção, ficam no painel da Cloudflare (Workers → `biblia-origens` → S
 npm run verify
 ```
 
-Roda lint, tipos, testes e um build de verificação (sem migrações). Detalhes e o que cada um prova: `docs/quality.md`.
+Roda lint com tipos, tipos, testes, o autoteste das regras de lint e um build de verificação (sem migrações). Detalhes e o que cada um prova: `docs/quality.md`.
 
 ## Deploy
 

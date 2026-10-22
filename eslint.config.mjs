@@ -4,6 +4,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import globals from "globals";
 import tseslint from "typescript-eslint";
+import quality from "./eslint-rules/index.cjs";
 
 /** ESLint (flat config). Regras e medições: docs/quality.md. */
 export default tseslint.config(
@@ -42,19 +43,29 @@ export default tseslint.config(
       "@typescript-eslint/no-explicit-any": "off",
     },
   },
-  // Regras com tipos no código do app (testes do node:test devolvem promessas de propósito).
+  // Regras do Vibe Coding Toolkit (eslint-rules/, autoteste em scripts/verify-quality-rules.mjs).
+  // As regras com tipos ficam em eslint.typed.config.mjs (npm run lint:typed).
   {
     files: ["src/**/*.{ts,tsx}"],
-    ignores: ["src/**/*.test.ts"],
-    languageOptions: {
-      parserOptions: { projectService: true, tsconfigRootDir: import.meta.dirname },
-    },
+    plugins: { quality },
     rules: {
-      "@typescript-eslint/no-floating-promises": "error",
-      "@typescript-eslint/no-misused-promises": "error",
-      // Referência de tamanho: aviso, não bloqueio (lista em docs/quality.md).
-      "max-lines": ["warn", { max: 350, skipBlankLines: true, skipComments: true }],
+      // Referência de 350 linhas: aviso, não bloqueio (lista em docs/quality.md). Testes ficam de fora.
+      "quality/max-lines": "warn",
+      // Telas não importam o banco: dados passam por server functions.
+      "quality/no-direct-data-access": [
+        "error",
+        {
+          modules: ["@/lib/db"],
+          bindings: ["getSql", "getPglite", "ensureDbReady", "ensureSchema"],
+          layers: ["/src/components/"],
+          extensions: [".tsx"],
+        },
+      ],
     },
+  },
+  {
+    files: ["eslint-rules/**/*.cjs"],
+    rules: { "@typescript-eslint/no-require-imports": "off" },
   },
   // Disable rules that conflict with Prettier formatting.
   prettier,

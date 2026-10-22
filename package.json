@@ -18,8 +18,10 @@
     "check:auth": "node scripts/check-auth-invariant.mjs",
     "test": "node --test \"scripts/**/*.test.mjs\" && node --experimental-strip-types --test src/lib/app-data/app-data.test.ts src/lib/app-data/readiness-schedule.test.ts src/lib/auth/gate-identity.test.ts src/lib/auth/sign-in-gate.test.ts",
     "lint": "eslint .",
+    "lint:typed": "eslint -c eslint.typed.config.mjs .",
+    "test:rules": "node scripts/verify-quality-rules.mjs",
     "build:check": "node scripts/with-app-env.mjs vite build",
-    "verify": "npm run lint && npm run typecheck && npm test && npm run build:check",
+    "verify": "npm run lint:typed && npm run typecheck && npm test && npm run test:rules && npm run build:check",
     "format": "prettier --write ."
   },
   "dependencies": {
