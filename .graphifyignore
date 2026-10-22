@@ -1,0 +1,15 @@
+# Grafo só do código do app: fora dependências, saídas, acervo e material local
+node_modules/
+.output/
+dist/
+graphify-out/
+.tanstack/
+.wrangler/
+.vercel/
+.impeccable/
+APP Biblia Origens/
+acervo/
+public/content/
+tools/acervo/.cache/
+src/routeTree.gen.ts
+package-lock.json

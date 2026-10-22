@@ -51,10 +51,10 @@ TanStack Start (React 19, Vite 8, Nitro), TypeScript, Tailwind v4, Better Auth, 
 
 ## Ferramentas
 
-- **Superpowers / Ponytail / Caveman:** processo proporcional ao tamanho do pedido, menor solução completa, conversa curta em português. Código e docs com redação normal.
+- **Superpowers / Ponytail / Caveman:** processo proporcional ao tamanho do pedido; Ponytail no nível `full` (menor solução completa, sem abrir mão de requisitos, segurança e acessibilidade); Caveman ativo na conversa, sempre em português e com clareza. Código, docs, commits e PRs com redação normal; explicação completa quando pedida.
 - **Context7:** documentação atual de bibliotecas (TanStack, Better Auth, Tailwind…), uma pergunta por vez, sem código privado nem segredos.
 - **RTK:** com o hook ativo, use comandos normais; `rtk proxy <cmd>` quando precisar da saída inteira.
-- **Graphify:** grafo do código em `graphify-out/` (fora do Git) para perguntas de estrutura; pode estar desatualizado.
+- **Graphify:** grafo do código em `graphify-out/` (fora do Git) para perguntas de estrutura (`graphify explain "parseRef"`, `graphify query "..."`). Pode estar desatualizado: refaça com `GRAPHIFY_NO_AUTO_REFRESH=1 graphify extract . --code-only --no-cluster`; o que fica de fora está em `.graphifyignore`.
 - **Skills do projeto** (lista e estado em `docs/setup.md`): boas práticas de React e composição, revisão de interface e de texto, Postgres, revisão de segurança por diff e descoberta de skills. Use quando a tarefa pedir; instalar não autoriza agir.
 - Verifique se a ferramenta está instalada e carregada antes de depender dela; o estado real fica em `docs/setup.md`.
 
