@@ -21,6 +21,8 @@
   --c-soft: #c9ccdc;
   --c-muted: #8d93b0;
   --c-line: #262e4d;
+  /* Borda de campos de texto: 3:1 sobre o fundo (WCAG 1.4.11). */
+  --c-field: #5e6790;
   --c-tekhelet: #5b8cff;
   --c-zahav: #f4bb4a;
   --c-argaman: #b67cff;
@@ -31,6 +33,9 @@
   /* Borda de luz no alto dos cartões: dá camada sem sombra pesada. */
   --edge-highlight: inset 0 1px 0 rgb(255 255 255 / 0.06);
   --read-size: 1.2rem;
+  /* Curvas de movimento: saída forte para a interface, gaveta no estilo do iOS. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
   color-scheme: dark;
 }
 
@@ -41,10 +46,11 @@ html.light {
   --c-sunken: #e3e6f0;
   --c-fg: #141832;
   --c-soft: #343a5c;
-  --c-muted: #626887;
+  --c-muted: #585e7c;
   --c-line: #d8dcea;
+  --c-field: #858ba6;
   --c-tekhelet: #2753d6;
-  --c-zahav: #a86d00;
+  --c-zahav: #8a5800;
   --c-argaman: #7a35cc;
   --c-shani: #d42a4c;
   --c-on-accent: #ffffff;
@@ -56,10 +62,11 @@ html.light {
 
 /*
  * Pergaminho: tema claro e quente para leitura longa. O <html> recebe
- * "light sepia", então tudo o que vale para o claro (tinta da marca, etc.)
- * vale aqui; só as cores mudam.
+ * "light theme-sepia", então tudo o que vale para o claro (tinta da marca,
+ * etc.) vale aqui; só as cores mudam. Não use a classe "sepia": é um
+ * utilitário do Tailwind (filter: sepia(100%)) e tinge a página inteira.
  */
-html.light.sepia {
+html.light.theme-sepia {
   --c-bg: #f3e9d4;
   --c-surface: #faf4e6;
   --c-raised: #eadcc0;
@@ -68,6 +75,7 @@ html.light.sepia {
   --c-soft: #46381f;
   --c-muted: #6a5735;
   --c-line: #d9c9a6;
+  --c-field: #8f7a52;
   --c-tekhelet: #2a4fb8;
   --c-zahav: #855400;
   --c-argaman: #6b2fb0;
@@ -100,6 +108,7 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
   --color-soft: var(--c-soft);
   --color-muted: var(--c-muted);
   --color-line: var(--c-line);
+  --color-field: var(--c-field);
   --color-tekhelet: var(--c-tekhelet);
   --color-zahav: var(--c-zahav);
   --color-argaman: var(--c-argaman);
@@ -116,11 +125,10 @@ html[data-scale="xl"] { --read-size: 1.6rem; }
     background: var(--c-bg);
     color: var(--c-fg);
     /*
-     * App, não página: sem zoom de pinça nem de toque duplo em lugar nenhum.
-     * A pinça só existe no texto bíblico, onde o leitor muda o tamanho da letra
-     * (src/lib/reader/use-pinch-font.ts). Nada vaza para os lados.
+     * O zoom da página fica livre (WCAG 1.4.4). No texto bíblico a pinça muda o
+     * tamanho da letra (src/lib/reader/use-pinch-font.ts), que trava o toque só
+     * ali. Nada vaza para os lados.
      */
-    touch-action: pan-x pan-y;
     overflow-x: clip;
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -482,9 +490,10 @@ html.light .brand-dark .wordmark {
   from { opacity: 0; transform: scale(0.82); }
   to { opacity: 1; transform: none; }
 }
+/* Anel do lugar escolhido no mapa: só transform e opacity, sem repintar sombra. */
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c-zahav) 55%, transparent); }
-  100% { box-shadow: 0 0 0 14px transparent; }
+  from { opacity: 0.6; transform: scale(1); }
+  to { opacity: 0; transform: scale(2.2); }
 }
 @keyframes pop {
   0% { transform: scale(1); }
@@ -499,10 +508,34 @@ html.light .brand-dark .wordmark {
 .splash-slogan { animation: rise 0.9s ease 0.65s both; }
 .splash-rule { animation: rise 0.9s ease 0.5s both; }
 
-.pin-active { animation: pulse-ring 1.6s ease-out infinite; }
+.pin-active { position: relative; }
+.pin-active::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 9999px;
+  background: var(--c-zahav);
+  animation: pulse-ring 1.6s var(--ease-out) infinite;
+}
 .pop { animation: pop 0.32s ease; }
 
 .nav-hidden { transform: translateY(calc(100% + 1.5rem)); }
+.nav-slide { transition: transform 240ms var(--ease-drawer), opacity 240ms var(--ease-drawer); }
+
+/*
+ * Retorno ao toque: o botão afunda de leve ao ser pressionado (no toque não
+ * existe hover). Fora de @layer para valer junto com os transition-* do
+ * Tailwind, por isso a lista de propriedades inclui as cores.
+ */
+:where(button:not(.gloss-word):not(.note-call):not(:disabled), [role="button"], .pressable, .pressable-card) {
+  transition-property: color, background-color, border-color, opacity, box-shadow, transform;
+  transition-duration: 160ms;
+  transition-timing-function: var(--ease-out);
+}
+:where(button:not(.gloss-word):not(.note-call):not(:disabled), [role="button"], .pressable):active {
+  transform: scale(0.97);
+}
+.pressable-card:active { transform: scale(0.985); }
 
 @media (prefers-reduced-motion: reduce) {
   .splash-photo,
@@ -510,11 +543,15 @@ html.light .brand-dark .wordmark {
   .splash-title,
   .splash-slogan,
   .splash-rule,
-  .pin-active,
+  .pin-active::after,
   .gloss-bubble,
   .verse-bar,
   .note-flash,
   .pop { animation: none; }
+  /* Sem deslocamento: a barra some só pela opacidade, botões não afundam. */
+  .nav-hidden { transform: none; opacity: 0; pointer-events: none; }
+  :where(button, [role="button"], .pressable, .pressable-card):active { transform: none; }
+  .animate-pulse { animation: none; }
   * { scroll-behavior: auto !important; }
 }
 

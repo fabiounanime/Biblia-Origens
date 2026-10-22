@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useId, useRef, useState, type ReactNode, type Ref, type TouchEvent } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { toast } from "sonner";
 import {
   ALargeSmall,
   Bookmark,
@@ -23,7 +24,7 @@ import {
   SECTION_TONE,
   bookById,
   bookLang,
-  neighborChapter,
+  bookRef,
   originalProps,
   type Book,
   type ChapterRef,
@@ -39,12 +40,17 @@ import {
   type Verse,
   type WordInfo,
 } from "@/lib/bible/corpus";
+import { isChapterPublished, publishedNeighbor, useAcervoIndex } from "@/lib/bible/use-acervo";
 import { LAYERS, useLayers } from "@/lib/reader/layers";
 import { SCALE_LABEL, SCALE_ORDER, usePinchFont } from "@/lib/reader/use-pinch-font";
 import type { FontScale } from "@/lib/study/types";
 import { findMark, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/ler/$book/$chapter")({
+  head: ({ params }) => {
+    const book = bookById(params.book);
+    return { meta: [{ title: book ? `${book.namePt} ${params.chapter} · Bíblia Origens` : "Bíblia Origens" }] };
+  },
   component: ChapterPage,
 });
 
@@ -68,13 +74,15 @@ function ChapterPage() {
   const [words, setWords] = useState<WordInfo[][] | "loading" | null>("loading");
   const notes = Array.isArray(verses) ? chapterNotes(verses) : [];
   const progressRef = useRef<HTMLDivElement>(null);
-  const touch = useRef<{ x: number; y: number } | null>(null);
+  const touch = useRef<{ x: number; y: number; t: number; dragging: boolean } | null>(null);
   const multiTouch = useRef(false);
   const mainRef = useRef<HTMLElement>(null);
   const pinchPreview = usePinchFont(mainRef, valid);
 
-  const previous = valid ? neighborChapter(bookId, chapter, -1) : null;
-  const next = valid ? neighborChapter(bookId, chapter, 1) : null;
+  // Anterior e próximo pulam os capítulos que ainda não chegaram ao acervo.
+  const acervo = useAcervoIndex();
+  const previous = valid ? publishedNeighbor(acervo, bookId, chapter, -1) : null;
+  const next = valid ? publishedNeighbor(acervo, bookId, chapter, 1) : null;
 
   const go = useCallback(
     (ref: ChapterRef | null) => {
@@ -218,14 +226,42 @@ function ChapterPage() {
 
   // Deslizar para os lados troca de capítulo (como virar a página).
   // Com dois dedos é pinça (tamanho da letra), não troca de capítulo.
+  // A página acompanha o dedo com resistência; um arraste longo ou um gesto rápido troca de capítulo.
+  const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const settle = () => {
+    const node = mainRef.current;
+    if (!node) return;
+    node.style.transition = "transform 200ms var(--ease-out), opacity 200ms var(--ease-out)";
+    node.style.transform = "";
+    node.style.opacity = "";
+  };
   const onTouchStart = (event: TouchEvent) => {
     if (event.touches.length > 1) {
       multiTouch.current = true;
       touch.current = null;
+      settle();
       return;
     }
     const point = event.touches[0];
-    touch.current = point ? { x: point.clientX, y: point.clientY } : null;
+    touch.current = point ? { x: point.clientX, y: point.clientY, t: performance.now(), dragging: false } : null;
+  };
+  const onTouchMove = (event: TouchEvent) => {
+    const start = touch.current;
+    const point = event.touches[0];
+    const node = mainRef.current;
+    if (!start || !point || !node || multiTouch.current || reduceMotion()) return;
+    const dx = point.clientX - start.x;
+    const dy = point.clientY - start.y;
+    if (!start.dragging) {
+      if (Math.abs(dx) < 10 || Math.abs(dx) < Math.abs(dy) * 1.8) return;
+      start.dragging = true;
+    }
+    // Sem capítulo daquele lado, resiste mais.
+    const blocked = (dx < 0 && !next) || (dx > 0 && !previous);
+    const pull = Math.sign(dx) * Math.pow(Math.abs(dx), blocked ? 0.6 : 0.8);
+    node.style.transition = "none";
+    node.style.transform = `translateX(${pull}px)`;
+    node.style.opacity = String(1 - Math.min(Math.abs(pull) / 600, 0.25));
   };
   const onTouchEnd = (event: TouchEvent) => {
     if (multiTouch.current) {
@@ -236,15 +272,19 @@ function ChapterPage() {
     const start = touch.current;
     const point = event.changedTouches[0];
     touch.current = null;
+    settle();
     if (!start || !point) return;
     if (window.getSelection()?.toString()) return;
     const dx = point.clientX - start.x;
     const dy = point.clientY - start.y;
-    if (Math.abs(dx) < 80 || Math.abs(dx) < Math.abs(dy) * 1.8) return;
+    if (Math.abs(dx) < Math.abs(dy) * 1.8) return;
+    const velocity = Math.abs(dx) / Math.max(1, performance.now() - start.t);
+    if (Math.abs(dx) < 80 && !(velocity > 0.11 && Math.abs(dx) > 30)) return;
     go(dx < 0 ? next : previous);
   };
 
   const tone = SECTION_TONE[book.section];
+  const hasText = Array.isArray(verses) && verses.length > 0;
 
   return (
     <Shell bare immersive>
@@ -265,14 +305,12 @@ function ChapterPage() {
             className="mx-auto inline-flex h-10 min-w-0 items-center gap-1.5 rounded-full px-4 font-semibold hover:bg-raised"
             aria-haspopup="dialog"
           >
-            <span className="font-mono text-xs font-semibold tracking-wider text-zahav uppercase" aria-hidden>
-              {book.id} {chapter}
-            </span>
             <span className="truncate">
               {book.namePt} {chapter}
             </span>
             <ChevronDown className="size-4 shrink-0 text-muted" aria-hidden />
           </button>
+          {hasText ? <ChapterBookmark book={book} chapter={chapter} /> : null}
           <button
             type="button"
             onClick={() => setSheet("settings")}
@@ -295,13 +333,24 @@ function ChapterPage() {
         ref={mainRef}
         className="mx-auto w-full max-w-[42rem] [touch-action:pan-x_pan-y] px-4 pb-16 sm:px-6"
         onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
+        onTouchCancel={() => {
+          touch.current = null;
+          settle();
+        }}
       >
-        <ChapterHero book={book} chapter={chapter} />
+        <ChapterHero book={book} chapter={chapter} controls={verses !== null && !(Array.isArray(verses) && verses.length === 0)} />
 
         {verses === "loading" ? <VerseSkeleton /> : null}
         {verses === null || (Array.isArray(verses) && verses.length === 0) ? (
-          <EmptyChapter bookId={book.id} chapter={chapter} lang={bookLang(book)} onNote={() => setNoteFor(0)} />
+          <EmptyChapter
+            bookId={book.id}
+            chapter={chapter}
+            lang={bookLang(book)}
+            next={next}
+            onNote={() => setNoteFor(0)}
+          />
         ) : null}
         {Array.isArray(verses) && verses.length > 0 ? (
           <>
@@ -342,7 +391,7 @@ function ChapterPage() {
         title={book.namePt}
         description={`${book.nameTranslit}, ${book.chapters} ${book.chapters === 1 ? "capítulo" : "capítulos"}`}
       >
-        <ChapterGrid book={book} chapter={chapter} onPick={() => setSheet(null)} />
+        <ChapterGrid book={book} chapter={chapter} acervo={acervo} onPick={() => setSheet(null)} />
         <Link
           to="/ler"
           onClick={() => setSheet(null)}
@@ -355,6 +404,16 @@ function ChapterPage() {
 
       <Sheet open={sheet === "settings"} onOpenChange={(open) => setSheet(open ? "settings" : null)} title="Ajustes de leitura">
         <ReadingSettings />
+        <button
+          type="button"
+          onClick={() => {
+            showReaderHint();
+            setSheet(null);
+          }}
+          className="mt-5 flex h-12 w-full items-center justify-center rounded-2xl border border-line font-medium text-soft hover:text-fg"
+        >
+          Rever como usar o leitor
+        </button>
       </Sheet>
 
       <NoteSheet bookId={book.id} bookName={book.namePt} chapter={chapter} verse={noteFor} onClose={() => setNoteFor(null)} />
@@ -381,8 +440,8 @@ function PinchIndicator({ scale }: { scale: FontScale | null }) {
               <span
                 key={id}
                 className={cx(
-                  "rounded-full transition-all",
-                  id === scale ? "h-2 w-5 bg-tekhelet" : "size-2 bg-line",
+                  "h-2 w-5 origin-center rounded-full transition-transform duration-150 ease-out",
+                  id === scale ? "bg-tekhelet" : "scale-x-[0.4] bg-line",
                 )}
               />
             ))}
@@ -393,24 +452,43 @@ function PinchIndicator({ scale }: { scale: FontScale | null }) {
   );
 }
 
-function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
-  const tone = SECTION_TONE[book.section];
-  const layers = useLayers();
+/** Guardar o capítulo: ícone no cabeçalho do leitor. */
+function ChapterBookmark({ book, chapter }: { book: Book; chapter: number }) {
   const marks = useStudy((state) => state.marks);
   const toggleBookmark = useStudy((state) => state.toggleBookmark);
   const saved = !!findMark(marks, book.id, chapter, 0, "bookmark");
+  return (
+    <button
+      type="button"
+      onClick={() => toggleBookmark(book.id, chapter, 0)}
+      aria-pressed={saved}
+      aria-label={saved ? "Capítulo guardado" : "Guardar capítulo"}
+      className={cx(
+        "grid size-11 shrink-0 place-items-center rounded-full hover:bg-raised",
+        saved ? "text-shani" : "text-soft hover:text-fg",
+      )}
+    >
+      {saved ? <BookmarkCheck key="on" className="pop size-6" aria-hidden /> : <Bookmark className="size-6" aria-hidden />}
+    </button>
+  );
+}
+
+function ChapterHero({ book, chapter, controls }: { book: Book; chapter: number; controls: boolean }) {
+  const tone = SECTION_TONE[book.section];
+  const layers = useLayers();
 
   return (
-    <header data-anchor className="pt-8 pb-6 text-center sm:pt-12">
-      <p {...originalProps(bookLang(book), cx("text-5xl leading-tight sm:text-6xl", tone.text))}>{book.nameHe}</p>
-      <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+    <header data-anchor className="pt-5 pb-5 text-center sm:pt-10 sm:pb-6">
+      <p {...originalProps(bookLang(book), cx("text-4xl leading-tight sm:text-6xl", tone.text))}>{book.nameHe}</p>
+      <h1 className="mt-1 text-2xl font-bold tracking-tight sm:mt-2 sm:text-4xl">
         {book.namePt} {chapter}
       </h1>
-      <p className="mt-1 text-muted">
+      <p className="mt-0.5 text-sm text-muted sm:mt-1 sm:text-base">
         {book.nameTranslit} · capítulo {chapter} de {book.chapters}
       </p>
 
-      <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+      {controls ? (
+      <div className="mt-4 flex items-center justify-center gap-2 sm:mt-6">
         <div className="flex gap-1 rounded-2xl border border-line bg-surface p-1 shadow-edge" role="group" aria-label="Camadas do texto">
           {LAYERS.map((layer) => {
             const on = layers[layer.id];
@@ -422,7 +500,7 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
                 onClick={() => layers.toggle(layer.id)}
                 title={`${on ? "Ocultar" : "Mostrar"} ${(layer.id === "he" ? ORIGINAL[bookLang(book)].label : layer.label).toLowerCase()}`}
                 className={cx(
-                  "inline-flex h-9 items-center gap-1.5 rounded-xl px-3 font-mono text-xs font-semibold transition-colors",
+                  "inline-flex h-11 items-center gap-1.5 rounded-xl px-3 text-sm font-semibold transition-colors",
                   on ? "bg-raised text-fg shadow-edge" : "text-muted hover:text-soft",
                 )}
               >
@@ -439,27 +517,15 @@ function ChapterHero({ book, chapter }: { book: Book; chapter: number }) {
           aria-pressed={layers.inter}
           title={layers.inter ? "Voltar ao texto corrido" : "Ver palavra por palavra"}
           className={cx(
-            "inline-flex h-11 items-center gap-1.5 rounded-2xl border px-3.5 text-sm font-semibold transition-colors",
+            "inline-flex h-13 items-center gap-1.5 rounded-2xl border px-3.5 text-sm font-semibold transition-colors",
             layers.inter ? "border-tekhelet/60 bg-tekhelet/12 text-tekhelet" : "border-line text-soft hover:border-muted",
           )}
         >
           <Rows3 className="size-4" aria-hidden />
           Interlinear
         </button>
-        <button
-          type="button"
-          onClick={() => toggleBookmark(book.id, chapter, 0)}
-          aria-pressed={saved}
-          className={cx(
-            "inline-flex h-11 items-center gap-1.5 rounded-2xl border px-3.5 text-sm font-semibold transition-colors",
-            saved ? "border-shani/50 bg-shani/12 text-shani" : "border-line text-soft hover:border-muted",
-          )}
-        >
-          {saved ? <BookmarkCheck key="on" className="pop size-4" aria-hidden /> : <Bookmark className="size-4" aria-hidden />}
-          {saved ? "Guardado" : "Guardar"}
-          <span className="sr-only"> capítulo</span>
-        </button>
       </div>
+      ) : null}
     </header>
   );
 }
@@ -494,6 +560,20 @@ function VerseBlock({
   const saved = !!findMark(marks, book.id, chapter, verse.v, "bookmark");
   const note = findMark(marks, book.id, chapter, verse.v, "note");
   const [copied, setCopied] = useState(false);
+  const articleRef = useRef<HTMLElement>(null);
+
+  // A barra de ações flutua na base da tela: rola o versículo para ela não cobri-lo.
+  useEffect(() => {
+    if (!open) return;
+    const node = articleRef.current;
+    if (!node) return;
+    const rect = node.getBoundingClientRect();
+    const limit = window.innerHeight - (window.matchMedia("(min-width: 768px)").matches ? 110 : 180);
+    if (rect.bottom > limit) {
+      const top = Math.min(rect.bottom - limit, rect.top - 72);
+      if (top > 0) window.scrollBy({ top, behavior: "smooth" });
+    }
+  }, [open]);
 
   const lines = [`${book.namePt} ${chapter}:${verse.v}`, verse.pt, verse.he, verse.tr].filter(Boolean);
   // Compartilhar só aparece onde o aparelho oferece (celulares, em geral).
@@ -519,6 +599,7 @@ function VerseBlock({
 
   return (
     <article
+      ref={articleRef}
       id={`v${verse.v}`}
       data-verse={verse.v}
       className={cx(
@@ -527,25 +608,38 @@ function VerseBlock({
       )}
     >
       <div className="flex gap-3.5">
+        {/* Alvo de 44px; o chip visível continua com 32px. */}
         <button
           type="button"
           onClick={onToggle}
           aria-expanded={open}
           aria-label={`Versículo ${verse.v}: ações`}
-          className={cx(
-            "mt-1 grid h-8 min-w-8 shrink-0 place-items-center self-start rounded-xl px-1.5 font-mono text-xs font-semibold tabular-nums transition-colors",
-            saved
-              ? "bg-shani text-on-accent"
-              : open
-                ? "bg-tekhelet text-on-accent"
-                : "bg-raised text-soft hover:bg-tekhelet/20 hover:text-fg",
-          )}
+          className="group/num -mx-1.5 -mt-0.5 grid size-11 shrink-0 place-items-center self-start rounded-2xl"
         >
-          {verse.v}
+          <span
+            className={cx(
+              "grid h-8 min-w-8 place-items-center rounded-xl px-1.5 text-xs font-semibold tabular-nums transition-colors",
+              saved
+                ? "bg-shani text-on-accent"
+                : open
+                  ? "bg-tekhelet text-on-accent"
+                  : "bg-raised text-soft group-hover/num:bg-tekhelet/20 group-hover/num:text-fg",
+            )}
+          >
+            {verse.v}
+          </span>
         </button>
         <div className="min-w-0 flex-1 space-y-3">
           {layers.pt ? (
-            <p className="read-pt">
+            // Tocar no texto também abre as ações (menos ao selecionar texto ou tocar numa nota).
+            <p
+              className="read-pt"
+              onClick={(event) => {
+                if ((event.target as HTMLElement).closest("button")) return;
+                if (window.getSelection()?.toString()) return;
+                onToggle();
+              }}
+            >
               <PtWithNotes text={verse.pt} notes={notes.filter((note) => note.verse === verse.v)} />
             </p>
           ) : null}
@@ -609,10 +703,10 @@ function VerseBlock({
             <div
               role="toolbar"
               aria-label={`Ações de ${book.namePt} ${chapter}:${verse.v}`}
-              className="verse-bar glass fixed inset-x-3 bottom-[calc(max(0.75rem,env(safe-area-inset-bottom))+4.75rem)] z-40 mx-auto flex max-w-md items-center gap-0.5 rounded-3xl border border-line px-1.5 py-1.5 shadow-float md:bottom-6"
+              className="verse-bar glass fixed inset-x-3 bottom-[calc(max(0.75rem,env(safe-area-inset-bottom))+4.75rem)] z-40 mx-auto flex max-w-md items-center gap-0.5 rounded-3xl border border-line px-1.5 py-1.5 shadow-float md:bottom-6 md:left-64"
             >
-              <span className="ms-2 me-auto min-w-0 truncate font-mono text-xs font-semibold tracking-wider text-zahav uppercase">
-                {book.id} {chapter}:{verse.v}
+              <span className="ms-2 me-auto min-w-0 truncate text-sm font-semibold text-zahav tabular-nums">
+                {bookRef(book.id, chapter, verse.v)}
               </span>
               <BarButton
                 onClick={() => toggleBookmark(book.id, chapter, verse.v)}
@@ -634,7 +728,7 @@ function VerseBlock({
                 type="button"
                 onClick={onToggle}
                 aria-label="Fechar ações"
-                className="grid size-10 shrink-0 place-items-center rounded-2xl text-muted hover:bg-raised hover:text-fg"
+                className="grid size-11 shrink-0 place-items-center rounded-2xl text-muted hover:bg-raised hover:text-fg"
               >
                 <X className="size-5" aria-hidden />
               </button>
@@ -746,6 +840,12 @@ function GlossLine({
           );
         })}
       </p>
+      {/* Anuncia o significado para leitores de tela quando o balão abre ou muda de palavra. */}
+      <span className="sr-only" aria-live="polite">
+        {active !== null && Array.isArray(words) && words[active]
+          ? `${display(parts[active * 2] ?? "")}: ${words[active].g.replace(/\*/g, "")}`
+          : ""}
+      </span>
       {active !== null ? (
         <WordBubble
           ref={bubbleRef}
@@ -804,12 +904,12 @@ function WordBubble({
     <div
       ref={ref}
       id={id}
-      role="dialog"
+      role="region"
       aria-label={`Significado de ${heWord}`}
       className={cx("gloss-bubble", rtl ? "gloss-bubble-he" : "gloss-bubble-tr")}
     >
       <div className="flex items-center gap-2">
-        <span className="text-[11px] font-bold tracking-[0.14em] text-tekhelet uppercase">Palavra</span>
+        <span className="text-xs font-semibold text-tekhelet">Palavra</span>
         <span className="text-xs text-muted tabular-nums">
           {reference} · {index + 1} de {count}
         </span>
@@ -817,7 +917,7 @@ function WordBubble({
           type="button"
           onClick={onClose}
           aria-label="Fechar"
-          className="-mr-1.5 ml-auto grid size-8 place-items-center rounded-full text-muted hover:bg-raised hover:text-fg"
+          className="-my-1.5 -mr-3 ml-auto grid size-11 place-items-center rounded-full text-muted hover:bg-raised hover:text-fg"
         >
           <X className="size-4" aria-hidden />
         </button>
@@ -865,7 +965,7 @@ function WordBubble({
           type="button"
           onClick={() => onMove(-1)}
           aria-label="Palavra anterior"
-          className="grid size-9 place-items-center rounded-full border border-line text-soft hover:text-fg"
+          className="grid size-11 place-items-center rounded-full border border-line text-soft hover:text-fg"
         >
           {rtl ? <ChevronRight className="size-4" aria-hidden /> : <ChevronLeft className="size-4" aria-hidden />}
         </button>
@@ -873,7 +973,7 @@ function WordBubble({
           type="button"
           onClick={() => onMove(1)}
           aria-label="Próxima palavra"
-          className="grid size-9 place-items-center rounded-full border border-line text-soft hover:text-fg"
+          className="grid size-11 place-items-center rounded-full border border-line text-soft hover:text-fg"
         >
           {rtl ? <ChevronLeft className="size-4" aria-hidden /> : <ChevronRight className="size-4" aria-hidden />}
         </button>
@@ -881,7 +981,7 @@ function WordBubble({
           type="button"
           onClick={() => setShowVerse(!showVerse)}
           aria-expanded={showVerse}
-          className="ms-auto inline-flex h-9 items-center rounded-full px-3 text-sm font-semibold text-tekhelet hover:bg-raised"
+          className="ms-auto inline-flex h-11 items-center rounded-full px-3 text-sm font-semibold text-tekhelet hover:bg-raised"
         >
           {showVerse ? "Ocultar versículo" : "Versículo inteiro"}
         </button>
@@ -914,8 +1014,13 @@ function PtWithNotes({ text, notes }: { text: string; notes: LetteredNote[] }) {
   const parts: ReactNode[] = [];
   let from = 0;
   for (const note of notes) {
-    parts.push(<PtText key={`t${note.letter}`} text={text.slice(from, note.at)} />);
-    parts.push(
+    // A última palavra, a chamada e a pontuação logo depois ficam na mesma linha.
+    const before = text.slice(Math.min(from, note.at), note.at);
+    const openBracket = (before.match(/\[/g)?.length ?? 0) > (before.match(/\]/g)?.length ?? 0);
+    const lastWord = openBracket ? "" : (before.match(/\S+$/)?.[0] ?? "");
+    const punct = text.slice(Math.max(from, note.at)).match(/^[,.;:!?)»”]+/)?.[0] ?? "";
+    parts.push(<PtText key={`t${note.letter}`} text={before.slice(0, before.length - lastWord.length)} />);
+    const call = (
       <button
         key={note.letter}
         id={`chamada-${note.letter}`}
@@ -925,9 +1030,16 @@ function PtWithNotes({ text, notes }: { text: string; notes: LetteredNote[] }) {
         onClick={() => focusById(`nota-${note.letter}`)}
       >
         {note.letter}
-      </button>,
+      </button>
     );
-    from = note.at;
+    parts.push(
+      <span key={`n${note.letter}`} className="whitespace-nowrap">
+        <PtText text={lastWord} />
+        {call}
+        {punct}
+      </span>,
+    );
+    from = Math.max(from, note.at) + punct.length;
   }
   parts.push(<PtText key="fim" text={text.slice(from)} />);
   return <>{parts}</>;
@@ -960,10 +1072,10 @@ function ChapterNotes({ chapter, notes }: { chapter: number; notes: LetteredNote
   if (notes.length === 0) return null;
   return (
     <section aria-labelledby="notas-titulo" className="mt-10 border-t border-line pt-6">
-      <h2 id="notas-titulo" className="text-xs font-bold tracking-[0.16em] text-muted uppercase">
-        Notas
+      <h2 id="notas-titulo" className="text-base font-semibold text-soft">
+        Notas do tradutor
       </h2>
-      <ol className="mt-3 space-y-2.5">
+      <ol className="mt-3 max-w-[38rem] space-y-2.5">
         {notes.map((note) => (
           <li key={note.letter} id={`nota-${note.letter}`} className="note-item rounded-xl px-2 py-1 -mx-2 text-[0.94rem] leading-relaxed text-soft">
             <button
@@ -1034,6 +1146,18 @@ function BarButton({
 }
 
 const HINT_KEY = "bo-dica-leitor-v1";
+const HINT_EVENT = "bo-dica-leitor";
+
+/** Traz a dica de volta (botão nos ajustes de leitura). */
+function showReaderHint() {
+  try {
+    localStorage.removeItem(HINT_KEY);
+  } catch {
+    // Sem armazenamento: a dica aparece só nesta visita.
+  }
+  window.dispatchEvent(new Event(HINT_EVENT));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
 /** Como usar o leitor: aparece até a pessoa tocar em "Entendi", e não volta mais neste aparelho. */
 function ReaderHint({ lang }: { lang: OriginalLang }) {
@@ -1044,6 +1168,9 @@ function ReaderHint({ lang }: { lang: OriginalLang }) {
     } catch {
       setShow(true);
     }
+    const again = () => setShow(true);
+    window.addEventListener(HINT_EVENT, again);
+    return () => window.removeEventListener(HINT_EVENT, again);
   }, []);
   if (!show) return null;
   const dismiss = () => {
@@ -1055,16 +1182,15 @@ function ReaderHint({ lang }: { lang: OriginalLang }) {
     }
   };
   return (
-    <aside className="mb-3 flex items-start gap-3 rounded-2xl border border-line bg-surface px-4 py-3 text-sm text-soft shadow-edge">
-      <p className="flex-1 leading-relaxed">
-        Toque no número para guardar, anotar ou copiar. Toque numa palavra em {ORIGINAL[lang].label.toLowerCase()} ou no
-        transliterado para ver o significado, ou use o modo <strong className="font-semibold text-fg">Interlinear</strong>.
-        <span className="md:hidden"> Use dois dedos em pinça para ajustar a letra.</span>
+    <aside className="mb-2 flex items-center gap-3 rounded-2xl border border-line bg-surface py-1.5 ps-4 pe-1.5 text-sm text-soft shadow-edge">
+      <p className="flex-1 leading-snug">
+        Toque numa palavra em {ORIGINAL[lang].label.toLowerCase()} para ver o significado, e no versículo para guardar ou
+        anotar.
       </p>
       <button
         type="button"
         onClick={dismiss}
-        className="-my-1 -me-1 inline-flex h-9 shrink-0 items-center rounded-xl px-3 font-semibold text-tekhelet hover:bg-raised"
+        className="inline-flex h-11 shrink-0 items-center rounded-xl px-3 font-semibold text-tekhelet hover:bg-raised"
       >
         Entendi
       </button>
@@ -1127,7 +1253,7 @@ function InterlinearLine({
       {active !== null ? (
         <div className="mt-3 rounded-2xl border border-line bg-sunken/60 px-4 py-3" aria-live="polite">
           <div className="flex items-baseline justify-between gap-3">
-            <span className="font-mono text-[11px] font-semibold tracking-wider text-muted uppercase">
+            <span className="text-xs font-semibold text-muted tabular-nums">
               Palavra {active + 1} de {heWords.length}
             </span>
             <span {...originalProps(lang, "text-2xl leading-tight text-zahav")}>{display(heWords[active] ?? "")}</span>
@@ -1182,11 +1308,14 @@ function EmptyChapter({
   bookId,
   chapter,
   lang,
+  next,
   onNote,
 }: {
   bookId: string;
   chapter: number;
   lang: OriginalLang;
+  /** Próximo capítulo já publicado, para não terminar num beco. */
+  next: ChapterRef | null;
   onNote: () => void;
 }) {
   const marks = useStudy((state) => state.marks);
@@ -1198,24 +1327,40 @@ function EmptyChapter({
           <span key={layer.id} className={cx("size-2.5 rounded-full", layer.dot)} />
         ))}
       </div>
-      <h2 className="mt-4 text-xl font-semibold">Este capítulo ainda não chegou ao acervo</h2>
+      <h2 className="mt-4 text-xl font-semibold">Este capítulo ainda está em tradução</h2>
       <p className="mx-auto mt-2 max-w-md text-muted">
-        A tradução direta, o {ORIGINAL[lang].label.toLowerCase()} e o transliterado aparecem aqui assim que forem publicados. Enquanto isso, você pode guardar o
-        capítulo ou escrever uma nota.
+        A tradução sai livro a livro. A tradução direta, o {ORIGINAL[lang].label.toLowerCase()} e o transliterado aparecem aqui
+        assim que forem publicados.
       </p>
       {note?.body ? (
         <p className="mx-auto mt-5 max-w-md rounded-2xl border-l-[3px] border-shani bg-shani/8 px-4 py-3 text-left text-sm whitespace-pre-line text-soft">
           {note.body}
         </p>
       ) : null}
-      <button
-        type="button"
-        onClick={onNote}
-        className="mt-5 inline-flex h-11 items-center gap-2 rounded-full bg-tekhelet px-5 font-semibold text-on-accent"
-      >
-        <NotebookPen className="size-4" aria-hidden />
-        {note ? "Editar nota do capítulo" : "Escrever nota do capítulo"}
-      </button>
+      <div className="mt-5 flex flex-col items-center gap-2">
+        {next ? (
+          <Link
+            to="/ler/$book/$chapter"
+            params={{ book: next.book.id, chapter: String(next.chapter) }}
+            className="inline-flex h-12 items-center gap-2 rounded-full bg-tekhelet px-5 font-semibold text-on-accent"
+          >
+            Ler {next.book.namePt} {next.chapter}
+            <ChevronRight className="size-4" aria-hidden />
+          </Link>
+        ) : (
+          <Link to="/ler" className="inline-flex h-12 items-center rounded-full bg-tekhelet px-5 font-semibold text-on-accent">
+            Ver os livros publicados
+          </Link>
+        )}
+        <button
+          type="button"
+          onClick={onNote}
+          className="inline-flex h-11 items-center gap-2 rounded-full px-4 font-medium text-tekhelet hover:bg-raised"
+        >
+          <NotebookPen className="size-4" aria-hidden />
+          {note ? "Editar nota do capítulo" : "Escrever nota do capítulo"}
+        </button>
+      </div>
     </div>
   );
 }
@@ -1227,7 +1372,7 @@ function ChapterPager({ previous, next }: { previous: ChapterRef | null; next: C
         <Link
           to="/ler/$book/$chapter"
           params={{ book: previous.book.id, chapter: String(previous.chapter) }}
-          className="flex min-h-16 items-center gap-2 rounded-2xl border border-line bg-surface px-3 transition-colors hover:border-tekhelet/50"
+          className="pressable flex min-h-16 items-center gap-2 rounded-2xl border border-line bg-surface px-3 hover:border-tekhelet/50"
         >
           <ChevronLeft className="size-5 shrink-0 text-muted" aria-hidden />
           <span className="min-w-0">
@@ -1244,7 +1389,7 @@ function ChapterPager({ previous, next }: { previous: ChapterRef | null; next: C
         <Link
           to="/ler/$book/$chapter"
           params={{ book: next.book.id, chapter: String(next.chapter) }}
-          className="flex min-h-16 items-center justify-end gap-2 rounded-2xl bg-tekhelet px-3 text-right text-on-accent transition-transform hover:scale-[1.01]"
+          className="pressable flex min-h-16 items-center justify-end gap-2 rounded-2xl bg-tekhelet px-3 text-right text-on-accent"
         >
           <span className="min-w-0">
             <span className="block text-xs opacity-80">Próximo</span>
@@ -1255,13 +1400,25 @@ function ChapterPager({ previous, next }: { previous: ChapterRef | null; next: C
           <ChevronRight className="size-5 shrink-0" aria-hidden />
         </Link>
       ) : (
-        <span />
+        <span className="flex min-h-16 items-center justify-end rounded-2xl border border-dashed border-line px-3 text-right text-sm text-muted">
+          Fim do que já foi publicado
+        </span>
       )}
     </nav>
   );
 }
 
-function ChapterGrid({ book, chapter, onPick }: { book: Book; chapter: number; onPick: () => void }) {
+function ChapterGrid({
+  book,
+  chapter,
+  acervo,
+  onPick,
+}: {
+  book: Book;
+  chapter: number;
+  acervo: ReturnType<typeof useAcervoIndex>;
+  onPick: () => void;
+}) {
   return (
     <ol className="grid grid-cols-6 gap-2 sm:grid-cols-8">
       {Array.from({ length: book.chapters }, (_, index) => index + 1).map((n) => (
@@ -1271,9 +1428,14 @@ function ChapterGrid({ book, chapter, onPick }: { book: Book; chapter: number; o
             params={{ book: book.id, chapter: String(n) }}
             onClick={onPick}
             aria-current={n === chapter ? "page" : undefined}
+            aria-label={isChapterPublished(acervo, book.id, n) ? undefined : `Capítulo ${n}, em tradução`}
             className={cx(
               "grid h-11 place-items-center rounded-xl text-sm font-semibold tabular-nums transition-colors",
-              n === chapter ? "bg-tekhelet text-on-accent" : "bg-raised/70 hover:bg-raised",
+              n === chapter
+                ? "bg-tekhelet text-on-accent"
+                : isChapterPublished(acervo, book.id, n)
+                  ? "bg-raised/70 hover:bg-raised"
+                  : "border border-dashed border-line text-muted",
             )}
           >
             {n}
@@ -1283,6 +1445,9 @@ function ChapterGrid({ book, chapter, onPick }: { book: Book; chapter: number; o
     </ol>
   );
 }
+
+/** Rascunhos não salvos, por versículo: fechar a gaveta sem salvar não perde o texto. */
+const noteDrafts = new Map<string, string>();
 
 function NoteSheet({
   bookId,
@@ -1301,12 +1466,19 @@ function NoteSheet({
   const saveNote = useStudy((state) => state.saveNote);
   const note = verse === null ? undefined : findMark(marks, bookId, chapter, verse, "note");
   const [draft, setDraft] = useState("");
+  const draftKey = `${bookId}/${chapter}/${verse}`;
 
   useEffect(() => {
-    if (verse !== null) setDraft(note?.body ?? "");
+    if (verse !== null) setDraft(noteDrafts.get(draftKey) ?? note?.body ?? "");
     // Só ao abrir: não sobrescreve o que está sendo digitado.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [verse]);
+
+  const close = (saved: boolean) => {
+    if (saved || draft === (note?.body ?? "")) noteDrafts.delete(draftKey);
+    else noteDrafts.set(draftKey, draft);
+    onClose();
+  };
 
   const ref = verse === null ? "" : verse === 0 ? `${bookName} ${chapter}` : `${bookName} ${chapter}:${verse}`;
 
@@ -1314,7 +1486,7 @@ function NoteSheet({
     <Sheet
       open={verse !== null}
       onOpenChange={(open) => {
-        if (!open) onClose();
+        if (!open) close(false);
       }}
       title={verse === 0 ? "Nota do capítulo" : "Nota"}
       description={ref}
@@ -1324,7 +1496,7 @@ function NoteSheet({
           event.preventDefault();
           if (verse === null) return;
           saveNote(bookId, chapter, verse, draft);
-          onClose();
+          close(true);
         }}
       >
         <label className="block">
@@ -1335,7 +1507,7 @@ function NoteSheet({
             onChange={(event) => setDraft(event.target.value)}
             rows={6}
             placeholder="Escreva o que você percebeu neste texto…"
-            className="w-full resize-y rounded-2xl border border-line bg-bg px-4 py-3 text-base leading-relaxed placeholder:text-muted focus:border-tekhelet/60 focus:outline-none"
+            className="w-full resize-y rounded-2xl border border-field bg-bg px-4 py-3 text-base leading-relaxed placeholder:text-muted focus:border-tekhelet/60 focus:outline-none"
           />
         </label>
         <p className="mt-1 text-right text-xs text-muted tabular-nums">{draft.length}/4000</p>
@@ -1344,9 +1516,14 @@ function NoteSheet({
             <button
               type="button"
               onClick={() => {
-                if (verse === null) return;
+                if (verse === null || !note) return;
+                const body = note.body ?? "";
                 saveNote(bookId, chapter, verse, "");
-                onClose();
+                close(true);
+                toast("Nota apagada", {
+                  description: ref,
+                  action: { label: "Desfazer", onClick: () => saveNote(bookId, chapter, verse, body) },
+                });
               }}
               className="h-12 rounded-full border border-line px-5 font-semibold text-shani"
             >

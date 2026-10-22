@@ -155,6 +155,24 @@ export function bookById(id: string): Book | undefined {
   return BOOKS.find((book) => book.id === id);
 }
 
+/** Abreviações usuais nas bíblias em português (os ids são internos e às vezes em inglês). */
+const ABBR: Record<string, string> = {
+  gn: "Gn", ex: "Êx", lv: "Lv", nm: "Nm", dt: "Dt",
+  js: "Js", jz: "Jz", "1sm": "1Sm", "2sm": "2Sm", "1rs": "1Rs", "2rs": "2Rs", is: "Is", jr: "Jr", ez: "Ez",
+  ho: "Os", jl: "Jl", am: "Am", ob: "Ob", jn: "Jn", mi: "Mq", na: "Na", hb: "Hc", zp: "Sf", hg: "Ag", zc: "Zc", ml: "Ml",
+  ps: "Sl", pv: "Pv", job: "Jó", ss: "Ct", rt: "Rt", lm: "Lm", ec: "Ec", et: "Et", dn: "Dn", er: "Ed", ne: "Ne",
+  "1ch": "1Cr", "2ch": "2Cr",
+  mt: "Mt", mc: "Mc", lc: "Lc", jo: "Jo", at: "At", rm: "Rm", "1co": "1Co", "2co": "2Co", gl: "Gl", ef: "Ef",
+  fp: "Fp", cl: "Cl", "1ts": "1Ts", "2ts": "2Ts", "1tm": "1Tm", "2tm": "2Tm", tt: "Tt", fm: "Fm", heb: "Hb",
+  tg: "Tg", "1pe": "1Pe", "2pe": "2Pe", "1jo": "1Jo", "2jo": "2Jo", "3jo": "3Jo", jd: "Jd", ap: "Ap",
+};
+
+/** Referência curta para mostrar, como "Gn 12:4" ou "Sl 23". */
+export function bookRef(bookId: string, chapter: number, verse?: number): string {
+  const abbr = ABBR[bookId] ?? bookId;
+  return `${abbr} ${chapter}${verse && verse > 0 ? `:${verse}` : ""}`;
+}
+
 export function sectionById(id: SectionId): Section {
   return SECTIONS.find((section) => section.id === id) ?? SECTIONS[0]!;
 }

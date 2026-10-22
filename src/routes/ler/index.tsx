@@ -13,6 +13,7 @@ import {
   originalProps,
   type SectionId,
 } from "@/lib/bible/catalog";
+import { isPublished, useAcervoIndex } from "@/lib/bible/use-acervo";
 import { useStudy } from "@/lib/study/store";
 
 type LerSearch = { secao?: SectionId };
@@ -29,6 +30,9 @@ function LerPage() {
   const { secao } = Route.useSearch();
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
+  const [onlyPublished, setOnlyPublished] = useState(false);
+  const index = useAcervoIndex();
+  const publishedCount = index === "loading" || index === null ? null : Object.keys(index).length;
   const position = useStudy((state) => state.position);
   const needle = foldText(query);
 
@@ -36,6 +40,7 @@ function LerPage() {
     () =>
       BOOKS.filter((book) => {
         if (secao && book.section !== secao) return false;
+        if (onlyPublished && !isPublished(index, book.id)) return false;
         if (!needle) return true;
         return (
           foldText(book.namePt).includes(needle) ||
@@ -43,7 +48,7 @@ function LerPage() {
           book.nameHe.includes(query.trim())
         );
       }),
-    [needle, query, secao],
+    [index, needle, onlyPublished, query, secao],
   );
 
   const filters: { id: SectionId | undefined; label: string; dot?: string }[] = [
@@ -53,7 +58,14 @@ function LerPage() {
 
   return (
     <Shell>
-      <Page title="Livros" lead="Os 66 livros: o Tanakh na ordem do cânon hebraico e, depois, o Novo Testamento.">
+      <Page
+        title="Livros"
+        lead={
+          publishedCount === null
+            ? "Os 66 livros: o Tanakh na ordem do cânon hebraico e, depois, o Novo Testamento."
+            : `Os 66 livros, na ordem do cânon hebraico e, depois, o Novo Testamento. A tradução sai livro a livro: ${publishedCount} já estão no acervo.`
+        }
+      >
         {/* Busca e filtros ficam presos ao topo enquanto a lista rola */}
         <div className="glass sticky top-14 z-20 -mx-4 border-b border-line/60 px-4 pt-1 pb-3 sm:-mx-6 sm:px-6 md:top-0 md:pt-4">
           <label className="relative block">
@@ -63,7 +75,7 @@ function LerPage() {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Buscar livro (ex.: Salmos, Tehillim)"
-              className="h-12 w-full rounded-2xl border border-line bg-surface pr-11 pl-12 text-base placeholder:text-muted focus:border-tekhelet/60 focus:outline-none"
+              className="h-12 w-full rounded-2xl border border-field bg-surface pr-11 pl-12 text-base placeholder:text-muted focus:border-tekhelet/60 focus:outline-none"
             />
             {query ? (
               <button
@@ -87,7 +99,7 @@ function LerPage() {
                   aria-selected={active}
                   onClick={() => void navigate({ to: "/ler", search: { secao: filter.id }, replace: true })}
                   className={cx(
-                    "inline-flex h-9 shrink-0 items-center gap-2 rounded-full border px-4 text-sm font-medium transition-colors",
+                    "inline-flex h-11 shrink-0 items-center gap-2 rounded-full border px-4 text-sm font-medium transition-colors",
                     active ? "border-fg bg-fg text-bg" : "border-line text-soft hover:border-muted",
                   )}
                 >
@@ -96,6 +108,19 @@ function LerPage() {
                 </button>
               );
             })}
+            {publishedCount !== null ? (
+              <button
+                type="button"
+                aria-pressed={onlyPublished}
+                onClick={() => setOnlyPublished((value) => !value)}
+                className={cx(
+                  "inline-flex h-11 shrink-0 items-center gap-2 rounded-full border px-4 text-sm font-medium transition-colors",
+                  onlyPublished ? "border-tekhelet bg-tekhelet/15 text-fg" : "border-dashed border-line text-soft hover:border-muted",
+                )}
+              >
+                Só os publicados
+              </button>
+            ) : null}
           </div>
         </div>
 
@@ -106,41 +131,49 @@ function LerPage() {
           return (
             <section key={section.id} className="mt-8">
               <div className="mb-3 flex items-baseline justify-between gap-4">
-                <h2 className="text-lg font-semibold tracking-tight">
+                <h2 className="min-w-0 text-lg font-semibold tracking-tight">
                   {section.title} <span className="font-normal text-muted">{section.subtitle}</span>
                 </h2>
-                <span {...originalProps(section.lang, cx(section.lang === "he" ? "text-xl" : "text-lg", tone.text))}>
+                <span {...originalProps(section.lang, cx("shrink-0 whitespace-nowrap", section.lang === "he" ? "text-xl" : "text-lg", tone.text))}>
                   {section.nameHe}
                 </span>
               </div>
-              <ul className="grid gap-2 sm:grid-cols-2">
+              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {rows.map((book) => {
                   const reading = position?.bookId === book.id;
+                  const published = isPublished(index, book.id);
                   return (
-                    <li key={book.id}>
+                    <li key={book.id} className="min-w-0">
                       <Link
                         to="/ler/$book"
                         params={{ book: book.id }}
-                        className="group flex min-h-[4.5rem] items-center gap-3 rounded-2xl border border-line bg-surface px-4 py-3 transition-colors hover:border-muted/60 hover:bg-raised/50"
+                        className={cx(
+                          "pressable-card group flex min-h-[4.5rem] items-center gap-3 rounded-2xl border px-4 py-3",
+                          published
+                            ? "border-line bg-surface hover:border-muted/60 hover:bg-raised/50"
+                            : "border-dashed border-line/80 hover:border-muted/60",
+                        )}
                       >
-                        <span className={cx("h-9 w-1 shrink-0 rounded-full", tone.dot)} aria-hidden />
+                        <span className={cx("h-9 w-1 shrink-0 rounded-full", tone.dot, !published && "opacity-35")} aria-hidden />
                         <span className="min-w-0 flex-1">
                           <span className="flex items-center gap-2">
                             <span className="truncate font-semibold">{book.namePt}</span>
                             {reading ? (
-                              <span className="rounded-full bg-tekhelet/15 px-2 py-0.5 text-xs font-medium text-tekhelet">
+                              <span className="rounded-full bg-tekhelet/15 px-2 py-0.5 text-xs font-semibold text-fg">
                                 Lendo
                               </span>
                             ) : null}
+
                           </span>
                           <span className="block truncate text-sm text-muted">
+                            {published ? null : <span className="font-semibold text-soft">Em tradução · </span>}
                             {book.nameTranslit}, {book.chapters} {book.chapters === 1 ? "capítulo" : "capítulos"}
                           </span>
                         </span>
                         <span
                           {...originalProps(
                             bookLang(book),
-                            cx(bookLang(book) === "he" ? "shrink-0 text-2xl" : "max-w-[45%] truncate text-lg", tone.text),
+                            cx(bookLang(book) === "he" ? "shrink-0 text-2xl" : "max-w-[45%] truncate text-lg", tone.text, !published && "opacity-50"),
                           )}
                         >
                           {book.nameHe}

@@ -3,9 +3,14 @@ import { BookOpen } from "lucide-react";
 import { BackLabel, Page, Shell } from "@/components/shell";
 import { cx } from "@/components/ui";
 import { SECTION_TONE, bookById, bookLang, originalProps, sectionById } from "@/lib/bible/catalog";
+import { isChapterPublished, isPublished, useAcervoIndex } from "@/lib/bible/use-acervo";
 import { activeMarks, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/ler/$book/")({
+  head: ({ params }) => {
+    const book = bookById(params.book);
+    return { meta: [{ title: book ? `${book.namePt} · Bíblia Origens` : "Bíblia Origens" }] };
+  },
   component: BookPage,
 });
 
@@ -14,6 +19,7 @@ function BookPage() {
   const book = bookById(bookId);
   const position = useStudy((state) => state.position);
   const marks = useStudy((state) => state.marks);
+  const acervo = useAcervoIndex();
 
   if (!book) {
     return (
@@ -42,7 +48,7 @@ function BookPage() {
           </Link>
         }
         title={book.namePt}
-        lead={`${book.nameTranslit}. ${section.title}, ${book.chapters} ${book.chapters === 1 ? "capítulo" : "capítulos"}.`}
+        lead={`${book.nameTranslit}. ${section.title}, ${book.chapters} ${book.chapters === 1 ? "capítulo" : "capítulos"}.${isPublished(acervo, book.id) ? "" : " Este livro ainda está em tradução."}`}
         action={
           <span
             {...originalProps(
@@ -57,7 +63,7 @@ function BookPage() {
         <Link
           to="/ler/$book/$chapter"
           params={{ book: book.id, chapter: String(startChapter) }}
-          className="inline-flex h-12 items-center gap-2 rounded-full bg-tekhelet px-6 font-semibold text-on-accent transition-transform hover:scale-[1.02]"
+          className="pressable inline-flex h-12 items-center gap-2 rounded-full bg-tekhelet px-6 font-semibold text-on-accent"
         >
           <BookOpen className="size-5" aria-hidden />
           {current ? `Continuar no capítulo ${current}` : "Começar a ler"}
@@ -74,17 +80,20 @@ function BookPage() {
         <ol className="mt-3 grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
           {Array.from({ length: book.chapters }, (_, index) => index + 1).map((chapter) => {
             const isCurrent = chapter === current;
+            const published = isChapterPublished(acervo, book.id, chapter);
             return (
               <li key={chapter}>
                 <Link
                   to="/ler/$book/$chapter"
                   params={{ book: book.id, chapter: String(chapter) }}
-                  aria-label={`Capítulo ${chapter}${isCurrent ? ", onde você parou" : ""}`}
+                  aria-label={`Capítulo ${chapter}${isCurrent ? ", onde você parou" : ""}${published ? "" : ", em tradução"}`}
                   className={cx(
                     "relative grid h-12 place-items-center rounded-2xl border text-base font-semibold tabular-nums transition-colors",
                     isCurrent
                       ? "border-tekhelet bg-tekhelet text-on-accent"
-                      : "border-line bg-surface hover:border-tekhelet/50 hover:bg-raised/60",
+                      : published
+                        ? "border-line bg-surface hover:border-tekhelet/50 hover:bg-raised/60"
+                        : "border-dashed border-line text-muted hover:border-muted",
                   )}
                 >
                   {chapter}

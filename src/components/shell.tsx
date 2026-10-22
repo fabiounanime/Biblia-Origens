@@ -3,7 +3,7 @@ import { Link, Navigate, useRouterState } from "@tanstack/react-router";
 import { BookOpen, CircleUser, House, Map as MapIcon, ScrollText } from "lucide-react";
 import { SIGN_IN_PATH } from "@/lib/auth/gates";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
-import { bookById, bookLang, originalProps } from "@/lib/bible/catalog";
+import { bookById, bookLang, bookRef, originalProps } from "@/lib/bible/catalog";
 import { useStudy } from "@/lib/study/store";
 import { Avatar, BrandMark, Wordmark, cx } from "@/components/ui";
 
@@ -81,9 +81,17 @@ export function Shell({
 
   const name = user.displayName ?? user.primaryEmail ?? "Leitor";
   const continueBook = ready && position ? bookById(position.bookId) : undefined;
+  // O atalho "Continuar lendo" não aparece quando o capítulo já está aberto.
+  const readingHere = continueBook && position ? pathname === `/ler/${continueBook.id}/${position.chapter}` : false;
 
   return (
     <div className="app-backdrop min-h-dvh font-app text-fg">
+      <a
+        href="#conteudo"
+        className="sr-only z-50 rounded-full bg-tekhelet px-4 py-2 font-semibold text-on-accent focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+      >
+        Pular para o conteúdo
+      </a>
       {/* Barra superior — só no celular */}
       {!bare ? (
         <header className="glass sticky top-0 z-30 flex h-14 items-center justify-between border-b border-line/70 px-4 md:hidden">
@@ -91,7 +99,7 @@ export function Shell({
             <BrandMark className="size-8" />
             <Wordmark className="text-[1.2rem] leading-none" />
           </Link>
-          <Link to="/conta" aria-label="Conta" className="rounded-full">
+          <Link to="/conta" aria-label="Sua conta" className="-mr-1.5 grid size-11 place-items-center rounded-full">
             <Avatar name={name} image={user.profileImageUrl} className="size-8 text-sm" />
           </Link>
         </header>
@@ -126,7 +134,7 @@ export function Shell({
             );
           })}
         </nav>
-        {continueBook && position ? (
+        {continueBook && position && !readingHere ? (
           <Link
             to="/ler/$book/$chapter"
             params={{ book: continueBook.id, chapter: String(position.chapter) }}
@@ -134,9 +142,8 @@ export function Shell({
             className="mt-auto block rounded-2xl border border-line bg-raised/60 p-4 shadow-edge transition-colors hover:border-tekhelet/50"
           >
             <span className="flex items-center gap-2 text-sm text-muted">
-              <span className="font-mono text-[11px] font-semibold tracking-wider text-tekhelet uppercase">
-                {continueBook.id} {position.chapter}
-                {position.verse > 0 ? `:${position.verse}` : ""}
+              <span className="text-xs font-semibold text-tekhelet tabular-nums">
+                {bookRef(continueBook.id, position.chapter, position.verse)}
               </span>
               Continuar lendo
             </span>
@@ -150,13 +157,15 @@ export function Shell({
         ) : null}
       </aside>
 
-      <div className="pb-28 md:pb-0 md:pl-64">{children}</div>
+      <div id="conteudo" tabIndex={-1} className="pb-28 outline-none md:pb-0 md:pl-64">
+        {children}
+      </div>
 
       {/* Barra inferior flutuante — celular */}
       <nav
         aria-label="Principal"
         className={cx(
-          "fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-40 mx-auto max-w-md transition-transform duration-300 ease-out md:hidden",
+          "nav-slide fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-40 mx-auto max-w-md md:hidden",
           navHidden && "nav-hidden",
         )}
       >

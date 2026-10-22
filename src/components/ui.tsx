@@ -103,7 +103,7 @@ export function Segmented<T extends string>({
             title={option.title}
             onClick={() => onChange(option.id)}
             className={cx(
-              "flex min-h-10 flex-1 items-center justify-center gap-1.5 rounded-xl px-3 text-sm font-medium transition-colors",
+              "flex min-h-11 flex-1 items-center justify-center gap-1.5 rounded-xl px-3 text-sm font-medium transition-colors",
               active ? "bg-surface text-fg shadow-sm ring-1 ring-line" : "text-muted hover:text-fg",
             )}
           >
@@ -132,7 +132,8 @@ export function Switch({
       aria-label={label}
       onClick={() => onChange(!checked)}
       className={cx(
-        "relative inline-flex h-7 w-12 shrink-0 items-center rounded-full transition-colors",
+        // A área de toque passa de 44px; o desenho continua com 28px.
+        "relative inline-flex h-7 w-12 shrink-0 items-center rounded-full transition-colors after:absolute after:-inset-2 after:content-['']",
         checked ? "bg-tekhelet" : "bg-raised ring-1 ring-line",
       )}
     >

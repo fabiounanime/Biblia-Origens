@@ -4,9 +4,10 @@ import { Bookmark, BookOpen, CircleCheck, NotebookPen } from "lucide-react";
 import { Shell } from "@/components/shell";
 import { SectionTitle, cx } from "@/components/ui";
 import { useCurrentUser } from "@/lib/auth/use-current-user";
-import { BOOKS, ORIGINAL, SECTIONS, SECTION_TONE, bookById, bookLang, originalProps } from "@/lib/bible/catalog";
-import { displayHebrew, loadIndex, loadVerse, type AcervoIndex, type Verse } from "@/lib/bible/corpus";
+import { BOOKS, ORIGINAL, SECTIONS, SECTION_TONE, bookById, bookLang, bookRef, originalProps } from "@/lib/bible/catalog";
+import { displayHebrew, loadVerse, type Verse } from "@/lib/bible/corpus";
 import { GUIDES } from "@/lib/bible/guides";
+import { useAcervoIndex } from "@/lib/bible/use-acervo";
 import { activeMarks, useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/inicio")({
@@ -52,11 +53,6 @@ function dayOfYear(date: Date): number {
   return Math.floor((date.getTime() - start.getTime()) / 86_400_000);
 }
 
-/** Referência curta em fonte mono, como "GN 12:4". */
-function shortRef(bookId: string, chapter: number, verse?: number): string {
-  return `${bookId.toUpperCase()} ${chapter}${verse && verse > 0 ? `:${verse}` : ""}`;
-}
-
 function Inicio() {
   const user = useCurrentUser();
   const ready = useStudy((state) => state.ready);
@@ -70,28 +66,14 @@ function Inicio() {
     .sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt))
     .slice(0, 4);
 
-  const [index, setIndex] = useState<AcervoIndex | null | "loading">("loading");
-  useEffect(() => {
-    let cancel = false;
-    void loadIndex()
-      .catch(() => null)
-      .then((rows) => {
-        if (!cancel) setIndex(rows);
-      });
-    return () => {
-      cancel = true;
-    };
-  }, []);
+  const index = useAcervoIndex();
 
   return (
     <Shell>
       <main className="mx-auto w-full max-w-3xl px-4 pt-6 pb-10 sm:px-6 md:pt-12">
-        <p className="text-muted">
+        <h1 className="text-[1.75rem] leading-tight font-extrabold tracking-tight sm:text-[2rem]">
           {greeting()}
-          {firstName ? `, ${firstName}` : ""}.
-        </p>
-        <h1 className="mt-1 text-[1.85rem] leading-tight font-extrabold tracking-tight sm:text-[2.5rem]">
-          Shalom. O que vamos ler hoje?
+          {firstName ? `, ${firstName}` : ""}. O que vamos ler hoje?
         </h1>
 
         {/* Grade principal: continuar, versículo do dia e as partes da Bíblia */}
@@ -124,7 +106,7 @@ function Inicio() {
           >
             As partes da Bíblia
           </SectionTitle>
-          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4 sm:gap-3">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-3 lg:grid-cols-4">
             {SECTIONS.map((section) => {
               const tone = SECTION_TONE[section.id];
               const ids = BOOKS.filter((row) => row.section === section.id).map((row) => row.id);
@@ -135,7 +117,7 @@ function Inicio() {
                   key={section.id}
                   to="/ler"
                   search={{ secao: section.id }}
-                  className="group flex flex-col gap-3 rounded-3xl border border-line bg-surface p-3.5 shadow-edge transition-colors hover:bg-raised/70 sm:p-4"
+                  className="pressable-card group flex min-w-0 flex-col gap-3 rounded-3xl border border-line bg-surface p-3.5 shadow-edge hover:bg-raised/70 sm:p-4"
                 >
                   <span className="flex items-center justify-between gap-2">
                     <span className={cx("size-2 shrink-0 rounded-full", tone.dot)} aria-hidden />
@@ -153,7 +135,7 @@ function Inicio() {
                     </span>
                   </span>
                   <span className="mt-auto block">
-                    <span className="block font-bold sm:text-lg">{section.title}</span>
+                    <span className="block font-bold text-balance sm:text-lg">{section.title}</span>
                     <span className="block text-xs text-muted sm:text-sm">
                       {section.subtitle} · {ids.length} livros
                     </span>
@@ -162,8 +144,8 @@ function Inicio() {
                     <span className="block h-1 overflow-hidden rounded-full bg-sunken">
                       <span className={cx("block h-full rounded-full", tone.dot)} style={{ width: `${pct}%` }} />
                     </span>
-                    <span className="mt-1.5 block font-mono text-[10px] tracking-wider text-muted uppercase">
-                      {published === null ? "…" : `${published}/${ids.length} no acervo`}
+                    <span className="mt-1.5 block text-xs text-muted tabular-nums">
+                      {published === null ? "…" : `${published} de ${ids.length} publicados`}
                     </span>
                   </span>
                 </Link>
@@ -183,8 +165,9 @@ function Inicio() {
           >
             Guias de estudo
           </SectionTitle>
-          <div className="scrollbar-none -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-1 sm:-mx-6 sm:px-6">
-            {GUIDES.map((guide) => {
+          {/* Faixa que sangra até a borda no celular; grade dentro da coluna a partir do tablet. */}
+          <div className="scrollbar-none -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-1 sm:-mx-6 sm:px-6 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:px-0 md:pb-0">
+            {GUIDES.map((guide, guideIndex) => {
               const guideBook = bookById(guide.bookId);
               const tone = SECTION_TONE[guideBook?.section ?? "torah"];
               const done = guides.some((row) => row.guideId === guide.id && row.status === "done");
@@ -193,15 +176,18 @@ function Inicio() {
                   key={guide.id}
                   to="/estudos/$guideId"
                   params={{ guideId: guide.id }}
-                  className="relative flex w-44 shrink-0 snap-start flex-col overflow-hidden rounded-3xl border border-line bg-surface p-4 shadow-edge transition-colors hover:border-tekhelet/40"
+                  className={cx(
+                    "pressable-card relative flex w-44 shrink-0 snap-start flex-col overflow-hidden rounded-3xl border border-line bg-surface p-4 shadow-edge hover:border-tekhelet/40 md:w-auto",
+                    guideIndex >= 6 && "md:hidden",
+                  )}
                 >
                   <span className={cx("flex items-center gap-2 text-sm font-semibold", tone.text)}>
                     <span className={cx("size-1.5 rounded-full", tone.dot)} aria-hidden />
                     {guide.kicker}
                   </span>
                   <span className="mt-1 text-lg leading-snug font-bold">{guide.title}</span>
-                  <span className="mt-auto flex items-center justify-between pt-4 font-mono text-xs text-muted">
-                    {guideBook ? shortRef(guideBook.id, guide.chapter) : ""}
+                  <span className="mt-auto flex items-center justify-between pt-4 text-sm text-muted tabular-nums">
+                    {guideBook ? bookRef(guideBook.id, guide.chapter) : ""}
                     {done ? <CircleCheck className="size-4 text-tekhelet" aria-label="Lido" /> : null}
                   </span>
                 </Link>
@@ -248,8 +234,8 @@ function Inicio() {
                         <span className="flex items-baseline gap-2 font-semibold">
                           {markBook.namePt} {mark.chapter}
                           {mark.verse > 0 ? `:${mark.verse}` : ""}
-                          <span className="font-mono text-[11px] font-medium text-muted">
-                            {shortRef(markBook.id, mark.chapter, mark.verse)}
+                          <span className="text-xs font-medium text-muted tabular-nums">
+                            {bookRef(markBook.id, mark.chapter, mark.verse)}
                           </span>
                         </span>
                         <span className="block truncate text-sm text-muted">
@@ -272,7 +258,7 @@ function Inicio() {
 function ProgressRing({ value, label }: { value: number; label: string }) {
   const radius = 26;
   const length = 2 * Math.PI * radius;
-  const filled = Math.max(0.02, Math.min(1, value)) * length;
+  const filled = Math.max(0, Math.min(1, value)) * length;
   return (
     <span className="relative grid size-16 shrink-0 place-items-center" aria-hidden>
       <svg viewBox="0 0 64 64" className="absolute inset-0 size-16 -rotate-90">
@@ -288,7 +274,7 @@ function ProgressRing({ value, label }: { value: number; label: string }) {
           className="stroke-zahav"
         />
       </svg>
-      <span className="font-mono text-[11px] font-semibold text-soft">{label}</span>
+      <span className="text-xs font-semibold text-soft tabular-nums">{label}</span>
     </span>
   );
 }
@@ -312,12 +298,12 @@ function ContinueCard({
       to="/ler/$book/$chapter"
       params={{ book: book.id, chapter: String(chapter) }}
       hash={verse > 1 ? `v${verse}` : undefined}
-      className="group relative flex flex-col gap-4 overflow-hidden rounded-3xl border border-tekhelet/30 bg-surface p-5 shadow-edge sm:p-6"
+      className="pressable-card group relative flex flex-col gap-4 overflow-hidden rounded-3xl border border-tekhelet/30 bg-surface p-5 shadow-edge sm:p-6"
     >
       <span
         className={cx(
           ORIGINAL[bookLang(book)].font,
-          "pointer-events-none absolute -top-2 right-4 text-[4rem] leading-none whitespace-nowrap text-zahav/12 select-none sm:right-6 sm:text-[6rem]",
+          "pointer-events-none absolute -top-2 right-24 text-[4rem] leading-none whitespace-nowrap text-zahav/10 select-none sm:right-28 sm:text-[6rem]",
         )}
         lang={ORIGINAL[bookLang(book)].lang}
         dir={ORIGINAL[bookLang(book)].dir}
@@ -326,8 +312,8 @@ function ContinueCard({
         {book.nameHe}
       </span>
       <span className="relative flex items-center gap-2">
-        <span className="rounded-lg bg-tekhelet/12 px-2 py-1 font-mono text-[11px] font-semibold tracking-wider text-tekhelet">
-          {shortRef(book.id, chapter, fresh ? 0 : verse)}
+        <span className="rounded-lg bg-tekhelet/12 px-2 py-1 text-xs font-semibold text-tekhelet tabular-nums">
+          {bookRef(book.id, chapter, fresh ? 0 : verse)}
         </span>
         <span className="text-sm font-medium text-soft">{fresh ? "Comece pelo princípio" : "Continuar leitura"}</span>
       </span>
@@ -341,9 +327,9 @@ function ContinueCard({
             {!fresh && verse > 1 ? ` · versículo ${verse}` : ""}
           </span>
         </span>
-        <ProgressRing value={chapter / book.chapters} label={`${chapter}/${book.chapters}`} />
+        <ProgressRing value={fresh ? 0 : chapter / book.chapters} label={`${chapter}/${book.chapters}`} />
       </span>
-      <span className="relative inline-flex h-12 items-center justify-center gap-2 rounded-2xl bg-tekhelet px-5 font-bold text-on-accent transition-transform group-hover:scale-[1.01]">
+      <span className="relative inline-flex h-12 items-center justify-center gap-2 rounded-2xl bg-tekhelet px-5 font-bold text-on-accent">
         <BookOpen className="size-5" aria-hidden />
         {fresh ? "Ler" : "Continuar"}
       </span>
@@ -385,10 +371,10 @@ function VerseOfDay() {
       to="/ler/$book/$chapter"
       params={{ book: book.id, chapter: String(ref.chapter) }}
       hash={`v${ref.verse}`}
-      className="flex flex-col gap-2 rounded-3xl border border-line bg-surface p-5 shadow-edge transition-colors hover:border-tekhelet/40 sm:p-6"
+      className="pressable-card flex flex-col gap-2 rounded-3xl border border-line bg-surface p-5 shadow-edge hover:border-tekhelet/40 sm:p-6"
     >
-      <span className="font-mono text-[11px] font-semibold tracking-wider text-muted uppercase">
-        Versículo do dia · {shortRef(book.id, ref.chapter, ref.verse)}
+      <span className="text-sm font-semibold text-muted">
+        Versículo do dia · <span className="tabular-nums">{bookRef(book.id, ref.chapter, ref.verse)}</span>
       </span>
       <span className="font-read text-[1.15rem] leading-relaxed">
         {verse.pt.split(/(\[[^\]]+\])/).map((part, i) =>

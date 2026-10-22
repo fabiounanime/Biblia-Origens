@@ -1,6 +1,6 @@
 # Bíblia Origens
 
-PWA de leitura do Tanakh para estudo: português em tradução direta, hebraico e transliterado, nesta ordem. Modo escuro por padrão, com modo claro. A leitura é aberta. A conta sincroniza marcas, notas e o ponto de leitura.
+PWA de leitura do Tanakh para estudo: português em tradução direta, hebraico e transliterado, nesta ordem. Modo escuro por padrão, com modo claro. A leitura exige conta (condição da aprovação da marca no login com Google): a apresentação em `/` é pública e mostra Gênesis 1:1 palavra por palavra; as telas do app redirecionam para `/login`. A conta sincroniza marcas, notas e o ponto de leitura.
 
 ## Acervo: hebraico, tradução e transliterado
 
@@ -41,11 +41,14 @@ Os identificadores dos livros estão em `src/lib/bible/catalog.ts`.
 
 ## Layout e design
 
-- **Paleta "cores do Tabernáculo"** (Êx 26:1), em `src/styles.css`: *tekhelet* (azul, ação principal e Neviim), *zahav* (ouro, Torá e hebraico), *argaman* (púrpura, Ketuvim), *shani* (escarlate, marcas e notas). Três temas: Escuro (azul-noturno, padrão), Claro (linho frio) e Pergaminho (`html.light.sepia`, claro e quente para leitura longa). Cartões ganham a borda de luz `shadow-edge` em vez de sombra pesada.
+- **Paleta "cores do Tabernáculo"** (Êx 26:1), em `src/styles.css`: *tekhelet* (azul, ação principal e Neviim), *zahav* (ouro, Torá e hebraico), *argaman* (púrpura, Ketuvim), *shani* (escarlate, marcas e notas). Três temas: Escuro (azul-noturno, padrão), Claro (linho frio) e Pergaminho (`html.light.theme-sepia`, claro e quente para leitura longa; não use a classe `sepia`, que é o utilitário `filter: sepia(100%)` do Tailwind). Cartões ganham a borda de luz `shadow-edge` em vez de sombra pesada.
 - **Marca**: o nome "Bíblia Origens" aparece sempre na grafia uncial (Uncial Antiqua) em tinta de pergaminho, pelo componente `Wordmark` (`src/components/ui.tsx`) e a classe `.wordmark`. A abertura é sempre escura, com a logo, o nome e o lema em IM Fell English itálico.
-- **Tipografia**: Literata (português), Frank Ruhl Libre (hebraico com nikud), Manrope (interface das telas internas, classe `font-app`), JetBrains Mono (referências como GN 1:1, classe `font-mono`). A landing, o login e as páginas legais continuam em Figtree. A escala de fonte da Conta muda só o texto de leitura.
-- **Leitor** (`src/routes/ler/$book.$chapter.tsx`): pinça com dois dedos para o tamanho da letra no celular (`src/lib/reader/use-pinch-font.ts`), camadas PT/HE/TR ligáveis e modo **Interlinear** (cada palavra do original com transliterado e significado; preferências do aparelho, `src/lib/reader/layers.ts`), ajustes em painel deslizante, troca de capítulo por gesto lateral, setas do teclado ou botões (atravessando livros), barra de progresso, barra flutuante de ações por versículo (guardar, nota, copiar, enviar), dica de uso mostrada até tocar em "Entendi" e retomada no versículo onde parou.
+- **Tipografia**: Literata (português), Frank Ruhl Libre (hebraico com nikud), Manrope (interface do app e da apresentação, classe `font-app`). Referências usam as abreviações em português (Gn 1:1, Sl 23) de `bookRef` em `src/lib/bible/catalog.ts`, com números tabulares. O login e as páginas legais continuam em Figtree. A escala de fonte da Conta muda só o texto de leitura.
+- **Leitor** (`src/routes/ler/$book.$chapter.tsx`): pinça com dois dedos para o tamanho da letra no celular (`src/lib/reader/use-pinch-font.ts`), camadas PT/HE/TR ligáveis e modo **Interlinear** (cada palavra do original com transliterado e significado; preferências do aparelho, `src/lib/reader/layers.ts`), ajustes em painel deslizante, troca de capítulo por gesto lateral, setas do teclado ou botões (atravessando livros), barra de progresso, barra flutuante de ações por versículo (guardar, nota, copiar, enviar), dica de uso de uma linha até tocar em "Entendi" (volta pelos ajustes de leitura) e retomada no versículo onde parou. Tocar no texto do versículo também abre as ações. Anterior/próximo e o gesto lateral pulam os capítulos ainda em tradução (`src/lib/bible/use-acervo.ts`).
 - **Início** (`src/routes/inicio.tsx`): grade com "Continuar leitura" (anel de progresso do livro), versículo do dia (só referências no código; o texto vem do acervo) e as quatro partes com quantos livros já estão no acervo, lido de `public/content/bible/indice.json`. O índice é refeito pelo `build.mjs` a cada livro (ou à mão: `node tools/acervo/indice.mjs`).
+- **Andamento do acervo**: `/ler`, a lista de capítulos e os guias marcam o que ainda está "Em tradução" a partir de `indice.json`; a apresentação mostra a contagem por parte da Bíblia.
+- **Movimento**: curvas `--ease-out` e `--ease-drawer` em `src/styles.css`; botões afundam de leve ao toque (`:active`, classes `pressable` e `pressable-card`); com `prefers-reduced-motion`, sem deslocamento.
+- **Acessibilidade**: zoom da página liberado (a pinça só muda a letra dentro do texto bíblico), link "Pular para o conteúdo", alvos de 44px e campos com borda de 3:1 (`border-field`).
 - **Componentes compartilhados**: `src/components/ui.tsx` (marca, painel, controle segmentado, chave) e `src/components/reading-settings.tsx`.
 
 ## Login no Cloudflare Workers
@@ -72,5 +75,5 @@ A página `/diagnostico` mostra o que está configurado e o que falta, sem expor
 ## Endereços públicos
 
 - `/`: apresentação do app (sem login). É a página inicial informada ao Google.
-- `/abrir`: abertura com a logo, por 6 s, que leva ao login ou ao Início. É o `start_url` do app instalado; quem abre o app instalado em `/` (ícones antigos) é levado para cá antes da página aparecer.
+- `/abrir`: abertura com a logo (1,8 s na primeira abertura do dia, 0,8 s nas outras; um toque pula), que leva ao login ou ao Início. É o `start_url` do app instalado; quem abre o app instalado em `/` (ícones antigos) é levado para cá antes da página aparecer.
 - `/privacidade`, `/termos`: textos legais. `/sobre` redireciona para `/`.

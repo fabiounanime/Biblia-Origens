@@ -10,5 +10,14 @@
     "BETTER_AUTH_URL": "https://bibliaorigens.app",
     // Outros endereços que também podem abrir o app e enviar o login.
     "BETTER_AUTH_TRUSTED_ORIGINS": "https://www.bibliaorigens.app,https://biblia-origens.fabiounanime.workers.dev"
+  },
+  // Previews dos PRs (wrangler preview): nada aponta para o domínio oficial nem
+  // para recursos de produção. Vazio = o app deriva o endereço da requisição;
+  // as páginas públicas abrem, o login fica para a produção.
+  "previews": {
+    "vars": {
+      "BETTER_AUTH_URL": "",
+      "BETTER_AUTH_TRUSTED_ORIGINS": ""
+    }
   }
 }

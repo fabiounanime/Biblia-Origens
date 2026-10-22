@@ -2,6 +2,7 @@ import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-r
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { ThemeBinder } from "@/components/theme-binder";
+import { Toaster } from "@/components/toaster";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "Bíblia Origens";
@@ -10,7 +11,7 @@ export const Route = createRootRoute({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" },
+      { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
       { title: APP_NAME },
       {
         name: "description",
@@ -47,7 +48,7 @@ export const Route = createRootRoute({
         children: `(function(){var h=location.hostname;if(h==="www.bibliaorigens.app"||/\\.workers\\.dev$/.test(h)){location.replace("https://bibliaorigens.app"+location.pathname+location.search+location.hash);return;}var st=navigator.standalone===true||(window.matchMedia&&window.matchMedia("(display-mode: standalone)").matches);if(st&&location.pathname==="/"){location.replace("/abrir"+location.search+location.hash);}})();`,
       },
       {
-        children: `(function(){try{var r=localStorage.getItem("bo-study-v1");if(!r)return;var s=JSON.parse(r);if(s.theme==="light"||s.theme==="sepia")document.documentElement.classList.add("light");if(s.theme==="sepia")document.documentElement.classList.add("sepia");if(s.fontScale)document.documentElement.dataset.scale=s.fontScale;}catch(e){}})();`,
+        children: `(function(){try{var r=localStorage.getItem("bo-study-v1");if(!r)return;var s=JSON.parse(r);if(s.theme==="light"||s.theme==="sepia")document.documentElement.classList.add("light");if(s.theme==="sepia")document.documentElement.classList.add("theme-sepia");if(s.fontScale)document.documentElement.dataset.scale=s.fontScale;}catch(e){}})();`,
       },
     ],
   }),
@@ -64,7 +65,7 @@ export const Route = createRootRoute({
 const CRITICAL_CSS =
   "html{background:#0d1120;color:#f1ede4;color-scheme:dark}" +
   "html.light{background:#f4f5f9;color:#141832;color-scheme:light}" +
-  "html.light.sepia{background:#f3e9d4;color:#2b2112}" +
+  "html.light.theme-sepia{background:#f3e9d4;color:#2b2112}" +
   "body{margin:0;visibility:hidden;animation:bo-reveal 0s linear 4s forwards}" +
   "@keyframes bo-reveal{to{visibility:visible}}";
 
@@ -81,6 +82,7 @@ function Root() {
         <AuthProvider>
           <Outlet />
         </AuthProvider>
+        <Toaster />
         <Scripts />
       </body>
     </html>
