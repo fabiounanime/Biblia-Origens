@@ -1,6 +1,5 @@
 import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
-import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { ThemeBinder } from "@/components/theme-binder";
 import { Toaster } from "@/components/toaster";
 import appCss from "../styles.css?url";
@@ -21,14 +20,25 @@ export const Route = createRootRoute({
       // Nome do ícone na Tela de Início (iPhone) e no Android.
       { name: "apple-mobile-web-app-title", content: APP_NAME },
       { name: "application-name", content: APP_NAME },
+      // Cartão de compartilhamento (WhatsApp, redes sociais, buscadores).
+      { property: "og:site_name", content: APP_NAME },
+      { property: "og:title", content: "Bíblia Origens · A Bíblia em português, no original e transliterada" },
+      {
+        property: "og:description",
+        content: "Cada versículo em português direto, no hebraico original e transliterado, com o significado de cada palavra.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://bibliaorigens.app/og.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32.png" },
       { rel: "icon", href: "/favicon.ico", sizes: "48x48" },
       { rel: "stylesheet", href: appCss },
-      // Manifesto e ícone próprios do app. Ficam antes dos que a camada do Grok
-      // acrescenta no fim do <head>: o navegador usa o primeiro manifesto, e o
-      // iPhone escolhe o ícone com sizes="180x180" (sem sizes conta como 60x60).
+      // Manifesto e ícone do app. O iPhone escolhe o ícone com sizes="180x180"
+      // (sem sizes conta como 60x60).
       { rel: "manifest", href: "/manifest.webmanifest" },
       { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-touch-icon.png" },
       { rel: "icon", type: "image/png", sizes: "192x192", href: "/icons/icon-192.png" },
@@ -77,7 +87,6 @@ function Root() {
         <HeadContent />
       </head>
       <body className="min-h-dvh bg-bg text-fg antialiased">
-        <PreviewHostBridge />
         <ThemeBinder />
         <AuthProvider>
           <Outlet />

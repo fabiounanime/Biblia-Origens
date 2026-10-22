@@ -12,3 +12,7 @@ dist
 
 # Texto hebraico baixado para montar o acervo (tools/acervo/build.mjs)
 tools/acervo/.cache
+
+# Saída do build (Nitro) e do grafo do Graphify
+.output
+graphify-out
