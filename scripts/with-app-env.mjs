@@ -104,6 +104,11 @@ export function isMainModule(moduleUrl) {
   }
 }
 
+/** Aspas para um argumento na linha de comando do cmd.exe, quando precisa. */
+export function quoteWindowsArg(arg) {
+  return /^[\w@%+=:,./-]+$/.test(arg) ? arg : `"${arg.replace(/"/g, '""')}"`;
+}
+
 function main(argv) {
   const [command, ...args] = argv;
   if (!command) {
@@ -111,7 +116,12 @@ function main(argv) {
     process.exit(2);
   }
   const env = mergeAppEnv(readAppEnv(projectRoot()), process.env);
-  const child = spawn(command, args, { stdio: "inherit", env });
+  // No Windows, `vite` em node_modules/.bin é um `.cmd`, que só roda por um
+  // shell: o comando vai como uma linha só (args entre aspas), sem shell nos demais.
+  const child =
+    process.platform === "win32"
+      ? spawn([command, ...args].map(quoteWindowsArg).join(" "), { stdio: "inherit", env, shell: true })
+      : spawn(command, args, { stdio: "inherit", env });
   // The dev server is long-running and is stopped by signalling this wrapper.
   for (const signal of ["SIGINT", "SIGTERM", "SIGHUP"]) {
     process.on(signal, () => child.kill(signal));

@@ -39,38 +39,29 @@ Formato de `public/content/bible/{bookId}.json`:
 
 Os identificadores dos livros estão em `src/lib/bible/catalog.ts`.
 
-## Layout e design
+## Rodar
 
-- **Paleta "cores do Tabernáculo"** (Êx 26:1), em `src/styles.css`: *tekhelet* (azul, ação principal e Neviim), *zahav* (ouro, Torá e hebraico), *argaman* (púrpura, Ketuvim), *shani* (escarlate, marcas e notas). Três temas: Escuro (azul-noturno, padrão), Claro (linho frio) e Pergaminho (`html.light.theme-sepia`, claro e quente para leitura longa; não use a classe `sepia`, que é o utilitário `filter: sepia(100%)` do Tailwind). Cartões ganham a borda de luz `shadow-edge` em vez de sombra pesada.
-- **Marca**: o nome "Bíblia Origens" aparece sempre na grafia uncial (Uncial Antiqua) em tinta de pergaminho, pelo componente `Wordmark` (`src/components/ui.tsx`) e a classe `.wordmark`. A abertura é sempre escura, com a logo, o nome e o lema em IM Fell English itálico.
-- **Tipografia**: Literata (português), Frank Ruhl Libre (hebraico com nikud), Manrope (interface do app e da apresentação, classe `font-app`). Referências usam as abreviações em português (Gn 1:1, Sl 23) de `bookRef` em `src/lib/bible/catalog.ts`, com números tabulares. O login e as páginas legais continuam em Figtree. A escala de fonte da Conta muda só o texto de leitura.
-- **Leitor** (`src/routes/ler/$book.$chapter.tsx`): pinça com dois dedos para o tamanho da letra no celular (`src/lib/reader/use-pinch-font.ts`), camadas PT/HE/TR ligáveis e modo **Interlinear** (cada palavra do original com transliterado e significado; preferências do aparelho, `src/lib/reader/layers.ts`), ajustes em painel deslizante, troca de capítulo por gesto lateral, setas do teclado ou botões (atravessando livros), barra de progresso, barra flutuante de ações por versículo (guardar, nota, copiar, enviar), dica de uso de uma linha até tocar em "Entendi" (volta pelos ajustes de leitura) e retomada no versículo onde parou. Tocar no texto do versículo também abre as ações. Anterior/próximo e o gesto lateral pulam os capítulos ainda em tradução (`src/lib/bible/use-acervo.ts`).
-- **Início** (`src/routes/inicio.tsx`): grade com "Continuar leitura" (anel de progresso do livro), versículo do dia (só referências no código; o texto vem do acervo) e as quatro partes com quantos livros já estão no acervo, lido de `public/content/bible/indice.json`. O índice é refeito pelo `build.mjs` a cada livro (ou à mão: `node tools/acervo/indice.mjs`).
-- **Andamento do acervo**: `/ler`, a lista de capítulos e os guias marcam o que ainda está "Em tradução" a partir de `indice.json`; a apresentação mostra a contagem por parte da Bíblia.
-- **Movimento**: curvas `--ease-out` e `--ease-drawer` em `src/styles.css`; botões afundam de leve ao toque (`:active`, classes `pressable` e `pressable-card`); com `prefers-reduced-motion`, sem deslocamento.
-- **Acessibilidade**: zoom da página liberado (a pinça só muda a letra dentro do texto bíblico), link "Pular para o conteúdo", alvos de 44px e campos com borda de 3:1 (`border-field`).
-- **Componentes compartilhados**: `src/components/ui.tsx` (marca, painel, controle segmentado, chave) e `src/components/reading-settings.tsx`.
+```bash
+npm ci
+npm run dev      # http://localhost:8080
+npm run verify   # lint, tipos, testes e build de verificação
+```
 
-## Login no Cloudflare Workers
+Variáveis de ambiente, banco e deploy: [docs/onboarding.md](docs/onboarding.md).
 
-Domínio oficial: **https://bibliaorigens.app** (Custom Domain do Worker `biblia-origens`).
+## Documentação
 
-
-Segredos/variáveis do Worker (painel da Cloudflare → Workers → biblia-origens → Settings → Variables and Secrets):
-
-| Nome | Para quê |
-| --- | --- |
-| `DATABASE_URL` | Postgres (ex.: Neon). As tabelas são criadas sozinhas na primeira requisição. |
-| `BETTER_AUTH_SECRET` | Chave fixa das sessões. |
-| `BETTER_AUTH_URL` | Já vem do `wrangler.jsonc`: `https://bibliaorigens.app`, o endereço oficial. |
-| `BETTER_AUTH_TRUSTED_ORIGINS` | Já vem do `wrangler.jsonc`: `www.bibliaorigens.app` e o endereço `*.workers.dev`, que também podem abrir o app. |
-| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Login direto com Google. No Google Cloud, origem `https://bibliaorigens.app` e retorno `https://bibliaorigens.app/api/auth/callback/google`. |
-
-A página `/diagnostico` mostra o que está configurado e o que falta, sem expor segredos.
+- [Produto e escopo](PRODUCT.md)
+- [Preparação local](docs/onboarding.md)
+- [Código e arquitetura](docs/architecture.md)
+- [Design e acessibilidade](docs/design.md)
+- [Qualidade](docs/quality.md)
+- [Instruções para agentes](AGENTS.md)
+- [Setup e evidências](docs/setup.md)
 
 ## Ícone e nome na Tela de Início
 
-`public/manifest.webmanifest` e `public/icons/` definem o nome "Bíblia Origens" e o ícone (árvore sobre o livro aberto). `apple-touch-icon.png` é de tela cheia (o iPhone arredonda), `icon-maskable-512.png` deixa a arte na zona segura do Android, e `logo-144.png` é o logo usado dentro do app. Favicon: `public/favicon.ico` e `public/icons/favicon-32.png`. Os links ficam em `src/routes/__root.tsx`, antes dos que a camada do Grok acrescenta (o navegador usa o primeiro manifesto; o iPhone escolhe o ícone com `sizes="180x180"`).
+`public/manifest.webmanifest` e `public/icons/` definem o nome "Bíblia Origens" e o ícone (árvore sobre o livro aberto). `apple-touch-icon.png` é de tela cheia (o iPhone arredonda), `icon-maskable-512.png` deixa a arte na zona segura do Android, e `logo-144.png` é o logo usado dentro do app. Favicon: `public/favicon.ico` e `public/icons/favicon-32.png`. Os links ficam em `src/routes/__root.tsx` (o iPhone escolhe o ícone com `sizes="180x180"`), junto com as tags de compartilhamento (`public/og.jpg`).
 
 ## Endereços públicos
 

@@ -7,7 +7,6 @@ import viteReact from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { nitro } from "nitro/vite";
 // @ts-expect-error JS plugin alongside the TS vite config
-import { grokPwaPlugin } from "./scripts/grok-pwa-plugin.mjs";
 // @ts-expect-error JS plugin alongside the TS vite config
 import { appEnvPlugin } from "./scripts/app-env-plugin.mjs";
 import { isMigrationFile } from "./scripts/migration-plan.mjs";
@@ -163,27 +162,16 @@ export default defineConfig(({ command, isPreview }) => ({
     authPopupPlugin(),
     // Dev-only /__app-env, read by scripts/check-auth-invariant.mjs.
     appEnvPlugin(),
-    // PWA head + ?install=1 tutorial page; runs before Start/Nitro.
-    grokPwaPlugin(),
     tailwindcss(),
     tanstackStart(),
     ...(command === "build" || isPreview
       ? [
           nitro({
-            // Vercel locally. Workers Builds sets WORKERS_CI=1; Pages sets CF_PAGES=1.
-            // NITRO_PRESET overrides both.
+            // Cloudflare Workers, o mesmo alvo do deploy (Workers Builds).
+            // Pages define CF_PAGES=1; NITRO_PRESET substitui os dois.
             preset:
-              process.env.NITRO_PRESET ||
-              (process.env.WORKERS_CI === "1"
-                ? "cloudflare-module"
-                : process.env.CF_PAGES === "1"
-                  ? "cloudflare-pages"
-                  : "vercel"),
+              process.env.NITRO_PRESET || (process.env.CF_PAGES === "1" ? "cloudflare-pages" : "cloudflare-module"),
             cloudflare: { deployConfig: true, nodeCompat: true },
-            // Auto-registers server/middleware/* (the PWA install page +
-            // manifest + head-tag middleware). Nitro v3 defaults serverDir to
-            // false, so removing this silently unwires /?install=1 on deploys.
-            serverDir: "./server",
           }),
         ]
       : []),
