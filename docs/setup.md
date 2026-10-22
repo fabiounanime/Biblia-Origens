@@ -79,6 +79,18 @@ Fora do escopo, com motivo:
 
 Testes que conferiam o estado do template do Grok (login desligado, `.grok/`, skill `og`) foram ajustados ao estado real do projeto ou removidos com o código do Grok.
 
+### Entrega 3: qualidade
+
+| Medição | Antes | Depois |
+|---|---|---|
+| Regras com tipos (`no-floating-promises`, `no-misused-promises`) em `src/` | não existiam; medidas: 71 promessas soltas, todas em testes do `node:test`, e 3 promessas mal usadas no app | ligadas como erro fora dos testes; os 3 casos viraram `void` explícito, sem mudar comportamento |
+| `max-lines` (350 linhas de código, aviso) | 7 arquivos acima | 4 acima (`landing`, `inicio`, `app-data/client.server`, `multiplayer/p2p`) |
+| Leitor `src/routes/ler/$book.$chapter.tsx` | 2.045 linhas | 301; peças em `src/components/reader/` (8 arquivos, maior com 349) e hooks em `src/lib/reader/` |
+| `npm run lint` | 0 erros, 4 avisos | 0 erros, 6 avisos (2 de fast refresh antigos + 4 de tamanho); 2 avisos antigos corrigidos |
+| `npm run verify` | passa | passa (161 testes passam, 2 pulados no Windows) |
+
+A divisão do leitor moveu blocos inteiros (só `export` e imports mudaram) e tirou da rota o gesto lateral e o ponto de leitura para hooks. Conferido no navegador com a conta de teste local: celular (390 px) com versículos, ações e gesto lateral trocando de capítulo; web (1024 e 1440 px) com 434 palavras em Gn 1, painel da palavra e setas; console sem erros.
+
 ## Memória
 
 - Memória nativa do Claude Code: índice `MEMORY.md` na pasta de memória do projeto (fora do repositório), carregado em toda sessão. Hoje guarda a regra de merge automático dos PRs.

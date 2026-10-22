@@ -16,13 +16,13 @@ Leitura longa e estudo calmo, em português, no celular e no computador. O visua
 
 ## Leitor
 
-**Celular (< 768 px)** — `ChapterPage` em `src/routes/ler/$book.$chapter.tsx`:
+**Celular (< 768 px)** — `ChapterPage` em `src/routes/ler/$book.$chapter.tsx`, com as peças em `src/components/reader/` (`verse-block`, `gloss`, `chapter-chrome`, `chapter-text`, `note-sheet`):
 - Cabeçalho compacto, camadas PT/HE/TR e modo **Interlinear** (preferências do aparelho, `src/lib/reader/layers.ts`).
 - Toque numa palavra do hebraico/transliterado abre o balão do significado; toque no número ou no texto do versículo abre a barra de ações (guardar, nota, copiar, enviar).
-- Pinça muda o tamanho da letra (`src/lib/reader/use-pinch-font.ts`); gesto lateral troca de capítulo, acompanhando o dedo.
+- Pinça muda o tamanho da letra (`src/lib/reader/use-pinch-font.ts`); gesto lateral troca de capítulo, acompanhando o dedo (`use-chapter-swipe.ts`).
 - Barra de progresso, dica de uma linha ("Entendi"; volta pelos ajustes) e retomada no versículo onde parou.
 
-**Web (≥ 768 px)** — `DesktopReader` e `WordPanel` no mesmo arquivo:
+**Web (≥ 768 px)** — `src/components/reader/desktop-reader.tsx` e `word-panel.tsx`:
 - A lateral do app mostra o menu e, no leitor, a Biblioteca (`reader-library.tsx`): "Ir para…" (`parseRef`, atalho `/`), livro aberto, grade de capítulos e guardados do capítulo.
 - Versículos em cartões, palavra por palavra (original + transliterado; "Significado" liga o sentido embaixo de cada palavra) e o português depois.
 - Painel da palavra fixo à direita a partir de 1280 px; entre 768 e 1279 px, faixa compacta presa na base (fecha com × ou Esc).

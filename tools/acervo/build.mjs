@@ -37,7 +37,7 @@
  * significado de cada palavra vem de acervo/lexico/grego.txt (e grego.d/).
  */
 
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { writeIndex } from "./indice.mjs";
 import { dirname, join } from "node:path";
 import { hebrewLine } from "./oshb.mjs";
