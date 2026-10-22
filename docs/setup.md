@@ -97,7 +97,7 @@ A divisão do leitor moveu blocos inteiros (só `export` e imports mudaram) e ti
 |---|---|
 | Regras `quality/*` do toolkit (`templates/eslint/eslint-rules/`) | Copiadas; autoteste `npm run test:rules` passa nas 3 regras. Prova extra: um `.tsx` em `src/components/` importando `getSql` dá erro; uma promessa solta em `src/lib/` dá erro no `lint:typed` |
 | Custo do lint (medido no Windows, 121 arquivos) | Sem tipos ~2 s / ~500 MB; com tipos ~11 s / ~850 MB. Por isso `lint` e `lint:typed` são separados, como no modelo do toolkit |
-| `npm audit` e `npm audit --omit=dev` | 1 alerta alto no Vite 8.3.0–8.3.2 (servidor de desenvolvimento: `launch-editor`, middleware, `server.fs`). Corrigido para 8.3.5 dentro do intervalo `^8.2.0`; depois, 0 alertas |
+| `npm audit` e `npm audit --omit=dev` | 1 alerta alto no Vite 8.3.0–8.3.2 (servidor de desenvolvimento: `launch-editor`, middleware, `server.fs`). Corrigido para 8.3.5 dentro do intervalo `^8.2.0`; depois, 0 alertas. O lockfile foi gerado com npm 10: o primeiro, feito com o npm 11 local, podava dependências opcionais e quebrou o `npm ci` da Cloudflare (`Missing: lru-cache@11.5.3`). Conferido `npm ci` com npm 10 e 11 e build numa cópia limpa |
 | `npm run verify` | Passa: lint com tipos 0 erros (6 avisos), tipos, 162 testes passam (2 pulados no Windows), autoteste das regras e build; `npm run dev` sobe no Windows |
 | Navegador (conta de teste local) | 390, 1024 e 1440 px conferidos na entrega 3; console sem erros |
 
