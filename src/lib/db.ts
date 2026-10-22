@@ -1,5 +1,5 @@
 import { pendingMigrations } from "../../scripts/migration-plan.mjs";
-import { pgPoolOptions } from "./pg-options";
+import { onCloudflareWorkers, pgPoolOptions } from "./pg-options";
 
 /** Which database backend is active. */
 export type DbSource = "neon" | "pglite";
@@ -127,14 +127,43 @@ async function migrateNeon(pool: import("pg").Pool): Promise<void> {
   }
 }
 
+function setTypeParsers(types: typeof import("pg").types): void {
+  types.setTypeParser(OID_INT8, Number);
+  types.setTypeParser(OID_DATE, identity);
+  types.setTypeParser(OID_INTERVAL, identity);
+}
+
+let workersPool: import("pg").Pool | null = null;
+let workersMigrated = false;
+
+/**
+ * Neon no Cloudflare Workers. Uma promessa com I/O criada numa requisição não
+ * pode ser esperada por outra: se a primeira é cancelada no meio, a promessa
+ * nunca termina e prende todo login daquele isolate. Por isso só o pool (criado
+ * sem I/O) e a marca de migração ficam entre requisições; a migração é segura
+ * em paralelo (trava consultiva + `if not exists`).
+ */
+async function createWorkersNeonSql(): Promise<Sql> {
+  const { Pool, types } = await import("pg");
+  setTypeParsers(types);
+  workersPool ??= new Pool(pgPoolOptions(databaseUrl as string));
+  const pool = workersPool;
+  if (!workersMigrated) {
+    await migrateNeon(pool);
+    workersMigrated = true;
+  }
+  return toSql(async <T>(text: string, params: unknown[]) => {
+    const res = await pool.query(text, params);
+    return res.rows as T[];
+  });
+}
+
 function createNeonSql(): Promise<Sql> {
   globalRef.__pgSqlPromise__ ??= (async () => {
     // Regular Postgres driver: node-postgres (`pg`) — works directly with Neon's
     // pooled endpoint. One pool per process; warm serverless instances reuse it.
     const { Pool, types } = await import("pg");
-    types.setTypeParser(OID_INT8, Number);
-    types.setTypeParser(OID_DATE, identity);
-    types.setTypeParser(OID_INTERVAL, identity);
+    setTypeParsers(types);
     const pool = new Pool(pgPoolOptions(databaseUrl as string));
     await migrateNeon(pool);
     return toSql(async <T>(text: string, params: unknown[]) => {
@@ -230,6 +259,8 @@ async function createSql(): Promise<Sql> {
  * both backends — define tables there, never inline in server functions.
  */
 export function getSql(): Promise<Sql> {
+  // No Workers, cada requisição prepara o seu (ver createWorkersNeonSql).
+  if (dbSource === "neon" && onCloudflareWorkers) return createWorkersNeonSql();
   sqlPromise ??= createSql().catch((err) => {
     sqlPromise = null; // don't memoize failures — let the next call retry
     throw err;
