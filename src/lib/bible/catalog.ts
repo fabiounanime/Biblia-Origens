@@ -173,6 +173,26 @@ export function bookRef(bookId: string, chapter: number, verse?: number): string
   return `${abbr} ${chapter}${verse && verse > 0 ? `:${verse}` : ""}`;
 }
 
+/**
+ * Lê uma referência digitada ("Gn 12:3", "salmos 23", "1 Samuel") e devolve o
+ * livro, o capítulo e o versículo. Aceita a abreviação, o nome em português ou
+ * o transliterado, sem acento e sem caixa.
+ */
+export function parseRef(query: string): { book: Book; chapter?: number; verse?: number } | null {
+  const match = foldText(query).match(/^(\d?\s*[a-z][a-z' ]*?)\s*(\d+)?(?:\s*[:.,]\s*(\d+))?$/);
+  if (!match) return null;
+  const name = match[1].replace(/\s+/g, "");
+  const byAbbr = BOOKS.find((book) => foldText(ABBR[book.id] ?? "") === name);
+  const book =
+    byAbbr ??
+    BOOKS.find((book) => foldText(book.namePt).replace(/\s+/g, "").startsWith(name)) ??
+    BOOKS.find((book) => foldText(book.nameTranslit).replace(/\s+/g, "").startsWith(name));
+  if (!book) return null;
+  const chapter = match[2] ? Math.min(Number(match[2]), book.chapters) : undefined;
+  const verse = match[3] ? Number(match[3]) : undefined;
+  return { book, chapter, verse };
+}
+
 export function sectionById(id: SectionId): Section {
   return SECTIONS.find((section) => section.id === id) ?? SECTIONS[0]!;
 }

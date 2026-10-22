@@ -43,12 +43,15 @@ export function Shell({
   children,
   immersive = false,
   bare = false,
+  sidebar,
 }: {
   children: ReactNode;
   /** Leitor: a barra inferior some ao rolar para baixo. */
   immersive?: boolean;
   /** Sem a barra superior do celular (a página traz a sua). */
   bare?: boolean;
+  /** Conteúdo extra na lateral (tablet e desktop), abaixo do menu: a biblioteca do leitor. */
+  sidebar?: ReactNode;
 }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname });
   const { user, isPending } = useCurrentUserState();
@@ -106,7 +109,7 @@ export function Shell({
       ) : null}
 
       {/* Lateral — tablet e desktop */}
-      <aside className="fixed inset-y-0 left-0 z-30 hidden w-64 flex-col border-r border-line/70 bg-surface/60 px-4 py-6 backdrop-blur md:flex">
+      <aside className="fixed inset-y-0 left-0 z-30 hidden w-64 flex-col overflow-y-auto border-r border-line/70 bg-surface/60 px-4 py-6 backdrop-blur md:flex">
         <Link to="/inicio" className="flex items-center gap-3 px-2">
           <BrandMark className="size-10" />
           <span className="leading-tight">
@@ -134,7 +137,8 @@ export function Shell({
             );
           })}
         </nav>
-        {continueBook && position && !readingHere ? (
+        {sidebar}
+        {continueBook && position && !readingHere && !sidebar ? (
           <Link
             to="/ler/$book/$chapter"
             params={{ book: continueBook.id, chapter: String(position.chapter) }}
