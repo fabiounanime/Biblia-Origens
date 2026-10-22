@@ -1,4 +1,4 @@
-import { ref, type Ref } from "./ref";
+import { ref, type Ref } from "./ref.ts";
 
 export type PartId = "criacao" | "patriarcas" | "exodo" | "terra" | "reis" | "exilio" | "jesus" | "igreja";
 

@@ -22,8 +22,11 @@ src/
   components/        shell (lateral + barra inferior), landing, reader-library, ui, reading-settings, toaster
     reader/          peças do leitor: versículo, balão e interlinear (gloss), texto e notas, cabeçalho e grade
                      (chapter-chrome), nota, leitor web (desktop-reader) e painel da palavra (word-panel)
+    atlas/           mapa de satélite (atlas-map, MapLibre só no navegador), painéis e card do lugar
   lib/
-    bible/           catálogo de livros, carga do acervo (corpus), guias, lugares, andamento (use-acervo)
+    bible/           catálogo de livros, carga do acervo (corpus), guias, lugares (places: coordenadas,
+                     certeza, distância), andamento (use-acervo); atlas/: eventos, caminhos e teste de integridade
+    atlas/           visão do mapa (pinos, rota, trechos) e a chave da ArcGIS (server function)
     study/           marcas, notas, posição e preferências (store) + sincronização (sync-api, server function)
     reader/          camadas visíveis, pinça, gesto lateral, ponto de leitura e dica do leitor
     auth/            Better Auth, middleware, portões de login
@@ -65,6 +68,8 @@ Ainda ficam, por fazerem parte do login ou dos testes:
 |---|---|---|
 | Manter TanStack Start e Postgres/`pg` (sem Drizzle) | Stack em produção e estável; migrar não traz ganho hoje | Houver mudança grande de dados ou de framework |
 | Login obrigatório para ler | Condição da aprovação da marca no login com Google | A política do Google ou do produto mudar |
+| Mapas: MapLibre + satélite Esri (World Imagery), reserva Sentinel-2 (EOX) | Imagem nítida com plano gratuito; a chave é lida no servidor em tempo de execução e só vai para quem entrou; o MapLibre fica fora do bundle do Worker | O uso passar do plano gratuito da ArcGIS ou a imagem precisar de outro provedor |
+| Lugares da OpenBible.info (CC BY 4.0) | Base aberta com a identificação moderna e a confiança de cada lugar bíblico | Surgir base melhor ou um lugar precisar de correção (fixe em `places.ts`) |
 | Preset Nitro `cloudflare-module` também local | Mesmo alvo da produção; o `vercel` do template não era usado | Mudar de provedor |
 | Leitor web separado do celular a partir de 768 px | Telas largas pedem palavra por palavra com painel fixo; o celular já funcionava bem | Unificar os dois leitores |
 

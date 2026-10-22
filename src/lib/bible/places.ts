@@ -166,7 +166,9 @@ export function distanceKm(a: Pick<Place, "lon" | "lat">, b: Pick<Place, "lon" |
 }
 
 const KM = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 0 });
+const KM_SHORT = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 1 });
 
+/** "1.234 km"; abaixo de 10 km, com uma casa ("8,3 km"). */
 export function formatKm(km: number): string {
-  return `${KM.format(km < 10 ? Math.round(km * 10) / 10 : km)} km`;
+  return `${(km < 10 ? KM_SHORT : KM).format(km)} km`;
 }

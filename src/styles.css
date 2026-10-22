@@ -616,6 +616,71 @@ html.light .brand-dark .wordmark {
 }
 .pop { animation: pop 0.32s ease; }
 
+/* Mapas: pinos e distâncias sobre o satélite (sempre escuro, nos três temas). */
+.atlas-map { background: #0b0f1c; }
+.atlas-map .maplibregl-ctrl-attrib { font-size: 0.68rem; }
+.atlas-pin {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  cursor: pointer;
+}
+.atlas-pin-dot {
+  display: grid;
+  place-items: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.3rem;
+  border: 2px solid #fff;
+  border-radius: 9999px;
+  background: var(--c-tekhelet);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.45);
+  transition: transform 150ms var(--ease-out);
+}
+.atlas-pin--dot .atlas-pin-dot { min-width: 0.75rem; height: 0.75rem; padding: 0; border-width: 1.5px; }
+.atlas-pin--active { z-index: 2; }
+.atlas-pin--active .atlas-pin-dot { background: var(--c-zahav); color: #1a1306; transform: scale(1.15); }
+.atlas-pin:hover .atlas-pin-dot { transform: scale(1.15); }
+.atlas-pin:focus-visible { outline: none; }
+.atlas-pin:focus-visible .atlas-pin-dot { outline: 2px solid var(--c-tekhelet); outline-offset: 3px; }
+.atlas-pin-label {
+  position: absolute;
+  top: calc(50% + 0.85rem);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.1rem 0.45rem;
+  border-radius: 9999px;
+  background: rgb(8 11 22 / 0.78);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.atlas-pin--dot .atlas-pin-label,
+.atlas-pin--quiet .atlas-pin-label { display: none; }
+.atlas-pin--dot:hover .atlas-pin-label,
+.atlas-pin--dot:focus-visible .atlas-pin-label { display: block; }
+.atlas-pin--active .atlas-pin-label { background: var(--c-zahav); color: #1a1306; }
+.atlas-leg {
+  padding: 0.05rem 0.4rem;
+  border: 1px solid rgb(244 187 74 / 0.6);
+  border-radius: 9999px;
+  background: rgb(8 11 22 / 0.82);
+  color: #f6d48a;
+  font-size: 0.68rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 .nav-hidden { transform: translateY(calc(100% + 1.5rem)); }
 .nav-slide { transition: transform 240ms var(--ease-drawer), opacity 240ms var(--ease-drawer); }
 
@@ -649,6 +714,7 @@ html.light .brand-dark .wordmark {
   .nav-hidden { transform: none; opacity: 0; pointer-events: none; }
   :where(button, [role="button"], .pressable, .pressable-card):active { transform: none; }
   .animate-pulse { animation: none; }
+  .atlas-pin-dot { transition: none; }
   * { scroll-behavior: auto !important; }
 }
 

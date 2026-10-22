@@ -6,7 +6,6 @@ import { BrandMark, Wordmark, cx } from "@/components/ui";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { BOOKS, SECTIONS, SECTION_TONE } from "@/lib/bible/catalog";
 import { loadWords, type WordInfo } from "@/lib/bible/corpus";
-import { PLACES } from "@/lib/bible/places";
 import { useAcervoIndex } from "@/lib/bible/use-acervo";
 
 /** Título e descrição da página pública (início). */
@@ -288,9 +287,16 @@ function LiveVerse({ words }: { words: WordInfo[] | null }) {
   );
 }
 
+/** Nomes sobre a imagem esquemática (posições em % da figura). O mapa do app é o de satélite. */
+const TOUR_PLACES = [
+  { id: "ur", namePt: "Ur dos caldeus", x: 79, y: 73 },
+  { id: "hara", namePt: "Harã", x: 55, y: 24 },
+  { id: "jerusalen", namePt: "Jerusalém", x: 39, y: 51 },
+  { id: "egito", namePt: "Egito", x: 16, y: 84 },
+];
+
 /** O que o leitor faz, mostrado com pedaços do próprio leitor em vez de ícones. */
 function ReaderTour({ words }: { words: WordInfo[] | null }) {
-  const places = PLACES.filter((place) => ["ur", "hara", "jerusalen", "egito"].includes(place.id));
   return (
     <section className="bg-sunken py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -350,8 +356,8 @@ function ReaderTour({ words }: { words: WordInfo[] | null }) {
           <div>
             <h3 className="text-xl font-semibold">Mapas</h3>
             <p className="mt-2 max-w-md text-lg text-soft">
-              Os lugares da narrativa no Crescente Fértil, com o nome no original e os guias de
-              estudo ligados a cada um.
+              Mapa de satélite com os principais eventos, do Gênesis ao Apocalipse, os caminhos de
+              patriarcas, profetas, apóstolos e de Jesus, e a distância entre os lugares.
             </p>
             <figure className="relative mt-6 overflow-hidden rounded-3xl">
               <img
@@ -360,7 +366,7 @@ function ReaderTour({ words }: { words: WordInfo[] | null }) {
                 className="block w-full"
                 loading="lazy"
               />
-              {places.map((place) => (
+              {TOUR_PLACES.map((place) => (
                 <span
                   key={place.id}
                   className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full bg-black/60 px-2 py-0.5 text-xs font-semibold whitespace-nowrap text-white"

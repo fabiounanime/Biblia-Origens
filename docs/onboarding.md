@@ -27,6 +27,7 @@ Em produção, ficam no painel da Cloudflare (Workers → `biblia-origens` → S
 | `BETTER_AUTH_SECRET` | Chave fixa das sessões. Sem ela, cada reinício derruba quem entrou. |
 | `BETTER_AUTH_URL` | Já vem do `wrangler.jsonc`: `https://bibliaorigens.app`. Nos previews dos PRs fica vazio. |
 | `BETTER_AUTH_TRUSTED_ORIGINS` | Já vem do `wrangler.jsonc`: `www.bibliaorigens.app` e o endereço `*.workers.dev`. |
+| `ARCGIS_API_KEY` | Imagem de satélite do Mapas (ArcGIS Location Platform, chave restrita aos endereços do app, só "Basemaps"). Sem ela, o mapa usa a imagem Sentinel-2, menos nítida. |
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Login com Google. No Google Cloud: origem `https://bibliaorigens.app` e retorno `https://bibliaorigens.app/api/auth/callback/google`. |
 
 ## Banco de dados
