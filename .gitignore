@@ -16,3 +16,6 @@ tools/acervo/.cache
 # Saída do build (Nitro) e do grafo do Graphify
 .output
 graphify-out
+
+# Cache local do TanStack Router
+.tanstack
