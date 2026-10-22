@@ -1,30 +1,172 @@
+/**
+ * Lugares do atlas. Coordenadas da base Bible Geocoding da OpenBible.info
+ * (CC BY 4.0, https://www.openbible.info/geo/), com a certeza de cada
+ * identificação; poucos pontos marcados como tradicionais são fixos aqui.
+ */
+export type Certainty = "alta" | "provável" | "incerta" | "tradicional" | "desconhecida";
+
 export type Place = {
   id: string;
   namePt: string;
-  nameHe: string;
-  nameTranslit: string;
   region: string;
-  x: number;
-  y: number;
-  /** Lado do rótulo no mapa, para os nomes vizinhos não se cobrirem (padrão: embaixo). */
-  label?: "left" | "right" | "bottom";
+  nameHe?: string;
+  nameTranslit?: string;
+  lon: number;
+  lat: number;
+  certainty: Certainty;
+  /** Por que o ponto é aproximado, quando é. */
+  note?: string;
 };
 
-/** Posições em porcentagem sobre o mapa esquemático (não é levantamento geodésico). */
 export const PLACES: Place[] = [
-  { id: "egito", namePt: "Egito", nameHe: "מִצְרַיִם", nameTranslit: "Mitsrayim", region: "Vale do Nilo", x: 16, y: 84 },
-  { id: "sinai", namePt: "Sinai", nameHe: "סִינַי", nameTranslit: "Sinai", region: "Península", x: 27, y: 70 },
-  { id: "samaria", namePt: "Samaria", nameHe: "שֹׁמְרוֹן", nameTranslit: "Shomron", region: "Levante", x: 37, y: 43, label: "left" },
-  { id: "jerusalen", namePt: "Jerusalém", nameHe: "יְרוּשָׁלַיִם", nameTranslit: "Yerushalayim", region: "Judá", x: 39, y: 51, label: "left" },
-  { id: "jerico", namePt: "Jericó", nameHe: "יְרִיחוֹ", nameTranslit: "Yeriho", region: "Vale do Jordão", x: 43, y: 55, label: "right" },
-  { id: "berseba", namePt: "Berseba", nameHe: "בְּאֵר שֶׁבַע", nameTranslit: "Beer Sheva", region: "Neguev", x: 35, y: 62 },
-  { id: "damasco", namePt: "Damasco", nameHe: "דַּמֶּשֶׂק", nameTranslit: "Damesek", region: "Aram", x: 48, y: 31 },
-  { id: "hara", namePt: "Harã", nameHe: "חָרָן", nameTranslit: "Haran", region: "Norte da Mesopotâmia", x: 55, y: 24 },
-  { id: "ninive", namePt: "Nínive", nameHe: "נִינְוֵה", nameTranslit: "Ninveh", region: "Assíria", x: 64, y: 27 },
-  { id: "babilonia", namePt: "Babilônia", nameHe: "בָּבֶל", nameTranslit: "Bavel", region: "Mesopotâmia", x: 70, y: 58 },
-  { id: "ur", namePt: "Ur", nameHe: "אוּר", nameTranslit: "Ur", region: "Caldeia", x: 79, y: 73 },
+  { id: "eden", namePt: "Éden", region: "Mesopotâmia (tradição)", nameHe: "עֵדֶן", lon: 44.45, lat: 31.0, certainty: "desconhecida", note: "Gênesis cita o Tigre e o Eufrates (Gn 2:14)" },
+  { id: "ararat", namePt: "Montes de Ararate", region: "Urartu (Armênia)", nameHe: "אֲרָרָט", lon: 44.3004, lat: 39.7028, certainty: "alta", note: "região, não um pico: \"sobre os montes de Ararate\" (Gn 8:4)" },
+  { id: "babilonia", namePt: "Babilônia (Babel)", region: "Mesopotâmia", nameHe: "בָּבֶל", nameTranslit: "Bavel", lon: 44.4222, lat: 32.5433, certainty: "alta" },
+  { id: "ur", namePt: "Ur dos caldeus", region: "Caldeia", nameHe: "אוּר", nameTranslit: "Ur", lon: 46.1044, lat: 30.9622, certainty: "provável" },
+  { id: "hara", namePt: "Harã", region: "Norte da Mesopotâmia", nameHe: "חָרָן", nameTranslit: "Haran", lon: 39.0328, lat: 36.8644, certainty: "alta" },
+  { id: "siquem", namePt: "Siquém", region: "Samaria", nameHe: "שְׁכֶם", lon: 35.2819, lat: 32.2136, certainty: "alta" },
+  { id: "betel", namePt: "Betel", region: "Benjamim", nameHe: "בֵּית־אֵל", lon: 35.2414, lat: 31.9228, certainty: "provável" },
+  { id: "ai", namePt: "Ai", region: "Benjamim", nameHe: "הָעַי", lon: 35.2611, lat: 31.9169, certainty: "provável" },
+  { id: "egito", namePt: "Egito", region: "Vale do Nilo", nameHe: "מִצְרַיִם", nameTranslit: "Mitsrayim", lon: 31.3075, lat: 30.1294, certainty: "alta", note: "ponto de referência no delta (Mênfis)" },
+  { id: "manre", namePt: "Manre", region: "Judá", nameHe: "מַמְרֵא", lon: 35.1053, lat: 31.5565, certainty: "provável" },
+  { id: "hebrom", namePt: "Hebrom", region: "Judá", nameHe: "חֶבְרוֹן", lon: 35.1022, lat: 31.5251, certainty: "alta" },
+  { id: "berseba", namePt: "Berseba", region: "Neguev", nameHe: "בְּאֵר שֶׁבַע", nameTranslit: "Beer Sheva", lon: 34.8408, lat: 31.2447, certainty: "alta" },
+  { id: "gerar", namePt: "Gerar", region: "Neguev ocidental", nameHe: "גְּרָר", lon: 34.6065, lat: 31.3821, certainty: "provável" },
+  { id: "moria", namePt: "Monte Moriá", region: "Jerusalém", nameHe: "הַמֹּרִיָּה", lon: 35.2356, lat: 31.7778, certainty: "incerta", note: "tradição o liga ao monte do templo (2Cr 3:1)" },
+  { id: "penuel", namePt: "Penuel", region: "Gileade", nameHe: "פְּנוּאֵל", lon: 35.6921, lat: 32.187, certainty: "provável" },
+  { id: "jaboque", namePt: "Rio Jaboque", region: "Gileade", nameHe: "יַבֹּק", lon: 35.5431, lat: 32.1153, certainty: "alta" },
+  { id: "sucote", namePt: "Sucote", region: "Vale do Jordão", nameHe: "סֻכֹּת", lon: 35.6212, lat: 32.1966, certainty: "provável" },
+  { id: "dota", namePt: "Dotã", region: "Samaria", nameHe: "דֹּתָן", lon: 35.2399, lat: 32.4135, certainty: "alta" },
+  { id: "gosen", namePt: "Gósen", region: "Delta do Nilo", nameHe: "גֹּשֶׁן", lon: 31.8342, lat: 30.7994, certainty: "alta" },
+  { id: "ramesses", namePt: "Ramessés", region: "Delta do Nilo", nameHe: "רַעְמְסֵס", lon: 31.8342, lat: 30.7994, certainty: "provável" },
+  { id: "sucote-egito", namePt: "Sucote (Egito)", region: "Delta do Nilo", nameHe: "סֻכֹּת", lon: 32.099, lat: 30.5527, certainty: "incerta" },
+  { id: "eta", namePt: "Etã", region: "Borda do deserto", nameHe: "אֵתָם", lon: 31.9636, lat: 30.5475, certainty: "incerta" },
+  { id: "pi-hairote", namePt: "Pi-Hairote", region: "Junto ao mar", nameHe: "פִּי הַחִירֹת", lon: 32.1714, lat: 30.8606, certainty: "incerta" },
+  { id: "mar-vermelho", namePt: "Travessia do mar", region: "Golfo de Suez (hipótese)", nameHe: "יַם־סוּף", lon: 32.55, lat: 30.0, certainty: "incerta", note: "o lugar da travessia é debatido" },
+  { id: "mara", namePt: "Mara", region: "Deserto de Sur", nameHe: "מָרָה", lon: 32.9428, lat: 29.346, certainty: "incerta" },
+  { id: "elim", namePt: "Elim", region: "Península do Sinai", nameHe: "אֵילִם", lon: 32.9158, lat: 29.2547, certainty: "provável" },
+  { id: "refidim", namePt: "Refidim", region: "Península do Sinai", nameHe: "רְפִידִים", lon: 33.8803, lat: 28.6231, certainty: "incerta" },
+  { id: "sinai", namePt: "Monte Sinai (Horebe)", region: "Península do Sinai", nameHe: "סִינַי", nameTranslit: "Sinai", lon: 33.9733, lat: 28.5397, certainty: "incerta", note: "tradição: Jebel Musa" },
+  { id: "midia", namePt: "Midiã", region: "Arábia", nameHe: "מִדְיָן", lon: 35.0122, lat: 28.4947, certainty: "alta" },
+  { id: "cades", namePt: "Cades-Barneia", region: "Deserto de Zim", nameHe: "קָדֵשׁ בַּרְנֵעַ", lon: 34.4222, lat: 30.6483, certainty: "alta" },
+  { id: "monte-hor", namePt: "Monte Hor", region: "Fronteira de Edom", nameHe: "הֹר הָהָר", lon: 35.0569, lat: 30.8321, certainty: "incerta" },
+  { id: "nebo", namePt: "Monte Nebo", region: "Moabe", nameHe: "נְבוֹ", lon: 35.75, lat: 31.7667, certainty: "incerta" },
+  { id: "jordao", namePt: "Rio Jordão", region: "Vale do Jordão", nameHe: "הַיַּרְדֵּן", lon: 35.5583, lat: 31.7614, certainty: "alta", note: "ponto da travessia, em frente a Jericó" },
+  { id: "gilgal", namePt: "Gilgal", region: "Vale do Jordão", nameHe: "הַגִּלְגָּל", lon: 35.46, lat: 31.8819, certainty: "provável" },
+  { id: "jerico", namePt: "Jericó", region: "Vale do Jordão", nameHe: "יְרִיחוֹ", nameTranslit: "Yeriho", lon: 35.4446, lat: 31.8717, certainty: "alta" },
+  { id: "silo", namePt: "Siló", region: "Efraim", nameHe: "שִׁילֹה", lon: 35.2895, lat: 32.0557, certainty: "alta" },
+  { id: "gibeom", namePt: "Gibeom", region: "Benjamim", nameHe: "גִּבְעוֹן", lon: 35.1834, lat: 31.8475, certainty: "alta" },
+  { id: "hazor", namePt: "Hazor", region: "Galileia", nameHe: "חָצוֹר", lon: 35.5692, lat: 33.0183, certainty: "alta" },
+  { id: "belem", namePt: "Belém", region: "Judá", nameHe: "בֵּית לֶחֶם", lon: 35.2076, lat: 31.7043, certainty: "alta" },
+  { id: "moabe", namePt: "Moabe", region: "Leste do mar Morto", nameHe: "מוֹאָב", lon: 35.7014, lat: 31.1806, certainty: "alta" },
+  { id: "gibea", namePt: "Gibeá", region: "Benjamim", nameHe: "גִּבְעָה", lon: 35.2307, lat: 31.8231, certainty: "provável" },
+  { id: "rama", namePt: "Ramá", region: "Benjamim", nameHe: "הָרָמָה", lon: 35.2316, lat: 31.8543, certainty: "provável" },
+  { id: "mispa", namePt: "Mispá", region: "Benjamim", nameHe: "הַמִּצְפָּה", lon: 35.2164, lat: 31.8851, certainty: "provável" },
+  { id: "soco", namePt: "Socó (vale de Elá)", region: "Sefelá", nameHe: "שׂוֹכֹה", lon: 34.9749, lat: 31.6822, certainty: "alta" },
+  { id: "azeca", namePt: "Azeca", region: "Sefelá", nameHe: "עֲזֵקָה", lon: 34.9357, lat: 31.7002, certainty: "provável" },
+  { id: "jerusalen", namePt: "Jerusalém", region: "Judá", nameHe: "יְרוּשָׁלַיִם", nameTranslit: "Yerushalayim", lon: 35.2342, lat: 31.7767, certainty: "alta" },
+  { id: "samaria", namePt: "Samaria", region: "Israel (Reino do Norte)", nameHe: "שֹׁמְרוֹן", nameTranslit: "Shomron", lon: 35.195, lat: 32.2761, certainty: "alta" },
+  { id: "megido", namePt: "Megido", region: "Vale de Jezreel", nameHe: "מְגִדּוֹ", lon: 35.1844, lat: 32.5853, certainty: "alta" },
+  { id: "ninive", namePt: "Nínive", region: "Assíria", nameHe: "נִינְוֵה", nameTranslit: "Ninveh", lon: 43.1528, lat: 36.3594, certainty: "alta" },
+  { id: "susa", namePt: "Susã", region: "Pérsia (Elão)", nameHe: "שׁוּשַׁן", lon: 48.2578, lat: 32.1892, certainty: "alta" },
+  { id: "quebar", namePt: "Rio Quebar", region: "Babilônia", nameHe: "כְּבָר", lon: 45.2308, lat: 32.1269, certainty: "provável" },
+  { id: "tisbe", namePt: "Tisbé", region: "Gileade", nameHe: "תִּשְׁבֶּה", lon: 35.5397, lat: 33.0286, certainty: "incerta" },
+  { id: "querite", namePt: "Ribeiro de Querite", region: "Leste do Jordão", nameHe: "כְּרִית", lon: 35.5914, lat: 32.3947, certainty: "incerta" },
+  { id: "sarepta", namePt: "Sarepta", region: "Fenícia", nameHe: "צָרְפַת", lon: 35.2951, lat: 33.4642, certainty: "alta" },
+  { id: "carmelo", namePt: "Monte Carmelo", region: "Costa norte", nameHe: "הַכַּרְמֶל", lon: 35.0233, lat: 32.6725, certainty: "alta" },
+  { id: "jezreel", namePt: "Jezreel", region: "Vale de Jezreel", nameHe: "יִזְרְעֶאל", lon: 35.328, lat: 32.5579, certainty: "alta" },
+  { id: "abel-meola", namePt: "Abel-Meolá", region: "Vale do Jordão", nameHe: "אָבֵל מְחוֹלָה", lon: 35.5609, lat: 32.3743, certainty: "provável" },
+  { id: "sunem", namePt: "Suném", region: "Vale de Jezreel", nameHe: "שׁוּנֵם", lon: 35.3343, lat: 32.6056, certainty: "alta" },
+  { id: "gate-hefer", namePt: "Gate-Hefer", region: "Galileia", nameHe: "גַּת הַחֵפֶר", lon: 35.3197, lat: 32.7381, certainty: "provável" },
+  { id: "jope", namePt: "Jope", region: "Costa", nameHe: "יָפוֹ", lon: 34.753, lat: 32.0545, certainty: "alta" },
+  { id: "anatote", namePt: "Anatote", region: "Benjamim", nameHe: "עֲנָתוֹת", lon: 35.2576, lat: 31.8075, certainty: "incerta" },
+  { id: "tafnes", namePt: "Tafnes", region: "Delta do Nilo", nameHe: "תַּחְפַּנְחֵס", lon: 32.1714, lat: 30.8606, certainty: "alta" },
+  { id: "damasco", namePt: "Damasco", region: "Arã (Síria)", nameHe: "דַּמֶּשֶׂק", nameTranslit: "Damesek", lon: 36.3064, lat: 33.5111, certainty: "alta" },
+  { id: "nazare", namePt: "Nazaré", region: "Galileia", lon: 35.2977, lat: 32.7021, certainty: "alta" },
+  { id: "cana", namePt: "Caná", region: "Galileia", lon: 35.3027, lat: 32.8222, certainty: "provável" },
+  { id: "cafarnaum", namePt: "Cafarnaum", region: "Galileia", lon: 35.575, lat: 32.8811, certainty: "alta" },
+  { id: "mar-galileia", namePt: "Mar da Galileia", region: "Galileia", lon: 35.59, lat: 32.8189, certainty: "alta" },
+  { id: "bem-aventurancas", namePt: "Monte das Bem-aventuranças", region: "Galileia", lon: 35.5562, lat: 32.8811, certainty: "tradicional", note: "Mateus não dá o nome do monte" },
+  { id: "betsaida", namePt: "Betsaida", region: "Galileia", lon: 35.631, lat: 32.9104, certainty: "incerta" },
+  { id: "gadara", namePt: "Gadara", region: "Decápolis", lon: 35.6794, lat: 32.656, certainty: "alta" },
+  { id: "naim", namePt: "Naim", region: "Galileia", lon: 35.3501, lat: 32.6307, certainty: "alta" },
+  { id: "sicar", namePt: "Sicar (poço de Jacó)", region: "Samaria", lon: 35.289, lat: 32.2178, certainty: "provável" },
+  { id: "tiro", namePt: "Tiro", region: "Fenícia", lon: 35.1961, lat: 33.2708, certainty: "alta" },
+  { id: "sidom", namePt: "Sidom", region: "Fenícia", lon: 35.3719, lat: 33.561, certainty: "alta" },
+  { id: "cesareia-filipe", namePt: "Cesareia de Filipe", region: "Pé do Hermom", lon: 35.6933, lat: 33.2461, certainty: "alta" },
+  { id: "tabor", namePt: "Monte Tabor", region: "Galileia", lon: 35.3929, lat: 32.6863, certainty: "tradicional", note: "o evangelho diz só \"um alto monte\"; outros pensam no Hermom" },
+  { id: "betania-jordao", namePt: "Betânia além do Jordão", region: "Pereia", lon: 35.5503, lat: 31.8371, certainty: "tradicional", note: "lugar do batismo (Jo 1:28)" },
+  { id: "deserto", namePt: "Deserto da Judeia", region: "Judeia", lon: 35.4273, lat: 31.8697, certainty: "tradicional", note: "monte da Tentação, perto de Jericó" },
+  { id: "betania", namePt: "Betânia", region: "Judeia", lon: 35.2559, lat: 31.7717, certainty: "alta" },
+  { id: "betfage", namePt: "Betfagé", region: "Monte das Oliveiras", lon: 35.2508, lat: 31.7776, certainty: "provável" },
+  { id: "oliveiras", namePt: "Monte das Oliveiras", region: "Jerusalém", lon: 35.2457, lat: 31.7779, certainty: "alta" },
+  { id: "getsemani", namePt: "Getsêmani", region: "Jerusalém", lon: 35.2394, lat: 31.7794, certainty: "alta" },
+  { id: "golgota", namePt: "Gólgota", region: "Jerusalém", lon: 35.2298, lat: 31.7784, certainty: "tradicional", note: "igreja do Santo Sepulcro" },
+  { id: "emaus", namePt: "Emaús", region: "Judeia", lon: 35.1642, lat: 31.7929, certainty: "incerta", note: "há vários lugares propostos" },
+  { id: "lida", namePt: "Lida", region: "Planície costeira", lon: 34.9, lat: 31.95, certainty: "alta" },
+  { id: "cesareia", namePt: "Cesareia", region: "Costa", lon: 34.8917, lat: 32.5, certainty: "alta" },
+  { id: "gaza", namePt: "Gaza", region: "Costa sul", lon: 34.4644, lat: 31.504, certainty: "alta" },
+  { id: "tarso", namePt: "Tarso", region: "Cilícia", lon: 34.8921, lat: 36.913, certainty: "alta" },
+  { id: "antioquia", namePt: "Antioquia da Síria", region: "Síria", lon: 36.1717, lat: 36.2267, certainty: "alta" },
+  { id: "seleucia", namePt: "Selêucia", region: "Síria", lon: 35.922, lat: 36.124, certainty: "alta" },
+  { id: "salamina", namePt: "Salamina", region: "Chipre", lon: 33.9019, lat: 35.1849, certainty: "alta" },
+  { id: "pafos", namePt: "Pafos", region: "Chipre", lon: 32.4042, lat: 34.7557, certainty: "alta" },
+  { id: "perge", namePt: "Perge", region: "Panfília", lon: 30.8537, lat: 36.9604, certainty: "alta" },
+  { id: "atalia", namePt: "Atália", region: "Panfília", lon: 30.7036, lat: 36.8813, certainty: "alta" },
+  { id: "antioquia-pisidia", namePt: "Antioquia da Pisídia", region: "Galácia", lon: 31.1892, lat: 38.3061, certainty: "alta" },
+  { id: "iconio", namePt: "Icônio", region: "Galácia", lon: 32.4923, lat: 37.8722, certainty: "alta" },
+  { id: "listra", namePt: "Listra", region: "Galácia", lon: 32.3384, lat: 37.6017, certainty: "alta" },
+  { id: "derbe", namePt: "Derbe", region: "Galácia", lon: 33.3615, lat: 37.3486, certainty: "alta" },
+  { id: "troade", namePt: "Trôade", region: "Mísia", lon: 26.1586, lat: 39.7519, certainty: "alta" },
+  { id: "neapolis", namePt: "Neápolis", region: "Macedônia", lon: 24.415, lat: 40.935, certainty: "alta" },
+  { id: "filipos", namePt: "Filipos", region: "Macedônia", lon: 24.2846, lat: 41.0121, certainty: "alta" },
+  { id: "anfipolis", namePt: "Anfípolis", region: "Macedônia", lon: 23.8472, lat: 40.8202, certainty: "alta" },
+  { id: "tessalonica", namePt: "Tessalônica", region: "Macedônia", lon: 22.9458, lat: 40.6378, certainty: "alta" },
+  { id: "bereia", namePt: "Bereia", region: "Macedônia", lon: 22.2, lat: 40.5183, certainty: "alta" },
+  { id: "atenas", namePt: "Atenas", region: "Acaia", lon: 23.7267, lat: 37.9719, certainty: "alta" },
+  { id: "corinto", namePt: "Corinto", region: "Acaia", lon: 22.8787, lat: 37.9058, certainty: "alta" },
+  { id: "cencreia", namePt: "Cencreia", region: "Acaia", lon: 22.9968, lat: 37.8843, certainty: "alta" },
+  { id: "efeso", namePt: "Éfeso", region: "Ásia", lon: 27.3407, lat: 37.9391, certainty: "alta" },
+  { id: "assos", namePt: "Assôs", region: "Ásia", lon: 26.3367, lat: 39.4906, certainty: "alta" },
+  { id: "mitilene", namePt: "Mitilene", region: "Ilha de Lesbos", lon: 26.547, lat: 39.1105, certainty: "alta" },
+  { id: "mileto", namePt: "Mileto", region: "Ásia", lon: 27.2756, lat: 37.5311, certainty: "alta" },
+  { id: "cos", namePt: "Cós", region: "Ilha de Cós", lon: 27.1103, lat: 36.8153, certainty: "alta" },
+  { id: "rodes", namePt: "Rodes", region: "Ilha de Rodes", lon: 28.2275, lat: 36.4341, certainty: "alta" },
+  { id: "patara", namePt: "Pátara", region: "Lícia", lon: 29.3142, lat: 36.2603, certainty: "alta" },
+  { id: "mirra", namePt: "Mirra", region: "Lícia", lon: 29.9853, lat: 36.2592, certainty: "alta" },
+  { id: "ptolemaida", namePt: "Ptolemaida", region: "Fenícia", lon: 35.0692, lat: 32.9214, certainty: "alta" },
+  { id: "bons-portos", namePt: "Bons Portos", region: "Creta", lon: 24.8003, lat: 34.9297, certainty: "alta" },
+  { id: "malta", namePt: "Malta", region: "Mediterrâneo", lon: 14.4117, lat: 35.9335, certainty: "alta" },
+  { id: "siracusa", namePt: "Siracusa", region: "Sicília", lon: 15.2931, lat: 37.0639, certainty: "alta" },
+  { id: "regio", namePt: "Régio", region: "Itália", lon: 15.6441, lat: 38.1088, certainty: "alta" },
+  { id: "puteoli", namePt: "Putéoli", region: "Itália", lon: 14.1206, lat: 40.8261, certainty: "alta" },
+  { id: "roma", namePt: "Roma", region: "Itália", lon: 12.4852, lat: 41.8922, certainty: "alta" },
+  { id: "patmos", namePt: "Patmos", region: "Mar Egeu", lon: 26.5417, lat: 37.325, certainty: "alta" },
+  { id: "esmirna", namePt: "Esmirna", region: "Ásia", lon: 27.1378, lat: 38.4189, certainty: "alta" },
+  { id: "pergamo", namePt: "Pérgamo", region: "Ásia", lon: 27.1842, lat: 39.1322, certainty: "alta" },
+  { id: "tiatira", namePt: "Tiatira", region: "Ásia", lon: 27.8365, lat: 38.9202, certainty: "alta" },
+  { id: "sardes", namePt: "Sardes", region: "Ásia", lon: 28.0403, lat: 38.4883, certainty: "alta" },
+  { id: "filadelfia", namePt: "Filadélfia", region: "Ásia", lon: 28.5167, lat: 38.35, certainty: "alta" },
+  { id: "laodiceia", namePt: "Laodiceia", region: "Ásia", lon: 29.1075, lat: 37.8358, certainty: "alta" },
 ];
 
+const BY_ID = new Map(PLACES.map((place) => [place.id, place]));
+
 export function placeById(id: string): Place | undefined {
-  return PLACES.find((place) => place.id === id);
+  return BY_ID.get(id);
+}
+
+/** Distância em linha reta (círculo máximo), em km. */
+export function distanceKm(a: Pick<Place, "lon" | "lat">, b: Pick<Place, "lon" | "lat">): number {
+  const rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLon = (b.lon - a.lon) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+const KM = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 0 });
+
+export function formatKm(km: number): string {
+  return `${KM.format(km < 10 ? Math.round(km * 10) / 10 : km)} km`;
 }
