@@ -4,7 +4,7 @@
 
 | Comando | O que prova |
 |---|---|
-| `npm run lint` | ESLint (flat config em `eslint.config.mjs`): TypeScript, hooks do React, regras do projeto |
+| `npm run lint` | ESLint (flat config em `eslint.config.mjs`): TypeScript, hooks do React e regras com tipos no código do app |
 | `npm run typecheck` | `tsc --noEmit` sem erros |
 | `npm test` | `node --test`: scripts (`scripts/**/*.test.mjs`) e libs do servidor (login, dados de app) |
 | `npm run build:check` | Build de produção (preset Cloudflare) sem aplicar migrações |
@@ -15,7 +15,8 @@ Rode `npm run verify` antes de abrir um PR. Para uma mudança pequena, rode a ve
 ## Regras de base
 
 - TypeScript estrito; presets oficiais de ESLint, hooks do React e `react-refresh`.
-- Arquivos proporcionais à responsabilidade; referência de 350 linhas (o leitor ainda passa disso; ver pendências em `docs/setup.md`).
+- Promessas: `no-floating-promises` e `no-misused-promises` são erro em `src/` (fora os testes do `node:test`, que devolvem promessas de propósito). Para descartar uma promessa de propósito, use `void`.
+- Arquivos proporcionais à responsabilidade: `max-lines` avisa acima de 350 linhas de código. Acima disso hoje (22/10/2026): `landing.tsx` (407), `inicio.tsx` (370), `app-data/client.server.ts` (373) e `multiplayer/p2p.ts` (450), os dois últimos herdados do Grok e sem uso. Divida quando mexer neles, sem mudar comportamento.
 - Telas não importam o banco; o acesso a dados passa por server functions com `authMiddleware`.
 - Entradas e ambiente validados (Zod); erros sem segredos.
 - SQL com parâmetros; migrações revisadas antes de aplicar.

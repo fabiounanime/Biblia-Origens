@@ -189,7 +189,7 @@ function LoginPage() {
                   ]}
                 />
               </div>
-              <form onSubmit={onSubmit} className="mt-6 space-y-4">
+              <form onSubmit={(event) => void onSubmit(event)} className="mt-6 space-y-4">
                 {mode === "criar" ? (
                   <label className="block">
                     <span className="text-sm font-medium text-soft">Nome</span>

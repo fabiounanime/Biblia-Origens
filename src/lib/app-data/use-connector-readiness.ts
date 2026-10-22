@@ -84,7 +84,7 @@ export function useRefetchWhenConnectorReady(
       }
     };
     const schedule = () => {
-      timer = setTimeout(probe, readinessProbeDelayMs(attempt));
+      timer = setTimeout(() => void probe(), readinessProbeDelayMs(attempt));
       attempt += 1;
     };
     const probe = async () => {

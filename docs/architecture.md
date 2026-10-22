@@ -18,12 +18,14 @@
 ```
 src/
   routes/            páginas (apresentação, login, início, ler, estudos, mapas, conta, legais, diagnóstico) e APIs
-    ler/$book.$chapter.tsx   leitor: celular (< 768 px) e web (DesktopReader, WordPanel)
+    ler/$book.$chapter.tsx   rota do leitor: carga do capítulo, estado e escolha celular/web
   components/        shell (lateral + barra inferior), landing, reader-library, ui, reading-settings, toaster
+    reader/          peças do leitor: versículo, balão e interlinear (gloss), texto e notas, cabeçalho e grade
+                     (chapter-chrome), nota, leitor web (desktop-reader) e painel da palavra (word-panel)
   lib/
     bible/           catálogo de livros, carga do acervo (corpus), guias, lugares, andamento (use-acervo)
     study/           marcas, notas, posição e preferências (store) + sincronização (sync-api, server function)
-    reader/          camadas visíveis e pinça de tamanho da letra
+    reader/          camadas visíveis, pinça, gesto lateral, ponto de leitura e dica do leitor
     auth/            Better Auth, middleware, portões de login
     db.ts            conexão Neon/PGlite e migrações em tempo de execução
 acervo/              tradução (txt), léxico e notas — fonte do texto
