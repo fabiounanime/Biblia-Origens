@@ -5,6 +5,7 @@ import { cx } from "@/components/ui";
 import { SECTION_TONE, bookById, bookLang, originalProps } from "@/lib/bible/catalog";
 import { guideById } from "@/lib/bible/guides";
 import { placeById } from "@/lib/bible/places";
+import { isChapterPublished, useAcervoIndex } from "@/lib/bible/use-acervo";
 import { useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/estudos/$guideId")({
@@ -16,6 +17,7 @@ function GuidePage() {
   const guide = guideById(guideId);
   const progress = useStudy((state) => state.guides.find((row) => row.guideId === guideId));
   const setGuideStatus = useStudy((state) => state.setGuideStatus);
+  const acervo = useAcervoIndex();
 
   if (!guide) {
     return (
@@ -33,6 +35,7 @@ function GuidePage() {
   const place = guide.placeId ? placeById(guide.placeId) : undefined;
   const tone = SECTION_TONE[book?.section ?? "torah"];
   const done = progress?.status === "done";
+  const published = isChapterPublished(acervo, guide.bookId, guide.chapter);
 
   return (
     <Shell>
@@ -43,7 +46,11 @@ function GuidePage() {
           </Link>
         }
         title={guide.title}
-        lead="Este guia reserva o lugar do estudo. Raízes hebraicas, versos e referências cruzadas entram quando o acervo for publicado."
+        lead={
+          published
+            ? "Comece pelo capítulo âncora. Raízes hebraicas, versos e referências cruzadas deste guia entram nas próximas publicações."
+            : "O capítulo âncora deste guia ainda está em tradução. O guia abre por completo quando ele for publicado."
+        }
         action={
           <span className={cx("rounded-full px-3 py-1 text-sm font-semibold", tone.soft, tone.text)}>{guide.kicker}</span>
         }

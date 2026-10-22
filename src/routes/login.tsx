@@ -2,15 +2,17 @@ import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-router";
 import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
-import { BrandMark, Segmented, ThreadRing, Wordmark } from "@/components/ui";
+import { BrandMark, Segmented, Wordmark } from "@/components/ui";
 import type { GoogleMode } from "@/lib/diagnostics";
 
-type LoginSearch = { error?: string };
+/** `modo=criar` abre direto em "Criar conta" (quem chega pela apresentação ainda não tem conta). */
+type LoginSearch = { error?: string; modo?: "criar" };
 
 export const Route = createFileRoute("/login")({
   // O Better Auth volta para cá com ?error=… quando o login social falha.
   validateSearch: (search: Record<string, unknown>): LoginSearch => ({
     error: typeof search.error === "string" ? search.error : undefined,
+    modo: search.modo === "criar" ? "criar" : undefined,
   }),
   head: () => ({ meta: [{ title: "Conta · Bíblia Origens" }] }),
   component: LoginPage,
@@ -43,11 +45,11 @@ function LoginPage() {
   const { user, isPending } = useCurrentUserState();
   const navigate = useNavigate();
   const router = useRouter();
-  const [mode, setMode] = useState<"entrar" | "criar">("entrar");
+  const search = Route.useSearch();
+  const [mode, setMode] = useState<"entrar" | "criar">(search.modo ?? "entrar");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const search = Route.useSearch();
   const [error, setError] = useState<string | null>(search.error ? ptSocialError(search.error) : null);
   const [pending, setPending] = useState(false);
   const [googleMode, setGoogleMode] = useState<GoogleMode | "loading">("loading");
@@ -129,7 +131,7 @@ function LoginPage() {
   }
 
   const inputClass =
-    "mt-1.5 h-12 w-full rounded-2xl border border-line bg-surface px-4 text-base placeholder:text-muted focus:border-tekhelet/60 focus:outline-none";
+    "mt-1.5 h-12 w-full rounded-2xl border border-field bg-surface px-4 text-base placeholder:text-muted focus:border-tekhelet/60 focus:outline-none";
 
   return (
     <main className="app-backdrop grid min-h-dvh lg:grid-cols-2">
@@ -160,15 +162,14 @@ function LoginPage() {
       <section className="flex flex-col justify-center px-5 py-10 sm:px-10">
         <div className="mx-auto w-full max-w-sm">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-            <div className="relative grid place-items-center lg:hidden">
-              <ThreadRing className="size-20" />
-              <BrandMark className="absolute size-11" />
-            </div>
+            <BrandMark className="size-16 rounded-2xl lg:hidden" />
             <h1 className="mt-5 text-3xl font-bold tracking-tight lg:mt-0">
               {mode === "criar" ? "Criar sua conta" : "Bem-vindo de volta"}
             </h1>
             <p className="mt-2 text-muted">
-              Entre para ler e guardar suas marcas e notas em todos os seus aparelhos.
+              {mode === "criar"
+                ? "A leitura é feita com conta: ela guarda suas marcas, notas e onde você parou, em todos os seus aparelhos."
+                : "Entre para continuar de onde parou, com suas marcas e notas em todos os seus aparelhos."}
             </p>
           </div>
 

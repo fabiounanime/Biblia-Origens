@@ -52,12 +52,16 @@ export function ReadingSettings({ showLayers = true }: { showLayers?: boolean })
             label: <span className={cx("font-read font-semibold", scale.size)} aria-label={scale.label}>Aa</span>,
           }))}
         />
+        {/* Prévia ao vivo: segue a escala escolhida. */}
+        <p className="read-pt mt-3 rounded-2xl bg-sunken px-4 py-3" aria-hidden>
+          No princípio criou Deus os céus e a terra.
+        </p>
       </div>
 
       {showLayers ? (
         <div>
           <p className="mb-2 text-sm font-medium text-muted">O que mostrar em cada versículo</p>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
             {LAYERS.map((layer) => {
               const on = layers[layer.id];
               return (
@@ -67,12 +71,13 @@ export function ReadingSettings({ showLayers = true }: { showLayers?: boolean })
                   aria-pressed={on}
                   onClick={() => layers.toggle(layer.id)}
                   className={cx(
-                    "flex min-h-12 flex-col items-start justify-center gap-1 rounded-2xl border px-3 py-2 text-left text-sm font-medium transition-colors",
+                    "flex min-h-12 items-center gap-2.5 rounded-2xl border px-3.5 py-2 text-left text-sm font-medium transition-colors",
                     on ? "border-tekhelet/50 bg-tekhelet/10 text-fg" : "border-line text-muted",
                   )}
                 >
-                  <span className={cx("size-2.5 rounded-full", layer.dot, !on && "opacity-40")} aria-hidden />
-                  {layer.label}
+                  <span className={cx("size-2.5 shrink-0 rounded-full", layer.dot, !on && "opacity-40")} aria-hidden />
+                  <span className="min-w-0 flex-1 truncate">{layer.label}</span>
+                  <span className="text-xs text-muted">{on ? "Ligado" : "Desligado"}</span>
                 </button>
               );
             })}

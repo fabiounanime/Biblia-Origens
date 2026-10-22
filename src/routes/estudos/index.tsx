@@ -5,6 +5,7 @@ import { cx } from "@/components/ui";
 import { SECTION_TONE, bookById } from "@/lib/bible/catalog";
 import { GUIDES } from "@/lib/bible/guides";
 import { placeById } from "@/lib/bible/places";
+import { isChapterPublished, useAcervoIndex } from "@/lib/bible/use-acervo";
 import { useStudy } from "@/lib/study/store";
 
 export const Route = createFileRoute("/estudos/")({
@@ -15,7 +16,7 @@ export const Route = createFileRoute("/estudos/")({
 function EstudosPage() {
   const guides = useStudy((state) => state.guides);
   const doneCount = GUIDES.filter((guide) => guides.some((row) => row.guideId === guide.id && row.status === "done")).length;
-  const pct = Math.round((doneCount / GUIDES.length) * 100);
+  const acervo = useAcervoIndex();
 
   return (
     <Shell>
@@ -28,9 +29,10 @@ function EstudosPage() {
             </p>
           </div>
           <div className="mt-3 h-2 overflow-hidden rounded-full bg-sunken">
+            {/* scaleX em vez de width: anima sem recalcular o layout. */}
             <div
-              className="h-full rounded-full bg-gradient-to-r from-tekhelet to-argaman transition-[width] duration-500"
-              style={{ width: `${Math.max(pct, 2)}%` }}
+              className="h-full origin-left rounded-full bg-gradient-to-r from-tekhelet to-argaman transition-transform duration-300 ease-out"
+              style={{ transform: `scaleX(${doneCount / GUIDES.length})` }}
             />
           </div>
         </div>
@@ -43,12 +45,13 @@ function EstudosPage() {
             const progress = guides.find((row) => row.guideId === guide.id);
             const tone = SECTION_TONE[book?.section ?? "torah"];
             const done = progress?.status === "done";
+            const published = isChapterPublished(acervo, guide.bookId, guide.chapter);
             return (
               <li key={guide.id}>
                 <Link
                   to="/estudos/$guideId"
                   params={{ guideId: guide.id }}
-                  className="group flex h-full gap-4 rounded-3xl border border-line bg-surface p-4 transition-colors hover:border-muted/60 hover:bg-raised/50"
+                  className="pressable-card group flex h-full gap-4 rounded-3xl border border-line bg-surface p-4 hover:border-muted/60 hover:bg-raised/50"
                 >
                   <span
                     className={cx(
@@ -69,6 +72,7 @@ function EstudosPage() {
                         </span>
                       ) : null}
                       {progress?.status === "reading" ? <span className="text-tekhelet">Em leitura</span> : null}
+                      {!published ? <span className="text-soft">Capítulo em tradução</span> : null}
                     </span>
                   </span>
                 </Link>

@@ -22,9 +22,10 @@ function MapasPage() {
 
   return (
     <Shell>
-      <Page title="Mapas" lead="O Crescente Fértil em mapa esquemático. Toque num ponto para ver o lugar." wide>
-        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_20rem]">
-          <figure className="relative self-start overflow-hidden rounded-[28px] border border-line shadow-float">
+      <Page title="Mapas" lead="O Crescente Fértil em mapa esquemático. Toque num ponto para ver o lugar.">
+        {/* Mesma coluna das outras telas: o mapa em cima, o lugar e a lista embaixo. */}
+        <div className="grid gap-5">
+          <figure className="relative overflow-hidden rounded-[28px] border border-line shadow-float">
             <img
               src="/map.jpg"
               alt="Mapa esquemático do Crescente Fértil, sem rótulos. Os nomes estão na lista."
@@ -50,15 +51,20 @@ function MapasPage() {
                 >
                   <span
                     className={cx(
-                      "grid place-items-center rounded-full border-2 transition-all",
+                      "grid size-6 place-items-center rounded-full border-2 transition-transform duration-150 ease-out",
                       active
-                        ? "pin-active size-6 border-white bg-zahav"
-                        : "size-3.5 border-white/90 bg-tekhelet group-hover:size-5 sm:size-4",
+                        ? "pin-active border-white bg-zahav"
+                        : "scale-[0.6] border-white/90 bg-tekhelet group-hover:scale-[0.85] sm:scale-[0.7]",
                     )}
                   />
                   <span
                     className={cx(
-                      "pointer-events-none absolute top-full -mt-1 rounded-full px-2 py-0.5 text-xs font-semibold whitespace-nowrap",
+                      "pointer-events-none absolute rounded-full px-2 py-0.5 text-xs font-semibold whitespace-nowrap",
+                      place.label === "left"
+                        ? "right-full top-1/2 -mr-1 -translate-y-1/2"
+                        : place.label === "right"
+                          ? "left-full top-1/2 -ml-1 -translate-y-1/2"
+                          : "top-full -mt-1",
                       active ? "bg-zahav text-[#1a1306]" : "hidden bg-black/55 text-white sm:block",
                     )}
                   >
@@ -69,9 +75,9 @@ function MapasPage() {
             })}
           </figure>
 
-          <div className="space-y-4">
+          <div className="grid items-start gap-4 sm:grid-cols-2">
             {selected ? (
-              <article className="rounded-3xl border border-zahav/40 bg-gradient-to-br from-zahav/14 to-surface p-5">
+              <article className="rounded-3xl border border-zahav/40 bg-gradient-to-br from-zahav/14 to-surface p-5 sm:sticky sm:top-20 md:top-6">
                 <p className="text-sm font-medium text-zahav">{selected.region}</p>
                 <div className="mt-1 flex items-end justify-between gap-3">
                   <div>
@@ -101,7 +107,7 @@ function MapasPage() {
                 ) : null}
               </article>
             ) : (
-              <div className="rounded-3xl border border-dashed border-line p-5 text-muted">
+              <div className="rounded-3xl border border-dashed border-line p-5 text-muted sm:sticky sm:top-20 md:top-6">
                 Escolha um lugar no mapa ou na lista para ver o nome em hebraico e os guias ligados a ele.
               </div>
             )}

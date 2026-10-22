@@ -59,7 +59,7 @@ function ContaPage() {
                     setSigningOut(true);
                     void signOut("/login").catch(() => setSigningOut(false));
                   }}
-                  className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full border border-line px-4 text-sm font-semibold text-soft hover:border-muted disabled:opacity-60"
+                  className="inline-flex h-11 shrink-0 items-center gap-2 rounded-full border border-line px-4 text-sm font-semibold text-soft hover:border-muted disabled:opacity-60"
                 >
                   <LogOut className="size-4" aria-hidden />
                   {signingOut ? "Saindo…" : "Sair"}
@@ -93,7 +93,7 @@ function ContaPage() {
             disabled={syncing || isPending || !user}
             onClick={() => void sync()}
             aria-label="Sincronizar agora"
-            className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-tekhelet px-4 text-sm font-semibold text-on-accent disabled:opacity-60"
+            className="inline-flex h-11 min-w-11 shrink-0 items-center justify-center gap-2 rounded-full bg-tekhelet px-4 text-sm font-semibold text-on-accent disabled:opacity-60"
           >
             <RefreshCw className={cx("size-4", syncing && "animate-spin")} aria-hidden />
             <span className="hidden sm:inline">{syncing ? "Sincronizando…" : "Sincronizar"}</span>
@@ -170,7 +170,7 @@ function ContaPage() {
           </Link>
         </nav>
         {/* Atribuições exigidas pelas licenças das fontes do texto hebraico e do grego. */}
-        <p className="mt-4 text-xs text-muted">
+        <p className="mt-4 max-w-prose text-xs text-muted">
           Texto hebraico: Códice de Leningrado, pela Open Scriptures Hebrew Bible (CC BY 4.0). Texto grego: SBL Greek New
           Testament, © 2010 Society of Biblical Literature e Logos Bible Software (CC BY 4.0), com a análise morfológica da
           MorphGNT (CC BY-SA 3.0).
