@@ -20,9 +20,9 @@ TanStack Start (React 19, Vite 8, Nitro), TypeScript, Tailwind v4, Better Auth, 
 
 - Instalar: `npm ci`
 - Desenvolver: `npm run dev` (porta 8080)
-- Lint: `npm run lint`
+- Lint: `npm run lint` (rápido); com tipos: `npm run lint:typed`
 - Tipos: `npm run typecheck`
-- Testes: `npm test` (`node --test`: scripts e libs do servidor)
+- Testes: `npm test` (`node --test`: scripts e libs do servidor); regras de lint: `npm run test:rules`
 - Build de verificação: `npm run build:check` (não aplica migrações)
 - Tudo junto: `npm run verify`
 - Build de produção: `npm run build` (inclui `db:migrate`; só roda migrações com `DATABASE_URL`)

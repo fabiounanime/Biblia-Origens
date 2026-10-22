@@ -4,20 +4,23 @@
 
 | Comando | O que prova |
 |---|---|
-| `npm run lint` | ESLint (flat config em `eslint.config.mjs`): TypeScript, hooks do React e regras com tipos no código do app |
+| `npm run lint` | ESLint rápido (`eslint.config.mjs`, ~2 s): TypeScript, hooks do React e as regras `quality/*` do toolkit |
+| `npm run lint:typed` | O de cima mais as regras com tipos (`eslint.typed.config.mjs`, ~11 s e ~850 MB) |
 | `npm run typecheck` | `tsc --noEmit` sem erros |
 | `npm test` | `node --test`: scripts (`scripts/**/*.test.mjs`) e libs do servidor (login, dados de app) |
+| `npm run test:rules` | Autoteste das regras `quality/*` (`scripts/verify-quality-rules.mjs`, RuleTester do ESLint) |
 | `npm run build:check` | Build de produção (preset Cloudflare) sem aplicar migrações |
-| `npm run verify` | Os quatro acima, em sequência |
+| `npm run verify` | `lint:typed`, `typecheck`, `test`, `test:rules` e `build:check`, em sequência |
 
 Rode `npm run verify` antes de abrir um PR. Para uma mudança pequena, rode a verificação afetada e diga o que ficou de fora.
 
 ## Regras de base
 
 - TypeScript estrito; presets oficiais de ESLint, hooks do React e `react-refresh`.
-- Promessas: `no-floating-promises` e `no-misused-promises` são erro em `src/` (fora os testes do `node:test`, que devolvem promessas de propósito). Para descartar uma promessa de propósito, use `void`.
-- Arquivos proporcionais à responsabilidade: `max-lines` avisa acima de 350 linhas de código. Acima disso hoje (22/10/2026): `landing.tsx` (407), `inicio.tsx` (370), `app-data/client.server.ts` (373) e `multiplayer/p2p.ts` (450), os dois últimos herdados do Grok e sem uso. Divida quando mexer neles, sem mudar comportamento.
-- Telas não importam o banco; o acesso a dados passa por server functions com `authMiddleware`.
+- Promessas (`lint:typed`): `no-floating-promises` e `no-misused-promises` são erro em `src/` (fora os testes do `node:test`, que devolvem promessas de propósito). Para descartar uma promessa de propósito, use `void`. Ficam fora do `lint` comum por custo, como recomenda o toolkit.
+- Arquivos proporcionais à responsabilidade: `quality/max-lines` avisa acima de 350 linhas (testes e módulos só de tipos/reexportação ficam de fora). Acima disso hoje (22/10/2026): `landing.tsx` (443), `inicio.tsx` (397), `app-data/client.server.ts` (430) e `multiplayer/p2p.ts` (571), os dois últimos herdados do Grok e sem uso. Divida quando mexer neles, sem mudar comportamento.
+- Telas não importam o banco: `quality/no-direct-data-access` barra `getSql`, `getPglite`, `ensureDbReady` e `ensureSchema` de `@/lib/db` em arquivos `.tsx` e em `src/components/`. O acesso a dados passa por server functions com `authMiddleware`.
+- Regras `quality/*`: cópia de `templates/eslint/eslint-rules/` do Vibe Coding Toolkit (revisão em `docs/setup.md`), em `eslint-rules/`. `quality/no-direct-console` não está ligada: o projeto não tem um logger próprio.
 - Entradas e ambiente validados (Zod); erros sem segredos.
 - SQL com parâmetros; migrações revisadas antes de aplicar.
 

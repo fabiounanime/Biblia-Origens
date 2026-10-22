@@ -10,6 +10,7 @@ import {
   mergeAppEnv,
   parseAppEnv,
   projectRoot,
+  quoteWindowsArg,
   readAppEnv,
 } from "./with-app-env.mjs";
 
@@ -73,7 +74,7 @@ test("vite loadEnv resolves the wrapped value", () => {
   assert.equal(merged.VITE_AUTH_ENABLED, "false");
 });
 
-test("the wrapped command runs with the app env applied", async () => {
+test("with no app-env file, the wrapped command adds no VITE_AUTH_ENABLED", async () => {
   const { stdout } = await execFileAsync(process.execPath, [
     WRAPPER,
     process.execPath,
@@ -90,6 +91,17 @@ test("the wrapped command sees an explicit override, not the file value", async 
     { env: { ...process.env, VITE_AUTH_ENABLED: "true" } },
   );
   assert.equal(stdout, "true");
+});
+
+test("quoteWindowsArg leaves plain args alone and quotes the rest safely", () => {
+  assert.equal(quoteWindowsArg("vite"), "vite");
+  assert.equal(quoteWindowsArg("--port"), "--port");
+  assert.equal(quoteWindowsArg("0.0.0.0"), "0.0.0.0");
+  assert.equal(quoteWindowsArg("a b"), '"a b"');
+  assert.equal(quoteWindowsArg('say "hi"'), '"say ""hi"""');
+  // Barra final dobrada: senão ela escaparia a aspa de fechamento.
+  assert.equal(quoteWindowsArg("C:\\my dir\\"), '"C:\\my dir\\\\"');
+  assert.equal(quoteWindowsArg(""), '""');
 });
 
 test("the wrapper propagates the command's exit code", async () => {

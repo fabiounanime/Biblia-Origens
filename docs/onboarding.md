@@ -40,7 +40,7 @@ Em produção, ficam no painel da Cloudflare (Workers → `biblia-origens` → S
 npm run verify
 ```
 
-Roda lint, tipos, testes e um build de verificação (sem migrações). Detalhes e o que cada um prova: `docs/quality.md`.
+Roda lint com tipos, tipos, testes, o autoteste das regras de lint e um build de verificação (sem migrações). Detalhes e o que cada um prova: `docs/quality.md`.
 
 ## Deploy
 
@@ -56,4 +56,6 @@ Leia o `AGENTS.md`; o `CLAUDE.md` importa as mesmas instruções. Ferramentas, s
 | --- | --- | --- |
 | No Windows, `npm test` rodava só 55 testes | Aspas simples no glob do script não funcionam no cmd | Corrigido: o script usa aspas duplas e roda os 161 |
 | `vite` "não reconhecido" ao rodar `npm run dev/build` no Windows | O wrapper chamava `vite.cmd` sem shell | Corrigido em `scripts/with-app-env.mjs` |
+| Build da Cloudflare falha no `npm ci` com `Missing: … from lock file` | O npm 11 local regrava o `package-lock.json` sem dependências opcionais que o npm 10 da Cloudflare exige | Não versione o lockfile regravado pelo `npm install` local; para mudar dependências, gere o lockfile com `npx npm@10 install --package-lock-only` (ou `update`) e confira `npx npm@10 ci` |
 | Dois testes pulados no Windows | Criar link simbólico exige administrador | Esperado; rodam no Linux |
+| No Windows, o servidor continua na porta 8080 depois de parar o `npm run dev` por um gerenciador de processos | O wrapper roda o `vite` via `cmd.exe`; um SIGTERM encerra só o `cmd` | Pare com Ctrl+C no terminal ou encerre o processo que usa a porta 8080 |
