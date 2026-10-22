@@ -57,3 +57,4 @@ Leia o `AGENTS.md`; o `CLAUDE.md` importa as mesmas instruções. Ferramentas, s
 | No Windows, `npm test` rodava só 55 testes | Aspas simples no glob do script não funcionam no cmd | Corrigido: o script usa aspas duplas e roda os 161 |
 | `vite` "não reconhecido" ao rodar `npm run dev/build` no Windows | O wrapper chamava `vite.cmd` sem shell | Corrigido em `scripts/with-app-env.mjs` |
 | Dois testes pulados no Windows | Criar link simbólico exige administrador | Esperado; rodam no Linux |
+| No Windows, o servidor continua na porta 8080 depois de parar o `npm run dev` por um gerenciador de processos | O wrapper roda o `vite` via `cmd.exe`; um SIGTERM encerra só o `cmd` | Pare com Ctrl+C no terminal ou encerre o processo que usa a porta 8080 |

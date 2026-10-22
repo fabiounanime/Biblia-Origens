@@ -104,9 +104,14 @@ export function isMainModule(moduleUrl) {
   }
 }
 
-/** Aspas para um argumento na linha de comando do cmd.exe, quando precisa. */
+/**
+ * Aspas para um argumento na linha de comando do cmd.exe, quando precisa.
+ * Barras invertidas no fim são dobradas para não escaparem a aspa de fechamento.
+ * `%VAR%` continua sendo expandido pelo cmd: os argumentos vêm dos scripts do package.json.
+ */
 export function quoteWindowsArg(arg) {
-  return /^[\w@%+=:,./-]+$/.test(arg) ? arg : `"${arg.replace(/"/g, '""')}"`;
+  if (/^[\w@%+=:,./-]+$/.test(arg)) return arg;
+  return `"${arg.replace(/"/g, '""').replace(/(\\+)$/, "$1$1")}"`;
 }
 
 function main(argv) {
