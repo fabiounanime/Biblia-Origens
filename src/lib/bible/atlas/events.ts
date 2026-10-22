@@ -67,7 +67,7 @@ export const EVENTS: BibleEvent[] = [
   { n: 19, part: "exodo", title: "O bezerro de ouro", refs: [ref("ex", 32, 1, "Êx 32")], placeIds: ["sinai"],
     text: "Enquanto Moisés está no monte, Arão faz um bezerro de ouro e o povo o adora." },
 
-  { n: 20, part: "terra", title: "Israel entra na terra", refs: [ref("js", 1, 1, "Js 1–2")], placeIds: ["nebo", "jordao", "jerico"],
+  { n: 20, part: "terra", title: "Israel entra na terra", refs: [ref("dt", 34, 1, "Dt 34"), ref("js", 1, 1, "Js 1–2")], placeIds: ["nebo", "jordao", "jerico"],
     text: "Moisés vê a terra do alto do Nebo. Josué assume, envia espias a Jericó e o povo atravessa o Jordão." },
   { n: 21, part: "terra", title: "O tempo dos juízes", refs: [ref("jz", 2, 1, "Jz 2"), ref("jz", 21, 25, "Jz 21:25")], placeIds: ["silo"],
     text: "Sem rei, o povo cai na idolatria e Deus levanta juízes para salvá-lo. A tenda do encontro fica em Siló." },
@@ -100,7 +100,7 @@ export const EVENTS: BibleEvent[] = [
   { n: 34, part: "exilio", title: "O novo templo", refs: [ref("er", 6, 1, "Ed 6")], placeIds: ["jerusalen"],
     text: "O segundo templo é terminado e dedicado, e o povo celebra a Páscoa." },
 
-  { n: 35, part: "jesus", title: "Jesus nasce", refs: [ref("mt", 1, 1, "Mt 1–2"), ref("lc", 1, 1, "Lc 1–2")], placeIds: ["nazare", "belem", "egito"],
+  { n: 35, part: "jesus", title: "Jesus nasce", refs: [ref("mt", 1, 1, "Mt 1–2"), ref("lc", 1, 1, "Lc 1–2")], placeIds: ["nazare", "belem", "egito", "nazare"],
     text: "José e Maria descem de Nazaré a Belém, onde Jesus nasce. Fogem para o Egito e voltam para Nazaré." },
   { n: 36, part: "jesus", title: "O batismo de Jesus", refs: [ref("mt", 3, 1, "Mt 3"), ref("jo", 1, 19, "Jo 1:19-34")], placeIds: ["betania-jordao"],
     text: "João batiza Jesus no Jordão, em Betânia, \"do outro lado do Jordão\"." },
@@ -129,7 +129,7 @@ export const EVENTS: BibleEvent[] = [
     text: "O Espírito Santo desce sobre os discípulos, e gente de muitas línguas os entende: o contrário de Babel." },
   { n: 48, part: "igreja", title: "Estêvão, o primeiro mártir", refs: [ref("at", 6, 8, "At 6:8–8:1")], placeIds: ["jerusalen"],
     text: "Estêvão é apedrejado em Jerusalém; Saulo aprova a morte dele." },
-  { n: 49, part: "igreja", title: "A conversão de Saulo", refs: [ref("at", 9, 1, "At 9:1-31")], placeIds: ["jerusalen", "damasco", "tarso"],
+  { n: 49, part: "igreja", title: "A conversão de Saulo", refs: [ref("at", 9, 1, "At 9:1-31")], placeIds: ["jerusalen", "damasco", "jerusalen", "tarso"],
     text: "No caminho de Damasco, Saulo encontra Jesus ressuscitado. Depois volta a Jerusalém e segue para Tarso." },
   { n: 50, part: "igreja", title: "O Apocalipse em Patmos", refs: [ref("ap", 1, 1, "Ap 1"), ref("ap", 21, 1, "Ap 21–22")],
     placeIds: ["patmos", "efeso", "esmirna", "pergamo", "tiatira", "sardes", "filadelfia", "laodiceia"],

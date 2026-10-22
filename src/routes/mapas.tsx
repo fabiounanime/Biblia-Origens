@@ -64,8 +64,8 @@ function MapasPage() {
   const view = useMemo(() => {
     if (mode === "medir") {
       const ids = [search.de, search.para].filter((id): id is string => Boolean(id));
-      // Com só a origem, o mapa fica parado: o próximo toque escolhe o destino.
-      if (ids.length < 2) return { ...dotsView(ALL_PLACES, search.de), focus: search.de ? null : [] };
+      // Com um lugar só, o mapa fica parado: o próximo toque escolhe o outro.
+      if (ids.length < 2) return dotsView(ALL_PLACES, ids[0]);
       // Os outros lugares continuam no mapa, para tocar e medir de novo.
       const measured = pathView(ids, undefined, { dashed: true });
       const others = dotsView(ALL_PLACES.filter((id) => !ids.includes(id))).pins;
@@ -83,8 +83,10 @@ function MapasPage() {
 
   const pick = (id: string) => {
     if (mode === "medir") {
-      if (!search.de || (search.de && search.para)) set({ de: id, para: undefined });
-      else if (id !== search.de) set({ para: id });
+      const { de, para } = search;
+      if ((de && para) || (!de && !para)) set({ de: id, para: undefined });
+      else if (de && id !== de) set({ para: id });
+      else if (para && id !== para) set({ de: id });
       return;
     }
     set({ lugar: search.lugar === id ? undefined : id });

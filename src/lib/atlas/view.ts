@@ -47,7 +47,9 @@ export function pathView(ids: string[], activeId?: string, opts: { numbered?: bo
   for (let i = 1; i < seq.length; i += 1) {
     const from = seq[i - 1];
     const to = seq[i];
-    if (from.id !== to.id) legs.push({ from, to, km: distanceKm(from, to) });
+    const km = distanceKm(from, to);
+    // Mesmo lugar (ou o mesmo ponto para dois nomes): não é trecho.
+    if (from.id !== to.id && km >= 0.5) legs.push({ from, to, km });
   }
   const route =
     seq.length > 1
@@ -81,5 +83,5 @@ export function dotsView(ids: string[], activeId?: string): View {
     (p): Pin => ({ id: p.id, lon: p.lon, lat: p.lat, label: p.namePt, tone: p.id === activeId ? "active" : "dot" }),
   );
   const active = activeId ? placeById(activeId) : undefined;
-  return { pins, route: null, focus: active ? [point(active)] : [], legs: [], totalKm: 0 };
+  return { pins, route: null, focus: active ? [point(active)] : null, legs: [], totalKm: 0 };
 }

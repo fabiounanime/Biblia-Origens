@@ -1,8 +1,10 @@
+import { useEffect, useRef } from "react";
 import { Link } from "@tanstack/react-router";
-import { BookOpen, Route as RouteIcon, X } from "lucide-react";
+import { BookOpen, Route as RouteIcon, ScrollText, X } from "lucide-react";
 import { cx } from "@/components/ui";
 import { EVENTS } from "@/lib/bible/atlas/events";
 import { JOURNEYS } from "@/lib/bible/atlas/journeys";
+import { GUIDES } from "@/lib/bible/guides";
 import type { Ref } from "@/lib/bible/atlas/ref";
 import { formatKm, type Certainty, type Place } from "@/lib/bible/places";
 import type { Leg } from "@/lib/atlas/view";
@@ -72,8 +74,19 @@ export function PlaceCard({
 }) {
   const events = EVENTS.filter((e) => e.placeIds.includes(place.id));
   const journeys = JOURNEYS.filter((j) => j.stops.some((s) => s.placeId === place.id));
+  const guides = GUIDES.filter((g) => g.placeId === place.id);
+  const ref = useRef<HTMLElement>(null);
+  // No celular o card pode abrir fora da vista (o painel rola sob o mapa fixo).
+  useEffect(() => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    ref.current?.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" });
+  }, [place.id]);
   return (
-    <article className="mt-5 rounded-3xl border border-zahav/40 bg-gradient-to-br from-zahav/14 to-surface p-5" aria-live="polite">
+    <article
+      ref={ref}
+      className="mt-5 scroll-mt-[calc(46dvh+4.5rem)] rounded-3xl border border-zahav/40 bg-gradient-to-br from-zahav/14 to-surface p-5 md:scroll-mt-6"
+      aria-live="polite"
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="text-sm font-medium text-zahav">{place.region}</p>
@@ -120,6 +133,22 @@ export function PlaceCard({
             ))}
           </ul>
         </>
+      ) : null}
+      {guides.length > 0 ? (
+        <ul className="mt-4 space-y-2">
+          {guides.map((guide) => (
+            <li key={guide.id}>
+              <Link
+                to="/estudos/$guideId"
+                params={{ guideId: guide.id }}
+                className="flex min-h-11 items-center gap-2 rounded-2xl bg-bg/60 px-3 font-medium text-tekhelet hover:bg-bg"
+              >
+                <ScrollText className="size-4" aria-hidden />
+                Guia: {guide.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
       ) : null}
       {journeys.length > 0 ? (
         <>

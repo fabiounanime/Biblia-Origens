@@ -25,12 +25,27 @@ const HOME: [[number, number], [number, number]] = [
   [48.5, 38.5],
 ];
 
+const esriTile = (key: string, z: number | string = "{z}", y: number | string = "{y}", x: number | string = "{x}") =>
+  `https://ibasemaps-api.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/${z}/${y}/${x}?token=${encodeURIComponent(key)}`;
+
+/**
+ * Uma chave recusada (endereço fora da lista, expirada) faz a Esri responder com
+ * erro em vez de imagem, e o mapa ficaria preto: testa um quadro e cai para o Sentinel-2.
+ */
+async function usableKey(key: string | null): Promise<string | null> {
+  if (!key) return null;
+  try {
+    const res = await fetch(esriTile(key, 0, 0, 0));
+    return res.ok && (res.headers.get("content-type") ?? "").startsWith("image/") ? key : null;
+  } catch {
+    return null;
+  }
+}
+
 function satelliteStyle(arcgisKey: string | null): StyleSpecification {
   const sat = arcgisKey
     ? {
-        tiles: [
-          `https://ibasemaps-api.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}?token=${encodeURIComponent(arcgisKey)}`,
-        ],
+        tiles: [esriTile(arcgisKey)],
         maxzoom: 19,
         attribution: "Powered by Esri · Esri, Maxar, Earthstar Geographics e a comunidade GIS",
       }
@@ -82,22 +97,30 @@ function declutter(map: MlMap, pins: PlacedPin[], legs: PlacedLeg[]) {
   }
 }
 
+/** Ajusta um pino já no mapa: recriar o botão tiraria o foco de quem usa teclado. */
+function paintPin(button: HTMLElement, pin: MapPin) {
+  button.className = `atlas-pin atlas-pin--${pin.tone}`;
+  button.setAttribute("aria-label", pin.badge ? `${pin.badge}. ${pin.label}` : pin.label);
+  // Os pontinhos da visão geral ficam fora do Tab: a lista do painel tem todos.
+  button.tabIndex = pin.tone === "dot" ? -1 : 0;
+  const [dot, label] = button.children;
+  if (dot) dot.textContent = pin.badge ?? "";
+  if (label) label.textContent = pin.label;
+}
+
 function pinElement(pin: MapPin, onPick: (id: string) => void): HTMLElement {
   const button = document.createElement("button");
   button.type = "button";
-  button.className = `atlas-pin atlas-pin--${pin.tone}`;
-  button.setAttribute("aria-label", pin.badge ? `${pin.badge}. ${pin.label}` : pin.label);
   const dot = document.createElement("span");
   dot.className = "atlas-pin-dot";
-  if (pin.badge) dot.textContent = pin.badge;
   const label = document.createElement("span");
   label.className = "atlas-pin-label";
-  label.textContent = pin.label;
   button.append(dot, label);
   button.addEventListener("click", (event) => {
     event.stopPropagation();
     onPick(pin.id);
   });
+  paintPin(button, pin);
   return button;
 }
 
@@ -140,9 +163,11 @@ export function AtlasMap({
     let map: MlMap | null = null;
     void (async () => {
       try {
-        const [lib, config, worker] = await Promise.all([
+        const [lib, arcgisKey, worker] = await Promise.all([
           import("maplibre-gl"),
-          getMapConfig().catch(() => ({ arcgisKey: null })),
+          getMapConfig()
+            .then((config) => usableKey(config.arcgisKey))
+            .catch(() => null),
           // O MapLibre monta o endereço do worker em tempo de execução; o Vite não o
           // acharia sozinho, então o arquivo entra como asset e o endereço vai explícito.
           import("maplibre-gl/dist/maplibre-gl-worker.mjs?url"),
@@ -153,9 +178,9 @@ export function AtlasMap({
         libRef.current = lib;
         map = new lib.Map({
           container: containerRef.current,
-          style: satelliteStyle(config.arcgisKey),
+          style: satelliteStyle(arcgisKey),
           bounds: HOME,
-          maxZoom: config.arcgisKey ? 17 : 14,
+          maxZoom: arcgisKey ? 17 : 14,
           minZoom: 2,
           attributionControl: {
             compact: true,
@@ -170,12 +195,13 @@ export function AtlasMap({
         map.on("load", () => {
           if (!map) return;
           map.addSource("route", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+          const token = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
           map.addLayer({
             id: "route-casing",
             type: "line",
             source: "route",
             layout: { "line-join": "round", "line-cap": "round" },
-            paint: { "line-color": "#0b0f1c", "line-width": 7, "line-opacity": 0.55 },
+            paint: { "line-color": token("--c-bg"), "line-width": 7, "line-opacity": 0.55 },
           });
           map.addLayer({
             id: "route",
@@ -183,7 +209,7 @@ export function AtlasMap({
             source: "route",
             layout: { "line-join": "round", "line-cap": "round" },
             paint: {
-              "line-color": getComputedStyle(document.documentElement).getPropertyValue("--c-zahav").trim() || "#f4bb4a",
+              "line-color": token("--c-zahav"),
               "line-width": 3.5,
             },
           });
@@ -212,13 +238,20 @@ export function AtlasMap({
     const map = mapRef.current;
     const lib = libRef.current;
     if (!ready || !map || !lib) return;
-    for (const { marker } of markersRef.current) marker.remove();
-    markersRef.current = pins.map((pin) => ({
-      pin,
-      marker: new lib.Marker({ element: pinElement(pin, (id) => onPickRef.current(id)), anchor: "center" })
-        .setLngLat([pin.lon, pin.lat])
-        .addTo(map),
-    }));
+    // Reaproveita os pinos pelo id (o foco do teclado fica onde estava).
+    const old = new Map(markersRef.current.map((placed) => [placed.pin.id, placed]));
+    markersRef.current = pins.map((pin) => {
+      const kept = old.get(pin.id);
+      old.delete(pin.id);
+      if (kept) {
+        paintPin(kept.marker.getElement(), pin);
+        kept.marker.setLngLat([pin.lon, pin.lat]);
+        return { pin, marker: kept.marker };
+      }
+      const element = pinElement(pin, (id) => onPickRef.current(id));
+      return { pin, marker: new lib.Marker({ element, anchor: "center" }).setLngLat([pin.lon, pin.lat]).addTo(map) };
+    });
+    for (const { marker } of old.values()) marker.remove();
     declutter(map, markersRef.current, legsRef.current);
   }, [ready, pins]);
 
