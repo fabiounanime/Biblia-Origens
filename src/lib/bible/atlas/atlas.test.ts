@@ -19,6 +19,8 @@ describe("atlas", () => {
     for (const p of PLACES) {
       assert.ok(p.lon > -10 && p.lon < 60 && p.lat > 20 && p.lat < 45, `${p.id} fora da região`);
     }
+    // Sem nome atual só quem não tem ponto seguro.
+    assert.deepEqual(PLACES.filter((p) => !p.modern?.trim()).map((p) => p.id), ["eden", "monte-hor"]);
   });
 
   it("eventos apontam para lugares, partes e capítulos que existem", () => {
