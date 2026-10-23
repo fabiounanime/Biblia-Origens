@@ -92,6 +92,11 @@ export function PlaceCard({
           <p className="text-sm font-medium text-zahav">{place.region}</p>
           <h2 className="mt-0.5 text-2xl font-bold tracking-tight">{place.namePt}</h2>
           {place.nameTranslit ? <p className="text-sm text-muted italic">{place.nameTranslit}</p> : null}
+          {place.modern ? (
+            <p className="mt-1.5 text-sm text-soft">
+              <span className="text-muted">Atualmente:</span> {place.modern}
+            </p>
+          ) : null}
         </div>
         <div className="flex shrink-0 items-start gap-2">
           {place.nameHe ? (
