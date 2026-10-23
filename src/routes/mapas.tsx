@@ -8,7 +8,7 @@ import { PlaceCard } from "@/components/atlas/atlas-parts";
 import { EVENTS, PARTS, type PartId } from "@/lib/bible/atlas/events";
 import { JOURNEYS } from "@/lib/bible/atlas/journeys";
 import { PLACES, placeById } from "@/lib/bible/places";
-import { dotsView, pathView } from "@/lib/atlas/view";
+import { dotsView, pathView, withRegions } from "@/lib/atlas/view";
 
 type Mode = "eventos" | "caminhos" | "medir";
 
@@ -80,6 +80,7 @@ function MapasPage() {
     const ids = part ? EVENTS.filter((e) => e.part === part).flatMap((e) => e.placeIds) : EVENT_PLACES;
     return part ? dotsViewWithFocus(ids, search.lugar) : dotsView(ids, search.lugar);
   }, [mode, journey, event, part, search.lugar, search.de, search.para]);
+  const pins = useMemo(() => withRegions(view.pins, search.lugar), [view.pins, search.lugar]);
 
   const pick = (id: string) => {
     if (mode === "medir") {
@@ -97,7 +98,7 @@ function MapasPage() {
       <div className="md:grid md:h-dvh md:grid-cols-[minmax(0,1fr)_24rem] lg:grid-cols-[minmax(0,1fr)_26rem]">
         <AtlasMap
           className="sticky top-14 z-10 h-[46dvh] border-b border-line md:relative md:top-0 md:h-dvh md:border-b-0"
-          pins={view.pins}
+          pins={pins}
           route={view.route}
           focus={view.focus}
           onPick={pick}

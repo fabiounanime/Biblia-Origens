@@ -113,6 +113,7 @@ export const PLACES: Place[] = [
   { id: "seleucia", namePt: "Selêucia", region: "Síria", modern: "Samandağ (Çevlik), Turquia", lon: 35.922, lat: 36.124, certainty: "alta" },
   { id: "salamina", namePt: "Salamina", region: "Chipre", modern: "Perto de Famagusta, Chipre", lon: 33.9019, lat: 35.1849, certainty: "alta" },
   { id: "pafos", namePt: "Pafos", region: "Chipre", modern: "Pafos, Chipre", lon: 32.4042, lat: 34.7557, certainty: "alta" },
+  { id: "chipre", namePt: "Chipre", region: "Mar Mediterrâneo", modern: "Chipre", nameHe: "כִּתִּים", nameTranslit: "Kitim", lon: 33.1, lat: 35.0, certainty: "alta", note: "a ilha toda; o ponto marca o centro. É a Quitim do hebraico (Gn 10:4); Barnabé era de lá (At 4:36)" },
   { id: "perge", namePt: "Perge", region: "Panfília", modern: "Aksu, perto de Antália, Turquia", lon: 30.8537, lat: 36.9604, certainty: "alta" },
   { id: "atalia", namePt: "Atália", region: "Panfília", modern: "Antália, Turquia", lon: 30.7036, lat: 36.8813, certainty: "alta" },
   { id: "antioquia-pisidia", namePt: "Antioquia da Pisídia", region: "Galácia", modern: "Yalvaç, Turquia", lon: 31.1892, lat: 38.3061, certainty: "alta" },
