@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { bookById } from "../catalog.ts";
-import { PLACES, distanceKm, formatKm, placeById } from "../places.ts";
+import { PLACES, distanceKm, formatCoords, formatKm, googleMapsUrl, placeById } from "../places.ts";
 import { EVENTS, PARTS } from "./events.ts";
 import { JOURNEYS, ROLES } from "./journeys.ts";
 import type { Ref } from "./ref.ts";
@@ -64,5 +64,14 @@ describe("atlas", () => {
     assert.equal(km("jerusalen", "jerusalen"), 0);
     assert.equal(formatKm(1234.4), "1.234 km");
     assert.equal(formatKm(8.26), "8,3 km");
+  });
+
+  it("coordenadas em português e link do Google Maps", () => {
+    assert.equal(formatCoords({ lat: 32.2136, lon: 35.2819 }), "32,2136° N, 35,2819° L");
+    assert.equal(formatCoords({ lat: -8.05, lon: -34.9 }), "8,05° S, 34,9° O");
+    assert.equal(
+      googleMapsUrl({ lat: 31.0, lon: 44.45 }),
+      "https://www.google.com/maps/search/?api=1&query=31%2C44.45",
+    );
   });
 });

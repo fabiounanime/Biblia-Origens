@@ -1,12 +1,12 @@
 import { useEffect, useRef } from "react";
 import { Link } from "@tanstack/react-router";
-import { BookOpen, Route as RouteIcon, ScrollText, X } from "lucide-react";
+import { BookOpen, ExternalLink, Route as RouteIcon, ScrollText, X } from "lucide-react";
 import { cx } from "@/components/ui";
 import { EVENTS } from "@/lib/bible/atlas/events";
 import { JOURNEYS } from "@/lib/bible/atlas/journeys";
 import { GUIDES } from "@/lib/bible/guides";
 import type { Ref } from "@/lib/bible/atlas/ref";
-import { formatKm, type Certainty, type Place } from "@/lib/bible/places";
+import { formatCoords, formatKm, googleMapsUrl, type Certainty, type Place } from "@/lib/bible/places";
 import type { Leg } from "@/lib/atlas/view";
 
 export function RefLink({ r, className }: { r: Ref; className?: string }) {
@@ -115,6 +115,19 @@ export function PlaceCard({
           {place.note}
         </p>
       ) : null}
+      <p className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
+        <span className="text-soft tabular-nums">{formatCoords(place)}</span>
+        <a
+          href={googleMapsUrl(place)}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex min-h-9 items-center gap-1.5 rounded-full bg-tekhelet/12 px-3 font-semibold text-tekhelet hover:bg-tekhelet/20"
+        >
+          <ExternalLink className="size-3.5" aria-hidden />
+          Abrir no Google Maps
+          <span className="sr-only"> (abre fora do app)</span>
+        </a>
+      </p>
       {events.length > 0 ? (
         <>
           <h3 className="mt-4 text-sm font-semibold text-soft">Aconteceu aqui</h3>

@@ -172,3 +172,16 @@ const KM_SHORT = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 1 });
 export function formatKm(km: number): string {
   return `${(km < 10 ? KM_SHORT : KM).format(km)} km`;
 }
+
+// Sem casas fixas: "31° N" no Éden não finge uma precisão que o ponto não tem.
+const DEG = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 4 });
+
+/** "32,2136° N, 35,2819° L" (leste/oeste, como nos mapas em português). */
+export function formatCoords(p: Pick<Place, "lon" | "lat">): string {
+  return `${DEG.format(Math.abs(p.lat))}° ${p.lat < 0 ? "S" : "N"}, ${DEG.format(Math.abs(p.lon))}° ${p.lon < 0 ? "O" : "L"}`;
+}
+
+/** Abre o ponto no Google Maps: o app no celular, o site no computador. */
+export function googleMapsUrl(p: Pick<Place, "lon" | "lat">): string {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.lat},${p.lon}`)}`;
+}
