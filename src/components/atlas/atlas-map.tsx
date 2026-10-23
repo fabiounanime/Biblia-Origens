@@ -81,14 +81,22 @@ type PlacedLeg = { marker: Marker; from: [number, number]; to: [number, number] 
  * (o ativo e os primeiros números ganham) e a distância de trecho curto na tela.
  */
 function declutter(map: MlMap, pins: PlacedPin[], legs: PlacedLeg[]) {
-  const taken: { x: number; y: number }[] = [];
-  const order = [...pins].sort((a, b) => Number(b.pin.tone === "active") - Number(a.pin.tone === "active"));
+  type Box = { x1: number; y1: number; x2: number; y2: number };
+  const taken: Box[] = [];
+  const rank = { active: 0, pin: 1, dot: 2 } as const;
+  const order = [...pins].sort((a, b) => rank[a.pin.tone] - rank[b.pin.tone]);
   for (const { marker, pin } of order) {
-    if (pin.tone === "dot") continue;
     const p = map.project(marker.getLngLat());
-    const clash = taken.some((q) => Math.abs(q.x - p.x) < 70 && Math.abs(q.y - p.y) < 26);
-    marker.getElement().classList.toggle("atlas-pin--quiet", clash);
-    if (!clash) taken.push(p);
+    const label = marker.getElement().querySelector<HTMLElement>(".atlas-pin-label");
+    const w = (label?.offsetWidth || pin.label.length * 7) + 4;
+    // Nome do pino embaixo dele; nome do ponto à direita.
+    const box: Box =
+      pin.tone === "dot"
+        ? { x1: p.x - 6, y1: p.y - 10, x2: p.x + 10 + w, y2: p.y + 10 }
+        : { x1: p.x - w / 2, y1: p.y - 14, x2: p.x + w / 2, y2: p.y + 36 };
+    const clash = taken.some((q) => box.x1 < q.x2 && box.x2 > q.x1 && box.y1 < q.y2 && box.y2 > q.y1);
+    marker.getElement().classList.toggle("atlas-pin--quiet", clash && pin.tone !== "active");
+    if (!clash || pin.tone === "active") taken.push(box);
   }
   for (const { marker, from, to } of legs) {
     const a = map.project(from);
@@ -99,7 +107,9 @@ function declutter(map: MlMap, pins: PlacedPin[], legs: PlacedLeg[]) {
 
 /** Ajusta um pino já no mapa: recriar o botão tiraria o foco de quem usa teclado. */
 function paintPin(button: HTMLElement, pin: MapPin) {
-  button.className = `atlas-pin atlas-pin--${pin.tone}`;
+  // classList, não className: o MapLibre põe no botão a classe que o posiciona no mapa.
+  button.classList.remove("atlas-pin--active", "atlas-pin--pin", "atlas-pin--dot");
+  button.classList.add("atlas-pin", `atlas-pin--${pin.tone}`);
   button.setAttribute("aria-label", pin.badge ? `${pin.badge}. ${pin.label}` : pin.label);
   // Os pontinhos da visão geral ficam fora do Tab: a lista do painel tem todos.
   button.tabIndex = pin.tone === "dot" ? -1 : 0;

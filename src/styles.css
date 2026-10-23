@@ -619,8 +619,8 @@ html.light .brand-dark .wordmark {
 /* Mapas: pinos e distâncias sobre o satélite (sempre escuro, nos três temas). */
 .atlas-map { background: #0b0f1c; }
 .atlas-map .maplibregl-ctrl-attrib { font-size: 0.68rem; }
+/* Sem position aqui: o MapLibre posiciona o pino (.maplibregl-marker, absolute + transform). */
 .atlas-pin {
-  position: relative;
   display: grid;
   place-items: center;
   width: 2.75rem;
@@ -663,10 +663,18 @@ html.light .brand-dark .wordmark {
   white-space: nowrap;
   pointer-events: none;
 }
-.atlas-pin--dot .atlas-pin-label,
+/* Ponto azul: o nome fica ao lado, à direita. */
+.atlas-pin--dot .atlas-pin-label {
+  top: 50%;
+  left: calc(50% + 0.6rem);
+  transform: translateY(-50%);
+  padding: 0.05rem 0.4rem;
+  font-size: 0.68rem;
+}
+/* Nome que colidiria com outro some na escala atual e volta no toque ou no foco. */
 .atlas-pin--quiet .atlas-pin-label { display: none; }
-.atlas-pin--dot:hover .atlas-pin-label,
-.atlas-pin--dot:focus-visible .atlas-pin-label { display: block; }
+.atlas-pin--quiet:hover .atlas-pin-label,
+.atlas-pin--quiet:focus-visible .atlas-pin-label { display: block; }
 .atlas-pin--active .atlas-pin-label { background: var(--c-zahav); color: #1a1306; }
 .atlas-leg {
   padding: 0.05rem 0.4rem;
