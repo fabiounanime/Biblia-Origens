@@ -676,6 +676,20 @@ html.light .brand-dark .wordmark {
 .atlas-pin--quiet:hover .atlas-pin-label,
 .atlas-pin--quiet:focus-visible .atlas-pin-label { display: block; }
 .atlas-pin--active .atlas-pin-label { background: var(--c-zahav); color: #1a1306; }
+/* Região (ilha): só o nome, sem ponto nem fundo; some de vez quando colide. */
+.atlas-pin--region .atlas-pin-dot { display: none; }
+.atlas-pin--region .atlas-pin-label {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  color: rgb(255 255 255 / 0.88);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 0.9);
+}
+.atlas-pin--region:hover .atlas-pin-label { color: #fff; }
+.atlas-pin--region.atlas-pin--quiet { pointer-events: none; }
 .atlas-leg {
   padding: 0.05rem 0.4rem;
   border: 1px solid rgb(244 187 74 / 0.6);

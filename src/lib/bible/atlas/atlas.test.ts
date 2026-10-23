@@ -5,7 +5,7 @@ import { PLACES, distanceKm, formatCoords, formatKm, googleMapsUrl, placeById } 
 import { EVENTS, PARTS } from "./events.ts";
 import { JOURNEYS, ROLES } from "./journeys.ts";
 import type { Ref } from "./ref.ts";
-import { pathView } from "../../atlas/view.ts";
+import { dotsView, pathView, withRegions } from "../../atlas/view.ts";
 
 function assertRef(r: Ref, where: string) {
   const book = bookById(r.book);
@@ -66,6 +66,13 @@ describe("atlas", () => {
     assert.equal(km("jerusalen", "jerusalen"), 0);
     assert.equal(formatKm(1234.4), "1.234 km");
     assert.equal(formatKm(8.26), "8,3 km");
+  });
+
+  it("Chipre aparece como região em qualquer vista, sem repetir", () => {
+    const tones = (pins: { id: string; tone: string }[]) => pins.filter((p) => p.id === "chipre").map((p) => p.tone);
+    assert.deepEqual(tones(withRegions(dotsView(["ur"]).pins)), ["region"]);
+    assert.deepEqual(tones(withRegions(dotsView(["ur"], "chipre").pins, "chipre")), ["active"]);
+    assert.deepEqual(tones(withRegions(dotsView(["chipre", "ur"]).pins)), ["dot"]);
   });
 
   it("coordenadas em português e link do Google Maps", () => {

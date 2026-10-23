@@ -1,6 +1,6 @@
 import { distanceKm, formatKm, placeById, type Place } from "../bible/places.ts";
 
-export type Pin = { id: string; lon: number; lat: number; label: string; badge?: string; tone: "active" | "pin" | "dot" };
+export type Pin = { id: string; lon: number; lat: number; label: string; badge?: string; tone: "active" | "pin" | "dot" | "region" };
 export type Leg = { from: Place; to: Place; km: number };
 export type View = {
   pins: Pin[];
@@ -84,4 +84,15 @@ export function dotsView(ids: string[], activeId?: string): View {
   );
   const active = activeId ? placeById(activeId) : undefined;
   return { pins, route: null, focus: active ? [point(active)] : null, legs: [], totalKm: 0 };
+}
+
+/** Regiões sem cidade no meio (a ilha de Chipre): o nome fica sobre elas em todos os modos. */
+const REGION_IDS = ["chipre"];
+
+export function withRegions(pins: Pin[], activeId?: string): Pin[] {
+  const shown = new Set(pins.map((p) => p.id));
+  const regions = places(REGION_IDS.filter((id) => !shown.has(id))).map(
+    (p): Pin => ({ id: p.id, lon: p.lon, lat: p.lat, label: p.namePt, tone: p.id === activeId ? "active" : "region" }),
+  );
+  return [...regions, ...pins];
 }
